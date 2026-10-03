@@ -4,12 +4,14 @@ Geschichten ist eine native Android-Testapp für Gespräche und Abenteuer mit KI
 
 ## Android-Testversion 0.2.0
 
+**Bereitstellungsstand:** Das Repository ist eingerichtet. Die Veröffentlichung der vorbereiteten Test-APK als Release steht noch aus.
+
 - 20 erwachsene Figuren mit eigenen Persönlichkeiten, Geschichten und Porträts, darunter Fantasywesen wie ein Bronzedrache, ein Runenwolf, ein Waldgeist, ein Phönix und ein Greif.
 - Eigene Figuren, mehrere lokale Geschichten und bearbeitbare Erinnerungen.
 - App-Updates über GitHub: In **Deine App → App-Updates → Nach Updates suchen** prüfen, herunterladen und die Installation in Android bestätigen.
 - ARM64, mindestens Android 12. Als Zielgerät ist ein Samsung Galaxy S24 vorgesehen; Modellgeschwindigkeit und Langzeitverhalten müssen auf dem Gerät getestet werden.
 
-Die APK `Geschichten-0.2.0.apk` und ihre Updatebeschreibung stehen gemeinsam im jeweiligen GitHub-Release. Für die erste Installation beziehungsweise den Wechsel von 0.1.0 wird die APK heruntergeladen und direkt geöffnet. **Eine vorhandene Installation vorher nicht deinstallieren.** Danach steht der integrierte Update-Button zur Verfügung. Für Testveröffentlichungen muss **Testversionen einbeziehen** eingeschaltet sein.
+Die APK `Geschichten-0.2.0.apk` und ihre Updatebeschreibung werden gemeinsam im jeweiligen GitHub-Release bereitgestellt. Für die erste Installation beziehungsweise den Wechsel von 0.1.0 wird die APK heruntergeladen und direkt geöffnet. **Eine vorhandene Installation vorher nicht deinstallieren.** Danach steht der integrierte Update-Button zur Verfügung. Für Testveröffentlichungen muss **Testversionen einbeziehen** eingeschaltet sein.
 
 ## Einrichtung und Daten
 
