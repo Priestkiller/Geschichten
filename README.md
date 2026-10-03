@@ -2,16 +2,19 @@
 
 Geschichten ist eine native Android-Testapp für Gespräche und Abenteuer mit KI-Figuren. Die Antworten entstehen nach dem einmaligen Modelldownload auf dem Handy.
 
-## Android-Testversion 0.2.0
+## Android-Testversion 0.2.1
 
-**Bereitstellungsstand:** Das Repository ist eingerichtet. Die Veröffentlichung der vorbereiteten Test-APK als Release steht noch aus.
+**Bereitstellungsstand:** [Testversion 0.2.1 ist veröffentlicht](https://github.com/Priestkiller/Geschichten/releases/tag/v0.2.1): APK und Updatebeschreibung stehen gemeinsam bereit. Eine installierte Version 0.2.0 kann das Update bei eingeschalteten Testversionen finden.
 
 - 20 erwachsene Figuren mit eigenen Persönlichkeiten, Geschichten und Porträts, darunter Fantasywesen wie ein Bronzedrache, ein Runenwolf, ein Waldgeist, ein Phönix und ein Greif.
+- Korrigierte Bildausschnitte im Chat: Porträts folgen der Bildschirmbreite und sind oben mittig ausgerichtet.
 - Eigene Figuren, mehrere lokale Geschichten und bearbeitbare Erinnerungen.
 - App-Updates über GitHub: In **Deine App → App-Updates → Nach Updates suchen** prüfen, herunterladen und die Installation in Android bestätigen.
 - ARM64, mindestens Android 12. Als Zielgerät ist ein Samsung Galaxy S24 vorgesehen; Modellgeschwindigkeit und Langzeitverhalten müssen auf dem Gerät getestet werden.
 
-Die APK `Geschichten-0.2.0.apk` und ihre Updatebeschreibung werden gemeinsam im jeweiligen GitHub-Release bereitgestellt. Für die erste Installation beziehungsweise den Wechsel von 0.1.0 wird die APK heruntergeladen und direkt geöffnet. **Eine vorhandene Installation vorher nicht deinstallieren.** Danach steht der integrierte Update-Button zur Verfügung. Für Testveröffentlichungen muss **Testversionen einbeziehen** eingeschaltet sein.
+Die [APK `Geschichten-0.2.1.apk`](https://github.com/Priestkiller/Geschichten/releases/download/v0.2.1/Geschichten-0.2.1.apk) und `geschichten-android-update.json` sind im [Release v0.2.1](https://github.com/Priestkiller/Geschichten/releases/tag/v0.2.1) veröffentlicht. In Version 0.2.0 lässt sich das Update über **Deine App → App-Updates → Nach Updates suchen** herunterladen. **Testversionen einbeziehen** muss eingeschaltet sein. Für die erste Installation oder den Wechsel von 0.1.0 die APK herunterladen und direkt öffnen. **Eine vorhandene Installation vorher nicht deinstallieren.**
+
+Version 0.2.1 verwendet Versionscode 3, dieselbe Paket-ID und das bisherige Signaturzertifikat.
 
 ## Einrichtung und Daten
 
