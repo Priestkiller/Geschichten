@@ -2,11 +2,13 @@
 
 Geschichten ist eine native Android-Testapp für Gespräche und Abenteuer mit KI-Figuren. Die Antworten entstehen nach dem einmaligen Modelldownload auf dem Handy.
 
-## Android-Testversion 0.7.2
+## Android-Testversion 0.7.3
 
-**Aktuelle Testversion:** [Release 0.7.2](https://github.com/Priestkiller/Geschichten/releases/tag/v0.7.2) mit APK und Updatebeschreibung. Installierte Versionen ab 0.2.0 können das Update bei eingeschalteten Testversionen finden.
+**Aktuelle Testversion:** [Release 0.7.3](https://github.com/Priestkiller/Geschichten/releases/tag/v0.7.3) mit APK und Updatebeschreibung. Installierte Versionen ab 0.2.0 können das Update bei eingeschalteten Testversionen finden.
 
-- **Neu: korrigierter Gesprächskontext für alle Figuren und alle sechs Modelle.** Die KI erhält bei langen Einführungen die tatsächlichen letzten Worte der Figur und die offene Aufgabe, auf die sich deine Antwort bezieht. Die passende Fortsetzung bleibt von der Leistung des Modells abhängig.
+- **Neu: kürzere Wartezeit bei weiteren Nachrichten für Dolphin, Huihui und Gemma 3 durch Wiederverwendung identischer Kontextblöcke.** Veränderte Texte werden neu berechnet; Abbrüche und Fehler verwerfen den Cache.
+- **Geschwindigkeit optimieren** vergleicht für jede der sechs KIs die Zeit bis zum ersten Text direkt auf dem eigenen Gerät. S24 und S24 Ultra werden erkannt. Die Einstellung und Messwerte werden pro KI und Gerätesoftware gespeichert.
+- **Korrigierter Gesprächskontext für alle Figuren und alle sechs Modelle.** Die KI erhält bei langen Einführungen die tatsächlichen letzten Worte der Figur und die offene Aufgabe, auf die sich deine Antwort bezieht. Die passende Fortsetzung bleibt von der Leistung des Modells abhängig.
 - **Direkte Rede ist fett und goldfarben**, Situationsbeschreibungen erscheinen kursiv in hellem Grau. Dies gilt auch für bestehende Nachrichten.
 - **Verlauf leeren** löscht nach Bestätigung alle Gespräche, zugehörigen Erinnerungen und Entwürfe. Figuren, Einstellungen und Modell-Downloads bleiben erhalten.
 - **Modellwechsel mit Behalten/Löschen-Auswahl:** Nach dem erfolgreichen Laden der neuen KI entscheidest du über die bisherige Datei. Behaltene, nicht ausgewählte Modelle lassen sich später über ihre Karte löschen.
@@ -23,9 +25,9 @@ Geschichten ist eine native Android-Testapp für Gespräche und Abenteuer mit KI
 - App-Updates unter **Einstellungen → App-Updates → Nach Updates suchen**. **Testversionen einbeziehen** einschalten. Ältere Versionen haben ihre bisherige Updateansicht.
 - ARM64, mindestens Android 12. Zielgerät ist ein Samsung Galaxy S24; tatsächliche Antwortqualität, Modellgeschwindigkeit und Langzeitverhalten müssen auf dem Gerät getestet werden.
 
-Die [APK `Geschichten-0.7.2.apk`](https://github.com/Priestkiller/Geschichten/releases/download/v0.7.2/Geschichten-0.7.2.apk) und `geschichten-android-update.json` gehören zum [Release v0.7.2](https://github.com/Priestkiller/Geschichten/releases/tag/v0.7.2). Für die erste Installation oder den Wechsel von 0.1.0 die APK herunterladen und direkt öffnen. **Eine vorhandene Installation vorher nicht deinstallieren.**
+Die [APK `Geschichten-0.7.3.apk`](https://github.com/Priestkiller/Geschichten/releases/download/v0.7.3/Geschichten-0.7.3.apk) und `geschichten-android-update.json` gehören zum [Release v0.7.3](https://github.com/Priestkiller/Geschichten/releases/tag/v0.7.3). Für die erste Installation oder den Wechsel von 0.1.0 die APK herunterladen und direkt öffnen. **Eine vorhandene Installation vorher nicht deinstallieren.**
 
-Version 0.7.2 verwendet Versionscode 11, dieselbe Paket-ID und das bisherige Signaturzertifikat.
+Version 0.7.3 verwendet Versionscode 12, dieselbe Paket-ID und das bisherige Signaturzertifikat.
 
 ## Einrichtung und Daten
 
@@ -56,6 +58,10 @@ Die Versionshinweise im jeweiligen Release dokumentieren den veröffentlichten S
 
 Alle sechs Modellkarten erklären jetzt ausführlicher, für welche Schreibaufgaben das jeweilige Modell interessant sein kann, was du selbst vergleichen solltest und welche Grenzen es gibt. Links führen getrennt zur Beschreibung des Anbieters und zur eingebundenen Downloadquelle mit Lizenz. Die Größen beziehen sich auf die konkreten Dateien; DavidAUs Gemma-3-Datei hat etwa 2,58 GB. Ein bestimmter Erzählstil oder eine höhere Geschwindigkeit auf dem S24 werden nicht garantiert.
 
-### Gesprächskontext in 0.7.2
+### Gesprächskontext in 0.7.3
 
 Die lange sichtbare Einführung bleibt vollständig gespeichert. Für die begrenzte KI-Übergabe werden ihre tatsächliche letzte Begegnung und direkte Rede behalten; die Ausgangslage steht zusätzlich in den Erzählangaben. Dies gilt für alle Modelle und Figuren. Die KI soll eine Zusage oder Absage konkret aufnehmen und die laufende Szene weiterführen. Bereits gespeicherte Antworten werden nicht umgeschrieben. Für einen frischen Einstieg **Neue Geschichte** im Chatmenü wählen. Die Antwortqualität bleibt modellabhängig.
+
+### Geschwindigkeit auf S24 und S24 Ultra
+
+Unter **Einstellungen → Schneller zum ersten Text → Geschwindigkeit optimieren** die jeweils geladene KI messen. Die App vergleicht bis zu drei Prozessoreinstellungen, mit zwei Messungen je Einstellung, und speichert eine deutlich schnellere Einstellung. Unterschiede unter zehn Prozent gelten als Messschwankung. Die kurzen Prüfantworten werden nicht im Verlauf gespeichert. Lass das Handy vor der Messung abkühlen; die Prüfung kann einige Minuten dauern und ist abbrechbar. Beim ersten Chat muss der Kontext einmal vollständig verarbeitet werden. Die langen Einführungen und die Antwortlänge bleiben erhalten. Die tatsächliche Verbesserung auf beiden Geräten wird durch deren eigene Messung bestimmt; es gibt keine pauschale Prozentzusage oder zusätzliche GPU-Aktivierung in diesem Update.
