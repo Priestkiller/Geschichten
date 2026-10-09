@@ -19,7 +19,7 @@ Die bestehenden 90 Figuren, langen Einstiege, Profile, Modellwechsel und Darstel
 
 APK: `Geschichten-0.8.7.apk`, 321708671 Bytes. SHA-256: `fd15af5bb3928674a4b965ab0d773dceee4bd5f84068b45fb9663da283873071`.
 
-Das zusätzliche Server-Übergabepaket enthält die bisherigen Testskripte und Messungen, keinen vollständigen Chat-Export. Der Android-Quellcode liegt auf `main` und in GitHubs automatisch erzeugtem Quellcodearchiv.
+Die bisherigen Server-Testskripte und Messungen liegen unter docs im Repository; sie sind kein vollständiger Chat-Export. Der Android-Quellcode liegt auf `main` und in GitHubs automatisch erzeugtem Quellcodearchiv.
 
 ---
 
