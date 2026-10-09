@@ -1,0 +1,24 @@
+{
+  "models": [
+    {
+      "name": "geschichten-qwen3-8b-test:latest",
+      "model": "geschichten-qwen3-8b-test:latest",
+      "size": 5453811545,
+      "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "8.19B",
+        "quantization_level": "unknown"
+      },
+      "expires_at": "2026-10-09T22:10:39.7601228+02:00",
+      "size_vram": 4195321117,
+      "context_length": 2048,
+      "runner": "llamacpp"
+    }
+  ]
+}

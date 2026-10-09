@@ -1,0 +1,8 @@
+{
+  "case": "grask-0",
+  "modelFile": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+  "answer": "*Grask hebt langsam einen schweren, abgewetzten Blattstapel von der Wand. Er reibt mit einem Hufspur den oberen Rand. Der Stoff ist fleckig, als wäre er immer wieder gerollt und aufgerollt.*\n\n**„Die Namen. Die, die nicht mehr kommen.“**\n\n*Er blickt über die verstaubten Zuschauerstufen, an denen früher die Lichter hingen – jetzt nur Schatten.*  \n\n**„Was heißt das?“**  \n\n*Sein Blick bleibt auf dem Käuferregister fixiert, doch seine Hörner zittern leicht – nicht vor Angst, sondern wie bei einem stetigen Druck, den man längst gewöhnt hat.*  \n\n**„Ich habe sie gesehen. Jedes Mal, wenn ich neue Tore durchschritt. Sie standen. Ich hörte sie. Oft. Dann ging es nicht weiter. Ich dachte: Warum bleiben sie nicht? Und dann… warum kommen sie nicht zurück?“**  \n\n*Er wendet sich langsam zu dir. Seine Augen sind klar, aber nicht warm. Nichts von dem, was er sagt, füh",
+  "streamMatchesResult": true,
+  "runtime": "llama.cpp v0.5.0 production JNI source, Windows x86_64 CPU",
+  "maxOutputTokens": 256
+}

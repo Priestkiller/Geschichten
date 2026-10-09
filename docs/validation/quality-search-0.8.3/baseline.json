@@ -1,0 +1,204 @@
+{
+  "sourceChecks": [
+    {
+      "path": "BUILD_WINDOWS.cmd",
+      "sha256": "859dc320f97b2d98661eff5b6c8c8a5a63ab4fa13198c777a3a3b8718c334b71",
+      "matches082": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "8d91b9e6f351e4b8ce5ba34551f11c194c8d456ae5c2aea0c53d8b71ad9ad9ab",
+      "matches082": true
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "32d0841fbd6085f759fc6dce1bd039cf25d400086f14f5cbb5cb5989ea64ec72",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/AppViewModel.kt",
+      "sha256": "1158e860a6a0c65cdecf7a04b15f61c909259fadba479cbda73f1d874cc34e7c",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/StoryRepository.kt",
+      "sha256": "9df1dd54c618b923edb057565f4e44a27377eaafad6cae3276bc7d029a1fde08",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryPrompt.kt",
+      "sha256": "fad1efb11ec90ad8d69740ee01f40e9b57e1b87f73025c6db407cf21a3a1b9cb",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryReplyGuard.kt",
+      "sha256": "a41e57fc5b44b0cc80ad5e39aa21bf21f6eb82431f4a9548ef84a50374aea498",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/StoryMemory.kt",
+      "sha256": "2df4775528bc4fadf3de5deb43be4b1eb241b43f7bf39960b4fbbe634fcdf9c3",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/StateMemoryUi.kt",
+      "sha256": "f5bd081e38e08f99d55a2ecc31a99e8852c9fd4766f450711d8c1302867792d3",
+      "matches082": true
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/memory/MemoryRulesTest.kt",
+      "sha256": "1e5e0c5e42c3d26fcda2c5cb063fb0adabdcf37e6cc75cd7d8d59010a38fd2bb",
+      "matches082": true
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ChatContextIntegrationTest.kt",
+      "sha256": "af7b6285c53c433ad870371eac288847fc76f3186e1e04e8e9420de0445c699f",
+      "matches082": true
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/MemoryRepositoryIntegrationTest.kt",
+      "sha256": "96b879da58e8fd5348748e76d2c95aab281217b0c4cb35656928b900bfefdac7",
+      "matches082": true
+    },
+    {
+      "path": "build-linux.sh",
+      "sha256": "58eb854431d8d2fad5dfd5add85adbd8e2c13f3bbd2bcea68a0125ccf789fa7e",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/ArchiveRecall.kt",
+      "sha256": "7df20713a40bca91e5d1157fa2c6221a61edd12f849abe488e1906a38140415f",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleEvidence.kt",
+      "sha256": "a93709d90f18f16d8f8f522b951176250f1d531baf9d62e59ad45405cee7c019",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleReplyGuard.kt",
+      "sha256": "5e68f157d86092b8a7322d5eccf7cc86e3caebbe9ab5013f248104a00d417784",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleSourcePolicy.kt",
+      "sha256": "f69dcd977895957fd4c5fc7997fa16d847c9d57e6b6cadd3c991689c8199b519",
+      "matches082": true
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/memory/RoleEvidenceTest.kt",
+      "sha256": "fb05929a5e6517d99b74bfbbc6fb4f0601354fbd50c4878b8b2a172cd403a2a5",
+      "matches082": true
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleAnswerCorpusTest.kt",
+      "sha256": "e2a08b516d0a8ab7d54610f7720fcaba319a18321159eda546cb18e830342e07",
+      "matches082": true
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleComparisonFixturesTest.kt",
+      "sha256": "5b71ed2a1bf2e2a070c6ff8c61e8641c4ba0a99b1ea1fd3e685501840fa147be",
+      "matches082": true
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleContaminationInvestigationTest.kt",
+      "sha256": "6836aa8993ed0e09b606752b6d8be9bef774a15c75eb6ea6b7b337b24522dcd3",
+      "matches082": true
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RolePersistenceTest.kt",
+      "sha256": "dda7f09a35109121a697dc5778930bb52103e50b2c7f21145c77dad1ce3cd67e",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/LocalModelCatalog.kt",
+      "sha256": "824d8918f685a7cc7aed21dda5b736a3d230bfa861e15d5b773820ad1d8e28b0",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/BuiltinCharacters.kt",
+      "sha256": "fea1c3093b2c244a9c6f1e42669684f7fab761165a76f89eb4462468115acc38",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterIntroductions.kt",
+      "sha256": "d2439c34b2ff770ea78f05ae60ff89f7d37a0e406148666e3b175b3276231c4f",
+      "matches082": true
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/ReleasedIntroductionsV6.kt",
+      "sha256": "b6fa10f91a2b1a9a70b741aa8f89856e4f1b1fec4c38733d490f12bd79232949",
+      "matches082": true
+    },
+    {
+      "path": "docs/rollen-pruefung-0.8.2.md",
+      "sha256": "8f0fc3350c41aec75ee281f844f9d8d59ad1166930e056effdf96a2a8933cb84",
+      "matches082": true
+    },
+    {
+      "path": "docs/PRUEFBERICHT-0.8.2.md",
+      "sha256": "4e97c92bcdfb7d3694e28b9a02bb38d0d858516c7a7e8b9f80ecdd1389065ae1",
+      "matches082": true
+    }
+  ],
+  "immutable082": {
+    "anchor-prompt-081.json": "2dda01bc3914804b93811073a450a36b66fd480d5fde8bb454ead403517f3b7a",
+    "answer-guard-corpus.json": "7a7a62daa80e2a152928c9e359a26ff58c7607c1a3f2fca30e2f6123daf16ac6",
+    "apk-verification.json": "45f3edbb249612fc71c54a41b9218a5cce6740d7d430ca957585b8a115e18e23",
+    "baseline-source-hashes.json": "b289ed144e897469d5d97bb75ba13971095c7a9b14a8247457a9f9a2de994f04",
+    "comparison-assessment.json": "04dc4c15503ebd3cca16b76fc7fa07af33a3d1343055a923d67d6fc278e1f04d",
+    "contamination-after.json": "a77d43a250e5dcc9290e4cfd91faa57827859cb9c2f622911fb2f33580803722",
+    "contamination-before.json": "93d6bb6d6b5303f00a69c9a865092395c50e30230cdb0f129c964d6b4475d5cf",
+    "controlled-inputs.json": "ce8d6bd44c20f745e0d7576ed4ce4dc87a8fc3a3b79bd3cdbbe3371a4b0a5fa3",
+    "database-long-run.json": "f277038cb7656eb691e6af115d5ae0e5859864d713a6dad220999879291ad76a",
+    "gemma-4-e2b-comparison.json": "00fdc962df356bcfdde42820a386f586de5fe54b7683abf7c5560f4cc39283ec",
+    "huihui-qwen3-4b-comparison.json": "42cb2fea4ab4ce8c85efe3a4b598597db6e52780b4227d56c64738ffa4d49514",
+    "production-assessment.json": "041a6c02eb8021bfd3fa3590327eb298fa85e89b8aea4d09d65d08f50f09c7a7",
+    "ProductionRoleProbe.java": "2701476296af9e3f6eaee48a9239778187b07967c102e51f100279d93c895174",
+    "prompt-capture-audit.json": "1a316dd63b96a925a1b7a97238551b74ca465811bfed31d40670e985adb6f15d",
+    "PromptCaptureAudit.java": "f7f809d415c2a06d4cca583c2705295ab8b14843a9df1c39cd4fe8cc67f3aeaa",
+    "RoleComparisonProbe.java": "a2681f5fd9d413b3b193c35d15a27c7dffce2b2c0d34f584bd1e76db46d3a852",
+    "run-comparison.ps1": "42e59e29a7698acbd7be7072f182ce6372954572064dcdd500a15da7d1d630ae",
+    "run-production.ps1": "ca176a1284f9a44679b08b2d09a200c5cdc12bab012ee6b6b8042ac31ed9ea59",
+    "source-changes.json": "fbf4584bae30d47102d68f3c7260b3ddf18c996d6711208b01c65bd32f3ee6fb",
+    "verify-final.ps1": "bd5cfb58b4dc64f0d3525f23e23c6e68737bd693c6a05d05373239b0d83096c1",
+    "VerifyFinalRoleProbe.java": "926821129c07ae98957103f3176ff02f1c9d1317b1e388a998ca33a9404103f0",
+    "apk-classes-verification\\gemma-4-e2b-verification.json": "acbbfea725e2df1d6574b760f62aa0d8b87f725c95db48431a472c743686a139",
+    "apk-classes-verification\\huihui-qwen3-4b-verification.json": "a80a08d022127e8c7cf6f9c868a25f298fe72002d8c849ce98d1b07d3be59923",
+    "automatic-second\\gemma-4-e2b-answers.json": "f4c217c3d291aadd7c258be4ad6cec929eb4a2ba903c9a87e0fa0cedd0c21647",
+    "automatic-second\\huihui-qwen3-4b-answers.json": "cb2ae0d83b6b45aa56d37128343153bb12e175991be13ff31dd1d8e08e738ae8",
+    "diagnostic-081\\HostGgufBridge.java": "9c1f6e2483ab398eaa01093859481368f780299554bb469aa74914ed54dd23fd",
+    "diagnostic-081\\MemoryModelProbe.java": "0c649b51978605431634f3f18204bc8cb3ed0c89b03a9eb640589e27c7a8f93a",
+    "production-final\\gemma-4-e2b-answers.json": "cd1af11a89bd916a257d80555879df7148bdf5f67ce66826bb79bf5d310fbe2f",
+    "production-final\\huihui-qwen3-4b-answers.json": "a0f67a462a5593238f3f51015469cf74bbfa4a86b803400566d831dc2b2f31e3",
+    "production-prototype\\gemma-4-e2b-answers.json": "6668a84fe8dde136faa0d304e47039f3ad0e4873b3625c2165ef2aecd745e016",
+    "production-prototype\\huihui-qwen3-4b-answers.json": "3b1b19d5075010678f4580a21dc5db9807f8764a3c9fb341efb2a102282b456d"
+  },
+  "apkSha256": "fa7273d431b67020693389f4d1e404baad0587dc488e9c7d1a279e4a1bed09e1",
+  "models": [
+    {
+      "file": "gemma-4-E2B-it.litertlm",
+      "bytes": 2588147712,
+      "sha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c"
+    },
+    {
+      "file": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+      "bytes": 2497276736,
+      "sha256": "d80ef0f08a0e64887f4a19bc9202fe1a108d9666a2c49eb9a30bc3a30995121b"
+    }
+  ],
+  "runtimes": {
+    "llama": "d2e54583c7452353eb35d40431281f6ee984332f",
+    "litert": "0.17.1"
+  },
+  "config": {
+    "context": 4096,
+    "reserve": 512,
+    "threads": 4,
+    "seed": 42,
+    "temperature": 0.75,
+    "topP": 0.9,
+    "topK": 40,
+    "repetitionPenalty": 1.08
+  }
+}

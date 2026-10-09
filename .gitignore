@@ -1,0 +1,24 @@
+.gradle/
+.kotlin/
+.idea/
+local.properties
+**/build/
+*.iml
+*.jks
+*.keystore
+*.apk
+captures/
+.DS_Store
+
+# Local tools, private weights and diagnostics
+.build-tools/
+.env
+.env.*
+*.safetensors
+*.litertlm
+*.onnx
+*.db
+__pycache__/
+*.pyc
+docs/validation/**/model-files/
+docs/validation/**/baseline-*/

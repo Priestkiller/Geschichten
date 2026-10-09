@@ -1,0 +1,170 @@
+{
+  "version": "0.3.1",
+  "versionCode": 5,
+  "databaseVersion": 4,
+  "publication": "published_verified",
+  "finalJvm": [
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StoryPromptTest.xml",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StorySummaryPromptTest.xml",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.BuiltinCharactersCatalogTest.xml",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.UpdatePolicyTest.xml",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "targetedAndroidUiTests": [
+    {
+      "file": "TEST-dev.vincent.geschichten.data.CatalogMigrationTest.xml",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.StoryRepositoryIntegrationTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.MainActivityLaunchTest.xml",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.ChatArtworkRegressionTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.UiScreenshotTest.xml",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.AppUpdatesUiTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "distinctPassedCases": 75,
+  "failures": 0,
+  "skipped": 0,
+  "initialSandboxSetupFailureResolved": "Robolectric download-lock permission; rerun succeeded",
+  "lintSeverityCounts": {
+    "Warning": 68
+  },
+  "lintIssueCounts": {
+    "ApplySharedPref": 1,
+    "ModifierParameter": 1,
+    "DiscouragedApi": 2,
+    "ChromeOsAbiSupport": 1,
+    "ObsoleteSdkInt": 1,
+    "UnusedResources": 51,
+    "MonochromeLauncherIcon": 1,
+    "UseKtx": 10
+  },
+  "catalog": {
+    "total": 50,
+    "revisedPersonalities": 50,
+    "revisedOpenings": 50,
+    "revisedScenarios": [
+      "leon"
+    ],
+    "maxPersonalityCharacters": 611,
+    "maxScenarioCharacters": 470,
+    "categoryGenderCounts": {
+      "Nordische Fantasy": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Fantasy": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Krimi": {
+        "männlich": 5,
+        "weiblich": 5
+      },
+      "Science-Fiction": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Kreaturen": {
+        "männlich": 5,
+        "weiblich": 5
+      }
+    }
+  },
+  "all50PortraitsByteIdenticalToReleased030": true,
+  "actualUiScreenshots": 100,
+  "testActivityAbsent": true,
+  "zipAlignment16KB": "passed",
+  "apk": {
+    "assetName": "Geschichten-0.3.1.apk",
+    "size": 211161244,
+    "sha256": "797cf6158e4ecfe937a0e2c6f6026210063cff08056d6327ca306674cd214f0a"
+  },
+  "manifestSha256": "bcf3a003e8e15e1d9e6d6aed780b4dcb89b8e562f4ceae7c674fe182958137b7",
+  "signerCertificateSha256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+  "physicalS24InstallationAndModelInference": "not_tested",
+  "existingWindowsFileProviderHostCase": "not_rerun; provider and installation code unchanged",
+  "publicRelease": {
+    "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.3.1",
+    "releaseId": 402903653,
+    "publishedAtUtc": "2026-10-04T07:46:19Z",
+    "draft": false,
+    "prerelease": true,
+    "anonymousApiRequest": true,
+    "requestApiVersion": "2026-03-10",
+    "publicManifestMatchesLocal": true,
+    "publicReadmeMatchesPrepared": true,
+    "fullPublicApkDownloaded": true,
+    "apkBytes": 211161244,
+    "apkSha256": "797cf6158e4ecfe937a0e2c6f6026210063cff08056d6327ca306674cd214f0a",
+    "readmeSha256": "fe98130479ebdd76ca1353393eb485f9269dec65abb98f9cb74f2ba6c6d3d048",
+    "physicalDeviceInstallTested": false
+  },
+  "publicAppParserCheck": "passed_for_0.2.0_0.2.1_and_0.3.0",
+  "publicReadmeUpdate": {
+    "commit_sha": "ff7c0c016eb5ebea7213ac1cfb19093784860670",
+    "content_sha": "5fcf81ac642fde7d7a3a87de66f82526db8678f7"
+  }
+}

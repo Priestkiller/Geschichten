@@ -1,0 +1,142 @@
+[
+  {
+    "model": "huihui-qwen3-4b",
+    "temperature": 0.75,
+    "mode": "A",
+    "cases": 6,
+    "contentCorrect": 6,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": null,
+    "medianMs": 2593.0
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "temperature": 0.75,
+    "mode": "B",
+    "cases": 6,
+    "contentCorrect": 6,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": 6,
+    "medianMs": 3922.5
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "temperature": 0.75,
+    "mode": "C",
+    "cases": 6,
+    "contentCorrect": 6,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": 6,
+    "medianMs": 4046.5
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "temperature": 0.2,
+    "mode": "A",
+    "cases": 6,
+    "contentCorrect": 6,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": null,
+    "medianMs": 2496.0
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "temperature": 0.2,
+    "mode": "B",
+    "cases": 6,
+    "contentCorrect": 6,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": 6,
+    "medianMs": 3766.0
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "temperature": 0.2,
+    "mode": "C",
+    "cases": 6,
+    "contentCorrect": 6,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": 6,
+    "medianMs": 4078.5
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "temperature": 0.2,
+    "mode": "G",
+    "cases": 6,
+    "contentCorrect": 6,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": 6,
+    "medianMs": 4634.5
+  },
+  {
+    "model": "gemma-4-e2b",
+    "temperature": 0.75,
+    "mode": "A",
+    "cases": 6,
+    "contentCorrect": 5,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": null,
+    "medianMs": 703.0
+  },
+  {
+    "model": "gemma-4-e2b",
+    "temperature": 0.75,
+    "mode": "B",
+    "cases": 6,
+    "contentCorrect": 6,
+    "formatCorrect": 0,
+    "sourceBindingCorrect": 0,
+    "medianMs": 1648.0
+  },
+  {
+    "model": "gemma-4-e2b",
+    "temperature": 0.75,
+    "mode": "C",
+    "cases": 6,
+    "contentCorrect": 4,
+    "formatCorrect": 0,
+    "sourceBindingCorrect": 0,
+    "medianMs": 1498.5
+  },
+  {
+    "model": "gemma-4-e2b",
+    "temperature": 0.2,
+    "mode": "A",
+    "cases": 6,
+    "contentCorrect": 5,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": null,
+    "medianMs": 634.0
+  },
+  {
+    "model": "gemma-4-e2b",
+    "temperature": 0.2,
+    "mode": "B",
+    "cases": 6,
+    "contentCorrect": 5,
+    "formatCorrect": 0,
+    "sourceBindingCorrect": 0,
+    "medianMs": 1632.5
+  },
+  {
+    "model": "gemma-4-e2b",
+    "temperature": 0.2,
+    "mode": "C",
+    "cases": 6,
+    "contentCorrect": 4,
+    "formatCorrect": 0,
+    "sourceBindingCorrect": 0,
+    "medianMs": 1447.5
+  },
+  {
+    "model": "gemma-4-e2b",
+    "temperature": 0.2,
+    "mode": "G",
+    "cases": 6,
+    "contentCorrect": 5,
+    "formatCorrect": 6,
+    "sourceBindingCorrect": 6,
+    "medianMs": 2367.0
+  }
+]

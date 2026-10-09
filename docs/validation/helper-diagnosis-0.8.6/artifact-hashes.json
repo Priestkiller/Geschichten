@@ -1,0 +1,422 @@
+[
+  {
+    "file": "acceptance-independent-review.json",
+    "sha256": "48ece87cef30e28df474677f419613ac6a1f574d6b41dbf5d2965f6171031098"
+  },
+  {
+    "file": "acceptance-summary.json",
+    "sha256": "6fb711ef9e39a84caeb2d418b5110a13525f4217b2b7ba28424695f56af4884e"
+  },
+  {
+    "file": "adb-devices.txt",
+    "sha256": "bbfcc7239a6f1be3544814ebdc6bcc9b66bf5b1f0b03baa3340808f19265a630"
+  },
+  {
+    "file": "apk-badging.txt",
+    "sha256": "53c9edf9c8605e3cc454911ed028980fd8c9dc5b5f6a7bed2df5a25c8bf8f82c"
+  },
+  {
+    "file": "apksigner.txt",
+    "sha256": "a67d171a4268b02ffb280142675699d3e5b9ed4b0d85dd1b20540273172a1fc9"
+  },
+  {
+    "file": "baseline-hashes.json",
+    "sha256": "56fa9a4f7604c035a7ab42d27163ddaf8d6bb6179b0b905e2d36675883256ae1"
+  },
+  {
+    "file": "binding-tests.log",
+    "sha256": "351f929ed84aacafade91b6fd67dc7be9217ffaea2ca9d1c9d59bd385ba30fb6"
+  },
+  {
+    "file": "binding.py",
+    "sha256": "4aaaa31c5298bf402cc929de7c9a3777faf98c355883b14c0d7cb331bc5f9f62"
+  },
+  {
+    "file": "build-final.log",
+    "sha256": "cc56948f22f93f9705e3b7edf8fabe4f1aa5d680bda51ffa80b1ed3ec2c01115"
+  },
+  {
+    "file": "cases-frozen.json",
+    "sha256": "ec2db1dee146b6a2c3e4ec906a68a5465e2754221cf1674fc7ad992b65e5d45f"
+  },
+  {
+    "file": "decision.json",
+    "sha256": "a82855cd59122046a4defe5c996ba2a6b62bed54775ccb91275a26b0af09e3cb"
+  },
+  {
+    "file": "delivery-verification.json",
+    "sha256": "fde499ee139f25e9ed7d2d7eecf9837067549cd87c2f440d34fe44a888bdf1a0"
+  },
+  {
+    "file": "development-independent-review.json",
+    "sha256": "bc1075dab52abee7d3927327b406f62e04455a2191c0cc4b8318f1e5ff90d827"
+  },
+  {
+    "file": "development-summary.json",
+    "sha256": "7ea96af148ec16c06b797a652bd3dbcf8a0800ebec2dbd78c854a08c0c850906"
+  },
+  {
+    "file": "gguf-diagnostic.cpp",
+    "sha256": "3b3370b11842921fb1fc15efa44b5fde4e7e856605e1a24af55b33016bbc51f7"
+  },
+  {
+    "file": "guard-after.json",
+    "sha256": "7211e57389d5aa84ebc59a90d71a675f68b55cb47104dec610a7d7a94527c5a4"
+  },
+  {
+    "file": "guard-before.json",
+    "sha256": "195ae4dbfa20bf8d857da19de2a2c5436ef622f103a43832a583208decb4c052"
+  },
+  {
+    "file": "GuardAudit.java",
+    "sha256": "069f695649815cc3f7068c78c88b99c74f37285830ecd511401d03622661fe12"
+  },
+  {
+    "file": "integration-final.log",
+    "sha256": "dfd234a30b15c1ec3ea6abbf06aa2ccf80acdb6611bbda1ecd12ad73270b583c"
+  },
+  {
+    "file": "legacy-audit.py",
+    "sha256": "f095b3f4887c1429580d6fae49f38da50f5c0a52d8b3647c80fcce973dd1d542"
+  },
+  {
+    "file": "legacy-errors-classified.json",
+    "sha256": "4b4b2552ca040eef61302fd3f83cdfc5f6058e7815cf2772e0129d20f5172b1d"
+  },
+  {
+    "file": "lint-final.xml",
+    "sha256": "9e07b6e1d64e0a4b3d23dbe1ff204174ead93033d40d99e5eb67d42d246f5d5e"
+  },
+  {
+    "file": "native-build.log",
+    "sha256": "573681475a486b5f33d5c56638cb96d3ae3821730dd76bb06a160a2652f8757d"
+  },
+  {
+    "file": "native-config-final.log",
+    "sha256": "28bc8c45a4be6c174950e82a98da63eb0944c651a249795495a9863626d2470c"
+  },
+  {
+    "file": "native-config.log",
+    "sha256": "7666c90414cb6f41974a25116efd9107851b698e7919ce303aa00dc17c288dbd"
+  },
+  {
+    "file": "ownership-persistence.log",
+    "sha256": "42cdfc3d72dc36a133bcadd94266d22caa3fc7028d6723ce9b2f321782fee9f5"
+  },
+  {
+    "file": "ownership-repair-tests.log",
+    "sha256": "25aaa64f6686238667bcf8c0f2f3547e4074cfbbef9f64c46337125f12ad885e"
+  },
+  {
+    "file": "plan-frozen.json",
+    "sha256": "903048d5534c18b5bfb5b0f80d1eaa7be31dd7d6cbb64521cb39f5a8d08d61cc"
+  },
+  {
+    "file": "raw-acceptance-huihui-qwen3-4b.json",
+    "sha256": "dec8a9d2fdd108a39fbf0cc64311635f011e00583a458e608565b9cc197dfefb"
+  },
+  {
+    "file": "raw-acceptance-huihui-qwen3-4b.log",
+    "sha256": "3696265f167223d1fd4dcf00c45d4989df1f496a20a80919b07347c461636d19"
+  },
+  {
+    "file": "raw-development-gemma-4-e2b.json",
+    "sha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+  },
+  {
+    "file": "raw-development-gemma-4-e2b.log",
+    "sha256": "a57613ccf0c0e65de934d3476296c6f97ecdf9ca78c72b49e813f16160bb676a"
+  },
+  {
+    "file": "raw-development-huihui-qwen3-4b.json",
+    "sha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+  },
+  {
+    "file": "raw-development-huihui-qwen3-4b.log",
+    "sha256": "8d30d3be0fb3977c58545be07bd9654e963679889576393b185b91db292e77a8"
+  },
+  {
+    "file": "repaired-draft-stored.json",
+    "sha256": "cf01db5850c6bb0d5add8407c19bec6322ff396bdcc406a168414a93fe53195b"
+  },
+  {
+    "file": "run-simple.ps1",
+    "sha256": "11fa01aae63a458042211d0963b85201b8a4e7c30cfae6a27389e0f386de3cc5"
+  },
+  {
+    "file": "selected-before-acceptance.json",
+    "sha256": "4cfe4f4e5c01a568e06b5eaeedfdd9789163adeebd1fb43cc67b171e0cb3ad33"
+  },
+  {
+    "file": "SimpleProbe.java",
+    "sha256": "8b4a0893d50fde10c996395b8b4d49435b6945e2cc64a022f272da8dd16b83e1"
+  },
+  {
+    "file": "test_binding.py",
+    "sha256": "cac46de3f6a89ee3c7c50edb95b30f583dd64a88b66cec457362ceb31ef6cf33"
+  },
+  {
+    "file": "verify-delivery.py",
+    "sha256": "392eb1746d2926e31775027b893772bd477f4b6698f3bc36c3eb09bc566c44dc"
+  },
+  {
+    "file": "zipalign.txt",
+    "sha256": "718c9f03d4b407b445a6e45fcc0f6d70e8551c298a34e0688521807870b7926a"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ai.HelperSelectionTest.xml",
+    "sha256": "117007e0804ea2126bae47eecf47cbaa8e8e89513db3c7fe1ddbd81015e13b90"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ChatContextIntegrationTest.xml",
+    "sha256": "3510a67e3ee3d977e30472c13ebf8f21b3d3deb73d42938e345e30a9f9206bcf"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.data.CatalogMigrationTest.xml",
+    "sha256": "b13c0e26a8c66f7e170d47f49463d4d49b8e35b744b2c6ba6f5a5e4f29d76efc"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.FactAnswerFlowTest.xml",
+    "sha256": "05b06a7b3ac3dbfe482927f12f22ba9612208a2767f1cb4e2f2b148539a9dd73"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.AnswerPipelineTest.xml",
+    "sha256": "279dd14f521936a8c0d7d659c55489bf1c1b5680cef9bfa7ab50ceeca8ad63cb"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.FactAcceptanceTest.xml",
+    "sha256": "6bc3e22c4f64ccdcabd2f6e350fe20d86e8b545fcc5af1861fc931a19b618132"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.FactAnswerPersistenceTest.xml",
+    "sha256": "9b7c2f0496e2b8085fd0388210bebd2c5850b1d4a6f7f61162360d88408de639"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.FactAnswerTest.xml",
+    "sha256": "5d7ef24fe8ad88f07c384977d3bc7e57e09e893f6a403dbcc6186c652b47426f"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.FactRepairIntegrationTest.xml",
+    "sha256": "aaf53e7ea0ab027dfb6779198fb3b16a23a21e2f5e03ccf97ad9efb34611dbc0"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.MemoryRepositoryIntegrationTest.xml",
+    "sha256": "351d205edd6f94526467d9f5f2f92c717964ff96973ba42ea50678d303b11a87"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.NewScenePersistenceAuditTest.xml",
+    "sha256": "19ffe6c478374f5a01054fe95a8e290a24349523a38f8add30d1e02220c555d4"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.OwnershipAdverbTest.xml",
+    "sha256": "607391d720347290ba87841bf8aed9b0b4169d2e53937f527339745d85487c2c"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.ProductionSemanticVerificationTest.xml",
+    "sha256": "40c7b30f1c966cd1ebf7ee50809943d5ee5172e96a6fe059da01808822803212"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RecallContextTest.xml",
+    "sha256": "ad915afbbfdd6b87c98479f4895fe338b2f7050630440c87bba2f132ba02202e"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RoleAnswerCorpusTest.xml",
+    "sha256": "5eeaa8fac0006a69fde1410ad1a43be077ab985c8a86a4a204ea45ee076f746b"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RoleContaminationInvestigationTest.xml",
+    "sha256": "64e5d5e3b11f3fac7e0f7001c968154bf6b0459c4ba6d55b32162666d39576eb"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RoleEvidenceTest.xml",
+    "sha256": "73a1a6c3d37c8c7b5e91e029028acacdd9f8f6c8ebc896da7924e72bf52f8439"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RolePersistenceTest.xml",
+    "sha256": "36f52d9c077a79678e78b05c75fdaedbdada744212d472a85ebec26a1020417c"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.SemanticIndexTest.xml",
+    "sha256": "a02ff36ab99bab34722f8a8d486ee1c40fbef34bf1c45639b92a5ee486561dff"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.SemanticSearchFallbackTest.xml",
+    "sha256": "6120f7aae44f1cc8e84345f947e3c9e688120153734dbc9c37840146dc26152b"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.TeamPersistenceTest.xml",
+    "sha256": "602a1f51d631eb319858db5521e9d6a4fafcf68b8d32f385657fc8b1f3dad683"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.TeamProtocolTest.xml",
+    "sha256": "143baba71f3beeaa003238ea12b5e419153ffc90ed7f5d6d2e5ef2a2a281d0fe"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.TeamRunnerTest.xml",
+    "sha256": "d76543ef4f7e4a5247898316b69528ac44e6dba7172ceb0c55389747fdcf9bf2"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.TeamFlowTest.xml",
+    "sha256": "9322c98be863c8a48c697047c7246972faeeb5b77f44392004278e451f463c61"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ui.FactAnswerUiTest.xml",
+    "sha256": "d30eeaa13b942851d5c9ab542c5f99db433c12f2545bc1ffc46da1977aaaac3e"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ui.MemoryUiTest.xml",
+    "sha256": "9c92ccf80ff78b41e29a7af2fd515f16b16d41ff7d4f2e27a5deeef17d480c48"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ui.SemanticSearchUiTest.xml",
+    "sha256": "1ee5ede45d32e76ca31a3387288991ec48f49408e387b4c12d3a25c5322ce3df"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ui.TeamUiTest.xml",
+    "sha256": "61d53f4969586edae639256f4681f9e79fcfa37852a4af30e6ce6da563f1c3d1"
+  },
+  {
+    "file": "native-host/CMakeLists.txt",
+    "sha256": "2b0aa426daef88d49b2066c30e87633388096ab2eab3de5a4badf0580b1dcdd6"
+  },
+  {
+    "file": "ownership-persistence-results/TEST-dev.vincent.geschichten.memory.OwnershipAdverbPersistenceTest.xml",
+    "sha256": "f9d07d368b212aa8dd492ae52ff99ef11b622130ba6c6c8edce6e3b5470fe79d"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ai.LiteRtStoryTemplateTest.xml",
+    "sha256": "8ada38cc52c9e4e0e9c684f4a187a227f13b5113db9c71748512555ecb910b48"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ai.LocalModelCatalogTest.xml",
+    "sha256": "7b3011155a17c204562473b43e566dfa6df24e94cb99bd37236046b3e47102a6"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+    "sha256": "8f16f1db454f0bbc6e4397659f8723cbbe847b48d356ee407406455b99b38167"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ai.ModelPerformanceTest.xml",
+    "sha256": "012346f5516e8cd6db2fac7c1709fee5fa63aec73a4cf8bc1f3cf1d160b3263f"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ai.StoryContextAuditTest.xml",
+    "sha256": "250c5a4a2e3fa109886c57c14be1016d9fc02d0e72fe49200bb1a34730f6e5fa"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ai.StoryPromptTest.xml",
+    "sha256": "57303d0af28b281598ea612ea157a94f8e95c02d4b9fa88d9c005788aea8f821"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ai.StoryReplyValidationTest.xml",
+    "sha256": "7aa337a19f824d1e1fdcbc0aa1686433118171a8164a545dc664f5c6dce57bdc"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ai.StorySummaryPromptTest.xml",
+    "sha256": "73c158f3156d0603ab3635bfbb68c1c6b4f1b66f9035f38c0e5b47b42f5d6745"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.data.BuiltinCharactersCatalogTest.xml",
+    "sha256": "6a2fac53298d48aa328ee92feaf98a0204c4d5cfd141b328f652b87f8f75848f"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.ArchiveRecallTest.xml",
+    "sha256": "0e13d60cb90c9443d295a96519d6a3ae72426d4fba827d2c47c811b02d57fdcc"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.FactAnswerTest.xml",
+    "sha256": "0d3c5b5542c4058ccf892cd9d04a4def917f101f689da48e39df3e1e5dfb257e"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.HybridRecallTest.xml",
+    "sha256": "947cce99174f525b407e8735eab44859827887da978db3a82d5d7b5e86f7cfc0"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.IndependentFactGoldTest.xml",
+    "sha256": "c0e8d53f1d691f2f5a8f5118a830dec85dfb0a6c9a6c8ec6b7880ab365155cdd"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.MemoryRulesTest.xml",
+    "sha256": "58129ffb1412a6bc5edf807a44fa7854bfa1adbb05d9d96981660fc8e9f59893"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.OwnershipAdverbTest.xml",
+    "sha256": "23701a1ed639a44fb0290d7b0069b16159d66007de93d46255b2fbcdb1180022"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.RecallContextTest.xml",
+    "sha256": "f75727b104aa6a235f4fa5f2c50bafd06fe134e00623c7b859031f58058062d8"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.RoleEvidenceTest.xml",
+    "sha256": "a5ed699f43a62d63aa070f70146a45e68eca67f02b8bfc3add0564cb8ccb86c4"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.TeamProtocolTest.xml",
+    "sha256": "9c31e04798aceb9038140181aac1132b83cc29a891ab5234d771bf0ca82ef5e0"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.memory.TeamRunnerTest.xml",
+    "sha256": "bf75cd359f4dab43369e51663ef19b7ff9d256458ab48756672a4429bebedd78"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.ui.StoryTextTest.xml",
+    "sha256": "34ed3b024d168468f536bb5b22406a2c76cfff45c1fc04611c7e0f4437b410f8"
+  },
+  {
+    "file": "regular-results/TEST-dev.vincent.geschichten.updates.UpdatePolicyTest.xml",
+    "sha256": "b7e7f7c38cb9dcb5625ef6ff3e8bb322239109f32b0d5c8d83fdfdf2489e8351"
+  },
+  {
+    "file": "dev/vincent/geschichten/ai/GuardAudit.class",
+    "sha256": "e51aa3e702d0b64a261b60a1ccaef4b8968a322206a90a3b2330c5c668b0cb91"
+  },
+  {
+    "file": "dev/vincent/geschichten/ai/SimpleProbe$1.class",
+    "sha256": "b894347625a1f845e81f6f7af575905ede052aa077970c85c07ec07d003d5a10"
+  },
+  {
+    "file": "dev/vincent/geschichten/ai/SimpleProbe.class",
+    "sha256": "2581a14dfac1ce813e9ca64917d851d8fca8746836f6540dabfe620bb3afa66b"
+  },
+  {
+    "file": "integration-results/binary/output.bin",
+    "sha256": "470c53444aa6cd6b460a45884e5c48c8e67dc5a7d8fad69256354d5223b51cb4"
+  },
+  {
+    "file": "integration-results/binary/output.bin.idx",
+    "sha256": "6c8c07a5b7add109a52650aeb64ba38f61e9977d770e70a7fe20e91499c676e2"
+  },
+  {
+    "file": "integration-results/binary/results.bin",
+    "sha256": "250d1926ae88c4e98ff32efb66c2e2185ebecc1f2d77915297c09bdfce7ad04f"
+  },
+  {
+    "file": "ownership-persistence-results/binary/output.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "ownership-persistence-results/binary/output.bin.idx",
+    "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+  },
+  {
+    "file": "ownership-persistence-results/binary/results.bin",
+    "sha256": "cbcf82f19b81e3f1572da5843d6b3e991dfc3fcf862036f9bef3cc913e30cb65"
+  },
+  {
+    "file": "regular-results/binary/output.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "regular-results/binary/output.bin.idx",
+    "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+  },
+  {
+    "file": "regular-results/binary/results.bin",
+    "sha256": "cf59c69d2895b10ee2cad600cf4217dfb0068f23f03d0e3d22fbece754afc054"
+  },
+  {
+    "file": "native-cpu-final/geschichten_gguf.dll",
+    "sha256": "7cc2991a076c3d2e387eb968063a28e3b6db957144c274ad81665336e4f0b091"
+  }
+]

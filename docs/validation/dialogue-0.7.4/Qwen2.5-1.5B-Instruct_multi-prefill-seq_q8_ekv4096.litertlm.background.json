@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Miras Augen werden groß, als sie auf das Gerät vor sich schaut. Sie nimmt es in die Hand und prüft den Bildschirm.*\n\n**„Ich bin Mira. Hast du ebenfalls das Signal empfangen? Vielleicht haben wir zwei verschiedene Stücke davon.“**\n\n*Sie schaut zu ihrem Gegenüber hinüber, der mit einem Ausdruck des Erstaunens in den Augen auf sie wartet.*\n\n**„Ja, ich habe auch etwas gehört. Aber wenn man nicht wissen will, was da draußen geschieht, kann man auch nichts sehen.“**\n\n*Mira lächelt, aber ihre Miene verrät sie nicht vollständig. Sie ist unsicher darüber, wie viel mehr sie ihr Vertrauen anvertrauen möchte.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "Ich kann leider das Signal von hier aus prüfen. Aber ich gehe nicht hinein, Mira. Wir sollten uns auf die Aufzeichnung konzentrieren und überlegen, was wir tun können, wenn wir dort drinnen sind.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "**„Ja, ich kann lesen. Zeig mir die Stelle, dann lese ich sie dir vor.“**\n\nGrask nickt und wirft einen Blick auf den Wärtergitternachweis, der von einer Schiebetür überquert wird. Er erkennt die Anweisung darin, das Register zu öffnen, aber es ist nicht einfach.\n\n*Er streckt die Hand aus, um an dem Gitter herumzukommen, doch die beiden Füße versagen ihm.*\n\n**„Das Register?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

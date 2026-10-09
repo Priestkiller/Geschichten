@@ -1,0 +1,202 @@
+[
+  {
+    "case": "new-holder",
+    "split": "heldout",
+    "character": "Liora",
+    "player": "Bennet",
+    "source": "Du hältst den Dolch.",
+    "question": "Wer hält den Dolch jetzt?",
+    "expected": "„Ich halte den Dolch.“",
+    "activate": true
+  },
+  {
+    "case": "new-owner",
+    "split": "heldout",
+    "character": "Neris",
+    "player": "Thilo",
+    "source": "Der Ring gehört mir. Du hältst den Ring.",
+    "question": "Wem gehört der Ring?",
+    "expected": "„Der Ring gehört dir.“",
+    "activate": true
+  },
+  {
+    "case": "new-placed",
+    "split": "heldout",
+    "character": "Varda",
+    "player": "Eike",
+    "source": "Der Brief gehört mir. Ich lege den Brief auf die Bank.",
+    "question": "Wo liegt der Brief aktuell?",
+    "expected": "„Der Brief liegt auf der Bank.“",
+    "activate": true
+  },
+  {
+    "case": "new-injury",
+    "split": "heldout",
+    "character": "Maren",
+    "player": "Corvin",
+    "source": "Deine linke Schulter ist gebrochen.",
+    "question": "Welche Person hat eine gebrochene linke Schulter?",
+    "expected": "„Meine linke Schulter ist gebrochen.“",
+    "activate": true
+  },
+  {
+    "case": "new-goal",
+    "split": "heldout",
+    "character": "Elin",
+    "player": "Raban",
+    "source": "Das Ziel Signal finden ist abgeschlossen.",
+    "question": "Ist das Ziel Signal finden bereits abgeschlossen?",
+    "expected": "„Ja, das Ziel »Signal finden« ist abgeschlossen.“",
+    "activate": true
+  },
+  {
+    "case": "new-two-items",
+    "split": "heldout",
+    "character": "Halmar",
+    "player": "Fenja",
+    "source": "Der blaue Ring gehört mir. Der rote Ring gehört dir.",
+    "question": "Wem gehört der Ring?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-private",
+    "split": "heldout",
+    "character": "Serin",
+    "player": "Tilo",
+    "source": "Ich stecke heimlich den Schlüssel in meine Tasche.",
+    "question": "Wer hält den Schlüssel jetzt?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-last-known",
+    "split": "heldout",
+    "character": "Meris",
+    "player": "Dorian",
+    "source": "Der Kristall liegt unter dem Regal.",
+    "question": "Wo liegt der Kristall jetzt?",
+    "expected": "fallback-after-private-move",
+    "activate": false
+  },
+  {
+    "case": "new-why",
+    "split": "heldout",
+    "character": "Sariel",
+    "player": "Nora",
+    "source": "Du hältst die Karte.",
+    "question": "Warum hast du mir die Karte gegeben?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-hypothetical",
+    "split": "heldout",
+    "character": "Romen",
+    "player": "Frida",
+    "source": "Der Ring gehört mir.",
+    "question": "Wem würde der Ring gehören, wenn ich ihn dir schenke?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-feeling",
+    "split": "heldout",
+    "character": "Taren",
+    "player": "Mira",
+    "source": "Du hältst den Ring.",
+    "question": "Was bedeutet dir der Ring?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-invitation",
+    "split": "heldout",
+    "character": "Tessa",
+    "player": "Kian",
+    "source": "Du hältst den Ring.",
+    "question": "Wer hält den Ring, wenn wir jetzt aufbrechen?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-new-action",
+    "split": "heldout",
+    "character": "Niven",
+    "player": "Jara",
+    "source": "Du hältst den Ring.",
+    "question": "Ich nehme den Ring. Wer hält ihn jetzt?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-request",
+    "split": "heldout",
+    "character": "Della",
+    "player": "Torben",
+    "source": "Du hältst den Ring.",
+    "question": "Kannst du den Ring für mich halten?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-poem",
+    "split": "heldout",
+    "character": "Raina",
+    "player": "Lutz",
+    "source": "Der Brief liegt im Schrank.",
+    "question": "Wo liegt der Brief? Erzähle ein Gedicht darüber.",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-past",
+    "split": "heldout",
+    "character": "Ellan",
+    "player": "Petra",
+    "source": "Der Ring liegt auf dem Tisch.",
+    "question": "Wo lag der Ring gestern?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-metaphor",
+    "split": "heldout",
+    "character": "Isla",
+    "player": "Soren",
+    "source": "Du hältst den Ring.",
+    "question": "Wer trägt die Verantwortung für den Ring?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "new-unknown-gift",
+    "split": "heldout",
+    "character": "Leron",
+    "player": "Bente",
+    "source": "Der Schlüssel gehört dir.",
+    "question": "Wer hat dir den Schlüssel geschenkt?",
+    "expected": "fallback",
+    "activate": false
+  },
+  {
+    "case": "dev-carry",
+    "split": "development",
+    "character": "Alara",
+    "player": "Joris",
+    "source": "Ich halte das Buch.",
+    "question": "Wer trägt das Buch?",
+    "expected": "„Du hältst das Buch.“",
+    "activate": true
+  },
+  {
+    "case": "dev-open",
+    "split": "development",
+    "character": "Borin",
+    "player": "Nela",
+    "source": "Das Ziel Tür öffnen ist offen.",
+    "question": "Ist das Ziel Tür öffnen abgeschlossen?",
+    "expected": "„Nein, das Ziel »Tür öffnen« ist noch offen.“",
+    "activate": true
+  }
+]

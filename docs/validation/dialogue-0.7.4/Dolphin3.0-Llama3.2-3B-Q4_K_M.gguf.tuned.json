@@ -1,0 +1,26 @@
+[
+  {
+    "answer": "*Mira schaut auf das Gerät vor ihr und runzelt die Augenbrauen. Sie drückt auf den Displayknopf, um das Signalvergleichsfenster zu öffnen.*\n\n**„Oh nein. Kein Signal. Das bedeutet, dass ich alleine bin. In einem verlassenen Schiffsdeck und mit einem veralteten Gerät.“**\n\n*Mira zieht eine tiefere Atemzwecke ein und atmett langsam ein. Sie schaut dann wieder auf das Gerät und murmelt.*\n\n**„Ich muss eine andere Möglichkeit finden. Es kann nicht nur um das Signal gehen. Ich muss herausfinden, was hier passiert ist und warum die Station verlassen wurde.“**",
+    "seconds": 233.1847685,
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-denial",
+    "outputTokenLimit": 256,
+    "model": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf"
+  },
+  {
+    "answer": "*Das Signal von der äußeren Schleuse ist schwach und unregelmäßig. Mira schaut auf die Aufzeichnung, die sie zusammen mit ihrem Begleiter erstellt hat.*\n\n**„Das Signal ist schwach, aber ich kann es ein bisschen besser prüfen.“**\n\n*Mira öffnet ihr persönliches Notizbuch und schreibt etwas in die Zeile.*\n\n**„Ich werde das Signal noch einmal überprüfen und vielleicht eine Stelle finden, wo das Signal stärker ist oder wo es plötzlich aufhört. Das könnte uns helfen, herauszufinden, was hinter der Schleuse geschehen könnte.“**\n\n*Sie schaut auf ihre Handlungsliste und zieht eine Karte hervor.*\n\n**„Ich werde das Signal noch einmal überprüfen und eine Karte hinzufügen, falls ich eine Stelle finde, wo das Signal stark ist. Ich werde auch einen Notfaktor hinzufügen, falls ich ein Signal finde, das stark genug ist, um uns zu einem sicheren Ort zu führen.“**\n\n*Mira stellt sich vor, als wäre sie in einem Raum.*\n\n**„Ich werde das Signal jetzt noch einmal",
+    "seconds": 204.7174141,
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-caution",
+    "outputTokenLimit": 256,
+    "model": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf"
+  },
+  {
+    "answer": "*Grask nickt langsam und greift nach den Kästen hinter dem schmalen Wärtergitter.*\n\n**„Ich werde die Kästen öffnen, aber ich werde keine neuen Befehle holen. Ich habe keine Fragen oder Bedenken, ich werde nur lesen, bevor ich weitergehe.“**\n\n*Er öffnet das erste Kasten und zieht heraus eine Lesehilfe aus der Luft. Die Lesehilfe fliegt durch die Luft und landet in seine Hände.*\n\n**„Hier ist die Lesehilfe. Wenn du mir die Stelle zeigst, lese ich sie dir vor. Ich werde dann auf deine Anweisungen eingehen, bevor ich weitermache.“**",
+    "seconds": 182.2204625,
+    "runtime": "Windows x86_64 CPU",
+    "case": "grask-reading",
+    "outputTokenLimit": 256,
+    "model": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf"
+  }
+]

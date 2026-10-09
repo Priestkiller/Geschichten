@@ -1,0 +1,2970 @@
+[
+  {
+    "path": "app/src/main/AndroidManifest.xml",
+    "sha256": "cf0389574ea6a7559058ccc2baf8551cb60b9eae201b6a2b7fe84c380c8335b8"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-APACHE-2.0.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-GEMMA-3.txt",
+    "sha256": "4f68a79787b419a3e49b7e79952f65f2ad6409b31943c1106d671231dd421dc9"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-LLAMA-3.2.txt",
+    "sha256": "8cc15535a8a34b41888f644b339a1a9eb428af793a4f5e24df58a3e5b1487d74"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-LLAMA-CPP.txt",
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-SENTENCEPIECE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "app/src/main/cpp/CMakeLists.txt",
+    "sha256": "dc005b54255e9e45acfd0f228624ecad71823879d91764f7f56c06fb4bbb6efe"
+  },
+  {
+    "path": "app/src/main/cpp/embedding-jni.cpp",
+    "sha256": "e53d4b93c6ab44782fefa03593abe00c39550601fe08f45cd8db8cf2ccdcebce"
+  },
+  {
+    "path": "app/src/main/cpp/gguf-jni.cpp",
+    "sha256": "ac08f90da08b7d788e7a838b72c3e45e667fec2f65757154c2e0604654dbb352"
+  },
+  {
+    "path": "app/src/main/cpp/prompt-cache.h",
+    "sha256": "37abcda14c82be8720968aa7625d454dc7e9d0a36ccf43425d34ea81725fba68"
+  },
+  {
+    "path": "app/src/main/cpp/tokenizer-jni.cpp",
+    "sha256": "b079abdaa77dfd7b18cee5f8364f9a9b0dbd8f220615c8499131b554a942c7be"
+  },
+  {
+    "path": "app/src/main/assets/tokenizers/gemma4.model",
+    "sha256": "e594c8a90eb08d8bda498ff4747977dc827ae0c3c56b5c0d41a605a22d02ef03"
+  },
+  {
+    "path": "app/src/main/assets/tokenizers/qwen06.gguf",
+    "sha256": "79a87fd4710737eefeff82a41208cbf086dc9a5ed92c5d896edbd9e4caa32ab1"
+  },
+  {
+    "path": "app/src/main/assets/tokenizers/qwen25.gguf",
+    "sha256": "69970130e011e3069e39e9ac036575948262cf9b6a046a610bb5aae1a8736e61"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/AppViewModel.kt",
+    "sha256": "a9e671dc6860f00e4f56b38e8b629adab18d41fbe44528b947e4e1dda5c1551f"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/MainActivity.kt",
+    "sha256": "5c1d3b95c4edf06f1714b4ffe8c9ad2f487c677e1c299042e104ceb57af40926"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/EmbeddingModel.kt",
+    "sha256": "7e852a657631e2acf4e11f7c08a9fdbfc4e537358bb173133083a55298bc2d32"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ExactTokenizer.kt",
+    "sha256": "fe98d67d522997be260ca0d3951d24938d8309b80a2552a6f0202c3488a18d4e"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/GgufEngine.kt",
+    "sha256": "08aa6e0fe6ffcd1ceab3fcea9278eb37efe54789425ecc5c2f074742e5d5d622"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/LiteRtStoryTemplate.kt",
+    "sha256": "42ca3ebd55fac9b7893ca0bfe0c0ef1a626be97742d8b4ed182522f070cabc20"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/LocalModelCatalog.kt",
+    "sha256": "0cc66e1404301d3b5dba67d4e8dc9cf7a7a20d2c381a327acdcfd4a3326c912d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/LocalModelEngine.kt",
+    "sha256": "9d0be31e34f0ebfccdf59584801f5d4abb7e24e5859117c3cdbf9e601decae62"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelArtifact.kt",
+    "sha256": "62ef2d187016a40a0b05ae421ccc6c76248ebd7168abb5554ed9493c341e0f93"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelDownloadProtocol.kt",
+    "sha256": "d2822817676f70f3b468e80eb33e7e7967ba34c63cf1605b49cbd3e771d59923"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelPerformance.kt",
+    "sha256": "bbcf105eef68a412d23ed84c83acd36d3b230fad427962cf34e51539636c27a3"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelTypes.kt",
+    "sha256": "2ececf0c6cda3f804c4da17bcbcf5e2920755a3d737cd08b93b8f30f9561cc6f"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryGeneration.kt",
+    "sha256": "dcea0b51611858a9bf5bafe9bdb58ebd8b7f497c6b4e83d2f1781e822bab0cf2"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryOutputLimit.kt",
+    "sha256": "fc4bf5eadf82ff0696c23d0d250507b897550f1c971370f8d1991ca10e78ca9c"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryPrompt.kt",
+    "sha256": "070e73dd095288706dfa090eec6c49d0e945e9c8f2dd3f4a72dfa6a34251fb7d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryReplyValidation.kt",
+    "sha256": "f912f5064f62e39202ec3c154673c523ac2b761bed742337b13158f9d465f0e4"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StorySummaryPlan.kt",
+    "sha256": "f8dc5c96f3f66a8785a7f6eb6b660fe915a550cce7cff8c100f2f4f2ada71198"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StorySummaryPrompt.kt",
+    "sha256": "c0e63d9bda0e5698ac60e7d3bd8e4cc2ab9d39f03edd8e199907057c1d38cdc4"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/AdditionalCharacters.kt",
+    "sha256": "4993a6188c6ee31c19589bc1cb7f1562d41d742c860419cf25781f5c87fe0542"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/BladeRunnerStarts.kt",
+    "sha256": "d4ec22b742ae5946a5a895667e14f287ab5a026cb8c9b8ccde833b515928d4b5"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/BuiltinCharacters.kt",
+    "sha256": "fea1c3093b2c244a9c6f1e42669684f7fab761165a76f89eb4462468115acc38"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterDialogueRevision.kt",
+    "sha256": "5c0e0ab0ee147efb9593bae3647082e1c9552af4769a9afa588e16aee8f440fe"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterIntroductions.kt",
+    "sha256": "d2439c34b2ff770ea78f05ae60ff89f7d37a0e406148666e3b175b3276231c4f"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterRevisions.kt",
+    "sha256": "fc0b17ec50bcd9302e44fc333436c27235e0aa5862e9fe8ce615ef32cafdc804"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CreatureStarts.kt",
+    "sha256": "3da426f7f5556644c8c230ff943d0caea8106304dd6941dc8e5915810e9fc735"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CrimeStarts.kt",
+    "sha256": "32e1af4f34c3eb3af23c55be3be559f3edff8f8d816dfd48ba2adc22a51dd718"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CyberpunkStarts.kt",
+    "sha256": "db2e5e0fad7b712852f5c898a84f4ad637ef80401a411f3240288b7c6d5ee369"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/FantasyStarts.kt",
+    "sha256": "763fb65b664410041033ea321902a31e9b89a64227bf371e062f20760fcd15a3"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/MiddleEarthStarts.kt",
+    "sha256": "311aed1cc97951e809ab04edeac25fb9e1323fad2c54fdca51965deef928116d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/Models.kt",
+    "sha256": "5d7b644a8663e9a23c5546371e0c529c554b807fc19cb33a964d3237f95d9ffb"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/MonsterStarts.kt",
+    "sha256": "df435cbfe263f0c5a039d2179cdb6e91727c1ef6f23e27f368f021563f98d052"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/NorthernStarts.kt",
+    "sha256": "e5e220d0b0a8ddedaf54f321a20ff5548296df13f512f8baf9cb9498b3bade03"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/ReleasedIntroductionsV6.kt",
+    "sha256": "b6fa10f91a2b1a9a70b741aa8f89856e4f1b1fec4c38733d490f12bd79232949"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/ScienceStarts.kt",
+    "sha256": "983149958ddd5b4eabc06053cdd9bf6504809d059e8506eff5222d72a70488f2"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/StoryRepository.kt",
+    "sha256": "3d222de49044f3c03be23148c08eb23b37471ba8906eebbbcba1f9eda13a783b"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/WorldCharacters.kt",
+    "sha256": "245266011ffca8ab0c2e1ec0190cc74f6983a6ee38774f063dc84add5cd73a58"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/ArchiveRecall.kt",
+    "sha256": "bd1a5b17248348e87cff6f3a330cc9c3d7340874a1e5a87e30a24dc4a9af23f0"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/FactRepair.kt",
+    "sha256": "2836a92424552d306711fd7d8b42e3d09857c4b0fe1563996604856de67b1b21"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/GroundedFacts.kt",
+    "sha256": "aa1b7a2d4a77cc16e696c1f5c1bda70286080d1f60d3be99a6acbaa2659c9acd"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/HybridRecall.kt",
+    "sha256": "b5da3d8f5f378d041b5dd49c64b5bab78a33e6eb7e9318c31890c3d2b3e77c42"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryDatabase.kt",
+    "sha256": "a0f5496f09442a4c19f4b0c860220ffb6e6d49cf9de7b07cfbdf6ddde414f901"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryPrompt.kt",
+    "sha256": "1becbe1e087fdb9e38a84a54d735c682c02c5bf03c1cdebc7778d2b089f83a39"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryReplyGuard.kt",
+    "sha256": "a41e57fc5b44b0cc80ad5e39aa21bf21f6eb82431f4a9548ef84a50374aea498"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleEvidence.kt",
+    "sha256": "bb61b709765a22a12d52516bbe6dd534ce69b64101954ee8fc5c539edfd3edad"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleReplyGuard.kt",
+    "sha256": "5e68f157d86092b8a7322d5eccf7cc86e3caebbe9ab5013f248104a00d417784"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleSourcePolicy.kt",
+    "sha256": "f69dcd977895957fd4c5fc7997fa16d847c9d57e6b6cadd3c991689c8199b519"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/SemanticIndex.kt",
+    "sha256": "f527fa27cfbfb2d2098a3ba8b31dce6e84ef4561132102322e7e8796394e3612"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/SemanticSearch.kt",
+    "sha256": "a45f92b117638dfd51db4447b3eaca102c8a061ce368454dbce3d4548d471487"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/StoryMemory.kt",
+    "sha256": "44ba037b0a217b59f138b68bb6fa70065642dd5e8bcf12389693396faa7f8c01"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/CharacterEditor.kt",
+    "sha256": "69c3ba48266c006fcda9840915605296f149c9fdf57647a011f2c6d47e030a65"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/CharacterProfileDialog.kt",
+    "sha256": "cbf74065c8010a58f28c8b260dddeb6fa201f5f77147f26dd63e1103999658e0"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/Components.kt",
+    "sha256": "2e869287274b745240434da85f5688e8937d9af1f4115c095297ed6d8fed1629"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/MemoriesScreen.kt",
+    "sha256": "46d40ed505f530a36cc9a5d3d8885e659046a48f1427e8bd9df2c761536c633d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/SetupScreen.kt",
+    "sha256": "a31415c7de1976ebcc00c2c19345edf240d85b3c64a194dc00ae7f0a2369e3c4"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/StateMemoryUi.kt",
+    "sha256": "c0cfdf612d225a7b5e55403c2fc0c453df67d91db0c7c3c24384e8f35960fb9b"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/StoryApp.kt",
+    "sha256": "ce6c23a8766da93b48252513b16bf156388974949ec50152cd16e185b77e9257"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/UiState.kt",
+    "sha256": "98909b81e8418d0d4ad9e70103e3a5f763e4a7760e67241c70a78921b57239a3"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/ApkIdentityPolicy.kt",
+    "sha256": "83ce8c80cd1940bdbdc18e4606d77c1a0cfcc05286185ffcce67a98eaef34dcf"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/AppUpdater.kt",
+    "sha256": "c86aec89d3b2b629b48ca5b94ac1b55a766819169eafd48b284bda0484049989"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateFileProvider.kt",
+    "sha256": "dd6f995b94e79d9f14628f205c6c1ba4f409ba21776fc76121184963d0ca1bc1"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateManifest.kt",
+    "sha256": "d3556fa60982c9c85d478a85df6b344fd8adbb088631e9fd1d49868293eaa0a5"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateTransport.kt",
+    "sha256": "98deca98803172bc86389f9003d1130412250454cd5e75c9651ea28c15f763ec"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateTypes.kt",
+    "sha256": "01018f888cd3167a8ecb2dac113034350f5c71b73d6c613af471b3c0ca8aabb6"
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+    "sha256": "0826280a74d7ea8a58900e8c1b127bc8f056c53a70bd1ea0b8ac4f8434882994"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ada.png",
+    "sha256": "84b4005071614113e1627461dd0b38273430c4a744082abbdcbfcc2bedf4a331"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_aelwyn.png",
+    "sha256": "5da84cef433a33ebfa21c97151de73c6574b2e558359c51833bce8c5a4e3fc15"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_anton.png",
+    "sha256": "26cbf59eeee77083496d388e20e1500457b89cc90778bb346da6d24cdeb0246f"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ari_maddox.png",
+    "sha256": "940443d3d325201cd2b88464495362cd4f478d42311e6506f7d8f9050a26848d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_aruun.png",
+    "sha256": "746c88da181fbd057483e36d487d880e2688a47b414df2cad924df9368da6161"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_astrid.png",
+    "sha256": "7a56d553ef1b060a2c2c6e44cad062ff231b29a976169337bff418b04d780801"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_bastion.png",
+    "sha256": "f3c4ecb90eb6abf8fdfd9d68d59386faa13515cf61d18de4d5c40b47010dc8b5"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_berenor.png",
+    "sha256": "60b933d8b61044fb3a88795b7c9f4c4a68b3ab83e09f7f64665c19293dc09253"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_bjarke.png",
+    "sha256": "7ffb41e01d3dab124f54565397b38a79c2d8ec726e069a34933033d1ca4349bc"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_borin.png",
+    "sha256": "588ad2f0444fcc3dc0619506343e7a2be8cfa3e7cffae1a7296f0fc3d6af0a12"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_bruno_vega.png",
+    "sha256": "44a3464dc24d85038ff1a9511c1314ac9404d9845ea9495a986abcdb17474867"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_caerion.png",
+    "sha256": "a9708657e9b0b0318ba10fc514eba51a1fa02ccca19eeb3fde8bb5f90fba4c59"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_cem.png",
+    "sha256": "9fa69167aff57f22a57e2978778026dee303863cd0a63b6bc9eb0a90e1f7c5ef"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_dante_raze.png",
+    "sha256": "68ee6eb41617e8dc68bf08fd8f7794e911e951643aece4e83a448d186e8c4864"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_daren_moss.png",
+    "sha256": "ae24bbab3702294f8d6b6010bc4c7cb29be2f53a53d5a235be6519729ec1e6ae"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_dorik.png",
+    "sha256": "6582f15794a468c2957bc04417970eb5743ef29b6ad45246854cd95c33a2a45c"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_drazhul.png",
+    "sha256": "6a9e404cd34f8d1361015e7e340672d1d49caf7fc37ea7063042483e1367278d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_eirik.png",
+    "sha256": "493c92cc31e211d4f48135b32c2c05285a6e3177cb20479fabae838ecd652f94"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_elara.png",
+    "sha256": "525452bc1d43ddb3e65572a3df36ee56c2b4c1237d79cfc1874ba638bf77186b"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_eldran.png",
+    "sha256": "e5edeac05bb01a233764fe71e0f15a3055d24158fedb1974d23d151d70e4826d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_elys_voss.png",
+    "sha256": "a6fdb42e241f454cdd17edbb997981ba7f9a8908b4c3d573d8ce6160358c387a"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ena.png",
+    "sha256": "6b8deaaf2fe0d34d397e7be71c3d3b2d106c6b699a2acfa828b77c2dafc8f269"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_eris_wynn.png",
+    "sha256": "219158477bcd8cad520ddbfb26e269768f159bd377b2a485f26b4b787b21a988"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_fenrik.png",
+    "sha256": "d2697abc68283ee5db03046fa7a45fce1a5436dc28c34d8350591aa9510d6dda"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_grask.png",
+    "sha256": "482dec5536b63d0e26c98ad66ffb3576b970f2468dd63e31e64c8673c2f46ddb"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_halvard.png",
+    "sha256": "c6824d2e01df55f2afb22fa5b30b9d9a1b47b3b0f4a8f52acfc6c36d852764fa"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_hedda.png",
+    "sha256": "985bfddfc538db58f60a5d9104bdd37b7f21932e2da1fe6ffecdf8a69aa81c70"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_hildis.png",
+    "sha256": "6383c8d6e316fb9007fdea7ce7510b08ca3e1b6d4639a50fa045d3246a9a724d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ines.png",
+    "sha256": "2bfb955122b4f828194636932c76faa134d7650999195474884ef750f25082be"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_irilwen.png",
+    "sha256": "074abc345a389d98fd9f309b3fc68d509f8d91392bac17f09af39546f5a53a71"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ivo.png",
+    "sha256": "a98e7ae968b12c1196c23d8fce7b7fba0b5364ae98c7a0d4e35b7070b943c3be"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_jalen_7.png",
+    "sha256": "a82be5e14b31892f5515b6f04acf5629582fc2a1ff248bfd147972f18898de15"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_johanna.png",
+    "sha256": "a5592e26a2c145f745cb9864aa12036dd4d1b075fc6c37d676a74ecc70cb0e06"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_kael.png",
+    "sha256": "034ab1c88806e0b2e998e65f89ce1b5e181ad41628b99e5d410f2eaa2ef879a8"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_kaspar.png",
+    "sha256": "11cebcf1ea54a5979c0e6ca95412f399a0af65df4bfd9760e7f9e5e24fa04dd7"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_keira.png",
+    "sha256": "2a0db163353a7db9722eef403107c3d955f7548141b66bf42ebddf51ba8477f2"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_kira_rook.png",
+    "sha256": "f8756d0db0a182611c6c62833a29d0b3169ea54f22ff52616ab68ae77b0b0bec"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_korr.png",
+    "sha256": "8664997ed5dce53183beb4df160058cda30d2ef4e6320d57964f91de0f0396bd"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_leon.png",
+    "sha256": "ef53b82427cebdb2f0ceb078765a506b97d0067db92be56be9ab77307a2e177d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_linnet.png",
+    "sha256": "3aadd2714ad5a7e54e70fc6dd96bb822344216672cb87502156840abe700b9bf"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_liora_cass.png",
+    "sha256": "5037ac58da3ab00e1d8ae6dea178868ab074c7396bf08fc2fe094d726de85dc9"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_liv.png",
+    "sha256": "3665733d4eac5ab83fd135ac123171cbb71ffdcb4555cbe792733f282a1994e0"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_lyra.png",
+    "sha256": "6041e338e76b27e6c0ac78bb5693c46e22094b3385c6bb6b2d0dc3f31e06c196"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_maelis.png",
+    "sha256": "37d6025f6b0f86dbfcdb0880f4d9c745033184d79ab69ba70b4bf6467203ba84"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_mael_voss.png",
+    "sha256": "5ce1f89562948a34c71ef2aee98e44b1ad9bfeed2b789cc0840c9d3f2467b618"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_malik.png",
+    "sha256": "ffb593d3a58453fc572487eeb306c4a3c28888a129b43a52919e6f6fd5fd2b06"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_maren_flux.png",
+    "sha256": "2f50061287b2d9ea5feb5f187c8f1d8b779a3d418e91528d932e1335f342e36c"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_mira.png",
+    "sha256": "3fdc63b1f770cbe15499412666af146400e10a630b5e7af38be49a19fab64c88"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_morga.png",
+    "sha256": "f020329ad5e60c1f973d828300b0e8f13bc70760cbda54251f8ec9ebecc157d3"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_naya_cruz.png",
+    "sha256": "c6fe76edd9fd17238bf9271b35b551a78d95fda67bcfaf9af4c70dde23b135a5"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nessa.png",
+    "sha256": "b5569423b70cd8f8ce7476110f4c8018e768a5441ae05a894e5243bf18d7164b"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nharok.png",
+    "sha256": "b4f1beae398d3a7b152c92d772c7225b54c89715d70175aa95ca5e0c6e9cbd02"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_noam.png",
+    "sha256": "4c8466a20bdf90cced465c7ca1bcdf676a2172fa68b035b9bdac658264f262b4"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nora.png",
+    "sha256": "2a09864214ed0f1c5a6e5fd03d7f3641a8b880b5600ca7df7a32f6ea61ac0ae7"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nyra.png",
+    "sha256": "f5bad439f00fbd58e6a3dae1a71112f611291e4b6d5563fd98cc3792d48fb5f0"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nyx_rho.png",
+    "sha256": "5c29b8d70662b59553955dfb31a6f9e562f483863e3d14e0ce7f5a9e23fcc605"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_orin.png",
+    "sha256": "c185ad4bcece6edff025d8831f74abfc6d02edb155ba25bc8ef07df06c900d0e"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_pyra.png",
+    "sha256": "db513817893abfe7bf42c2782131464b52ec9270c900e45ad17e0272dbcc27d3"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_raukha.png",
+    "sha256": "9a8feb4393fd1af13e89bbcecb331d4b82abebe19282f5607860b7e01d3089f5"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_renji_sato.png",
+    "sha256": "a4f8a42b70f0edcf70f4fd99ddd20de0d072c12c8324208152e6f14d336fa0fd"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_riven.png",
+    "sha256": "1b8aaa1632643c32fc479ba8f7096a7a0d524e752c53c8eab4353cef6a0d69b6"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_rohan.png",
+    "sha256": "0bdc3f5126ef105122be4df173974254c9762de3522e3cf6aef07650441d4a97"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_runa.png",
+    "sha256": "d0ffc278eb37e47a2a6c02402f0b345e7bbc8903633ab8d59349cbfe0bd33717"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_saelith.png",
+    "sha256": "7641b67d6882bcebdaf663f397325e357b64342e03b3439edb31a03b8fe08a17"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_sana.png",
+    "sha256": "0d9a026dbe5d5b819beed091d4ab40bdeef898393ecf1ae89fa73833505e467b"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_selene_kade.png",
+    "sha256": "6e3f185201d66b186d2ffa58988d3bee3c50851b51aa522e1ec324cb7174dc9a"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_seris.png",
+    "sha256": "2469414f5b705506c9a4ef294261fb80b1b5f1a57be4204d90a593a94ae88719"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_sigrid.png",
+    "sha256": "9d7c12ff6329035f4e51eb14300441d06a5de2f7cb1852f7d9f9c467345fe1a1"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_silas.png",
+    "sha256": "6618354db990864cca060dacc3a86578b983a54da000baaef661556f707f6dc7"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_siraxa.png",
+    "sha256": "75ee264199255f8e065738a7d827a45a1c3878022d806bfd9db6a80ae5935ad2"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_skarn.png",
+    "sha256": "5a7d1c7bba05cb63ccdd9d1d41207c6a5801bc1de921c9a4784ae10ce682d343"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_solveig.png",
+    "sha256": "65a9bd94da0024361ed57a9e9be5e8d0724880f08e9f20f924126b35d0d40eba"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_soren_vale.png",
+    "sha256": "b0e9b3f9afe8bd785b4f56c989947015e4983cdaf18f51b185659a3c648e1d5e"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_soryn.png",
+    "sha256": "17fc34b3b03394babeba3adbb460639945d72ca642c0f3fe8ce11bd29db1d68c"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_sylwen.png",
+    "sha256": "896bb00aa807e73a99fb137194fe07cd1ef150c6d10a4b86ba93d835067828ce"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_tarek.png",
+    "sha256": "1c044af3dc43d668d0262d8a100375e0c72b92f0f67730ee58e575141d203026"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_tessa.png",
+    "sha256": "d2b14a5b640acf6cc64cfaf2c9a2fd03a3e50dd4d5341532875a268963732b56"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_thalora.png",
+    "sha256": "33f0c4158c0b97d27fdbcd2c6349eceaead66b0b6ca3997a9c55de693cbcf152"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_thamund.png",
+    "sha256": "349a91e32e75f73a8ecf0a97933c7916f82fb393792160813b3c9279bc55751e"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_thora.png",
+    "sha256": "e4d88bcc0ff607c3eb932b6f2919a8864923fe4632b5041b272583efd95d9526"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_throgg.png",
+    "sha256": "b7aa91b0d022f93bf06f03bc60220157b057741e74e5986d0887d2a2f91a10d5"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_torben.png",
+    "sha256": "ed99e9b2337553078817582964af0bfbf00fbb988a98cebf3158da3953b9778a"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_vaelgor.png",
+    "sha256": "0eaa1de176cda956fca8d5f479fbaff69eec4d80c70baa347bacb51a676d0228"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_varen.png",
+    "sha256": "7bf064d81b5c0513baac2e8a88b83cfeff2cedda3db218d59a6712fea4898154"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_varkesha.png",
+    "sha256": "449a7ec8a54fa514fde68589fd86e5fca1b62936a1ca8f200ce66fceadb60e63"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_velyss.png",
+    "sha256": "5c38533dfa1026fa7507bdabedc3f997e23a3fc6c16a72e3f9e920bf4405ffab"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_vera.png",
+    "sha256": "e9c20d6a1b41427d2bdff07259a6b6b917cbac22852e7aae53ea34fa81e0388f"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_veshra.png",
+    "sha256": "9f385da2a7b15167e59f182afba2fe2c19eb9d62341580e8ec30d678a849ce8d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_yngvar.png",
+    "sha256": "01ad8da5c903083fa8f78263be1a66ca01f9863495614cc6bf2991b241330ed8"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_zhara_voss.png",
+    "sha256": "093cac62ba7ab8f45ee482d03fe69fc33a551952c088fe9f1e4ecf800edeb493"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/scene_runa.png",
+    "sha256": "6ecce2a71a063f94968975a7d2d46108506e313d47cedd06b9245fdb9cad5096"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+    "sha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml",
+    "sha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "sha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+    "sha256": "d0b7050d918713b6bd1598265d44b6553aecc667db9be269c11c75b61521ca75"
+  },
+  {
+    "path": "app/src/main/res/values/colors.xml",
+    "sha256": "9cc80a0cbfb4073ef3936dac16cf003a06e7a993a59db36301f904c193b7ed90"
+  },
+  {
+    "path": "app/src/main/res/values/strings.xml",
+    "sha256": "284a0b6078e992bf2162f7e7d2cb17bb59baab2700635ebf89e409c543556ca0"
+  },
+  {
+    "path": "app/src/main/res/values/styles.xml",
+    "sha256": "d8ffea8ddb19751dc531295ea828b0e36df5024e33b505fb8b2e0fbf963e59e9"
+  },
+  {
+    "path": "app/src/main/res/xml/data_extraction_rules.xml",
+    "sha256": "8b55ff5489071bb19a4e89967b604a16c0e4d1e87a2df3c73c64417314a59f22"
+  },
+  {
+    "path": "app/src/main/res/xml/update_file_paths.xml",
+    "sha256": "1aee4d9f85c9ca82564c18d509fc830099fac295e2fb04eb2e6a7edc60184a54"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v3.json",
+    "sha256": "e70fd3ad046d4524d38fb8c7e4e0b0ca1c5aca854a12d673fb96c1fa0b6f9f62"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v4.json",
+    "sha256": "d70682fe6f2780b7a014c34432a57f419449b4e6e47c93cf7d1bd32a4243816f"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v5.json",
+    "sha256": "cee1214daf36375ecf258aafd602a7f3ec9e1168cc840832a1c91099b694d972"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v6.json",
+    "sha256": "d10482532d3e29c010cf1d568084630525658d06b5ec78b6ee202a6af83617ae"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v7.json",
+    "sha256": "b711d700bbc8c63281219ef72db909a0f271621a6437010df97da8cf50963500"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/LiteRtStoryTemplateTest.kt",
+    "sha256": "ac2d8772e3e69fc84b4626407ac4f4922270086b30da05006f7976b7f8c75b91"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/LocalModelCatalogTest.kt",
+    "sha256": "8ebdf56a16156603f9e9d60614e420297a4b75ac7752e4980ea81bb1fa3f4f6d"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/ModelDownloadProtocolTest.kt",
+    "sha256": "7279fb0d1e4f7dda22855f6b02a92815b6a900bc933319b024fbebc7328e7c1c"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/ModelPerformanceTest.kt",
+    "sha256": "ad6846794ac9bda596801788ef8c27bc7292f9d24c982462cbc2e76dc3c7f1f9"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryContextAuditTest.kt",
+    "sha256": "51afe45efddf97550fc9661154dfc8a838484d9747827c7a84198bba646f291f"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryPromptTest.kt",
+    "sha256": "a0091be812ec712c2457fe953cff83b9131888aee90b91979d53ef6d2bfeb8cb"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryReplyValidationTest.kt",
+    "sha256": "12e86c33c2bbe2aadba22d3b13bf83ce02981af83796f2fe3f39daca2a675cf6"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/StorySummaryPromptTest.kt",
+    "sha256": "566e80ab7dc75dcc9f0d9577e4ba9ff944ed212051fe8b488dab1e77301645d4"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/BuiltinCharactersCatalogTest.kt",
+    "sha256": "8488b52de82eb1d0d7dc36e0624f82608ef023631f2914da0523369eb122b92c"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV1CatalogFixture.kt",
+    "sha256": "b7ce20c783fe73b025dd59f73cd13813c915b6c4ec507b5033f69755adb24ad0"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV2CatalogFixture.kt",
+    "sha256": "3e37c85185e7913ddf440e957e23fe4b29d9ce3dd6d466797ceca836e3530240"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV3CatalogFixture.kt",
+    "sha256": "9a4dc38f14976a1ad3f5180dc402c57bc312a94cba3e5e2c196b34b1be4a5a7f"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV4CatalogFixture.kt",
+    "sha256": "d3a381419654cc33d1b8adb347e17f34957492f36435802a36c166aeb8e9e9ae"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV5CatalogFixture.kt",
+    "sha256": "5822bdb1124b78677674605cdf5afdf1388f7d2aaf546a3cb74ed1aa6d384f8d"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV6CatalogFixture.kt",
+    "sha256": "73a7322383b146de22d6b3fa5dbda6c3d46e77d7c8160552be1f75c4d39fa52c"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV7CatalogFixture.kt",
+    "sha256": "453952fe70073b3a3bc77e3ef83aaeafce0167c4f78aa89165249ced31caac48"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/ArchiveRecallTest.kt",
+    "sha256": "7a44c688755d7253ffb5bf86d9e2ff126ab54ba492c2d11251fa1af3a45c1b76"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/HybridRecallTest.kt",
+    "sha256": "59a1367eedd01f54cd6f31f3fec393ee93005f045d61df1bfa5d89c372fdeaac"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/IndependentFactGoldTest.kt",
+    "sha256": "d822f07066c92743940ecfb7fda0ee417daa3b9d61dba80aa95ada65afa93b16"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/MemoryRulesTest.kt",
+    "sha256": "fcd9c9121d19c936f03e0070cbee591b4d47aca3355abf478b99e5c76afec3b8"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/RoleEvidenceTest.kt",
+    "sha256": "fb05929a5e6517d99b74bfbbc6fb4f0601354fbd50c4878b8b2a172cd403a2a5"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ui/StoryTextTest.kt",
+    "sha256": "b2b484b2ea89f6c73c0157618e914a417f43897b201c7418957fcf50e5851b2d"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/updates/UpdatePolicyTest.kt",
+    "sha256": "131ea1b6fc2a10a29a001e2fee3fed62592f8c1ab3a7a2d8db581fe3c3a5b3c6"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/AppViewModelHistoryIntegrationTest.kt",
+    "sha256": "404af1f2b26b367983b0f5d78c8abe0fea26971c38ef7ab5c1132191d90a5d96"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ChatContextIntegrationTest.kt",
+    "sha256": "c793339cd9561772190c6d5b5c95ac768565a774312f77a6c210c535d1bf89a2"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/MainActivityLaunchTest.kt",
+    "sha256": "c890b26b07e0441ec56434c68715ba8b837abb28edb45df80420d1209e0d8422"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ai/ModelPerformanceStorageTest.kt",
+    "sha256": "521201495568567397a819080f5f097116dbe7609e95aedff045c3c812f1f417"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ai/ModelSelectionIntegrationTest.kt",
+    "sha256": "94a6a4dad5d88f42e8d15119434e11090ac28904fc335d8f49f5f563782ecf39"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/data/CatalogMigrationTest.kt",
+    "sha256": "fffc52bba4e7ada29bf28e9d0ab5d8a13ed5c15deeb20a12890f61f0baf4c2ee"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/data/StoryRepositoryIntegrationTest.kt",
+    "sha256": "7b818174c314c2f76a4a86b8e90fe968eb5f53bbbbf1b27d1eb7809d90ab56bf"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/ActiveMemoryModelFixturesTest.kt",
+    "sha256": "611b8291438f42cd0ff39109d022ce4bf5ac57714958d1fa64f2d61f97d7797f"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/FactAcceptanceTest.kt",
+    "sha256": "eb85a4fd008c71e9fa69d20ea7714e50525a48c87b0d0642e9e39e16383becfd"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/FactRepairIntegrationTest.kt",
+    "sha256": "31ca6f6f74c58d9d73bfe1ddad9227c13a637ba062bc3036db41ebda97fc908e"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/MemoryRepositoryIntegrationTest.kt",
+    "sha256": "ec0aec855567c5b3b9ce881f7beaf25bcea374e97f060a5ce4496c8b52ef1db2"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/NewScenePersistenceAuditTest.kt",
+    "sha256": "befec97bb54c630e463a2d09f3fc72623d6747e02b051152a37a9f6b2402e6c6"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/ProductionSemanticVerificationTest.kt",
+    "sha256": "f4efd91c325784374b429bccd6c4d31e12bda691d54f7cdf02a9c1eb15587ea6"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleAnswerCorpusTest.kt",
+    "sha256": "56c2a3ba49bcf8958f710f35ab9bdc6a4b0d3d58b741a39a86f8c5f7a398eaa8"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleComparisonFixturesTest.kt",
+    "sha256": "5b71ed2a1bf2e2a070c6ff8c61e8641c4ba0a99b1ea1fd3e685501840fa147be"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleContaminationInvestigationTest.kt",
+    "sha256": "c264d9ed31c541481cd1635cdfeebe55bd007333eab76d5e103b3fb5d6bb9fc7"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RolePersistenceTest.kt",
+    "sha256": "3e61907021d99400c9bfb6cfd7200d16b62baad5743b69b2fef18752c662ebed"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/SemanticIndexTest.kt",
+    "sha256": "c28e29b0b5d8307e50d7568ef52958397ff4f6135d7732b6bc29e45ea94b91c5"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/SemanticSearchFallbackTest.kt",
+    "sha256": "46117c6837f07cb59b7660a9711e13aaae09a33efabcd3bd39ddc87d1e204735"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/CharacterProfileNavigationTest.kt",
+    "sha256": "668182baf858849dc9aeecf984763c0dca0a93366a3130daf936ea3fca439d45"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ChatArtworkRegressionTest.kt",
+    "sha256": "6183d1bcf4576cb74ba4978042fb2761d8cf19ca69cc80aeff5893d1f8a29ed0"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/HistoryAndSpeechUiTest.kt",
+    "sha256": "01bb010da0d94e18a48d013e0ea69e587e373a386f70963c48adba8edc9b67a5"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/MemoryUiTest.kt",
+    "sha256": "57ab25f4e2ef451980276ba35838e0bce58625d9f82e8b78b92a6d6a823f4cd5"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelCleanupUiTest.kt",
+    "sha256": "ae4fec6c14a834cb3c141f54493a7b14daaee9bbe5de7c595e7eab7df7cadbe3"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelPerformanceUiTest.kt",
+    "sha256": "c50e93a0165618016e49bdc1e867c4be4d992c1c801ffd96b2abd17ebd32e5bc"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelSelectionUiTest.kt",
+    "sha256": "ac1b38fb601df88c16db02b1e8b06227f5e160b321118f3c3c92558048b38858"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/SemanticSearchUiTest.kt",
+    "sha256": "eaf6ab5cc076ea1c65f322bbdf2e7bdaae3f034ef9ed7c171a8a6baa6ec123d6"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/UiScreenshotTest.kt",
+    "sha256": "3e5f6d60a703ae7d988fd0657c213705eb32d5fbe39a1cdfab19386084c35bb7"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/updates/AppUpdatesUiTest.kt",
+    "sha256": "12d68d2caf748458f4cf1bd9512f389a1323cc1eaf263d494288137531ec6918"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/updates/UpdateFileProviderIntegrationTest.kt",
+    "sha256": "48dba573befcb08ca0fea4f73ceef001cfa2d36d5f3598144601342062a628e6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/META-INF/Geschichten_app_debug.kotlin_module",
+    "sha256": "28c11073e8ec2a0da886d3130cc40cb583a724521a39aae0e9324a55259fbb88"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$1$1.class",
+    "sha256": "ee21f7ddec66351fdf30daae82c780ffc32b374621e341be62de903d311b7378"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$1.class",
+    "sha256": "d43ea172f05b77511024745174594a8920ac75d5e5c2d1a2a9be276c5513af92"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$2$1.class",
+    "sha256": "44eb4453a959806cb78df4dcc15b7d514d7f1c8a11be0c7802b60a058bec5855"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$2.class",
+    "sha256": "9a8c9fa0a74f43baba66ec4b5d85e6ddbab58e6bb34b703b5970b553a9c91580"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$3$1.class",
+    "sha256": "0ae885aa2a0d2cf61f98d38477b8902c72906671003ce099797f4b36061616b6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$3.class",
+    "sha256": "1f8cfa2af72c3f11e2a891223a8754b6042028291c68d90f2a1710c30b60993c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$4.class",
+    "sha256": "60b26c2b0e6bdb5cb7c51b8e3436af2d82a26c21e629c34f56f3fb9be60562f6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$5.class",
+    "sha256": "f6ad93bc299e6dff0c769b097affbdc66248167c95f3840cdf995b2eb5cfc4bb"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$addStateFact$1$1.class",
+    "sha256": "8972c2e72bf92a462da57be5f77a83e9d7bfcf95f21e2b6692bec1fd7b4aec61"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$addStateFact$1.class",
+    "sha256": "212e011abd235256487baec012071559134c478c99b75f74f3a3d9222e0c36cd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$checkForUpdates$1.class",
+    "sha256": "884588b7113aac3ff4d4f9ac322c865c231723d0d6d3074d59d34cd8dd9811b4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$clearHistory$2$1.class",
+    "sha256": "c5b36f8175c9c64b05919e831398b2e3aa5aeec0ec5a249c0e85b4c5eb9bc81d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$clearHistory$2.class",
+    "sha256": "ad683cf43aa77ae756d6262565e8b1d1f5d2fe20b96242ac14024f34b5473a10"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$Companion$WhenMappings.class",
+    "sha256": "e9e370559f58e788cd4f2dd93b1a04efbf8c2afbae7e48606136539f69478589"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$Companion.class",
+    "sha256": "c1470d2b227d5f2d2240a05a41235c992d9311b15f449c16aa293e920968e8f7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$completeExport$1$1.class",
+    "sha256": "b9797794389373ef0b0ce276c4f143208eef8c4ef4835fc2235615eb22e1e282"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$completeExport$1.class",
+    "sha256": "6994ba10d69007be2743bd7e94b725f6f71ceb6ae5eefcd39d7904f7ff26020a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$deleteMemory$1$1.class",
+    "sha256": "742f90f181004baf876f061d566f75215d32a215195d9647e1a58b7952a54617"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$deleteMemory$1.class",
+    "sha256": "27008c66a8607d97e9f0b6061e788a0cb05079ccf6e8ada16b20db17667df290"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$deletePreviousModel$1.class",
+    "sha256": "200b2a426bf7911fa551d0b148f4e13896bfd7b5940a1037373b74969348a931"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$downloadAppUpdate$1.class",
+    "sha256": "a637479bfddafb50ea4041e00331e19df8aba88b37ed08cb7dbaac05a6f0499a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$downloadModel$1.class",
+    "sha256": "d868f8c54cd521a08df023af9e6e5b09aef96b6cac65aedf1078a1a2831477dd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$downloadSearchModel$1.class",
+    "sha256": "ce1bf36475b8ff74b86efb2769d1f8550e82c168033926f18a6f7ef60d9f7b25"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$editStateFact$1$1.class",
+    "sha256": "d252c73207c0a0a5038010f95e0076369a2ac23f341ddbe64c9013e6bf69307a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$editStateFact$1.class",
+    "sha256": "2f3c8c60bab0059056b381dd6fa5079338c084040169de33c7cd2b1fe4b09472"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$exportCurrentStory$1$bundle$1.class",
+    "sha256": "26e760e3aa223d270e333c0c084b10eaaff9f54d4200c50051c9c74de307f597"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$exportCurrentStory$1.class",
+    "sha256": "89d83a2d28600e90f96a6fc6f39beac37e962ceae1bda43e0f9af7e1a4e8d1f5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$installAppUpdate$1.class",
+    "sha256": "93c5d6d1d1953a7f1ab2ec4647a424543ceba6c07e46fbe9328f7a6dc4e8b599"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$loadModel$1.class",
+    "sha256": "9cd255a425a7c3f24e1a72e955f52837c7195cc09ce4c9e8600dd5d2ef7695a9"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$modelAction$2.class",
+    "sha256": "2d8509129f65df16c7c6f5e4f9d23a96ae1ae92b225999741dbe1ab83b49b3cd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$onCleared$1.class",
+    "sha256": "3eeb4bb91abb8f02268d2c3b2b1e5a63a707c305578a5c3d5d7b08fed0ec8729"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$openCharacter$1$storyId$1.class",
+    "sha256": "bce4f0cc3f7258ff8f605c908450f3f3502daefa59d5960f6f3bef7d0301a051"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$openCharacter$1.class",
+    "sha256": "c3421343b72ff69e5a593cb6af78963081d7f7093a8ee3dca83ebdc53a9e391a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$openStory$1.class",
+    "sha256": "03914d047cefe756bcf168062f500401f4aaa70f8f7325a794848c70881e4d34"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$optimizeModel$1.class",
+    "sha256": "4f79b774ee3fdbd628609f51f2fb7d9bdaec0dbc33af2714277b88d3cc631084"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$prepareSearchIndex$1.class",
+    "sha256": "c6b9532fd2efbf2d900690cb760cef7af1a3677b9f7f15995ad13e0ab788f168"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$processMemoryBatch$1$2.class",
+    "sha256": "c1c856ffdafe252d4f3bdb7b8a812fbe42518ffbddcda07b2e9104d06dd16ecb"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$processMemoryBatch$1.class",
+    "sha256": "13d6a267773b5b7a2d99a9bebfc10a25207e4f30680e7a50098b3c1022b2e0da"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$recoverSafely$1.class",
+    "sha256": "7391eb7f5eda282f09a0bf39bedf99f3942856b43d82d1847fcea27c61d452bd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$recoverSafely$2$1.class",
+    "sha256": "06c732508f30e712c66aa307f11c6b48ac18d69a7afd5e7575bb7754e1b21ea7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$refresh$1.class",
+    "sha256": "61212b5fd311073ab5c4c201cd5ad8277194a3c120896f112182cd4198be284a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$refresh$result$1.class",
+    "sha256": "881685505155aebcb5aa149310c90911a822bb96708bdf07bbc28a1bceeff9e2"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$saveCharacter$1$1.class",
+    "sha256": "04d835f5bf4b87501ea96462a854f1bf7c97c444bbf560b4daea35071f9076ca"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$saveCharacter$1.class",
+    "sha256": "096fe2e06016867dc0a27609dc8486b59f09945f8d8df30b3e8ba42f1ad5511a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$saveMemory$1$1.class",
+    "sha256": "f01fbf057f35cacd1d0b4421924104cfbc17898668aed31b142b09afe7c010f8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$saveMemory$1.class",
+    "sha256": "a24e23af0418cf198868c51f8c5d09e5d0500329193980a3356c81b9212cd393"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$saveUpdateRepository$1.class",
+    "sha256": "850810c25d8debcb10b9991f4e4dede232dad054c070425db8efcf12208f3323"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$selectModel$1.class",
+    "sha256": "7b0c20a748044115e20c29ff7890b15c9c0e91ec0cc1361442db708396b5dfc7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$selectStory$1.class",
+    "sha256": "f56b1d4bbcd3db42c7b8907b38404e5e0495f598847fdee3ea65a318ef701024"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$selectStory$bundle$1.class",
+    "sha256": "489440b2d2a9d303d0d80e749290ab33c44020a16cdbbf557ae6941c450d1519"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2$2.class",
+    "sha256": "aa5d4d8c82cc342d109e7e9b43aaf9aa73593fc86f3ca5b8d8fe3acddcd0fe84"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2$3.class",
+    "sha256": "a66d44c258f6883ccf2cd614cb89f75d515e2f4683ecfe4553bae5b796185457"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2$4.class",
+    "sha256": "cf86db9023ab4db50ea4bf0baeeb8ed7edd4225eff78901da8a64dd541e04b54"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2$6.class",
+    "sha256": "dbfb3ade367a6986fd5a839e77ca0dfa29360cd16cdb9914eb9c70e3c03443fa"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2$7.class",
+    "sha256": "fbbcc82bb7520c9220b34d91e70914fccba9653df2f6385fe0fb88e021b74ed9"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2$plan$1.class",
+    "sha256": "02d1bfb54ccef59cfbd9c8e94a2794f031e3efec81fb80537757c6d261b8c0da"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2$plan$2.class",
+    "sha256": "a55aab4105e35b56e702161e2bcac1fa2632bae49f10553c94bea088f88177d7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2$promptBundle$1.class",
+    "sha256": "9e5cefefa49af05fbb01d6e9d8b15bb81eb721f8ba9bd1664303b19ba6773d89"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$sendMessage$2.class",
+    "sha256": "dd54b94169c1025a0144e59531c0f11199f7f96e836247e6213000d50d39c923"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$setIncludeTestUpdates$1.class",
+    "sha256": "51955a0956745a90e5280ca62308d41171b3977eeeb83882502d8412bd060481"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$updateAction$1.class",
+    "sha256": "3296f4e6d2f546ab17c8c607d25a2bdd117242489666a34b37e1bb1dbb99656f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel$updateInstallerReturned$1.class",
+    "sha256": "68a80a994d4518393254c2d2e48265965e418a5c8e9f2ad2e34cead93dd83181"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/AppViewModel.class",
+    "sha256": "d97d34e6554a8200f0ff91e2b5399e6de462b42f9abea6130b8f5f327b36c345"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/MainActivity$onCreate$1$1$1$1.class",
+    "sha256": "bbda7232bef93297f167932230d397b09f3ad95e87c7ff3ffea1e90dc6e91d5b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/MainActivity$onCreate$1$1$1.class",
+    "sha256": "577d23049d6957a7f89b6089a8b6d071272fc39aa5d44317287ab522ff709ef5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/MainActivity$onCreate$1$1$2$1.class",
+    "sha256": "e919e87813274edb1ac71ecfc0af724f1b4964b0ef09c37aafd274cc950edbe4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/MainActivity$onCreate$1$1$2.class",
+    "sha256": "c5a604446a5ca63b3d2ec341b23197dee3a4001f8b775d13f4bb70af61d077e1"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/MainActivity$onCreate$1$1.class",
+    "sha256": "ed886d2359d5f4559d4e835b04765efd2d866d348fd90117e7588096a467a3bd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/MainActivity$onCreate$1.class",
+    "sha256": "66d3296ad47af56260d38151c03f43f586aa333eb2416601f70f24cf04fd5c18"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/MainActivity$onCreate$2$1$1.class",
+    "sha256": "0fd05fa4505e8e09713d4b0099fa5d4cd77e5e121c7ef620ee405c9077cc3b4d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/MainActivity.class",
+    "sha256": "59b0206df83e96d961789b4cc84c118049a86388671c6df8d7c258b05a479fa4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/StoryExport.class",
+    "sha256": "fe463afaf9eab9c82e5b36a41c5c72789dfde063bb053aff732256697c1e2be0"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/EmbeddingModel.class",
+    "sha256": "c5a093fd9e6d0c4147b2fcdefa29884619165f05d4aa4d01a3778977b6dddaa1"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/EmbeddingNative.class",
+    "sha256": "e4fdef25487236ef1a835716fa2dda5cadb532a27fedfd936f2ffabee69bb61f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ExactTokenizer.class",
+    "sha256": "a165c163c439b455ca76e3c0fcc7809badba88bd6dc2c150321863f825a392fe"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ExactTokenizerNative.class",
+    "sha256": "45d5197dd5f5b3bc52d5ce3a6cbc5fb97300e35decd7c409c8350f7be9a5d38d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/GgufEngine$generate$callback$1.class",
+    "sha256": "92b89675168b3857887c32c2a243ce7a75025e402aca43af7c6a6c0711430fa6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/GgufEngine.class",
+    "sha256": "8229c0daa46f3c03a9e0a55f8cb590c2e3b5f7be98c7508fffa2e7c01602449d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/GgufNative.class",
+    "sha256": "e384e37500d04047e8e791fe0734391e4eb8f0183bbe4f3bdf2493723fb5f09d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/GgufTokenCallback.class",
+    "sha256": "8688540b5cb3fe159e4282db12652526a38da6727dc3782959d486f06a4a59aa"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/HistoryWindow.class",
+    "sha256": "9eed9ee9c1370ce334b52b69f0faa08a1a72f8e6086c0b17d349e6b174a7cf56"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LiteRtStoryTemplate.class",
+    "sha256": "d6970f898a5daa98ec4a92da6ff7360d6e8d1025069b755b5dbe2a77af686ef6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelCatalog.class",
+    "sha256": "2b2c8e7cf71699938a7a068cd4203410c9ff858315f019dc3493b8f56a2a79d6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$clearConversationCache$2.class",
+    "sha256": "560747b35c17965df08e83d4c6d5229fd1b1161b603ec4f79e064783c39079d6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$close$1.class",
+    "sha256": "25c195f135edd2af57dcb3610405699fcf06e042ebd8222ce5dff2dbfae1054d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$countPrompt$2.class",
+    "sha256": "097f2b8da470c3dd15a043d543cfbea6059b02c3866419de1cc2ec1bc90cd3bf"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$deleteStoredModel$2.class",
+    "sha256": "c7c057c378f8476e07dde0a80949a7fc6f7612ba4dac2f89705f37b791b5852d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$downloadModel$2.class",
+    "sha256": "82e1145ab1ea9e5a58517f16933d059f5bd9affc15ca996d7e717ed5cbbfc88a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$generate$2.class",
+    "sha256": "284bb340e83e51ca76bfdd8358ff5045b1d921fa62ca630979f5903ab2533b92"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$generateLocked$1.class",
+    "sha256": "e54c6a1ac60e63ecaca7d15af0c7b880ed056b437df8814b2bfbbe7dca5807fb"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$generateLocked$4.class",
+    "sha256": "b7f8664a44067b7a5f1590ef4e53642a6d42c980f7a64cdce795e9c6456f14ad"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$generateLocked$5$1.class",
+    "sha256": "e2542048ed83117a2cd6a5aa28ced2ad95617ad867feeaa4cb6affa76c838cc0"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$loadModel$2.class",
+    "sha256": "a6183093d361d7e9790f9f6577fb789860c4e2eea971f08ed2e92aad0fa7b46f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$loadModelLocked$1.class",
+    "sha256": "9d4cd7eb4716aecb787c70c0aa4f5ea2ada9e4c31bd8069949be9c5d4cc221c8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$optimizeForDevice$2$1$4.class",
+    "sha256": "7d4f81b59b2a687df759e639bdd33a0db17ff197189e573080c472d557cf6c3a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$optimizeForDevice$2.class",
+    "sha256": "567d6187610a78eafa8e3d9a1c3300a824d4d14a2fc3ea0b5893a1e8aa32a30d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$selectModel$2.class",
+    "sha256": "4b976661217c3e8fb71c0056694a659849bebddab2fe4eaf2f90c7bdc6b0efcc"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine$unload$2.class",
+    "sha256": "54820794650f041cb5af323e0c8eb8a9ca70bf05c3c12089fdf22eb69f6f4684"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelEngine.class",
+    "sha256": "5567a45cb44881cb1096967915e234355e8531cdbfb0466d54c7aa2e3c7ce725"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelException.class",
+    "sha256": "b780567e733c507ed2f743764dc6cb60dbc74d3df67f77d9976bee5c06e1ae74"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/LocalModelSpec.class",
+    "sha256": "61e4d8d0d97c21b6bb60b110c0f8e6672d8d61ffd3b2364ea2a332f9e2adff68"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ModelArtifact.class",
+    "sha256": "e518795c5d96d018d229991035511c1084e188b8a1acf6dc7993d96d044fd2e0"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ModelDownloadProtocol$Body.class",
+    "sha256": "eb0c8dc436aef2d9706db43d1b8e3634017c30d8f3a978652d298723d6f8ee8b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ModelDownloadProtocol.class",
+    "sha256": "f8e65ce7fea42128b7be03fcb0165df9e82252adb4d145aab9a4523726010421"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ModelFormat.class",
+    "sha256": "b39dd1932ec0f807027d5699553901f51d6ca1fee157c398692a3152d544ed84"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ModelMessage.class",
+    "sha256": "dfb7b70192a672985da973d79753f07ba598cfab2a8f0874e525ade3d3fb3dbf"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ModelPerformance.class",
+    "sha256": "718ffb600685dc2eaa6bd26f8a329f645de5b4920e78ebcdeb9289227545140a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ModelStage.class",
+    "sha256": "e1238d25800ac849e7d6c3825914ba0f79996212a4d7ce8f860ca5654f05c46b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/ModelState.class",
+    "sha256": "24414cc80e0143f373e037431ebda073b22693898a16125d52f3e342254d4799"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/NativeEmbeddingEncoder.class",
+    "sha256": "4d2dc825c799985ac0e7970ec8ab223b3550a643da5dc1862422f668645aac3e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryGeneration$DefaultImpls.class",
+    "sha256": "19592a50f2735029339468a61373b92d15ac8e0119d22bae6d2af96388dc0057"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryGeneration.class",
+    "sha256": "e7f74a5f5451ed18c3052a3a268a2f0b6316ddd8bd3967c1bbb09c60256c1939"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryOutputLimit.class",
+    "sha256": "0af5cf708b105f10b45b54b15f4d08b7ef4d60f32fce8d815132dbd215f37b9a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$BoundedData.class",
+    "sha256": "5569d037e454476717cc50c633123d40d39c353f97db79eb4de2d961b25b9365"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$currentDialogue$$inlined$compareBy$1.class",
+    "sha256": "6abdcc3cd7589cbecc02e5a3c70c84ebf33eba575d17c1719a52fafdcb9be264"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$currentDialogue$$inlined$thenBy$1.class",
+    "sha256": "d6cd55ac48bc39ee85c50fdc5626bde30ef71941ccc2c900ca55e59b99733574"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$currentDialogue$$inlined$thenBy$2.class",
+    "sha256": "964904e3abbde252bcc4e46df527b474a63cea3889e5e4be85d442bfeb2a06f4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$currentDialogue$lambda$6$$inlined$compareBy$1.class",
+    "sha256": "fcc791962ef21c498f0c1f1a321c5396142e8a3535297b7021e1c487c3b3c0b8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$currentDialogue$lambda$6$$inlined$thenBy$1.class",
+    "sha256": "cd8f97f0db2b8339a01eb057cf17455bd24113143f18e7a56445a914bb95232f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$currentDialogue$lambda$6$$inlined$thenBy$2.class",
+    "sha256": "1e2d8d33cbe215832925d2745c9443a6ba67a0fe93ac25d440fcdfd9c8b63c00"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$compareBy$1.class",
+    "sha256": "90334ad3938e40caac77216ab960492ca1ed09664111d9272f6768c83206b8e3"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$compareBy$2.class",
+    "sha256": "a40f48de9d7ff5eb9026123adf8769b989f25aff77eb34e8fdcb58e956775db7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$compareByDescending$1.class",
+    "sha256": "ea6e39b93594944d39149b1f70647a5cf12d8e312c6929b8c5ddb12de6ae0104"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$thenBy$1.class",
+    "sha256": "188dd8930d6409d003d20dfd8b267064de29801d0ebbc5007d8fefcf55aed419"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$thenBy$2.class",
+    "sha256": "aa7ee806092e8cfc6c9babb836ab5fabe4be7a04c7abeb2c43b9addf93b80b2d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$thenBy$3.class",
+    "sha256": "6d2c7a78e7b51f14b5764c722b213e058675e9c06198416605a7d949d28454f2"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$thenByDescending$1.class",
+    "sha256": "4c032176ccd8c2353ab3228f1a3b77903ab2ca889d94b16d7bdafa5f42d8c671"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$thenByDescending$2.class",
+    "sha256": "17086d89790a8ceec0911fadbf3e938f2125ecfab7d48af54921affcdf061b41"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$encodedContext$$inlined$thenByDescending$3.class",
+    "sha256": "da7c32e6f0325d885384f74c226b93afc5c6abc357ba7817ad517f30859177a6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt$WhenMappings.class",
+    "sha256": "10bc977c609a00cb9f4357056d7d621c4070b882b88be259a96be62530d5e5e4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryPrompt.class",
+    "sha256": "329a7948f98f0846ec7ded03d5944953b9ef01bc9093950ae9d140d689935f2b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StoryReplyValidation.class",
+    "sha256": "087abd4140fe136fe57cf9e7135f4d7bc1b6b78c6f5f1e6e1e735184301cf56c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StorySummaryPlan.class",
+    "sha256": "cb723c1eee65046fd210bd1430347a3b8106287725b56f6a117eea088fdfd922"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ai/StorySummaryPrompt.class",
+    "sha256": "9d4205d2822f02496679f7be4bf1d80b00b35bace651da284fa5af0f0fd77c1a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/AdditionalCharacters$Entry.class",
+    "sha256": "edfb57be80314239955662cc5836b44d7b00fd2a3fb87a1fa8fb44a2a8cb5c3a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/AdditionalCharacters.class",
+    "sha256": "9a4399e8d29fcab0b39251c1ba7cbd825a8d2464d25218cea82cd657404c540f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/BladeRunnerStarts.class",
+    "sha256": "3f8ab1e78a4c4edbde934422c4abcf88be3422f6638b02d41df071f3c30174c9"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/BuiltinCharacters.class",
+    "sha256": "8a6994be5c3ea82a357df1d6625abed9bec6f40077722515122378baeccbf34a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/CharacterDialogueRevision.class",
+    "sha256": "34b1c8bdee267cf28c3e661838ed7dc7a9c2e5828a987ebf7f96bfb0aebf7452"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/CharacterIntroductions.class",
+    "sha256": "7de8cfeb75a2c61fbc33c5aaddbddf223e38d4f6f37d63a1347106ba41ea4d13"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/CharacterProfile.class",
+    "sha256": "424ca3219770e4188ada7133c467f81372fc2e81086c5af574f228b36990d4a3"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/CharacterRevisions$Revision.class",
+    "sha256": "aa3dac9944c622004156af2981d33fce92dc71ad528bdafe87181c8b9acb7ddc"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/CharacterRevisions.class",
+    "sha256": "a1ee08c851bdf8dba417515b693cfea7f92158080986fc745512e2b56f6f42a4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/ChatMessage.class",
+    "sha256": "cf3179d9ad5a193320dd701efc9b7c0ca262e5aafa523eefb56b075f73afde21"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/ChatRole.class",
+    "sha256": "26a56c283d8512b34cb626c9524ff05786c21cc63f09963a41e4193e1a74815e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/CreatureStarts.class",
+    "sha256": "509f17c7c3213d8f339ff06f10b4c1a3e0344faf8c81a8374bc1eb66a9cfbec4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/CrimeStarts.class",
+    "sha256": "50aa9375f79438b0c0078259f313665924f7b67371ba138ad00b3c7498c02bdb"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/CyberpunkStarts.class",
+    "sha256": "446a03c650b52e049021313e0584c983a288a73be5a21d973d4caba5c602015b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/FantasyStarts.class",
+    "sha256": "6a6c397585058b9d1ef1433ed3c0e6aa3800a3d71c8a03f6b676404c484c8cd4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/MemoryEntry.class",
+    "sha256": "91a12adf36500cd9d41f6f89f15966c79f89813b416bb012047be02345adf7a5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/MemoryKind.class",
+    "sha256": "0f547b7edb68ef3534b3c66da09c36b6ebb370ab8a830f5db545126164caaa7e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/MiddleEarthStarts.class",
+    "sha256": "9383b64d1486e863221ff186ad1c69be61d6f272e84fb2a3afd26e1ca4908d8f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/MonsterStarts.class",
+    "sha256": "e3237282cf6777cb800b5cbaf5f618a554645447013a7b9c5bbd02ee040f093b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/NorthernStarts.class",
+    "sha256": "d9e68d9c2dc9d049177f15738a65e7e5536ba815ae7fa0674cfba20ce8645b28"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/ReleasedIntroductionsV6.class",
+    "sha256": "a15144ead6334979af39b1a531ce9014ffd411cd9099793c85f4ae5390d8412f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/ScienceStarts.class",
+    "sha256": "e31dfc4529def897b7f85abebde8462f60da4a67834cd321d0f0ab837b11ae5f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/Story.class",
+    "sha256": "fc8940c57b074c6bb0e1e63731b243b203b487d7a770c05531db6b943951aa5a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/StoryBundle.class",
+    "sha256": "856dc2a91791f2f4b33fdb1825f124b204ee349c789fd2ac30d50539cb795d24"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/StoryRepository$backfillMemory$lambda$0$$inlined$sortedBy$1.class",
+    "sha256": "3a1aa97dbbb61f5e3cf4b19521254246186b6a919da097e5e4600107bf67c5ab"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/StoryRepository$Database$refreshUnplayedStarts$$inlined$sortedBy$1.class",
+    "sha256": "c9056701acc5ad567da4961e09d3e08ca02e63343ebad918d31515fe10a90b65"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/StoryRepository$Database$refreshUnplayedStarts$$inlined$sortedBy$2.class",
+    "sha256": "b61ab1d3124b0997eb420cb22ca206f9329146c1640a0c1055502343e89930db"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/StoryRepository$Database.class",
+    "sha256": "c140bf45a9eb5af5d25454a68403af7ecdbd3b04570036d120a997d2f6854866"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/StoryRepository.class",
+    "sha256": "6b30fb1f45f51f0ec9c1cd3a5830e21fcf4d8f155d477dde1492f43524ab4970"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/StoryRepositoryKt.class",
+    "sha256": "dcde50a0ed2be12e59ec7fe661c188974d139af0f6c64e71dc1b828ce8d4ccaa"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/StoryStart.class",
+    "sha256": "700039f67c6ad1318d04a8d45c407e233ea27f1e9e9536bfe1abe61d01c6992f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/WorldCharacters$Entry.class",
+    "sha256": "2cde0ba28fbf86ff3be6513c4a1d7323762cb927e71c21d5e991f4a0c3210204"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/data/WorldCharacters.class",
+    "sha256": "6f0721501db8feefbfc06646ac1364313317280294679834af6a41827c390320"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/ArchiveExcerpt.class",
+    "sha256": "64cc2cab9922e3b16392f09a0e42aa0d483778dcc6eea6a5da89bbdd0035bd26"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/ArchiveRecall$search$$inlined$compareByDescending$1.class",
+    "sha256": "f36f0c2360f5c08baa17679b202ec982013a791a00f50cfd4c7232379cf14199"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/ArchiveRecall$search$$inlined$thenBy$1.class",
+    "sha256": "0d09788e7f932f620d06467cda5f1e1b863627c717f1161e1a89a900f3261a7c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/ArchiveRecall$search$$inlined$thenByDescending$1.class",
+    "sha256": "c04ae9f4e2052f238cfc707951812f15992d89cc23a45322291afe9718e607c3"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/ArchiveRecall.class",
+    "sha256": "49c62a6c2b082fb3879578c89a3b80ea3033e0ddec9d78e073f84a5c04c9f44a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/EntityKind.class",
+    "sha256": "98753158fda3c3246cb686ce5242db6d799d25edc8f7617c670af3724594bccd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/EvidenceOrigin.class",
+    "sha256": "a0a5cc30a558229a2c2b306c92fb5f5a582255bf236f6121df2a73ac4fe117e2"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/FactRepair$run$$inlined$compareByDescending$1.class",
+    "sha256": "8dd7b2e4fca2791d675fe1df26d69cb3698dc17877e96be17d97eb90fbd1e46d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/FactRepair$run$$inlined$sortedBy$1.class",
+    "sha256": "78abc32b412602c86dda9efa5a88707d21fe5baa00ba5efcf90a63012351de7d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/FactRepair$run$$inlined$thenByDescending$1.class",
+    "sha256": "39c4b6e24f47f49dc2b19720fcc20a981e70ad78379728fec92654ec9d719a4e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/FactRepair$run$lambda$13$$inlined$compareBy$1.class",
+    "sha256": "fad9b47345da63f5e0734e40bb8f0a7dc406a3ea55a1a436b8918a53c54b0f5d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/FactRepair$run$lambda$13$$inlined$thenBy$1.class",
+    "sha256": "25039db2e1cc31e40d79cc87857130498ca164498f9429fa6027f4f9f22ab23e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/FactRepair.class",
+    "sha256": "20349ab7335c4399705344f2b6543ba961abc83530d1d7cc34606456616d6d17"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/FactStatus.class",
+    "sha256": "14d1bb741a868031008bf629dda42700ebf17ee6e9ee76101897b79664b0ea90"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/GroundedFacts.class",
+    "sha256": "6409f1f136d7c01611fa6fbfa7f62292b8f645c117c6fb7edf45826d74fc9da8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/HybridRecall$Hit.class",
+    "sha256": "ce7bef17f04ae8126475f95c6c73f5b5c0f28c0cbbef1c3635ef9f2a959fa85e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/HybridRecall$merge$$inlined$sortedByDescending$1.class",
+    "sha256": "94e942c61ec0be20fde368f26f1e5954a3385d94db0df2f2a7605737580548d3"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/HybridRecall$merge$$inlined$sortedByDescending$2.class",
+    "sha256": "a302c7e64ddbf78d5e7d15fbde2b69e84d24992568a68455a91a813e4c799faf"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/HybridRecall.class",
+    "sha256": "b436704960d544e0d1d0c19aac6621aa579ae140ddb84993f96ff9d7578ecbcb"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/Knowledge.class",
+    "sha256": "81ba287579cfee1120009ec94314536fd9e90e08b9c4b6dc5d27c0ce0d0af167"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryDatabase.class",
+    "sha256": "d5acfb004ff822f82c1b8566af0e8de1e6c7d2032bd32a9e5a45a96df4c1a72b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryEntity.class",
+    "sha256": "3993b9bf0053a6f218026d4dbe29606bcb1e523567c136882104eb61d6c1f96f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryPrompt$planInternal$$inlined$compareByDescending$1.class",
+    "sha256": "5def2a300ef7e36919c59c1879a0eac1a488e029dd07e30d536007c66cb15f48"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryPrompt$planInternal$$inlined$thenByDescending$1.class",
+    "sha256": "609d592ae6f75b7747b1fbd553574894352914f2671b045c79099f5750c31702"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryPrompt$planInternal$1.class",
+    "sha256": "f68d5d1e273e26d4b1f76e591679afc03c103c860d52006e82fba8dbd099c1e5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryPrompt.class",
+    "sha256": "893ae1c8d510008e7b921758481537260b4e811ce912132ab1f380fbf02d92a0"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryPromptPlan.class",
+    "sha256": "734c0e8c5b4a08764b2e20063e7177ac2e5278d0f4f9d824f94a40777f91d258"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryProposal.class",
+    "sha256": "0856eac69b4ba8c48ae056c8177e9bd472f13a37250146f5eb0fe9fcda46d4c4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryReplyGuard.class",
+    "sha256": "4a067553e0d6dcad9d9c45ce27fc463f24515fb0a8ebbde3718b63f4566e90dd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemoryRules.class",
+    "sha256": "69626212ec6c738dd98fdaef674c170320c18d945edf3b13bc94a9b99ab9a106"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemorySnapshot$forCharacter$lambda$5$$inlined$compareBy$1.class",
+    "sha256": "5ca2eb8c1ff17b9b96fda8eef5092921cbdea1693e444e0ae62c6bf001dd3930"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemorySnapshot$forCharacter$lambda$5$$inlined$thenBy$1.class",
+    "sha256": "65126393e2108e02ffa6bf8e90cc0c61c374a98e7d31aa609e1a7a335aa91eea"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemorySnapshot$forCharacter$lambda$5$$inlined$thenBy$2.class",
+    "sha256": "83d529b467b731b7df975b2e7da0c8c390d5b525642058e1f5d683bc0ff31c79"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/MemorySnapshot.class",
+    "sha256": "6f7103dae060afc8455bb0356fac058bbd289fbfb9af26f9c044a07b994e3614"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleAction.class",
+    "sha256": "a82cee0101e2724d5df7572309cbc4bfed556cbe0b4d3088e101d282acab8121"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleConflict.class",
+    "sha256": "2eeb4d2f06531cfcd52eabe2f74910f0db5f1e6569153b2809d2f528a5660a72"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleEvent.class",
+    "sha256": "038871408020f052214809302d9276ef0a1d73318cffb7975956f0c4d4878b49"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleEvidence$Piece.class",
+    "sha256": "07924c34382d7393bcd78d5b507e07ea82d2bf8fbb2507a96bc976dbdcec4887"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleEvidence$renderNamed$$inlined$sortedBy$1.class",
+    "sha256": "9a9c7f3ebf6d15ec6de3b9020a7b743bc2e28eb31dffbcccfada036a600cbddd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleEvidence$WhenMappings.class",
+    "sha256": "825fba0194c64766b43646f1b9db6524d4a9f5f9c1acc102c15cb73b09671d97"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleEvidence.class",
+    "sha256": "ffe43d1f459bf1cb78da6308126d196c4ae53e22400b9b4a2b27c598efadf4ae"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleReplyGuard$conflicts$$inlined$groupingBy$1.class",
+    "sha256": "3e11c37b9b29b204d1aea11c94465eafb31265c352fa9d87ebb74d37d506ed7f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleReplyGuard$WhenMappings.class",
+    "sha256": "3fd149ab21058311c9a7cbf866ea4e52d5c789f8ce08aa263ad625bbd2a19352"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleReplyGuard.class",
+    "sha256": "bd19a72cef63cf2e9062e0d6abaa4e74b82e003dc6f192dd3061f52ed5fa6f65"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/RoleSourcePolicy.class",
+    "sha256": "14da0ec36f06b2ca9c755d6f2d1e415c5452222e818a0c47332eb6a968e25815"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticIndex$Companion.class",
+    "sha256": "09e81b7872625701ca4e944d805d1946d1a28049a8128ace017b8fc17fd1fcff"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticIndex$search$$inlined$sortedByDescending$1.class",
+    "sha256": "3e3f0245569181f9a596e90872fb5cd323d930c1de105a7338e2bc04e29ff4ec"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticIndex$search$lambda$1$$inlined$sortByDescending$1.class",
+    "sha256": "828c4869dfec9c05e6657a229a41dbac56518ad9fa20499ff810c0145a54f798"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticIndex.class",
+    "sha256": "720b46a92967bc98d0e3f998563b569e74dbc0ba23a6b1f62dba5193bb679bc4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch$download$2.class",
+    "sha256": "d6c03d5252fafc2436ca232adaacac84561574c35487675cf22305691e200070"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch$indexBatch$2$invokeSuspend$$inlined$sortedByDescending$1.class",
+    "sha256": "358cebf6ce728b2e56a0cc80b2c1c8c8035fe6aa6a6f345fd8ec6aeb07ea0485"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch$indexBatch$2$timer$1.class",
+    "sha256": "d227b73176833292df54684b7949520a29b57f04efa8a27b8cf16d41f46c62a8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch$indexBatch$2.class",
+    "sha256": "fcceb51faf3803cc15c530d7bcfaf3791ec0a2d80ace5008c140ca987204217c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch$rebuild$2.class",
+    "sha256": "7324f66c9c73de1c7d082648d492c49f5de60e7154252da64a64dcc42bc16ab7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch$search$2$1$timer$1.class",
+    "sha256": "e27abe58283fee852e996f683319ff6f9d20f34e5bdee274e2663950a00d909c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch$search$2$1.class",
+    "sha256": "de15dfc5b4a1624de074aa31b1f068f1c8534fb70da735aa0f274538844d661d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch$search$2.class",
+    "sha256": "d4db689d1ebb06b62df1eea791eb64d14b1c31ff2587ddd7fe6b909df520f495"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearch.class",
+    "sha256": "44934bb4bf260860cfd50446f93bf139abb43f3caf0ab83cc75fd4491a210859"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/SemanticSearchState.class",
+    "sha256": "0b99c2319b7062512cb8b5926517f362e303ddce8b9001a0b6b5a05c624d76ae"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/memory/StateFact.class",
+    "sha256": "5adab0ade2353bb65fae47c402ddcb546c9216e78524d6101cae0a06108ff9c6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/AppActions$DefaultImpls.class",
+    "sha256": "dde1a253665c9f0aeac0e8e575b06dbe9c7162fb7fc9ae7c6b5723cf2b2bbe28"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/AppActions.class",
+    "sha256": "671295a86d9f8b591c0cc4c50d4e87e002c74fc37c9e1298087ab8cf66a5db62"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/AppScreen.class",
+    "sha256": "d039cbf4f1adb2f3a1e0e385ba719d9b18caff7aada584c76b9870b4f2caaee9"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/AppUiState.class",
+    "sha256": "f5dd9c17b26110e2762b18349639bc23f2eea52e0c743c0622b27264fec3c41e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$2$1$1$1$1$1$2$1$1$1.class",
+    "sha256": "061a4649ae19ae0fdc0e686233e850cff83e8557ef57a934f04a72646ca013e8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$2$1$1$1$1$1$2$1$2$1.class",
+    "sha256": "effcdf5337eb100a1dcf36abe350e5210f866ca43cd5000602414b3c8808f4c5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$2$1$1$4$1$1$1$1$1.class",
+    "sha256": "64ba8c430367fb55a467c8ba5b6f7b2c3fc6a8ed1b5d00159dfea70effe32e1e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$lambda$36$0$0$0$0$0$$inlined$items$default$1.class",
+    "sha256": "6a832620b1db41f0747eb6948fd267a5c5ba89e4025b148a484d606f4cef58df"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$lambda$36$0$0$0$0$0$$inlined$items$default$2.class",
+    "sha256": "a0811b86d7df5d8c7097ac37637d67c161aaaa6dcb322eb65a2e9460fd59f96e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$lambda$36$0$0$0$0$0$$inlined$items$default$3.class",
+    "sha256": "794476cfdb75b44539c6c86bf6d540ce0314193dd39dc4768492823b6b08d382"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$lambda$36$0$0$0$0$0$$inlined$items$default$4.class",
+    "sha256": "7cea0a91155d741242b8a509d6b23700f2592e7e83328d8da61bfa024c312ea0"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$lambda$36$0$0$3$0$0$$inlined$items$default$1.class",
+    "sha256": "e6abade5ae0a54b322485b4833ae3d9f4872ba053da672a6f62ccd26ea2b4dfe"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$lambda$36$0$0$3$0$0$$inlined$items$default$2.class",
+    "sha256": "8f43ab89e006a3d93d133f64e0e76922cf2451d7162966c332ed1c547be8902b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$lambda$36$0$0$3$0$0$$inlined$items$default$3.class",
+    "sha256": "d681ef6a2ba5e6a7426460bb3a31a9b618886138c764463deb05db09a5fdb443"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt$CharacterEditor$lambda$36$0$0$3$0$0$$inlined$items$default$4.class",
+    "sha256": "df7e058c3397c4676b4667b6d1c39c0292f4acee02b94bda6a2e44eba7a8534d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterEditorKt.class",
+    "sha256": "df8f36c1c829d50a3187d4c889f36cd5ce6b0574920000a6f1a311b2c3dbc36f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/CharacterProfileDialogKt.class",
+    "sha256": "c3d0d07309f89f2b32f19de709a3b5a96f78fd082e07ae5b12a93f68d21bcf13"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComponentsKt$WhenMappings.class",
+    "sha256": "8d2fb33a17b6fab509a17b7f1817a8f81bd16c4b44e0688b8e3548c74c1fa90f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComponentsKt.class",
+    "sha256": "0fb43d6b92ad7fda76e1326167e8dda4d37e6c11bb9660eb9ea4b5b16c2ee561"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComposableSingletons$CharacterEditorKt.class",
+    "sha256": "d18ad29794d8a7a977ee48991a3076e7a5c99c7e9d738ef4a9a3339ed981d0b0"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComposableSingletons$CharacterProfileDialogKt.class",
+    "sha256": "86ef3fcdf01776958e46c040b0683012c1d2da8a2038348e017e50ab53d30daa"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComposableSingletons$ComponentsKt.class",
+    "sha256": "7209f18873f522bb1f3313312fe201c352733035cbc29e5ab27b9232de24e42e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComposableSingletons$MemoriesScreenKt.class",
+    "sha256": "5072306bdf3082ffed5bbec7d9a2cd5421c757b5278cd35f68263c32990aa6f1"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComposableSingletons$SetupScreenKt.class",
+    "sha256": "d76cdd280582cf70244bb9f409ef378dd129c15170cecf59d62621b589f882c6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComposableSingletons$StateMemoryUiKt.class",
+    "sha256": "acd5aa4e0b7a10239e22bdbf6e964014b7a6052969be48f0f7b5c70f18b6de69"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/ComposableSingletons$StoryAppKt.class",
+    "sha256": "ba03a4d0ac5e7ce9c03709b6748294355f86f06e56ea8ed4d907d2d28703b5ea"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$1$1.class",
+    "sha256": "6b0e9ec76769be3db7256c2f325b5cc3cf154e4c6bae835e3df6f1ca9fff0a4d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$2$1.class",
+    "sha256": "9e5174687fed61c8a80d414f1a6b098abe097f6bde36b9c7062ae0fd55821261"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$3$1$3$1$2$1.class",
+    "sha256": "82de81a5f3e0438fe760e67c7b3e3e8bd77d05fbcf22c1ed9d3044db5cfaff57"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$3$1$4$1$1$1.class",
+    "sha256": "04fa54b952a4c5f24be22c992a30e2beab6ef27362a9e0b06f836cf196aaf65f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$3$1$5$3$1$1.class",
+    "sha256": "0b2cf474167baad8eacde1e5d26ca9d166962ba842745b8a90779b9e3115d4df"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$3$1$8$3$1$1.class",
+    "sha256": "3974565228e4e8f501e9286a0ae165f791e0e8aa6135dc0d46a4163bb0dfe60a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$lambda$23$0$5$$inlined$items$default$1.class",
+    "sha256": "935401bc1fa09d2d7f5d636a0af68bc779ea52d956190ceba93a580bca1d33e5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$lambda$23$0$5$$inlined$items$default$2.class",
+    "sha256": "7da4ee01cecadebaf1bf3944e62f1e648809ff5df51ce60ecd22c01d5775ce08"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$lambda$23$0$5$$inlined$items$default$3.class",
+    "sha256": "3250e836169652bdf528f86cca7cd7bf29444faaf19b6dc8af0de5241868ae1f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$lambda$23$0$5$$inlined$items$default$4.class",
+    "sha256": "69b80257306fe31d7c22704dbaf6146d83ae5e2238624f4273cf7d6ccd1afff9"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$lambda$23$0$8$$inlined$items$default$1.class",
+    "sha256": "0d15716d856e7a24af54b72f29b00e51d3009b73a76631c7f9386024c9b44e01"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$lambda$23$0$8$$inlined$items$default$2.class",
+    "sha256": "c190693e0a4db475188aeba2ebb4f0526b02aa98255bf5e7fce456bbdab03d47"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$lambda$23$0$8$$inlined$items$default$3.class",
+    "sha256": "6681635e10cc8338c19eb798b32fc0a2d34536a69384d6bc33361c34ae473db8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$MemoriesScreen$lambda$23$0$8$$inlined$items$default$4.class",
+    "sha256": "d57ffdcfb6d4bba1bd54a4db1302d8a4a6f6f79e5dbdb9d0c33e7fd821d74610"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt$WhenMappings.class",
+    "sha256": "bb81790740cafe2eec22ecfcc156a160f243b32b852af4e96615c6eced77ca56"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/MemoriesScreenKt.class",
+    "sha256": "fb1338b5f10560891dcb716c2a27f33387dbe9cd303a816d50be5132c345c782"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$AppUpdatesCard$1$1.class",
+    "sha256": "13d4883cce7727d21614548ea47451e99309a558879dd78a803bff9e5bd96e19"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$AppUpdatesCard$2$1$11$1.class",
+    "sha256": "9c70e829f73825282b66d31d7dc78b18ae27d3b2abca5c7c875dc4ddd2e8aeb2"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$AppUpdatesCard$2$1$12$1.class",
+    "sha256": "f1d1c959c9be5ec7509bf552bbeb88599f3a419e1edb129421874b18f4e132cd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$AppUpdatesCard$2$1$13$1.class",
+    "sha256": "74b17f038d7a598c779266890b031de70c78208aacc3ee8f9db06772226fe881"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$AppUpdatesCard$2$1$14$1.class",
+    "sha256": "6d6882e1d80d6030008641abcbe5e3e493dd9d4ebe7403f14da0b8779bfba621"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$AppUpdatesCard$2$1$15$1.class",
+    "sha256": "08f6c24c6e8f98f60ca9da15ff28b5c715802edf3bea71e321d2955c6f821d20"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$AppUpdatesCard$2$1$5$2$1.class",
+    "sha256": "bbfb3a8d0e58ba52b3dad208534bcb998bb1773d592a1dd13cad1e95d4a898c5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$AppUpdatesCard$2$1$9$1.class",
+    "sha256": "fd6ff82ea498d0007207d29a01cdf34a0058bd75119e516275b304c21a36c89d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$ModelPerformanceCard$1$1$3$1.class",
+    "sha256": "9fefea0b4cc1d6d72c036097f349f14c9a39655af990b7fc4cba49bcac6270a4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$ModelPerformanceCard$1$1$4$1.class",
+    "sha256": "e99b5778210d6fdd3e1d8fb3f26eb2c0eb4656c4848cb4f52feaace793b4f35c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$SetupScreen$1$1$2$1$1$1$1$1.class",
+    "sha256": "34b91c85ad2b2bfb4035eaed4b6dd2514f0a98a55b8c8bca5e133c23a50fe76e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$SetupScreen$1$1$2$1$1$4$1.class",
+    "sha256": "5653f5731706cb24f06b6bbf3389c191584ddf4ba9f2f15155f4bd57a0a46833"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$SetupScreen$1$1$2$1$1$8$1.class",
+    "sha256": "6a0dc222d9f91063a69447cdcea5ff9c9b6f0a823e474ed65e8eb640bff3adfb"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$SetupScreen$1$1$4$1$1$1$1.class",
+    "sha256": "8a5192bedbe5ef4b0a1b444f8dc879bb5c009e4f6bb38c1e739648726d325f66"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$SetupScreen$1$1$4$1$1$13$1.class",
+    "sha256": "0537d3a5f72d5b3141dab4b046e34810abddc876f315aaf7be1b2ffe56f325ab"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$SetupScreen$1$1$4$1$1$4$1.class",
+    "sha256": "85770a09a64a21673300d2f209a6bed3597a554509c7cf913c415d19803dd2dc"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$SetupScreen$1$1$4$1$1$5$1.class",
+    "sha256": "40404b52f516b3c57f3a81c699f636eb39182b4b352cac176e130963ea115776"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$SetupScreen$1$1$4$1$1$7$1.class",
+    "sha256": "15b868d58dbe5e211400dcae3a89436510c939e4ea44e5724d0112afc7f120a4"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt$WhenMappings.class",
+    "sha256": "ad7a3b1e9e5274f42cd5c7301ecad160ec1161e330360b92729121059bec0548"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/SetupScreenKt.class",
+    "sha256": "8852f33772eb05bfe4b4b3bacb64645466ce96f5047a74ae3958e13375314766"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StateMemoryUiKt$StateMemoryCreation$1$1.class",
+    "sha256": "3a6e0072fe45a7a9613bdf59422f059e7104abcdb34581ee44d0bf3ef998d574"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StateMemoryUiKt$StateMemoryCreation$2$1.class",
+    "sha256": "bd58d5f876c039a388a31c3e9c05b600b9209b0e24bf85c22720a53df70b7251"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StateMemoryUiKt$StateMemoryEditor$1$1.class",
+    "sha256": "0e0c9382cd34f49c5f6e4c92ff3ad56938df15b7b3cc11ce3d42a5b6cea123e5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StateMemoryUiKt$StateMemoryEditor$2$1.class",
+    "sha256": "cec4c703e6b4752d140ed09de28580da02aadf896e418dea1c65030f71d1b2bd"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StateMemoryUiKt$WhenMappings.class",
+    "sha256": "9b21635d321189eae6dad0d289b8c6c34615d6a2a018b1d03274e55692c5238a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StateMemoryUiKt.class",
+    "sha256": "1c07a44e3e010e7f0dbb9816ca167052f4e34b2e3b4a5bb9683806c049d395b1"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$1$1$11$1$1.class",
+    "sha256": "f27601847426248d7490f935a5510c4cc9c7d6d1f03d6c9752dd0f164667e293"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$1$1$6$1$1$1$1$1.class",
+    "sha256": "f9e26837aa37f93923258328bd93a1a2670bc0b7923371407c60df045110031e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$1$1$9$1$1.class",
+    "sha256": "0849c28e50c02f169bba09974ab24ecf9ccc601ab9d7ba4e7acb33d23e93ef6d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$1$1$9$2$1.class",
+    "sha256": "965374e5a74801bc5c8bf8656838f2e20babd3d8e6cbd01527a0024806ec7bff"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$1$1$9$3$1.class",
+    "sha256": "27808d14ae259a361f3e9243b2dbffe269ca738a5d3629a3afdd04ca13175184"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$$inlined$items$default$1.class",
+    "sha256": "a9332825ff38469250665237d74bd97981eaa937d7d1c4f530dd28416dc21878"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$$inlined$items$default$2.class",
+    "sha256": "4f63439d44244d1be0184d0be5ca13e644944e1b5bc8b29763c7cbd2d2fe572c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$$inlined$items$default$3.class",
+    "sha256": "67280c92fceb65f633652527de41b5c2600251bbb289de1574a48a469ef889ca"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$$inlined$items$default$4.class",
+    "sha256": "53ec4e8920f94d4946d261290be4fbb1951e1d3c1ad734b33407c6b8eb7120e0"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$$inlined$items$default$5.class",
+    "sha256": "d3fb83e794985bfc76f514e86d46fca6d44050ac98cbbbf11fb67f8ce44c5c86"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$5$0$0$$inlined$items$default$1.class",
+    "sha256": "17131efcef37849642e161444ebcb9ec4fed570b16463140c24a912136c072a0"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$5$0$0$$inlined$items$default$2.class",
+    "sha256": "71ba0bdf980fb25aadd5d7a6c22df6ffddea9527c9d06ba122483b8defeba24e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$5$0$0$$inlined$items$default$3.class",
+    "sha256": "3472dd94a27f7c324ce6ac46f3e3aa2481036367cb717aca0bd0a2074abf3f1d"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$CharactersScreen$lambda$8$0$5$0$0$$inlined$items$default$4.class",
+    "sha256": "8abe0e6e7e261eae849747693a8cf73571ea232ce69eb6c507324fa180976272"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$3$1$1.class",
+    "sha256": "dd92b15ca0f16f1248ab0d9f0d98aa91e2bc1fc942ba1a81f06e9d962dbe9ee7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$3$1.class",
+    "sha256": "de9480068a3efd5a16716142c60d9b8d4d95a413006e08e153c4e89b8ae34f18"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$4$1$2.class",
+    "sha256": "a701f35f9df1521165f52ec49d233a2e1eb5e91c23bc3244a6b0fc1fa0e9ffa2"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$4$1.class",
+    "sha256": "4cf21bcb8b1c875c39d951e521e1e560c3073670bdebb8c1bb0913e77ce95a3e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$5$1$2.class",
+    "sha256": "a0831a79425f48b6535517d8fa1b730c6d1dc052b966639795e24110725c3ee7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$5$1.class",
+    "sha256": "e09dbae6c6852877e71ddb06cb4a56d298bf2133766ff359d5053833ee53829e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$lambda$17$1$0$$inlined$items$default$1.class",
+    "sha256": "914959e874debbabb9c668dc14f89d2097076d4b19abd5fdb4a45083fc8f6598"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$lambda$17$1$0$$inlined$items$default$2.class",
+    "sha256": "09a3a5385315c255845e71a5b81a2325821f01339cd855f3d2db5bf45b3b5878"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$lambda$17$1$0$$inlined$items$default$3.class",
+    "sha256": "c466d7f186c281bee4e0e23a14129d0e186bc2635015d702224b4d7a06418f5f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$ChatScreen$lambda$17$1$0$$inlined$items$default$4.class",
+    "sha256": "c7634253b829ba6b2212b32052ae17a34aeb11b2698d56436a051f2c0c6501de"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoriesScreen$1$1$6$1$1.class",
+    "sha256": "4c1526d68365d3d9ad40115ea9647d65abd830e5e269348a83bd29af91e6cf51"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoriesScreen$1$1$6$2.class",
+    "sha256": "fa86ec800a424fd4b35bc351db3328fbe0c9e203638e2b6ec9f3a3bf1525887a"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoriesScreen$lambda$5$0$$inlined$items$default$1.class",
+    "sha256": "158c4d7fb06ee29c4a7f2806d3bb51edf76c5a676131df3c26c6323f5529f2d8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoriesScreen$lambda$5$0$$inlined$items$default$2.class",
+    "sha256": "d4a5effd0d4b4176b7f4938c8d48fab1b031166b833e339908c8e89567ae5f3c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoriesScreen$lambda$5$0$$inlined$items$default$3.class",
+    "sha256": "c910d561f318a83aef0e51b57f5f2fd6181129f64c8d2c7a32fc1238b19eb151"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoriesScreen$lambda$5$0$$inlined$items$default$4.class",
+    "sha256": "3937ba285982ee276d75361367f245d7d4cc8980613d81866e70e8fef62bf3ad"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoriesScreen$lambda$5$0$$inlined$sortedByDescending$1.class",
+    "sha256": "9c95eb98d39f435f1d8d94f865f84ee2d00dab4b72373c9c58a8fd155cc6e4ae"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoryApp$1$1.class",
+    "sha256": "8c116db0e2f37709251eca8af8ece5a84879c897b326dbe407e349b12c5ca787"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoryApp$2$1.class",
+    "sha256": "6533177274b65e546428870b377897467c3b5cd5abb3df8e5f383b6165c3a240"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoryApp$4$6$2$1$1.class",
+    "sha256": "2330811a37df73303242a59a255528a816661902064e80f79b0e6a2df0b73702"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$StoryApp$4$6$3$1$1.class",
+    "sha256": "30b14aad3246913b6abacf8e582d7346e232ce005243f372dc73a488ddc71f69"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt$WhenMappings.class",
+    "sha256": "1f17dccde6aa15eb7303ecd48c6996bb3fb120cc11dc9ba1a19af73fa08c46da"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryAppKt.class",
+    "sha256": "66e917d86389417c65152d709b59b6e70f67e0687a1c91b49c90eb024da1312e"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/ui/StoryArtworkSource.class",
+    "sha256": "d939ee2178d5f1cd5d519080750d0f26634c3baca892f6902207ef2226018085"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/ApkIdentity.class",
+    "sha256": "e0d65602d94ffbd3d97df941d732ec4e050637b321de1ceefd13bb06e6e6fa7f"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/ApkIdentityPolicy.class",
+    "sha256": "6b2b906da335f1ad2fedb4907b731c25c7a0db95fa45e9f76480ff04d89bf1e5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdateException.class",
+    "sha256": "0ce0301cc20f0fb99beef6100307944543df92d6955729c132d1ea8ee12de0da"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater$checkForUpdates$2.class",
+    "sha256": "ae4818729c2cb949c2b0b949654d0735580e7aab790d3b6f3c9643fde4329566"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater$configure$2.class",
+    "sha256": "823ecb65696c693eda0f5ca4dcfdbbe27faefee90c325c6c69a6f3311431843c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater$downloadUpdate$2.class",
+    "sha256": "d6479076f569149e4937f589b5d6827e27265eafcb3790cf0381e1847e02d7f5"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater$installerReturned$2.class",
+    "sha256": "66a028b65d439098e6c18c0bb8c68153caee67588dce2905a89a92dad0a81ff3"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater$prepareInstall$2.class",
+    "sha256": "f53a02ba158c820182615d9c67ec7885ee8156000bf36918e19dfc74600882de"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater$restoreDownloadedUpdate$2.class",
+    "sha256": "f8a0d8d4e23765e06b152956ac42ef8dbbb21bca2fb5c6e0fd99d3138da58595"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater$setIncludePrerelease$2.class",
+    "sha256": "d2b7a59f0af34c3115cec681a084474294fc512e63be9d18a599ebef3a9d9171"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater$work$2.class",
+    "sha256": "eaf9d96ab59fe927e6efc9799734c3493df2ca99150196b71c73459b9a239dba"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdater.class",
+    "sha256": "a328c17f24aedab5b72a4d59bec08ac96cbe98941eb790ecd0ecdbf72a824801"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AppUpdateState.class",
+    "sha256": "69bf8dc4097e272a2d04cdf319b7382e2035ec82ef2b6b6047d4d9bcd7b7704c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/AvailableUpdate.class",
+    "sha256": "4d5a1b7c8951d3bea745a0fb4ed38b8d12a3f847f2e0025eab63ab97931bc74c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/GitHubAsset.class",
+    "sha256": "d404740b52569abc031f29eb20d8f4b8f33748cdd487e220e3f244e2cdb414ad"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/GitHubRelease.class",
+    "sha256": "3e2df32ffcce5e47d7221bcdcc68bbbe9e3b4e0a8c21d23a84b48dc61729a057"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/GitHubRepository$Companion.class",
+    "sha256": "e3a31fc44ed0b1a03e4ca956b3363b853975de1d62eb793f1b263cc4cd6a986b"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/GitHubRepository.class",
+    "sha256": "0188b3caaf0e31ec7cf6c75a41dcf3b51d2a49ce26d5a52622d81a26e7de7fe6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/UpdateDownloadProtocol$Body.class",
+    "sha256": "91793c080ae92f5e747b5b3b5352171c9919f6ba3ed4939fdfdeb3d5522beef3"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/UpdateDownloadProtocol.class",
+    "sha256": "4cd57e7841958e9adf2994d807c97a83f353919f315a61e48bbf76c3826413c6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/UpdateFileProvider.class",
+    "sha256": "a15f5d2e413a7ad456160fdfb91db7f4f81d7c38e757f9489ab84e6ed3ba889c"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/UpdateManifest.class",
+    "sha256": "ead5f5868246ae45b54a6226e7df18a64d4eb0c37cc3acf384329ce02f7252a6"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/UpdateStage.class",
+    "sha256": "ca7dee8fee7c5dc9cb4e218de052e2c8369900a878d9fe980ba127fc13856d22"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/UpdateTransport$download$1.class",
+    "sha256": "e9ebe637f49ae3f3f99d91ddeaf9100899983b3bd7984a3dea3f15e494baa6a7"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/UpdateTransport$text$1.class",
+    "sha256": "16fda871204ab3c10da221b37cb2b7c4a0525c71d00419bcd59b732cd9486ea8"
+  },
+  {
+    "path": "app/build/tmp/kotlin-classes/debug/dev/vincent/geschichten/updates/UpdateTransport.class",
+    "sha256": "f5b1d504bbae355d34e4d680614e4257a9bcfb89b45979107cb397fe46c3138e"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/answer-summary.json",
+    "sha256": "08187a136e88c348739a4d7455cde1bb0f15aa7a3caff7611ef87bae8fa858e2"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/apk-badging.txt",
+    "sha256": "ad0e324f63af0dcfda81aae936370f212d20961f6fd8a48450ab958f2d9b5906"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/apksigner.txt",
+    "sha256": "a67d171a4268b02ffb280142675699d3e5b9ed4b0d85dd1b20540273172a1fc9"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/automatic-scenes-frozen.json",
+    "sha256": "27f32ed1120105debe73fc504c2a92cb2d6019d69ab59888dfbe3e21a6bbbc72"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/automatic-scenes.json",
+    "sha256": "3e47e3b3b14c4cca1a6735cf3cc0bc4385ae4df97abd2d436f4a53ba95021a2a"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/baseline-hashes.json",
+    "sha256": "db351cfcbbd55372ef23e243062f926b3ae8f3622c5e982e9063b0433d5e4fbf"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/build-complete.log",
+    "sha256": "fe02c5b16a486332c635ee9a96172a205777ced8faa70a62deffd2f66d0ff00a"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/build-delivery.log",
+    "sha256": "ec3115edc9d98e31556d6ea140e01781624bcc29589472ac5a1691f88a7f5e03"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/build-final-verified.log",
+    "sha256": "ec3115edc9d98e31556d6ea140e01781624bcc29589472ac5a1691f88a7f5e03"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/build-final.log",
+    "sha256": "ae74e8cac246d69d4da3e542949c4368f4f61246fea83a2413e4bf652f3c035f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/build-sealed.log",
+    "sha256": "9b030b5b4deabdf1ecda53cefdcef6754ce819aba87db2aedf6cf04e8c501cae"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/context-recheck.log",
+    "sha256": "f2702bf4210f964f4b534c3d2018b81c1d5de81a7984ccd307fdf6db53912527"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/delivery-build.log",
+    "sha256": "9d90b8e41dc22cad195d9a88a5047483f5dff693b88c00554241c192fad5b7dc"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/delivery-final.log",
+    "sha256": "074e106c3c8a643330aa65ffc81617fea7c6e777c90924ccd2cb3ed5f420d75e"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/delivery-verification.json",
+    "sha256": "347af605c705868a4766f2a20d7899926b77ab670037b39fc4de73c10d359d55"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/delivery-verified.log",
+    "sha256": "a9f59946036dd0bc4647d7be82ba84a85a5597b6d5214db547dd40bf9e8b97ff"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/dev-first.log",
+    "sha256": "cda175406bbfdc4f9a01b8a4afb3385bbc45b5ccbb756fcfb9916a3998b1b2b2"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/dev-second.log",
+    "sha256": "a3842fa86770290ea8fab842d595d1f09036d5e7ba02b8edcd14321ccc078741"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/dev-third.log",
+    "sha256": "b8beb3d20e3a6c10c48c0964c87236b1fab10c24c8e16c047ece98a85ca9078d"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/development-interpretation.json",
+    "sha256": "a46dd33ca1c7d2280e2fcf3f250911fea0953112cf2b2b744bd286db3ff4f7fc"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/devices.txt",
+    "sha256": "bbfcc7239a6f1be3544814ebdc6bcc9b66bf5b1f0b03baa3340808f19265a630"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/diagnostic-A.json",
+    "sha256": "d72c68080f6b839c0f8bc15ea9da4180db9386e5048b0d9c7db61db404bc6fe2"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/diagnostic-B.json",
+    "sha256": "7a0e7cfb07411e12fad113207f1aae8b3b8b687ef37aad135a0c63079033c04e"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/final-candidate-tests.log",
+    "sha256": "bbfc0dcd50152d59173afc33619faad5bda9f6bad1d7138473e8b46a0d84936a"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/final-input-check-gemma-4-e2b.json",
+    "sha256": "396786781bb7b3e51b4b329dd5150feb40df42b205a3b8ad9472659f21367c54"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/final-input-check-gemma-4-e2b.log",
+    "sha256": "a3421be722e2417f9701b02d9ac938502c031922699e2cf9c24a26927e2cdc4a"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/final-input-check-huihui-qwen3-4b.json",
+    "sha256": "438d6c0e7be0528ac82907cf0c829b8e9f6933ddec1174ff15a7f6b649bb5cf8"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/final-input-check-huihui-qwen3-4b.log",
+    "sha256": "27e7166ba0177ff3b4fc86b772b7f1a18734290301ef64f1cdcfba60cfa8f022"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/final-input-check-qwen3-official-4b.json",
+    "sha256": "b8b40225b9a53acbe21a18c8c700399e056d94a525be233f769e451bbf182d22"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/final-input-check-qwen3-official-4b.log",
+    "sha256": "27e7166ba0177ff3b4fc86b772b7f1a18734290301ef64f1cdcfba60cfa8f022"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/final-rules-frozen.json",
+    "sha256": "9cd565d3166fa32d6a2a807384378649d620a6cab92f6ae52d41dba2b0ebae58"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/FinalPromptVerifier.java",
+    "sha256": "4f885d5e60e07f8bcc173180582fa253bad0483c2c0f205730ffd4bffa253ae9"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/gold-regressions-reviewed.json",
+    "sha256": "1081d6c93c2a1ec10c0b83bc850cc604e6c76efd181065a1a9b69a49b6bb62d3"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/gold-regressions.json",
+    "sha256": "8943c9fef9de408867e1b2a69036e0c8ae85bd772791133369284c5b7bbd47a0"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/gold-review.json",
+    "sha256": "b96dff4930b9f5ad764a7f8b73e352523a23ea55e7f224004b14ede85055373c"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/heldout-database-audit.json",
+    "sha256": "db064029bc9db68817f1d1b4a0c815c044581fc665362b4b0da5415845c6ac93"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/heldout-first.log",
+    "sha256": "0fd85235ac4987626a56a6c9f2d25f1e94d8b53d2790fd0dbf209fa6e741dc86"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/heldout-scenes-frozen.json",
+    "sha256": "822c0e8f0fde3cdc98510c037c6327f79cf305fa6c1fcec3ff4886fd82685780"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/heldout-scenes.json",
+    "sha256": "a81d3880201b5973aacf3d18b5e8bba4c7c773e4799940cfc1bef9c3738cbf6f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-complete.log",
+    "sha256": "49918d23f66e0d0a964e3e2fe8e0bb4ae2dfe7b8fbd1b62ee674bc24f275d15f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-delivery.log",
+    "sha256": "18d15ebdae88090ec69d21cdff3fc218bd6b4c88ad5c2b4e5bbbe64b2317a375"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-final-pass.log",
+    "sha256": "1eb121fcd21acf51c5178b1771a5c5684d1ef57826723202cc3ae5a4440023c1"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-final.log",
+    "sha256": "6eb1759ea45be7982b2963f058488c7f03fe3af649555ec092e3314a126d44dc"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-first.log",
+    "sha256": "bb6ec7d6c76424d1e092faed464a84a1eabcab5715b7b87ce5932d3403b45e83"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-verified.log",
+    "sha256": "88e9001a32822bdc75e534ea4bad4056691a51473e900dfae6f04a52287449ad"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/new-cases-frozen.json",
+    "sha256": "dc815c7ce5882f06d9a01ab2334d7e2a6ace9db408f9ef30498ef5fdbc80ac85"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-first.log",
+    "sha256": "1b9d03726971c652a1003a435f0f606ca69acb177bcb619867bfd1ec260bd749"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/QualityProbe.java",
+    "sha256": "5fed4b76b205c04d2d1d07aaf3bbe1ea3d856301b41ee87e5239a4ec5b41772f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-A-gemma-4-e2b.json",
+    "sha256": "14f2cb96bddc84ab10405e34472594a1c29fcb2b97f9510500a6f4e1c9122209"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-A-gemma-4-e2b.log",
+    "sha256": "e9ad723cfffa6e45c714b84ceb9ec73691a1fbe22efb15284ce24a4432b50a81"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-A-huihui-qwen3-4b.json",
+    "sha256": "48493df83509afc80026de3e850219b5b0871a9f16e52378235433a45d87e50f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-A-huihui-qwen3-4b.log",
+    "sha256": "9352db7eb83aeeb7840390fe1b284f5f5bcc2b32cc5cb7678233aa2ae54e4ca2"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-A-qwen3-official-4b.json",
+    "sha256": "3bbb6504f6c99ed9f1e1e5e4dacaa9f38a36458d2c57572e9537ffda62debe5c"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-A-qwen3-official-4b.log",
+    "sha256": "bf4d0b31e2a3809103ec6a9790283fdd327939ee6d42235b9c03b50ad91bc921"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-B-gemma-4-e2b.json",
+    "sha256": "de0b8c6803b2029a36299fa5c39e403c7948c2a1f4f4b339e8677516c589a724"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-B-gemma-4-e2b.log",
+    "sha256": "2ecd3334295767d2ab2c73d506cd99d3eea0c3bec7c87d4ea7d9f144d6d7935f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-B-huihui-qwen3-4b.json",
+    "sha256": "f2510d960781c61547e803e7a7fa50f282560d296721e0f1c5450110fb982e69"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-B-huihui-qwen3-4b.log",
+    "sha256": "9352db7eb83aeeb7840390fe1b284f5f5bcc2b32cc5cb7678233aa2ae54e4ca2"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-B-qwen3-official-4b.json",
+    "sha256": "031c3c1fed5ecfc3a764997767555862fd993b6b652c74efe4fed7b47d37b548"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-B-qwen3-official-4b.log",
+    "sha256": "f2b0103875bbbf4fa5ffbf8079b30241e1c111a97960f4d446c5d97fb7d4e985"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-C-gemma-4-e2b.json",
+    "sha256": "83c269d3dd9ed430e5d0e1c64a435f24e8b0b920f3ff28f0c9cf0c2b56c03c08"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-C-gemma-4-e2b.log",
+    "sha256": "e9ad723cfffa6e45c714b84ceb9ec73691a1fbe22efb15284ce24a4432b50a81"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-C-huihui-qwen3-4b.json",
+    "sha256": "65ea14e165c536ace03a2f4875aed9ecb27b6fa8ec59be2304978cc94720aea2"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-C-huihui-qwen3-4b.log",
+    "sha256": "9352db7eb83aeeb7840390fe1b284f5f5bcc2b32cc5cb7678233aa2ae54e4ca2"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-C-qwen3-official-4b.json",
+    "sha256": "cdc17da3d100accc652fc7c3f03cdae78104124a1dc3424253743db0b4c77d73"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-C-qwen3-official-4b.log",
+    "sha256": "f2b0103875bbbf4fa5ffbf8079b30241e1c111a97960f4d446c5d97fb7d4e985"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-D-gemma-4-e2b.json",
+    "sha256": "fe915e9d35eeb298273fdf04b5ffa9e91c6581ab40d6ba45ed93baffc23e10c5"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-D-gemma-4-e2b.log",
+    "sha256": "f4fe1ec4e00cba0ee5bbf2d867dcf1e55b6d48c1618935f923e1f72325eb4aa6"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-D-huihui-qwen3-4b.json",
+    "sha256": "b55503910b945e22f9374d110e4dea331f07a2c2e3534a689d2ee6b767f59a38"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-D-huihui-qwen3-4b.log",
+    "sha256": "bd599c542ebb0dae17f317b1c16b70826da5d3902603abb3b2c569ec02c51d69"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-D-qwen3-official-4b.json",
+    "sha256": "b1437d9f419deda6bbe537adb54c33cbd633903e0f6477ae6b93393b3da96089"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-D-qwen3-official-4b.log",
+    "sha256": "bf4d0b31e2a3809103ec6a9790283fdd327939ee6d42235b9c03b50ad91bc921"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-final-gemma-4-e2b.json",
+    "sha256": "3859ce06f8576245366720a390cd31e44912b9f91bd2cdae1cc44d37b5e7bece"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-final-gemma-4-e2b.log",
+    "sha256": "af08b454d710300876f53bef85b957678e8ccc11435bf68a823516de3fc79ea1"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-final-huihui-qwen3-4b.json",
+    "sha256": "aea950539618009c6c8caae034043fd653b53bc55c119f27c2e7f8a7028087ac"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-final-huihui-qwen3-4b.log",
+    "sha256": "19824b42a9d086e74bd916eb007b2f1f73bcf9403332ceb2cfa82f796d4afbb2"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-final-qwen3-official-4b.json",
+    "sha256": "8ccfc09d39fbd2ffa55dce11040051c23f656f09f74eae8c7fa7c98243221b7f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-final-qwen3-official-4b.log",
+    "sha256": "999dc0d08ec3b922861ff1f6a187c0ae55151727e96fbbb04284471b80fb6a16"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-gemma-4-e2b.json",
+    "sha256": "f2e3510634ef16873660a3468d4b3d31e4caa6784bb64bc00ef64561f8034c9e"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-gemma-4-e2b.log",
+    "sha256": "0747a1daaeff58bf83cbc9c8368b432edc07ba999702fbba221f4c8a706ce0d7"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-huihui-qwen3-4b.json",
+    "sha256": "54dea66b9b5c46467dd7db5d85e8e4072e73b6f2e5bde838d07a9792ad9dfcc0"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-huihui-qwen3-4b.log",
+    "sha256": "e25c1ded125a08f04972095a658dee43a985d964e799c9ffa34cc448c2b8cba6"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-qwen3-official-4b.json",
+    "sha256": "1d315cd348acf8248579d8f877b0cf4a1321879a8a0856206e13b561c5a95c48"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/raw-heldout-qwen3-official-4b.log",
+    "sha256": "aa65131923ec9da17a98805b4952da70abc4bffcfa811abdb8c9b7504ff595b7"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/regression-interpretation.json",
+    "sha256": "890d7df5aa948d4777370870256b9172f7b5ed60a31067be300782e4297196d0"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/repair-database-audit.json",
+    "sha256": "66ace20c3d2c46e6aac31ea776647d20f85104d4e2491b03ff407f323e31444a"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/repair-first.log",
+    "sha256": "03e4ebbd28d073ba23e87070f705f86ac1234b9f706b7021d815a18fef7765d9"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/repair-second.log",
+    "sha256": "edd44ca1b90da5a4394dcab8a93972316a380e076ae264011383b7b4be5d56b9"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/repair-third.log",
+    "sha256": "16c8b59617fd34a3922be6ef46c7be81226346bd3f640184d5c66656d435ca9b"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/rules-frozen.json",
+    "sha256": "9bdb2ac57e258fee7d950f4074d67fcf8dbf071838f54dc06cef0d6e882bb09e"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/run-probe.ps1",
+    "sha256": "7cc1df818723ce261b963fd4700935f756c7488916cc8c00d022c20c1c47dc22"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/semantic-regression.json",
+    "sha256": "6209af97fd1924f6ef09c8cd891732555ad949cdeabdcc819577fd37b0458596"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/source-and-model-verification.json",
+    "sha256": "35a0a4c28c691347ce3c5d7948a5a6964d6c68298bcb9b27bc8a8193dce45e55"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/split-frozen.json",
+    "sha256": "62a64eb7f748d8f3fdef4412528a8ddc7f0bb5db56efa713efe5cc7e21e7f73a"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/verify-final.ps1",
+    "sha256": "306209583a8f841268c16558384f4bd1e5da63bddcc77acd0d65ec06917787c8"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/whole-answer-assessment.json",
+    "sha256": "3ec7f1a5ebd7055c3ddd37dd7ba9c0a6c06009a36b07bf9cf20b02d01a372d5a"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/zipalign.txt",
+    "sha256": "1b3c1f0341993a1fc87d6abf54fc5d71d80344c6cdb723ed6236d3f2c9424283"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.ChatContextIntegrationTest.xml",
+    "sha256": "1a7ef7729391b0fe174f36d1d9f22287d9b14e7e241011d0c19951dd3923c352"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.data.CatalogMigrationTest.xml",
+    "sha256": "1d3de12b14aca6eae7deca7a2c6e25bedb275063486720b1cd1ae7735e1e542d"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.FactAcceptanceTest.xml",
+    "sha256": "e0b5c0b3f67a85c2bc19202096b4806406f815022419e08c7ef5665e1975cf82"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.FactRepairIntegrationTest.xml",
+    "sha256": "bf6aad44db650826705fc8e1118545f16f3a048a00e80ccc46ce62f02f038e53"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.MemoryRepositoryIntegrationTest.xml",
+    "sha256": "7d8f40792c859f198db341703e8e940037e3f6982bc1da96e907449d721dc979"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.NewScenePersistenceAuditTest.xml",
+    "sha256": "726543087a4238d783d3017596096608980f63df6a97dbffe83ddcb648d26cef"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.ProductionSemanticVerificationTest.xml",
+    "sha256": "773083661de23e970b9f1cb248ffb2351f21ba01faadbc697926a711e182a8f0"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.RoleAnswerCorpusTest.xml",
+    "sha256": "43d02be70e4bde960848245ea0025f8d4372e53d4a7a89accad0f43588546e8e"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.RoleContaminationInvestigationTest.xml",
+    "sha256": "57e17cbd05d58de41dacd66dfa396aa5d028f14bdd627cb68893403c2e4b71e9"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.RoleEvidenceTest.xml",
+    "sha256": "89470f6eb845bcbc5b60a00516d3ee9c06bf699ff621508622406ef118bac558"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.RolePersistenceTest.xml",
+    "sha256": "94502e647efef3d1fab738574dca90c23a88de78b6bd9a8dd621665e7a55add4"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.SemanticIndexTest.xml",
+    "sha256": "0e0f12e97ed9ee673e085b568e62a29807adbb4b8e7ec87e7ee89e4010fd12e0"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.memory.SemanticSearchFallbackTest.xml",
+    "sha256": "a9bfedefbb5e7d9513da10244ec22162cd032ef5a33919aa364765a3e0c23da1"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.ui.MemoryUiTest.xml",
+    "sha256": "6e47345605eb58b34ab0de36d50516b47f1eb7e76b83fbce91b1c83b341d937b"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/TEST-dev.vincent.geschichten.ui.SemanticSearchUiTest.xml",
+    "sha256": "517c8d65fb3a484521da0b307efed950c345d818ee60eea8113910d7cb31194f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ai.LiteRtStoryTemplateTest.xml",
+    "sha256": "acacbb4fa2ea7963548af37c4ed884dc209f4377abd59607f5a75787573fe816"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ai.LocalModelCatalogTest.xml",
+    "sha256": "3ed05aac8aa7f02f95accc75c788e16e68e49a105eb4c789bca891277ab68072"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+    "sha256": "93cb3c1f6b561b50e5075a108aa381ff2937c32fe7f6e46fa133a9df242f649f"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ai.ModelPerformanceTest.xml",
+    "sha256": "4e9a08de66c6b91ebdb2fa1c1595da2fb017982218e46007b760db80cc89a540"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ai.StoryContextAuditTest.xml",
+    "sha256": "dfffdcdea7f3b7d75015bf81d591c21207f64178ccafece0aa21e60ed8c5ddc6"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ai.StoryPromptTest.xml",
+    "sha256": "475dac4d1a4a9737b2f975aa56593b52d6f717c4e5ef659a84e2676ef4614aff"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ai.StoryReplyValidationTest.xml",
+    "sha256": "eeaed362382751b1ec0133dcac7a86eaa61c1ddc02b690843aed2b9e7cf380f3"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ai.StorySummaryPromptTest.xml",
+    "sha256": "0474cf5ab47572839c7d9c946eb33ef84aae5294f1189d1b509f909925b03803"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.data.BuiltinCharactersCatalogTest.xml",
+    "sha256": "484ab90d1f62e71a79477a6cca0d3c0966569ce067c391fa9509d94bcfbf9774"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.memory.ArchiveRecallTest.xml",
+    "sha256": "919e8b23351ad9c29dffa6421afce2df70e1ecb98e3d00879d55baa572519c99"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.memory.HybridRecallTest.xml",
+    "sha256": "b64130a13a18e8eae4c12413b43d418be3aaa6982f964d1ef7a8d087cc4adda1"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.memory.IndependentFactGoldTest.xml",
+    "sha256": "b9e6af5e44236faf97a9e28a3c72137e9a50b6d61f43e66576d217bfcc40d2d9"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.memory.MemoryRulesTest.xml",
+    "sha256": "ba0854653ce215e4370ac6e2fbb0eaf3fc18aa00829f273ac1f6f75758989042"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.memory.RoleEvidenceTest.xml",
+    "sha256": "bc41f52971b83c27d4105687da1bca5e36de7ffe8dd1be69c74531999b151f25"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.ui.StoryTextTest.xml",
+    "sha256": "06efb2184d17ae6c810148200227faefd72a5b828fd9d50be3433986890df273"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/TEST-dev.vincent.geschichten.updates.UpdatePolicyTest.xml",
+    "sha256": "e6d65643b2b6c001653a43a41583137f663e15827bb43a8270ea92334387fb4c"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/regression-output/answer-guard-corpus.json",
+    "sha256": "7a7a62daa80e2a152928c9e359a26ff58c7607c1a3f2fca30e2f6123daf16ac6"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/regression-output/contamination-after.json",
+    "sha256": "735d62341a6bfd7703083765ebb55a45dbed87b46b1ed706b38b2c2d5e7c11f4"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/regression-output/database-long-run.json",
+    "sha256": "ed421eac355fd22fe48b825945b3669fd27b4cab67fca15279d882c20532411d"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/regression-output/database-scenes-audit.json",
+    "sha256": "f7f3a5f08cf05932d26a06ac1619c347a8ca183a179fa1b743ea5af00e4bea77"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/dev/vincent/geschichten/ai/ContextNativeProbe.class",
+    "sha256": "4bc2571563a3e2aaf3a5e755c6b8770e73181f267fed958ec77046d5a43f9231"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/dev/vincent/geschichten/ai/FinalPromptVerifier.class",
+    "sha256": "0b78679af9d4bb832a5ba67a24c13613cd97f2ec7b67efd85582a03b944325ed"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/dev/vincent/geschichten/ai/QualityProbe$1.class",
+    "sha256": "8cc58878ecba077e609ce810afdfb813a5a68a3c38b213c2639a2b81c3df9bcd"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/dev/vincent/geschichten/ai/QualityProbe.class",
+    "sha256": "6ab097ce6ac04cd26f61bce839032d5b2c663a3e6b9b1810e47cd6eadf7d4852"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/binary/output.bin",
+    "sha256": "92e5ad39f30d0f4eda5d0cbf59011d8995e29f9d2e211aaf4addb520cc9df98b"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/binary/output.bin.idx",
+    "sha256": "523221dc5c596f4c5fc5e1f3a6931d8863b222f3ae7d6f6f04b04ff6bc06c714"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/integration-results-final/binary/results.bin",
+    "sha256": "5ae133a1ae7f3ca8fb1c86aace9feec52ea4297c7248e7594ff5d763c9098344"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/binary/output.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/binary/output.bin.idx",
+    "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+  },
+  {
+    "path": "docs/validation/facts-0.8.4/normal-results/binary/results.bin",
+    "sha256": "64fcf43ed21119733a2b4387d969981ede52d72d53d1776560724f35a900bb30"
+  },
+  {
+    "path": "app/build.gradle.kts",
+    "sha256": "b142917d851bbae05452a7131a8cc7a481e0f4a115279fd6c0a6070bafd9f9c4"
+  },
+  {
+    "path": "README.md",
+    "sha256": "fc608111f17e41a83d2ad2c0c79b1c5d23406b6ccff42b91b4b5bb120884cbc5"
+  },
+  {
+    "path": "BUILD_WINDOWS.cmd",
+    "sha256": "d48ec88d958bb410adfad9469d721dfa50e5472c4a909219d18ecea0d28cc14d"
+  },
+  {
+    "path": "docs/PRUEFBERICHT-0.8.4.md",
+    "sha256": "cbe0dcdcc5ee58c220dcf334b1abb6d6fa21e2c6e082108dfc7e0935b46c3dcc"
+  }
+]

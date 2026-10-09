@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "\"Du fragst, ob es dort eine Signalquelle gibt, aber ich habe es nicht besungen. Ich saugte jetzt und lasse es los.\"",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*\"Ich habe den Signal-Ansatz des Nutzers überprüft, und der Antwort verzeite ich es nicht. Der Signal-Beleg wird uns weiterhin entsprechen.\"*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "\"Ja, du kannst es lesen. Du zeigst mir die Stelle, dann lese ich sie dir vor.\"",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

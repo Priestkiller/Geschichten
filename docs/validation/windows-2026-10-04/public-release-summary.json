@@ -1,0 +1,12 @@
+{
+  "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.2.1",
+  "draft": false,
+  "prerelease": true,
+  "anonymousApiRequest": true,
+  "requestApiVersion": "2026-03-10",
+  "publicManifestMatchesLocal": true,
+  "fullPublicApkDownloaded": true,
+  "apkBytes": 138454734,
+  "apkSha256": "e60bee138a77efb0f5ab7707489b645afcb36480210b295603cdca88d6f81461",
+  "physicalDeviceInstallTested": false
+}

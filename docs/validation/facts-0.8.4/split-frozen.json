@@ -1,0 +1,41 @@
+{
+  "regressions": [
+    "dev-transfer",
+    "dev-reverse",
+    "dev-family",
+    "dev-owner",
+    "dev-negation",
+    "dev-correction",
+    "hold-transfer",
+    "hold-reverse",
+    "hold-family",
+    "hold-owner",
+    "hold-negation",
+    "hold-correction"
+  ],
+  "development": [
+    "dev-gift",
+    "dev-pickup",
+    "dev-return",
+    "dev-perfect",
+    "dev-many-injuries",
+    "dev-question",
+    "dev-ambiguous",
+    "dev-description",
+    "dev-secret",
+    "dev-negated-gift",
+    "dev-person-pronoun",
+    "dev-temporal"
+  ],
+  "heldout": [
+    "accept-gift",
+    "accept-handover",
+    "accept-body",
+    "accept-healed",
+    "accept-hypothesis",
+    "accept-pickup",
+    "accept-ambiguous",
+    "accept-perfect"
+  ],
+  "goldSha256": "dc815c7ce5882f06d9a01ab2334d7e2a6ace9db408f9ef30498ef5fdbc80ac85"
+}

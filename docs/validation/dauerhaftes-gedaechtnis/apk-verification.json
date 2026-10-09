@@ -1,0 +1,77 @@
+{
+  "file": "F:\\Geschichte App KI\\geschichten-android\\Geschichten-0.8.0.apk",
+  "bytes": 321373977,
+  "sha256": "0b16aaf8831b24a1935351c78067af2f51ddb6b206f3cc29d09b980eff3f4a17",
+  "package": "dev.vincent.geschichten",
+  "versionName": "0.8.0",
+  "versionCode": 14,
+  "minSdk": 31,
+  "targetSdk": 35,
+  "abi": "arm64-v8a",
+  "debug": true,
+  "signerSha256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+  "tokenizerAssets": [
+    {
+      "path": "assets/tokenizers/gemma4.model",
+      "bytes": 4689013,
+      "sha256": "e594c8a90eb08d8bda498ff4747977dc827ae0c3c56b5c0d41a605a22d02ef03",
+      "ggufTensorCount": null
+    },
+    {
+      "path": "assets/tokenizers/qwen06.gguf",
+      "bytes": 5921824,
+      "sha256": "79a87fd4710737eefeff82a41208cbf086dc9a5ed92c5d896edbd9e4caa32ab1",
+      "ggufTensorCount": 0
+    },
+    {
+      "path": "assets/tokenizers/qwen25.gguf",
+      "bytes": 5921728,
+      "sha256": "69970130e011e3069e39e9ac036575948262cf9b6a046a610bb5aae1a8736e61",
+      "ggufTensorCount": 0
+    }
+  ],
+  "libraries": [
+    {
+      "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "bytes": 10096,
+      "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+      "loadAlignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "path": "lib/arm64-v8a/libgeschichten_gguf.so",
+      "bytes": 7208296,
+      "sha256": "802e93e5a5c9c56bb7a0f11a3cdd70188f869e6f33d86a760ed80419f5b479d6",
+      "loadAlignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "path": "lib/arm64-v8a/liblitertlm_jni.so",
+      "bytes": 21802952,
+      "sha256": "6cbef460e821154b947a537e3df918607472a9c36941d25a75828ecdd201a7e2",
+      "loadAlignments": [
+        16384,
+        16384,
+        16384
+      ]
+    }
+  ],
+  "diagnosticClassesAbsent": {
+    "MemoryModelProbe": true,
+    "NativeTokenizerProbe": true,
+    "MemoryRepositoryIntegrationTest": true,
+    "org/robolectric": true
+  },
+  "hostSeedExportAbsent": true,
+  "exactTokenizerAndGgufCounterExportsPresent": true,
+  "extraWeightsAbsent": true,
+  "zipAlign16kVerified": true,
+  "published": false
+}

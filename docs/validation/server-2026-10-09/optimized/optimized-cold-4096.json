@@ -1,0 +1,78 @@
+{
+  "id": "optimized-cold-4096",
+  "request": {
+    "model": "geschichten-qwen3-8b-test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Antworte auf Deutsch mit einem kurzen Satz: Bist du bereit? /no_think"
+      }
+    ],
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 128,
+      "seed": 42,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "min_p": 0,
+      "repeat_penalty": 1,
+      "presence_penalty": 1.5
+    },
+    "stream": true,
+    "keep_alive": "10m",
+    "think": false
+  },
+  "startUTC": "2026-10-09T20:00:26.759492+00:00",
+  "server": "http://192.168.178.73:11434",
+  "content": "Ja, ich bin bereit.",
+  "thinking": "",
+  "completed": true,
+  "finalChunk": {
+    "model": "geschichten-qwen3-8b-test",
+    "created_at": "2026-10-09T20:00:33.5607619Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 5796123300,
+    "load_duration": 5179802500,
+    "prompt_eval_count": 38,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 196984000,
+    "eval_count": 8,
+    "eval_duration": 417923000
+  },
+  "wallSeconds": 5.798222499899566,
+  "firstContentSeconds": 5.379701999947429,
+  "firstThinkingSeconds": null,
+  "rawSHA256": "c848843d186f66017b03c122992c96b21585a7479b2f74c0eb175bcb8952dace",
+  "runningModels": {
+    "models": [
+      {
+        "name": "geschichten-qwen3-8b-test:latest",
+        "model": "geschichten-qwen3-8b-test:latest",
+        "size": 5763802068,
+        "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-09T22:10:33.5612776+02:00",
+        "size_vram": 4193811168,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "truncated": false,
+  "reportedPromptTokensPlusReservedOutputWithinContext": true
+}

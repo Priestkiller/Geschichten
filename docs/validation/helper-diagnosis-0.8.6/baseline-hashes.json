@@ -1,0 +1,1398 @@
+[
+  {
+    "path": "app/src/main/AndroidManifest.xml",
+    "sha256": "cf0389574ea6a7559058ccc2baf8551cb60b9eae201b6a2b7fe84c380c8335b8"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-APACHE-2.0.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-GEMMA-3.txt",
+    "sha256": "4f68a79787b419a3e49b7e79952f65f2ad6409b31943c1106d671231dd421dc9"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-LLAMA-3.2.txt",
+    "sha256": "8cc15535a8a34b41888f644b339a1a9eb428af793a4f5e24df58a3e5b1487d74"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-LLAMA-CPP.txt",
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+  },
+  {
+    "path": "app/src/main/assets/LICENSE-SENTENCEPIECE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "app/src/main/cpp/CMakeLists.txt",
+    "sha256": "dc005b54255e9e45acfd0f228624ecad71823879d91764f7f56c06fb4bbb6efe"
+  },
+  {
+    "path": "app/src/main/cpp/embedding-jni.cpp",
+    "sha256": "e53d4b93c6ab44782fefa03593abe00c39550601fe08f45cd8db8cf2ccdcebce"
+  },
+  {
+    "path": "app/src/main/cpp/gguf-jni.cpp",
+    "sha256": "ac08f90da08b7d788e7a838b72c3e45e667fec2f65757154c2e0604654dbb352"
+  },
+  {
+    "path": "app/src/main/cpp/prompt-cache.h",
+    "sha256": "37abcda14c82be8720968aa7625d454dc7e9d0a36ccf43425d34ea81725fba68"
+  },
+  {
+    "path": "app/src/main/cpp/tokenizer-jni.cpp",
+    "sha256": "b079abdaa77dfd7b18cee5f8364f9a9b0dbd8f220615c8499131b554a942c7be"
+  },
+  {
+    "path": "app/src/main/assets/tokenizers/gemma4.model",
+    "sha256": "e594c8a90eb08d8bda498ff4747977dc827ae0c3c56b5c0d41a605a22d02ef03"
+  },
+  {
+    "path": "app/src/main/assets/tokenizers/qwen06.gguf",
+    "sha256": "79a87fd4710737eefeff82a41208cbf086dc9a5ed92c5d896edbd9e4caa32ab1"
+  },
+  {
+    "path": "app/src/main/assets/tokenizers/qwen25.gguf",
+    "sha256": "69970130e011e3069e39e9ac036575948262cf9b6a046a610bb5aae1a8736e61"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/AppViewModel.kt",
+    "sha256": "82a7c9c072b5f69af3aefdfd9e15b3a1928817d5e53cfba286bc44b5c5543c96"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/MainActivity.kt",
+    "sha256": "5c1d3b95c4edf06f1714b4ffe8c9ad2f487c677e1c299042e104ceb57af40926"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/EmbeddingModel.kt",
+    "sha256": "7e852a657631e2acf4e11f7c08a9fdbfc4e537358bb173133083a55298bc2d32"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ExactTokenizer.kt",
+    "sha256": "fe98d67d522997be260ca0d3951d24938d8309b80a2552a6f0202c3488a18d4e"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/GgufEngine.kt",
+    "sha256": "08aa6e0fe6ffcd1ceab3fcea9278eb37efe54789425ecc5c2f074742e5d5d622"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/LiteRtStoryTemplate.kt",
+    "sha256": "42ca3ebd55fac9b7893ca0bfe0c0ef1a626be97742d8b4ed182522f070cabc20"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/LocalModelCatalog.kt",
+    "sha256": "0cc66e1404301d3b5dba67d4e8dc9cf7a7a20d2c381a327acdcfd4a3326c912d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/LocalModelEngine.kt",
+    "sha256": "f37a6286ccd2a131c940e5dba66004cfa5ae087cef7151858eb246be39b7ea89"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelArtifact.kt",
+    "sha256": "62ef2d187016a40a0b05ae421ccc6c76248ebd7168abb5554ed9493c341e0f93"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelDownloadProtocol.kt",
+    "sha256": "d2822817676f70f3b468e80eb33e7e7967ba34c63cf1605b49cbd3e771d59923"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelPerformance.kt",
+    "sha256": "bbcf105eef68a412d23ed84c83acd36d3b230fad427962cf34e51539636c27a3"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelTypes.kt",
+    "sha256": "2ececf0c6cda3f804c4da17bcbcf5e2920755a3d737cd08b93b8f30f9561cc6f"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryGeneration.kt",
+    "sha256": "dcea0b51611858a9bf5bafe9bdb58ebd8b7f497c6b4e83d2f1781e822bab0cf2"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryOutputLimit.kt",
+    "sha256": "fc4bf5eadf82ff0696c23d0d250507b897550f1c971370f8d1991ca10e78ca9c"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryPrompt.kt",
+    "sha256": "070e73dd095288706dfa090eec6c49d0e945e9c8f2dd3f4a72dfa6a34251fb7d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryReplyValidation.kt",
+    "sha256": "f912f5064f62e39202ec3c154673c523ac2b761bed742337b13158f9d465f0e4"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StorySummaryPlan.kt",
+    "sha256": "f8dc5c96f3f66a8785a7f6eb6b660fe915a550cce7cff8c100f2f4f2ada71198"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/StorySummaryPrompt.kt",
+    "sha256": "c0e63d9bda0e5698ac60e7d3bd8e4cc2ab9d39f03edd8e199907057c1d38cdc4"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ai/TeamEnginePort.kt",
+    "sha256": "4c221a03cf403323b8d08e10667f6a84777f0359fc098ef57bfacdf2d82db1bd"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/AdditionalCharacters.kt",
+    "sha256": "4993a6188c6ee31c19589bc1cb7f1562d41d742c860419cf25781f5c87fe0542"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/BladeRunnerStarts.kt",
+    "sha256": "d4ec22b742ae5946a5a895667e14f287ab5a026cb8c9b8ccde833b515928d4b5"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/BuiltinCharacters.kt",
+    "sha256": "fea1c3093b2c244a9c6f1e42669684f7fab761165a76f89eb4462468115acc38"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterDialogueRevision.kt",
+    "sha256": "5c0e0ab0ee147efb9593bae3647082e1c9552af4769a9afa588e16aee8f440fe"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterIntroductions.kt",
+    "sha256": "d2439c34b2ff770ea78f05ae60ff89f7d37a0e406148666e3b175b3276231c4f"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterRevisions.kt",
+    "sha256": "fc0b17ec50bcd9302e44fc333436c27235e0aa5862e9fe8ce615ef32cafdc804"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CreatureStarts.kt",
+    "sha256": "3da426f7f5556644c8c230ff943d0caea8106304dd6941dc8e5915810e9fc735"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CrimeStarts.kt",
+    "sha256": "32e1af4f34c3eb3af23c55be3be559f3edff8f8d816dfd48ba2adc22a51dd718"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/CyberpunkStarts.kt",
+    "sha256": "db2e5e0fad7b712852f5c898a84f4ad637ef80401a411f3240288b7c6d5ee369"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/FantasyStarts.kt",
+    "sha256": "763fb65b664410041033ea321902a31e9b89a64227bf371e062f20760fcd15a3"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/MiddleEarthStarts.kt",
+    "sha256": "311aed1cc97951e809ab04edeac25fb9e1323fad2c54fdca51965deef928116d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/Models.kt",
+    "sha256": "5d7b644a8663e9a23c5546371e0c529c554b807fc19cb33a964d3237f95d9ffb"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/MonsterStarts.kt",
+    "sha256": "df435cbfe263f0c5a039d2179cdb6e91727c1ef6f23e27f368f021563f98d052"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/NorthernStarts.kt",
+    "sha256": "e5e220d0b0a8ddedaf54f321a20ff5548296df13f512f8baf9cb9498b3bade03"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/ReleasedIntroductionsV6.kt",
+    "sha256": "b6fa10f91a2b1a9a70b741aa8f89856e4f1b1fec4c38733d490f12bd79232949"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/ScienceStarts.kt",
+    "sha256": "983149958ddd5b4eabc06053cdd9bf6504809d059e8506eff5222d72a70488f2"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/StoryRepository.kt",
+    "sha256": "0d8fe4df78321aa2f768d6cb5120dd272e3519db530f91abe1b293ab647bc8f4"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/data/WorldCharacters.kt",
+    "sha256": "245266011ffca8ab0c2e1ec0190cc74f6983a6ee38774f063dc84add5cd73a58"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/ArchiveRecall.kt",
+    "sha256": "2b53bf3213b4a8a1b28cc8fbb378093e5ff07a4dd59e75618364d0f39c97cc4f"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/FactAnswer.kt",
+    "sha256": "f32a8cb8082346ac81b6b7c63f875d94372049eb01ac5c7e72464c5e060b10c3"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/FactRepair.kt",
+    "sha256": "2836a92424552d306711fd7d8b42e3d09857c4b0fe1563996604856de67b1b21"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/GroundedFacts.kt",
+    "sha256": "aa1b7a2d4a77cc16e696c1f5c1bda70286080d1f60d3be99a6acbaa2659c9acd"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/HybridRecall.kt",
+    "sha256": "b5da3d8f5f378d041b5dd49c64b5bab78a33e6eb7e9318c31890c3d2b3e77c42"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryDatabase.kt",
+    "sha256": "a0f5496f09442a4c19f4b0c860220ffb6e6d49cf9de7b07cfbdf6ddde414f901"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryPrompt.kt",
+    "sha256": "da56737a6eb787dcd0752143be61ac1f67790598859615dc1e9472c8f2bef3e9"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryReplyGuard.kt",
+    "sha256": "a41e57fc5b44b0cc80ad5e39aa21bf21f6eb82431f4a9548ef84a50374aea498"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleEvidence.kt",
+    "sha256": "bb61b709765a22a12d52516bbe6dd534ce69b64101954ee8fc5c539edfd3edad"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleReplyGuard.kt",
+    "sha256": "5e68f157d86092b8a7322d5eccf7cc86e3caebbe9ab5013f248104a00d417784"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleSourcePolicy.kt",
+    "sha256": "f69dcd977895957fd4c5fc7997fa16d847c9d57e6b6cadd3c991689c8199b519"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/SemanticIndex.kt",
+    "sha256": "f527fa27cfbfb2d2098a3ba8b31dce6e84ef4561132102322e7e8796394e3612"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/SemanticSearch.kt",
+    "sha256": "a45f92b117638dfd51db4447b3eaca102c8a061ce368454dbce3d4548d471487"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/StoryMemory.kt",
+    "sha256": "44ba037b0a217b59f138b68bb6fa70065642dd5e8bcf12389693396faa7f8c01"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/TeamProtocol.kt",
+    "sha256": "43a1b173d5ca66cf18dc667c4121e68d863ce42ae1bab415aa3ee2a27910cfcf"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/memory/TeamRunner.kt",
+    "sha256": "877a896532cb63b8845a472025f669672fc4459814474f4175689606b9480abe"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/CharacterEditor.kt",
+    "sha256": "69c3ba48266c006fcda9840915605296f149c9fdf57647a011f2c6d47e030a65"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/CharacterProfileDialog.kt",
+    "sha256": "cbf74065c8010a58f28c8b260dddeb6fa201f5f77147f26dd63e1103999658e0"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/Components.kt",
+    "sha256": "2e869287274b745240434da85f5688e8937d9af1f4115c095297ed6d8fed1629"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/MemoriesScreen.kt",
+    "sha256": "46d40ed505f530a36cc9a5d3d8885e659046a48f1427e8bd9df2c761536c633d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/SetupScreen.kt",
+    "sha256": "c581d7fb7863b35133a825cb004ae63b59d86c260a52660b63441ef9d827613d"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/StateMemoryUi.kt",
+    "sha256": "c0cfdf612d225a7b5e55403c2fc0c453df67d91db0c7c3c24384e8f35960fb9b"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/StoryApp.kt",
+    "sha256": "56055a57ecc7eb049a9857a83b057e999b51312c8924d44f34e81d6f494d4b04"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/ui/UiState.kt",
+    "sha256": "d3b080736b8327d6360f3f6188591ffbeef812de2e71ac10dfca5a854e17ee76"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/ApkIdentityPolicy.kt",
+    "sha256": "83ce8c80cd1940bdbdc18e4606d77c1a0cfcc05286185ffcce67a98eaef34dcf"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/AppUpdater.kt",
+    "sha256": "c86aec89d3b2b629b48ca5b94ac1b55a766819169eafd48b284bda0484049989"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateFileProvider.kt",
+    "sha256": "dd6f995b94e79d9f14628f205c6c1ba4f409ba21776fc76121184963d0ca1bc1"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateManifest.kt",
+    "sha256": "d3556fa60982c9c85d478a85df6b344fd8adbb088631e9fd1d49868293eaa0a5"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateTransport.kt",
+    "sha256": "98deca98803172bc86389f9003d1130412250454cd5e75c9651ea28c15f763ec"
+  },
+  {
+    "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateTypes.kt",
+    "sha256": "01018f888cd3167a8ecb2dac113034350f5c71b73d6c613af471b3c0ca8aabb6"
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+    "sha256": "0826280a74d7ea8a58900e8c1b127bc8f056c53a70bd1ea0b8ac4f8434882994"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ada.png",
+    "sha256": "84b4005071614113e1627461dd0b38273430c4a744082abbdcbfcc2bedf4a331"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_aelwyn.png",
+    "sha256": "5da84cef433a33ebfa21c97151de73c6574b2e558359c51833bce8c5a4e3fc15"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_anton.png",
+    "sha256": "26cbf59eeee77083496d388e20e1500457b89cc90778bb346da6d24cdeb0246f"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ari_maddox.png",
+    "sha256": "940443d3d325201cd2b88464495362cd4f478d42311e6506f7d8f9050a26848d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_aruun.png",
+    "sha256": "746c88da181fbd057483e36d487d880e2688a47b414df2cad924df9368da6161"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_astrid.png",
+    "sha256": "7a56d553ef1b060a2c2c6e44cad062ff231b29a976169337bff418b04d780801"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_bastion.png",
+    "sha256": "f3c4ecb90eb6abf8fdfd9d68d59386faa13515cf61d18de4d5c40b47010dc8b5"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_berenor.png",
+    "sha256": "60b933d8b61044fb3a88795b7c9f4c4a68b3ab83e09f7f64665c19293dc09253"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_bjarke.png",
+    "sha256": "7ffb41e01d3dab124f54565397b38a79c2d8ec726e069a34933033d1ca4349bc"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_borin.png",
+    "sha256": "588ad2f0444fcc3dc0619506343e7a2be8cfa3e7cffae1a7296f0fc3d6af0a12"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_bruno_vega.png",
+    "sha256": "44a3464dc24d85038ff1a9511c1314ac9404d9845ea9495a986abcdb17474867"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_caerion.png",
+    "sha256": "a9708657e9b0b0318ba10fc514eba51a1fa02ccca19eeb3fde8bb5f90fba4c59"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_cem.png",
+    "sha256": "9fa69167aff57f22a57e2978778026dee303863cd0a63b6bc9eb0a90e1f7c5ef"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_dante_raze.png",
+    "sha256": "68ee6eb41617e8dc68bf08fd8f7794e911e951643aece4e83a448d186e8c4864"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_daren_moss.png",
+    "sha256": "ae24bbab3702294f8d6b6010bc4c7cb29be2f53a53d5a235be6519729ec1e6ae"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_dorik.png",
+    "sha256": "6582f15794a468c2957bc04417970eb5743ef29b6ad45246854cd95c33a2a45c"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_drazhul.png",
+    "sha256": "6a9e404cd34f8d1361015e7e340672d1d49caf7fc37ea7063042483e1367278d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_eirik.png",
+    "sha256": "493c92cc31e211d4f48135b32c2c05285a6e3177cb20479fabae838ecd652f94"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_elara.png",
+    "sha256": "525452bc1d43ddb3e65572a3df36ee56c2b4c1237d79cfc1874ba638bf77186b"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_eldran.png",
+    "sha256": "e5edeac05bb01a233764fe71e0f15a3055d24158fedb1974d23d151d70e4826d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_elys_voss.png",
+    "sha256": "a6fdb42e241f454cdd17edbb997981ba7f9a8908b4c3d573d8ce6160358c387a"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ena.png",
+    "sha256": "6b8deaaf2fe0d34d397e7be71c3d3b2d106c6b699a2acfa828b77c2dafc8f269"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_eris_wynn.png",
+    "sha256": "219158477bcd8cad520ddbfb26e269768f159bd377b2a485f26b4b787b21a988"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_fenrik.png",
+    "sha256": "d2697abc68283ee5db03046fa7a45fce1a5436dc28c34d8350591aa9510d6dda"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_grask.png",
+    "sha256": "482dec5536b63d0e26c98ad66ffb3576b970f2468dd63e31e64c8673c2f46ddb"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_halvard.png",
+    "sha256": "c6824d2e01df55f2afb22fa5b30b9d9a1b47b3b0f4a8f52acfc6c36d852764fa"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_hedda.png",
+    "sha256": "985bfddfc538db58f60a5d9104bdd37b7f21932e2da1fe6ffecdf8a69aa81c70"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_hildis.png",
+    "sha256": "6383c8d6e316fb9007fdea7ce7510b08ca3e1b6d4639a50fa045d3246a9a724d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ines.png",
+    "sha256": "2bfb955122b4f828194636932c76faa134d7650999195474884ef750f25082be"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_irilwen.png",
+    "sha256": "074abc345a389d98fd9f309b3fc68d509f8d91392bac17f09af39546f5a53a71"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_ivo.png",
+    "sha256": "a98e7ae968b12c1196c23d8fce7b7fba0b5364ae98c7a0d4e35b7070b943c3be"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_jalen_7.png",
+    "sha256": "a82be5e14b31892f5515b6f04acf5629582fc2a1ff248bfd147972f18898de15"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_johanna.png",
+    "sha256": "a5592e26a2c145f745cb9864aa12036dd4d1b075fc6c37d676a74ecc70cb0e06"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_kael.png",
+    "sha256": "034ab1c88806e0b2e998e65f89ce1b5e181ad41628b99e5d410f2eaa2ef879a8"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_kaspar.png",
+    "sha256": "11cebcf1ea54a5979c0e6ca95412f399a0af65df4bfd9760e7f9e5e24fa04dd7"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_keira.png",
+    "sha256": "2a0db163353a7db9722eef403107c3d955f7548141b66bf42ebddf51ba8477f2"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_kira_rook.png",
+    "sha256": "f8756d0db0a182611c6c62833a29d0b3169ea54f22ff52616ab68ae77b0b0bec"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_korr.png",
+    "sha256": "8664997ed5dce53183beb4df160058cda30d2ef4e6320d57964f91de0f0396bd"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_leon.png",
+    "sha256": "ef53b82427cebdb2f0ceb078765a506b97d0067db92be56be9ab77307a2e177d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_linnet.png",
+    "sha256": "3aadd2714ad5a7e54e70fc6dd96bb822344216672cb87502156840abe700b9bf"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_liora_cass.png",
+    "sha256": "5037ac58da3ab00e1d8ae6dea178868ab074c7396bf08fc2fe094d726de85dc9"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_liv.png",
+    "sha256": "3665733d4eac5ab83fd135ac123171cbb71ffdcb4555cbe792733f282a1994e0"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_lyra.png",
+    "sha256": "6041e338e76b27e6c0ac78bb5693c46e22094b3385c6bb6b2d0dc3f31e06c196"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_maelis.png",
+    "sha256": "37d6025f6b0f86dbfcdb0880f4d9c745033184d79ab69ba70b4bf6467203ba84"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_mael_voss.png",
+    "sha256": "5ce1f89562948a34c71ef2aee98e44b1ad9bfeed2b789cc0840c9d3f2467b618"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_malik.png",
+    "sha256": "ffb593d3a58453fc572487eeb306c4a3c28888a129b43a52919e6f6fd5fd2b06"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_maren_flux.png",
+    "sha256": "2f50061287b2d9ea5feb5f187c8f1d8b779a3d418e91528d932e1335f342e36c"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_mira.png",
+    "sha256": "3fdc63b1f770cbe15499412666af146400e10a630b5e7af38be49a19fab64c88"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_morga.png",
+    "sha256": "f020329ad5e60c1f973d828300b0e8f13bc70760cbda54251f8ec9ebecc157d3"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_naya_cruz.png",
+    "sha256": "c6fe76edd9fd17238bf9271b35b551a78d95fda67bcfaf9af4c70dde23b135a5"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nessa.png",
+    "sha256": "b5569423b70cd8f8ce7476110f4c8018e768a5441ae05a894e5243bf18d7164b"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nharok.png",
+    "sha256": "b4f1beae398d3a7b152c92d772c7225b54c89715d70175aa95ca5e0c6e9cbd02"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_noam.png",
+    "sha256": "4c8466a20bdf90cced465c7ca1bcdf676a2172fa68b035b9bdac658264f262b4"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nora.png",
+    "sha256": "2a09864214ed0f1c5a6e5fd03d7f3641a8b880b5600ca7df7a32f6ea61ac0ae7"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nyra.png",
+    "sha256": "f5bad439f00fbd58e6a3dae1a71112f611291e4b6d5563fd98cc3792d48fb5f0"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_nyx_rho.png",
+    "sha256": "5c29b8d70662b59553955dfb31a6f9e562f483863e3d14e0ce7f5a9e23fcc605"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_orin.png",
+    "sha256": "c185ad4bcece6edff025d8831f74abfc6d02edb155ba25bc8ef07df06c900d0e"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_pyra.png",
+    "sha256": "db513817893abfe7bf42c2782131464b52ec9270c900e45ad17e0272dbcc27d3"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_raukha.png",
+    "sha256": "9a8feb4393fd1af13e89bbcecb331d4b82abebe19282f5607860b7e01d3089f5"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_renji_sato.png",
+    "sha256": "a4f8a42b70f0edcf70f4fd99ddd20de0d072c12c8324208152e6f14d336fa0fd"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_riven.png",
+    "sha256": "1b8aaa1632643c32fc479ba8f7096a7a0d524e752c53c8eab4353cef6a0d69b6"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_rohan.png",
+    "sha256": "0bdc3f5126ef105122be4df173974254c9762de3522e3cf6aef07650441d4a97"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_runa.png",
+    "sha256": "d0ffc278eb37e47a2a6c02402f0b345e7bbc8903633ab8d59349cbfe0bd33717"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_saelith.png",
+    "sha256": "7641b67d6882bcebdaf663f397325e357b64342e03b3439edb31a03b8fe08a17"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_sana.png",
+    "sha256": "0d9a026dbe5d5b819beed091d4ab40bdeef898393ecf1ae89fa73833505e467b"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_selene_kade.png",
+    "sha256": "6e3f185201d66b186d2ffa58988d3bee3c50851b51aa522e1ec324cb7174dc9a"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_seris.png",
+    "sha256": "2469414f5b705506c9a4ef294261fb80b1b5f1a57be4204d90a593a94ae88719"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_sigrid.png",
+    "sha256": "9d7c12ff6329035f4e51eb14300441d06a5de2f7cb1852f7d9f9c467345fe1a1"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_silas.png",
+    "sha256": "6618354db990864cca060dacc3a86578b983a54da000baaef661556f707f6dc7"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_siraxa.png",
+    "sha256": "75ee264199255f8e065738a7d827a45a1c3878022d806bfd9db6a80ae5935ad2"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_skarn.png",
+    "sha256": "5a7d1c7bba05cb63ccdd9d1d41207c6a5801bc1de921c9a4784ae10ce682d343"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_solveig.png",
+    "sha256": "65a9bd94da0024361ed57a9e9be5e8d0724880f08e9f20f924126b35d0d40eba"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_soren_vale.png",
+    "sha256": "b0e9b3f9afe8bd785b4f56c989947015e4983cdaf18f51b185659a3c648e1d5e"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_soryn.png",
+    "sha256": "17fc34b3b03394babeba3adbb460639945d72ca642c0f3fe8ce11bd29db1d68c"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_sylwen.png",
+    "sha256": "896bb00aa807e73a99fb137194fe07cd1ef150c6d10a4b86ba93d835067828ce"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_tarek.png",
+    "sha256": "1c044af3dc43d668d0262d8a100375e0c72b92f0f67730ee58e575141d203026"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_tessa.png",
+    "sha256": "d2b14a5b640acf6cc64cfaf2c9a2fd03a3e50dd4d5341532875a268963732b56"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_thalora.png",
+    "sha256": "33f0c4158c0b97d27fdbcd2c6349eceaead66b0b6ca3997a9c55de693cbcf152"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_thamund.png",
+    "sha256": "349a91e32e75f73a8ecf0a97933c7916f82fb393792160813b3c9279bc55751e"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_thora.png",
+    "sha256": "e4d88bcc0ff607c3eb932b6f2919a8864923fe4632b5041b272583efd95d9526"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_throgg.png",
+    "sha256": "b7aa91b0d022f93bf06f03bc60220157b057741e74e5986d0887d2a2f91a10d5"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_torben.png",
+    "sha256": "ed99e9b2337553078817582964af0bfbf00fbb988a98cebf3158da3953b9778a"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_vaelgor.png",
+    "sha256": "0eaa1de176cda956fca8d5f479fbaff69eec4d80c70baa347bacb51a676d0228"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_varen.png",
+    "sha256": "7bf064d81b5c0513baac2e8a88b83cfeff2cedda3db218d59a6712fea4898154"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_varkesha.png",
+    "sha256": "449a7ec8a54fa514fde68589fd86e5fca1b62936a1ca8f200ce66fceadb60e63"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_velyss.png",
+    "sha256": "5c38533dfa1026fa7507bdabedc3f997e23a3fc6c16a72e3f9e920bf4405ffab"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_vera.png",
+    "sha256": "e9c20d6a1b41427d2bdff07259a6b6b917cbac22852e7aae53ea34fa81e0388f"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_veshra.png",
+    "sha256": "9f385da2a7b15167e59f182afba2fe2c19eb9d62341580e8ec30d678a849ce8d"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_yngvar.png",
+    "sha256": "01ad8da5c903083fa8f78263be1a66ca01f9863495614cc6bf2991b241330ed8"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/portrait_zhara_voss.png",
+    "sha256": "093cac62ba7ab8f45ee482d03fe69fc33a551952c088fe9f1e4ecf800edeb493"
+  },
+  {
+    "path": "app/src/main/res/drawable-nodpi/scene_runa.png",
+    "sha256": "6ecce2a71a063f94968975a7d2d46108506e313d47cedd06b9245fdb9cad5096"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+    "sha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml",
+    "sha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "sha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+    "sha256": "d0b7050d918713b6bd1598265d44b6553aecc667db9be269c11c75b61521ca75"
+  },
+  {
+    "path": "app/src/main/res/values/colors.xml",
+    "sha256": "9cc80a0cbfb4073ef3936dac16cf003a06e7a993a59db36301f904c193b7ed90"
+  },
+  {
+    "path": "app/src/main/res/values/strings.xml",
+    "sha256": "284a0b6078e992bf2162f7e7d2cb17bb59baab2700635ebf89e409c543556ca0"
+  },
+  {
+    "path": "app/src/main/res/values/styles.xml",
+    "sha256": "d8ffea8ddb19751dc531295ea828b0e36df5024e33b505fb8b2e0fbf963e59e9"
+  },
+  {
+    "path": "app/src/main/res/xml/data_extraction_rules.xml",
+    "sha256": "8b55ff5489071bb19a4e89967b604a16c0e4d1e87a2df3c73c64417314a59f22"
+  },
+  {
+    "path": "app/src/main/res/xml/update_file_paths.xml",
+    "sha256": "1aee4d9f85c9ca82564c18d509fc830099fac295e2fb04eb2e6a7edc60184a54"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v3.json",
+    "sha256": "e70fd3ad046d4524d38fb8c7e4e0b0ca1c5aca854a12d673fb96c1fa0b6f9f62"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v4.json",
+    "sha256": "d70682fe6f2780b7a014c34432a57f419449b4e6e47c93cf7d1bd32a4243816f"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v5.json",
+    "sha256": "cee1214daf36375ecf258aafd602a7f3ec9e1168cc840832a1c91099b694d972"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v6.json",
+    "sha256": "d10482532d3e29c010cf1d568084630525658d06b5ec78b6ee202a6af83617ae"
+  },
+  {
+    "path": "app/src/test/resources/catalog-v7.json",
+    "sha256": "b711d700bbc8c63281219ef72db909a0f271621a6437010df97da8cf50963500"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/LiteRtStoryTemplateTest.kt",
+    "sha256": "ac2d8772e3e69fc84b4626407ac4f4922270086b30da05006f7976b7f8c75b91"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/LocalModelCatalogTest.kt",
+    "sha256": "8ebdf56a16156603f9e9d60614e420297a4b75ac7752e4980ea81bb1fa3f4f6d"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/ModelDownloadProtocolTest.kt",
+    "sha256": "7279fb0d1e4f7dda22855f6b02a92815b6a900bc933319b024fbebc7328e7c1c"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/ModelPerformanceTest.kt",
+    "sha256": "ad6846794ac9bda596801788ef8c27bc7292f9d24c982462cbc2e76dc3c7f1f9"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryContextAuditTest.kt",
+    "sha256": "51afe45efddf97550fc9661154dfc8a838484d9747827c7a84198bba646f291f"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryPromptTest.kt",
+    "sha256": "a0091be812ec712c2457fe953cff83b9131888aee90b91979d53ef6d2bfeb8cb"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryReplyValidationTest.kt",
+    "sha256": "12e86c33c2bbe2aadba22d3b13bf83ce02981af83796f2fe3f39daca2a675cf6"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ai/StorySummaryPromptTest.kt",
+    "sha256": "566e80ab7dc75dcc9f0d9577e4ba9ff944ed212051fe8b488dab1e77301645d4"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/BuiltinCharactersCatalogTest.kt",
+    "sha256": "8488b52de82eb1d0d7dc36e0624f82608ef023631f2914da0523369eb122b92c"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV1CatalogFixture.kt",
+    "sha256": "b7ce20c783fe73b025dd59f73cd13813c915b6c4ec507b5033f69755adb24ad0"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV2CatalogFixture.kt",
+    "sha256": "3e37c85185e7913ddf440e957e23fe4b29d9ce3dd6d466797ceca836e3530240"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV3CatalogFixture.kt",
+    "sha256": "9a4dc38f14976a1ad3f5180dc402c57bc312a94cba3e5e2c196b34b1be4a5a7f"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV4CatalogFixture.kt",
+    "sha256": "d3a381419654cc33d1b8adb347e17f34957492f36435802a36c166aeb8e9e9ae"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV5CatalogFixture.kt",
+    "sha256": "5822bdb1124b78677674605cdf5afdf1388f7d2aaf546a3cb74ed1aa6d384f8d"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV6CatalogFixture.kt",
+    "sha256": "73a7322383b146de22d6b3fa5dbda6c3d46e77d7c8160552be1f75c4d39fa52c"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV7CatalogFixture.kt",
+    "sha256": "453952fe70073b3a3bc77e3ef83aaeafce0167c4f78aa89165249ced31caac48"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/ArchiveRecallTest.kt",
+    "sha256": "7a44c688755d7253ffb5bf86d9e2ff126ab54ba492c2d11251fa1af3a45c1b76"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/FactAnswerTest.kt",
+    "sha256": "92d9ed73ed99dcab82c9d81b9fa87d0deaf754448ccbb1bd594355041e3cc80f"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/HybridRecallTest.kt",
+    "sha256": "59a1367eedd01f54cd6f31f3fec393ee93005f045d61df1bfa5d89c372fdeaac"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/IndependentFactGoldTest.kt",
+    "sha256": "8f322c96e28c0d79340a8d6b90a15d22a7a0f85f65880f5588426b1467d1ce1c"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/MemoryRulesTest.kt",
+    "sha256": "fcd9c9121d19c936f03e0070cbee591b4d47aca3355abf478b99e5c76afec3b8"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/RecallContextTest.kt",
+    "sha256": "26ed2cbcf2a8b25312606fc197b9668a55d23b05de8c1ceddf2211eb1e0efa39"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/RoleEvidenceTest.kt",
+    "sha256": "fb05929a5e6517d99b74bfbbc6fb4f0601354fbd50c4878b8b2a172cd403a2a5"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/TeamProtocolTest.kt",
+    "sha256": "10258d8162fad8881d52cd9cff5aaaeca0781f751cfb70d29382719bdb2a5894"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/memory/TeamRunnerTest.kt",
+    "sha256": "d2408cf2d9fd221f582bfa47475ae27ae13186dfa084f4fd88a3e116ba50c588"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/ui/StoryTextTest.kt",
+    "sha256": "b2b484b2ea89f6c73c0157618e914a417f43897b201c7418957fcf50e5851b2d"
+  },
+  {
+    "path": "app/src/test/java/dev/vincent/geschichten/updates/UpdatePolicyTest.kt",
+    "sha256": "131ea1b6fc2a10a29a001e2fee3fed62592f8c1ab3a7a2d8db581fe3c3a5b3c6"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/AppViewModelHistoryIntegrationTest.kt",
+    "sha256": "404af1f2b26b367983b0f5d78c8abe0fea26971c38ef7ab5c1132191d90a5d96"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ChatContextIntegrationTest.kt",
+    "sha256": "c793339cd9561772190c6d5b5c95ac768565a774312f77a6c210c535d1bf89a2"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/FactAnswerFlowTest.kt",
+    "sha256": "a29da2a7004ee2efccd352bef7e95734d951d2ca17c495d389706aba029151a9"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/MainActivityLaunchTest.kt",
+    "sha256": "c890b26b07e0441ec56434c68715ba8b837abb28edb45df80420d1209e0d8422"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/TeamFlowTest.kt",
+    "sha256": "8cfd2f27e4db54e45673e67d241b5e76b9be761574fbf4ab1444fa4afed33ada"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ai/HelperSelectionTest.kt",
+    "sha256": "1fc045c47272ea74ef3317630b8855af8dfcb194a1529d05553d376d9aa5f17a"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ai/ModelPerformanceStorageTest.kt",
+    "sha256": "521201495568567397a819080f5f097116dbe7609e95aedff045c3c812f1f417"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ai/ModelSelectionIntegrationTest.kt",
+    "sha256": "94a6a4dad5d88f42e8d15119434e11090ac28904fc335d8f49f5f563782ecf39"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/data/CatalogMigrationTest.kt",
+    "sha256": "fffc52bba4e7ada29bf28e9d0ab5d8a13ed5c15deeb20a12890f61f0baf4c2ee"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/data/StoryRepositoryIntegrationTest.kt",
+    "sha256": "7b818174c314c2f76a4a86b8e90fe968eb5f53bbbbf1b27d1eb7809d90ab56bf"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/ActiveMemoryModelFixturesTest.kt",
+    "sha256": "611b8291438f42cd0ff39109d022ce4bf5ac57714958d1fa64f2d61f97d7797f"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/AnswerPipelineTest.kt",
+    "sha256": "145963b88f5c69f7961162032747bb33849bd08d82c4b6ae6e08db9dbf6dfd0e"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/FactAcceptanceTest.kt",
+    "sha256": "7f39ad3cc494ebb3e4cb8cea7c2cf9bad573eda4d000bf4a26a741a26a93c158"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/FactAnswerPersistenceTest.kt",
+    "sha256": "88ca345f79063c3905d5e3d92507493a05e38dffa7243b0a002f93df7ffcb946"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/FactRepairIntegrationTest.kt",
+    "sha256": "26cb0676bd3a7f6821629d18bba3b0a6fd1ec3c00db4bc38d2c8dfb0fe1f0eb3"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/MemoryRepositoryIntegrationTest.kt",
+    "sha256": "a12f66ac50a6e08e7f2a12ef8ec89a909fbeac3931762f5a0060b4c38f4e1292"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/NativeConversationPersistenceTest.kt",
+    "sha256": "930754ce5126d97dc4bab7ff46a8815e5dc59dc71fbc73c2f98877101146e7b7"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/NativeSemanticFlowTest.kt",
+    "sha256": "8c9975c1058a91f78ea5f3673684d0beb6ae8d230b7826d980f5ab084fa3d651"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/NewScenePersistenceAuditTest.kt",
+    "sha256": "583bfefcbd8b73d37c6bbba642f45a7251dd46c925812bca80011dd68dca9c69"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/ProductionSemanticVerificationTest.kt",
+    "sha256": "f4efd91c325784374b429bccd6c4d31e12bda691d54f7cdf02a9c1eb15587ea6"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleAnswerCorpusTest.kt",
+    "sha256": "b96f243f804c649bef2ad1273d606cb23dc3b6051ffae7e49d251bd1fb56645b"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleComparisonFixturesTest.kt",
+    "sha256": "5b71ed2a1bf2e2a070c6ff8c61e8641c4ba0a99b1ea1fd3e685501840fa147be"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleContaminationInvestigationTest.kt",
+    "sha256": "37527e9aed8bd471213b3963a3f9aa7decad8336dc8f279f14bf079c61bbe0fb"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RolePersistenceTest.kt",
+    "sha256": "3e61907021d99400c9bfb6cfd7200d16b62baad5743b69b2fef18752c662ebed"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/SemanticIndexTest.kt",
+    "sha256": "c28e29b0b5d8307e50d7568ef52958397ff4f6135d7732b6bc29e45ea94b91c5"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/SemanticSearchFallbackTest.kt",
+    "sha256": "46117c6837f07cb59b7660a9711e13aaae09a33efabcd3bd39ddc87d1e204735"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/TeamComparisonScenesTest.kt",
+    "sha256": "beae96d38ca90f25ecbec2e03fc35b0c29bbec9fb9a785562f32bfca2cbb9f4b"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/TeamConversationProbeTest.kt",
+    "sha256": "304e20223157d39eb5e241ad649e2302e31ce6cfe843b8a4aeb67bb7aedcc91c"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/TeamFixturesTest.kt",
+    "sha256": "374a243de6ce390c6bb14733aa2bda29a5e587b6f94b1fb0ce1ccbd172cbb9c8"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/TeamPersistenceTest.kt",
+    "sha256": "089fc5be8035f939673988061b435904fc9f7b08542d2d385652919780ce5a44"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/CharacterProfileNavigationTest.kt",
+    "sha256": "668182baf858849dc9aeecf984763c0dca0a93366a3130daf936ea3fca439d45"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ChatArtworkRegressionTest.kt",
+    "sha256": "6183d1bcf4576cb74ba4978042fb2761d8cf19ca69cc80aeff5893d1f8a29ed0"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/FactAnswerUiTest.kt",
+    "sha256": "e1a07c807081115348f145bc034ef164365d585bc83c39bb0ac12d0d78a983b4"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/HistoryAndSpeechUiTest.kt",
+    "sha256": "01bb010da0d94e18a48d013e0ea69e587e373a386f70963c48adba8edc9b67a5"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/MemoryUiTest.kt",
+    "sha256": "57ab25f4e2ef451980276ba35838e0bce58625d9f82e8b78b92a6d6a823f4cd5"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelCleanupUiTest.kt",
+    "sha256": "ae4fec6c14a834cb3c141f54493a7b14daaee9bbe5de7c595e7eab7df7cadbe3"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelPerformanceUiTest.kt",
+    "sha256": "c50e93a0165618016e49bdc1e867c4be4d992c1c801ffd96b2abd17ebd32e5bc"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelSelectionUiTest.kt",
+    "sha256": "ac1b38fb601df88c16db02b1e8b06227f5e160b321118f3c3c92558048b38858"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/SemanticSearchUiTest.kt",
+    "sha256": "7822e52db61d86d21974bf6cf307d3fd3c94b2b49c89743faf872ee8a274ee82"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/TeamUiTest.kt",
+    "sha256": "379424a912af2b1b8b16ea49bc5602430856063bad56148e6e35956959bfd048"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/UiScreenshotTest.kt",
+    "sha256": "3e5f6d60a703ae7d988fd0657c213705eb32d5fbe39a1cdfab19386084c35bb7"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/updates/AppUpdatesUiTest.kt",
+    "sha256": "12d68d2caf748458f4cf1bd9512f389a1323cc1eaf263d494288137531ec6918"
+  },
+  {
+    "path": "app/src/visualTest/java/dev/vincent/geschichten/updates/UpdateFileProviderIntegrationTest.kt",
+    "sha256": "48dba573befcb08ca0fea4f73ceef001cfa2d36d5f3598144601342062a628e6"
+  },
+  {
+    "path": "app/build.gradle.kts",
+    "sha256": "546ce558b6d07b26691248acd95333bbfbbf795e25774c5d7e6e885a6ec859c0"
+  },
+  {
+    "path": "BUILD_WINDOWS.cmd",
+    "sha256": "a50b9b239111866be17c44870f8c6deec43ddab79d52027319d09c44f5f759c5"
+  },
+  {
+    "path": "README.md",
+    "sha256": "20e985105f20a6e0af6fd27cdd63cf9b9ff719030177d92faa5f0a7bb60c7660"
+  },
+  {
+    "path": "Geschichten-0.8.6.apk",
+    "sha256": "25babcd30bca4a2225695d000f05f1cec3ebb7d432b15c3a0de6fe9982d7be4f"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/adb-devices.txt",
+    "sha256": "bbfcc7239a6f1be3544814ebdc6bcc9b66bf5b1f0b03baa3340808f19265a630"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/apk-badging.txt",
+    "sha256": "78f525edfc6c334be3acead21b6a9abb4cfa5520400f60799fc0225a4850c205"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/apksigner.txt",
+    "sha256": "a67d171a4268b02ffb280142675699d3e5b9ed4b0d85dd1b20540273172a1fc9"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/artifact-hashes.json",
+    "sha256": "ac682de5b1a437e84053075eaf0c061cfe95f3beac533d3d0a6fc567a817062e"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/baseline-hashes.json",
+    "sha256": "b1328e1d32ae06a450327fdfaa5ffce53c48a44d3d2315ffe928c7c4b04cec09"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/build-delivery.log",
+    "sha256": "698854dafca81a3093ce10290b8b9ab7704299b5e4e60f03c4075dbf376cd24b"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/build-final.log",
+    "sha256": "ef609822ef2cdfb25d4985689a903a0b53f137b3306bfbcf06c0cbf0bcc1f6b2"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/changed-files.json",
+    "sha256": "2bb0ec347a55db0ffb5a31002ed8bbbf3cf28db890768eb813f3aa057f3c3897"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/comparison-frozen.json",
+    "sha256": "ac4cfb61e6927fd532f2f7b127f2c55f2e2977e3b2dd98ab14c11f3cbbbae52f"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/comparison-scenes.log",
+    "sha256": "fb8cf3c8ca6e2975e737d880c103458f4889f317bb8c7b5fce8da49ae2b50fd2"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/complete-fixtures.log",
+    "sha256": "d8a51a44b27f292fcff7d4e799055497b62db864537ac7349f452217aba457f7"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/delivery-verification.json",
+    "sha256": "27e3163ae685d62fa4deb4a3e57f4cbc05bf001d542303d25c49ad90444e7f37"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-1-accepted.json",
+    "sha256": "cc7756ea9577ad8c2b866089c6d017fedee2a8b13bdb89610255088e72191b64"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-1-after.db",
+    "sha256": "805d0e0ece3c379e2730ac6ea0b07591a0a105e49cab05316c99c406f3ebe45c"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-1-before.db",
+    "sha256": "46ce883163394fc0cc000b06cd45bb8fede0712436921b0a919afe1c293cff89"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-1-independent-review.json",
+    "sha256": "58d28e3259e70a33306c792264181f1518289f6c97f76d66da8cc554e81a2169"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-1-scenes-frozen.json",
+    "sha256": "c91a8b00a524a2daa2bf1326e5197de5f1c313162478dd54773c0092e4047363"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-1-stored-after.json",
+    "sha256": "cb55352080ab1cf95ea01c66aa34c1dcce2a5e61f3779ffa14902da199609191"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-1-stored-before.json",
+    "sha256": "4b2feb274f16ec8dcd4ae93463ebb63a605c6b3ed9af4fffe2c46aa645342078"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-2-accepted.json",
+    "sha256": "cc7756ea9577ad8c2b866089c6d017fedee2a8b13bdb89610255088e72191b64"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-2-after.db",
+    "sha256": "5da26700651d37f1c4e8d7710da13581cb5144a41ebea0ebaf579fd9ec0796e9"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-2-before.db",
+    "sha256": "d0dd254a96a22919f3af39f961dafd744321b15c806402a874f4df1144336c59"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-2-independent-review.json",
+    "sha256": "e4aaa3515e96de1628bc0ab6dce5e6ff4f3eadd68abce68c15bd92a7d4e554fa"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-2-scenes-frozen.json",
+    "sha256": "adf6ed64d726b0f87c4dea511cbcb1cb66e2f7192961af1416277990ad6c598c"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-2-stored-after.json",
+    "sha256": "0d28ddf787edd6b5850ecd0bc5ffbbd2ae83178e7e15835d0d3d2b7aa686843a"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-2-stored-before.json",
+    "sha256": "a91dcfffec304a043ad16970b127191361475440d57516bad1550b93a5511a88"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-commit-1.log",
+    "sha256": "b858e221109b68175a582f3e58ab509b714f7a3b551d0bc5a92eb71dc9625f70"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-commit-2.log",
+    "sha256": "cdabad7025805850afb23d64fb4d0eb3a02b9cdbb81fe561c0c494165c062ce1"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-plan-frozen.json",
+    "sha256": "6644b0e9f60060244b86164b2d908b70b768a1721ea77f9dba511c226235f48c"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-prepare-1.log",
+    "sha256": "401322c8573d114b4e7c3dbb577aadec1d74ca427d30e2ad42e7e02af5863b67"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-prepare-2-forced.log",
+    "sha256": "f1d90d155c380490218452155cd6cc435a3ab5ef4bd5ea8cdfa787fb590db9d7"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/dialogue-prepare-2.log",
+    "sha256": "ea6cc1fde2fd7720e990ede1f618e986459d12ae45b50592b99821de214e636c"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/final-controller-replay-B.json",
+    "sha256": "e8a846621e3b93d42d708453023adf802af127534b34c480c852dd375e6243a2"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/final-controller-replay-B.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/final-controller-replay-C.json",
+    "sha256": "e9c3c22056115f22d3f8eb9db2817e0592539eb16a7a569c67a1b5c7dcbe2b84"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/final-controller-replay-C.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/final-controller-replay-self.json",
+    "sha256": "dc776a01b8a6a5c9bc40d0249253001fe28333bbd004a9608d568c7a70b994ef"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/final-controller-replay-self.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/fixtures.log",
+    "sha256": "0fa7f7d0c7aaf4480545a8b990f0c705c350acbfd5373a3a942bd5e6d628b71c"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/gold-review.json",
+    "sha256": "4e6b4b3e7af23b49fe62d4c8aa634d800b723d1deb1e2972bc43192c2b7d705e"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/helper-selection.json",
+    "sha256": "01d543b310e0e0668c4c6801b7124326c5c214c3289a55a4676f1ba9d5755d6f"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/HelperProbe.java",
+    "sha256": "b17c907c50acca029abbdd455f5675a50354deffa6e7c8ce36857301f93e737d"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/host-hardware.json",
+    "sha256": "81e74145628fc9acd50e750d98faae0d6b49c3e5403e5e0b95f41a1feff8ec7d"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/integration-delivery.log",
+    "sha256": "5ae6ce8b0137143a6cc7f08e6f1df02e8e29a981b2980692e299103b2c072fe5"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/integration-final.log",
+    "sha256": "b8b71265783e02cf5b12a6e02265d4d3056a0bd9d8e798fc9602e439e34d2164"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/integration-test-counts.json",
+    "sha256": "e3a110c8e3c136d110a8b66b93f0c9bafe62b7d1d0a938e469f097878b4c3f25"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/lint-before-cue-fix.xml",
+    "sha256": "9e07b6e1d64e0a4b3d23dbe1ff204174ead93033d40d99e5eb67d42d246f5d5e"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/lint-delivery.xml",
+    "sha256": "9e07b6e1d64e0a4b3d23dbe1ff204174ead93033d40d99e5eb67d42d246f5d5e"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/model-team.png",
+    "sha256": "d7d39053f658b82af4427066ceda1893749687d18f69b4d35b026bbc74aed8e9"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/phase-a-complete-frozen.json",
+    "sha256": "646bb0c700b12912660dc1e235e58c41e2b16a0d50658487617edd5a51732399"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/phase-a-frozen.json",
+    "sha256": "d7e47defb0f3943d48d9feda807fb905497a0e2abbba8a71ebb7a3391d8d8eaa"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/phase-a-independent-results.json",
+    "sha256": "675a2bf254c4cc0667de1fc844c157fd57781cff40d2d333c543d01a57547749"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/phase-a-summary.json",
+    "sha256": "7b97a523f0d1b212062d283df9ceec32c013e1b6e3b4d49864a19fc827447186"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/phase-b-independent-results.json",
+    "sha256": "d8add7c013e3ac708499c04d5d77d042431789f862d512bcab7fe8ddbd5746f1"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/phase-b-scenes-frozen.json",
+    "sha256": "cd547a0225f8d8d82e61e9d4bc7bf706e03289ed476ba986105a375764f64e2f"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/protocol-tests.log",
+    "sha256": "7f60759ccf9858a484ed76f1575bdfb5a16bd3f3644cd5f478bfe2cee0351e3b"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-dialogue-1.json",
+    "sha256": "878be02312c73cbf958f0ca8403d14736b6b60469093f71525c92693566c1914"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-dialogue-1.log",
+    "sha256": "60f037eca56943da1cb38eb272f83e6ed40204d7ed53417eb46e23cab9220caf"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-dialogue-2-missing-fixture.log",
+    "sha256": "6f953a6b8497fec92bbfeb7de690c834204ca3a296660e115ea68d3baa14e7cb"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-dialogue-2.json",
+    "sha256": "310af4cbfb0d409fc2ec458b84fb902af415d704028e1d693d448adf7a82da49"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-dialogue-2.log",
+    "sha256": "783dd19fb710fac4196ff44319a8fab003610f65e0303d1407b46054876c8b3b"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-phase-a-gemma-4-e2b.json",
+    "sha256": "193aac56c778aa610b619de5bcd6a4b26e6f88265b31cc017356ef5502147482"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-phase-a-gemma-4-e2b.log",
+    "sha256": "54275df28a8c642bc660e3be67cd66c8e357099b620bdbfd3b3977f328af23ba"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-phase-a-huihui-qwen3-4b.json",
+    "sha256": "0bc6a0a1892e4745d985ec030e872ab0a3e35bbca62dd40229b45b7cc6a0c0ed"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-phase-a-huihui-qwen3-4b.log",
+    "sha256": "1cc7022490dcf744397297db84d385e31de2b1fbb08d3b3a8f5a4e454630e7b9"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-team-A.json",
+    "sha256": "e0167dcf29838023e516d035f11f9d57338a354afda052c764c7cd46f094119c"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-team-A.log",
+    "sha256": "3971b38f2939687be1c1f03a0a1775c7b212fdecc0ab81f538df89ded7ec410f"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-team-B.json",
+    "sha256": "87c5939746908ea3e9607cd88bba866f4740a423f28cc9aeaa622bf189fb0b95"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-team-B.log",
+    "sha256": "88efa997ad4577147338683f2e68190394d539b3f186495a3e233af62e617303"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-team-C.json",
+    "sha256": "5bd345a72253b78748744cfd06d0ccf848b8a75ebb89050790a5e2e5359f42d7"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-team-C.log",
+    "sha256": "d6d523744b4896b0071de46c52f7ac8efafb40bf0e8b641cfad23ef4ccd62cd0"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-team-self.json",
+    "sha256": "433a8ccdcfc0aa8db06fb29bd93357370f6df1b715ae7dafa5cab4edb32da816"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/raw-team-self.log",
+    "sha256": "9680d887107f870c75ca52261c52b5af5f563ddead469997b9cc51c1d699150f"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/run-dialogue.ps1",
+    "sha256": "4c45f6c20c5d7a5b6c15ad949923ff6884cfb051df3bd532adb38e785240cda0"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/run-final-replay.ps1",
+    "sha256": "fd9fcf4ae85d47b9f286de74df42bd51836b7700c75d8032d96f79cebfcc5fb2"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/run-helper.ps1",
+    "sha256": "ad9e8c2f87338f24c2e59368987d0beef43bd079f9ee253b2792f71035827afb"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/run-team.ps1",
+    "sha256": "b70f9475d24052bbbcf1f1e5ee1039e63d2df0fc925a92d609c90f821202ec5f"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/runner-recheck.log",
+    "sha256": "164fbb27213127a48abe9b45376670fc039b9a41b8047dd1c25477a6fe028d49"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/runner-tests.log",
+    "sha256": "7d2e3c52676c50202f2cad85ddf20b71c9d6dfd150a6558881a2816874ebf41e"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/scenes-frozen.json",
+    "sha256": "60ce18f22cd0c61cc527b375e294f2627d45594097e2bd5829fa1dd1dc44d1b0"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/split-frozen.json",
+    "sha256": "329cc2721a0f2b631e598aa9d6a5339a9464c7b5098bda200fec1ea2bd3eafeb"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/summarize.py",
+    "sha256": "7d5501a8e53a8c445689dc5b2b2f617de0ab5082ad3224f4765ae85b600901d7"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/team-flow-tests.log",
+    "sha256": "e830f59c325ab7c03195c3c6f16f864827c28cb67f611c2bcd089df43a83d86f"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/team-integration.log",
+    "sha256": "1dfa620d94f3975cd5b458e119080da7eaa03e53c75b6a79416a08d19495c9f8"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/TeamNativeProbe.java",
+    "sha256": "9f656097e123951734ed772eec57e10d3e8416db91b369d792484623edeb97a8"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/TeamReplay.java",
+    "sha256": "6f5ac2bb3c8956d9647da19b0772be3db2b6db7cfddd71193a59c430df5752f1"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/verify-delivery.py",
+    "sha256": "a6bf5520f64464c83804476661db94e53f3b50f23ba206163cabbac2664fd29b"
+  },
+  {
+    "path": "docs/validation/team-0.8.6/zipalign.txt",
+    "sha256": "46acbbb12bd459b0790725b43cd511dcfbc9b219bee5789396cb9910bcfe321b"
+  }
+]

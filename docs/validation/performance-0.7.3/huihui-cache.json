@@ -1,0 +1,61 @@
+[
+  {
+    "totalMs": 85429.764,
+    "case": "cold",
+    "firstTextMs": 82870.7697,
+    "promptTokens": 352,
+    "reusedTokens": 0
+  },
+  {
+    "totalMs": 21719.1262,
+    "case": "identical-cached",
+    "firstTextMs": 19329.9235,
+    "promptTokens": 352,
+    "reusedTokens": 256,
+    "maxLogitDifference": 0.0
+  },
+  {
+    "totalMs": 21876.5738,
+    "case": "changed-tail-cached",
+    "firstTextMs": 18639.0254,
+    "promptTokens": 340,
+    "reusedTokens": 256
+  },
+  {
+    "totalMs": 73510.3588,
+    "case": "changed-tail-clean",
+    "firstTextMs": 69737.0249,
+    "promptTokens": 340,
+    "reusedTokens": 0,
+    "maxLogitDifference": 0.0
+  },
+  {
+    "totalMs": 12714.2008,
+    "case": "other-story-cached",
+    "firstTextMs": 9844.2938,
+    "promptTokens": 43,
+    "reusedTokens": 0
+  },
+  {
+    "totalMs": 12376.1837,
+    "case": "other-story-clean",
+    "firstTextMs": 9962.3077,
+    "promptTokens": 43,
+    "reusedTokens": 0,
+    "maxLogitDifference": 0.0
+  },
+  {
+    "totalMs": 145438.2015,
+    "case": "after-cancellation",
+    "firstTextMs": 124962.6301,
+    "promptTokens": 352,
+    "reusedTokens": 0
+  },
+  {
+    "totalMs": 114081.1947,
+    "case": "after-callback-error",
+    "firstTextMs": 112471.461,
+    "promptTokens": 352,
+    "reusedTokens": 0
+  }
+]

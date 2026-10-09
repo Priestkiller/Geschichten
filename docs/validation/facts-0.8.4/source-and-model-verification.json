@@ -1,0 +1,69 @@
+{
+  "unchanged083Artifacts": 134,
+  "allUnchanged": true,
+  "changedFiles": {
+    "app/src/main/java/dev/vincent/geschichten/data/StoryRepository.kt": "3d222de49044f3c03be23148c08eb23b37471ba8906eebbbcba1f9eda13a783b",
+    "app/src/main/java/dev/vincent/geschichten/memory/FactRepair.kt": "2836a92424552d306711fd7d8b42e3d09857c4b0fe1563996604856de67b1b21",
+    "app/src/main/java/dev/vincent/geschichten/memory/GroundedFacts.kt": "aa1b7a2d4a77cc16e696c1f5c1bda70286080d1f60d3be99a6acbaa2659c9acd",
+    "app/src/main/java/dev/vincent/geschichten/memory/MemoryDatabase.kt": "a0f5496f09442a4c19f4b0c860220ffb6e6d49cf9de7b07cfbdf6ddde414f901",
+    "app/src/main/java/dev/vincent/geschichten/memory/MemoryPrompt.kt": "1becbe1e087fdb9e38a84a54d735c682c02c5bf03c1cdebc7778d2b089f83a39",
+    "app/src/main/java/dev/vincent/geschichten/memory/RoleEvidence.kt": "bb61b709765a22a12d52516bbe6dd534ce69b64101954ee8fc5c539edfd3edad",
+    "app/src/main/java/dev/vincent/geschichten/memory/StoryMemory.kt": "44ba037b0a217b59f138b68bb6fa70065642dd5e8bcf12389693396faa7f8c01",
+    "app/src/main/java/dev/vincent/geschichten/ui/StateMemoryUi.kt": "c0cfdf612d225a7b5e55403c2fc0c453df67d91db0c7c3c24384e8f35960fb9b",
+    "app/src/test/java/dev/vincent/geschichten/memory/IndependentFactGoldTest.kt": "d822f07066c92743940ecfb7fda0ee417daa3b9d61dba80aa95ada65afa93b16",
+    "app/src/test/java/dev/vincent/geschichten/memory/MemoryRulesTest.kt": "fcd9c9121d19c936f03e0070cbee591b4d47aca3355abf478b99e5c76afec3b8",
+    "app/src/visualTest/java/dev/vincent/geschichten/ChatContextIntegrationTest.kt": "c793339cd9561772190c6d5b5c95ac768565a774312f77a6c210c535d1bf89a2",
+    "app/src/visualTest/java/dev/vincent/geschichten/data/CatalogMigrationTest.kt": "fffc52bba4e7ada29bf28e9d0ab5d8a13ed5c15deeb20a12890f61f0baf4c2ee",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/FactAcceptanceTest.kt": "eb85a4fd008c71e9fa69d20ea7714e50525a48c87b0d0642e9e39e16383becfd",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/FactRepairIntegrationTest.kt": "31ca6f6f74c58d9d73bfe1ddad9227c13a637ba062bc3036db41ebda97fc908e",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/MemoryRepositoryIntegrationTest.kt": "ec0aec855567c5b3b9ce881f7beaf25bcea374e97f060a5ce4496c8b52ef1db2",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/NewScenePersistenceAuditTest.kt": "befec97bb54c630e463a2d09f3fc72623d6747e02b051152a37a9f6b2402e6c6",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/ProductionSemanticVerificationTest.kt": "f4efd91c325784374b429bccd6c4d31e12bda691d54f7cdf02a9c1eb15587ea6",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleAnswerCorpusTest.kt": "56c2a3ba49bcf8958f710f35ab9bdc6a4b0d3d58b741a39a86f8c5f7a398eaa8",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleContaminationInvestigationTest.kt": "c264d9ed31c541481cd1635cdfeebe55bd007333eab76d5e103b3fb5d6bb9fc7",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/RolePersistenceTest.kt": "3e61907021d99400c9bfb6cfd7200d16b62baad5743b69b2fef18752c662ebed",
+    "app/src/visualTest/java/dev/vincent/geschichten/memory/SemanticIndexTest.kt": "c28e29b0b5d8307e50d7568ef52958397ff4f6135d7732b6bc29e45ea94b91c5",
+    "app/src/visualTest/java/dev/vincent/geschichten/ui/MemoryUiTest.kt": "57ab25f4e2ef451980276ba35838e0bce58625d9f82e8b78b92a6d6a823f4cd5",
+    "app/build.gradle.kts": "b142917d851bbae05452a7131a8cc7a481e0f4a115279fd6c0a6070bafd9f9c4",
+    "README.md": "fc608111f17e41a83d2ad2c0c79b1c5d23406b6ccff42b91b4b5bb120884cbc5",
+    "BUILD_WINDOWS.cmd": "d48ec88d958bb410adfad9469d721dfa50e5472c4a909219d18ecea0d28cc14d"
+  },
+  "unchangedModelFiles": {
+    "Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf": {
+      "size": 2497280736,
+      "sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e"
+    },
+    "embeddinggemma-300M-Q8_0.gguf": {
+      "size": 333590944,
+      "sha256": "b5ce9d77a3fc4b3b39ccb5643c36777911cc4eb46a66962eadfa3f5f60490d63"
+    },
+    "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf": {
+      "size": 2497276736,
+      "sha256": "d80ef0f08a0e64887f4a19bc9202fe1a108d9666a2c49eb9a30bc3a30995121b"
+    },
+    "gemma-4-E2B-it.litertlm": {
+      "size": 2588147712,
+      "sha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c"
+    }
+  },
+  "rawFiles": {
+    "raw-A-gemma-4-e2b.json": "14f2cb96bddc84ab10405e34472594a1c29fcb2b97f9510500a6f4e1c9122209",
+    "raw-A-huihui-qwen3-4b.json": "48493df83509afc80026de3e850219b5b0871a9f16e52378235433a45d87e50f",
+    "raw-A-qwen3-official-4b.json": "3bbb6504f6c99ed9f1e1e5e4dacaa9f38a36458d2c57572e9537ffda62debe5c",
+    "raw-B-gemma-4-e2b.json": "de0b8c6803b2029a36299fa5c39e403c7948c2a1f4f4b339e8677516c589a724",
+    "raw-B-huihui-qwen3-4b.json": "f2510d960781c61547e803e7a7fa50f282560d296721e0f1c5450110fb982e69",
+    "raw-B-qwen3-official-4b.json": "031c3c1fed5ecfc3a764997767555862fd993b6b652c74efe4fed7b47d37b548",
+    "raw-C-gemma-4-e2b.json": "83c269d3dd9ed430e5d0e1c64a435f24e8b0b920f3ff28f0c9cf0c2b56c03c08",
+    "raw-C-huihui-qwen3-4b.json": "65ea14e165c536ace03a2f4875aed9ecb27b6fa8ec59be2304978cc94720aea2",
+    "raw-C-qwen3-official-4b.json": "cdc17da3d100accc652fc7c3f03cdae78104124a1dc3424253743db0b4c77d73",
+    "raw-D-gemma-4-e2b.json": "fe915e9d35eeb298273fdf04b5ffa9e91c6581ab40d6ba45ed93baffc23e10c5",
+    "raw-D-huihui-qwen3-4b.json": "b55503910b945e22f9374d110e4dea331f07a2c2e3534a689d2ee6b767f59a38",
+    "raw-D-qwen3-official-4b.json": "b1437d9f419deda6bbe537adb54c33cbd633903e0f6477ae6b93393b3da96089",
+    "raw-heldout-final-gemma-4-e2b.json": "3859ce06f8576245366720a390cd31e44912b9f91bd2cdae1cc44d37b5e7bece",
+    "raw-heldout-final-huihui-qwen3-4b.json": "aea950539618009c6c8caae034043fd653b53bc55c119f27c2e7f8a7028087ac",
+    "raw-heldout-final-qwen3-official-4b.json": "8ccfc09d39fbd2ffa55dce11040051c23f656f09f74eae8c7fa7c98243221b7f",
+    "raw-heldout-gemma-4-e2b.json": "f2e3510634ef16873660a3468d4b3d31e4caa6784bb64bc00ef64561f8034c9e",
+    "raw-heldout-huihui-qwen3-4b.json": "54dea66b9b5c46467dd7db5d85e8e4072e73b6f2e5bde838d07a9792ad9dfcc0",
+    "raw-heldout-qwen3-official-4b.json": "1d315cd348acf8248579d8f877b0cf4a1321879a8a0856206e13b561c5a95c48"
+  }
+}

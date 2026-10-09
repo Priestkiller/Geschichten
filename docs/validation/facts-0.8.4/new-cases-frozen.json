@@ -1,0 +1,500 @@
+[
+  {
+    "case": "dev-gift",
+    "split": "development",
+    "character": "Arik",
+    "player": "Lena",
+    "source": "Lena überreicht Arik den Ring als Geschenk. Arik legt den Ring anschließend auf die Kommode.",
+    "gold": [
+      [
+        "ITEM",
+        "Ring",
+        "owner",
+        "Arik"
+      ],
+      [
+        "ITEM",
+        "Ring",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Ring",
+        "placement",
+        "auf der Kommode"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-pickup",
+    "split": "development",
+    "character": "Branko",
+    "player": "Nela",
+    "source": "Der Brief gehört Nela. Er liegt unter dem Bett. Branko nimmt ihn vom Bett auf.",
+    "gold": [
+      [
+        "ITEM",
+        "Brief",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Brief",
+        "holder",
+        "Branko"
+      ],
+      [
+        "ITEM",
+        "Brief",
+        "placement",
+        "Nicht abgelegt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-return",
+    "split": "development",
+    "character": "Ferik",
+    "player": "Juna",
+    "source": "Der Dolch gehört Juna. Ich gebe dir den Dolch. Du gibst mir den Dolch zurück.",
+    "gold": [
+      [
+        "ITEM",
+        "Dolch",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Dolch",
+        "holder",
+        "Du"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-perfect",
+    "split": "development",
+    "character": "Enrik",
+    "player": "Dora",
+    "source": "Dora hat Enrik die Karte geschenkt. Enrik hat sie Dora zurückgegeben.",
+    "gold": [
+      [
+        "ITEM",
+        "Karte",
+        "owner",
+        "Enrik"
+      ],
+      [
+        "ITEM",
+        "Karte",
+        "holder",
+        "Du"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-many-injuries",
+    "split": "development",
+    "character": "Marek",
+    "player": "Fara",
+    "source": "Meine linke Hand ist verletzt und meine rechte Schulter ist gebrochen. Marek hat ein verwundetes rechtes Bein.",
+    "gold": [
+      [
+        "PERSON",
+        "Du",
+        "injury:linke hand",
+        "linke hand: verletzt"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:rechte schulter",
+        "rechte schulter: gebrochen"
+      ],
+      [
+        "PERSON",
+        "Marek",
+        "injury:rechtes bein",
+        "rechtes bein: verwundet"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-question",
+    "split": "development",
+    "character": "Tibor",
+    "player": "Alva",
+    "source": "Ich wünsche mir, dass du mir den Ring schenkst. Hast du ihn mir geschenkt? Wenn du mir den Ring schenkst, gehört er mir.",
+    "gold": [],
+    "unknown": [
+      "holder",
+      "owner",
+      "placement"
+    ],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-ambiguous",
+    "split": "development",
+    "character": "Korin",
+    "player": "Nika",
+    "source": "Der rote Ring liegt auf dem Tisch. Der blaue Ring liegt in der Kiste. Ich nehme ihn.",
+    "gold": [
+      [
+        "ITEM",
+        "Ring",
+        "placement",
+        "auf dem Tisch"
+      ],
+      [
+        "ITEM",
+        "blau Ring",
+        "placement",
+        "in der Kiste"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [
+      "pronoun:ihn"
+    ],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-description",
+    "split": "development",
+    "character": "Venno",
+    "player": "Paula",
+    "source": "Ich habe das Schwert. Die Klinge liegt nun hinter der Tür.",
+    "gold": [
+      [
+        "ITEM",
+        "Schwert",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Schwert",
+        "placement",
+        "hinter der Tür"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-secret",
+    "split": "development",
+    "character": "Rasko",
+    "player": "Ute",
+    "source": "Ich lege den Kristall heimlich unter den Tisch.",
+    "gold": [
+      [
+        "ITEM",
+        "Kristall",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Kristall",
+        "placement",
+        "unter dem Tisch"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-negated-gift",
+    "split": "development",
+    "character": "Caro",
+    "player": "Nino",
+    "source": "Nino hat Caro das Buch nicht geschenkt. Nino trägt das Buch.",
+    "gold": [
+      [
+        "ITEM",
+        "Buch",
+        "holder",
+        "Du"
+      ]
+    ],
+    "unknown": [
+      "owner"
+    ],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-person-pronoun",
+    "split": "development",
+    "character": "Sora",
+    "player": "Milan",
+    "source": "Milan gibt Sora den Schlüssel. Er legt ihn auf den Tisch.",
+    "gold": [
+      [
+        "ITEM",
+        "Schlüssel",
+        "holder",
+        "Sora"
+      ]
+    ],
+    "unknown": [
+      "placement"
+    ],
+    "ambiguous": [
+      "person:er"
+    ],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "dev-temporal",
+    "split": "development",
+    "character": "Taren",
+    "player": "Zita",
+    "source": "Der Schlüssel liegt im Schrank. Ich lege ihn auf den Tisch. Ich nehme den Schlüssel. Ich lege ihn unter das Bett.",
+    "gold": [
+      [
+        "ITEM",
+        "Schlüssel",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Schlüssel",
+        "placement",
+        "unter dem Bett"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "accept-gift",
+    "split": "heldout",
+    "character": "Darian",
+    "player": "Bela",
+    "source": "Bela schenkt Darian den Anhänger. Darian legt ihn hinter die Truhe.",
+    "gold": [
+      [
+        "ITEM",
+        "Anhänger",
+        "owner",
+        "Darian"
+      ],
+      [
+        "ITEM",
+        "Anhänger",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Anhänger",
+        "placement",
+        "hinter der Truhe"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "accept-handover",
+    "split": "heldout",
+    "character": "Svenja",
+    "player": "Jarek",
+    "source": "Das Amulett gehört Jarek. Jarek überreicht Svenja das Amulett. Svenja legt es unter das Regal.",
+    "gold": [
+      [
+        "ITEM",
+        "Amulett",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Amulett",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Amulett",
+        "placement",
+        "unter dem Regal"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "accept-body",
+    "split": "heldout",
+    "character": "Salen",
+    "player": "Tilda",
+    "source": "Salen hat eine gebrochene linke Schulter. Meine rechte Hand ist verwundet und mein linkes Bein ist verletzt.",
+    "gold": [
+      [
+        "PERSON",
+        "Salen",
+        "injury:linke schulter",
+        "linke schulter: gebrochen"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:rechte hand",
+        "rechte hand: verwundet"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:linkes bein",
+        "linkes bein: verletzt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "accept-healed",
+    "split": "heldout",
+    "character": "Tavin",
+    "player": "Edda",
+    "source": "Meine rechte Hand ist verletzt. Ich bin nicht mehr verletzt.",
+    "gold": [
+      [
+        "PERSON",
+        "Du",
+        "injury:rechte hand",
+        "rechte hand: unverletzt"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:allgemein",
+        "allgemein: unverletzt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "accept-hypothesis",
+    "split": "heldout",
+    "character": "Kelda",
+    "player": "Otto",
+    "source": "Angenommen, ich hätte dir die Münze geschenkt. Ich möchte dir den Ring geben. Soll ich dir das Buch schenken?",
+    "gold": [],
+    "unknown": [
+      "owner",
+      "holder"
+    ],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "accept-pickup",
+    "split": "heldout",
+    "character": "Riona",
+    "player": "Veit",
+    "source": "Der Trank gehört Veit. Er liegt auf der Bank. Ich nehme ihn von der Bank auf.",
+    "gold": [
+      [
+        "ITEM",
+        "Trank",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Trank",
+        "holder",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Trank",
+        "placement",
+        "Nicht abgelegt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "accept-ambiguous",
+    "split": "heldout",
+    "character": "Fenro",
+    "player": "Gisa",
+    "source": "Das Buch und die Schriftrolle liegen auf dem Tisch. Ich gebe sie dir.",
+    "gold": [],
+    "unknown": [
+      "holder",
+      "owner"
+    ],
+    "ambiguous": [
+      "pronoun:sie",
+      "plural location unsupported"
+    ],
+    "basis": "Human-authored source and independent gold before implementation"
+  },
+  {
+    "case": "accept-perfect",
+    "split": "heldout",
+    "character": "Mara",
+    "player": "Gero",
+    "source": "Ich habe dir den Kristall geschenkt. Du legst den Kristall in den Schrank. Du nimmst ihn wieder auf.",
+    "gold": [
+      [
+        "ITEM",
+        "Kristall",
+        "owner",
+        "Mara"
+      ],
+      [
+        "ITEM",
+        "Kristall",
+        "holder",
+        "Mara"
+      ],
+      [
+        "ITEM",
+        "Kristall",
+        "placement",
+        "Nicht abgelegt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation"
+  }
+]

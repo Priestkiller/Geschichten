@@ -1,0 +1,55 @@
+[
+  {
+    "case": "hold-reverse",
+    "fallback": true,
+    "repaired": false,
+    "sameFinalDecisionAndAnswer": true,
+    "allInputsTokenCountsTemplatesIdentical": true,
+    "calls": 2,
+    "completed": true
+  },
+  {
+    "case": "hold-family",
+    "fallback": false,
+    "repaired": false,
+    "sameFinalDecisionAndAnswer": true,
+    "allInputsTokenCountsTemplatesIdentical": true,
+    "calls": 2,
+    "completed": true
+  },
+  {
+    "case": "causal-letter",
+    "fallback": false,
+    "repaired": false,
+    "sameFinalDecisionAndAnswer": true,
+    "allInputsTokenCountsTemplatesIdentical": true,
+    "calls": 2,
+    "completed": true
+  },
+  {
+    "case": "dolch",
+    "fallback": false,
+    "repaired": false,
+    "sameFinalDecisionAndAnswer": true,
+    "allInputsTokenCountsTemplatesIdentical": true,
+    "calls": 2,
+    "completed": true
+  },
+  {
+    "case": "new-gift",
+    "error": "java.lang.IllegalStateException: Die Reparatur konnte technisch nicht vollständig geprüft werden. Deine Nachricht bleibt erhalten.",
+    "sameFinalDecisionAndAnswer": true,
+    "allInputsTokenCountsTemplatesIdentical": true,
+    "calls": 4,
+    "completed": false
+  },
+  {
+    "case": "new-secret",
+    "fallback": false,
+    "repaired": false,
+    "sameFinalDecisionAndAnswer": true,
+    "allInputsTokenCountsTemplatesIdentical": true,
+    "calls": 2,
+    "completed": true
+  }
+]

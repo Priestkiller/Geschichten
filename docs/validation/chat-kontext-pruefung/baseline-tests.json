@@ -1,0 +1,56 @@
+[
+  {
+    "Name": "dev.vincent.geschichten.ai.LocalModelCatalogTest",
+    "Tests": "3",
+    "Failures": "0",
+    "Errors": "0"
+  },
+  {
+    "Name": "dev.vincent.geschichten.ai.ModelDownloadProtocolTest",
+    "Tests": "10",
+    "Failures": "0",
+    "Errors": "0"
+  },
+  {
+    "Name": "dev.vincent.geschichten.ai.ModelPerformanceTest",
+    "Tests": "3",
+    "Failures": "0",
+    "Errors": "0"
+  },
+  {
+    "Name": "dev.vincent.geschichten.ai.StoryPromptTest",
+    "Tests": "23",
+    "Failures": "0",
+    "Errors": "0"
+  },
+  {
+    "Name": "dev.vincent.geschichten.ai.StoryReplyValidationTest",
+    "Tests": "4",
+    "Failures": "0",
+    "Errors": "0"
+  },
+  {
+    "Name": "dev.vincent.geschichten.ai.StorySummaryPromptTest",
+    "Tests": "2",
+    "Failures": "0",
+    "Errors": "0"
+  },
+  {
+    "Name": "dev.vincent.geschichten.data.BuiltinCharactersCatalogTest",
+    "Tests": "11",
+    "Failures": "0",
+    "Errors": "0"
+  },
+  {
+    "Name": "dev.vincent.geschichten.ui.StoryTextTest",
+    "Tests": "4",
+    "Failures": "0",
+    "Errors": "0"
+  },
+  {
+    "Name": "dev.vincent.geschichten.updates.UpdatePolicyTest",
+    "Tests": "16",
+    "Failures": "0",
+    "Errors": "0"
+  }
+]

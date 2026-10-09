@@ -1,0 +1,11 @@
+{
+  "app/src/main/cpp/gguf-jni.cpp": "4e2484db518bf4f059db17ca384b95dbe58a36d0ce2acd90c169d7f47c9d5958",
+  "app/src/main/cpp/prompt-cache.h": "37abcda14c82be8720968aa7625d454dc7e9d0a36ccf43425d34ea81725fba68",
+  "app/src/main/java/dev/vincent/geschichten/ai/ModelPerformance.kt": "bbcf105eef68a412d23ed84c83acd36d3b230fad427962cf34e51539636c27a3",
+  "app/src/main/java/dev/vincent/geschichten/ai/LocalModelEngine.kt": "4807a0b3516ce905db32e777c16555f15a9c0c4c900cb61bc432c9dbaea12668",
+  "app/src/main/java/dev/vincent/geschichten/ai/GgufEngine.kt": "2f262572215549bf0610fdb18ec559a9b1e6e9fba632436a90d93197b561c3be",
+  "app/src/main/java/dev/vincent/geschichten/ui/SetupScreen.kt": "b601213979d139c1b940ba2b6c7e6c43a6a8e9bd862de7765d7d19498e5505ec",
+  "app/src/main/java/dev/vincent/geschichten/ui/StoryApp.kt": "069f4bc83cf989c97de956f0faf3075b34cfe39140da4377cb85b7bc1ade8f18",
+  "app/src/main/java/dev/vincent/geschichten/AppViewModel.kt": "d3735b20bbd8d58474ce81d11e3ff910c95d0c0df8a68b392e664d6241bb1e6e",
+  "app/build.gradle.kts": "6b347473f097c48e2a2073f96423344545afdd1ba8a3183b516e1539177f2dd4"
+}

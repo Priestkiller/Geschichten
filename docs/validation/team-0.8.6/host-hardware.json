@@ -1,0 +1,18 @@
+{
+  "measuredAt": "2026-10-08T13:44:54.4225950+02:00",
+  "processor": {
+    "Name": "AMD Ryzen 7 9800X3D 8-Core Processor           ",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 8
+  },
+  "ramBytes": 66145669120,
+  "gpu": [
+    {
+      "Name": "AMD Radeon(TM) Graphics"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 5080"
+    }
+  ],
+  "inference": "Host-CPU, 4 Threads, keine Handy-Messung"
+}

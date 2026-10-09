@@ -1,0 +1,41 @@
+{
+  "models": [
+    "huihui-qwen3-4b",
+    "gemma-4-e2b"
+  ],
+  "profiles": {
+    "baseline": {
+      "temperature": 0.75,
+      "topP": 0.9,
+      "topK": 40
+    },
+    "factual": {
+      "temperature": 0.2,
+      "topP": 0.9,
+      "topK": 40
+    }
+  },
+  "common": {
+    "context": 4096,
+    "output": 512,
+    "repetitionPenalty": 1.08,
+    "window": 256,
+    "seed": 42,
+    "threads": 4,
+    "thinking": false
+  },
+  "developmentTasks": [
+    "A",
+    "B",
+    "C"
+  ],
+  "constrainedDevelopmentTasks": [
+    "B"
+  ],
+  "acceptanceCases": 12,
+  "selection": "Choose one model/profile before acceptance, using semantic C correctness first, then A/B semantic correctness, then format; constrained decoding is a separate format comparison. No prompt retuning or hidden retries.",
+  "qualification": "At least 11/12 correct content in each A/B/C task on acceptance; zero false contradictions for correct/unknown claims and zero false approvals of contradicted claims. A/B must show content not merely formatting. Otherwise do not reintegrate.",
+  "manualSourcesNotRetrievalEvidence": true,
+  "maxDevelopmentCalls": 84,
+  "maxAcceptanceCalls": 48
+}

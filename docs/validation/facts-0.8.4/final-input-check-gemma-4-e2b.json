@@ -1,0 +1,60 @@
+[
+  {
+    "phase": "D",
+    "case": "hold-reverse",
+    "tokens": 3391,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  },
+  {
+    "phase": "D",
+    "case": "hold-family",
+    "tokens": 3385,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": false,
+    "finalGuardAccepted": false,
+    "finalGuardError": "java.lang.IllegalStateException: Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Die Figur wiederholt nur deine Frage, statt zu antworten. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "phase": "D",
+    "case": "hold-correction",
+    "tokens": 3247,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  },
+  {
+    "phase": "heldout-final",
+    "case": "accept-gift",
+    "tokens": 535,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": false,
+    "finalGuardAccepted": false,
+    "finalGuardError": "java.lang.IllegalStateException: Die Antwort widerspricht einem bekannten Gedächtniseintrag (Anhänger: Eigentümer). Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "phase": "heldout-final",
+    "case": "accept-body",
+    "tokens": 582,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  },
+  {
+    "phase": "heldout-final",
+    "case": "accept-hypothesis",
+    "tokens": 485,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  },
+  {
+    "phase": "heldout-final",
+    "case": "accept-pickup",
+    "tokens": 559,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  }
+]

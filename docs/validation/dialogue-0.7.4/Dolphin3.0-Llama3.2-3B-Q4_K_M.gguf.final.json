@@ -1,0 +1,26 @@
+[
+  {
+    "outputTokenLimit": 256,
+    "model": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+    "answer": "*Mira schaut auf ihr Armband und dann auf das Gerät vor sich.*\n\n**„Ein gutes Signal zu sehen, aber ein ganzes Signal zu empfangen, das ist ja etwas anderes. Es könnte ein Fehler sein oder es könnte ein zweites Objekt geben.“**",
+    "seconds": 11.9176647,
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-denial"
+  },
+  {
+    "outputTokenLimit": 256,
+    "model": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+    "answer": "*Eine Sekunde Pause. Mira\u0027s Lächeln ist breit, aber ihre Augen sind ernst.*\n\n**„Natürlich, ich könnte das Signal von hier aus prüfen, aber ich würde es lieber selbst tun.“**\n\n*Mira legt die Hand auf den Türrahmen und stößt ihn weg, um dann mit den Füßen an der Schleuse entlangzutritt.*",
+    "seconds": 13.8382175,
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-caution"
+  },
+  {
+    "outputTokenLimit": 256,
+    "model": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+    "answer": "*Grask kniet sich vor das schmale Wärtergitter und öffnet das Käuferregister.*\n\n**„Hier ist der Anfang. (Einfließt Zaubernamen, eine Schrift)“**\n\n*Er zeigt einen Namen auf einer Preisschildkarte: \"Zahnweisser\".*\n\n**„Das hier steht \u0027Der Zahnweisser von Dornfels\u0027 auf einer Prise.“**",
+    "seconds": 15.5654129,
+    "runtime": "Windows x86_64 CPU",
+    "case": "grask-reading"
+  }
+]

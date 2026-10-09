@@ -1,0 +1,90 @@
+{
+  "id": "qa-new-unknown",
+  "request": {
+    "model": "geschichten-qwen3-8b-test",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Continue this German roleplay. You play \"Iven\". The user plays \"Nele\". Write only your next reply in fluent German. Refer to yourself as ich in dialogue, and describe your own actions in third person between asterisks. The first user message is the original source, spoken by the player to your character. Keep the two persons and their belongings separate. Answer the latest question from that source. Do not invent a missing past event or reason. Questions and hypothetical events are not facts. Do not act for the player. If a past fact is unknown, say so."
+      },
+      {
+        "role": "user",
+        "content": "Nele zeigt Iven eine Kerbe am Amulett."
+      },
+      {
+        "role": "assistant",
+        "content": "„Ich höre zu.“"
+      },
+      {
+        "role": "user",
+        "content": "Wem gehört das Amulett?"
+      }
+    ],
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 384,
+      "seed": 42,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "min_p": 0,
+      "repeat_penalty": 1,
+      "presence_penalty": 1.5
+    },
+    "stream": true,
+    "keep_alive": "10m",
+    "think": false
+  },
+  "startUTC": "2026-10-09T20:04:26.199180+00:00",
+  "server": "http://192.168.178.73:11434",
+  "content": "*Ich betrachte die Kerbe auf dem Amulett, dann drehe ich es langsam in den Händen.*  \nDas Amulett gehört mir. Es ist ein Erbstück meiner Familie. Es hat eine lange Geschichte, aber ich weiß nicht, was diese Kerbe bedeuten könnte.",
+  "thinking": "",
+  "completed": true,
+  "finalChunk": {
+    "model": "geschichten-qwen3-8b-test",
+    "created_at": "2026-10-09T20:04:31.2744171Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4066810200,
+    "load_duration": 7592100,
+    "prompt_eval_count": 179,
+    "prompt_eval_cached_count": 12,
+    "prompt_eval_duration": 267829000,
+    "eval_count": 64,
+    "eval_duration": 3776851000
+  },
+  "wallSeconds": 4.068536000093445,
+  "firstContentSeconds": 0.29144940013065934,
+  "firstThinkingSeconds": null,
+  "rawSHA256": "00d5fbeb93465640353f2827d9b13e5e883eb2c8aa0340b7a33e2f6f04f49f17",
+  "runningModels": {
+    "models": [
+      {
+        "name": "geschichten-qwen3-8b-test:latest",
+        "model": "geschichten-qwen3-8b-test:latest",
+        "size": 5763802068,
+        "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-09T22:14:31.2749293+02:00",
+        "size_vram": 4193811168,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "truncated": false,
+  "reportedPromptTokensPlusReservedOutputWithinContext": true
+}

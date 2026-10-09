@@ -1,0 +1,10 @@
+[
+  {
+    "model": "Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "answer": "*Mira beugt sich vor, hebt das Gerät mit einem zaghaften Lächeln an und dreht es leicht in der Hand.*\n\n**„Dann haben wir unterschiedliche Empfindungen – aber das bedeutet nicht, dass du nichts gewusst hättest. Vielleicht ist es nur ein anderer Winkel. Ich habe einen leichten Frequenzschwankungsausschnitt; wenn ich das mit deinem vergleiche, sehen wir vielleicht, ob es ein gemeinsamer Punkt gibt.“**\n\n*Sie legt den Finger auf die Sensorkontrollanzeige und atmet kurz aus.*\n\n**„Sag mir einfach, was du siehst – oder was du nicht siehst. Wenn du es nicht hast, dann ist es nicht verloren. Wir schauen es gemeinsam nach.“**\n\n*Die Hände ruhen nun ruhig auf dem Armaturenblock, als würde sie darauf warten, etwas zu hören.*",
+    "seconds": 179.3098384,
+    "runtime": "Windows x86_64 CPU",
+    "case": "production-1",
+    "outputTokenLimit": 256
+  }
+]

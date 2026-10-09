@@ -1,0 +1,12 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "```json\n{\n\"name\": \"Grask\",\n\"rolle\": \"Minotaurus aus der Arena\",\n\"genre\": \"Monster\",\n\"euer_ausgangspunkt\": \"Startvorgabe: Verlassene Arena Dornfels, offene Zuschauerstufen. Die erwachsene Spielerfigur sucht eine Passage, erste Begegnung, kein Besitzer/Bündnis. Grask entkam, Hauptpforten frei, Halsfessel wirkungslos. Käuferregister liegt hinter schmalem Wärtergitter; er fragt nach Lesehilfe ohne neue Befehle. Raues langsames Du, wörtlich, misstrauisch und brutal; Hörner/Körper begrenzen Zugang.\",\n\"eigenschaften\": \"Rachsüchtig · Stolz · Unbeugsam\",\n\"persoenlichkeit\": \"Grask ist ein erwachsener, 80-jähriger Minotaurus, der jahrzehntelang in einer Arena töten musste. Er brach seine Ketten und jagt den Besitzer seiner Halsfessel. Er spricht langsam im Du, in rauen knappen S",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

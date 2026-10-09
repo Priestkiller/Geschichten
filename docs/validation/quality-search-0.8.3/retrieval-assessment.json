@@ -1,0 +1,1027 @@
+{
+  "method": "Exact necessary source spans; unknown-past case succeeds only with no search hits. Earlier source-ID-only counters are not the final quality measure.",
+  "parametersUnchanged": true,
+  "summary": {
+    "development": {
+      "lexical": {
+        "complete": 6,
+        "cases": 10,
+        "foundSpans": 10,
+        "requiredSpans": 14,
+        "irrelevantSelected": 2
+      },
+      "hybrid": {
+        "complete": 8,
+        "cases": 10,
+        "foundSpans": 12,
+        "requiredSpans": 14,
+        "irrelevantSelected": 3
+      }
+    },
+    "heldout": {
+      "lexical": {
+        "complete": 3,
+        "cases": 10,
+        "foundSpans": 8,
+        "requiredSpans": 16,
+        "irrelevantSelected": 1
+      },
+      "hybrid": {
+        "complete": 6,
+        "cases": 10,
+        "foundSpans": 12,
+        "requiredSpans": 16,
+        "irrelevantSelected": 2
+      }
+    }
+  },
+  "rows": [
+    {
+      "case": "dev-transfer",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-transfer-3",
+          "start": 0,
+          "end": 62,
+          "text": "Ich reiche dir die Karte, weil meine rechte Hand verletzt ist."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 1,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-transfer-3",
+            "start": 0,
+            "end": 63,
+            "text": "Ich reiche dir die Karte, weil meine rechte Hand verletzt ist. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 1,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-transfer-3",
+            "start": 0,
+            "end": 63,
+            "text": "Ich reiche dir die Karte, weil meine rechte Hand verletzt ist. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 55.98890013061464,
+      "indexMs": 1387.563299620524,
+      "newVectorCount": 32,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "dev-reverse",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-reverse-3",
+          "start": 0,
+          "end": 30,
+          "text": "Oskar gibt Fenna den Kristall."
+        },
+        {
+          "sourceId": "dev-reverse-3",
+          "start": 31,
+          "end": 66,
+          "text": "Oskars linke Schulter ist verletzt."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 2,
+        "requiredSpans": 2,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-reverse-3",
+            "start": 31,
+            "end": 67,
+            "text": "Oskars linke Schulter ist verletzt. "
+          },
+          {
+            "sourceId": "dev-reverse-3",
+            "start": 0,
+            "end": 31,
+            "text": "Oskar gibt Fenna den Kristall. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 2,
+        "requiredSpans": 2,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-reverse-3",
+            "start": 31,
+            "end": 67,
+            "text": "Oskars linke Schulter ist verletzt. "
+          },
+          {
+            "sourceId": "dev-reverse-3",
+            "start": 0,
+            "end": 31,
+            "text": "Oskar gibt Fenna den Kristall. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 31.724000116810203,
+      "indexMs": 877.8476999141276,
+      "newVectorCount": 19,
+      "vectorBytes": 101376
+    },
+    {
+      "case": "dev-family",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-family-3",
+          "start": 0,
+          "end": 29,
+          "text": "Meine Schwester heißt Wiebke."
+        },
+        {
+          "sourceId": "dev-family-3",
+          "start": 30,
+          "end": 53,
+          "text": "Dein Bruder heißt Nils."
+        },
+        {
+          "sourceId": "dev-family-3",
+          "start": 54,
+          "end": 90,
+          "text": "Wiebke hat dir eine Karte geschickt."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 3,
+        "requiredSpans": 3,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-family-3",
+            "start": 0,
+            "end": 30,
+            "text": "Meine Schwester heißt Wiebke. "
+          },
+          {
+            "sourceId": "dev-family-3",
+            "start": 30,
+            "end": 54,
+            "text": "Dein Bruder heißt Nils. "
+          },
+          {
+            "sourceId": "dev-family-3",
+            "start": 54,
+            "end": 90,
+            "text": "Wiebke hat dir eine Karte geschickt."
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 3,
+        "requiredSpans": 3,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-family-3",
+            "start": 0,
+            "end": 30,
+            "text": "Meine Schwester heißt Wiebke. "
+          },
+          {
+            "sourceId": "dev-family-3",
+            "start": 54,
+            "end": 90,
+            "text": "Wiebke hat dir eine Karte geschickt."
+          },
+          {
+            "sourceId": "dev-family-3",
+            "start": 30,
+            "end": 54,
+            "text": "Dein Bruder heißt Nils. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 31.32979990914464,
+      "indexMs": 904.6210004016757,
+      "newVectorCount": 19,
+      "vectorBytes": 101376
+    },
+    {
+      "case": "dev-owner",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-owner-3",
+          "start": 0,
+          "end": 21,
+          "text": "Das Buch gehört Nora."
+        },
+        {
+          "sourceId": "dev-owner-3",
+          "start": 46,
+          "end": 73,
+          "text": "Es liegt nun auf dem Tisch."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 2,
+        "requiredSpans": 2,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-owner-3",
+            "start": 0,
+            "end": 22,
+            "text": "Das Buch gehört Nora. "
+          },
+          {
+            "sourceId": "dev-owner-3",
+            "start": 46,
+            "end": 73,
+            "text": "Es liegt nun auf dem Tisch."
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 2,
+        "requiredSpans": 2,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-owner-3",
+            "start": 0,
+            "end": 22,
+            "text": "Das Buch gehört Nora. "
+          },
+          {
+            "sourceId": "dev-owner-3",
+            "start": 46,
+            "end": 73,
+            "text": "Es liegt nun auf dem Tisch."
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 32.22110006026924,
+      "indexMs": 832.4003000743687,
+      "newVectorCount": 19,
+      "vectorBytes": 101376
+    },
+    {
+      "case": "dev-negation",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-negation-3",
+          "start": 0,
+          "end": 23,
+          "text": "Ich bin nicht verletzt."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 1,
+        "complete": false,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 1,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-negation-3",
+            "start": 0,
+            "end": 24,
+            "text": "Ich bin nicht verletzt. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 32.97640010714531,
+      "indexMs": 756.323600653559,
+      "newVectorCount": 17,
+      "vectorBytes": 95232
+    },
+    {
+      "case": "dev-panic",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-panic-3",
+          "start": 0,
+          "end": 52,
+          "text": "Alva bekommt in engen, dunklen Räumen schnell Panik."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 1,
+        "complete": false,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 1,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-panic-4",
+            "start": 0,
+            "end": 32,
+            "text": "*Alva nickt kurz.* „Verstanden.“"
+          },
+          {
+            "sourceId": "dev-panic-3",
+            "start": 0,
+            "end": 53,
+            "text": "Alva bekommt in engen, dunklen Räumen schnell Panik. "
+          }
+        ],
+        "irrelevantSelected": 1
+      },
+      "queryMs": 36.66210011579096,
+      "indexMs": 792.9193000309169,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "dev-sound",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-sound-3",
+          "start": 0,
+          "end": 61,
+          "text": "Dorian kann schrille Geräusche seit dem Unfall kaum ertragen."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 1,
+        "complete": false,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 1,
+        "complete": false,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 28.562300140038133,
+      "indexMs": 1522.8830997366458,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "dev-multiple",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-multiple-3",
+          "start": 0,
+          "end": 26,
+          "text": "Esra meidet offene Flammen"
+        },
+        {
+          "sourceId": "dev-multiple-5",
+          "start": 0,
+          "end": 49,
+          "text": "Die Notbeleuchtung im Tunnel läuft mit Batterien."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "dev-multiple-5",
+            "start": 0,
+            "end": 49,
+            "text": "Die Notbeleuchtung im Tunnel läuft mit Batterien."
+          },
+          {
+            "sourceId": "dev-multiple-0",
+            "start": 0,
+            "end": 49,
+            "text": "*Esra blickt Konrad an.* „Wir können hier reden.“"
+          }
+        ],
+        "irrelevantSelected": 1
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "dev-multiple-5",
+            "start": 0,
+            "end": 49,
+            "text": "Die Notbeleuchtung im Tunnel läuft mit Batterien."
+          },
+          {
+            "sourceId": "dev-multiple-0",
+            "start": 0,
+            "end": 49,
+            "text": "*Esra blickt Konrad an.* „Wir können hier reden.“"
+          }
+        ],
+        "irrelevantSelected": 1
+      },
+      "queryMs": 40.92959989793599,
+      "indexMs": 927.5029997806996,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "dev-correction",
+      "split": "development",
+      "requiredSpans": [
+        {
+          "sourceId": "dev-correction-3",
+          "start": 67,
+          "end": 107,
+          "text": "Danach lege ich den Dolch auf den Tisch."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 1,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-correction-3",
+            "start": 30,
+            "end": 67,
+            "text": "Korrektur: Der Dolch liegt im Regal. "
+          },
+          {
+            "sourceId": "dev-correction-3",
+            "start": 67,
+            "end": 107,
+            "text": "Danach lege ich den Dolch auf den Tisch."
+          }
+        ],
+        "irrelevantSelected": 1
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 1,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "dev-correction-3",
+            "start": 30,
+            "end": 67,
+            "text": "Korrektur: Der Dolch liegt im Regal. "
+          },
+          {
+            "sourceId": "dev-correction-3",
+            "start": 67,
+            "end": 107,
+            "text": "Danach lege ich den Dolch auf den Tisch."
+          }
+        ],
+        "irrelevantSelected": 1
+      },
+      "queryMs": 29.6573000960052,
+      "indexMs": 752.4361000396311,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "dev-unknown",
+      "split": "development",
+      "requiredSpans": [],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 0,
+        "complete": true,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 0,
+        "complete": true,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 29.777899850159883,
+      "indexMs": 889.3972998484969,
+      "newVectorCount": 17,
+      "vectorBytes": 95232
+    },
+    {
+      "case": "hold-transfer",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-transfer-3",
+          "start": 0,
+          "end": 25,
+          "text": "Ich gebe dir das Amulett."
+        },
+        {
+          "sourceId": "hold-transfer-3",
+          "start": 26,
+          "end": 79,
+          "text": "Mein linkes Bein ist verletzt; deines ist unverletzt."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 2,
+        "requiredSpans": 2,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "hold-transfer-3",
+            "start": 26,
+            "end": 79,
+            "text": "Mein linkes Bein ist verletzt; deines ist unverletzt."
+          },
+          {
+            "sourceId": "hold-transfer-3",
+            "start": 0,
+            "end": 26,
+            "text": "Ich gebe dir das Amulett. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 2,
+        "requiredSpans": 2,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "hold-transfer-3",
+            "start": 26,
+            "end": 79,
+            "text": "Mein linkes Bein ist verletzt; deines ist unverletzt."
+          },
+          {
+            "sourceId": "hold-transfer-3",
+            "start": 0,
+            "end": 26,
+            "text": "Ich gebe dir das Amulett. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 323.8349000457674,
+      "indexMs": 4650.900500128046,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "hold-reverse",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-reverse-3",
+          "start": 0,
+          "end": 27,
+          "text": "Tammo reicht Yara das Buch."
+        },
+        {
+          "sourceId": "hold-reverse-3",
+          "start": 28,
+          "end": 65,
+          "text": "Tammo hat eine verletzte rechte Hand."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "hold-reverse-3",
+            "start": 0,
+            "end": 28,
+            "text": "Tammo reicht Yara das Buch. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "hold-reverse-3",
+            "start": 0,
+            "end": 28,
+            "text": "Tammo reicht Yara das Buch. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 171.95780016481876,
+      "indexMs": 2987.1760006062686,
+      "newVectorCount": 19,
+      "vectorBytes": 101376
+    },
+    {
+      "case": "hold-family",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-family-3",
+          "start": 0,
+          "end": 27,
+          "text": "Meine Schwester heißt Ruth."
+        },
+        {
+          "sourceId": "hold-family-3",
+          "start": 51,
+          "end": 87,
+          "text": "Ruth hat dir den Kristall geschenkt."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "hold-family-3",
+            "start": 51,
+            "end": 87,
+            "text": "Ruth hat dir den Kristall geschenkt."
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "hold-family-3",
+            "start": 51,
+            "end": 87,
+            "text": "Ruth hat dir den Kristall geschenkt."
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 112.35609999857843,
+      "indexMs": 3132.482100976631,
+      "newVectorCount": 19,
+      "vectorBytes": 101376
+    },
+    {
+      "case": "hold-owner",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-owner-3",
+          "start": 0,
+          "end": 23,
+          "text": "Der Ring gehört Amelie."
+        },
+        {
+          "sourceId": "hold-owner-3",
+          "start": 24,
+          "end": 47,
+          "text": "Ruben verwahrt ihn nur."
+        },
+        {
+          "sourceId": "hold-owner-3",
+          "start": 48,
+          "end": 79,
+          "text": "Der Ring liegt auf der Kommode."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 3,
+        "requiredSpans": 3,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "hold-owner-3",
+            "start": 24,
+            "end": 48,
+            "text": "Ruben verwahrt ihn nur. "
+          },
+          {
+            "sourceId": "hold-owner-3",
+            "start": 48,
+            "end": 79,
+            "text": "Der Ring liegt auf der Kommode."
+          },
+          {
+            "sourceId": "hold-owner-3",
+            "start": 0,
+            "end": 24,
+            "text": "Der Ring gehört Amelie. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 3,
+        "requiredSpans": 3,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "hold-owner-3",
+            "start": 48,
+            "end": 79,
+            "text": "Der Ring liegt auf der Kommode."
+          },
+          {
+            "sourceId": "hold-owner-3",
+            "start": 0,
+            "end": 24,
+            "text": "Der Ring gehört Amelie. "
+          },
+          {
+            "sourceId": "hold-owner-3",
+            "start": 24,
+            "end": 48,
+            "text": "Ruben verwahrt ihn nur. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 209.99159989878535,
+      "indexMs": 2963.400699896738,
+      "newVectorCount": 19,
+      "vectorBytes": 101376
+    },
+    {
+      "case": "hold-negation",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-negation-3",
+          "start": 0,
+          "end": 28,
+          "text": "Ich bin nicht mehr verletzt."
+        },
+        {
+          "sourceId": "hold-negation-3",
+          "start": 77,
+          "end": 107,
+          "text": "Das habe ich noch nicht getan."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "hold-negation-3",
+            "start": 0,
+            "end": 29,
+            "text": "Ich bin nicht mehr verletzt. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "hold-negation-3",
+            "start": 0,
+            "end": 29,
+            "text": "Ich bin nicht mehr verletzt. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 39.239199832081795,
+      "indexMs": 3019.2823002580553,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "hold-water",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-water-3",
+          "start": 0,
+          "end": 59,
+          "text": "Jette kann nicht schwimmen und hat Angst vor tiefem Wasser."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 1,
+        "complete": false,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 1,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "hold-water-3",
+            "start": 60,
+            "end": 96,
+            "text": "Lorenz fühlt sich auf Schiffen wohl."
+          }
+        ],
+        "irrelevantSelected": 1
+      },
+      "queryMs": 159.18960003182292,
+      "indexMs": 2848.975499626249,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "hold-crowd",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-crowd-3",
+          "start": 0,
+          "end": 72,
+          "text": "Arne wird bei dichtem Gedränge nervös und sucht einen ruhigen Randplatz."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 1,
+        "complete": false,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 1,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "hold-crowd-3",
+            "start": 0,
+            "end": 73,
+            "text": "Arne wird bei dichtem Gedränge nervös und sucht einen ruhigen Randplatz. "
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 157.52649982459843,
+      "indexMs": 3977.151200408116,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "hold-multiple",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-multiple-3",
+          "start": 0,
+          "end": 24,
+          "text": "Bea verträgt keine Nüsse"
+        },
+        {
+          "sourceId": "hold-multiple-5",
+          "start": 0,
+          "end": 47,
+          "text": "Im Proviantbeutel liegen Haferkekse ohne Nüsse."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 2,
+        "complete": false,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 2,
+        "requiredSpans": 2,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "hold-multiple-5",
+            "start": 0,
+            "end": 47,
+            "text": "Im Proviantbeutel liegen Haferkekse ohne Nüsse."
+          },
+          {
+            "sourceId": "hold-multiple-3",
+            "start": 0,
+            "end": 24,
+            "text": "Bea verträgt keine Nüsse"
+          }
+        ],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 170.72840011678636,
+      "indexMs": 2959.008699748665,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "hold-correction",
+      "split": "heldout",
+      "requiredSpans": [
+        {
+          "sourceId": "hold-correction-3",
+          "start": 75,
+          "end": 107,
+          "text": "Nun lege ich sie in den Schrank."
+        }
+      ],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 1,
+        "complete": false,
+        "selected": [
+          {
+            "sourceId": "hold-correction-3",
+            "start": 31,
+            "end": 75,
+            "text": "Korrektur: Die Tasche liegt unter dem Bett. "
+          }
+        ],
+        "irrelevantSelected": 1
+      },
+      "hybrid": {
+        "requiredSpansFound": 1,
+        "requiredSpans": 1,
+        "complete": true,
+        "selected": [
+          {
+            "sourceId": "hold-correction-3",
+            "start": 31,
+            "end": 75,
+            "text": "Korrektur: Die Tasche liegt unter dem Bett. "
+          },
+          {
+            "sourceId": "hold-correction-3",
+            "start": 75,
+            "end": 107,
+            "text": "Nun lege ich sie in den Schrank."
+          }
+        ],
+        "irrelevantSelected": 1
+      },
+      "queryMs": 174.6547999791801,
+      "indexMs": 3969.6709997951984,
+      "newVectorCount": 18,
+      "vectorBytes": 98304
+    },
+    {
+      "case": "hold-unknown",
+      "split": "heldout",
+      "requiredSpans": [],
+      "lexical": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 0,
+        "complete": true,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "hybrid": {
+        "requiredSpansFound": 0,
+        "requiredSpans": 0,
+        "complete": true,
+        "selected": [],
+        "irrelevantSelected": 0
+      },
+      "queryMs": 225.57340003550053,
+      "indexMs": 3955.4532994516194,
+      "newVectorCount": 17,
+      "vectorBytes": 95232
+    }
+  ]
+}

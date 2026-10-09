@@ -1,0 +1,18 @@
+{
+  "baseCase": "dolch",
+  "baseRaw": "raw-team-C.json",
+  "condition": "C",
+  "manualOwner": "Oda",
+  "rounds": [
+    {
+      "case": "dialogue-1",
+      "input": "Ich lege den Dolch neben die Schale. Wem gehört er jetzt, und wo liegt er?",
+      "expected": "Der Dolch gehört Oda (vorherige gespeicherte manuelle Korrektur). Er liegt neben der Schale. Keine erfundene Übergabe."
+    },
+    {
+      "case": "dialogue-2",
+      "input": "Ich nehme den Dolch wieder an mich und mustere dich neugierig. Wer hält ihn jetzt? Wem gehört er weiterhin?",
+      "expected": "Bennet hält den Dolch. Eigentümerin bleibt Oda. Natürliche Reaktion auf Bennet ohne erfundene Übergabe."
+    }
+  ]
+}

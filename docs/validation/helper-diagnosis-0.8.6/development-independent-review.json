@@ -1,0 +1,762 @@
+{
+  "huihui-qwen3-4b": [
+    {
+      "row": 0,
+      "case": "dev-transfer",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 1,
+      "case": "dev-transfer",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 2,
+      "case": "dev-transfer",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 3,
+      "case": "dev-injury",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein. Zusatz zu Yara ist als fehlende Erwähnung formuliert, keine erfundene zweite Verletzung.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 4,
+      "case": "dev-injury",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 5,
+      "case": "dev-injury",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 6,
+      "case": "dev-missing-reason",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 7,
+      "case": "dev-missing-reason",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 8,
+      "case": "dev-missing-reason",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 9,
+      "case": "dev-family",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 10,
+      "case": "dev-family",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 11,
+      "case": "dev-family",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 12,
+      "case": "dev-explicit-reason",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 13,
+      "case": "dev-explicit-reason",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 14,
+      "case": "dev-explicit-reason",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 15,
+      "case": "dev-holder-owner",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 16,
+      "case": "dev-holder-owner",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 17,
+      "case": "dev-holder-owner",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 18,
+      "case": "dev-transfer",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 19,
+      "case": "dev-transfer",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 20,
+      "case": "dev-transfer",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 21,
+      "case": "dev-transfer",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 22,
+      "case": "dev-injury",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein. Zusatz zu Yara ist als fehlende Erwähnung formuliert, keine erfundene zweite Verletzung.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 23,
+      "case": "dev-injury",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 24,
+      "case": "dev-injury",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 25,
+      "case": "dev-injury",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 26,
+      "case": "dev-missing-reason",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 27,
+      "case": "dev-missing-reason",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 28,
+      "case": "dev-missing-reason",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 29,
+      "case": "dev-missing-reason",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 30,
+      "case": "dev-family",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 31,
+      "case": "dev-family",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 32,
+      "case": "dev-family",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 33,
+      "case": "dev-family",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 34,
+      "case": "dev-explicit-reason",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 35,
+      "case": "dev-explicit-reason",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 36,
+      "case": "dev-explicit-reason",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 37,
+      "case": "dev-explicit-reason",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 38,
+      "case": "dev-holder-owner",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 39,
+      "case": "dev-holder-owner",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 40,
+      "case": "dev-holder-owner",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    },
+    {
+      "row": 41,
+      "case": "dev-holder-owner",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "f7103c6f6f89443f1a9d86d81030b757ac822dc9bcc2adca5842557261843b82"
+    }
+  ],
+  "gemma-4-e2b": [
+    {
+      "row": 0,
+      "case": "dev-transfer",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 1,
+      "case": "dev-transfer",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 2,
+      "case": "dev-transfer",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 3,
+      "case": "dev-injury",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 4,
+      "case": "dev-injury",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 5,
+      "case": "dev-injury",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 6,
+      "case": "dev-missing-reason",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": false,
+      "note": "Kein genannter Grund: Antwort erfindet Ursache, lässt die Frage offen oder verwechselt unbekannt mit widerlegt.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 7,
+      "case": "dev-missing-reason",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Nein ist hier die richtige Antwort, jedoch in Markdown eingehüllt.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 8,
+      "case": "dev-missing-reason",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": false,
+      "note": "Kein genannter Grund: Antwort erfindet Ursache, lässt die Frage offen oder verwechselt unbekannt mit widerlegt.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 9,
+      "case": "dev-family",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 10,
+      "case": "dev-family",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 11,
+      "case": "dev-family",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": false,
+      "note": "Belegt die falsche Zuordnung zu Enna; Ruth ist Silas Schwester.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 12,
+      "case": "dev-explicit-reason",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 13,
+      "case": "dev-explicit-reason",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 14,
+      "case": "dev-explicit-reason",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 15,
+      "case": "dev-holder-owner",
+      "mode": "A",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 16,
+      "case": "dev-holder-owner",
+      "mode": "B",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 17,
+      "case": "dev-holder-owner",
+      "mode": "C",
+      "temperature": 0.75,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 18,
+      "case": "dev-transfer",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 19,
+      "case": "dev-transfer",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 20,
+      "case": "dev-transfer",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 21,
+      "case": "dev-transfer",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 22,
+      "case": "dev-injury",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 23,
+      "case": "dev-injury",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 24,
+      "case": "dev-injury",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 25,
+      "case": "dev-injury",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 26,
+      "case": "dev-missing-reason",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": false,
+      "note": "Kein genannter Grund: Antwort erfindet Ursache, lässt die Frage offen oder verwechselt unbekannt mit widerlegt.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 27,
+      "case": "dev-missing-reason",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": false,
+      "note": "Kein genannter Grund: Antwort erfindet Ursache, lässt die Frage offen oder verwechselt unbekannt mit widerlegt.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 28,
+      "case": "dev-missing-reason",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": false,
+      "note": "Kein genannter Grund: Antwort erfindet Ursache, lässt die Frage offen oder verwechselt unbekannt mit widerlegt.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 29,
+      "case": "dev-missing-reason",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": false,
+      "note": "Kein genannter Grund: Antwort erfindet Ursache, lässt die Frage offen oder verwechselt unbekannt mit widerlegt.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 30,
+      "case": "dev-family",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 31,
+      "case": "dev-family",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 32,
+      "case": "dev-family",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": false,
+      "note": "Belegt die falsche Zuordnung zu Enna; Ruth ist Silas Schwester.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 33,
+      "case": "dev-family",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 34,
+      "case": "dev-explicit-reason",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 35,
+      "case": "dev-explicit-reason",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 36,
+      "case": "dev-explicit-reason",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 37,
+      "case": "dev-explicit-reason",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 38,
+      "case": "dev-holder-owner",
+      "mode": "A",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 39,
+      "case": "dev-holder-owner",
+      "mode": "B",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 40,
+      "case": "dev-holder-owner",
+      "mode": "C",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    },
+    {
+      "row": 41,
+      "case": "dev-holder-owner",
+      "mode": "G",
+      "temperature": 0.2,
+      "semanticCorrect": true,
+      "note": "Sachauskunft beziehungsweise Urteil stimmt mit dem ausgewählten Original überein.",
+      "rawSha256": "22bf9a6427d31bcf11942e31f509579dcc7ef78adad9e231c40d7d237560c239"
+    }
+  ]
+}

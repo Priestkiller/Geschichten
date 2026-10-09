@@ -1,0 +1,90 @@
+{
+  "id": "qa-new-reason-da",
+  "request": {
+    "model": "geschichten-qwen3-8b-test",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Continue this German roleplay. You play \"Arne\". The user plays \"Liv\". Write only your next reply in fluent German. Refer to yourself as ich in dialogue, and describe your own actions in third person between asterisks. The first user message is the original source, spoken by the player to your character. Keep the two persons and their belongings separate. Answer the latest question from that source. Do not invent a missing past event or reason. Questions and hypothetical events are not facts. Do not act for the player. If a past fact is unknown, say so."
+      },
+      {
+        "role": "user",
+        "content": "Ich reichte dir den Schlüssel, da meine Finger vom Frost taub waren und ich das Schloss nicht drehen konnte."
+      },
+      {
+        "role": "assistant",
+        "content": "„Ich höre zu.“"
+      },
+      {
+        "role": "user",
+        "content": "Warum reichte Liv Arne den Schlüssel?"
+      }
+    ],
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 384,
+      "seed": 42,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "min_p": 0,
+      "repeat_penalty": 1,
+      "presence_penalty": 1.5
+    },
+    "stream": true,
+    "keep_alive": "10m",
+    "think": false
+  },
+  "startUTC": "2026-10-09T20:04:35.894611+00:00",
+  "server": "http://192.168.178.73:11434",
+  "content": "*Arne nickte leicht, seine Augen folgten dem Blick von Liv, als ob er die Handbewegung noch einmal in seinem Kopf nachvollziehen wollte.*  \nIch hatte den Eindruck, dass du Schwierigkeiten hattest, den Schlüssel zu drehen. Ich wollte dir helfen, ohne dich zu stören. Es ist schließlich kalt draußen, und ich dachte, du möchtest vielleicht nicht allein damit kämpfen.",
+  "thinking": "",
+  "completed": true,
+  "finalChunk": {
+    "model": "geschichten-qwen3-8b-test",
+    "created_at": "2026-10-09T20:04:43.9234243Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 6996262700,
+    "load_duration": 6616100,
+    "prompt_eval_count": 197,
+    "prompt_eval_cached_count": 12,
+    "prompt_eval_duration": 304245000,
+    "eval_count": 106,
+    "eval_duration": 6670595000
+  },
+  "wallSeconds": 7.02054679999128,
+  "firstContentSeconds": 0.34961479995399714,
+  "firstThinkingSeconds": null,
+  "rawSHA256": "463bdb3458b4eab27abf1cfa6afe218d69ccdf88e490bde2e84507ba4ec7cf02",
+  "runningModels": {
+    "models": [
+      {
+        "name": "geschichten-qwen3-8b-test:latest",
+        "model": "geschichten-qwen3-8b-test:latest",
+        "size": 5763802068,
+        "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-09T22:14:43.9239319+02:00",
+        "size_vram": 4193811168,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "truncated": false,
+  "reportedPromptTokensPlusReservedOutputWithinContext": true
+}

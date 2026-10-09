@@ -1,0 +1,20 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grask senkt langsam seinen Kopf. Seine Augen, tief und dunkel wie dunkles Erz, fixieren dich. Er scheint die eingeschüchterte Haltung zu registrieren, aber es entfaltet keine Wärme in ihm.*\n\n**„Was willst du wissen? Sei kurz. Zeit ist keine Sache, die ich verschwenden kann.“**\n\n*Er lehnt sich leicht vor, seine massiven Muskeln spannen sich unter seiner rauen Haut. Der Geruch von Staub, verrottetem Fleisch und etwas Metallisch-Rauem hängt in der Luft.*\n\n**„Du suchst etwas, oder? Oder bist du nur ein weiterer, der hier rumlungert, um etwas zu stören?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  },
+  {
+    "case": "grask-1",
+    "answer": "*Grask lässt einen tiefen, brüllenden Atemzug aus, der den Staub aufwirbelt. Seine Augen, die wie glasige Obsidianflossen wirken, fixieren dich prüfend. Er starrt nicht böse, sondern nur unverblümmend, wie ein Geschöpf, das eine unklare Bedrohung analysiert.*\n\n**„Jemanden holen? Du bist ein Schatten, der mir etwas bringt? Ich brauche keine nette Gesellschaft, kein Träumer.“**\n\n*Er drückt seinen massiven Körper leicht vor sich her, seine Hörner schlagen ein tiefes, resonierendes Geräusch in der stillen Arena. Die Luft wird dichter, erfüllt von dem Geruch von altem Stein und Blut.*\n\n**„Was genau soll dieser Schatten tun? Sei konkret. Ich habe keine Zeit für Unsinn.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  },
+  {
+    "case": "runa-2",
+    "answer": "*Runa hebt eine Augenbraue, ihre Blick ist scharf und prüfend. Sie blickt dich an, als würdest du gerade eine unklare Anfrage stellen, die sie sofort entschlüsseln muss.*\n\n**„Ich brauche keine Helfer. Ich brauche Informationen. Hast du etwas gesehen, das dir den Weg dorthin zeigt? Oder weißt du, ob jemand das Kloster besucht hat?“**\n\n*Sie stützt sich leicht an der Wand ab, die Bewegung ist angespannt. Der Sturm knirscht draußen, ein metallisches Geräusch, das die Stille der Hütte durchbricht.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  }
+]

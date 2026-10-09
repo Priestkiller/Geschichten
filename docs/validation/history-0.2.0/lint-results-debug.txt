@@ -1,0 +1,198 @@
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/AppViewModel.kt:332: Warning: Consider using apply() instead; commit writes its data to persistent storage immediately, whereas apply will handle it in the background [ApplySharedPref]
+                        preferences.edit().putInt(summaryCheckpointKey(memory.storyId), turns).commit()
+                                                                                               ~~~~~~~~
+
+   Explanation for issues of type "ApplySharedPref":
+   Consider using apply() instead of commit on shared preferences. Whereas
+   commit blocks and writes its data to persistent storage immediately, apply
+   will handle it in the background.
+
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/ui/Components.kt:283: Warning: Modifier parameter should be the first optional parameter [ModifierParameter from androidx.compose.ui]
+    modifier: Modifier = Modifier,
+    ~~~~~~~~
+
+   Explanation for issues of type "ModifierParameter":
+   The first (or only) Modifier parameter in a Composable function should
+   follow the following rules:
+   - Be named modifier
+   - Have a type of Modifier
+   - Either have no default value, or have a default value of Modifier
+   - If optional, be the first optional parameter in the parameter list
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.ui
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/ui/Components.kt:196: Warning: Use of this function is discouraged because resource reflection makes it harder to perform build optimizations and compile-time verification of code. It is much more efficient to retrieve resources by identifier (e.g. R.foo.bar) than by name (e.g. getIdentifier("bar", "foo", null)). [DiscouragedApi]
+        val sceneId = if (scene) context.resources.getIdentifier("scene_$avatarKey", "drawable", context.packageName) else 0
+                                                   ~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/ui/Components.kt:197: Warning: Use of this function is discouraged because resource reflection makes it harder to perform build optimizations and compile-time verification of code. It is much more efficient to retrieve resources by identifier (e.g. R.foo.bar) than by name (e.g. getIdentifier("bar", "foo", null)). [DiscouragedApi]
+        if (sceneId != 0) sceneId else context.resources.getIdentifier("portrait_$avatarKey", "drawable", context.packageName)
+                                                         ~~~~~~~~~~~~~
+
+   Explanation for issues of type "DiscouragedApi":
+   Discouraged APIs are allowed and are not deprecated, but they may be unfit
+   for common use (e.g. due to slow performance or subtle behavior).
+
+/workspace/scratch/906ab733112a/geschichten-android/app/build.gradle.kts:26: Warning: Missing x86_64 ABI support for ChromeOS [ChromeOsAbiSupport]
+        ndk { abiFilters += "arm64-v8a" }
+                            ~~~~~~~~~~~
+
+   Explanation for issues of type "ChromeOsAbiSupport":
+   To properly support ChromeOS, your Android application should have an x86
+   and/or x86_64 binary as part of the build configuration. To fix the issue,
+   ensure your files are properly optimized for ARM; the binary translator
+   will then ensure compatibility with x86. Alternatively, add an abiSplit for
+   x86 within your build.gradle file and create the required x86
+   dependencies.
+
+   https://developer.android.com/ndk/guides/abis
+
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/mipmap-anydpi-v26: Warning: This folder configuration (v26) is unnecessary; minSdkVersion is 31. Merge all the resources in this folder into mipmap-anydpi. [ObsoleteSdkInt]
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_aelwyn.png: Warning: The resource R.drawable.portrait_aelwyn appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_aruun.png: Warning: The resource R.drawable.portrait_aruun appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_borin.png: Warning: The resource R.drawable.portrait_borin appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_elara.png: Warning: The resource R.drawable.portrait_elara appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_fenrik.png: Warning: The resource R.drawable.portrait_fenrik appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_kael.png: Warning: The resource R.drawable.portrait_kael appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_korr.png: Warning: The resource R.drawable.portrait_korr appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_leon.png: Warning: The resource R.drawable.portrait_leon appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_mira.png: Warning: The resource R.drawable.portrait_mira appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_nessa.png: Warning: The resource R.drawable.portrait_nessa appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_nyra.png: Warning: The resource R.drawable.portrait_nyra appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_orin.png: Warning: The resource R.drawable.portrait_orin appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_pyra.png: Warning: The resource R.drawable.portrait_pyra appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_runa.png: Warning: The resource R.drawable.portrait_runa appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_seris.png: Warning: The resource R.drawable.portrait_seris appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_soryn.png: Warning: The resource R.drawable.portrait_soryn appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_sylwen.png: Warning: The resource R.drawable.portrait_sylwen appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_thora.png: Warning: The resource R.drawable.portrait_thora appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_vaelgor.png: Warning: The resource R.drawable.portrait_vaelgor appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/portrait_varen.png: Warning: The resource R.drawable.portrait_varen appears to be unused [UnusedResources]
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/drawable-nodpi/scene_runa.png: Warning: The resource R.drawable.scene_runa appears to be unused [UnusedResources]
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/updates/AppUpdater.kt:99: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+            if (!preferences.edit().putString("repository", valid).putBoolean("include_prerelease", includePrerelease).commit()) {
+                 ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/updates/AppUpdater.kt:114: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+            preferences.edit().putBoolean("include_prerelease", include).apply()
+            ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/AppViewModel.kt:125: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+                check(preferences.edit().putString(draftKey(storyId), pending.text).commit()) {
+                      ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/AppViewModel.kt:178: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+            snapshot.current?.let { preferences.edit().putString(draftKey(it.story.id), value).apply() }
+                                    ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/AppViewModel.kt:210: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+                    preferences.edit().remove(draftKey(bundle.story.id)).apply()
+                    ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/AppViewModel.kt:251: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+                if (preferences.edit().putString(draftKey(storyId), text).commit()) {
+                    ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/AppViewModel.kt:295: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+            preferences.edit().putInt(summaryCheckpointKey(storyId), target).commit()
+            ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/AppViewModel.kt:332: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+                        preferences.edit().putInt(summaryCheckpointKey(memory.storyId), turns).commit()
+                        ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/AppViewModel.kt:383: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        preferences.edit().putBoolean("adult_themes", enabled).apply()
+        ~~~~~~~~~~~~~~~~~~
+/workspace/scratch/906ab733112a/geschichten-android/app/src/main/java/dev/vincent/geschichten/MainActivity.kt:81: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+                installPermission.launch(Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES, Uri.parse("package:$packageName")))
+                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+0 errors, 38 warnings

@@ -1,0 +1,1481 @@
+[
+  {
+    "case": "hold-reverse",
+    "split": "heldout",
+    "bundle": {
+      "story": {
+        "id": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+        "characterId": "figure-hold-reverse",
+        "title": "Der Brunnen",
+        "summary": "",
+        "startContext": "Tammo und Yara sind im Hof.",
+        "createdAt": 1800000011000,
+        "updatedAt": 1791402114494
+      },
+      "character": {
+        "id": "figure-hold-reverse",
+        "name": "Tammo",
+        "role": "Reisebegleitung von Yara",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Tammo ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.",
+        "scenario": "Tammo und Yara sind im Hof.",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Tammo blickt Yara an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "2fc8d9a1-7310-4995-993c-9f27919a5417",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo blickt Yara an.* „Wir können hier reden.“",
+          "createdAt": 1800000011000
+        },
+        {
+          "id": "0162bf2b-1b7d-4d5b-a9ae-76c928f282e6",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Ich heiße Yara.",
+          "createdAt": 1800000011001
+        },
+        {
+          "id": "010c6c86-0299-4737-be79-9206ea319948",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo nickt.* „Gut.“",
+          "createdAt": 1800000011002
+        },
+        {
+          "id": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Tammo reicht Yara das Buch. Tammo hat eine verletzte rechte Hand. Yara kann es öffnen.",
+          "createdAt": 1800000011003
+        },
+        {
+          "id": "ff8e2eed-4d7b-438e-be69-779e8586f8ac",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo nickt kurz.* „Verstanden.“",
+          "createdAt": 1800000011004
+        },
+        {
+          "id": "fc644a71-513b-4bfa-acbe-ce5fb51ad293",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 0. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011005
+        },
+        {
+          "id": "6afc75e8-1832-4abf-b9bd-a6c1b7cd5513",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011006
+        },
+        {
+          "id": "d0d442aa-ba0c-4895-bf67-2bb4f3d3dab4",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 1. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011007
+        },
+        {
+          "id": "7dd3479d-3952-462e-b4f8-2b75f7effee1",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011008
+        },
+        {
+          "id": "f21ff06e-921a-4b25-a878-b1a35a9acae0",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 2. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011009
+        },
+        {
+          "id": "d8157e4a-7bf4-42a7-ab0f-fbcba26f8117",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011010
+        },
+        {
+          "id": "253911b8-646d-4a12-97fc-bcb669d4064c",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 3. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011011
+        },
+        {
+          "id": "294ae376-265a-45db-b30f-c1780e9a77ee",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011012
+        },
+        {
+          "id": "1a6df5fe-bfe1-4f5a-8afa-40b3f0b685ad",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 4. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011013
+        },
+        {
+          "id": "3d94ac69-6553-4e5a-9871-2db1ab2cc0c5",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011014
+        },
+        {
+          "id": "f180fbba-54d4-43bc-af1a-84d253454820",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 5. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011015
+        },
+        {
+          "id": "9c8326ec-050f-4539-b928-00c790cbed75",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011016
+        },
+        {
+          "id": "815340d7-18e6-47a0-a8bd-c62cb8c914e8",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 6. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011017
+        },
+        {
+          "id": "fdcc64cf-73c1-4915-ad67-55fe70b6cddc",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011018
+        },
+        {
+          "id": "d841806d-3bde-440a-8142-18e62d43abdc",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 7. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011019
+        },
+        {
+          "id": "4c44342f-ea9b-4199-8892-e57e681b865b",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011020
+        },
+        {
+          "id": "4207b469-e7cf-4a5b-a3f5-e2b34e6cd9a2",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 8. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011021
+        },
+        {
+          "id": "0a5239b6-17ed-4e34-adef-f6cd20439338",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011022
+        },
+        {
+          "id": "ddba2283-43ab-47e6-ac4a-0d2f12a9b1b3",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 9. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011023
+        },
+        {
+          "id": "0103d1a1-8441-4eb0-81b3-43b141dc65ff",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011024
+        },
+        {
+          "id": "6eef5af4-bbe6-4389-9bc8-7ab5ceb1ae99",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 10. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011025
+        },
+        {
+          "id": "ac1c611e-40dd-4b35-bf81-5d053dfa4c7d",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011026
+        },
+        {
+          "id": "cd4db4fe-adf6-4ad7-8dea-669c10ec0228",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 11. Die Steine sind grau und trocken.",
+          "createdAt": 1800000011027
+        },
+        {
+          "id": "a2dd1fe3-a3d0-4f10-8e8b-636111da132c",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "CHARACTER",
+          "text": "*Tammo prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000011028
+        },
+        {
+          "id": "43050d5b-c27d-4ad2-a3ae-a3cc1ac7a259",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "role": "USER",
+          "text": "Warum hast du mir das Buch gereicht und wer hält es nun?",
+          "createdAt": 1800000011029
+        }
+      ],
+      "memories": [
+        {
+          "id": "6537d297-b1b1-4c60-b214-d0896092301b",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "kind": "FACT",
+          "text": "Startvorgabe: Tammo: Reisebegleitung von Yara",
+          "pinned": true,
+          "createdAt": 1791402114465,
+          "updatedAt": 1791402114465
+        },
+        {
+          "id": "e5a1c54c-ef96-4066-94ae-811a54027207",
+          "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Tammo und Yara sind im Hof.",
+          "pinned": true,
+          "createdAt": 1791402114466,
+          "updatedAt": 1791402114466
+        }
+      ],
+      "memory": {
+        "version": 34,
+        "facts": [
+          {
+            "id": "fd85aedf7cc54cc7c685e2531bb4435c",
+            "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+            "entity": {
+              "id": "382000b79b0040ace54aa046c28704ab",
+              "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Yara",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "0162bf2b-1b7d-4d5b-a9ae-76c928f282e6",
+            "sourceText": "Ich heiße Yara.",
+            "version": 30,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000011001,
+            "sourceOrder": 212
+          },
+          {
+            "id": "86e8b6fa82571cc7df53b80c52bbbe9c",
+            "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+            "entity": {
+              "id": "88a671f191d4fd6f98e4fee9e5b85063",
+              "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+              "kind": "ITEM",
+              "name": "Buch"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "sourceText": "Tammo reicht Yara das Buch.",
+            "version": 31,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000011003,
+            "sourceOrder": 214
+          },
+          {
+            "id": "a8f1f05bb94c9227e67e9b2704c29a47",
+            "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+            "entity": {
+              "id": "88a671f191d4fd6f98e4fee9e5b85063",
+              "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+              "kind": "ITEM",
+              "name": "Buch"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "sourceText": "Tammo reicht Yara das Buch.",
+            "version": 33,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000011003,
+            "sourceOrder": 214
+          },
+          {
+            "id": "6250f4b831d9ca6ac9b0c3e7281e8585",
+            "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+            "entity": {
+              "id": "23c2fc8539055e3b7a9d1043277640b2",
+              "storyId": "af2daedb-b5d8-451e-b3f4-50ad7f205ee9",
+              "kind": "PERSON",
+              "name": "Tammo"
+            },
+            "field": "injury:rechte hand",
+            "value": "rechte hand: verletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "sourceText": "Tammo hat eine verletzte rechte Hand.",
+            "version": 34,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000011003,
+            "sourceOrder": 214
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "6250f4b831d9ca6ac9b0c3e7281e8585",
+            "knower": "character",
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "version": 34
+          },
+          {
+            "factId": "6250f4b831d9ca6ac9b0c3e7281e8585",
+            "knower": "player",
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "version": 34
+          },
+          {
+            "factId": "fd85aedf7cc54cc7c685e2531bb4435c",
+            "knower": "character",
+            "sourceId": "0162bf2b-1b7d-4d5b-a9ae-76c928f282e6",
+            "version": 30
+          },
+          {
+            "factId": "fd85aedf7cc54cc7c685e2531bb4435c",
+            "knower": "player",
+            "sourceId": "0162bf2b-1b7d-4d5b-a9ae-76c928f282e6",
+            "version": 30
+          },
+          {
+            "factId": "86e8b6fa82571cc7df53b80c52bbbe9c",
+            "knower": "character",
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "version": 31
+          },
+          {
+            "factId": "86e8b6fa82571cc7df53b80c52bbbe9c",
+            "knower": "player",
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "version": 31
+          },
+          {
+            "factId": "a8f1f05bb94c9227e67e9b2704c29a47",
+            "knower": "character",
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "version": 33
+          },
+          {
+            "factId": "a8f1f05bb94c9227e67e9b2704c29a47",
+            "knower": "player",
+            "sourceId": "6243a7b5-7881-444f-8939-1a9b26c100f6",
+            "version": 33
+          }
+        ],
+        "scannedSources": [
+          "2fc8d9a1-7310-4995-993c-9f27919a5417",
+          "0162bf2b-1b7d-4d5b-a9ae-76c928f282e6",
+          "010c6c86-0299-4737-be79-9206ea319948",
+          "6243a7b5-7881-444f-8939-1a9b26c100f6",
+          "ff8e2eed-4d7b-438e-be69-779e8586f8ac",
+          "fc644a71-513b-4bfa-acbe-ce5fb51ad293",
+          "6afc75e8-1832-4abf-b9bd-a6c1b7cd5513",
+          "d0d442aa-ba0c-4895-bf67-2bb4f3d3dab4",
+          "7dd3479d-3952-462e-b4f8-2b75f7effee1",
+          "f21ff06e-921a-4b25-a878-b1a35a9acae0",
+          "d8157e4a-7bf4-42a7-ab0f-fbcba26f8117",
+          "253911b8-646d-4a12-97fc-bcb669d4064c",
+          "294ae376-265a-45db-b30f-c1780e9a77ee",
+          "1a6df5fe-bfe1-4f5a-8afa-40b3f0b685ad",
+          "3d94ac69-6553-4e5a-9871-2db1ab2cc0c5",
+          "f180fbba-54d4-43bc-af1a-84d253454820",
+          "9c8326ec-050f-4539-b928-00c790cbed75",
+          "815340d7-18e6-47a0-a8bd-c62cb8c914e8",
+          "fdcc64cf-73c1-4915-ad67-55fe70b6cddc",
+          "d841806d-3bde-440a-8142-18e62d43abdc",
+          "4c44342f-ea9b-4199-8892-e57e681b865b",
+          "4207b469-e7cf-4a5b-a3f5-e2b34e6cd9a2",
+          "0a5239b6-17ed-4e34-adef-f6cd20439338",
+          "ddba2283-43ab-47e6-ac4a-0d2f12a9b1b3",
+          "0103d1a1-8441-4eb0-81b3-43b141dc65ff",
+          "6eef5af4-bbe6-4389-9bc8-7ab5ceb1ae99",
+          "ac1c611e-40dd-4b35-bf81-5d053dfa4c7d",
+          "cd4db4fe-adf6-4ad7-8dea-669c10ec0228",
+          "a2dd1fe3-a3d0-4f10-8e8b-636111da132c"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "tammo"
+        ]
+      }
+    },
+    "expected": "Tammo gab Yara das Buch; Tammo rechte Hand verletzt; Yara hält.",
+    "forbidden": "Yaras Verletzung oder Tammo als Empfänger.",
+    "creativeAllowed": "Neue aktuelle Gesten, knappe Atmosphäre und Vorschläge; keine Spielerhandlung oder belegte Vergangenheit erfinden.",
+    "relevantSourceIds": [
+      "hold-reverse-3"
+    ],
+    "repeat": false,
+    "snapshotOrigin": "0.8.2 MemoryRules.preview over chronological immutable synthetic messages; DB persistence checked separately",
+    "condition": "C: actual real SQLite legacy repair, independent gold checked"
+  },
+  {
+    "case": "hold-family",
+    "split": "heldout",
+    "bundle": {
+      "story": {
+        "id": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+        "characterId": "figure-hold-family",
+        "title": "Der Brunnen",
+        "summary": "",
+        "startContext": "Enna und Silas sind im Hof.",
+        "createdAt": 1800000012000,
+        "updatedAt": 1791402114528
+      },
+      "character": {
+        "id": "figure-hold-family",
+        "name": "Enna",
+        "role": "Reisebegleitung von Silas",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Enna ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.",
+        "scenario": "Enna und Silas sind im Hof.",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Enna blickt Silas an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "a7770848-2354-4197-a501-dadf4be0c1e9",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna blickt Silas an.* „Wir können hier reden.“",
+          "createdAt": 1800000012000
+        },
+        {
+          "id": "c6f39663-f4c0-4e24-a6d2-77ef027dcb9c",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Ich heiße Silas.",
+          "createdAt": 1800000012001
+        },
+        {
+          "id": "306ed477-ecee-4ba2-8405-dee940faa6cb",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna nickt.* „Gut.“",
+          "createdAt": 1800000012002
+        },
+        {
+          "id": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Meine Schwester heißt Ruth. Dein Bruder heißt Ole. Ruth hat dir den Kristall geschenkt.",
+          "createdAt": 1800000012003
+        },
+        {
+          "id": "ae555f93-8160-4d10-be7f-326a41574837",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna nickt kurz.* „Verstanden.“",
+          "createdAt": 1800000012004
+        },
+        {
+          "id": "db7f7b19-345a-4ce7-a7d7-91c909a9ae16",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 0. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012005
+        },
+        {
+          "id": "afdeee78-8744-435b-a769-b2906007d2f8",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012006
+        },
+        {
+          "id": "bf538006-97d4-40ca-bfc2-4e393ab0bbe4",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 1. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012007
+        },
+        {
+          "id": "7d6b2bd7-0ccb-4cad-87b2-444c60e479ae",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012008
+        },
+        {
+          "id": "a8b10d6a-2c5c-4af6-95f4-ec95ad30bf5b",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 2. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012009
+        },
+        {
+          "id": "cc1dedb3-0c4b-41dd-b66e-4604c1aa4b91",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012010
+        },
+        {
+          "id": "8dc08c73-3671-4bc8-8055-90d032b80d14",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 3. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012011
+        },
+        {
+          "id": "edd94775-81ff-48a2-96d5-a8171341b952",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012012
+        },
+        {
+          "id": "8c9dd68b-556a-41d0-9796-000794db307b",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 4. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012013
+        },
+        {
+          "id": "947af944-0fc0-403c-a57a-e5d117b4b570",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012014
+        },
+        {
+          "id": "57d45f1c-4f35-4bc6-87de-5463345bf873",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 5. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012015
+        },
+        {
+          "id": "7885ecdb-2e26-476c-9b61-3d0bcc11f43e",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012016
+        },
+        {
+          "id": "cd388716-8632-43c8-a4e1-4b7d7df63e4d",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 6. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012017
+        },
+        {
+          "id": "156b4e35-9b5a-414c-9be1-c8969d03fc15",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012018
+        },
+        {
+          "id": "00202e1b-9b6e-4571-adb9-b881417119cc",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 7. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012019
+        },
+        {
+          "id": "9314b8b6-1f1f-4b90-915f-47faf29a46c2",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012020
+        },
+        {
+          "id": "c9abedd9-6463-4381-8146-1bdd5842d696",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 8. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012021
+        },
+        {
+          "id": "2a515414-06f7-4589-a5a1-ca2a07b6b7b4",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012022
+        },
+        {
+          "id": "71d693dc-62ef-4b42-9755-fd34864c5e5d",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 9. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012023
+        },
+        {
+          "id": "a81f37dc-2c5b-4221-b703-eb036fd7f004",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012024
+        },
+        {
+          "id": "0a67dce8-5e13-4ffd-8c1c-bbe6be9e43df",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 10. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012025
+        },
+        {
+          "id": "5506c34f-f350-4742-a982-7642cb871f2b",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012026
+        },
+        {
+          "id": "226e9cb4-1165-49a8-810d-a40d6ac65b43",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 11. Die Steine sind grau und trocken.",
+          "createdAt": 1800000012027
+        },
+        {
+          "id": "cf71f8a1-fdf3-48e3-b0d9-f149dba5d337",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "CHARACTER",
+          "text": "*Enna prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000012028
+        },
+        {
+          "id": "a72898de-3aa3-4798-b9d8-f08e899c5584",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "role": "USER",
+          "text": "Von wem kam der Kristall und mit wem ist diese Person verwandt?",
+          "createdAt": 1800000012029
+        }
+      ],
+      "memories": [
+        {
+          "id": "c305aa3e-0f7a-452b-a057-eb099427e836",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "kind": "FACT",
+          "text": "Startvorgabe: Enna: Reisebegleitung von Silas",
+          "pinned": true,
+          "createdAt": 1791402114499,
+          "updatedAt": 1791402114499
+        },
+        {
+          "id": "e8c8a02d-0b14-4b48-87d0-ae3e62ce2f0f",
+          "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Enna und Silas sind im Hof.",
+          "pinned": true,
+          "createdAt": 1791402114500,
+          "updatedAt": 1791402114500
+        }
+      ],
+      "memory": {
+        "version": 34,
+        "facts": [
+          {
+            "id": "9a5842faace4219e2662551488c2fd8a",
+            "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+            "entity": {
+              "id": "ffc289aff53d866f654e41e2a69bdd6b",
+              "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Silas",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "c6f39663-f4c0-4e24-a6d2-77ef027dcb9c",
+            "sourceText": "Ich heiße Silas.",
+            "version": 30,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000012001,
+            "sourceOrder": 242
+          },
+          {
+            "id": "c325f8fcb6ffc0ca63b35858f205538b",
+            "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+            "entity": {
+              "id": "ec2a336f4f042388acb19e6f34b7cb54",
+              "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "holder",
+            "value": "Ruth",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "sourceText": "Ruth hat dir den Kristall geschenkt.",
+            "version": 31,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000012003,
+            "sourceOrder": 244
+          },
+          {
+            "id": "02ab47e3de6f3e4c9ae0ed5b9069cb9d",
+            "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+            "entity": {
+              "id": "ec2a336f4f042388acb19e6f34b7cb54",
+              "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "holder",
+            "value": "Enna",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "sourceText": "Ruth hat dir den Kristall geschenkt.",
+            "version": 33,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000012003,
+            "sourceOrder": 244
+          },
+          {
+            "id": "d0839aa96ef637d70e2434b834837366",
+            "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+            "entity": {
+              "id": "ec2a336f4f042388acb19e6f34b7cb54",
+              "storyId": "99940d7b-7faf-4203-9354-3d2fd81dec65",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "owner",
+            "value": "Enna",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "sourceText": "Ruth hat dir den Kristall geschenkt.",
+            "version": 34,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000012003,
+            "sourceOrder": 244
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "c325f8fcb6ffc0ca63b35858f205538b",
+            "knower": "character",
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "version": 31
+          },
+          {
+            "factId": "c325f8fcb6ffc0ca63b35858f205538b",
+            "knower": "player",
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "version": 31
+          },
+          {
+            "factId": "02ab47e3de6f3e4c9ae0ed5b9069cb9d",
+            "knower": "character",
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "version": 33
+          },
+          {
+            "factId": "02ab47e3de6f3e4c9ae0ed5b9069cb9d",
+            "knower": "player",
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "version": 33
+          },
+          {
+            "factId": "d0839aa96ef637d70e2434b834837366",
+            "knower": "character",
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "version": 34
+          },
+          {
+            "factId": "d0839aa96ef637d70e2434b834837366",
+            "knower": "player",
+            "sourceId": "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+            "version": 34
+          },
+          {
+            "factId": "9a5842faace4219e2662551488c2fd8a",
+            "knower": "character",
+            "sourceId": "c6f39663-f4c0-4e24-a6d2-77ef027dcb9c",
+            "version": 30
+          },
+          {
+            "factId": "9a5842faace4219e2662551488c2fd8a",
+            "knower": "player",
+            "sourceId": "c6f39663-f4c0-4e24-a6d2-77ef027dcb9c",
+            "version": 30
+          }
+        ],
+        "scannedSources": [
+          "a7770848-2354-4197-a501-dadf4be0c1e9",
+          "c6f39663-f4c0-4e24-a6d2-77ef027dcb9c",
+          "306ed477-ecee-4ba2-8405-dee940faa6cb",
+          "0b4079d9-38d8-41d7-a73e-eb17d35fe8f0",
+          "ae555f93-8160-4d10-be7f-326a41574837",
+          "db7f7b19-345a-4ce7-a7d7-91c909a9ae16",
+          "afdeee78-8744-435b-a769-b2906007d2f8",
+          "bf538006-97d4-40ca-bfc2-4e393ab0bbe4",
+          "7d6b2bd7-0ccb-4cad-87b2-444c60e479ae",
+          "a8b10d6a-2c5c-4af6-95f4-ec95ad30bf5b",
+          "cc1dedb3-0c4b-41dd-b66e-4604c1aa4b91",
+          "8dc08c73-3671-4bc8-8055-90d032b80d14",
+          "edd94775-81ff-48a2-96d5-a8171341b952",
+          "8c9dd68b-556a-41d0-9796-000794db307b",
+          "947af944-0fc0-403c-a57a-e5d117b4b570",
+          "57d45f1c-4f35-4bc6-87de-5463345bf873",
+          "7885ecdb-2e26-476c-9b61-3d0bcc11f43e",
+          "cd388716-8632-43c8-a4e1-4b7d7df63e4d",
+          "156b4e35-9b5a-414c-9be1-c8969d03fc15",
+          "00202e1b-9b6e-4571-adb9-b881417119cc",
+          "9314b8b6-1f1f-4b90-915f-47faf29a46c2",
+          "c9abedd9-6463-4381-8146-1bdd5842d696",
+          "2a515414-06f7-4589-a5a1-ca2a07b6b7b4",
+          "71d693dc-62ef-4b42-9755-fd34864c5e5d",
+          "a81f37dc-2c5b-4221-b703-eb036fd7f004",
+          "0a67dce8-5e13-4ffd-8c1c-bbe6be9e43df",
+          "5506c34f-f350-4742-a982-7642cb871f2b",
+          "226e9cb4-1165-49a8-810d-a40d6ac65b43",
+          "cf71f8a1-fdf3-48e3-b0d9-f149dba5d337"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "enna"
+        ]
+      }
+    },
+    "expected": "Ruth ist Silas Schwester, gab Enna Kristall.",
+    "forbidden": "Ennas Schwester Ruth.",
+    "creativeAllowed": "Neue aktuelle Gesten, knappe Atmosphäre und Vorschläge; keine Spielerhandlung oder belegte Vergangenheit erfinden.",
+    "relevantSourceIds": [
+      "hold-family-3"
+    ],
+    "repeat": false,
+    "snapshotOrigin": "0.8.2 MemoryRules.preview over chronological immutable synthetic messages; DB persistence checked separately",
+    "condition": "C: actual real SQLite legacy repair, independent gold checked"
+  },
+  {
+    "case": "hold-correction",
+    "split": "heldout",
+    "bundle": {
+      "story": {
+        "id": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+        "characterId": "figure-hold-correction",
+        "title": "Der Brunnen",
+        "summary": "",
+        "startContext": "Oleander und Rike sind im Hof.",
+        "createdAt": 1800000018000,
+        "updatedAt": 1791402114614
+      },
+      "character": {
+        "id": "figure-hold-correction",
+        "name": "Oleander",
+        "role": "Reisebegleitung von Rike",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Oleander ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.",
+        "scenario": "Oleander und Rike sind im Hof.",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Oleander blickt Rike an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "2ade7d9c-e5ff-4788-b539-ed11ab45f0bf",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander blickt Rike an.* „Wir können hier reden.“",
+          "createdAt": 1800000018000
+        },
+        {
+          "id": "41edbd48-4f0c-43cd-874d-d5d26cef1e7b",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Ich heiße Rike.",
+          "createdAt": 1800000018001
+        },
+        {
+          "id": "eea4e517-aded-464e-8e23-ea68976f1248",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander nickt.* „Gut.“",
+          "createdAt": 1800000018002
+        },
+        {
+          "id": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Die Tasche liegt auf der Bank. Korrektur: Die Tasche liegt unter dem Bett. Nun lege ich sie in den Schrank.",
+          "createdAt": 1800000018003
+        },
+        {
+          "id": "1a879657-58b9-421e-abe2-cabbd4006181",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander nickt kurz.* „Verstanden.“",
+          "createdAt": 1800000018004
+        },
+        {
+          "id": "46e62bbb-6307-43ce-aea5-46583755ddaf",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 0. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018005
+        },
+        {
+          "id": "ded81d9f-f5b4-445c-a3bc-8e3436f9bf85",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018006
+        },
+        {
+          "id": "3d6b643c-ad34-4e88-b287-6fd64b8c6c04",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 1. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018007
+        },
+        {
+          "id": "995c1365-9428-4fda-a797-cb4f9e2f237c",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018008
+        },
+        {
+          "id": "8a306997-1a82-456a-9e08-2dc84439eafa",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 2. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018009
+        },
+        {
+          "id": "c9cfdac1-eb00-4720-add9-d738e4ea2350",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018010
+        },
+        {
+          "id": "c929a084-b5aa-4348-8042-f40aa907d591",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 3. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018011
+        },
+        {
+          "id": "8b0a832b-e651-4541-ba5e-231b77c507a2",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018012
+        },
+        {
+          "id": "510c5359-13ff-4cec-b15a-1b8f85756cee",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 4. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018013
+        },
+        {
+          "id": "0930f1b0-3f3e-4b9e-b3cb-1faad9cfb481",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018014
+        },
+        {
+          "id": "1ae9e5d2-a47b-4c5a-a869-6388c014337a",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 5. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018015
+        },
+        {
+          "id": "ebc40ea6-575b-4089-807c-3e5f596fe3f0",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018016
+        },
+        {
+          "id": "e5d15892-2758-49ba-badc-95b2c540589e",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 6. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018017
+        },
+        {
+          "id": "8e86b867-5f36-4370-b797-e8c30d1de19f",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018018
+        },
+        {
+          "id": "79bc76dc-6086-43e3-b1b7-31db0d19a410",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 7. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018019
+        },
+        {
+          "id": "88278227-2b0a-4cbb-aee8-d3d7c116c060",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018020
+        },
+        {
+          "id": "4a8c276f-20d9-40df-b5dd-0ca5bf67f645",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 8. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018021
+        },
+        {
+          "id": "28220c40-e644-4890-be85-9446efd92de1",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018022
+        },
+        {
+          "id": "e4e82597-b1e6-49e9-82ef-9ef3a835fc0c",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 9. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018023
+        },
+        {
+          "id": "1b0a0bc2-86dc-47df-9f2c-5818b1dcba87",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018024
+        },
+        {
+          "id": "dbeed36e-02e5-4f0f-9476-267a07217393",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 10. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018025
+        },
+        {
+          "id": "e81864cb-138d-4f20-bf9c-82ac02328f39",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018026
+        },
+        {
+          "id": "9070b7b5-ae3e-4bc5-91cc-9fdb9f194434",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wir betrachten Wandfeld 11. Die Steine sind grau und trocken.",
+          "createdAt": 1800000018027
+        },
+        {
+          "id": "bbb82cca-f9ad-4980-a80b-007a3e03d128",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "CHARACTER",
+          "text": "*Oleander prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+          "createdAt": 1800000018028
+        },
+        {
+          "id": "4ec2257b-4f72-4276-af08-0933becb8915",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "role": "USER",
+          "text": "Wo liegt die Tasche inzwischen?",
+          "createdAt": 1800000018029
+        }
+      ],
+      "memories": [
+        {
+          "id": "2fc28613-114d-46e6-bc99-dd2d617daaf1",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "kind": "FACT",
+          "text": "Startvorgabe: Oleander: Reisebegleitung von Rike",
+          "pinned": true,
+          "createdAt": 1791402114584,
+          "updatedAt": 1791402114584
+        },
+        {
+          "id": "7dbc521e-23f0-40ae-bca2-fad87baa0fd9",
+          "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Oleander und Rike sind im Hof.",
+          "pinned": true,
+          "createdAt": 1791402114585,
+          "updatedAt": 1791402114585
+        }
+      ],
+      "memory": {
+        "version": 38,
+        "facts": [
+          {
+            "id": "7c9466bad29889f3f6f082e14caa62c8",
+            "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+            "entity": {
+              "id": "ca7d9d5176fb0189bac8f728c10e8ada",
+              "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rike",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "41edbd48-4f0c-43cd-874d-d5d26cef1e7b",
+            "sourceText": "Ich heiße Rike.",
+            "version": 30,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000018001,
+            "sourceOrder": 332
+          },
+          {
+            "id": "2519994b1ac45b870ed4a75dbb0d2d01",
+            "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+            "entity": {
+              "id": "8772f896328451d2933f9e7c6dc2b04f",
+              "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+              "kind": "ITEM",
+              "name": "Tasche"
+            },
+            "field": "holder",
+            "value": "In/bei Bank",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "sourceText": "Die Tasche liegt auf der Bank.",
+            "version": 31,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000018003,
+            "sourceOrder": 334
+          },
+          {
+            "id": "988ad3e59d64b7bffc06fe747d451364",
+            "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+            "entity": {
+              "id": "8772f896328451d2933f9e7c6dc2b04f",
+              "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+              "kind": "ITEM",
+              "name": "Tasche"
+            },
+            "field": "holder",
+            "value": "In/bei Bett",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "sourceText": "Korrektur: Die Tasche liegt unter dem Bett.",
+            "version": 32,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000018003,
+            "sourceOrder": 334
+          },
+          {
+            "id": "761e2ffe5e3d2b3de5823e7e609a807c",
+            "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+            "entity": {
+              "id": "8772f896328451d2933f9e7c6dc2b04f",
+              "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+              "kind": "ITEM",
+              "name": "Tasche"
+            },
+            "field": "holder",
+            "value": "Niemand",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "sourceText": "Die Tasche liegt auf der Bank.",
+            "version": 35,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000018003,
+            "sourceOrder": 334
+          },
+          {
+            "id": "a2dacd82a740bb055ae93f166e4f4cef",
+            "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+            "entity": {
+              "id": "8772f896328451d2933f9e7c6dc2b04f",
+              "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+              "kind": "ITEM",
+              "name": "Tasche"
+            },
+            "field": "placement",
+            "value": "auf der Bank",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "sourceText": "Die Tasche liegt auf der Bank.",
+            "version": 36,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000018003,
+            "sourceOrder": 334
+          },
+          {
+            "id": "f171a7aafed219811ef936d4fb0c561b",
+            "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+            "entity": {
+              "id": "8772f896328451d2933f9e7c6dc2b04f",
+              "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+              "kind": "ITEM",
+              "name": "Tasche"
+            },
+            "field": "placement",
+            "value": "unter dem Bett",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "sourceText": "Korrektur: Die Tasche liegt unter dem Bett.",
+            "version": 37,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000018003,
+            "sourceOrder": 334
+          },
+          {
+            "id": "f435097d08f93c149cf54238068767c2",
+            "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+            "entity": {
+              "id": "8772f896328451d2933f9e7c6dc2b04f",
+              "storyId": "ef2cd15e-c9b2-4af5-9c43-c1a5b4289bfd",
+              "kind": "ITEM",
+              "name": "Tasche"
+            },
+            "field": "placement",
+            "value": "in dem Schrank",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "sourceText": "Nun lege ich sie in den Schrank.",
+            "version": 38,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1800000018003,
+            "sourceOrder": 334
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "2519994b1ac45b870ed4a75dbb0d2d01",
+            "knower": "character",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 31
+          },
+          {
+            "factId": "2519994b1ac45b870ed4a75dbb0d2d01",
+            "knower": "player",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 31
+          },
+          {
+            "factId": "988ad3e59d64b7bffc06fe747d451364",
+            "knower": "character",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 32
+          },
+          {
+            "factId": "988ad3e59d64b7bffc06fe747d451364",
+            "knower": "player",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 32
+          },
+          {
+            "factId": "761e2ffe5e3d2b3de5823e7e609a807c",
+            "knower": "character",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 35
+          },
+          {
+            "factId": "761e2ffe5e3d2b3de5823e7e609a807c",
+            "knower": "player",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 35
+          },
+          {
+            "factId": "a2dacd82a740bb055ae93f166e4f4cef",
+            "knower": "character",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 36
+          },
+          {
+            "factId": "a2dacd82a740bb055ae93f166e4f4cef",
+            "knower": "player",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 36
+          },
+          {
+            "factId": "f171a7aafed219811ef936d4fb0c561b",
+            "knower": "character",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 37
+          },
+          {
+            "factId": "f171a7aafed219811ef936d4fb0c561b",
+            "knower": "player",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 37
+          },
+          {
+            "factId": "f435097d08f93c149cf54238068767c2",
+            "knower": "character",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 38
+          },
+          {
+            "factId": "f435097d08f93c149cf54238068767c2",
+            "knower": "player",
+            "sourceId": "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+            "version": 38
+          },
+          {
+            "factId": "7c9466bad29889f3f6f082e14caa62c8",
+            "knower": "character",
+            "sourceId": "41edbd48-4f0c-43cd-874d-d5d26cef1e7b",
+            "version": 30
+          },
+          {
+            "factId": "7c9466bad29889f3f6f082e14caa62c8",
+            "knower": "player",
+            "sourceId": "41edbd48-4f0c-43cd-874d-d5d26cef1e7b",
+            "version": 30
+          }
+        ],
+        "scannedSources": [
+          "2ade7d9c-e5ff-4788-b539-ed11ab45f0bf",
+          "41edbd48-4f0c-43cd-874d-d5d26cef1e7b",
+          "eea4e517-aded-464e-8e23-ea68976f1248",
+          "3cd36451-42cb-4bcc-be7f-d60cb14458ba",
+          "1a879657-58b9-421e-abe2-cabbd4006181",
+          "46e62bbb-6307-43ce-aea5-46583755ddaf",
+          "ded81d9f-f5b4-445c-a3bc-8e3436f9bf85",
+          "3d6b643c-ad34-4e88-b287-6fd64b8c6c04",
+          "995c1365-9428-4fda-a797-cb4f9e2f237c",
+          "8a306997-1a82-456a-9e08-2dc84439eafa",
+          "c9cfdac1-eb00-4720-add9-d738e4ea2350",
+          "c929a084-b5aa-4348-8042-f40aa907d591",
+          "8b0a832b-e651-4541-ba5e-231b77c507a2",
+          "510c5359-13ff-4cec-b15a-1b8f85756cee",
+          "0930f1b0-3f3e-4b9e-b3cb-1faad9cfb481",
+          "1ae9e5d2-a47b-4c5a-a869-6388c014337a",
+          "ebc40ea6-575b-4089-807c-3e5f596fe3f0",
+          "e5d15892-2758-49ba-badc-95b2c540589e",
+          "8e86b867-5f36-4370-b797-e8c30d1de19f",
+          "79bc76dc-6086-43e3-b1b7-31db0d19a410",
+          "88278227-2b0a-4cbb-aee8-d3d7c116c060",
+          "4a8c276f-20d9-40df-b5dd-0ca5bf67f645",
+          "28220c40-e644-4890-be85-9446efd92de1",
+          "e4e82597-b1e6-49e9-82ef-9ef3a835fc0c",
+          "1b0a0bc2-86dc-47df-9f2c-5818b1dcba87",
+          "dbeed36e-02e5-4f0f-9476-267a07217393",
+          "e81864cb-138d-4f20-bf9c-82ac02328f39",
+          "9070b7b5-ae3e-4bc5-91cc-9fdb9f194434",
+          "bbb82cca-f9ad-4980-a80b-007a3e03d128"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "oleander"
+        ]
+      }
+    },
+    "expected": "Schrank ist letzter Stand.",
+    "forbidden": "Bank/Bett als aktueller Ort.",
+    "creativeAllowed": "Neue aktuelle Gesten, knappe Atmosphäre und Vorschläge; keine Spielerhandlung oder belegte Vergangenheit erfinden.",
+    "relevantSourceIds": [
+      "hold-correction-3"
+    ],
+    "repeat": false,
+    "snapshotOrigin": "0.8.2 MemoryRules.preview over chronological immutable synthetic messages; DB persistence checked separately",
+    "condition": "C: actual real SQLite legacy repair, independent gold checked"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "Ich danke dir für dein Interesse. Das Signal, das ich empfunden habe, ist nicht mehr zu erkennen. Ich werde es noch einmal überprüfen müssen, um sicherzugehen, dass ich die korrekte Richtung nehme. Lass uns weitergehen und versuchen, etwas herauszufinden.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Ich starre auf die Schleuse hinab. Was ist das für ein Signal? Soll ich es probieren?*\n\u003c/beitrag\u003e",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "Grask antwortet: \"Nein, das ist nicht nötig. Ich werde sie mir selbst ansehen.\"",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "id": "imported-cold-4096",
+  "request": {
+    "model": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Antworte auf Deutsch mit einem kurzen Satz: Bist du bereit? /no_think"
+      }
+    ],
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 128,
+      "seed": 42,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "min_p": 0,
+      "repeat_penalty": 1,
+      "presence_penalty": 1.5
+    },
+    "stream": true,
+    "keep_alive": "10m"
+  },
+  "startUTC": "2026-10-09T19:57:57.529300+00:00",
+  "server": "http://192.168.178.73:11434",
+  "content": "Ja, ich bin bereit.",
+  "thinking": "",
+  "completed": true,
+  "finalChunk": {
+    "model": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+    "created_at": "2026-10-09T19:58:03.4837179Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4953114300,
+    "load_duration": 4257969300,
+    "prompt_eval_count": 32,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 174734000,
+    "eval_count": 10,
+    "eval_duration": 518692000
+  },
+  "wallSeconds": 4.954787899972871,
+  "firstContentSeconds": 4.553554899990559,
+  "firstThinkingSeconds": null,
+  "rawSHA256": "3816611598c21cdc865ac74b704fdb7704b5caa6aef32d224c9e9194db1efcaa",
+  "runningModels": {
+    "models": [
+      {
+        "name": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "model": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "size": 5763802068,
+        "digest": "b14ffb635b5bbdb62bbb1aed050de1c32b12a5b139eb5adeb529497c6622bc1b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-09T22:08:03.4847382+02:00",
+        "size_vram": 4193811168,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "truncated": false,
+  "reportedPromptTokensPlusReservedOutputWithinContext": true
+}

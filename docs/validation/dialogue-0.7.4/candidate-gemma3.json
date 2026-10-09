@@ -1,0 +1,26 @@
+[
+  {
+    "outputTokenLimit": 256,
+    "case": "mira-denial",
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 144.8048376,
+    "answer": "**„Kein Signal, heißt das, dass wir uns auf unsere Sicht verlassen müssen. Das bestätigt meine Theorie, dass etwas dort noch aktiv ist – oder irgendwo ein bisschen verwahr geläger hätte.“**\n\n*Mira nimmt vorsichtig einen Schritt vorwärts, ihre Mess itulahft verführerisch zwischen ihren Fingersch wünschen, während sie ihr Datapad betrachtet.*\n\n**„Ich prüfe jetzt erstmal die Tür. Ihr könnt euch vorstellen, wie viel Müß unserer Schünstler vermutlich für diesen Ort drauf gegangen sein muss, wenn es überhaupt jemanden gab der sich darum kümmern konnte.“**\n\n*Sie tastet mit einem seiner Instrumente über das Türrahmenstück; ein unverständliches Gerät, das jetzt ein grünes Leuchten ausspricht.*",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf"
+  },
+  {
+    "outputTokenLimit": 256,
+    "case": "mira-caution",
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 138.9195686,
+    "answer": "**„…Was erwartetest du denn, dass ich mache?“,** fragt Mira kaum hörbar. Ihr Blick fährt kurz über die Tür erst gewesen sein, das Gerät jetzt wieder auf. Ihre Finger huschen über die Anzeige ihres Handwerkszeugs.\n\n**„Ich kann ein paar Sensoren entlang der Außenwände austesten, vielleicht etwas über die Umgebung bestimmen, irgendwas finden, was uns hilft, das Signal besser zu verstehen – oder eben verhindert, dass wir uns selbst in etwas hineinstürzen, das wir nicht wissen will.“** Sie hebt eine schlanke Sonde und deutet sie vorsichtig auf eine verschüttelte Stelle der Schleusenwand hin. \n",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf"
+  },
+  {
+    "outputTokenLimit": 256,
+    "case": "grask-reading",
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 136.9430015,
+    "answer": "*Grask bewegt sich langsam vorwärts, seine Hörner berühren das Metallgitter kaum. Seine Augen fixieren einen bestimmten Abschnitt des Käßufußes, wo ein vergilbtes Pergament eingehängen ist.*\n\n**„Darf.“**\n\n*Er deutet mit einem unverständlichen Blick auf das betreffende Stück. Seine Stimme klingt tief, schwer und von einer langen Mü heft betroffen. Er lässt das Pergament näher heran schleppt ein rostiges Messisdorfdö hwl.",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf"
+  }
+]

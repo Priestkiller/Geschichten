@@ -1,0 +1,15 @@
+{
+  "semanticThreshold": 0.3,
+  "rrfK": 60,
+  "semanticCandidates": 32,
+  "archiveCandidates": 12,
+  "promptExcerpts": 4,
+  "dimension": 768,
+  "preprocessing": "embeddinggemma300m-none-title-search-result-v1",
+  "indexVersion": 1,
+  "context": 512,
+  "threads": 2,
+  "sourceSha256": "97f4ec2a78adfabaaf811d3720535e77ea34bbb1740912f4b2a234891274261e",
+  "decidedFrom": "Only 10 development retrieval scenes; thresholds .25/.30/.35. .30 ties .25 for required sources and avoids the weak unknown-past matches; .35 loses panic source.",
+  "heldoutUnused": true
+}

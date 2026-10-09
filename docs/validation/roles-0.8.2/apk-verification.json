@@ -1,0 +1,32 @@
+{
+  "APK": "Geschichten-0.8.2.apk",
+  "bytes": 321595389,
+  "sha256": "fa7273d431b67020693389f4d1e404baad0587dc488e9c7d1a279e4a1bed09e1",
+  "normalTests": {
+    "tests": 124,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "targetedTests": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "testOverlap": 14,
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 125,
+    "Information": 1
+  },
+  "databaseVersion": 9,
+  "databaseImplementationByteIdenticalTo081": true,
+  "databaseClassSha256": "b368010f967c5b017c91a72479f4389ed62e2f01f35b7d7fe27554026cebd1fa",
+  "nativeAndTokenizerEntriesByteEqualTo081": 6,
+  "allAssetsByteEqualTo081": 8,
+  "imageEntriesByteEqualTo081": 107,
+  "diagnosticClassesInAPK": [],
+  "abi": "arm64-v8a"
+}

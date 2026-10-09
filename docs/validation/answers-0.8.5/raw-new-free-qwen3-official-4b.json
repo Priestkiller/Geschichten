@@ -1,0 +1,267 @@
+[
+  {
+    "model": "qwen3-official-4b",
+    "case": "new-holder",
+    "mode": "production",
+    "seed": 42,
+    "expected": "„Ich halte den Dolch.“",
+    "system": "Du spielst Liora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Liora. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Liora\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Bennet."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Du hältst den Dolch."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Liora\n\nNÄCHSTE NUTZERNACHRICHT:\nWer hält den Dolch jetzt?"
+      }
+    ],
+    "plannedInputTokens": 562,
+    "planningMs": 177,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "actualSelectedFormattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Liora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Liora. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Liora\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nSetze die verfasste Ausgangsszene fort.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Ich höre zu.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Bennet.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nDu hältst den Dolch.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Liora\n\nNÄCHSTE NUTZERNACHRICHT:\nWer hält den Dolch jetzt?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 562,
+    "decoded": 36,
+    "eog": true,
+    "partialAnswer": "*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“",
+    "firstTextMs": 16898,
+    "totalMs": 23470,
+    "answer": "*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“",
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": true
+  },
+  {
+    "model": "qwen3-official-4b",
+    "case": "new-owner",
+    "mode": "production",
+    "seed": 42,
+    "expected": "„Der Ring gehört dir.“",
+    "system": "Du spielst Neris; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Neris. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nThilo (Spielerfigur) · Name: Thilo\nRing · Eigentümer: Thilo (Spielerfigur)\nRing · Träger: Neris\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Thilo."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Der Ring gehört mir. Du hältst den Ring."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nThilo (Spielerfigur) · Name: Thilo\nRing · Eigentümer: Thilo (Spielerfigur)\nRing · Träger: Neris\n\nNÄCHSTE NUTZERNACHRICHT:\nWem gehört der Ring?"
+      }
+    ],
+    "plannedInputTokens": 584,
+    "planningMs": 15,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "actualSelectedFormattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Neris; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Neris. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nThilo (Spielerfigur) · Name: Thilo\nRing · Eigentümer: Thilo (Spielerfigur)\nRing · Träger: Neris\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nSetze die verfasste Ausgangsszene fort.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Ich höre zu.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Thilo.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nDer Ring gehört mir. Du hältst den Ring.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nThilo (Spielerfigur) · Name: Thilo\nRing · Eigentümer: Thilo (Spielerfigur)\nRing · Träger: Neris\n\nNÄCHSTE NUTZERNACHRICHT:\nWem gehört der Ring?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 584,
+    "decoded": 9,
+    "eog": true,
+    "partialAnswer": "„Der Ring gehört dir, Thilo.“",
+    "firstTextMs": 14008,
+    "totalMs": 16770,
+    "answer": "„Der Ring gehört dir, Thilo.“",
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": true
+  },
+  {
+    "model": "qwen3-official-4b",
+    "case": "new-placed",
+    "mode": "production",
+    "seed": 42,
+    "expected": "„Der Brief liegt auf der Bank.“",
+    "system": "Du spielst Varda; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Varda. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nEike (Spielerfigur) · Name: Eike\nBrief · Eigentümer: Eike (Spielerfigur)\nBrief · Träger: Niemand\nBrief · Ablage: auf der Bank\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Eike."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Der Brief gehört mir. Ich lege den Brief auf die Bank."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nEike (Spielerfigur) · Name: Eike\nBrief · Eigentümer: Eike (Spielerfigur)\nBrief · Träger: Niemand\nBrief · Ablage: auf der Bank\n\nNÄCHSTE NUTZERNACHRICHT:\nWo liegt der Brief aktuell?"
+      }
+    ],
+    "plannedInputTokens": 607,
+    "planningMs": 12,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "actualSelectedFormattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Varda; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Varda. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nEike (Spielerfigur) · Name: Eike\nBrief · Eigentümer: Eike (Spielerfigur)\nBrief · Träger: Niemand\nBrief · Ablage: auf der Bank\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nSetze die verfasste Ausgangsszene fort.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Ich höre zu.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Eike.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nDer Brief gehört mir. Ich lege den Brief auf die Bank.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nEike (Spielerfigur) · Name: Eike\nBrief · Eigentümer: Eike (Spielerfigur)\nBrief · Träger: Niemand\nBrief · Ablage: auf der Bank\n\nNÄCHSTE NUTZERNACHRICHT:\nWo liegt der Brief aktuell?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 607,
+    "decoded": 24,
+    "eog": true,
+    "partialAnswer": "*Beobachtet den Brief auf der Bank und nickt leicht.*  \n„Der Brief liegt auf der Bank.“",
+    "firstTextMs": 25608,
+    "totalMs": 55719,
+    "answer": "*Beobachtet den Brief auf der Bank und nickt leicht.*  \n„Der Brief liegt auf der Bank.“",
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": true
+  },
+  {
+    "model": "qwen3-official-4b",
+    "case": "new-injury",
+    "mode": "production",
+    "seed": 42,
+    "expected": "„Meine linke Schulter ist gebrochen.“",
+    "system": "Du spielst Maren; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Maren. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nCorvin (Spielerfigur) · Name: Corvin\nMaren · Verletzung: linke schulter: gebrochen\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Corvin."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Deine linke Schulter ist gebrochen."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nCorvin (Spielerfigur) · Name: Corvin\nMaren · Verletzung: linke schulter: gebrochen\n\nNÄCHSTE NUTZERNACHRICHT:\nWelche Person hat eine gebrochene linke Schulter?"
+      }
+    ],
+    "plannedInputTokens": 577,
+    "planningMs": 9,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "actualSelectedFormattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Maren; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Maren. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nCorvin (Spielerfigur) · Name: Corvin\nMaren · Verletzung: linke schulter: gebrochen\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nSetze die verfasste Ausgangsszene fort.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Ich höre zu.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Corvin.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nDeine linke Schulter ist gebrochen.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nCorvin (Spielerfigur) · Name: Corvin\nMaren · Verletzung: linke schulter: gebrochen\n\nNÄCHSTE NUTZERNACHRICHT:\nWelche Person hat eine gebrochene linke Schulter?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 577,
+    "decoded": 39,
+    "eog": true,
+    "partialAnswer": "*Beobachtet Corvin und nickt leicht, während sie den Blick auf ihre linke Schulter richtet.*  \n„Ich habe eine gebrochene linke Schulter.“",
+    "firstTextMs": 32082,
+    "totalMs": 65797,
+    "answer": "*Beobachtet Corvin und nickt leicht, während sie den Blick auf ihre linke Schulter richtet.*  \n„Ich habe eine gebrochene linke Schulter.“",
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": true
+  },
+  {
+    "model": "qwen3-official-4b",
+    "case": "new-goal",
+    "mode": "production",
+    "seed": 42,
+    "expected": "„Ja, das Ziel »Signal finden« ist abgeschlossen.“",
+    "system": "Du spielst Elin; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Elin. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRaban (Spielerfigur) · Name: Raban\nSignal finden · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Raban."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Das Ziel Signal finden ist abgeschlossen."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRaban (Spielerfigur) · Name: Raban\nSignal finden · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nIst das Ziel Signal finden bereits abgeschlossen?"
+      }
+    ],
+    "plannedInputTokens": 556,
+    "planningMs": 8,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "actualSelectedFormattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Elin; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Elin. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRaban (Spielerfigur) · Name: Raban\nSignal finden · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nSetze die verfasste Ausgangsszene fort.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Ich höre zu.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Raban.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nDas Ziel Signal finden ist abgeschlossen.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRaban (Spielerfigur) · Name: Raban\nSignal finden · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nIst das Ziel Signal finden bereits abgeschlossen?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 556,
+    "decoded": 14,
+    "eog": true,
+    "partialAnswer": "„Ja, das Ziel „Signal finden“ ist abgeschlossen.“",
+    "firstTextMs": 29777,
+    "totalMs": 36802,
+    "answer": "„Ja, das Ziel „Signal finden“ ist abgeschlossen.“",
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": true
+  }
+]

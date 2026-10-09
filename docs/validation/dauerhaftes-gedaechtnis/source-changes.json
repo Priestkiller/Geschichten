@@ -1,0 +1,2858 @@
+{
+  "baseline": "source-before.zip and source-before.json",
+  "records": [
+    {
+      "path": "BUILD_WINDOWS.cmd",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "cb4fd6e0cfd27a135173076bff4b6dc44c9750d0e9db3fa6409486604c551f96"
+    },
+    {
+      "path": "README.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "7b431d84332eaf32299d5b6e49aa892cc9d05198db8131acc3e990274a2f527e"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3fef5f0997a89b8b57a2ef7c890f7301a6efd5cf7b70347224da9e9e2745414b"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "status": "modified",
+      "beforeSha256": "f5cda13409364e3d3649eeaa0c0ec52281300e65ac5101a8ded8f859287830ea",
+      "afterSha256": "1bfd88d9be2a6e38eb8eb342fd34da4ad656ab15173c2aee8deaf4f01ea16e55"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "status": "unchanged",
+      "beforeSha256": "cf0389574ea6a7559058ccc2baf8551cb60b9eae201b6a2b7fe84c380c8335b8",
+      "afterSha256": "cf0389574ea6a7559058ccc2baf8551cb60b9eae201b6a2b7fe84c380c8335b8"
+    },
+    {
+      "path": "app/src/main/assets/LICENSE-APACHE-2.0.txt",
+      "status": "unchanged",
+      "beforeSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "afterSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "app/src/main/assets/LICENSE-GEMMA-3.txt",
+      "status": "unchanged",
+      "beforeSha256": "4f68a79787b419a3e49b7e79952f65f2ad6409b31943c1106d671231dd421dc9",
+      "afterSha256": "4f68a79787b419a3e49b7e79952f65f2ad6409b31943c1106d671231dd421dc9"
+    },
+    {
+      "path": "app/src/main/assets/LICENSE-LLAMA-3.2.txt",
+      "status": "unchanged",
+      "beforeSha256": "8cc15535a8a34b41888f644b339a1a9eb428af793a4f5e24df58a3e5b1487d74",
+      "afterSha256": "8cc15535a8a34b41888f644b339a1a9eb428af793a4f5e24df58a3e5b1487d74"
+    },
+    {
+      "path": "app/src/main/assets/LICENSE-LLAMA-CPP.txt",
+      "status": "unchanged",
+      "beforeSha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "afterSha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "path": "app/src/main/assets/LICENSE-SENTENCEPIECE.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "app/src/main/assets/tokenizers/gemma4.model",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e594c8a90eb08d8bda498ff4747977dc827ae0c3c56b5c0d41a605a22d02ef03"
+    },
+    {
+      "path": "app/src/main/assets/tokenizers/qwen06.gguf",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "79a87fd4710737eefeff82a41208cbf086dc9a5ed92c5d896edbd9e4caa32ab1"
+    },
+    {
+      "path": "app/src/main/assets/tokenizers/qwen25.gguf",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "69970130e011e3069e39e9ac036575948262cf9b6a046a610bb5aae1a8736e61"
+    },
+    {
+      "path": "app/src/main/cpp/CMakeLists.txt",
+      "status": "modified",
+      "beforeSha256": "5a7209f9fa7070968b8bf42cf0917af63abdfb578e5fc46aedf1e2710be99d61",
+      "afterSha256": "4184455c95ce46a509832d94f90dd56c5e37438a7c015cc80eeff2146bbdc4dc"
+    },
+    {
+      "path": "app/src/main/cpp/gguf-jni.cpp",
+      "status": "modified",
+      "beforeSha256": "84cb40a0fce28f4f8e42d10c52605393b5bce4453702bccd733c479eca90e2ba",
+      "afterSha256": "8904a4c92dfdbc73fc0a8f2231e9029c4c6cd62109afa25388a3d77a0347523b"
+    },
+    {
+      "path": "app/src/main/cpp/prompt-cache.h",
+      "status": "unchanged",
+      "beforeSha256": "37abcda14c82be8720968aa7625d454dc7e9d0a36ccf43425d34ea81725fba68",
+      "afterSha256": "37abcda14c82be8720968aa7625d454dc7e9d0a36ccf43425d34ea81725fba68"
+    },
+    {
+      "path": "app/src/main/cpp/tokenizer-jni.cpp",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b079abdaa77dfd7b18cee5f8364f9a9b0dbd8f220615c8499131b554a942c7be"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/AppViewModel.kt",
+      "status": "modified",
+      "beforeSha256": "029c7596842bc302ce707cbcbadfc24ad8ba40d685587b05530c7f9fbdf610f5",
+      "afterSha256": "d7a47ac2faee6d8f2620bdb10c0ed9986840b522b51f92dec1c3b60689996091"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/MainActivity.kt",
+      "status": "unchanged",
+      "beforeSha256": "5c1d3b95c4edf06f1714b4ffe8c9ad2f487c677e1c299042e104ceb57af40926",
+      "afterSha256": "5c1d3b95c4edf06f1714b4ffe8c9ad2f487c677e1c299042e104ceb57af40926"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/ExactTokenizer.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "fe98d67d522997be260ca0d3951d24938d8309b80a2552a6f0202c3488a18d4e"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/GgufEngine.kt",
+      "status": "modified",
+      "beforeSha256": "828435219b3984873b08f72464d7bdaf4031ba95981ea96df1691f76c78cba9f",
+      "afterSha256": "08aa6e0fe6ffcd1ceab3fcea9278eb37efe54789425ecc5c2f074742e5d5d622"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/LiteRtStoryTemplate.kt",
+      "status": "unchanged",
+      "beforeSha256": "42ca3ebd55fac9b7893ca0bfe0c0ef1a626be97742d8b4ed182522f070cabc20",
+      "afterSha256": "42ca3ebd55fac9b7893ca0bfe0c0ef1a626be97742d8b4ed182522f070cabc20"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/LocalModelCatalog.kt",
+      "status": "unchanged",
+      "beforeSha256": "824d8918f685a7cc7aed21dda5b736a3d230bfa861e15d5b773820ad1d8e28b0",
+      "afterSha256": "824d8918f685a7cc7aed21dda5b736a3d230bfa861e15d5b773820ad1d8e28b0"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/LocalModelEngine.kt",
+      "status": "modified",
+      "beforeSha256": "f916f9c50950255e6a98a2bfbcc5c4408b7588a363d60e30c3b286c7ef9f8221",
+      "afterSha256": "a3f6402b65cace585b864418d0e6ba2f80791bc226bb019067c633497f17e7e3"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelArtifact.kt",
+      "status": "unchanged",
+      "beforeSha256": "62ef2d187016a40a0b05ae421ccc6c76248ebd7168abb5554ed9493c341e0f93",
+      "afterSha256": "62ef2d187016a40a0b05ae421ccc6c76248ebd7168abb5554ed9493c341e0f93"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelDownloadProtocol.kt",
+      "status": "unchanged",
+      "beforeSha256": "d2822817676f70f3b468e80eb33e7e7967ba34c63cf1605b49cbd3e771d59923",
+      "afterSha256": "d2822817676f70f3b468e80eb33e7e7967ba34c63cf1605b49cbd3e771d59923"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelPerformance.kt",
+      "status": "unchanged",
+      "beforeSha256": "bbcf105eef68a412d23ed84c83acd36d3b230fad427962cf34e51539636c27a3",
+      "afterSha256": "bbcf105eef68a412d23ed84c83acd36d3b230fad427962cf34e51539636c27a3"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/ModelTypes.kt",
+      "status": "unchanged",
+      "beforeSha256": "2ececf0c6cda3f804c4da17bcbcf5e2920755a3d737cd08b93b8f30f9561cc6f",
+      "afterSha256": "2ececf0c6cda3f804c4da17bcbcf5e2920755a3d737cd08b93b8f30f9561cc6f"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryGeneration.kt",
+      "status": "modified",
+      "beforeSha256": "3993a7ae987b8677d4c361881038f8fd4fc5e02af0712c087ce09e6c754a3d66",
+      "afterSha256": "dcea0b51611858a9bf5bafe9bdb58ebd8b7f497c6b4e83d2f1781e822bab0cf2"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryOutputLimit.kt",
+      "status": "unchanged",
+      "beforeSha256": "fc4bf5eadf82ff0696c23d0d250507b897550f1c971370f8d1991ca10e78ca9c",
+      "afterSha256": "fc4bf5eadf82ff0696c23d0d250507b897550f1c971370f8d1991ca10e78ca9c"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryPrompt.kt",
+      "status": "unchanged",
+      "beforeSha256": "070e73dd095288706dfa090eec6c49d0e945e9c8f2dd3f4a72dfa6a34251fb7d",
+      "afterSha256": "070e73dd095288706dfa090eec6c49d0e945e9c8f2dd3f4a72dfa6a34251fb7d"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/StoryReplyValidation.kt",
+      "status": "unchanged",
+      "beforeSha256": "f912f5064f62e39202ec3c154673c523ac2b761bed742337b13158f9d465f0e4",
+      "afterSha256": "f912f5064f62e39202ec3c154673c523ac2b761bed742337b13158f9d465f0e4"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/StorySummaryPlan.kt",
+      "status": "unchanged",
+      "beforeSha256": "f8dc5c96f3f66a8785a7f6eb6b660fe915a550cce7cff8c100f2f4f2ada71198",
+      "afterSha256": "f8dc5c96f3f66a8785a7f6eb6b660fe915a550cce7cff8c100f2f4f2ada71198"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/StorySummaryPrompt.kt",
+      "status": "unchanged",
+      "beforeSha256": "c0e63d9bda0e5698ac60e7d3bd8e4cc2ab9d39f03edd8e199907057c1d38cdc4",
+      "afterSha256": "c0e63d9bda0e5698ac60e7d3bd8e4cc2ab9d39f03edd8e199907057c1d38cdc4"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/AdditionalCharacters.kt",
+      "status": "unchanged",
+      "beforeSha256": "4993a6188c6ee31c19589bc1cb7f1562d41d742c860419cf25781f5c87fe0542",
+      "afterSha256": "4993a6188c6ee31c19589bc1cb7f1562d41d742c860419cf25781f5c87fe0542"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/BladeRunnerStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "d4ec22b742ae5946a5a895667e14f287ab5a026cb8c9b8ccde833b515928d4b5",
+      "afterSha256": "d4ec22b742ae5946a5a895667e14f287ab5a026cb8c9b8ccde833b515928d4b5"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/BuiltinCharacters.kt",
+      "status": "unchanged",
+      "beforeSha256": "fea1c3093b2c244a9c6f1e42669684f7fab761165a76f89eb4462468115acc38",
+      "afterSha256": "fea1c3093b2c244a9c6f1e42669684f7fab761165a76f89eb4462468115acc38"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterDialogueRevision.kt",
+      "status": "unchanged",
+      "beforeSha256": "5c0e0ab0ee147efb9593bae3647082e1c9552af4769a9afa588e16aee8f440fe",
+      "afterSha256": "5c0e0ab0ee147efb9593bae3647082e1c9552af4769a9afa588e16aee8f440fe"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterIntroductions.kt",
+      "status": "unchanged",
+      "beforeSha256": "d2439c34b2ff770ea78f05ae60ff89f7d37a0e406148666e3b175b3276231c4f",
+      "afterSha256": "d2439c34b2ff770ea78f05ae60ff89f7d37a0e406148666e3b175b3276231c4f"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterRevisions.kt",
+      "status": "unchanged",
+      "beforeSha256": "fc0b17ec50bcd9302e44fc333436c27235e0aa5862e9fe8ce615ef32cafdc804",
+      "afterSha256": "fc0b17ec50bcd9302e44fc333436c27235e0aa5862e9fe8ce615ef32cafdc804"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/CreatureStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "3da426f7f5556644c8c230ff943d0caea8106304dd6941dc8e5915810e9fc735",
+      "afterSha256": "3da426f7f5556644c8c230ff943d0caea8106304dd6941dc8e5915810e9fc735"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/CrimeStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "32e1af4f34c3eb3af23c55be3be559f3edff8f8d816dfd48ba2adc22a51dd718",
+      "afterSha256": "32e1af4f34c3eb3af23c55be3be559f3edff8f8d816dfd48ba2adc22a51dd718"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/CyberpunkStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "db2e5e0fad7b712852f5c898a84f4ad637ef80401a411f3240288b7c6d5ee369",
+      "afterSha256": "db2e5e0fad7b712852f5c898a84f4ad637ef80401a411f3240288b7c6d5ee369"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/FantasyStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "763fb65b664410041033ea321902a31e9b89a64227bf371e062f20760fcd15a3",
+      "afterSha256": "763fb65b664410041033ea321902a31e9b89a64227bf371e062f20760fcd15a3"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/MiddleEarthStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "311aed1cc97951e809ab04edeac25fb9e1323fad2c54fdca51965deef928116d",
+      "afterSha256": "311aed1cc97951e809ab04edeac25fb9e1323fad2c54fdca51965deef928116d"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/Models.kt",
+      "status": "modified",
+      "beforeSha256": "23e8f30ff7e16774b3274f666b90cd13552585788b3e9b31f5f49497ed50a777",
+      "afterSha256": "5d7b644a8663e9a23c5546371e0c529c554b807fc19cb33a964d3237f95d9ffb"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/MonsterStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "df435cbfe263f0c5a039d2179cdb6e91727c1ef6f23e27f368f021563f98d052",
+      "afterSha256": "df435cbfe263f0c5a039d2179cdb6e91727c1ef6f23e27f368f021563f98d052"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/NorthernStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "e5e220d0b0a8ddedaf54f321a20ff5548296df13f512f8baf9cb9498b3bade03",
+      "afterSha256": "e5e220d0b0a8ddedaf54f321a20ff5548296df13f512f8baf9cb9498b3bade03"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/ReleasedIntroductionsV6.kt",
+      "status": "unchanged",
+      "beforeSha256": "b6fa10f91a2b1a9a70b741aa8f89856e4f1b1fec4c38733d490f12bd79232949",
+      "afterSha256": "b6fa10f91a2b1a9a70b741aa8f89856e4f1b1fec4c38733d490f12bd79232949"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/ScienceStarts.kt",
+      "status": "unchanged",
+      "beforeSha256": "983149958ddd5b4eabc06053cdd9bf6504809d059e8506eff5222d72a70488f2",
+      "afterSha256": "983149958ddd5b4eabc06053cdd9bf6504809d059e8506eff5222d72a70488f2"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/StoryRepository.kt",
+      "status": "modified",
+      "beforeSha256": "6f0f07ef80298878e1d1731dab88898f12cc5f30c77de01032af7e27413f3c6c",
+      "afterSha256": "87f71debb65e65d40b8557926c1b76676d51d549ce4e046ddf2040a0822fc0d9"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/WorldCharacters.kt",
+      "status": "unchanged",
+      "beforeSha256": "245266011ffca8ab0c2e1ec0190cc74f6983a6ee38774f063dc84add5cd73a58",
+      "afterSha256": "245266011ffca8ab0c2e1ec0190cc74f6983a6ee38774f063dc84add5cd73a58"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryDatabase.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b64c44985fea8be43279227c6ba026c4a974e4c5a7fdabd0e2f86da1e8a36af5"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryPrompt.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6bdcc66d79d18a099a16911bf8f404f2732c285f9d9d7ac497041f5b1451fa49"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryReplyGuard.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0fcdfe71ba27c7a6303276abb68720757d95d35a88dfd9e0e6adc4b01b92d335"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/StoryMemory.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "86d9185d6fce4f15c8ba2e8dee5bd956ffa23ea70c3c8a5d10f15d49e0131092"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/CharacterEditor.kt",
+      "status": "unchanged",
+      "beforeSha256": "69c3ba48266c006fcda9840915605296f149c9fdf57647a011f2c6d47e030a65",
+      "afterSha256": "69c3ba48266c006fcda9840915605296f149c9fdf57647a011f2c6d47e030a65"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/CharacterProfileDialog.kt",
+      "status": "unchanged",
+      "beforeSha256": "cbf74065c8010a58f28c8b260dddeb6fa201f5f77147f26dd63e1103999658e0",
+      "afterSha256": "cbf74065c8010a58f28c8b260dddeb6fa201f5f77147f26dd63e1103999658e0"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/Components.kt",
+      "status": "unchanged",
+      "beforeSha256": "2e869287274b745240434da85f5688e8937d9af1f4115c095297ed6d8fed1629",
+      "afterSha256": "2e869287274b745240434da85f5688e8937d9af1f4115c095297ed6d8fed1629"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/MemoriesScreen.kt",
+      "status": "modified",
+      "beforeSha256": "25adf19594ee4e95583eae60ed2477e40865712d471b21247ba3e8e1529a7931",
+      "afterSha256": "46d40ed505f530a36cc9a5d3d8885e659046a48f1427e8bd9df2c761536c633d"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/SetupScreen.kt",
+      "status": "unchanged",
+      "beforeSha256": "b601213979d139c1b940ba2b6c7e6c43a6a8e9bd862de7765d7d19498e5505ec",
+      "afterSha256": "b601213979d139c1b940ba2b6c7e6c43a6a8e9bd862de7765d7d19498e5505ec"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/StateMemoryUi.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "be1a32b76fd7ac203b3b3aaa6c2862f6d92f2118d8556b79819cb1fa5fd1106c"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/StoryApp.kt",
+      "status": "modified",
+      "beforeSha256": "069f4bc83cf989c97de956f0faf3075b34cfe39140da4377cb85b7bc1ade8f18",
+      "afterSha256": "ce6c23a8766da93b48252513b16bf156388974949ec50152cd16e185b77e9257"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/UiState.kt",
+      "status": "modified",
+      "beforeSha256": "722d6212f4c6e0e8c5e14df5e90ca4a07f4234ec3940c8cb9de4a18c245d7734",
+      "afterSha256": "aa439b833833d3c8576029a34a92c8ad12a0cc38a76325f710c5e38580cea6b2"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/updates/ApkIdentityPolicy.kt",
+      "status": "unchanged",
+      "beforeSha256": "83ce8c80cd1940bdbdc18e4606d77c1a0cfcc05286185ffcce67a98eaef34dcf",
+      "afterSha256": "83ce8c80cd1940bdbdc18e4606d77c1a0cfcc05286185ffcce67a98eaef34dcf"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/updates/AppUpdater.kt",
+      "status": "unchanged",
+      "beforeSha256": "c86aec89d3b2b629b48ca5b94ac1b55a766819169eafd48b284bda0484049989",
+      "afterSha256": "c86aec89d3b2b629b48ca5b94ac1b55a766819169eafd48b284bda0484049989"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateFileProvider.kt",
+      "status": "unchanged",
+      "beforeSha256": "dd6f995b94e79d9f14628f205c6c1ba4f409ba21776fc76121184963d0ca1bc1",
+      "afterSha256": "dd6f995b94e79d9f14628f205c6c1ba4f409ba21776fc76121184963d0ca1bc1"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateManifest.kt",
+      "status": "unchanged",
+      "beforeSha256": "d3556fa60982c9c85d478a85df6b344fd8adbb088631e9fd1d49868293eaa0a5",
+      "afterSha256": "d3556fa60982c9c85d478a85df6b344fd8adbb088631e9fd1d49868293eaa0a5"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateTransport.kt",
+      "status": "unchanged",
+      "beforeSha256": "98deca98803172bc86389f9003d1130412250454cd5e75c9651ea28c15f763ec",
+      "afterSha256": "98deca98803172bc86389f9003d1130412250454cd5e75c9651ea28c15f763ec"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/updates/UpdateTypes.kt",
+      "status": "unchanged",
+      "beforeSha256": "01018f888cd3167a8ecb2dac113034350f5c71b73d6c613af471b3c0ca8aabb6",
+      "afterSha256": "01018f888cd3167a8ecb2dac113034350f5c71b73d6c613af471b3c0ca8aabb6"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_ada.png",
+      "status": "unchanged",
+      "beforeSha256": "84b4005071614113e1627461dd0b38273430c4a744082abbdcbfcc2bedf4a331",
+      "afterSha256": "84b4005071614113e1627461dd0b38273430c4a744082abbdcbfcc2bedf4a331"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_aelwyn.png",
+      "status": "unchanged",
+      "beforeSha256": "5da84cef433a33ebfa21c97151de73c6574b2e558359c51833bce8c5a4e3fc15",
+      "afterSha256": "5da84cef433a33ebfa21c97151de73c6574b2e558359c51833bce8c5a4e3fc15"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_anton.png",
+      "status": "unchanged",
+      "beforeSha256": "26cbf59eeee77083496d388e20e1500457b89cc90778bb346da6d24cdeb0246f",
+      "afterSha256": "26cbf59eeee77083496d388e20e1500457b89cc90778bb346da6d24cdeb0246f"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_ari_maddox.png",
+      "status": "unchanged",
+      "beforeSha256": "940443d3d325201cd2b88464495362cd4f478d42311e6506f7d8f9050a26848d",
+      "afterSha256": "940443d3d325201cd2b88464495362cd4f478d42311e6506f7d8f9050a26848d"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_aruun.png",
+      "status": "unchanged",
+      "beforeSha256": "746c88da181fbd057483e36d487d880e2688a47b414df2cad924df9368da6161",
+      "afterSha256": "746c88da181fbd057483e36d487d880e2688a47b414df2cad924df9368da6161"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_astrid.png",
+      "status": "unchanged",
+      "beforeSha256": "7a56d553ef1b060a2c2c6e44cad062ff231b29a976169337bff418b04d780801",
+      "afterSha256": "7a56d553ef1b060a2c2c6e44cad062ff231b29a976169337bff418b04d780801"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_bastion.png",
+      "status": "unchanged",
+      "beforeSha256": "f3c4ecb90eb6abf8fdfd9d68d59386faa13515cf61d18de4d5c40b47010dc8b5",
+      "afterSha256": "f3c4ecb90eb6abf8fdfd9d68d59386faa13515cf61d18de4d5c40b47010dc8b5"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_berenor.png",
+      "status": "unchanged",
+      "beforeSha256": "60b933d8b61044fb3a88795b7c9f4c4a68b3ab83e09f7f64665c19293dc09253",
+      "afterSha256": "60b933d8b61044fb3a88795b7c9f4c4a68b3ab83e09f7f64665c19293dc09253"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_bjarke.png",
+      "status": "unchanged",
+      "beforeSha256": "7ffb41e01d3dab124f54565397b38a79c2d8ec726e069a34933033d1ca4349bc",
+      "afterSha256": "7ffb41e01d3dab124f54565397b38a79c2d8ec726e069a34933033d1ca4349bc"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_borin.png",
+      "status": "unchanged",
+      "beforeSha256": "588ad2f0444fcc3dc0619506343e7a2be8cfa3e7cffae1a7296f0fc3d6af0a12",
+      "afterSha256": "588ad2f0444fcc3dc0619506343e7a2be8cfa3e7cffae1a7296f0fc3d6af0a12"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_bruno_vega.png",
+      "status": "unchanged",
+      "beforeSha256": "44a3464dc24d85038ff1a9511c1314ac9404d9845ea9495a986abcdb17474867",
+      "afterSha256": "44a3464dc24d85038ff1a9511c1314ac9404d9845ea9495a986abcdb17474867"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_caerion.png",
+      "status": "unchanged",
+      "beforeSha256": "a9708657e9b0b0318ba10fc514eba51a1fa02ccca19eeb3fde8bb5f90fba4c59",
+      "afterSha256": "a9708657e9b0b0318ba10fc514eba51a1fa02ccca19eeb3fde8bb5f90fba4c59"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_cem.png",
+      "status": "unchanged",
+      "beforeSha256": "9fa69167aff57f22a57e2978778026dee303863cd0a63b6bc9eb0a90e1f7c5ef",
+      "afterSha256": "9fa69167aff57f22a57e2978778026dee303863cd0a63b6bc9eb0a90e1f7c5ef"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_dante_raze.png",
+      "status": "unchanged",
+      "beforeSha256": "68ee6eb41617e8dc68bf08fd8f7794e911e951643aece4e83a448d186e8c4864",
+      "afterSha256": "68ee6eb41617e8dc68bf08fd8f7794e911e951643aece4e83a448d186e8c4864"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_daren_moss.png",
+      "status": "unchanged",
+      "beforeSha256": "ae24bbab3702294f8d6b6010bc4c7cb29be2f53a53d5a235be6519729ec1e6ae",
+      "afterSha256": "ae24bbab3702294f8d6b6010bc4c7cb29be2f53a53d5a235be6519729ec1e6ae"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_dorik.png",
+      "status": "unchanged",
+      "beforeSha256": "6582f15794a468c2957bc04417970eb5743ef29b6ad45246854cd95c33a2a45c",
+      "afterSha256": "6582f15794a468c2957bc04417970eb5743ef29b6ad45246854cd95c33a2a45c"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_drazhul.png",
+      "status": "unchanged",
+      "beforeSha256": "6a9e404cd34f8d1361015e7e340672d1d49caf7fc37ea7063042483e1367278d",
+      "afterSha256": "6a9e404cd34f8d1361015e7e340672d1d49caf7fc37ea7063042483e1367278d"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_eirik.png",
+      "status": "unchanged",
+      "beforeSha256": "493c92cc31e211d4f48135b32c2c05285a6e3177cb20479fabae838ecd652f94",
+      "afterSha256": "493c92cc31e211d4f48135b32c2c05285a6e3177cb20479fabae838ecd652f94"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_elara.png",
+      "status": "unchanged",
+      "beforeSha256": "525452bc1d43ddb3e65572a3df36ee56c2b4c1237d79cfc1874ba638bf77186b",
+      "afterSha256": "525452bc1d43ddb3e65572a3df36ee56c2b4c1237d79cfc1874ba638bf77186b"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_eldran.png",
+      "status": "unchanged",
+      "beforeSha256": "e5edeac05bb01a233764fe71e0f15a3055d24158fedb1974d23d151d70e4826d",
+      "afterSha256": "e5edeac05bb01a233764fe71e0f15a3055d24158fedb1974d23d151d70e4826d"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_elys_voss.png",
+      "status": "unchanged",
+      "beforeSha256": "a6fdb42e241f454cdd17edbb997981ba7f9a8908b4c3d573d8ce6160358c387a",
+      "afterSha256": "a6fdb42e241f454cdd17edbb997981ba7f9a8908b4c3d573d8ce6160358c387a"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_ena.png",
+      "status": "unchanged",
+      "beforeSha256": "6b8deaaf2fe0d34d397e7be71c3d3b2d106c6b699a2acfa828b77c2dafc8f269",
+      "afterSha256": "6b8deaaf2fe0d34d397e7be71c3d3b2d106c6b699a2acfa828b77c2dafc8f269"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_eris_wynn.png",
+      "status": "unchanged",
+      "beforeSha256": "219158477bcd8cad520ddbfb26e269768f159bd377b2a485f26b4b787b21a988",
+      "afterSha256": "219158477bcd8cad520ddbfb26e269768f159bd377b2a485f26b4b787b21a988"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_fenrik.png",
+      "status": "unchanged",
+      "beforeSha256": "d2697abc68283ee5db03046fa7a45fce1a5436dc28c34d8350591aa9510d6dda",
+      "afterSha256": "d2697abc68283ee5db03046fa7a45fce1a5436dc28c34d8350591aa9510d6dda"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_grask.png",
+      "status": "unchanged",
+      "beforeSha256": "482dec5536b63d0e26c98ad66ffb3576b970f2468dd63e31e64c8673c2f46ddb",
+      "afterSha256": "482dec5536b63d0e26c98ad66ffb3576b970f2468dd63e31e64c8673c2f46ddb"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_halvard.png",
+      "status": "unchanged",
+      "beforeSha256": "c6824d2e01df55f2afb22fa5b30b9d9a1b47b3b0f4a8f52acfc6c36d852764fa",
+      "afterSha256": "c6824d2e01df55f2afb22fa5b30b9d9a1b47b3b0f4a8f52acfc6c36d852764fa"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_hedda.png",
+      "status": "unchanged",
+      "beforeSha256": "985bfddfc538db58f60a5d9104bdd37b7f21932e2da1fe6ffecdf8a69aa81c70",
+      "afterSha256": "985bfddfc538db58f60a5d9104bdd37b7f21932e2da1fe6ffecdf8a69aa81c70"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_hildis.png",
+      "status": "unchanged",
+      "beforeSha256": "6383c8d6e316fb9007fdea7ce7510b08ca3e1b6d4639a50fa045d3246a9a724d",
+      "afterSha256": "6383c8d6e316fb9007fdea7ce7510b08ca3e1b6d4639a50fa045d3246a9a724d"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_ines.png",
+      "status": "unchanged",
+      "beforeSha256": "2bfb955122b4f828194636932c76faa134d7650999195474884ef750f25082be",
+      "afterSha256": "2bfb955122b4f828194636932c76faa134d7650999195474884ef750f25082be"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_irilwen.png",
+      "status": "unchanged",
+      "beforeSha256": "074abc345a389d98fd9f309b3fc68d509f8d91392bac17f09af39546f5a53a71",
+      "afterSha256": "074abc345a389d98fd9f309b3fc68d509f8d91392bac17f09af39546f5a53a71"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_ivo.png",
+      "status": "unchanged",
+      "beforeSha256": "a98e7ae968b12c1196c23d8fce7b7fba0b5364ae98c7a0d4e35b7070b943c3be",
+      "afterSha256": "a98e7ae968b12c1196c23d8fce7b7fba0b5364ae98c7a0d4e35b7070b943c3be"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_jalen_7.png",
+      "status": "unchanged",
+      "beforeSha256": "a82be5e14b31892f5515b6f04acf5629582fc2a1ff248bfd147972f18898de15",
+      "afterSha256": "a82be5e14b31892f5515b6f04acf5629582fc2a1ff248bfd147972f18898de15"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_johanna.png",
+      "status": "unchanged",
+      "beforeSha256": "a5592e26a2c145f745cb9864aa12036dd4d1b075fc6c37d676a74ecc70cb0e06",
+      "afterSha256": "a5592e26a2c145f745cb9864aa12036dd4d1b075fc6c37d676a74ecc70cb0e06"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_kael.png",
+      "status": "unchanged",
+      "beforeSha256": "034ab1c88806e0b2e998e65f89ce1b5e181ad41628b99e5d410f2eaa2ef879a8",
+      "afterSha256": "034ab1c88806e0b2e998e65f89ce1b5e181ad41628b99e5d410f2eaa2ef879a8"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_kaspar.png",
+      "status": "unchanged",
+      "beforeSha256": "11cebcf1ea54a5979c0e6ca95412f399a0af65df4bfd9760e7f9e5e24fa04dd7",
+      "afterSha256": "11cebcf1ea54a5979c0e6ca95412f399a0af65df4bfd9760e7f9e5e24fa04dd7"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_keira.png",
+      "status": "unchanged",
+      "beforeSha256": "2a0db163353a7db9722eef403107c3d955f7548141b66bf42ebddf51ba8477f2",
+      "afterSha256": "2a0db163353a7db9722eef403107c3d955f7548141b66bf42ebddf51ba8477f2"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_kira_rook.png",
+      "status": "unchanged",
+      "beforeSha256": "f8756d0db0a182611c6c62833a29d0b3169ea54f22ff52616ab68ae77b0b0bec",
+      "afterSha256": "f8756d0db0a182611c6c62833a29d0b3169ea54f22ff52616ab68ae77b0b0bec"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_korr.png",
+      "status": "unchanged",
+      "beforeSha256": "8664997ed5dce53183beb4df160058cda30d2ef4e6320d57964f91de0f0396bd",
+      "afterSha256": "8664997ed5dce53183beb4df160058cda30d2ef4e6320d57964f91de0f0396bd"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_leon.png",
+      "status": "unchanged",
+      "beforeSha256": "ef53b82427cebdb2f0ceb078765a506b97d0067db92be56be9ab77307a2e177d",
+      "afterSha256": "ef53b82427cebdb2f0ceb078765a506b97d0067db92be56be9ab77307a2e177d"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_linnet.png",
+      "status": "unchanged",
+      "beforeSha256": "3aadd2714ad5a7e54e70fc6dd96bb822344216672cb87502156840abe700b9bf",
+      "afterSha256": "3aadd2714ad5a7e54e70fc6dd96bb822344216672cb87502156840abe700b9bf"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_liora_cass.png",
+      "status": "unchanged",
+      "beforeSha256": "5037ac58da3ab00e1d8ae6dea178868ab074c7396bf08fc2fe094d726de85dc9",
+      "afterSha256": "5037ac58da3ab00e1d8ae6dea178868ab074c7396bf08fc2fe094d726de85dc9"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_liv.png",
+      "status": "unchanged",
+      "beforeSha256": "3665733d4eac5ab83fd135ac123171cbb71ffdcb4555cbe792733f282a1994e0",
+      "afterSha256": "3665733d4eac5ab83fd135ac123171cbb71ffdcb4555cbe792733f282a1994e0"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_lyra.png",
+      "status": "unchanged",
+      "beforeSha256": "6041e338e76b27e6c0ac78bb5693c46e22094b3385c6bb6b2d0dc3f31e06c196",
+      "afterSha256": "6041e338e76b27e6c0ac78bb5693c46e22094b3385c6bb6b2d0dc3f31e06c196"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_mael_voss.png",
+      "status": "unchanged",
+      "beforeSha256": "5ce1f89562948a34c71ef2aee98e44b1ad9bfeed2b789cc0840c9d3f2467b618",
+      "afterSha256": "5ce1f89562948a34c71ef2aee98e44b1ad9bfeed2b789cc0840c9d3f2467b618"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_maelis.png",
+      "status": "unchanged",
+      "beforeSha256": "37d6025f6b0f86dbfcdb0880f4d9c745033184d79ab69ba70b4bf6467203ba84",
+      "afterSha256": "37d6025f6b0f86dbfcdb0880f4d9c745033184d79ab69ba70b4bf6467203ba84"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_malik.png",
+      "status": "unchanged",
+      "beforeSha256": "ffb593d3a58453fc572487eeb306c4a3c28888a129b43a52919e6f6fd5fd2b06",
+      "afterSha256": "ffb593d3a58453fc572487eeb306c4a3c28888a129b43a52919e6f6fd5fd2b06"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_maren_flux.png",
+      "status": "unchanged",
+      "beforeSha256": "2f50061287b2d9ea5feb5f187c8f1d8b779a3d418e91528d932e1335f342e36c",
+      "afterSha256": "2f50061287b2d9ea5feb5f187c8f1d8b779a3d418e91528d932e1335f342e36c"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_mira.png",
+      "status": "unchanged",
+      "beforeSha256": "3fdc63b1f770cbe15499412666af146400e10a630b5e7af38be49a19fab64c88",
+      "afterSha256": "3fdc63b1f770cbe15499412666af146400e10a630b5e7af38be49a19fab64c88"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_morga.png",
+      "status": "unchanged",
+      "beforeSha256": "f020329ad5e60c1f973d828300b0e8f13bc70760cbda54251f8ec9ebecc157d3",
+      "afterSha256": "f020329ad5e60c1f973d828300b0e8f13bc70760cbda54251f8ec9ebecc157d3"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_naya_cruz.png",
+      "status": "unchanged",
+      "beforeSha256": "c6fe76edd9fd17238bf9271b35b551a78d95fda67bcfaf9af4c70dde23b135a5",
+      "afterSha256": "c6fe76edd9fd17238bf9271b35b551a78d95fda67bcfaf9af4c70dde23b135a5"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_nessa.png",
+      "status": "unchanged",
+      "beforeSha256": "b5569423b70cd8f8ce7476110f4c8018e768a5441ae05a894e5243bf18d7164b",
+      "afterSha256": "b5569423b70cd8f8ce7476110f4c8018e768a5441ae05a894e5243bf18d7164b"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_nharok.png",
+      "status": "unchanged",
+      "beforeSha256": "b4f1beae398d3a7b152c92d772c7225b54c89715d70175aa95ca5e0c6e9cbd02",
+      "afterSha256": "b4f1beae398d3a7b152c92d772c7225b54c89715d70175aa95ca5e0c6e9cbd02"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_noam.png",
+      "status": "unchanged",
+      "beforeSha256": "4c8466a20bdf90cced465c7ca1bcdf676a2172fa68b035b9bdac658264f262b4",
+      "afterSha256": "4c8466a20bdf90cced465c7ca1bcdf676a2172fa68b035b9bdac658264f262b4"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_nora.png",
+      "status": "unchanged",
+      "beforeSha256": "2a09864214ed0f1c5a6e5fd03d7f3641a8b880b5600ca7df7a32f6ea61ac0ae7",
+      "afterSha256": "2a09864214ed0f1c5a6e5fd03d7f3641a8b880b5600ca7df7a32f6ea61ac0ae7"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_nyra.png",
+      "status": "unchanged",
+      "beforeSha256": "f5bad439f00fbd58e6a3dae1a71112f611291e4b6d5563fd98cc3792d48fb5f0",
+      "afterSha256": "f5bad439f00fbd58e6a3dae1a71112f611291e4b6d5563fd98cc3792d48fb5f0"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_nyx_rho.png",
+      "status": "unchanged",
+      "beforeSha256": "5c29b8d70662b59553955dfb31a6f9e562f483863e3d14e0ce7f5a9e23fcc605",
+      "afterSha256": "5c29b8d70662b59553955dfb31a6f9e562f483863e3d14e0ce7f5a9e23fcc605"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_orin.png",
+      "status": "unchanged",
+      "beforeSha256": "c185ad4bcece6edff025d8831f74abfc6d02edb155ba25bc8ef07df06c900d0e",
+      "afterSha256": "c185ad4bcece6edff025d8831f74abfc6d02edb155ba25bc8ef07df06c900d0e"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_pyra.png",
+      "status": "unchanged",
+      "beforeSha256": "db513817893abfe7bf42c2782131464b52ec9270c900e45ad17e0272dbcc27d3",
+      "afterSha256": "db513817893abfe7bf42c2782131464b52ec9270c900e45ad17e0272dbcc27d3"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_raukha.png",
+      "status": "unchanged",
+      "beforeSha256": "9a8feb4393fd1af13e89bbcecb331d4b82abebe19282f5607860b7e01d3089f5",
+      "afterSha256": "9a8feb4393fd1af13e89bbcecb331d4b82abebe19282f5607860b7e01d3089f5"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_renji_sato.png",
+      "status": "unchanged",
+      "beforeSha256": "a4f8a42b70f0edcf70f4fd99ddd20de0d072c12c8324208152e6f14d336fa0fd",
+      "afterSha256": "a4f8a42b70f0edcf70f4fd99ddd20de0d072c12c8324208152e6f14d336fa0fd"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_riven.png",
+      "status": "unchanged",
+      "beforeSha256": "1b8aaa1632643c32fc479ba8f7096a7a0d524e752c53c8eab4353cef6a0d69b6",
+      "afterSha256": "1b8aaa1632643c32fc479ba8f7096a7a0d524e752c53c8eab4353cef6a0d69b6"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_rohan.png",
+      "status": "unchanged",
+      "beforeSha256": "0bdc3f5126ef105122be4df173974254c9762de3522e3cf6aef07650441d4a97",
+      "afterSha256": "0bdc3f5126ef105122be4df173974254c9762de3522e3cf6aef07650441d4a97"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_runa.png",
+      "status": "unchanged",
+      "beforeSha256": "d0ffc278eb37e47a2a6c02402f0b345e7bbc8903633ab8d59349cbfe0bd33717",
+      "afterSha256": "d0ffc278eb37e47a2a6c02402f0b345e7bbc8903633ab8d59349cbfe0bd33717"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_saelith.png",
+      "status": "unchanged",
+      "beforeSha256": "7641b67d6882bcebdaf663f397325e357b64342e03b3439edb31a03b8fe08a17",
+      "afterSha256": "7641b67d6882bcebdaf663f397325e357b64342e03b3439edb31a03b8fe08a17"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_sana.png",
+      "status": "unchanged",
+      "beforeSha256": "0d9a026dbe5d5b819beed091d4ab40bdeef898393ecf1ae89fa73833505e467b",
+      "afterSha256": "0d9a026dbe5d5b819beed091d4ab40bdeef898393ecf1ae89fa73833505e467b"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_selene_kade.png",
+      "status": "unchanged",
+      "beforeSha256": "6e3f185201d66b186d2ffa58988d3bee3c50851b51aa522e1ec324cb7174dc9a",
+      "afterSha256": "6e3f185201d66b186d2ffa58988d3bee3c50851b51aa522e1ec324cb7174dc9a"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_seris.png",
+      "status": "unchanged",
+      "beforeSha256": "2469414f5b705506c9a4ef294261fb80b1b5f1a57be4204d90a593a94ae88719",
+      "afterSha256": "2469414f5b705506c9a4ef294261fb80b1b5f1a57be4204d90a593a94ae88719"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_sigrid.png",
+      "status": "unchanged",
+      "beforeSha256": "9d7c12ff6329035f4e51eb14300441d06a5de2f7cb1852f7d9f9c467345fe1a1",
+      "afterSha256": "9d7c12ff6329035f4e51eb14300441d06a5de2f7cb1852f7d9f9c467345fe1a1"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_silas.png",
+      "status": "unchanged",
+      "beforeSha256": "6618354db990864cca060dacc3a86578b983a54da000baaef661556f707f6dc7",
+      "afterSha256": "6618354db990864cca060dacc3a86578b983a54da000baaef661556f707f6dc7"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_siraxa.png",
+      "status": "unchanged",
+      "beforeSha256": "75ee264199255f8e065738a7d827a45a1c3878022d806bfd9db6a80ae5935ad2",
+      "afterSha256": "75ee264199255f8e065738a7d827a45a1c3878022d806bfd9db6a80ae5935ad2"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_skarn.png",
+      "status": "unchanged",
+      "beforeSha256": "5a7d1c7bba05cb63ccdd9d1d41207c6a5801bc1de921c9a4784ae10ce682d343",
+      "afterSha256": "5a7d1c7bba05cb63ccdd9d1d41207c6a5801bc1de921c9a4784ae10ce682d343"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_solveig.png",
+      "status": "unchanged",
+      "beforeSha256": "65a9bd94da0024361ed57a9e9be5e8d0724880f08e9f20f924126b35d0d40eba",
+      "afterSha256": "65a9bd94da0024361ed57a9e9be5e8d0724880f08e9f20f924126b35d0d40eba"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_soren_vale.png",
+      "status": "unchanged",
+      "beforeSha256": "b0e9b3f9afe8bd785b4f56c989947015e4983cdaf18f51b185659a3c648e1d5e",
+      "afterSha256": "b0e9b3f9afe8bd785b4f56c989947015e4983cdaf18f51b185659a3c648e1d5e"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_soryn.png",
+      "status": "unchanged",
+      "beforeSha256": "17fc34b3b03394babeba3adbb460639945d72ca642c0f3fe8ce11bd29db1d68c",
+      "afterSha256": "17fc34b3b03394babeba3adbb460639945d72ca642c0f3fe8ce11bd29db1d68c"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_sylwen.png",
+      "status": "unchanged",
+      "beforeSha256": "896bb00aa807e73a99fb137194fe07cd1ef150c6d10a4b86ba93d835067828ce",
+      "afterSha256": "896bb00aa807e73a99fb137194fe07cd1ef150c6d10a4b86ba93d835067828ce"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_tarek.png",
+      "status": "unchanged",
+      "beforeSha256": "1c044af3dc43d668d0262d8a100375e0c72b92f0f67730ee58e575141d203026",
+      "afterSha256": "1c044af3dc43d668d0262d8a100375e0c72b92f0f67730ee58e575141d203026"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_tessa.png",
+      "status": "unchanged",
+      "beforeSha256": "d2b14a5b640acf6cc64cfaf2c9a2fd03a3e50dd4d5341532875a268963732b56",
+      "afterSha256": "d2b14a5b640acf6cc64cfaf2c9a2fd03a3e50dd4d5341532875a268963732b56"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_thalora.png",
+      "status": "unchanged",
+      "beforeSha256": "33f0c4158c0b97d27fdbcd2c6349eceaead66b0b6ca3997a9c55de693cbcf152",
+      "afterSha256": "33f0c4158c0b97d27fdbcd2c6349eceaead66b0b6ca3997a9c55de693cbcf152"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_thamund.png",
+      "status": "unchanged",
+      "beforeSha256": "349a91e32e75f73a8ecf0a97933c7916f82fb393792160813b3c9279bc55751e",
+      "afterSha256": "349a91e32e75f73a8ecf0a97933c7916f82fb393792160813b3c9279bc55751e"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_thora.png",
+      "status": "unchanged",
+      "beforeSha256": "e4d88bcc0ff607c3eb932b6f2919a8864923fe4632b5041b272583efd95d9526",
+      "afterSha256": "e4d88bcc0ff607c3eb932b6f2919a8864923fe4632b5041b272583efd95d9526"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_throgg.png",
+      "status": "unchanged",
+      "beforeSha256": "b7aa91b0d022f93bf06f03bc60220157b057741e74e5986d0887d2a2f91a10d5",
+      "afterSha256": "b7aa91b0d022f93bf06f03bc60220157b057741e74e5986d0887d2a2f91a10d5"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_torben.png",
+      "status": "unchanged",
+      "beforeSha256": "ed99e9b2337553078817582964af0bfbf00fbb988a98cebf3158da3953b9778a",
+      "afterSha256": "ed99e9b2337553078817582964af0bfbf00fbb988a98cebf3158da3953b9778a"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_vaelgor.png",
+      "status": "unchanged",
+      "beforeSha256": "0eaa1de176cda956fca8d5f479fbaff69eec4d80c70baa347bacb51a676d0228",
+      "afterSha256": "0eaa1de176cda956fca8d5f479fbaff69eec4d80c70baa347bacb51a676d0228"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_varen.png",
+      "status": "unchanged",
+      "beforeSha256": "7bf064d81b5c0513baac2e8a88b83cfeff2cedda3db218d59a6712fea4898154",
+      "afterSha256": "7bf064d81b5c0513baac2e8a88b83cfeff2cedda3db218d59a6712fea4898154"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_varkesha.png",
+      "status": "unchanged",
+      "beforeSha256": "449a7ec8a54fa514fde68589fd86e5fca1b62936a1ca8f200ce66fceadb60e63",
+      "afterSha256": "449a7ec8a54fa514fde68589fd86e5fca1b62936a1ca8f200ce66fceadb60e63"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_velyss.png",
+      "status": "unchanged",
+      "beforeSha256": "5c38533dfa1026fa7507bdabedc3f997e23a3fc6c16a72e3f9e920bf4405ffab",
+      "afterSha256": "5c38533dfa1026fa7507bdabedc3f997e23a3fc6c16a72e3f9e920bf4405ffab"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_vera.png",
+      "status": "unchanged",
+      "beforeSha256": "e9c20d6a1b41427d2bdff07259a6b6b917cbac22852e7aae53ea34fa81e0388f",
+      "afterSha256": "e9c20d6a1b41427d2bdff07259a6b6b917cbac22852e7aae53ea34fa81e0388f"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_veshra.png",
+      "status": "unchanged",
+      "beforeSha256": "9f385da2a7b15167e59f182afba2fe2c19eb9d62341580e8ec30d678a849ce8d",
+      "afterSha256": "9f385da2a7b15167e59f182afba2fe2c19eb9d62341580e8ec30d678a849ce8d"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_yngvar.png",
+      "status": "unchanged",
+      "beforeSha256": "01ad8da5c903083fa8f78263be1a66ca01f9863495614cc6bf2991b241330ed8",
+      "afterSha256": "01ad8da5c903083fa8f78263be1a66ca01f9863495614cc6bf2991b241330ed8"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/portrait_zhara_voss.png",
+      "status": "unchanged",
+      "beforeSha256": "093cac62ba7ab8f45ee482d03fe69fc33a551952c088fe9f1e4ecf800edeb493",
+      "afterSha256": "093cac62ba7ab8f45ee482d03fe69fc33a551952c088fe9f1e4ecf800edeb493"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/scene_runa.png",
+      "status": "unchanged",
+      "beforeSha256": "6ecce2a71a063f94968975a7d2d46108506e313d47cedd06b9245fdb9cad5096",
+      "afterSha256": "6ecce2a71a063f94968975a7d2d46108506e313d47cedd06b9245fdb9cad5096"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "status": "unchanged",
+      "beforeSha256": "0826280a74d7ea8a58900e8c1b127bc8f056c53a70bd1ea0b8ac4f8434882994",
+      "afterSha256": "0826280a74d7ea8a58900e8c1b127bc8f056c53a70bd1ea0b8ac4f8434882994"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "status": "unchanged",
+      "beforeSha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595",
+      "afterSha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "status": "unchanged",
+      "beforeSha256": "d0b7050d918713b6bd1598265d44b6553aecc667db9be269c11c75b61521ca75",
+      "afterSha256": "d0b7050d918713b6bd1598265d44b6553aecc667db9be269c11c75b61521ca75"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "status": "unchanged",
+      "beforeSha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595",
+      "afterSha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml",
+      "status": "unchanged",
+      "beforeSha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595",
+      "afterSha256": "12856628d52f96190795feb84fe4d32ee8b371c67ebb1ac3c6c25c2af05d3595"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "status": "unchanged",
+      "beforeSha256": "9cc80a0cbfb4073ef3936dac16cf003a06e7a993a59db36301f904c193b7ed90",
+      "afterSha256": "9cc80a0cbfb4073ef3936dac16cf003a06e7a993a59db36301f904c193b7ed90"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "status": "unchanged",
+      "beforeSha256": "284a0b6078e992bf2162f7e7d2cb17bb59baab2700635ebf89e409c543556ca0",
+      "afterSha256": "284a0b6078e992bf2162f7e7d2cb17bb59baab2700635ebf89e409c543556ca0"
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "status": "unchanged",
+      "beforeSha256": "d8ffea8ddb19751dc531295ea828b0e36df5024e33b505fb8b2e0fbf963e59e9",
+      "afterSha256": "d8ffea8ddb19751dc531295ea828b0e36df5024e33b505fb8b2e0fbf963e59e9"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "status": "unchanged",
+      "beforeSha256": "8b55ff5489071bb19a4e89967b604a16c0e4d1e87a2df3c73c64417314a59f22",
+      "afterSha256": "8b55ff5489071bb19a4e89967b604a16c0e4d1e87a2df3c73c64417314a59f22"
+    },
+    {
+      "path": "app/src/main/res/xml/update_file_paths.xml",
+      "status": "unchanged",
+      "beforeSha256": "1aee4d9f85c9ca82564c18d509fc830099fac295e2fb04eb2e6a7edc60184a54",
+      "afterSha256": "1aee4d9f85c9ca82564c18d509fc830099fac295e2fb04eb2e6a7edc60184a54"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ai/LiteRtStoryTemplateTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "ac2d8772e3e69fc84b4626407ac4f4922270086b30da05006f7976b7f8c75b91",
+      "afterSha256": "ac2d8772e3e69fc84b4626407ac4f4922270086b30da05006f7976b7f8c75b91"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ai/LocalModelCatalogTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "f4453b15fef0b61ad34042d545fb520f6f6ac2b82eb2fa189c9fc767a3da6608",
+      "afterSha256": "f4453b15fef0b61ad34042d545fb520f6f6ac2b82eb2fa189c9fc767a3da6608"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ai/ModelDownloadProtocolTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "7279fb0d1e4f7dda22855f6b02a92815b6a900bc933319b024fbebc7328e7c1c",
+      "afterSha256": "7279fb0d1e4f7dda22855f6b02a92815b6a900bc933319b024fbebc7328e7c1c"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ai/ModelPerformanceTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "ad6846794ac9bda596801788ef8c27bc7292f9d24c982462cbc2e76dc3c7f1f9",
+      "afterSha256": "ad6846794ac9bda596801788ef8c27bc7292f9d24c982462cbc2e76dc3c7f1f9"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryContextAuditTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "51afe45efddf97550fc9661154dfc8a838484d9747827c7a84198bba646f291f",
+      "afterSha256": "51afe45efddf97550fc9661154dfc8a838484d9747827c7a84198bba646f291f"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryPromptTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "a0091be812ec712c2457fe953cff83b9131888aee90b91979d53ef6d2bfeb8cb",
+      "afterSha256": "a0091be812ec712c2457fe953cff83b9131888aee90b91979d53ef6d2bfeb8cb"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ai/StoryReplyValidationTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "12e86c33c2bbe2aadba22d3b13bf83ce02981af83796f2fe3f39daca2a675cf6",
+      "afterSha256": "12e86c33c2bbe2aadba22d3b13bf83ce02981af83796f2fe3f39daca2a675cf6"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ai/StorySummaryPromptTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "566e80ab7dc75dcc9f0d9577e4ba9ff944ed212051fe8b488dab1e77301645d4",
+      "afterSha256": "566e80ab7dc75dcc9f0d9577e4ba9ff944ed212051fe8b488dab1e77301645d4"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/data/BuiltinCharactersCatalogTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "8488b52de82eb1d0d7dc36e0624f82608ef023631f2914da0523369eb122b92c",
+      "afterSha256": "8488b52de82eb1d0d7dc36e0624f82608ef023631f2914da0523369eb122b92c"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV1CatalogFixture.kt",
+      "status": "unchanged",
+      "beforeSha256": "b7ce20c783fe73b025dd59f73cd13813c915b6c4ec507b5033f69755adb24ad0",
+      "afterSha256": "b7ce20c783fe73b025dd59f73cd13813c915b6c4ec507b5033f69755adb24ad0"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV2CatalogFixture.kt",
+      "status": "unchanged",
+      "beforeSha256": "3e37c85185e7913ddf440e957e23fe4b29d9ce3dd6d466797ceca836e3530240",
+      "afterSha256": "3e37c85185e7913ddf440e957e23fe4b29d9ce3dd6d466797ceca836e3530240"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV3CatalogFixture.kt",
+      "status": "unchanged",
+      "beforeSha256": "9a4dc38f14976a1ad3f5180dc402c57bc312a94cba3e5e2c196b34b1be4a5a7f",
+      "afterSha256": "9a4dc38f14976a1ad3f5180dc402c57bc312a94cba3e5e2c196b34b1be4a5a7f"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV4CatalogFixture.kt",
+      "status": "unchanged",
+      "beforeSha256": "d3a381419654cc33d1b8adb347e17f34957492f36435802a36c166aeb8e9e9ae",
+      "afterSha256": "d3a381419654cc33d1b8adb347e17f34957492f36435802a36c166aeb8e9e9ae"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV5CatalogFixture.kt",
+      "status": "unchanged",
+      "beforeSha256": "5822bdb1124b78677674605cdf5afdf1388f7d2aaf546a3cb74ed1aa6d384f8d",
+      "afterSha256": "5822bdb1124b78677674605cdf5afdf1388f7d2aaf546a3cb74ed1aa6d384f8d"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV6CatalogFixture.kt",
+      "status": "unchanged",
+      "beforeSha256": "73a7322383b146de22d6b3fa5dbda6c3d46e77d7c8160552be1f75c4d39fa52c",
+      "afterSha256": "73a7322383b146de22d6b3fa5dbda6c3d46e77d7c8160552be1f75c4d39fa52c"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/data/DeliveredV7CatalogFixture.kt",
+      "status": "unchanged",
+      "beforeSha256": "453952fe70073b3a3bc77e3ef83aaeafce0167c4f78aa89165249ced31caac48",
+      "afterSha256": "453952fe70073b3a3bc77e3ef83aaeafce0167c4f78aa89165249ced31caac48"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/memory/MemoryRulesTest.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "72fa0a8b8fd25456d92c023d4d59ee1897de3e5fb4dd554dee666e6f80c05420"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/ui/StoryTextTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "b2b484b2ea89f6c73c0157618e914a417f43897b201c7418957fcf50e5851b2d",
+      "afterSha256": "b2b484b2ea89f6c73c0157618e914a417f43897b201c7418957fcf50e5851b2d"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/updates/UpdatePolicyTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "131ea1b6fc2a10a29a001e2fee3fed62592f8c1ab3a7a2d8db581fe3c3a5b3c6",
+      "afterSha256": "131ea1b6fc2a10a29a001e2fee3fed62592f8c1ab3a7a2d8db581fe3c3a5b3c6"
+    },
+    {
+      "path": "app/src/test/resources/catalog-v3.json",
+      "status": "unchanged",
+      "beforeSha256": "e70fd3ad046d4524d38fb8c7e4e0b0ca1c5aca854a12d673fb96c1fa0b6f9f62",
+      "afterSha256": "e70fd3ad046d4524d38fb8c7e4e0b0ca1c5aca854a12d673fb96c1fa0b6f9f62"
+    },
+    {
+      "path": "app/src/test/resources/catalog-v4.json",
+      "status": "unchanged",
+      "beforeSha256": "d70682fe6f2780b7a014c34432a57f419449b4e6e47c93cf7d1bd32a4243816f",
+      "afterSha256": "d70682fe6f2780b7a014c34432a57f419449b4e6e47c93cf7d1bd32a4243816f"
+    },
+    {
+      "path": "app/src/test/resources/catalog-v5.json",
+      "status": "unchanged",
+      "beforeSha256": "cee1214daf36375ecf258aafd602a7f3ec9e1168cc840832a1c91099b694d972",
+      "afterSha256": "cee1214daf36375ecf258aafd602a7f3ec9e1168cc840832a1c91099b694d972"
+    },
+    {
+      "path": "app/src/test/resources/catalog-v6.json",
+      "status": "unchanged",
+      "beforeSha256": "d10482532d3e29c010cf1d568084630525658d06b5ec78b6ee202a6af83617ae",
+      "afterSha256": "d10482532d3e29c010cf1d568084630525658d06b5ec78b6ee202a6af83617ae"
+    },
+    {
+      "path": "app/src/test/resources/catalog-v7.json",
+      "status": "unchanged",
+      "beforeSha256": "b711d700bbc8c63281219ef72db909a0f271621a6437010df97da8cf50963500",
+      "afterSha256": "b711d700bbc8c63281219ef72db909a0f271621a6437010df97da8cf50963500"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/AppViewModelHistoryIntegrationTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "404af1f2b26b367983b0f5d78c8abe0fea26971c38ef7ab5c1132191d90a5d96",
+      "afterSha256": "404af1f2b26b367983b0f5d78c8abe0fea26971c38ef7ab5c1132191d90a5d96"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ChatContextIntegrationTest.kt",
+      "status": "modified",
+      "beforeSha256": "7eaa26507aa14f78b91887236b1941c787695fc79a98cadf7b1f7c332f39d134",
+      "afterSha256": "81f18cbce29037274e0ffdf45eee5ba16eb91e0db2e9e8b6908879f16a66e681"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/MainActivityLaunchTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "c890b26b07e0441ec56434c68715ba8b837abb28edb45df80420d1209e0d8422",
+      "afterSha256": "c890b26b07e0441ec56434c68715ba8b837abb28edb45df80420d1209e0d8422"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ai/ModelPerformanceStorageTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "521201495568567397a819080f5f097116dbe7609e95aedff045c3c812f1f417",
+      "afterSha256": "521201495568567397a819080f5f097116dbe7609e95aedff045c3c812f1f417"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ai/ModelSelectionIntegrationTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "94a6a4dad5d88f42e8d15119434e11090ac28904fc335d8f49f5f563782ecf39",
+      "afterSha256": "94a6a4dad5d88f42e8d15119434e11090ac28904fc335d8f49f5f563782ecf39"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/data/CatalogMigrationTest.kt",
+      "status": "modified",
+      "beforeSha256": "d98be39a1c407e27bfa9c2957e7a3893fe1e07de8b6219054c9d9354c6d72a0c",
+      "afterSha256": "93eb4a05712c352d4cace1bad6997bfd57ca634edef14227a0cdef5458be40e2"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/data/StoryRepositoryIntegrationTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "7b818174c314c2f76a4a86b8e90fe968eb5f53bbbbf1b27d1eb7809d90ab56bf",
+      "afterSha256": "7b818174c314c2f76a4a86b8e90fe968eb5f53bbbbf1b27d1eb7809d90ab56bf"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/MemoryRepositoryIntegrationTest.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "01227a68004e6a2926d8783480c134cc99ed86db4557aae2642fff0dd9ab73d3"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/CharacterProfileNavigationTest.kt",
+      "status": "modified",
+      "beforeSha256": "2fcd033a01075753f05d2c749385851fc57f2743c0c9c34765fc979c78da02c5",
+      "afterSha256": "668182baf858849dc9aeecf984763c0dca0a93366a3130daf936ea3fca439d45"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ChatArtworkRegressionTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "6183d1bcf4576cb74ba4978042fb2761d8cf19ca69cc80aeff5893d1f8a29ed0",
+      "afterSha256": "6183d1bcf4576cb74ba4978042fb2761d8cf19ca69cc80aeff5893d1f8a29ed0"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/HistoryAndSpeechUiTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "01bb010da0d94e18a48d013e0ea69e587e373a386f70963c48adba8edc9b67a5",
+      "afterSha256": "01bb010da0d94e18a48d013e0ea69e587e373a386f70963c48adba8edc9b67a5"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/MemoryUiTest.kt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0cb1a948e0d67ef4c6bfef1c3e7ac17d8fd901f3bd58ff74656a4a4619c1feb1"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelCleanupUiTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "ae4fec6c14a834cb3c141f54493a7b14daaee9bbe5de7c595e7eab7df7cadbe3",
+      "afterSha256": "ae4fec6c14a834cb3c141f54493a7b14daaee9bbe5de7c595e7eab7df7cadbe3"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelPerformanceUiTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "c50e93a0165618016e49bdc1e867c4be4d992c1c801ffd96b2abd17ebd32e5bc",
+      "afterSha256": "c50e93a0165618016e49bdc1e867c4be4d992c1c801ffd96b2abd17ebd32e5bc"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/ModelSelectionUiTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "ac1b38fb601df88c16db02b1e8b06227f5e160b321118f3c3c92558048b38858",
+      "afterSha256": "ac1b38fb601df88c16db02b1e8b06227f5e160b321118f3c3c92558048b38858"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ui/UiScreenshotTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "3e5f6d60a703ae7d988fd0657c213705eb32d5fbe39a1cdfab19386084c35bb7",
+      "afterSha256": "3e5f6d60a703ae7d988fd0657c213705eb32d5fbe39a1cdfab19386084c35bb7"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/updates/AppUpdatesUiTest.kt",
+      "status": "unchanged",
+      "beforeSha256": "12d68d2caf748458f4cf1bd9512f389a1323cc1eaf263d494288137531ec6918",
+      "afterSha256": "12d68d2caf748458f4cf1bd9512f389a1323cc1eaf263d494288137531ec6918"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/updates/UpdateFileProviderIntegrationTest.kt",
+      "status": "modified",
+      "beforeSha256": "7a3cd13966f86925052802cb2612b24545f46fe98295044503fad6524975b495",
+      "afterSha256": "48dba573befcb08ca0fea4f73ceef001cfa2d36d5f3598144601342062a628e6"
+    },
+    {
+      "path": "build-linux.sh",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "da19832019e87e2bf08ccca93bfb37bf629158ae75f143170f41ff49555da1ec"
+    },
+    {
+      "path": "docs/BUILD.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "297eea3510fa397f66eceeaec065e7f755bf081d46e6ab201727212826e8f141"
+    },
+    {
+      "path": "docs/PRUEFBERICHT-0.8.0.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e1a3a2f3b9ff7de8f17affbf0668624d5a14507ba537e8bd59d1554b5a4da950"
+    },
+    {
+      "path": "docs/dauerhaftes-gedaechtnis.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "003e7b4d24e4173d14fc121cc069daa05e0a65c7700d0b9f53c117ff1d41cfc3"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/ISSUE_TEMPLATE/bug_report.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f9a5582ea1ba4379f6dc849e8b03008314ab4f6fedf860fd7df1058568fa6dcd"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/ISSUE_TEMPLATE/feature_request.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b516fe3f16679f76a75f85e5601a7c074e140c087eebd5ac8d9b72bacef9a4cb"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/dependabot.yml",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6795b5022f15f5ffe4cb83f8f7bc29a38d95556f4a9b20d0392e92770f531e6d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/pull_request_template.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "666e07c01a3d36ea493c62e2f1f43b19c108b25f3c3d086e08db2d6cb44b7c0d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/workflows/cifuzz.yml",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2200b419a448e1427ee0acbd580d1f76cdc850c4f2ef05cdee9095c8141d5fbf"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/workflows/cmake.yml",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e9b716f43833f6daed59069d13cd2e68d21b0e4fb54d4de2e473834610b9df55"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/workflows/cross_build.yml",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "1e2995b2c05409d494b1d6d1d09d2ba1fcf54ed4e05c6fc66497bfa1fbfe95a2"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/workflows/requirements/base.in",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c35634b10497a25285677c211bab9b07896be5b5121be53383f472743a442bc9"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/workflows/requirements/base.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b2e046d2c0cd2bdad0c4e7485c587912b1396c11d477158fa3efd1c976eda15e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/workflows/requirements/cibuildwheel.in",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4cf9d493161e4d0e2104f1782eb7076d6ec47529f15ab2ba67735b3872b3592d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/workflows/requirements/cibuildwheel.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2edec16a9d25fad92321512ae443465635cce7b47d14810734040add7ad26f72"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.github/workflows/wheel.yml",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f1c8dba959fbc1cdc64d3116f8509f4d7f2440aa228282a57f89452d10d86320"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/.gitignore",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0c0766a25fc3aa13ec2f550b04812ba7664f30f193a53dc8cfc8cd73d34f810e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/CMakeLists.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6197abf33259d2fea85d6291c66333c4dd8ba7ba586629ec169d075c82c67f76"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/CONTRIBUTING.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4383970aa14e3aa21ead3ea701639a45dce8f5cd756ae49b75a348565793eba7"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/LICENSE",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/README.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4d52487bc1fc01d5e2b2054be2861326dda7f0bfe42a6f4b46c0a6238f0951fd"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/VERSION.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "71015c979ccb0fc8a0be7ca0ae83046ab045cdc2c8faa09fb2f0f7e440f9b4a6"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/cmake/ios.toolchain.cmake",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "8eca7e3ae06a96740deb51d7c7e8e43f98f4d0ce43d3df5319d4851a373aa6f2"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/config.h.in",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f384575311f71715bf8205d4d83764fe55094058ade514435d6d69ac39e0260f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/Scripts.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "fba415952f5654145acad220dc2b878f815c673474d2bb4928934e3ba6ccca1d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/botchan.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "464bd5300c24fce16fcc4555d4231a57632caae4d0090ad6aa92854a3b227ba7"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/extract_headers.pl",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "fb614c4da263c524b3203a6bbd9cbff97069f1f95f6e02e7eb09290c1b90af2a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/gen_spec_parser.pl",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "24ffe59ac93e8417694f5625d4e1ba019cf920faf39f8b8f833d3cf38dedc641"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/gen_unicode_scripts_code.pl",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "05704ab121a61ea05e8a35df035e0fd39f4f00ba62f721642f2fcb74453e36ba"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/ids_denorm.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "37ead2758d73250b369f61d880c443634c94f57136e370182b0a72da239455d4"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/ids_norm.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "68a3b5448e189774203fb1d0bfff4cbd94c921d598f967ba6c22f24a272f913a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfc.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d53a5ccfbf1797c1282a489508fdda7b26897a0a51dd60c25daba89e7ad51a5c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfc_cf.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e8bcd378c324048177927cf26200fb8572ebbcc1af34c88f027faf303a1ebc26"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfd.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "bf7aa5c3dc2812a7a7014da6fa78cea17072f4ea7df697d91a195fe44838393d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfd_cf.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a3abc34973dd5f512dda180226018ff4999d61f0709f993e811da52dd90d2854"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfkc.bin",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "52f11028ff8a7df3e009d94a8b6a54d4a8a17132efb4ccc1c9a0a41e432bd91e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfkc.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "39cd8589b39b8a2a0723a94938e1b6e61dd7524dbc9785f1ea666e50735dc39a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfkc_cf.bin",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "60833ec11201446659c3549c183b18f024c4007628cc6b3a4e91ae007697b826"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfkc_cf.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6b7563df1b7708e2c3d28e1ecf4b9f0dfc22a3fac798ff89e16bcff75b17e770"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfkd.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "101f51f0dd938caf82e8e85ff2bcba4b61bda5df20133a77da317b57e8d39d3a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nfkd_cf.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e8bcd378c324048177927cf26200fb8572ebbcc1af34c88f027faf303a1ebc26"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nmt_nfkc.bin",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "79372c41389c2b9b29bc171017ab5400e352debd686b02670a42bec709015074"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nmt_nfkc.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f0f3036e89fff91d87474cf36fb616dc8e81d17ee48faf33af1625a3a90c7d4b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nmt_nfkc_cf.bin",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "22c292c76f503795f30c85d79d30a7f572fff4f49e00392d2d60f4f93e941a1e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/nmt_nfkc_cf.tsv",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0b70f56f649f41ea9ff13a4f0c400eed11da1f01aa6b965b6221a677150668f1"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/data/wagahaiwa_nekodearu.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c2f778906046fd19ee7be2525fc32d1e1bff806d013ee80798894054f3be2c26"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/doc/api.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a78c372ffd7d5bfbf1fa77281c0ef3c4e93608a9c7b637a12a2bdd4f635fd8e6"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/doc/experiments.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4bbfcc4a1bde0ad127c1a040a79adffffb3c2ea07709d1c03f6e9bbdf1bfdadc"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/doc/normalization.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2fa95e484ef85426105a3a02fadd4588e3d85c09700062d87d2beb94f3c7e86f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/doc/options.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3425bd25fa8f37d7f83c238b06414296caa25a04cae30cf4ec41d3bab9fbf8c3"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/doc/special_symbols.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6c3f052802794e7f880cf9c3b906b91fa08c28683fdc60abc4d26a7b636534d5"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/.gitignore",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "33db55d3509cc169bc411a53ebc7b3902e39b94cd182dd4b5559ba4d67843593"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/MANIFEST.in",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ceaaf3f64f115c8178dda878a4adfa6a8829e745993fa52e802e55923ce46fb9"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/README.md",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "fd331b83ad614fa9b4488a7eefc5788fb45b8da460c1c117faf5e30a37741b49"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/add_new_vocab.ipynb",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6151d328b71b6cd0e371f7238dca1a91a73be8d9def420350649c3e9d5f98d95"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/build_bundled.sh",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "22cc431e268b72615d0f276fbe5b056403300e86bcf81ce076acd9a014134fc8"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/build_sdist.sh",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "760f0c7ccbc71028effe72e7aabe6b207ef1eddce4dbfe08f3519ea1625f4891"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/pyproject.toml",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "faeab410ba9bee63833bf888f1689dbbc1a3964ed0941b0fc943d518e3d31c44"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/sentencepiece_python_module_example.ipynb",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0be96dc8e3ae5f73eb12fc2eed2a51237d5a161578cc2a2d0bbdc2588067bb48"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/setup.cfg",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "316f7011b70bf7c17653ee184cc482f348a942cc540e2118fedee0edccdd5bf3"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/setup.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "687e12eeb7637be36094c3ba0cb0aa7c8815081f962c49fae99e9f236c5a820e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/src/sentencepiece/__init__.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3504f490fde39231264512322bf8ec282ba0e8bf73422daf20f4d64229fc136c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/src/sentencepiece/_version.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3e6710d8f236a0ff22ae72ed24b25bcb661f5bab01bcb0262fe569001cd3ab07"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/src/sentencepiece/sentencepiece.i",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "1dfbfc00714e2447c37c4955608868cf6f56eeb575549d19d7768fed2edc93a3"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/src/sentencepiece/sentencepiece_model_pb2.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2dac04c267548885354fd1dc62efab34455315cc0087d8bea9abcc32c83dae21"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/src/sentencepiece/sentencepiece_pb2.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "fd98275ce929a1270c5db27ef0130a9f643dec16cc387f47cfe2fb24531c26ba"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/src/sentencepiece/sentencepiece_wrap.cxx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "5e56d416ceece3c8b78bf9e191af54fdbe355e9bff79e483f54feec4eef8d98d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/test/__init__.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/test/botchan.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "464bd5300c24fce16fcc4555d4231a57632caae4d0090ad6aa92854a3b227ba7"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/test/sentencepiece_test.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b7878caad249a7f6a8366cdeddc010f01af19902fbceafc3a8afcd2357d079e7"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/test/test_ja_model.model",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e39551e7ab937745b25edf55a7399d3c78948fda1dabca6b1781df2fcec67f65"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/python/test/test_model.model",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4884d27bf50494e080aa99dbb868f27b68b6a3b6bd128da37ad6057c5e3cf5a2"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/sentencepiece.pc.in",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a44933c06f6d9a5b60f6cfd105a5b359bcee843ea22fc7f9124f2aa090fdd5f4"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/CMakeLists.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "efd948193da2be01f884b8fa7b6272e7417f798ffb99065770d44af7870883e5"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/bpe_model.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "847c2c1c61a31e5126e5eb7cc456e62db4b0d6fbdfc3b866217a2720f7ded26f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/bpe_model.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "5d2ffbe40206165450ba76b2c9684b2256d2845c543b67ac8db69708e0685288"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/bpe_model_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f4ca64ca5ca21e2aa58a456e968646700bbfd6d4ca943d9bc9dc745294ffba47"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/bpe_model_trainer.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "936fdc7ad1fcdaf0108a6ccf44b5992cb28e6ba292820e7fe9351b0846ea659b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/bpe_model_trainer.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "fb50025a0581ae248d2bc5f828ae768a2d51214ef866b5ff520caccf1f0f122e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/bpe_model_trainer_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "15d3e81eaefe17ac3ea551150535ad1f8d8403df02ea64597dea12634eadfd12"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/builder.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "66caa472fef2c18ded8aa93f7ca623b48ee3e6c85ee4a0d75113cd479233363d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/builder.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e31bf7b121a0ac51b9d6e1be4930d0eb0a45cd84bb0cb06c0d2a02588131aaf2"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/builder_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c6db2cf920530b34330a8c9cad277a9a93cf07d1f0c213f4b4f30c899593fbac"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/builtin_pb/sentencepiece.pb.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a587da1fca3dd5397406f4f6c5f000ce2632569a6bafdddc1ad82f74cf1397dc"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/builtin_pb/sentencepiece.pb.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "995dfb472bf97507907a634e433c75f1563dca7697843c49e06e7821e9812b1c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/builtin_pb/sentencepiece_model.pb.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "941f8ddc81471a896c604287c982e1b37ce2275b53d9c3405ea19d174f9fef1b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/builtin_pb/sentencepiece_model.pb.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6ba92d518159e4b01b832af333410a0c0f3f40e0a2f1319c90faac3a332fefb2"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/char_model.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ef79b77bac615e5a3ddb98f4ae5cdac585801731ffb52405b44ed66539a3ca18"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/char_model.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a55b9fc4831671d5421b938ed120c8574331a22026f818fb1f14a2e3eba53297"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/char_model_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "90e9dfe8bfea6901b836ab25ed13c5a680d8895ec9fcabdb3afa8f0a41d6e038"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/char_model_trainer.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6b9cf35e6e63c36466218c564bc779e1f0c398e4e8684448abdb67e9d6456d5b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/char_model_trainer.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ee11d94b62278de5b4b16c85e7e87fe9674a64a266e1959eab752146f2a9ac9e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/char_model_trainer_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "39a357a049b3b728832f0f29322003fd5ebb53c6b3cb882cf560c9683044d111"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/common.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "cf094a7bfb7d15992d6880f2984361fde83b3e7f0ffa2cf4b034fd2a8c671065"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/compile_charsmap_main.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c76f2d969e8850182ef9073c837c2d250c3064c2d02d3c40565eb5e3de3a61e9"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/error.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "1a369c1e82d32f9efbca54336c5c7cb385df53a7439747097476c48724c4c040"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/filesystem.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6a9bd740459aa57d03711ad4b551de97630a67649fc93ce53730387bde9f2fec"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/filesystem.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6e3db708ca1d2012af5e8d6e18f7173908e37d722cd72ff5069bfca8d68c0a7c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/filesystem_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6fccd79806b0288dab1d3f29eb5793e0388029613b99f8e886bced1c0742417f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/freelist.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "5d8fa6f83026270871763d7e375bb2ec85583f63bf66dd53a34d7833f941bdcb"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/freelist_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "455bd6e15182ff332bfaacfd56538e8c99e5d85bd003b2bc9a7152ad671cf8f9"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/init.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d4b723329c33d0b0fde0fad0b651cc19e13f46ce8b0841c56c8324c78b91c439"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/init_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "8b57136ccc87fe6df206f9c34818b8ba0fafef443b4a3aa0df51b884a182c563"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/model_factory.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "5ac84a140e7789e881d5869b285c7fdb88d02a0ca3bf3673521ddde213f6ebce"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/model_factory.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ffbc8062c813ffd83337d762a3e0afda76a2636a7eddf5b007e0cd48daf2fef6"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/model_factory_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f8d7485f27c71d11bd54769563dcc85eda442ed2a2bea40dded18b3a952ccfa4"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/model_interface.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "abcf06f3218931515f40c46e316b79f74ad8d43e1ad46502e1a4f0cee40f3069"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/model_interface.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "53d21f75ffb8fabaec61125c0dcb52aeedd710b9c7176525f05909be68f2058b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/model_interface_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6eeaa3cccd3d8d34d38c6e44dfd68429b91101a96ab1a0b127c1a084ad2162d7"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/normalization_rule.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c91dd05d22c6e30eefb91691f05292fb039b4e606a7132555adfba6cbaa94ba6"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/normalizer.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3f6b39fba709d60c7be65a7c3192ee9c3c8ba84eb89213a36a79d050d9172420"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/normalizer.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "62132ec3822b6022acbcee2f2be899941169f49777324bb62872f31cf7dcc785"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/normalizer_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "62116fb0de80ced0661bbc17a651442489dbb12b21347adebbd2d32b07db4400"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/pretokenizer_for_training.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "1cad940661ce1715757a1b4d4cdcd3abdf092704101b032a5b5276888741eb72"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/pretokenizer_for_training.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "bbf450e504f1d8ae84442b0f548ea128c82d0615484c6cc07ba627d1903457c4"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/pretokenizer_for_training_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c6621f11eaef4daaaa70cd20d53cf8ecaab6dbcfe4705ca27ae7da6e71f8819d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/sentencepiece.proto",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c0ec587ca5af59aef8cfb56ab1be475a49d70e1d94667aa2752b46e1afb36443"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/sentencepiece_model.proto",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "798fb346a2934cc58a0f905be120f6710d0585847edf5425b7a1cf68102979bc"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/sentencepiece_processor.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "29b94d664c942b97563e7b3057da0758440d0cce6da96a61d7c855a4de4914ea"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/sentencepiece_processor.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3952c162554c82b55892208d4a18209d53f0a95c8ec8722c64a955df3abfccc5"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/sentencepiece_processor_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0aa2446c19b56e15482e5573ac2156f47be8cdb48a25bf9f9fac6465cca779ce"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/sentencepiece_trainer.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e685f5f220c2516ac4f3e7492e94d362f4c0076ed750e67534b472b790e2137e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/sentencepiece_trainer.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "31d63076433694f3bfc0d60d702809e742bc6ab59e93593ec32fa5d76f132d68"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/sentencepiece_trainer_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2b38a6f04089960827c8c49a00dbe54d23621c56e519fdcd5705c72a632d2004"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/spec_parser.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ca0bc6f8fcd6f7a49163492cbf9eae76aa91c28bcce941b5f5deea771aef8cb4"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/spm_decode_main.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b3cd1ed90e6778ea797927bddf8d3a263219583365cc199aad092f7dadd6e02c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/spm_encode_main.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6d03d5b0f1c6c947c5009e05a55a731d41dc7da24f731cf3e934e68543b43111"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/spm_export_vocab_main.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3b8739f775570b282dec5768ec093dcd6c96dc46d29fde4e195d70c00ece967f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/spm_normalize_main.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6d04c14b8aa725a346296c7ec30d25f9ed54886af8c7af609aa637f5109f34f3"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/spm_train_main.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d4c7805b1f8fcd800cc9ad062b56c0a6792144c9b2faa51585751341d5a96252"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/test_main.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "1a72d18d8248158763df631f57cd670be8c9e02b65d3e2a360696ed6183314fe"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/testharness.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c4a0de06b2d4bd3cd5f7d81b36781aaded5671fb6dd23a5610315e4a8c43f9b4"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/testharness.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d6443a6822fca7697053a52f1ecd262406ba44e54142566739264259fe80a9cd"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/trainer_factory.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "742859f5ec643907b1d1132a0f45ee37ca84e37720293c0f4d1adfb150128a87"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/trainer_factory.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "18a5037c8d22cb99f17c5d59125cacb5621c0188b57e6d896e757b8ebb6571ad"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/trainer_factory_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b66ebc9a28101b53bc4c58ee01ae13d76ca4bedc5700ce77aa2fb2d082ff1263"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/trainer_interface.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "bc36316475677a9bdcbf3eaa2de2c67f5788b73fb2543167184b61c55cd0fd6a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/trainer_interface.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0d4a1d79f6f9b56a67be9cdf84b4d35279b8cf54f2d0d84f8f90d56389ba87f2"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/trainer_interface_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "8f3d68343181007c8001c9285a34b9dd4e651a76e2ae5d50487fcb7a586b12d7"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unicode_script.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d5115e58dfca1148d3018b6fe7c9e0cbe70cd434ddf3c61ca07bb244a7f00d01"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unicode_script.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "dc4c23e7427251b2e15bcacf4f7771426213c31d8af8bdde9eb5ff973380f4f1"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unicode_script_map.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6667d21fc1a1f7f34dff853e8be625db9f9b7aa47d07ada195a9cc2f232eccfd"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unicode_script_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "8bf299846bd4ce3b9d48f97dacb73e9757f2c9d65723335b9b0b0de9ece54c15"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unigram_model.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c7376f6d5b019024dba0ffb7685e9d750fb0a0301a240647a15e7da77c1b5497"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unigram_model.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "bba14f0a7cafc9fef093a154521623dcb8748ced13032efe6cd3b42d9ed2871f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unigram_model_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "aec874674e0b8564a7b808a7b01de194c0cc17f2f540e536c8632f2e71b9a8e3"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unigram_model_trainer.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "eafea318ee301ea5357b02a71ecbc2ce72ec9792a4b70b8f9967fd0316b3697d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unigram_model_trainer.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e58d34f3177fdfe6e4a37f480060ee1541a466fb5094e3a9aeb9bea4f9d5594d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/unigram_model_trainer_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "47688c0bda071d0d6b8abf50a3c87c2b0f0f9f1eaac941f50bb63bfa1a989478"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/util.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "eaed0ee236a1627f46c7f3a3536d545ae4e5aa8e97d499319e5890754d8e9b75"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/util.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "509ef93887ee9f90e0030f1556e542ee7b063de92c28b4fa93bf4d0ad588f9d2"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/util_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "95d4700f207a25fc39bb95466e3eddc26a0b20be584bdd05f1e71e57a37367de"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/word_model.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b655b361e5754ad20486f3c0e852b4cab62e24b03e20688562cf28a5d8e198a4"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/word_model.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3f5432809fa3ed08b086efa806b1c4554a6493d6b0402bb412a4dda10fa9f04f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/word_model_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d97c84e155c9efd89b8fc69fbdf7afa4a751b2215ee224557d2981ed258f5938"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/word_model_trainer.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ba4cc953e2f1af0a4844aba783e45b3633c30565ff5367c56653bf34c0741d52"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/word_model_trainer.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3592e3517fdc465bef5b9bd6439357d858c1830cfec1f155fd476cdc41ebe84c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/src/word_model_trainer_test.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "51232615abaec5c8fbf274ebd4596ca11029a53b41b9e2bd18ef45acf7056f8b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/CMakeLists.txt",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e01b3629f34350eca4898393fb07f01002031899f6e4e318dba8b75d8801808a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/LICENSE",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d3e2f59e1d71176dfdb555ece6a41f7a5aa0f52ff21211010ace314f57695f6b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/container/btree_set.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "9d05a0707cfa65677e9b401eb9dbc663af505a0e4ea46019cd63ebe0e869e350"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/container/flat_hash_map.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "535e7cd5232577c630a9520fe31e43e1fe6786656989b695fd6d2b4361fd869c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/container/flat_hash_set.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6114bd78cc5a995047f46e1ddd279baf88950e1c3c946fb13c44a82a5e3f5c05"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/flags/flag.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "24a93285665de95be4fb1f8fd50ad778cc1915757872e4d6198a3cf4082b9f1d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/flags/flag.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "62cf7e234cd2f2123b062a0074448976c20c850de9994d0127e0a181def84623"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/flags/parse.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "9c10f0bffc23ca9be4f3c4b60a892837b790a349c88113806a6b476e34a358d5"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/flags/usage.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a47c0e5ce199bbba711b9c385abbcf79bc7259b5c9c075773f610d5ddff874ea"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/ascii.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "cedde503c80c559a139a13d2826cacc472080d715316f96a2ddd3d6dd33f99fd"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/match.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "dd67f4cb16feecd57c786ddaeb2b4ab88de0fc9c492580cf35f9e4d2f8ac0eaf"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/numbers.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "90abd903b929294e58d54ddc6cf7f341393464140a18623b1c3751dd4c651400"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/str_cat.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4a4f42b9467991b56c33e97a5ddaef7182906900fde4cba0c2cf667a9465a01c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/str_format.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "19fb616839a0cd978073612dea4e40738cbb46abc3bd5b82f0e6dc9ffac2a0f4"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/str_join.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c4a3c47d5214822fde2565b22cdd8afcac4603887b73d4c9767ecc69c97970f1"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/str_replace.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f23868a10be222bc4a2883a4fa9fa18acda792b829f76a95fe38150abb2fa24c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/str_split.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "756caa4750be8786d1dca37d2c964f3c5e61b751a1b5dd4ec6e49da68a9bb398"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/string_view.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "525385b22d34d5e7c73e699b7b6818e1fb80fe4152fdc187696b546c0dbf3afd"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/absl/strings/strip.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0dd3e7eb24589afdb408d7d92feb8d61bdd54145f5a481fa67aa6a8abd526d53"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/darts_clone/LICENSE",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "155f59997298ee336602c49f9c1110f268ac394ca2197eb02647a3555935ad52"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/darts_clone/darts.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e4a6ab3365e7bed89a84a620a2a18265e3a7f8f58e05eed6ddb545cea42ffd31"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/esaxx/LICENSE",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "7c28553d1d3312d65fe309f76a22ebaf33a3d76c8c1e3b98a88ee4654ecb53db"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/esaxx/esa.hxx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "823b74470e0db43c342ba5325c6d58cd8d8a5f47193c682af024ed78de589700"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/esaxx/sais.hxx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6c750f6cf098d346c9d1723291a062bc9154657d5be2c3833601c5a33a5b4d1d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/LICENSE",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/arena.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "935b3fee53558304f61e63bce0ef6c5ef670fd2f5dd1d4525ecfb73bd0fe073d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/arenastring.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "059d02fd8de175cc9c2b34561f3a841663bcfaf747b03928aaa2ee3bb3829e0f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/bytestream.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f6c64a637b69208a29e3178dac2ecefb79ccb0f9f32d3baf39a7063dddaafd72"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/coded_stream.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "77859a9f00b0a4f5c91c0685028bff996f1d1d8726009750ccdf3bcb9b6ae7a1"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/common.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ecc22c0ba9b6362d709ea08a139de7389521290cced17e69339353aaf1f15567"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/extension_set.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "5119185a8627863ce0e84ff3a1f1657180b457042dfc1cd98c00ca4f0f1db2cb"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/generated_enum_util.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f030fa98fdbf1ee5988a323600b43436bae5bb348ff69c3135772f692829b207"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/generated_message_table_driven_lite.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "55dfe60a7473b6bb57c7898ff9991942afdbc29005155a6c54dd4ab3641be031"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/generated_message_util.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c0370f774db90fb8b79387d1e4e51aaf7f323a9c75084d9e49ca80b27150455f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/any.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ea3cf2a610cef3cd19094310906da4531f74e29565de02ea5da768cf9a66df39"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/arena.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "04577ed1f87b28ef219109b741aa065e6a5f6f6d13a3a84c3b8f15a62b5628a8"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/arena_impl.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "51bb0fd1280f0b8b38e8efefd1f7e99adb6a36001516f29f19b3ec8ebe6abdfc"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/arenastring.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "33305c9813fce5a4e2260db5d840cccd724c28f02b3c74e1e82ecd006a57539b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/descriptor.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "9f1f1b07dd77b9e87c85ad898b7ff7f31e6f1ecfc4fd62e8fd74298dfd5b1071"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/extension_set.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d0d335cc9c8e7bd2a888df8aba51f20910599a431d2c7db43e924711ed7c9787"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/extension_set_inl.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "8caed9435f8534795c1ad4b386beab82bef3c164397e2157687931d4e9bbf217"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/generated_enum_reflection.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6de6743eaecdb8ecfaaa9c8104bd4b4d6d5f60cebf509a4a01d0d04dc42324e9"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/generated_enum_util.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "17d3c95b66c1877a5f0b57ea9237b801d688f12d1aa12df0ac31ccd1dc511916"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/generated_message_table_driven.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "49a128c462c705dbdecfc63c582afe20fd011f40ebb3e3b80865e426787febab"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/generated_message_table_driven_lite.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "eb5b515403d636e10677d85172df63ed2b4fa5101f68b6773a5c001f58b29820"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/generated_message_util.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "09bcb3f6b5e69dbb023535316bb04695e0e4db6e7f7ca0095efcc6fcd97eac88"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/has_bits.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "11caa234b94e0b193a792dbf1bff4f35ad61f8d03b55255b819461bdde0dde84"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/implicit_weak_message.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3247085cd9a032e441f4c1eeecf12460d3596dd353fd0a26970e62d7e579c4f2"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/io/coded_stream.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ba24afbfada2af4dd2afce216d7e7c95feb295cf22a46884b261e46ae1a19b55"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/io/io_win32.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2d317861a67b66c54dc2b2f5fe09b9749003fff4efef9dc9c715fe5e2c17aa1a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/io/zero_copy_stream.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "bcb776496bddf6f268f1922492def377e6ff5ca8332006bc5d87d83a46ae1254"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/io/zero_copy_stream_impl.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a2576d20dd7e6e250be65c46f58c236a5b77623a1587ab37abb480c015683600"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/io/zero_copy_stream_impl_lite.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4464de3b8928e60d01f7ce129a42e757cc554f633b9969eda5b30a915101917e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/map.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "26338a8372fe72a569451e50aea5da7237fd961c52e18deee8f6bbd0ffc40745"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/map_entry_lite.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "000b8da95d4adb476233eb52a7a70043378393529d0cf5711e619bffe44dbc47"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/map_field_lite.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "8bb7d7ddbcd4efdc244e24adb17e1fdf3d16c937abd952ee54c486db8a54487e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/map_type_handler.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "c9f8ba70134f6ad52977fc3fac7212a3369828ca3059706d445fe13923453214"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/message_lite.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "678f09a32bce0254ae9967b4f5a391ea346e722bf9fa1f34b43ab7562cb57306"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/metadata_lite.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "49e3615f4bf903eb340adc79c783f634fd63a3e582ed6934016e24be58cc2553"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/parse_context.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ce6a84b8e873e9404c2ac904bb9208e6b6e7b2b8fa184cb676237339afbcb9e0"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/port.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "8a8fae6122586b7e2d8533af0ed4cde4cd9805a95b1ece4b6cebdf622a10616f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/port_def.inc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "eac6f53b68e0c58a2e00486b423a700636f88ec823a5ef842a7abc63d38ad887"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/port_undef.inc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "90b78b2966bd7c81480ace373f9d6dff1543e5c9793cc473760ad93bb679c3f1"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/repeated_field.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "7c46dac1b7f0291ba4e3ec0dca88ce6f706a581ce1602ccb37088ba7b1661085"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/bytestream.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "acaf1446755d43e3fc1130f8f3d60e733818dda780123747e63561dde3ee181a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/callback.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6b345622449e3247cbe5c751ad11758642109c30207aa9ee667dde1a97bd041f"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/casts.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "15ce9542bf149fa74f3120296561e4f245d8cdb2ea1561859c94c8fbc61e049b"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/common.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "714116c6d284bf882ed5f2a1072c5e2a00c09b559bd622acbcb1122e693c7684"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/hash.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3c8d7decf9f16be177ba3f744d874493afa9ca29901eab9f054b1b40446a6fcc"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/int128.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "5e9e641f219305a65fa8401c880632e83888deb438427e99b138810a902ed1d0"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/logging.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "0ed8bcc7e873f3035e649a5b6427620faa0a17ec0c40a912946f7adc0c2f83e8"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/macros.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e7ebe5136283c345d6d9932f4c748615d9e9b7263553f21e14432b3470adcc23"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/map_util.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "27c58f8e6713a9014775dffde0838e4fa6a39ef7db1a49ddeb83181d02efc208"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/mutex.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "7b0f04ba3375e5c89e83e861eebe79eee005e145d122c79ff57c4014ff4312ce"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/once.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "845dba208aeb44fd0bf6e1fe4109b35d066190d0566439cfa686775a9e0c9a04"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/platform_macros.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a7ba8800880ce7e2e2e60be66801529745304c76fc55f64395c1f1d86cf85cd8"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/port.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6350c2d64c8a0307f449d9c901223e15e2ae2fe483705b87ab37df9f6a975eb1"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/status.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "855ffdf5b9e1e97b920d46ba3f4262789e50e9a983305e0790ac0b591131bd1a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/statusor.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "64da5e8b887f1e91d788d63ffd668c175573dde8a19d727e851fbc11c5eae9b8"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/stl_util.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "bc9e7d8ba4ac436a4f04105f7bed07386bb570c06c2340a6f9cca655ad6cd813"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/stringpiece.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "659dc9e183a39f8d3f89808455b828525576f3ba0f53ce9856846e9b2ade7e78"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/stringprintf.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "6a924a8350176621066d819501a8e809544ca739d3ffe842c447d6bb11e25aff"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/strutil.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "3a831f0ae9beaa2bd8d89415ecb23836bcd32aa5e81736f268fde93453c5b569"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/stubs/time.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "878bf05f87b449d5b6e5f3377acb5962ee5950922c8b0e2c29845d83a0282661"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/unknown_field_set.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "d631e448d516993a09d6501693fc839a7f0c0094409b747620686a4757e62572"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/google/protobuf/wire_format_lite.h",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f916f7382e7e1f9dde122b2e968ae8697be4ff4beed1739fded6d04f8b971ad3"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/implicit_weak_message.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2733a0d8150e1257b66217d786762a2918e00ff4ee30a0f23655faf18f0045fd"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/int128.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "10728183e4adac9c8152793b990f3042fdb0d95fab23bad8b60fe9234481d2dc"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/io_win32.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a104ea8f4a27c45de6eca7d1555c97400c194d681444af8d8287bbbbdcd8a24d"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/message_lite.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e901d11041879ab3986146762ce6463c24a4d6f26b78fc7b11f30b914bde621a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/parse_context.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f16ac9cf1758845ccd9489c444a1326e1f3e0957e2e56c7afcb62ce63da72ef1"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/repeated_field.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "29c30377ca723582b3141d4625c21c518d292a294df3c79fe7dbfb06a854c11e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/status.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "750afcc001eaee41e5d04f00d0b2e85bb6a9256ca0b91a9746db79699b263707"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/statusor.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "89e5f416096421cccd78e0210e97a095628934f1eef617ed579a49259eb76dcd"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/stringpiece.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "637e7254563c0ccae48d11be264bde60ca932fdf7b8830e1fbcb8016d20d9f8e"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/stringprintf.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ded255335f801263aa4f88e3e512553486f4335862757b703e2ddbd63b2528d8"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/structurally_valid.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "cef0cdc02fec699b6da538ed3d4658f848a6c5eaca9ba8fc07bd37a98c82af9c"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/strutil.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f12ba9f61f0159a8f21f5bb445cb893b8a40a769496c843a92d8a1d32b983ad0"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/time.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "b7ccbc0451354a9edb3a450147413208151386be44d90d76ac0a50de4aa82093"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/wire_format_lite.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a9c023839e9697286c446e1c7060fb768d1048abb752333e00bec445f38ae866"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/zero_copy_stream.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "43484b2ee715d46bf46015ef98f2f94d401203b9a91ad4c3fbb47d8b7988dad5"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/zero_copy_stream_impl.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f9ffc778a5c210db64468d5d95d4563568b172d822990d11c95a21439c67574a"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/third_party/protobuf-lite/zero_copy_stream_impl_lite.cc",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e8d8735c10106e58b8a71e3593fb83bda75b8d12063b74e661d8fee534cebb85"
+    },
+    {
+      "path": "third_party/sentencepiece-0.2.1/wheel.yml",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "removed": 0,
+  "unchangedCatalogAndPortraits": true,
+  "note": "Documents without baseline hashes and the new vendored SentencePiece tree are additions. Validation artifacts and private model weights are not app sources."
+}

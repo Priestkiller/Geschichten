@@ -1,0 +1,9 @@
+{
+  "decision": "nicht hilfreich als Produktions-Fakten-/Prüfhelfer",
+  "gatePassed": false,
+  "noReintegration": true,
+  "approachEndedForTestedCandidates": true,
+  "reason": "A/B jeweils8/12 sachlich richtig, C9/12; eine falsche Freigabe, zwei falsche Beanstandungen. Quellenbindung scheitert trotz gültigem Format. Grammaschema erzwingt Syntax, keine Bedeutung.",
+  "existingTeamRemainsDefaultOff": true,
+  "newAPKOnlyForSeparateConfirmedOwnershipParserBug": true
+}

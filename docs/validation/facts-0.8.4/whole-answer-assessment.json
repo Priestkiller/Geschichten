@@ -1,0 +1,1922 @@
+[
+  {
+    "phase": "A",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung.",
+    "rawFile": "raw-A-huihui-qwen3-4b.json",
+    "rawFileSha256": "48493df83509afc80026de3e850219b5b0871a9f16e52378235433a45d87e50f",
+    "rawAnswerSha256": "710baa50f816d8dc4008d825bfd24fee82d701f7a650fcac0021154ba76b69f4"
+  },
+  {
+    "phase": "A",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "german": {
+      "passed": true,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt.",
+    "rawFile": "raw-A-huihui-qwen3-4b.json",
+    "rawFileSha256": "48493df83509afc80026de3e850219b5b0871a9f16e52378235433a45d87e50f",
+    "rawAnswerSha256": "af966b88a7e26d699af3a2900799cee2364e4cb2020dedb20f11b7074e7a5841"
+  },
+  {
+    "phase": "A",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "german": {
+      "passed": true,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Falscher aktueller Ort (Bett statt Schrank).",
+    "rawFile": "raw-A-huihui-qwen3-4b.json",
+    "rawFileSha256": "48493df83509afc80026de3e850219b5b0871a9f16e52378235433a45d87e50f",
+    "rawAnswerSha256": "fa3de416c99846b9cd82990ce9fdfde3a0fa5360b45c01fc0e30b30154798e12"
+  },
+  {
+    "phase": "A",
+    "model": "qwen3-official-4b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung.",
+    "rawFile": "raw-A-qwen3-official-4b.json",
+    "rawFileSha256": "3bbb6504f6c99ed9f1e1e5e4dacaa9f38a36458d2c57572e9537ffda62debe5c",
+    "rawAnswerSha256": "fb31605792dd72db4d82a2a866e41513c42ce3b51244bb019b094d52a9b8d3d0"
+  },
+  {
+    "phase": "A",
+    "model": "qwen3-official-4b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "german": {
+      "passed": true,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt.",
+    "rawFile": "raw-A-qwen3-official-4b.json",
+    "rawFileSha256": "3bbb6504f6c99ed9f1e1e5e4dacaa9f38a36458d2c57572e9537ffda62debe5c",
+    "rawAnswerSha256": "f312b322173e28233a2ec9da73827ef9eff582afb0d8449125faa5050e9f87c1"
+  },
+  {
+    "phase": "A",
+    "model": "qwen3-official-4b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "german": {
+      "passed": true,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Falscher aktueller Ort (Bett statt Schrank).",
+    "rawFile": "raw-A-qwen3-official-4b.json",
+    "rawFileSha256": "3bbb6504f6c99ed9f1e1e5e4dacaa9f38a36458d2c57572e9537ffda62debe5c",
+    "rawAnswerSha256": "d978dbfa7f3eca212e6441484640f26fbbb9dca80189d32784c618094050ede4"
+  },
+  {
+    "phase": "A",
+    "model": "gemma-4-e2b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Unbelegte Begründung; unklare oder falsche aktuelle Buchzuordnung.",
+    "rawFile": "raw-A-gemma-4-e2b.json",
+    "rawFileSha256": "14f2cb96bddc84ab10405e34472594a1c29fcb2b97f9510500a6f4e1c9122209",
+    "rawAnswerSha256": "599669ad1b19855acb87e4c2f07fcadb1e98a9559f592d076deea88a5698b8cb"
+  },
+  {
+    "phase": "A",
+    "model": "gemma-4-e2b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "german": {
+      "passed": true,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Falscher Geschenkempfänger oder bloßes Frageecho; Verwandtschaft fehlt.",
+    "rawFile": "raw-A-gemma-4-e2b.json",
+    "rawFileSha256": "14f2cb96bddc84ab10405e34472594a1c29fcb2b97f9510500a6f4e1c9122209",
+    "rawAnswerSha256": "d6c9dfe37014c55e3a21e5353870342a24bf8970679a19507c93ddbe6f8de893"
+  },
+  {
+    "phase": "A",
+    "model": "gemma-4-e2b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": false,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "german": {
+      "passed": true,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Falscher aktueller Ort (Bett statt Schrank)."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Falscher aktueller Ort (Bett statt Schrank).",
+    "rawFile": "raw-A-gemma-4-e2b.json",
+    "rawFileSha256": "14f2cb96bddc84ab10405e34472594a1c29fcb2b97f9510500a6f4e1c9122209",
+    "rawAnswerSha256": "054e14fda2839f643a18ffea2b33788432ccd13522b542ee047f4a923f51829e"
+  },
+  {
+    "phase": "B",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "german": {
+      "passed": true,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger.",
+    "rawFile": "raw-B-huihui-qwen3-4b.json",
+    "rawFileSha256": "f2510d960781c61547e803e7a7fa50f282560d296721e0f1c5450110fb982e69",
+    "rawAnswerSha256": "022b3322ae6d5d3695e4cdc1f3728dfe9d191fde986146b6de5e93a169ec5d71"
+  },
+  {
+    "phase": "B",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "german": {
+      "passed": true,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho.",
+    "rawFile": "raw-B-huihui-qwen3-4b.json",
+    "rawFileSha256": "f2510d960781c61547e803e7a7fa50f282560d296721e0f1c5450110fb982e69",
+    "rawAnswerSha256": "eb0f15d455f35b24f220a89afeb6b7e83fb4a973ac9f6a31810697bb30b12abd"
+  },
+  {
+    "phase": "B",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "german": {
+      "passed": true,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten.",
+    "rawFile": "raw-B-huihui-qwen3-4b.json",
+    "rawFileSha256": "f2510d960781c61547e803e7a7fa50f282560d296721e0f1c5450110fb982e69",
+    "rawAnswerSha256": "a64b9cf10daa4a3864a9a2d4f903c5279e07fd2a7fcf73e063d91e7d2080018c"
+  },
+  {
+    "phase": "B",
+    "model": "qwen3-official-4b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "german": {
+      "passed": true,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger.",
+    "rawFile": "raw-B-qwen3-official-4b.json",
+    "rawFileSha256": "031c3c1fed5ecfc3a764997767555862fd993b6b652c74efe4fed7b47d37b548",
+    "rawAnswerSha256": "a24f2b288e6edc710d582cd29978c88b1955f290eeda5abb5f97c28401b2cb80"
+  },
+  {
+    "phase": "B",
+    "model": "qwen3-official-4b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "german": {
+      "passed": true,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho.",
+    "rawFile": "raw-B-qwen3-official-4b.json",
+    "rawFileSha256": "031c3c1fed5ecfc3a764997767555862fd993b6b652c74efe4fed7b47d37b548",
+    "rawAnswerSha256": "3b35f5cc7c277b441cc1f198764387897ac225d932a2f5df3e37d536d67883b8"
+  },
+  {
+    "phase": "B",
+    "model": "qwen3-official-4b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "german": {
+      "passed": true,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten.",
+    "rawFile": "raw-B-qwen3-official-4b.json",
+    "rawFileSha256": "031c3c1fed5ecfc3a764997767555862fd993b6b652c74efe4fed7b47d37b548",
+    "rawAnswerSha256": "f870309120c93b309e24a0f4e7df790911a80ace888fa2d2ff3e5a5a7617bec1"
+  },
+  {
+    "phase": "B",
+    "model": "gemma-4-e2b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "german": {
+      "passed": true,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Trotz korrigiertem Stand unbelegte Begründung; falscher Träger oder Unsicherheit über belegten Träger.",
+    "rawFile": "raw-B-gemma-4-e2b.json",
+    "rawFileSha256": "de0b8c6803b2029a36299fa5c39e403c7948c2a1f4f4b339e8677516c589a724",
+    "rawAnswerSha256": "210dc8c67216b0e191d16775682fbe918914aaeadb9bca29e644ea23f6dab2dc"
+  },
+  {
+    "phase": "B",
+    "model": "gemma-4-e2b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "german": {
+      "passed": true,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Korrigiertes Eigentum genügt nicht: Rollenfehler, erfundene Herkunft oder Frageecho.",
+    "rawFile": "raw-B-gemma-4-e2b.json",
+    "rawFileSha256": "de0b8c6803b2029a36299fa5c39e403c7948c2a1f4f4b339e8677516c589a724",
+    "rawAnswerSha256": "6dee52d0fe56e9acffd347bbd1987b0986dc69754601cc1beb5699540c9212e4"
+  },
+  {
+    "phase": "B",
+    "model": "gemma-4-e2b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "german": {
+      "passed": true,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Verneint den Schrank oder wiederholt die Frage statt zu antworten.",
+    "rawFile": "raw-B-gemma-4-e2b.json",
+    "rawFileSha256": "de0b8c6803b2029a36299fa5c39e403c7948c2a1f4f4b339e8677516c589a724",
+    "rawAnswerSha256": "2518b21d05985d181a62bb85b6df3ef1f4faeb2fd1029fa1de96d14da660734d"
+  },
+  {
+    "phase": "C",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "german": {
+      "passed": true,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher.",
+    "rawFile": "raw-C-huihui-qwen3-4b.json",
+    "rawFileSha256": "65ea14e165c536ace03a2f4875aed9ecb27b6fa8ec59be2304978cc94720aea2",
+    "rawAnswerSha256": "1f76ec8351c79dbdcb53b720378e612de6bbc7524cc1fa3c4fb83279fbf8fe7a"
+  },
+  {
+    "phase": "C",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "german": {
+      "passed": true,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt.",
+    "rawFile": "raw-C-huihui-qwen3-4b.json",
+    "rawFileSha256": "65ea14e165c536ace03a2f4875aed9ecb27b6fa8ec59be2304978cc94720aea2",
+    "rawAnswerSha256": "808ac9166c178f1591ba4e88befa3edfc3e418b0e401a4179b819dec8c31c5d4"
+  },
+  {
+    "phase": "C",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung.",
+    "rawFile": "raw-C-huihui-qwen3-4b.json",
+    "rawFileSha256": "65ea14e165c536ace03a2f4875aed9ecb27b6fa8ec59be2304978cc94720aea2",
+    "rawAnswerSha256": "1ea71cc9bdaa2965c1c7ef8acad9eb6b38554fe5366f65b3c269813962109be0"
+  },
+  {
+    "phase": "C",
+    "model": "qwen3-official-4b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "german": {
+      "passed": true,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher.",
+    "rawFile": "raw-C-qwen3-official-4b.json",
+    "rawFileSha256": "cdc17da3d100accc652fc7c3f03cdae78104124a1dc3424253743db0b4c77d73",
+    "rawAnswerSha256": "051b3fcfd49cedef253fb019a55592143ff12a76c7fd29df6e2339d274a8a907"
+  },
+  {
+    "phase": "C",
+    "model": "qwen3-official-4b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "german": {
+      "passed": true,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt.",
+    "rawFile": "raw-C-qwen3-official-4b.json",
+    "rawFileSha256": "cdc17da3d100accc652fc7c3f03cdae78104124a1dc3424253743db0b4c77d73",
+    "rawAnswerSha256": "adaef71a63759a0dbc2e5eb1e8d611a4085f7f71dab6dbbb15d08861c8d45c6f"
+  },
+  {
+    "phase": "C",
+    "model": "qwen3-official-4b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung.",
+    "rawFile": "raw-C-qwen3-official-4b.json",
+    "rawFileSha256": "cdc17da3d100accc652fc7c3f03cdae78104124a1dc3424253743db0b4c77d73",
+    "rawAnswerSha256": "d17e572141996c3b626ed786334806ae4c6442d92001154d111e1b08acf58ee2"
+  },
+  {
+    "phase": "C",
+    "model": "gemma-4-e2b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "german": {
+      "passed": true,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Erfindet Begründung; übernimmt Buch in Figurenhand oder bleibt über belegten Träger unsicher.",
+    "rawFile": "raw-C-gemma-4-e2b.json",
+    "rawFileSha256": "83c269d3dd9ed430e5d0e1c64a435f24e8b0b920f3ff28f0c9cf0c2b56c03c08",
+    "rawAnswerSha256": "f03d202f05031aca0d6d719796444d3ffffbf763ec02e1b1108b34de37cf012d"
+  },
+  {
+    "phase": "C",
+    "model": "gemma-4-e2b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "german": {
+      "passed": true,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Geschenkrollen/Verwandtschaft falsch oder unvollständig. Verwandtschaftsquelle fehlt außerdem im ausgewählten Wortsucheausschnitt.",
+    "rawFile": "raw-C-gemma-4-e2b.json",
+    "rawFileSha256": "83c269d3dd9ed430e5d0e1c64a435f24e8b0b920f3ff28f0c9cf0c2b56c03c08",
+    "rawAnswerSha256": "89325ccb5df2eeecfdb02975cf6798d3e414a5e0f2537821b924428ab5b4efeb"
+  },
+  {
+    "phase": "C",
+    "model": "gemma-4-e2b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Ort teilweise korrekt, aber unpassende Form oder erfundene Besichtigung.",
+    "rawFile": "raw-C-gemma-4-e2b.json",
+    "rawFileSha256": "83c269d3dd9ed430e5d0e1c64a435f24e8b0b920f3ff28f0c9cf0c2b56c03c08",
+    "rawAnswerSha256": "b309fe9c03426d0330aadc52ff7107f875116561359b596f10dd9e3960e88efc"
+  },
+  {
+    "phase": "D",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung.",
+    "rawFile": "raw-D-huihui-qwen3-4b.json",
+    "rawFileSha256": "b55503910b945e22f9374d110e4dea331f07a2c2e3534a689d2ee6b767f59a38",
+    "rawAnswerSha256": "eff2c11f9bdfabafd32ebedfeaa9fdb822bf5af756088b920c9c905eec63bd42"
+  },
+  {
+    "phase": "D",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "german": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt.",
+    "rawFile": "raw-D-huihui-qwen3-4b.json",
+    "rawFileSha256": "b55503910b945e22f9374d110e4dea331f07a2c2e3534a689d2ee6b767f59a38",
+    "rawAnswerSha256": "5f5dae93a92946536dff9a2618fd79e8c0c70c04acf36c931b61790a1d02e95b"
+  },
+  {
+    "phase": "D",
+    "model": "huihui-qwen3-4b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "german": {
+      "passed": false,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung.",
+    "rawFile": "raw-D-huihui-qwen3-4b.json",
+    "rawFileSha256": "b55503910b945e22f9374d110e4dea331f07a2c2e3534a689d2ee6b767f59a38",
+    "rawAnswerSha256": "a8c083568665e56a0f82c45c4ea53edcbe93e3ef19286e0acc36521cbf7deb08"
+  },
+  {
+    "phase": "D",
+    "model": "qwen3-official-4b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung.",
+    "rawFile": "raw-D-qwen3-official-4b.json",
+    "rawFileSha256": "b1437d9f419deda6bbe537adb54c33cbd633903e0f6477ae6b93393b3da96089",
+    "rawAnswerSha256": "0aee0decc36ccf914f67a9a217d8a60be694e6211ffc3e8f211d90b11e277175"
+  },
+  {
+    "phase": "D",
+    "model": "qwen3-official-4b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "german": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt.",
+    "rawFile": "raw-D-qwen3-official-4b.json",
+    "rawFileSha256": "b1437d9f419deda6bbe537adb54c33cbd633903e0f6477ae6b93393b3da96089",
+    "rawAnswerSha256": "b16ddf1d05bf89cd30c1c779294d25bb7184b05ece99f35e72ab79bba03c45a6"
+  },
+  {
+    "phase": "D",
+    "model": "qwen3-official-4b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "german": {
+      "passed": false,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung.",
+    "rawFile": "raw-D-qwen3-official-4b.json",
+    "rawFileSha256": "b1437d9f419deda6bbe537adb54c33cbd633903e0f6477ae6b93393b3da96089",
+    "rawAnswerSha256": "4d15d347680b4bd7dd5c921f94081ea8b915e2a87f591d04901fd7d65474b8f3"
+  },
+  {
+    "phase": "D",
+    "model": "gemma-4-e2b",
+    "case": "hold-reverse",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Unbelegte Begründung oder Eigentum; Trägerfehler/Unklarheit beziehungsweise fehlende Quellenbegründung.",
+    "rawFile": "raw-D-gemma-4-e2b.json",
+    "rawFileSha256": "fe915e9d35eeb298273fdf04b5ffa9e91c6581ab40d6ba45ed93baffc23e10c5",
+    "rawAnswerSha256": "5b6e8d49341275519c59d95bf4e43c32df6ac214f79b5b26f731c4befc1f7212"
+  },
+  {
+    "phase": "D",
+    "model": "gemma-4-e2b",
+    "case": "hold-family",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "german": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Falscher Empfänger, fehlerhaftes Deutsch oder Frageecho; Verwandtschaft fehlt.",
+    "rawFile": "raw-D-gemma-4-e2b.json",
+    "rawFileSha256": "fe915e9d35eeb298273fdf04b5ffa9e91c6581ab40d6ba45ed93baffc23e10c5",
+    "rawAnswerSha256": "e975fe16ca95f60f9e0db604a3a77f55d200d50246f70a66a42f5c0fc1064e89"
+  },
+  {
+    "phase": "D",
+    "model": "gemma-4-e2b",
+    "case": "hold-correction",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "german": {
+      "passed": false,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Ort richtig genannt, aber Format/Deutsch oder zusätzliche ungesicherte Wohnungsbehauptung.",
+    "rawFile": "raw-D-gemma-4-e2b.json",
+    "rawFileSha256": "fe915e9d35eeb298273fdf04b5ffa9e91c6581ab40d6ba45ed93baffc23e10c5",
+    "rawAnswerSha256": "5aee0116e1f8166aa8f1a38217b3da65cdde791cb72ca721980371fcedd7cbe7"
+  },
+  {
+    "phase": "heldout",
+    "model": "huihui-qwen3-4b",
+    "case": "accept-gift",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Sachlich vollständige richtige Figurenantwort; ursprünglicher Guard verwirft habe … gelegt fälschlich."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Sachlich vollständige richtige Figurenantwort; ursprünglicher Guard verwirft habe … gelegt fälschlich."
+    },
+    "german": {
+      "passed": true,
+      "review": "Sachlich vollständige richtige Figurenantwort; ursprünglicher Guard verwirft habe … gelegt fälschlich."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Sachlich vollständige richtige Figurenantwort; ursprünglicher Guard verwirft habe … gelegt fälschlich."
+    },
+    "strictWholeAnswerPassed": true,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Sachlich vollständige richtige Figurenantwort; ursprünglicher Guard verwirft habe … gelegt fälschlich.",
+    "rawFile": "raw-heldout-huihui-qwen3-4b.json",
+    "rawFileSha256": "54dea66b9b5c46467dd7db5d85e8e4072e73b6f2e5bde838d07a9792ad9dfcc0",
+    "rawAnswerSha256": "510a6773584d446aef20c4faeb841a35d24ea0ad996432d0155b0a57352bd98b"
+  },
+  {
+    "phase": "heldout",
+    "model": "huihui-qwen3-4b",
+    "case": "accept-body",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Alle Körperstellen angesprochen, aber Zustände unvollständig und Deutsch fehlerhaft (sehen ich an)."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Alle Körperstellen angesprochen, aber Zustände unvollständig und Deutsch fehlerhaft (sehen ich an)."
+    },
+    "german": {
+      "passed": false,
+      "review": "Alle Körperstellen angesprochen, aber Zustände unvollständig und Deutsch fehlerhaft (sehen ich an)."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Alle Körperstellen angesprochen, aber Zustände unvollständig und Deutsch fehlerhaft (sehen ich an)."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Alle Körperstellen angesprochen, aber Zustände unvollständig und Deutsch fehlerhaft (sehen ich an).",
+    "rawFile": "raw-heldout-huihui-qwen3-4b.json",
+    "rawFileSha256": "54dea66b9b5c46467dd7db5d85e8e4072e73b6f2e5bde838d07a9792ad9dfcc0",
+    "rawAnswerSha256": "2f4dbd2ada6b91e94a4be022f9186cf57dc49c32beb8fc5fa682db62ff51b06c"
+  },
+  {
+    "phase": "heldout",
+    "model": "huihui-qwen3-4b",
+    "case": "accept-hypothesis",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Fragt nur zurück statt den hypothetischen Charakter und unbekannten Vollzug zu erklären."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Fragt nur zurück statt den hypothetischen Charakter und unbekannten Vollzug zu erklären."
+    },
+    "german": {
+      "passed": true,
+      "review": "Fragt nur zurück statt den hypothetischen Charakter und unbekannten Vollzug zu erklären."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Fragt nur zurück statt den hypothetischen Charakter und unbekannten Vollzug zu erklären."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Fragt nur zurück statt den hypothetischen Charakter und unbekannten Vollzug zu erklären.",
+    "rawFile": "raw-heldout-huihui-qwen3-4b.json",
+    "rawFileSha256": "54dea66b9b5c46467dd7db5d85e8e4072e73b6f2e5bde838d07a9792ad9dfcc0",
+    "rawAnswerSha256": "589a2ed8f16bbd0ae4bae41c6f7949b57a31a54d6fa86423f9316d79af37a070"
+  },
+  {
+    "phase": "heldout",
+    "model": "huihui-qwen3-4b",
+    "case": "accept-pickup",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und mit Metaformulierung."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und mit Metaformulierung."
+    },
+    "german": {
+      "passed": false,
+      "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und mit Metaformulierung."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und mit Metaformulierung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und mit Metaformulierung.",
+    "rawFile": "raw-heldout-huihui-qwen3-4b.json",
+    "rawFileSha256": "54dea66b9b5c46467dd7db5d85e8e4072e73b6f2e5bde838d07a9792ad9dfcc0",
+    "rawAnswerSha256": "433d56ee66a7138d1be9b881bba78ecbfe53c1ba0af042265e699bfa37dd314e"
+  },
+  {
+    "phase": "heldout",
+    "model": "qwen3-official-4b",
+    "case": "accept-gift",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung statt Figurenreaktion."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung statt Figurenreaktion."
+    },
+    "german": {
+      "passed": true,
+      "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung statt Figurenreaktion."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung statt Figurenreaktion."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung statt Figurenreaktion.",
+    "rawFile": "raw-heldout-qwen3-official-4b.json",
+    "rawFileSha256": "1d315cd348acf8248579d8f877b0cf4a1321879a8a0856206e13b561c5a95c48",
+    "rawAnswerSha256": "57507eefc300c761ddb22ce0b77e70316551921af4100fc49e90e487be30c454"
+  },
+  {
+    "phase": "heldout",
+    "model": "qwen3-official-4b",
+    "case": "accept-body",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Drei Verletzungen mit richtiger Person, Körperstelle und Zustand; passende vollständige Reaktion."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Drei Verletzungen mit richtiger Person, Körperstelle und Zustand; passende vollständige Reaktion."
+    },
+    "german": {
+      "passed": true,
+      "review": "Drei Verletzungen mit richtiger Person, Körperstelle und Zustand; passende vollständige Reaktion."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Drei Verletzungen mit richtiger Person, Körperstelle und Zustand; passende vollständige Reaktion."
+    },
+    "strictWholeAnswerPassed": true,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": true,
+    "review": "Drei Verletzungen mit richtiger Person, Körperstelle und Zustand; passende vollständige Reaktion.",
+    "rawFile": "raw-heldout-qwen3-official-4b.json",
+    "rawFileSha256": "1d315cd348acf8248579d8f877b0cf4a1321879a8a0856206e13b561c5a95c48",
+    "rawAnswerSha256": "a75b6bcdf4a967dbb1e1859008f172729aadc34817f4abd97949339cc0557ca5"
+  },
+  {
+    "phase": "heldout",
+    "model": "qwen3-official-4b",
+    "case": "accept-hypothesis",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Antwortet auf Gegenrichtung und behauptet fehlenden Vollzug als Gewissheit."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Antwortet auf Gegenrichtung und behauptet fehlenden Vollzug als Gewissheit."
+    },
+    "german": {
+      "passed": true,
+      "review": "Antwortet auf Gegenrichtung und behauptet fehlenden Vollzug als Gewissheit."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Antwortet auf Gegenrichtung und behauptet fehlenden Vollzug als Gewissheit."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Antwortet auf Gegenrichtung und behauptet fehlenden Vollzug als Gewissheit.",
+    "rawFile": "raw-heldout-qwen3-official-4b.json",
+    "rawFileSha256": "1d315cd348acf8248579d8f877b0cf4a1321879a8a0856206e13b561c5a95c48",
+    "rawAnswerSha256": "fd849a731b8f14c574e62f09909e20b586ee0ff14aa81566818ac9c8d61bcdeb"
+  },
+  {
+    "phase": "heldout",
+    "model": "qwen3-official-4b",
+    "case": "accept-pickup",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Fakten richtig, Erzählung ohne grammatischen Figurensubjekt."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Fakten richtig, Erzählung ohne grammatischen Figurensubjekt."
+    },
+    "german": {
+      "passed": false,
+      "review": "Fakten richtig, Erzählung ohne grammatischen Figurensubjekt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Fakten richtig, Erzählung ohne grammatischen Figurensubjekt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Fakten richtig, Erzählung ohne grammatischen Figurensubjekt.",
+    "rawFile": "raw-heldout-qwen3-official-4b.json",
+    "rawFileSha256": "1d315cd348acf8248579d8f877b0cf4a1321879a8a0856206e13b561c5a95c48",
+    "rawAnswerSha256": "53bef9e32af789c40c9aaf5f0dc5537f4b80045b4c221ebef694e6904d746cd1"
+  },
+  {
+    "phase": "heldout",
+    "model": "gemma-4-e2b",
+    "case": "accept-gift",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Eigentümer Bela statt Darian."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Eigentümer Bela statt Darian."
+    },
+    "german": {
+      "passed": true,
+      "review": "Eigentümer Bela statt Darian."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Eigentümer Bela statt Darian."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Eigentümer Bela statt Darian.",
+    "rawFile": "raw-heldout-gemma-4-e2b.json",
+    "rawFileSha256": "f2e3510634ef16873660a3468d4b3d31e4caa6784bb64bc00ef64561f8034c9e",
+    "rawAnswerSha256": "0e4b23263335606456c2f5de130caadbf85b1b1ea54093851c29cb9811b95232"
+  },
+  {
+    "phase": "heldout",
+    "model": "gemma-4-e2b",
+    "case": "accept-body",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": true,
+      "review": "Nennt nur eigene Schulter; zwei Spieler-Verletzungen fehlen."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Nennt nur eigene Schulter; zwei Spieler-Verletzungen fehlen."
+    },
+    "german": {
+      "passed": true,
+      "review": "Nennt nur eigene Schulter; zwei Spieler-Verletzungen fehlen."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Nennt nur eigene Schulter; zwei Spieler-Verletzungen fehlen."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Nennt nur eigene Schulter; zwei Spieler-Verletzungen fehlen.",
+    "rawFile": "raw-heldout-gemma-4-e2b.json",
+    "rawFileSha256": "f2e3510634ef16873660a3468d4b3d31e4caa6784bb64bc00ef64561f8034c9e",
+    "rawAnswerSha256": "cfa0f6952749e91cfb49520614fdebe7c7d8496bcf9dec581463a009f00c3636"
+  },
+  {
+    "phase": "heldout",
+    "model": "gemma-4-e2b",
+    "case": "accept-hypothesis",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Vertauscht die Richtung der Frage und antwortet nicht auf die Hypothese."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Vertauscht die Richtung der Frage und antwortet nicht auf die Hypothese."
+    },
+    "german": {
+      "passed": true,
+      "review": "Vertauscht die Richtung der Frage und antwortet nicht auf die Hypothese."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Vertauscht die Richtung der Frage und antwortet nicht auf die Hypothese."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Vertauscht die Richtung der Frage und antwortet nicht auf die Hypothese.",
+    "rawFile": "raw-heldout-gemma-4-e2b.json",
+    "rawFileSha256": "f2e3510634ef16873660a3468d4b3d31e4caa6784bb64bc00ef64561f8034c9e",
+    "rawAnswerSha256": "5f0cead86b5b0fcc518ae20a0b0a1f749e323cfd07c5217d0514990e6f8851e2"
+  },
+  {
+    "phase": "heldout",
+    "model": "gemma-4-e2b",
+    "case": "accept-pickup",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Eigentum und Träger korrekt; verständliche passende Figurenantwort."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Eigentum und Träger korrekt; verständliche passende Figurenantwort."
+    },
+    "german": {
+      "passed": true,
+      "review": "Eigentum und Träger korrekt; verständliche passende Figurenantwort."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Eigentum und Träger korrekt; verständliche passende Figurenantwort."
+    },
+    "strictWholeAnswerPassed": true,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": false,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": true,
+    "review": "Eigentum und Träger korrekt; verständliche passende Figurenantwort.",
+    "rawFile": "raw-heldout-gemma-4-e2b.json",
+    "rawFileSha256": "f2e3510634ef16873660a3468d4b3d31e4caa6784bb64bc00ef64561f8034c9e",
+    "rawAnswerSha256": "c1a3784861a8331c7dae389328d4abc9b474b94f5e62cd13c81b950e7dfc10f7"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "huihui-qwen3-4b",
+    "case": "accept-gift",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Vollständig sachlich richtig und sprachlich passend. Finaler Guard korrigiert Fehlalarm zum Perfekt."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Vollständig sachlich richtig und sprachlich passend. Finaler Guard korrigiert Fehlalarm zum Perfekt."
+    },
+    "german": {
+      "passed": true,
+      "review": "Vollständig sachlich richtig und sprachlich passend. Finaler Guard korrigiert Fehlalarm zum Perfekt."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Vollständig sachlich richtig und sprachlich passend. Finaler Guard korrigiert Fehlalarm zum Perfekt."
+    },
+    "strictWholeAnswerPassed": true,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": true,
+    "review": "Vollständig sachlich richtig und sprachlich passend. Finaler Guard korrigiert Fehlalarm zum Perfekt.",
+    "rawFile": "raw-heldout-final-huihui-qwen3-4b.json",
+    "rawFileSha256": "aea950539618009c6c8caae034043fd653b53bc55c119f27c2e7f8a7028087ac",
+    "rawAnswerSha256": "510a6773584d446aef20c4faeb841a35d24ea0ad996432d0155b0a57352bd98b"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "huihui-qwen3-4b",
+    "case": "accept-body",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Sachlich vollständig; unidiomatisches Prädikat Ihre Verletzungen sind – rechte Hand verwundet. Strenges Deutsch-/Stilkriterium nicht erfüllt."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Sachlich vollständig; unidiomatisches Prädikat Ihre Verletzungen sind – rechte Hand verwundet. Strenges Deutsch-/Stilkriterium nicht erfüllt."
+    },
+    "german": {
+      "passed": false,
+      "review": "Sachlich vollständig; unidiomatisches Prädikat Ihre Verletzungen sind – rechte Hand verwundet. Strenges Deutsch-/Stilkriterium nicht erfüllt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Sachlich vollständig; unidiomatisches Prädikat Ihre Verletzungen sind – rechte Hand verwundet. Strenges Deutsch-/Stilkriterium nicht erfüllt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Sachlich vollständig; unidiomatisches Prädikat Ihre Verletzungen sind – rechte Hand verwundet. Strenges Deutsch-/Stilkriterium nicht erfüllt.",
+    "rawFile": "raw-heldout-final-huihui-qwen3-4b.json",
+    "rawFileSha256": "aea950539618009c6c8caae034043fd653b53bc55c119f27c2e7f8a7028087ac",
+    "rawAnswerSha256": "76b3d5a29547d212b39a6c4213f145d84f2403145339a59a2db44d9f23ebe4dc"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "huihui-qwen3-4b",
+    "case": "accept-hypothesis",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Erfindet erhaltene/erinnerte Gegenstände trotz rein hypothetischer Quellen."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Erfindet erhaltene/erinnerte Gegenstände trotz rein hypothetischer Quellen."
+    },
+    "german": {
+      "passed": true,
+      "review": "Erfindet erhaltene/erinnerte Gegenstände trotz rein hypothetischer Quellen."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Erfindet erhaltene/erinnerte Gegenstände trotz rein hypothetischer Quellen."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Erfindet erhaltene/erinnerte Gegenstände trotz rein hypothetischer Quellen.",
+    "rawFile": "raw-heldout-final-huihui-qwen3-4b.json",
+    "rawFileSha256": "aea950539618009c6c8caae034043fd653b53bc55c119f27c2e7f8a7028087ac",
+    "rawAnswerSha256": "1469d5637df59410e3c50e8d87cf5108529c8e511b4ee3c6784eb56842acdf51"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "huihui-qwen3-4b",
+    "case": "accept-pickup",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und holprige Metabeschreibung. Ihnens Fehlalarm separat repariert."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und holprige Metabeschreibung. Ihnens Fehlalarm separat repariert."
+    },
+    "german": {
+      "passed": false,
+      "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und holprige Metabeschreibung. Ihnens Fehlalarm separat repariert."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und holprige Metabeschreibung. Ihnens Fehlalarm separat repariert."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Fakten richtig; Erzählung ohne grammatischen Figurensubjekt und holprige Metabeschreibung. Ihnens Fehlalarm separat repariert.",
+    "rawFile": "raw-heldout-final-huihui-qwen3-4b.json",
+    "rawFileSha256": "aea950539618009c6c8caae034043fd653b53bc55c119f27c2e7f8a7028087ac",
+    "rawAnswerSha256": "139f5735352951aa91ba0d4d0ac46e0334e29ef7b5b85e5bc46efb4a12bf8850"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "qwen3-official-4b",
+    "case": "accept-gift",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung ohne Figurenreaktion."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung ohne Figurenreaktion."
+    },
+    "german": {
+      "passed": true,
+      "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung ohne Figurenreaktion."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung ohne Figurenreaktion."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Eigentum/Ort richtig, aber reine Objektbeschreibung ohne Figurenreaktion.",
+    "rawFile": "raw-heldout-final-qwen3-official-4b.json",
+    "rawFileSha256": "8ccfc09d39fbd2ffa55dce11040051c23f656f09f74eae8c7fa7c98243221b7f",
+    "rawAnswerSha256": "57507eefc300c761ddb22ce0b77e70316551921af4100fc49e90e487be30c454"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "qwen3-official-4b",
+    "case": "accept-body",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Fakten vollständig; unidiomatisches legt eine Stimme an und unklare Erzählbezüge. Strenges Deutsch-/Stilkriterium nicht erfüllt."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Fakten vollständig; unidiomatisches legt eine Stimme an und unklare Erzählbezüge. Strenges Deutsch-/Stilkriterium nicht erfüllt."
+    },
+    "german": {
+      "passed": false,
+      "review": "Fakten vollständig; unidiomatisches legt eine Stimme an und unklare Erzählbezüge. Strenges Deutsch-/Stilkriterium nicht erfüllt."
+    },
+    "characterStyle": {
+      "passed": false,
+      "review": "Fakten vollständig; unidiomatisches legt eine Stimme an und unklare Erzählbezüge. Strenges Deutsch-/Stilkriterium nicht erfüllt."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Fakten vollständig; unidiomatisches legt eine Stimme an und unklare Erzählbezüge. Strenges Deutsch-/Stilkriterium nicht erfüllt.",
+    "rawFile": "raw-heldout-final-qwen3-official-4b.json",
+    "rawFileSha256": "8ccfc09d39fbd2ffa55dce11040051c23f656f09f74eae8c7fa7c98243221b7f",
+    "rawAnswerSha256": "467b7e55e397c0a301787422f3001a6125320b94747e745fa95bc8e826efc8e8"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "qwen3-official-4b",
+    "case": "accept-hypothesis",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Macht aus nicht belegtem Empfang eine Gewissheit und erfindet Buchhandhabung."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Macht aus nicht belegtem Empfang eine Gewissheit und erfindet Buchhandhabung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Macht aus nicht belegtem Empfang eine Gewissheit und erfindet Buchhandhabung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Macht aus nicht belegtem Empfang eine Gewissheit und erfindet Buchhandhabung."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Macht aus nicht belegtem Empfang eine Gewissheit und erfindet Buchhandhabung.",
+    "rawFile": "raw-heldout-final-qwen3-official-4b.json",
+    "rawFileSha256": "8ccfc09d39fbd2ffa55dce11040051c23f656f09f74eae8c7fa7c98243221b7f",
+    "rawAnswerSha256": "8a77a351325a1bd91c2eb447d37d68f9d9a7b85b739bb9d81521ac94b1e55d3a"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "qwen3-official-4b",
+    "case": "accept-pickup",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Vollständige richtige Antwort; kurze natürliche direkte Rede."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Vollständige richtige Antwort; kurze natürliche direkte Rede."
+    },
+    "german": {
+      "passed": true,
+      "review": "Vollständige richtige Antwort; kurze natürliche direkte Rede."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Vollständige richtige Antwort; kurze natürliche direkte Rede."
+    },
+    "strictWholeAnswerPassed": true,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": true,
+    "review": "Vollständige richtige Antwort; kurze natürliche direkte Rede.",
+    "rawFile": "raw-heldout-final-qwen3-official-4b.json",
+    "rawFileSha256": "8ccfc09d39fbd2ffa55dce11040051c23f656f09f74eae8c7fa7c98243221b7f",
+    "rawAnswerSha256": "71669ad3008d6bad5c2209f506b85bba06fe5cf69f53c18a1a4b68d47ca2f38f"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "gemma-4-e2b",
+    "case": "accept-gift",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Eigentümer Bela statt Darian."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Eigentümer Bela statt Darian."
+    },
+    "german": {
+      "passed": true,
+      "review": "Eigentümer Bela statt Darian."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Eigentümer Bela statt Darian."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": false,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": false,
+    "fullyUsable": false,
+    "review": "Eigentümer Bela statt Darian.",
+    "rawFile": "raw-heldout-final-gemma-4-e2b.json",
+    "rawFileSha256": "3859ce06f8576245366720a390cd31e44912b9f91bd2cdae1cc44d37b5e7bece",
+    "rawAnswerSha256": "0e4b23263335606456c2f5de130caadbf85b1b1ea54093851c29cb9811b95232"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "gemma-4-e2b",
+    "case": "accept-body",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Drei Verletzungen korrekt und vollständig; klare passende direkte Rede."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Drei Verletzungen korrekt und vollständig; klare passende direkte Rede."
+    },
+    "german": {
+      "passed": true,
+      "review": "Drei Verletzungen korrekt und vollständig; klare passende direkte Rede."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Drei Verletzungen korrekt und vollständig; klare passende direkte Rede."
+    },
+    "strictWholeAnswerPassed": true,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": true,
+    "review": "Drei Verletzungen korrekt und vollständig; klare passende direkte Rede.",
+    "rawFile": "raw-heldout-final-gemma-4-e2b.json",
+    "rawFileSha256": "3859ce06f8576245366720a390cd31e44912b9f91bd2cdae1cc44d37b5e7bece",
+    "rawAnswerSha256": "123b37d6eccf4e031ff8600a0a142b5f3619818e5ed98194c4b06c1dfb863548"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "gemma-4-e2b",
+    "case": "accept-hypothesis",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": false,
+    "roles": {
+      "passed": false,
+      "review": "Ich habe nichts von dir gehört beantwortet die Übergabe-/Hypothesenfrage nicht."
+    },
+    "completeness": {
+      "passed": false,
+      "review": "Ich habe nichts von dir gehört beantwortet die Übergabe-/Hypothesenfrage nicht."
+    },
+    "german": {
+      "passed": true,
+      "review": "Ich habe nichts von dir gehört beantwortet die Übergabe-/Hypothesenfrage nicht."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Ich habe nichts von dir gehört beantwortet die Übergabe-/Hypothesenfrage nicht."
+    },
+    "strictWholeAnswerPassed": false,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": false,
+    "review": "Ich habe nichts von dir gehört beantwortet die Übergabe-/Hypothesenfrage nicht.",
+    "rawFile": "raw-heldout-final-gemma-4-e2b.json",
+    "rawFileSha256": "3859ce06f8576245366720a390cd31e44912b9f91bd2cdae1cc44d37b5e7bece",
+    "rawAnswerSha256": "dcd18be7423fd8e37c589ffff48d16364eb59320609a0f21164cf2462b816467"
+  },
+  {
+    "phase": "heldout-final",
+    "model": "gemma-4-e2b",
+    "case": "accept-pickup",
+    "targetedStateCorrectlySupplied": true,
+    "targetedAnswerFieldsCorrect": true,
+    "roles": {
+      "passed": true,
+      "review": "Eigentum und Träger richtig; verständliche passende Reaktion ohne neue Spielerentscheidung."
+    },
+    "completeness": {
+      "passed": true,
+      "review": "Eigentum und Träger richtig; verständliche passende Reaktion ohne neue Spielerentscheidung."
+    },
+    "german": {
+      "passed": true,
+      "review": "Eigentum und Träger richtig; verständliche passende Reaktion ohne neue Spielerentscheidung."
+    },
+    "characterStyle": {
+      "passed": true,
+      "review": "Eigentum und Träger richtig; verständliche passende Reaktion ohne neue Spielerentscheidung."
+    },
+    "strictWholeAnswerPassed": true,
+    "originalGuardAccepted": true,
+    "finalGuardRechecked": true,
+    "effectiveGuardAccepted": true,
+    "fullyUsable": true,
+    "review": "Eigentum und Träger richtig; verständliche passende Reaktion ohne neue Spielerentscheidung.",
+    "rawFile": "raw-heldout-final-gemma-4-e2b.json",
+    "rawFileSha256": "3859ce06f8576245366720a390cd31e44912b9f91bd2cdae1cc44d37b5e7bece",
+    "rawAnswerSha256": "5107c50101417a35c62bd4ffc6fda43ed17d4e8f9e7d01dc144f5a00f0b2596b"
+  }
+]

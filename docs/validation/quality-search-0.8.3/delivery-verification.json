@@ -1,0 +1,760 @@
+{
+  "apk": {
+    "file": "F:\\Geschichte App KI\\geschichten-android\\Geschichten-0.8.3.apk",
+    "bytes": 321767673,
+    "sha256": "c0a4131c0636160b50aa040247660c9d54547bdd0ecaf3c275fb00a4646cc141",
+    "package": "dev.vincent.geschichten",
+    "versionName": "0.8.3",
+    "versionCode": 17,
+    "signerSha256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40"
+  },
+  "databaseVersion": 9,
+  "databaseClassUnchanged": true,
+  "databaseClassSha256": "b368010f967c5b017c91a72479f4389ed62e2f01f35b7d7fe27554026cebd1fa",
+  "existingSixModelSpecificationsUnchanged": true,
+  "unchangedApkEntries": [
+    {
+      "entry": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6"
+    },
+    {
+      "entry": "lib/arm64-v8a/liblitertlm_jni.so",
+      "sha256": "6cbef460e821154b947a537e3df918607472a9c36941d25a75828ecdd201a7e2"
+    },
+    {
+      "entry": "assets/LICENSE-APACHE-2.0.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "entry": "assets/LICENSE-GEMMA-3.txt",
+      "sha256": "4f68a79787b419a3e49b7e79952f65f2ad6409b31943c1106d671231dd421dc9"
+    },
+    {
+      "entry": "assets/LICENSE-LLAMA-3.2.txt",
+      "sha256": "8cc15535a8a34b41888f644b339a1a9eb428af793a4f5e24df58a3e5b1487d74"
+    },
+    {
+      "entry": "assets/LICENSE-LLAMA-CPP.txt",
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "entry": "assets/LICENSE-SENTENCEPIECE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "entry": "assets/tokenizers/gemma4.model",
+      "sha256": "e594c8a90eb08d8bda498ff4747977dc827ae0c3c56b5c0d41a605a22d02ef03"
+    },
+    {
+      "entry": "assets/tokenizers/qwen06.gguf",
+      "sha256": "79a87fd4710737eefeff82a41208cbf086dc9a5ed92c5d896edbd9e4caa32ab1"
+    },
+    {
+      "entry": "assets/tokenizers/qwen25.gguf",
+      "sha256": "69970130e011e3069e39e9ac036575948262cf9b6a046a610bb5aae1a8736e61"
+    },
+    {
+      "entry": "res/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+      "sha256": "21f0b55280be10b187ceff8edef4a5a7047683e6e9fcf47de410aa3839f41094"
+    },
+    {
+      "entry": "res/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+      "sha256": "42aee0b03883e94df5e543348a397d1302c1b8221895871a83b81899f5a9647b"
+    },
+    {
+      "entry": "res/drawable-hdpi-v4/notification_bg_normal.9.png",
+      "sha256": "0c6328c7b2420570a7ec38b3beb3bac9a29d895ac1ab7239315aba7266418593"
+    },
+    {
+      "entry": "res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+      "sha256": "18b328d8017e677d5aad3dbd66bae356b5cac978c6f0670938ea648e51d0eb66"
+    },
+    {
+      "entry": "res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png",
+      "sha256": "aa00088d0d9fd97bd92ed9ffd29b54bb69a48a984aa73448ce553fb9d812be41"
+    },
+    {
+      "entry": "res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+      "sha256": "8430ec003e003f3f2ba2f78d48fd150e25407667e530e82e87a7d4841c0fd676"
+    },
+    {
+      "entry": "res/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+      "sha256": "2f7fbda0ba6e53e9a47e2fc0e24e32c447c613a5808c2d6285dc651e83a07ad7"
+    },
+    {
+      "entry": "res/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+      "sha256": "e17761ed280edd93d7141bd504b70f9e9e15a8652288d9e6333bf4ce964ef844"
+    },
+    {
+      "entry": "res/drawable-mdpi-v4/notification_bg_normal.9.png",
+      "sha256": "a8676a1793ac8310ffb12986232df66df092d29c242aeedc2b73556c010d38dc"
+    },
+    {
+      "entry": "res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+      "sha256": "99c14d6855b8be296d58017d3751b8dc849c47b6d1d80ab614ff9075080e461b"
+    },
+    {
+      "entry": "res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+      "sha256": "0d773e62c756422313262846c787e58f67e0ee87e45e1ae9942002e816c4cb9e"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_ada.png",
+      "sha256": "84b4005071614113e1627461dd0b38273430c4a744082abbdcbfcc2bedf4a331"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_aelwyn.png",
+      "sha256": "5da84cef433a33ebfa21c97151de73c6574b2e558359c51833bce8c5a4e3fc15"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_anton.png",
+      "sha256": "26cbf59eeee77083496d388e20e1500457b89cc90778bb346da6d24cdeb0246f"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_ari_maddox.png",
+      "sha256": "940443d3d325201cd2b88464495362cd4f478d42311e6506f7d8f9050a26848d"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_aruun.png",
+      "sha256": "746c88da181fbd057483e36d487d880e2688a47b414df2cad924df9368da6161"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_astrid.png",
+      "sha256": "7a56d553ef1b060a2c2c6e44cad062ff231b29a976169337bff418b04d780801"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_bastion.png",
+      "sha256": "f3c4ecb90eb6abf8fdfd9d68d59386faa13515cf61d18de4d5c40b47010dc8b5"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_berenor.png",
+      "sha256": "60b933d8b61044fb3a88795b7c9f4c4a68b3ab83e09f7f64665c19293dc09253"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_bjarke.png",
+      "sha256": "7ffb41e01d3dab124f54565397b38a79c2d8ec726e069a34933033d1ca4349bc"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_borin.png",
+      "sha256": "588ad2f0444fcc3dc0619506343e7a2be8cfa3e7cffae1a7296f0fc3d6af0a12"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_bruno_vega.png",
+      "sha256": "44a3464dc24d85038ff1a9511c1314ac9404d9845ea9495a986abcdb17474867"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_caerion.png",
+      "sha256": "a9708657e9b0b0318ba10fc514eba51a1fa02ccca19eeb3fde8bb5f90fba4c59"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_cem.png",
+      "sha256": "9fa69167aff57f22a57e2978778026dee303863cd0a63b6bc9eb0a90e1f7c5ef"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_dante_raze.png",
+      "sha256": "68ee6eb41617e8dc68bf08fd8f7794e911e951643aece4e83a448d186e8c4864"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_daren_moss.png",
+      "sha256": "ae24bbab3702294f8d6b6010bc4c7cb29be2f53a53d5a235be6519729ec1e6ae"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_dorik.png",
+      "sha256": "6582f15794a468c2957bc04417970eb5743ef29b6ad45246854cd95c33a2a45c"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_drazhul.png",
+      "sha256": "6a9e404cd34f8d1361015e7e340672d1d49caf7fc37ea7063042483e1367278d"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_eirik.png",
+      "sha256": "493c92cc31e211d4f48135b32c2c05285a6e3177cb20479fabae838ecd652f94"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_elara.png",
+      "sha256": "525452bc1d43ddb3e65572a3df36ee56c2b4c1237d79cfc1874ba638bf77186b"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_eldran.png",
+      "sha256": "e5edeac05bb01a233764fe71e0f15a3055d24158fedb1974d23d151d70e4826d"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_elys_voss.png",
+      "sha256": "a6fdb42e241f454cdd17edbb997981ba7f9a8908b4c3d573d8ce6160358c387a"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_ena.png",
+      "sha256": "6b8deaaf2fe0d34d397e7be71c3d3b2d106c6b699a2acfa828b77c2dafc8f269"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_eris_wynn.png",
+      "sha256": "219158477bcd8cad520ddbfb26e269768f159bd377b2a485f26b4b787b21a988"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_fenrik.png",
+      "sha256": "d2697abc68283ee5db03046fa7a45fce1a5436dc28c34d8350591aa9510d6dda"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_grask.png",
+      "sha256": "482dec5536b63d0e26c98ad66ffb3576b970f2468dd63e31e64c8673c2f46ddb"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_halvard.png",
+      "sha256": "c6824d2e01df55f2afb22fa5b30b9d9a1b47b3b0f4a8f52acfc6c36d852764fa"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_hedda.png",
+      "sha256": "985bfddfc538db58f60a5d9104bdd37b7f21932e2da1fe6ffecdf8a69aa81c70"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_hildis.png",
+      "sha256": "6383c8d6e316fb9007fdea7ce7510b08ca3e1b6d4639a50fa045d3246a9a724d"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_ines.png",
+      "sha256": "2bfb955122b4f828194636932c76faa134d7650999195474884ef750f25082be"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_irilwen.png",
+      "sha256": "074abc345a389d98fd9f309b3fc68d509f8d91392bac17f09af39546f5a53a71"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_ivo.png",
+      "sha256": "a98e7ae968b12c1196c23d8fce7b7fba0b5364ae98c7a0d4e35b7070b943c3be"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_jalen_7.png",
+      "sha256": "a82be5e14b31892f5515b6f04acf5629582fc2a1ff248bfd147972f18898de15"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_johanna.png",
+      "sha256": "a5592e26a2c145f745cb9864aa12036dd4d1b075fc6c37d676a74ecc70cb0e06"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_kael.png",
+      "sha256": "034ab1c88806e0b2e998e65f89ce1b5e181ad41628b99e5d410f2eaa2ef879a8"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_kaspar.png",
+      "sha256": "11cebcf1ea54a5979c0e6ca95412f399a0af65df4bfd9760e7f9e5e24fa04dd7"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_keira.png",
+      "sha256": "2a0db163353a7db9722eef403107c3d955f7548141b66bf42ebddf51ba8477f2"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_kira_rook.png",
+      "sha256": "f8756d0db0a182611c6c62833a29d0b3169ea54f22ff52616ab68ae77b0b0bec"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_korr.png",
+      "sha256": "8664997ed5dce53183beb4df160058cda30d2ef4e6320d57964f91de0f0396bd"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_leon.png",
+      "sha256": "ef53b82427cebdb2f0ceb078765a506b97d0067db92be56be9ab77307a2e177d"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_linnet.png",
+      "sha256": "3aadd2714ad5a7e54e70fc6dd96bb822344216672cb87502156840abe700b9bf"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_liora_cass.png",
+      "sha256": "5037ac58da3ab00e1d8ae6dea178868ab074c7396bf08fc2fe094d726de85dc9"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_liv.png",
+      "sha256": "3665733d4eac5ab83fd135ac123171cbb71ffdcb4555cbe792733f282a1994e0"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_lyra.png",
+      "sha256": "6041e338e76b27e6c0ac78bb5693c46e22094b3385c6bb6b2d0dc3f31e06c196"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_mael_voss.png",
+      "sha256": "5ce1f89562948a34c71ef2aee98e44b1ad9bfeed2b789cc0840c9d3f2467b618"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_maelis.png",
+      "sha256": "37d6025f6b0f86dbfcdb0880f4d9c745033184d79ab69ba70b4bf6467203ba84"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_malik.png",
+      "sha256": "ffb593d3a58453fc572487eeb306c4a3c28888a129b43a52919e6f6fd5fd2b06"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_maren_flux.png",
+      "sha256": "2f50061287b2d9ea5feb5f187c8f1d8b779a3d418e91528d932e1335f342e36c"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_mira.png",
+      "sha256": "3fdc63b1f770cbe15499412666af146400e10a630b5e7af38be49a19fab64c88"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_morga.png",
+      "sha256": "f020329ad5e60c1f973d828300b0e8f13bc70760cbda54251f8ec9ebecc157d3"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_naya_cruz.png",
+      "sha256": "c6fe76edd9fd17238bf9271b35b551a78d95fda67bcfaf9af4c70dde23b135a5"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_nessa.png",
+      "sha256": "b5569423b70cd8f8ce7476110f4c8018e768a5441ae05a894e5243bf18d7164b"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_nharok.png",
+      "sha256": "b4f1beae398d3a7b152c92d772c7225b54c89715d70175aa95ca5e0c6e9cbd02"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_noam.png",
+      "sha256": "4c8466a20bdf90cced465c7ca1bcdf676a2172fa68b035b9bdac658264f262b4"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_nora.png",
+      "sha256": "2a09864214ed0f1c5a6e5fd03d7f3641a8b880b5600ca7df7a32f6ea61ac0ae7"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_nyra.png",
+      "sha256": "f5bad439f00fbd58e6a3dae1a71112f611291e4b6d5563fd98cc3792d48fb5f0"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_nyx_rho.png",
+      "sha256": "5c29b8d70662b59553955dfb31a6f9e562f483863e3d14e0ce7f5a9e23fcc605"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_orin.png",
+      "sha256": "c185ad4bcece6edff025d8831f74abfc6d02edb155ba25bc8ef07df06c900d0e"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_pyra.png",
+      "sha256": "db513817893abfe7bf42c2782131464b52ec9270c900e45ad17e0272dbcc27d3"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_raukha.png",
+      "sha256": "9a8feb4393fd1af13e89bbcecb331d4b82abebe19282f5607860b7e01d3089f5"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_renji_sato.png",
+      "sha256": "a4f8a42b70f0edcf70f4fd99ddd20de0d072c12c8324208152e6f14d336fa0fd"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_riven.png",
+      "sha256": "1b8aaa1632643c32fc479ba8f7096a7a0d524e752c53c8eab4353cef6a0d69b6"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_rohan.png",
+      "sha256": "0bdc3f5126ef105122be4df173974254c9762de3522e3cf6aef07650441d4a97"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_runa.png",
+      "sha256": "d0ffc278eb37e47a2a6c02402f0b345e7bbc8903633ab8d59349cbfe0bd33717"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_saelith.png",
+      "sha256": "7641b67d6882bcebdaf663f397325e357b64342e03b3439edb31a03b8fe08a17"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_sana.png",
+      "sha256": "0d9a026dbe5d5b819beed091d4ab40bdeef898393ecf1ae89fa73833505e467b"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_selene_kade.png",
+      "sha256": "6e3f185201d66b186d2ffa58988d3bee3c50851b51aa522e1ec324cb7174dc9a"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_seris.png",
+      "sha256": "2469414f5b705506c9a4ef294261fb80b1b5f1a57be4204d90a593a94ae88719"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_sigrid.png",
+      "sha256": "9d7c12ff6329035f4e51eb14300441d06a5de2f7cb1852f7d9f9c467345fe1a1"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_silas.png",
+      "sha256": "6618354db990864cca060dacc3a86578b983a54da000baaef661556f707f6dc7"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_siraxa.png",
+      "sha256": "75ee264199255f8e065738a7d827a45a1c3878022d806bfd9db6a80ae5935ad2"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_skarn.png",
+      "sha256": "5a7d1c7bba05cb63ccdd9d1d41207c6a5801bc1de921c9a4784ae10ce682d343"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_solveig.png",
+      "sha256": "65a9bd94da0024361ed57a9e9be5e8d0724880f08e9f20f924126b35d0d40eba"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_soren_vale.png",
+      "sha256": "b0e9b3f9afe8bd785b4f56c989947015e4983cdaf18f51b185659a3c648e1d5e"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_soryn.png",
+      "sha256": "17fc34b3b03394babeba3adbb460639945d72ca642c0f3fe8ce11bd29db1d68c"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_sylwen.png",
+      "sha256": "896bb00aa807e73a99fb137194fe07cd1ef150c6d10a4b86ba93d835067828ce"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_tarek.png",
+      "sha256": "1c044af3dc43d668d0262d8a100375e0c72b92f0f67730ee58e575141d203026"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_tessa.png",
+      "sha256": "d2b14a5b640acf6cc64cfaf2c9a2fd03a3e50dd4d5341532875a268963732b56"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_thalora.png",
+      "sha256": "33f0c4158c0b97d27fdbcd2c6349eceaead66b0b6ca3997a9c55de693cbcf152"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_thamund.png",
+      "sha256": "349a91e32e75f73a8ecf0a97933c7916f82fb393792160813b3c9279bc55751e"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_thora.png",
+      "sha256": "e4d88bcc0ff607c3eb932b6f2919a8864923fe4632b5041b272583efd95d9526"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_throgg.png",
+      "sha256": "b7aa91b0d022f93bf06f03bc60220157b057741e74e5986d0887d2a2f91a10d5"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_torben.png",
+      "sha256": "ed99e9b2337553078817582964af0bfbf00fbb988a98cebf3158da3953b9778a"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_vaelgor.png",
+      "sha256": "0eaa1de176cda956fca8d5f479fbaff69eec4d80c70baa347bacb51a676d0228"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_varen.png",
+      "sha256": "7bf064d81b5c0513baac2e8a88b83cfeff2cedda3db218d59a6712fea4898154"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_varkesha.png",
+      "sha256": "449a7ec8a54fa514fde68589fd86e5fca1b62936a1ca8f200ce66fceadb60e63"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_velyss.png",
+      "sha256": "5c38533dfa1026fa7507bdabedc3f997e23a3fc6c16a72e3f9e920bf4405ffab"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_vera.png",
+      "sha256": "e9c20d6a1b41427d2bdff07259a6b6b917cbac22852e7aae53ea34fa81e0388f"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_veshra.png",
+      "sha256": "9f385da2a7b15167e59f182afba2fe2c19eb9d62341580e8ec30d678a849ce8d"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_yngvar.png",
+      "sha256": "01ad8da5c903083fa8f78263be1a66ca01f9863495614cc6bf2991b241330ed8"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/portrait_zhara_voss.png",
+      "sha256": "093cac62ba7ab8f45ee482d03fe69fc33a551952c088fe9f1e4ecf800edeb493"
+    },
+    {
+      "entry": "res/drawable-nodpi-v4/scene_runa.png",
+      "sha256": "6ecce2a71a063f94968975a7d2d46108506e313d47cedd06b9245fdb9cad5096"
+    },
+    {
+      "entry": "res/drawable-v21/notification_action_background.xml",
+      "sha256": "2f768c089cefa18cf7f1fde7f602410bf38998de5f9073a15ea83106c25e3c30"
+    },
+    {
+      "entry": "res/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+      "sha256": "3e09afa21c45372c035598c017c8fb405a6d678e6cb84dc857581cb3b40e482d"
+    },
+    {
+      "entry": "res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+      "sha256": "20343222f9f79dd565c3a2248494d452e70820ac1c437173c38badd45f962afd"
+    },
+    {
+      "entry": "res/drawable-xhdpi-v4/notification_bg_normal.9.png",
+      "sha256": "559bf783d765c02338e97952bdc9c6689c7ff99090b8c9813369118da8b080f0"
+    },
+    {
+      "entry": "res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+      "sha256": "d27af435101ca4cbec0c840bd30687918cd39eb83aab1487420855623a45998b"
+    },
+    {
+      "entry": "res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+      "sha256": "b44eeda34d7a529c2fe55719eb098fa29707caa91d18de06a7a775d6e6bcf973"
+    },
+    {
+      "entry": "res/drawable/ic_call_answer.xml",
+      "sha256": "5f6376dfe199d8a6e40033d3e623989d052c9b2f974d00c824fbb8b76fc6fde8"
+    },
+    {
+      "entry": "res/drawable/ic_call_answer_low.xml",
+      "sha256": "8f9acacabaf2dfb4bb53dab7ce7bec9c1451ce0a0219ffaa41760ea82da3d2d6"
+    },
+    {
+      "entry": "res/drawable/ic_call_answer_video.xml",
+      "sha256": "5d4cdaae5838ad9442c085f951b766b2808bff13b8c85a14e0bcf8571514492c"
+    },
+    {
+      "entry": "res/drawable/ic_call_answer_video_low.xml",
+      "sha256": "4a959580080ebb1d822a2459a4234d2abf0dd0b65d9c28bda8c258dafc888c51"
+    },
+    {
+      "entry": "res/drawable/ic_call_decline.xml",
+      "sha256": "2d825b79cce60203492ff09a04826db0ac8d9eb9bc0fb9fb139ae1aa5cde0f67"
+    },
+    {
+      "entry": "res/drawable/ic_call_decline_low.xml",
+      "sha256": "c8321364802409baf4d76e2a84e303871585bdc95b0395040c5ecea0e2051105"
+    },
+    {
+      "entry": "res/drawable/ic_launcher_foreground.xml",
+      "sha256": "3776fcdf504c9e998aaedeb8381dfe19514e28d66fdab50e087a542e49ed4e88"
+    },
+    {
+      "entry": "res/drawable/notification_bg.xml",
+      "sha256": "c592ce5af4e4d611ff3da3b0beda9603433f9a6dbc401ffba7a033191d288ed5"
+    },
+    {
+      "entry": "res/drawable/notification_bg_low.xml",
+      "sha256": "3b1f923e14c06b688b0b1a12484bc747ed238ef9cda09eb8ba6ff29ef50b5705"
+    },
+    {
+      "entry": "res/drawable/notification_icon_background.xml",
+      "sha256": "3dab1205dcec0d1ee05a6e553e2a57f51c43c843b662daafe29fa9ec35cfa285"
+    },
+    {
+      "entry": "res/drawable/notification_tile_bg.xml",
+      "sha256": "2ddb4c9c2cd47300a04e2d65ee2b41a449d9416ae4447a5b84326f908524ce3e"
+    }
+  ],
+  "changedNativeEntries": [
+    {
+      "entry": "lib/arm64-v8a/libgeschichten_gguf.so",
+      "beforeSha256": "802e93e5a5c9c56bb7a0f11a3cdd70188f869e6f33d86a760ed80419f5b479d6",
+      "afterSha256": "d4368b95099244b85cb2080915191cd8b0ddce2500c06ce7f082a4f5da9bff07"
+    }
+  ],
+  "noModelWeightsOrProbeClassesInApk": true,
+  "original082InferenceDataUnchanged": [
+    {
+      "file": "controlled-inputs.json",
+      "sha256": "ce8d6bd44c20f745e0d7576ed4ce4dc87a8fc3a3b79bd3cdbbe3371a4b0a5fa3"
+    },
+    {
+      "file": "gemma-4-e2b-comparison.json",
+      "sha256": "00fdc962df356bcfdde42820a386f586de5fe54b7683abf7c5560f4cc39283ec"
+    },
+    {
+      "file": "huihui-qwen3-4b-comparison.json",
+      "sha256": "42cb2fea4ab4ce8c85efe3a4b598597db6e52780b4227d56c64738ffa4d49514"
+    }
+  ],
+  "earlyDiagnosticReplaysChanged082Files": [
+    {
+      "file": "contamination-after.json",
+      "beforeSha256": "a77d43a250e5dcc9290e4cfd91faa57827859cb9c2f622911fb2f33580803722",
+      "afterSha256": "72a0896acbcbcf1444946e873e62c4fec8764303e5ec62721b2ae1f5cad9f197"
+    },
+    {
+      "file": "database-long-run.json",
+      "beforeSha256": "f277038cb7656eb691e6af115d5ae0e5859864d713a6dad220999879291ad76a",
+      "afterSha256": "c2b4db5fdb3a0cbd2b89e0912433274cca5338cf97913970e22adfeedad40d6b"
+    }
+  ],
+  "existingModelFiles": [
+    {
+      "file": "gemma-4-E2B-it.litertlm",
+      "sha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c",
+      "unchanged": true
+    },
+    {
+      "file": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+      "sha256": "d80ef0f08a0e64887f4a19bc9202fe1a108d9666a2c49eb9a30bc3a30995121b",
+      "unchanged": true
+    }
+  ],
+  "changedSource": [
+    {
+      "path": "app\\src\\main\\cpp\\CMakeLists.txt",
+      "beforeSha256": "4184455c95ce46a509832d94f90dd56c5e37438a7c015cc80eeff2146bbdc4dc",
+      "afterSha256": "dc005b54255e9e45acfd0f228624ecad71823879d91764f7f56c06fb4bbb6efe"
+    },
+    {
+      "path": "app\\src\\main\\cpp\\gguf-jni.cpp",
+      "beforeSha256": "8904a4c92dfdbc73fc0a8f2231e9029c4c6cd62109afa25388a3d77a0347523b",
+      "afterSha256": "ac08f90da08b7d788e7a838b72c3e45e667fec2f65757154c2e0604654dbb352"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\AppViewModel.kt",
+      "beforeSha256": "1158e860a6a0c65cdecf7a04b15f61c909259fadba479cbda73f1d874cc34e7c",
+      "afterSha256": "a9e671dc6860f00e4f56b38e8b629adab18d41fbe44528b947e4e1dda5c1551f"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\ai\\LocalModelCatalog.kt",
+      "beforeSha256": "824d8918f685a7cc7aed21dda5b736a3d230bfa861e15d5b773820ad1d8e28b0",
+      "afterSha256": "0cc66e1404301d3b5dba67d4e8dc9cf7a7a20d2c381a327acdcfd4a3326c912d"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\ai\\LocalModelEngine.kt",
+      "beforeSha256": "a3f6402b65cace585b864418d0e6ba2f80791bc226bb019067c633497f17e7e3",
+      "afterSha256": "9d0be31e34f0ebfccdf59584801f5d4abb7e24e5859117c3cdbf9e601decae62"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\memory\\ArchiveRecall.kt",
+      "beforeSha256": "7df20713a40bca91e5d1157fa2c6221a61edd12f849abe488e1906a38140415f",
+      "afterSha256": "bd1a5b17248348e87cff6f3a330cc9c3d7340874a1e5a87e30a24dc4a9af23f0"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\memory\\MemoryPrompt.kt",
+      "beforeSha256": "fad1efb11ec90ad8d69740ee01f40e9b57e1b87f73025c6db407cf21a3a1b9cb",
+      "afterSha256": "f64fdc54813d897ef0a021d0533f543bc51e567204b835dc8e7484d73fbc2206"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\ui\\SetupScreen.kt",
+      "beforeSha256": "b601213979d139c1b940ba2b6c7e6c43a6a8e9bd862de7765d7d19498e5505ec",
+      "afterSha256": "a31415c7de1976ebcc00c2c19345edf240d85b3c64a194dc00ae7f0a2369e3c4"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\ui\\UiState.kt",
+      "beforeSha256": "aa439b833833d3c8576029a34a92c8ad12a0cc38a76325f710c5e38580cea6b2",
+      "afterSha256": "98909b81e8418d0d4ad9e70103e3a5f763e4a7760e67241c70a78921b57239a3"
+    },
+    {
+      "path": "app\\src\\test\\java\\dev\\vincent\\geschichten\\ai\\LocalModelCatalogTest.kt",
+      "beforeSha256": "f4453b15fef0b61ad34042d545fb520f6f6ac2b82eb2fa189c9fc767a3da6608",
+      "afterSha256": "8ebdf56a16156603f9e9d60614e420297a4b75ac7752e4980ea81bb1fa3f4f6d"
+    },
+    {
+      "path": "app\\src\\visualTest\\java\\dev\\vincent\\geschichten\\memory\\MemoryRepositoryIntegrationTest.kt",
+      "beforeSha256": "96b879da58e8fd5348748e76d2c95aab281217b0c4cb35656928b900bfefdac7",
+      "afterSha256": "b51952c8b484a2dc3f36d2fcd9955cbd0c69e0def5def495bf86980ee30dc169"
+    },
+    {
+      "path": "app\\src\\visualTest\\java\\dev\\vincent\\geschichten\\memory\\RoleAnswerCorpusTest.kt",
+      "beforeSha256": "e2a08b516d0a8ab7d54610f7720fcaba319a18321159eda546cb18e830342e07",
+      "afterSha256": "b9dabf4eb02e01353416b9a78902f47b71abb5b9f335a8c7f534ddd34fff57f1"
+    },
+    {
+      "path": "app\\src\\visualTest\\java\\dev\\vincent\\geschichten\\memory\\RoleContaminationInvestigationTest.kt",
+      "beforeSha256": "6836aa8993ed0e09b606752b6d8be9bef774a15c75eb6ea6b7b337b24522dcd3",
+      "afterSha256": "b478c205fd31886ff00d8c91e6428bbec9253a8998872a700253d51c4eff67d9"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "beforeSha256": "32d0841fbd6085f759fc6dce1bd039cf25d400086f14f5cbb5cb5989ea64ec72",
+      "afterSha256": "02924608b768024d4e68cfa9b26c69bbfddb4e11d012afff7fcd07a3bf8352e2"
+    },
+    {
+      "path": "BUILD_WINDOWS.cmd",
+      "beforeSha256": "859dc320f97b2d98661eff5b6c8c8a5a63ab4fa13198c777a3a3b8718c334b71",
+      "afterSha256": "60a3859316d8cf4d7f529bd825f72ea9d8d5c292d54542edc0fe617c38c8ec8b"
+    },
+    {
+      "path": "build-linux.sh",
+      "beforeSha256": "58eb854431d8d2fad5dfd5add85adbd8e2c13f3bbd2bcea68a0125ccf789fa7e",
+      "afterSha256": "56b4de0e591e9abdc3aa803922b6244bfac924c7c7807e9920f14320c9beb80f"
+    },
+    {
+      "path": "README.md",
+      "beforeSha256": "8d91b9e6f351e4b8ce5ba34551f11c194c8d456ae5c2aea0c53d8b71ad9ad9ab",
+      "afterSha256": "9a877566bf2fb91fbdb04655e30b3fb1593506358e81d62ab32561729208a78c"
+    }
+  ],
+  "addedSource": [
+    {
+      "path": "app\\src\\main\\cpp\\embedding-jni.cpp",
+      "sha256": "e53d4b93c6ab44782fefa03593abe00c39550601fe08f45cd8db8cf2ccdcebce"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\ai\\EmbeddingModel.kt",
+      "sha256": "7e852a657631e2acf4e11f7c08a9fdbfc4e537358bb173133083a55298bc2d32"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\memory\\HybridRecall.kt",
+      "sha256": "b5da3d8f5f378d041b5dd49c64b5bab78a33e6eb7e9318c31890c3d2b3e77c42"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\memory\\SemanticIndex.kt",
+      "sha256": "f527fa27cfbfb2d2098a3ba8b31dce6e84ef4561132102322e7e8796394e3612"
+    },
+    {
+      "path": "app\\src\\main\\java\\dev\\vincent\\geschichten\\memory\\SemanticSearch.kt",
+      "sha256": "a45f92b117638dfd51db4447b3eaca102c8a061ce368454dbce3d4548d471487"
+    },
+    {
+      "path": "app\\src\\test\\java\\dev\\vincent\\geschichten\\memory\\HybridRecallTest.kt",
+      "sha256": "59a1367eedd01f54cd6f31f3fec393ee93005f045d61df1bfa5d89c372fdeaac"
+    },
+    {
+      "path": "app\\src\\visualTest\\java\\dev\\vincent\\geschichten\\memory\\NewScenePersistenceAuditTest.kt",
+      "sha256": "b09abbb4d5197c8765dcf487e50311c3601ae858bb730105937b73eca216e8f3"
+    },
+    {
+      "path": "app\\src\\visualTest\\java\\dev\\vincent\\geschichten\\memory\\ProductionSemanticVerificationTest.kt",
+      "sha256": "c3af719ac0cbb7e22eaa56bfdc63de6e742c738b448630fedb2ee9152521e3de"
+    },
+    {
+      "path": "app\\src\\visualTest\\java\\dev\\vincent\\geschichten\\memory\\SemanticIndexTest.kt",
+      "sha256": "d3f286fe92c070d48b647c61f1f5bf40c0a7dee9ef5f3dc4bd32fad4acca3c77"
+    },
+    {
+      "path": "app\\src\\visualTest\\java\\dev\\vincent\\geschichten\\memory\\SemanticSearchFallbackTest.kt",
+      "sha256": "46117c6837f07cb59b7660a9711e13aaae09a33efabcd3bd39ddc87d1e204735"
+    },
+    {
+      "path": "app\\src\\visualTest\\java\\dev\\vincent\\geschichten\\ui\\SemanticSearchUiTest.kt",
+      "sha256": "eaf6ab5cc076ea1c65f322bbdf2e7bdaae3f034ef9ed7c171a8a6baa6ec123d6"
+    }
+  ],
+  "tests": {
+    "normal-results": {
+      "tests": 130,
+      "failures": 0,
+      "errors": 0,
+      "classes": [
+        "dev.vincent.geschichten.ai.LiteRtStoryTemplateTest",
+        "dev.vincent.geschichten.ai.LocalModelCatalogTest",
+        "dev.vincent.geschichten.ai.ModelDownloadProtocolTest",
+        "dev.vincent.geschichten.ai.ModelPerformanceTest",
+        "dev.vincent.geschichten.ai.StoryContextAuditTest",
+        "dev.vincent.geschichten.ai.StoryPromptTest",
+        "dev.vincent.geschichten.ai.StoryReplyValidationTest",
+        "dev.vincent.geschichten.ai.StorySummaryPromptTest",
+        "dev.vincent.geschichten.data.BuiltinCharactersCatalogTest",
+        "dev.vincent.geschichten.memory.ArchiveRecallTest",
+        "dev.vincent.geschichten.memory.HybridRecallTest",
+        "dev.vincent.geschichten.memory.MemoryRulesTest",
+        "dev.vincent.geschichten.memory.RoleEvidenceTest",
+        "dev.vincent.geschichten.ui.StoryTextTest",
+        "dev.vincent.geschichten.updates.UpdatePolicyTest"
+      ]
+    },
+    "integration-results": {
+      "tests": 72,
+      "failures": 0,
+      "errors": 0,
+      "classes": [
+        "dev.vincent.geschichten.ChatContextIntegrationTest",
+        "dev.vincent.geschichten.data.CatalogMigrationTest",
+        "dev.vincent.geschichten.memory.MemoryRepositoryIntegrationTest",
+        "dev.vincent.geschichten.memory.NewScenePersistenceAuditTest",
+        "dev.vincent.geschichten.memory.ProductionSemanticVerificationTest",
+        "dev.vincent.geschichten.memory.RoleAnswerCorpusTest",
+        "dev.vincent.geschichten.memory.RoleContaminationInvestigationTest",
+        "dev.vincent.geschichten.memory.RoleEvidenceTest",
+        "dev.vincent.geschichten.memory.RolePersistenceTest",
+        "dev.vincent.geschichten.memory.SemanticIndexTest",
+        "dev.vincent.geschichten.memory.SemanticSearchFallbackTest",
+        "dev.vincent.geschichten.ui.MemoryUiTest",
+        "dev.vincent.geschichten.ui.SemanticSearchUiTest"
+      ]
+    }
+  },
+  "lint": {
+    "Warning": 131,
+    "Information": 1
+  }
+}

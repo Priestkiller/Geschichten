@@ -1,0 +1,50 @@
+[
+  {
+    "mode": "A",
+    "cases": 12,
+    "formatCorrect": 12,
+    "contentCorrect": 8,
+    "sourceBindingCorrect": null,
+    "jointCorrect": 8,
+    "falseApprovals": 0,
+    "falseComplaints": 0,
+    "medianGenerationMs": 2321.0,
+    "medianInputTokens": 156.5
+  },
+  {
+    "mode": "B",
+    "cases": 12,
+    "formatCorrect": 12,
+    "contentCorrect": 8,
+    "sourceBindingCorrect": 11,
+    "jointCorrect": 7,
+    "falseApprovals": 0,
+    "falseComplaints": 0,
+    "medianGenerationMs": 3974.5,
+    "medianInputTokens": 192.5
+  },
+  {
+    "mode": "C",
+    "cases": 12,
+    "formatCorrect": 12,
+    "contentCorrect": 9,
+    "sourceBindingCorrect": 11,
+    "jointCorrect": 8,
+    "falseApprovals": 1,
+    "falseComplaints": 2,
+    "medianGenerationMs": 4171.5,
+    "medianInputTokens": 227.5
+  },
+  {
+    "mode": "G",
+    "cases": 12,
+    "formatCorrect": 12,
+    "contentCorrect": 8,
+    "sourceBindingCorrect": 11,
+    "jointCorrect": 7,
+    "falseApprovals": 0,
+    "falseComplaints": 0,
+    "medianGenerationMs": 5280.5,
+    "medianInputTokens": 192.5
+  }
+]

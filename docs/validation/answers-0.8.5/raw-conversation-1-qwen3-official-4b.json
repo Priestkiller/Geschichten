@@ -1,0 +1,303 @@
+[
+  {
+    "model": "qwen3-official-4b",
+    "case": "conversation-1",
+    "mode": "production",
+    "seed": 42,
+    "expected": "{\"holder\":\"Du\",\"owner\":\"Liora\"}",
+    "inputBundle": {
+      "story": {
+        "id": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+        "characterId": "new-holder",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791449966666,
+        "updatedAt": 1791449966728
+      },
+      "character": {
+        "id": "new-holder",
+        "name": "Liora",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "6ee5bb1d-7d09-4093-9c8e-048f145787e7",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791449966666
+        },
+        {
+          "id": "6b24e884-ab2d-4df3-80e6-ba01a96b4fac",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "role": "USER",
+          "text": "Ich heiße Bennet.",
+          "createdAt": 1791449966676
+        },
+        {
+          "id": "207689aa-3929-4503-af01-41d1d6fe7df5",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791449966677
+        },
+        {
+          "id": "feaa1775-2fa9-482a-95cd-6d8d1d36f593",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "role": "USER",
+          "text": "Du hältst den Dolch.",
+          "createdAt": 1791449966678
+        },
+        {
+          "id": "819ab205-1c6c-4287-8592-335cbb99d220",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791449966679
+        },
+        {
+          "id": "745745dd-e4a4-4e34-9937-9633244cde52",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "role": "USER",
+          "text": "Wer hält den Dolch jetzt?",
+          "createdAt": 1791449966680
+        },
+        {
+          "id": "2b096335-bff0-47ff-9cc3-3285407f963f",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "role": "CHARACTER",
+          "text": "*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“",
+          "createdAt": 1791449966712
+        },
+        {
+          "id": "af6fed53-6399-40b9-8678-34d9947f0630",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "role": "USER",
+          "text": "Ich halte den Dolch jetzt. Der Dolch gehört dir. Wem gehört der Dolch und wer hält ihn jetzt?",
+          "createdAt": 1791449966728
+        }
+      ],
+      "memories": [
+        {
+          "id": "b331364e-21b6-4eb0-bb66-7d303b207904",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "kind": "FACT",
+          "text": "Startvorgabe: Liora: Begleitung",
+          "pinned": true,
+          "createdAt": 1791449966666,
+          "updatedAt": 1791449966666
+        },
+        {
+          "id": "a89c881b-d4df-40b8-97ae-39a75513cae8",
+          "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791449966667,
+          "updatedAt": 1791449966667
+        }
+      ],
+      "memory": {
+        "version": 9,
+        "facts": [
+          {
+            "id": "d91dff6ecee8adbea97674eb37f0e503",
+            "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+            "entity": {
+              "id": "65a66756bc1978fe0728619c29b2dae5",
+              "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+              "kind": "ITEM",
+              "name": "Dolch"
+            },
+            "field": "holder",
+            "value": "Wer",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "745745dd-e4a4-4e34-9937-9633244cde52",
+            "sourceText": "Wer hält den Dolch jetzt?",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791449966680,
+            "sourceOrder": 6
+          },
+          {
+            "id": "a464cff09a4fa98a9b1f5f07856d953b",
+            "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+            "entity": {
+              "id": "65a66756bc1978fe0728619c29b2dae5",
+              "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+              "kind": "ITEM",
+              "name": "Dolch"
+            },
+            "field": "holder",
+            "value": "Liora",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "2b096335-bff0-47ff-9cc3-3285407f963f",
+            "sourceText": "Ich halte den Dolch.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791449966712,
+            "sourceOrder": 7
+          },
+          {
+            "id": "4f65bead79481a06d8213963bd65e913",
+            "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+            "entity": {
+              "id": "65a66756bc1978fe0728619c29b2dae5",
+              "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+              "kind": "ITEM",
+              "name": "Dolch"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "af6fed53-6399-40b9-8678-34d9947f0630",
+            "sourceText": "Ich halte den Dolch jetzt.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791449966728,
+            "sourceOrder": 8
+          },
+          {
+            "id": "8e7d111a2feb0a3ff80675992a8228eb",
+            "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+            "entity": {
+              "id": "65a66756bc1978fe0728619c29b2dae5",
+              "storyId": "ce2096de-1ed5-4eb4-acf1-4cc230837a7c",
+              "kind": "ITEM",
+              "name": "Dolch"
+            },
+            "field": "owner",
+            "value": "Liora",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "af6fed53-6399-40b9-8678-34d9947f0630",
+            "sourceText": "Der Dolch gehört dir.",
+            "version": 13,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791449966728,
+            "sourceOrder": 8
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "4f65bead79481a06d8213963bd65e913",
+            "knower": "player",
+            "sourceId": "af6fed53-6399-40b9-8678-34d9947f0630",
+            "version": 12
+          },
+          {
+            "factId": "4f65bead79481a06d8213963bd65e913",
+            "knower": "character",
+            "sourceId": "af6fed53-6399-40b9-8678-34d9947f0630",
+            "version": 12
+          },
+          {
+            "factId": "8e7d111a2feb0a3ff80675992a8228eb",
+            "knower": "player",
+            "sourceId": "af6fed53-6399-40b9-8678-34d9947f0630",
+            "version": 13
+          },
+          {
+            "factId": "8e7d111a2feb0a3ff80675992a8228eb",
+            "knower": "character",
+            "sourceId": "af6fed53-6399-40b9-8678-34d9947f0630",
+            "version": 13
+          }
+        ],
+        "scannedSources": [
+          "745745dd-e4a4-4e34-9937-9633244cde52",
+          "2b096335-bff0-47ff-9cc3-3285407f963f"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 6,
+        "overview": "",
+        "characterAliases": [
+          "liora"
+        ]
+      }
+    },
+    "system": "Du spielst Liora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Liora. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nDolch · Träger: Spielerfigur (Spielerfigur)\nDolch · Eigentümer: Liora\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Bennet."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Du hältst den Dolch."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Wer hält den Dolch jetzt?"
+      },
+      {
+        "user": false,
+        "text": "*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nDolch · Träger: Spielerfigur (Spielerfigur)\nDolch · Eigentümer: Liora\n\nNÄCHSTE NUTZERNACHRICHT:\nIch halte den Dolch jetzt. Der Dolch gehört dir. Wem gehört der Dolch und wer hält ihn jetzt?"
+      }
+    ],
+    "plannedInputTokens": 641,
+    "planningMs": 241,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "actualSelectedFormattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Liora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Liora. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nDolch · Träger: Spielerfigur (Spielerfigur)\nDolch · Eigentümer: Liora\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nSetze die verfasste Ausgangsszene fort.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Ich höre zu.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Bennet.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nDu hältst den Dolch.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n„Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWer hält den Dolch jetzt?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nDolch · Träger: Spielerfigur (Spielerfigur)\nDolch · Eigentümer: Liora\n\nNÄCHSTE NUTZERNACHRICHT:\nIch halte den Dolch jetzt. Der Dolch gehört dir. Wem gehört der Dolch und wer hält ihn jetzt?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 641,
+    "decoded": 38,
+    "eog": true,
+    "partialAnswer": "*Beobachtet den Dolch und nickt leicht, während sie ihre Hand bewusst über ihn gleitet.*\n\n„Der Dolch gehört mir. Ich halte ihn jetzt.“",
+    "firstTextMs": 9242,
+    "totalMs": 13221,
+    "answer": "*Beobachtet den Dolch und nickt leicht, während sie ihre Hand bewusst über ihn gleitet.*\n\n„Der Dolch gehört mir. Ich halte ihn jetzt.“",
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": false,
+    "guardError": "java.lang.IllegalStateException: Die Antwort widerspricht einem bekannten Gedächtniseintrag (Dolch: Träger). Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  }
+]

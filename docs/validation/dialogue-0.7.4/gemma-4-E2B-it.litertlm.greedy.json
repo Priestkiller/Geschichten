@@ -1,0 +1,13 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Mira dreht sich langsam um und blickt dich an, ihre Augen fixieren die Oberfläche des Geräts, das du hältst.*\n\n**„Kein Signal? Das ist... interessant. Das deutet darauf hin, dass entweder die Empfangssensoren hier versagen oder das Signal extrem schwach ist. Wir müssen das Gerät analysieren, um zu sehen, ob es überhaupt etwas liefert.“**\n\n*Sie nähert sich vorsichtig dem Gerät, ihre Bewegungen sind geschäftig, aber kontrolliert.*\n\n**„Zeig mir, was du da siehst. Vielleicht können wir einen Vergleich ziehen. Wenn du etwas siehst, das ich nicht wahrnehme, dann ist das wert.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "temperature": 0.0,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.0
+  }
+]

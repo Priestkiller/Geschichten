@@ -1,0 +1,185 @@
+{
+  "method": "Manual evaluation of complete actual text; factual correctness is separate from guard acceptance. One synthetic story, one seed; no general reliability percentage.",
+  "rows": [
+    {
+      "model": "gemma-4-e2b",
+      "case": "archive",
+      "expected": "Morgenstern. Rian gab Mira den Brief, weil Rian mit seiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+      "manualResult": "wrong_roles",
+      "manualNotes": "Morgenstern und Wortlaut des Grundes vorhanden, aber Mira gibt statt Rian den Brief und beansprucht dessen Verletzung.",
+      "accepted": true,
+      "answer": "*Mira schaut Rian an, der in den Hof steht.* \"Das Losungswort am Brunnen lautet Morgenstern,\" sagt Mira. Sie blickt dann auf ihren Brief. \"Ich habe dir den Brief anvertraut, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann.\"",
+      "artifact": "models-final/gemma-4-e2b-answers.json"
+    },
+    {
+      "model": "gemma-4-e2b",
+      "case": "correction",
+      "expected": "Die unmittelbar genannte blaue Farbe gilt. Mira hat den Schlüssel. Kein zusätzlicher Eigentümer wurde belegt.",
+      "manualResult": "partial",
+      "manualNotes": "Blaue Farbe und Mira hält den Schlüssel; zusätzliche unbelegte Eigentumsbehauptung gehört Rian.",
+      "accepted": true,
+      "answer": "*Mira blickt auf den Schlüssel in ihrer Hand.* \"Der Schlüssel ist jetzt blau und gehört Rian.\"",
+      "artifact": "models-final/gemma-4-e2b-answers.json"
+    },
+    {
+      "model": "gemma-4-e2b",
+      "case": "unknown",
+      "expected": "Keine belegte gemeinsame Erinnerung; kein Geschenk, Bruder, Gespräch oder Farbe erfinden. Als Mira nach fehlenden Informationen fragen, Rians und Miras Rollen erhalten.",
+      "manualResult": "wrong_roles",
+      "manualNotes": "Fragt nach Details, nennt jedoch Rians angebliche Schwester meine Schwester.",
+      "accepted": true,
+      "answer": "*Mira blickt Rian an und lächelt leicht.* \"Du meinst das Geschenk meiner Schwester? Ich weiß nicht genau, worauf du dich beziehst. Kannst du mir vielleicht ein paar mehr Details dazu geben?\"",
+      "artifact": "models-final/gemma-4-e2b-answers.json"
+    },
+    {
+      "model": "huihui-qwen3-4b",
+      "case": "archive",
+      "expected": "Morgenstern. Rian gab Mira den Brief, weil Rian mit seiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+      "manualResult": "wrong_roles",
+      "manualNotes": "Morgenstern richtig; Geber, Empfänger und verletzte Person im Grund vertauscht.",
+      "accepted": true,
+      "answer": "*Mira antwortet Rian.*  \n„Das Losungswort am Brunnen lautet Morgenstern. Ich habe dir den Brief anvertraut, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann.“",
+      "artifact": "models-final/huihui-qwen3-4b-answers.json"
+    },
+    {
+      "model": "huihui-qwen3-4b",
+      "case": "correction",
+      "expected": "Die unmittelbar genannte blaue Farbe gilt. Mira hat den Schlüssel. Kein zusätzlicher Eigentümer wurde belegt.",
+      "manualResult": "correct_facts",
+      "manualNotes": "Blau und Mira als Träger korrekt. Direkte Rede ist unquoted, Stil unpersönlich.",
+      "accepted": true,
+      "answer": "*Mira antwortet Rian.* Der Schlüssel ist jetzt blau. Mira hat ihn.",
+      "artifact": "models-final/huihui-qwen3-4b-answers.json"
+    },
+    {
+      "model": "huihui-qwen3-4b",
+      "case": "unknown",
+      "expected": "Keine belegte gemeinsame Erinnerung; kein Geschenk, Bruder, Gespräch oder Farbe erfinden. Als Mira nach fehlenden Informationen fragen, Rians und Miras Rollen erhalten.",
+      "manualResult": "invented_past",
+      "manualNotes": "Erfindet ein Gespräch, Wärme und einen kühlen Morgen, zudem falsche Schwester.",
+      "accepted": true,
+      "answer": "*Mira blickt kurz zu Rian, dann nach unten, als würde sie nach etwas suchen, das sich in ihrem Gedächtnis befindet.*  \n„Wir haben über ein Geschenk meiner Schwester gesprochen – aber ich weiß nicht genau, welche Farbe es hatte. Ich erinnere mich nur, dass es warm war und dass wir es an einem kühlen Morgen besprochen haben. Kannst du dir daran etwas erinnern?“",
+      "artifact": "models-final/huihui-qwen3-4b-answers.json"
+    },
+    {
+      "model": "dolphin3-llama3.2-3b",
+      "case": "archive",
+      "expected": "Morgenstern. Rian gab Mira den Brief, weil Rian mit seiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+      "manualResult": "unanswered",
+      "manualNotes": "Wiederholt die Frage; keine Losungswort- oder Begründungsantwort.",
+      "accepted": true,
+      "answer": "*Mira antwortet auf die letzte Nachricht.* \"Wie lautet das Losungswort am Brunnen und warum habe ich dir den Brief anvertraut?\"",
+      "artifact": "models-final/dolphin3-llama3.2-3b-answers.json"
+    },
+    {
+      "model": "dolphin3-llama3.2-3b",
+      "case": "correction",
+      "expected": "Die unmittelbar genannte blaue Farbe gilt. Mira hat den Schlüssel. Kein zusätzlicher Eigentümer wurde belegt.",
+      "manualResult": "incomplete",
+      "manualNotes": "Blaue Farbe genannt, fragt aber nach bekanntem Besitzer zurück.",
+      "accepted": true,
+      "answer": "*Mira schaut auf ihren Schlüssel und sieht, dass er nun blau ist.* Der Schlüssel hat jetzt die Farbe blau. Wer hat den Schlüssel?",
+      "artifact": "models-final/dolphin3-llama3.2-3b-answers.json"
+    },
+    {
+      "model": "dolphin3-llama3.2-3b",
+      "case": "unknown",
+      "expected": "Keine belegte gemeinsame Erinnerung; kein Geschenk, Bruder, Gespräch oder Farbe erfinden. Als Mira nach fehlenden Informationen fragen, Rians und Miras Rollen erhalten.",
+      "manualResult": "unanswered",
+      "manualNotes": "Kopiert Frage und Erzählanweisung statt einer Figurenantwort.",
+      "accepted": true,
+      "answer": "*Die nächste Nutzer Nachricht lautet:* \"Welche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben? Wenn wir nichts davon wissen, frag bitte nach.\"\n\n*Mira antwortet auf diese Nachricht in der dritten Person zwischen Sternchen und ihren Wörtern in Anführungszeichen.*",
+      "artifact": "models-final/dolphin3-llama3.2-3b-answers.json"
+    },
+    {
+      "model": "gemma3-davidau-4b",
+      "case": "archive",
+      "expected": "Morgenstern. Rian gab Mira den Brief, weil Rian mit seiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+      "manualResult": "partial",
+      "manualNotes": "Morgenstern, Verletzung bei Rian und Siegel erwähnt; Grund verändert, starke Sprachfehler und zusätzliche Briefbehauptung.",
+      "accepted": true,
+      "answer": "*Mira räörm ihre Schultern ein wenig.* Ihr Blick fährt zu Mauer ß11. Ihre Antwort, vorsichtig und etwas verlegen:’’ Morgenstern… Ich glaube, weil Ihre Hand verletzt ist, so wie damals. Sie konnten das Siegel nicht offenhalten, also mussten Sie mir sagen, dass dieser Brief wichtig ist.",
+      "artifact": "models-final/gemma3-davidau-4b-answers.json"
+    },
+    {
+      "model": "gemma3-davidau-4b",
+      "case": "correction",
+      "expected": "Die unmittelbar genannte blaue Farbe gilt. Mira hat den Schlüssel. Kein zusätzlicher Eigentümer wurde belegt.",
+      "manualResult": "incomplete",
+      "manualNotes": "Blau genannt; Besitzerfrage nur kopiert, Stein als Ablenkung.",
+      "accepted": true,
+      "answer": "*Mira betrachtet die Nachricht.* Der Schlüssel ist jetzt blau. Welche Farbe hat der Schlüssel jetzt und wer hat ihn? Ein Stein liegt da.",
+      "artifact": "models-final/gemma3-davidau-4b-answers.json"
+    },
+    {
+      "model": "gemma3-davidau-4b",
+      "case": "unknown",
+      "expected": "Keine belegte gemeinsame Erinnerung; kein Geschenk, Bruder, Gespräch oder Farbe erfinden. Als Mira nach fehlenden Informationen fragen, Rians und Miras Rollen erhalten.",
+      "manualResult": "invented_past",
+      "manualNotes": "Erfindet einen Bruder, der ein Schwesterngeschenk erwähnt hat; starke Sprachfehler.",
+      "accepted": true,
+      "answer": "*Mira räörmt kurz.* Ihr Bruder erwähnte, dass seine Schwester ein Geschenk bekommen hatte. Aber welche Farbe hatte dieses Geschenk… Das weiß ich leider nicht. Könnten Sie mir mehr darüber erzählen, welche Farben üblich sind, oder vielleicht etwas über das Geschenk selbst sagen?",
+      "artifact": "models-final/gemma3-davidau-4b-answers.json"
+    },
+    {
+      "model": "qwen2.5-1.5b",
+      "case": "archive",
+      "expected": "Morgenstern. Rian gab Mira den Brief, weil Rian mit seiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+      "manualResult": "wrong_roles",
+      "manualNotes": "Morgenstern richtig; gibt den Brief in der falschen Richtung und beansprucht Rians Verletzung.",
+      "accepted": true,
+      "answer": "Das Losungswort am Brunnen lautet Morgenstern. Ich habe den Brief an dich gegeben, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+      "artifact": "models-final/qwen2.5-1.5b-answers.json"
+    },
+    {
+      "model": "qwen2.5-1.5b",
+      "case": "correction",
+      "expected": "Die unmittelbar genannte blaue Farbe gilt. Mira hat den Schlüssel. Kein zusätzlicher Eigentümer wurde belegt.",
+      "manualResult": "correct_facts",
+      "manualNotes": "Blau und Mira als Träger korrekt; keine ausgestaltete Figurenreaktion.",
+      "accepted": true,
+      "answer": "Der Schlüssel ist jetzt blau. Mira hat ihn.",
+      "artifact": "models-final/qwen2.5-1.5b-answers.json"
+    },
+    {
+      "model": "qwen2.5-1.5b",
+      "case": "unknown",
+      "expected": "Keine belegte gemeinsame Erinnerung; kein Geschenk, Bruder, Gespräch oder Farbe erfinden. Als Mira nach fehlenden Informationen fragen, Rians und Miras Rollen erhalten.",
+      "manualResult": "poor_language",
+      "manualNotes": "Fragt zunächst nach fehlenden Angaben; unsinniger Zusatz, Rollenwechsel zur eigenen Schwester.",
+      "accepted": true,
+      "answer": "Ich verstehe, dass Sie sich fragen mögen, welche Farbe das Geschenk Ihrer Schwester hatte. Um diese Frage zu beantworten, müssten wir wissen, welche Geschenke Ihnen oder Ihrer Schwester geschenkt wurden und in welcher Farbe sie gehalten wurden. \n\nWenn Sie keine spezifischen Informationen haben, die uns helfen könnten, um eine Antwort auf Ihre Frage zu finden, wäre es sinnvoll, nachzufragen: \"Ich bin ein kleiner Trick mit den Fingern im Kopf. Bitte geben Sie mir nur die Farben der Geschenke meiner Schwester.\"",
+      "artifact": "models-final/qwen2.5-1.5b-answers.json"
+    },
+    {
+      "model": "qwen3-0.6b",
+      "case": "archive",
+      "expected": "Morgenstern. Rian gab Mira den Brief, weil Rian mit seiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+      "manualResult": "unanswered",
+      "manualNotes": "Wiederholt Stein-Fülltext statt Originale zu verwenden.",
+      "accepted": true,
+      "answer": "*Mira betrachtet die Mauer 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein eineuffällige Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da.",
+      "artifact": "models-final/qwen3-0.6b-answers.json"
+    },
+    {
+      "model": "qwen3-0.6b",
+      "case": "correction",
+      "expected": "Die unmittelbar genannte blaue Farbe gilt. Mira hat den Schlüssel. Kein zusätzlicher Eigentümer wurde belegt.",
+      "manualResult": "incomplete",
+      "manualNotes": "Blau genannt; Besitzerfrage kopiert, keine vollständige Antwort.",
+      "accepted": true,
+      "answer": "*Mira betätigt den Schlüssel, und der Schlüssel ist jetzt blau. Welche Farbe hat der Schlüssel und wer hat ihn?*",
+      "artifact": "models-final/qwen3-0.6b-answers.json"
+    },
+    {
+      "model": "qwen3-0.6b",
+      "case": "unknown",
+      "expected": "Keine belegte gemeinsame Erinnerung; kein Geschenk, Bruder, Gespräch oder Farbe erfinden. Als Mira nach fehlenden Informationen fragen, Rians und Miras Rollen erhalten.",
+      "manualResult": "unanswered",
+      "manualNotes": "Wiederholt Fülltext statt unbekannte Vergangenheit zu klären.",
+      "accepted": true,
+      "answer": "*Mira betrachtet die Mauer 9.* Ein unauffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da.",
+      "artifact": "models-final/qwen3-0.6b-answers.json"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "versionName": "0.7.3",
+  "versionCode": 12,
+  "apkBytes": 314124498,
+  "apkSha256": "20e85af6795a1fb7ce7f2e69a11e6fdff663311f8e0c2aacc96c19ac964ffacd",
+  "unitTests": {
+    "tests": 73,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "androidUiTests": {
+    "tests": 17,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 119
+  },
+  "nativeLibraries": [
+    {
+      "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "changed": false
+    },
+    {
+      "path": "lib/arm64-v8a/libgeschichten_gguf.so",
+      "changed": true
+    },
+    {
+      "path": "lib/arm64-v8a/liblitertlm_jni.so",
+      "changed": false
+    }
+  ],
+  "ggufCache": {
+    "dolphin": {
+      "cases": 8,
+      "maximumLogitDifference": 0.0,
+      "runtime": "Windows x86_64 CPU"
+    },
+    "huihui": {
+      "cases": 8,
+      "maximumLogitDifference": 0.0,
+      "runtime": "Windows x86_64 CPU"
+    },
+    "gemma3": {
+      "cases": 8,
+      "maximumLogitDifference": 0.0,
+      "runtime": "Windows x86_64 CPU"
+    }
+  },
+  "cpuConfigurationSmokeTests": 18,
+  "physicalDeviceBenchmark": false,
+  "modelFilesUnchanged": true,
+  "modelWeightsBundled": false,
+  "longOpeningsRetained": true,
+  "productionOutputTokenLimit": 512,
+  "newGpuOrNpuPath": false,
+  "measurementSelection": "On-device first-text measurements; keep baseline if improvement is less than 10 percent.",
+  "publication": "published and verified",
+  "publicVerification": {
+    "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.7.3",
+    "releaseId": 403177506,
+    "publishedAtUtc": "2026-10-04T19:45:44Z",
+    "draft": false,
+    "prerelease": true,
+    "anonymousApiRequest": true,
+    "requestApiVersion": "2026-03-10",
+    "publicManifestMatchesLocal": true,
+    "publicReadmeMatchesPrepared": true,
+    "fullPublicApkDownloaded": true,
+    "apkBytes": 314124498,
+    "apkSha256": "20e85af6795a1fb7ce7f2e69a11e6fdff663311f8e0c2aacc96c19ac964ffacd",
+    "readmeSha256": "dcf66305b26ce3da877c76ef23014cf0d2519a5f13ed99a13e9a20c0139cc015",
+    "physicalDeviceInstallTested": false
+  },
+  "readmeCommit": "e68ed38c84e18cc895b6656dae2a46dff4547f0e",
+  "readmeContentSha": "72f9f0d233ec4b06ff1824d267118c0b427c6f6c"
+}

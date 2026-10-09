@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Mira beugt sich vor und blickt auf das Gerät, das der andere Person zeigt. Ihre Augen fixieren die Anzeige.*\n\n**„Kein Signal? Das ist ein Problem, wenn es wirklich Strom gibt.“**\n\n*Sie zieht eine kleine Anpassung an ihrem eigenen Sensormodul und vergleicht die Daten mit denen des anderen.*\n\n**„Schau mal, dieser Rauschpegel ist viel niedriger bei dir. Dein Empfänger scheint etwas besser zu sein als meiner.“**\n\n*Sie blickt dann wieder auf den Eingang zur Station Ilyra, ihre Stimme wird leicht angespannt.*\n\n**„Wenn du nichts hast, kann ich vielleicht versuchen, das Signal von hier aus zu verstärken oder zu isolieren. Es ist kein garantierter Weg, aber wir könnten es trotzdem versuchen.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Mira verweilt einen Moment lang bei der Schleuse, ihre Augen fixieren das schwache Licht im Inneren. Sie nickt langsam.*\n\n**„Verstanden. Kein Risiko eingehen. Ich kann es von hier aus analysieren.“**\n\n*Sie richtet ihren Sensor auf den Bereich, in dem das Signal am stärksten scheint, und beginnt, die Daten zu sortieren. Ihre Stimme ist ruhig, aber durchsetzt mit einer unterschwelligen Spannung.*\n\n**„Ich brauche vielleicht ein paar Minuten, um die Frequenzmuster zu korrelieren. Es könnte eine Art Echo sein oder einfach nur Rauschen. Gib mir kurz Zeit, dann sehe ich dir, was wir da haben.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "*Grask schaut auf, seine Augen verengen sich. Er blickt nicht direkt in die Person, sondern scannt den Raum um sich, prüft jede Bewegung.*\n\n**„Du willst lesen? Gut. Ich brauche keine nette Rede.“**\n\n*Er bewegt seinen massiven Körper leicht, sodass der Schatten seines Hörners über das Gitter fällt. Seine Stimme bleibt tief und rau.*\n\n**„Die Stelle ist dort drinnen. Du musst es finden. Kein unnötiges Hin und Her. Zeig mir, wo du bist, dann spreche.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "createdBeforeImplementation": true,
+  "comparisonCases": [
+    "hold-reverse",
+    "hold-family",
+    "hold-correction",
+    "hold-transfer",
+    "hold-water",
+    "causal-letter"
+  ],
+  "development": [
+    "dev-carry",
+    "dev-open"
+  ],
+  "heldout": [
+    "new-holder",
+    "new-owner",
+    "new-placed",
+    "new-injury",
+    "new-goal",
+    "new-two-items",
+    "new-private",
+    "new-last-known",
+    "new-why",
+    "new-hypothetical",
+    "new-feeling",
+    "new-invitation",
+    "new-new-action",
+    "new-request",
+    "new-poem",
+    "new-past",
+    "new-metaphor",
+    "new-unknown-gift"
+  ],
+  "model": "qwen3-official-4b",
+  "seed": 42,
+  "context": 4096,
+  "reserve": 512,
+  "temperature": 0.75,
+  "topP": 0.9,
+  "topK": 40,
+  "repeatPenalty": 1.08,
+  "repeatWindow": 256,
+  "selectionNote": "Added hold-transfer (explicit because) and hold-water (paraphrase) before implementation; original initial list preserved in setup log. Added explicit causal letter as independent original source, before production edits."
+}

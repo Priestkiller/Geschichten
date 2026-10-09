@@ -1,0 +1,15 @@
+{
+  "file": "F:\\Geschichte App KI\\geschichten-android\\Geschichten-0.8.1.apk",
+  "bytes": 321455909,
+  "sha256": "38ffe484693d15b8b17ed70de63e22749eeeb897481bf8742b9cfdacbd688125",
+  "version": "0.8.1",
+  "versionCode": 15,
+  "database": 9,
+  "package": "dev.vincent.geschichten",
+  "signerSha256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+  "signingV2": true,
+  "diagnosticsAbsent": true,
+  "nativeAndTokenizerDataIdenticalTo080": true,
+  "alignment16k": true,
+  "published": false
+}

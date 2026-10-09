@@ -1,0 +1,234 @@
+{
+  "version": "0.3.0",
+  "versionCode": 4,
+  "publication": "published_verified",
+  "finalJvm": [
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StoryPromptTest.xml",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StorySummaryPromptTest.xml",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.BuiltinCharactersCatalogTest.xml",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.UpdatePolicyTest.xml",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "initialNativeAttempt": [
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StoryPromptTest.xml",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StorySummaryPromptTest.xml",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.BuiltinCharactersCatalogTest.xml",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.CatalogMigrationTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.StoryRepositoryIntegrationTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.MainActivityLaunchTest.xml",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.ChatArtworkRegressionTest.xml",
+      "tests": 4,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.UiScreenshotTest.xml",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.AppUpdatesUiTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.UpdateFileProviderIntegrationTest.xml",
+      "tests": 2,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.UpdatePolicyTest.xml",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "distinctTestCasesAcrossRuns": 72,
+  "passedAcrossRuns": 71,
+  "remainingHostTestFailure": [
+    "dev.vincent.geschichten.updates.UpdateFileProviderIntegrationTest.installationProviderSharesOnlyAnApkInsideItsDedicatedCache"
+  ],
+  "lintSeverityCounts": {
+    "Warning": 68
+  },
+  "lintIssueCounts": {
+    "ApplySharedPref": 1,
+    "ModifierParameter": 1,
+    "DiscouragedApi": 2,
+    "ChromeOsAbiSupport": 1,
+    "ObsoleteSdkInt": 1,
+    "UnusedResources": 51,
+    "MonochromeLauncherIcon": 1,
+    "UseKtx": 10
+  },
+  "catalog": {
+    "total": 50,
+    "added": 30,
+    "categoryGenderCounts": {
+      "Nordische Fantasy": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Fantasy": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Krimi": {
+        "männlich": 5,
+        "weiblich": 5
+      },
+      "Science-Fiction": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Kreaturen": {
+        "männlich": 5,
+        "weiblich": 5
+      }
+    }
+  },
+  "preservedOriginalImages": [
+    "portrait_aelwyn.png",
+    "portrait_aruun.png",
+    "portrait_borin.png",
+    "portrait_elara.png",
+    "portrait_fenrik.png",
+    "portrait_kael.png",
+    "portrait_korr.png",
+    "portrait_leon.png",
+    "portrait_mira.png",
+    "portrait_nessa.png",
+    "portrait_nyra.png",
+    "portrait_orin.png",
+    "portrait_pyra.png",
+    "portrait_runa.png",
+    "portrait_seris.png",
+    "portrait_soryn.png",
+    "portrait_sylwen.png",
+    "portrait_thora.png",
+    "portrait_vaelgor.png",
+    "portrait_varen.png",
+    "scene_runa.png"
+  ],
+  "reviewedActualUiScreenshots": 100,
+  "testActivityAbsent": true,
+  "zipAlignment16KB": "passed",
+  "apk": {
+    "assetName": "Geschichten-0.3.0.apk",
+    "size": 211095708,
+    "sha256": "168e9e3b4df615d5df4fa1b1aacfdabe485d0c01b1b8f1f9c39bbcd6975e970d"
+  },
+  "manifestSha256": "496cf8da20f7d8faa5e4dc8c4d60689c824ac9be98030d6400f03aadf08159da",
+  "signerCertificateSha256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+  "phoneInstallationAndModelInference": "not_tested_on_physical_S24",
+  "publicRelease": {
+    "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.3.0",
+    "releaseId": 402740738,
+    "publishedAtUtc": "2026-10-04T00:00:14Z",
+    "draft": false,
+    "prerelease": true,
+    "anonymousApiRequest": true,
+    "requestApiVersion": "2026-03-10",
+    "publicManifestMatchesLocal": true,
+    "publicReadmeMatchesPrepared": true,
+    "fullPublicApkDownloaded": true,
+    "apkBytes": 211095708,
+    "apkSha256": "168e9e3b4df615d5df4fa1b1aacfdabe485d0c01b1b8f1f9c39bbcd6975e970d",
+    "readmeSha256": "6d0174294bca81976dbfa8238ef63572ce4fbd8134c93af0da5d15937e08f574",
+    "physicalDeviceInstallTested": false
+  },
+  "publicAppParserCheck": "passed_for_0.2.0_and_0.2.1_with_prereleases_enabled",
+  "publicReadmeUpdate": {
+    "repository": "Priestkiller/Geschichten",
+    "branch": "main",
+    "path": "README.md",
+    "commitSha": "0bc83e7ad7f3297ee0a3958baf23ac0a79d0b11f",
+    "contentSha": "25f953e6a110018109636456044c07769f2753f4",
+    "previousContentSha": "7ec375ea472ad014e5e3eb0ee0802daeebb88cc5",
+    "contentMatchesPrepared030": true,
+    "anonymousRawFileMatchesPrepared030": true,
+    "url": "https://github.com/Priestkiller/Geschichten/blob/main/README.md"
+  }
+}

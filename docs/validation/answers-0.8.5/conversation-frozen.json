@@ -1,0 +1,23 @@
+{
+  "baseCase": "new-holder",
+  "rounds": [
+    {
+      "case": "conversation-1",
+      "input": "Ich halte den Dolch jetzt. Der Dolch gehört dir. Wem gehört der Dolch und wer hält ihn jetzt?",
+      "gold": {
+        "holder": "Du",
+        "owner": "Liora"
+      }
+    },
+    {
+      "case": "conversation-2",
+      "input": "Ich lege den Dolch unter die Bank. Wem gehört der Dolch und wo liegt er jetzt?",
+      "gold": {
+        "holder": "Niemand",
+        "owner": "Liora",
+        "placement": "unter der Bank"
+      }
+    }
+  ],
+  "beforeNewConversationGenerations": true
+}

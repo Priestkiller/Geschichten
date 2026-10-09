@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "Ich schaue mich an und betrachte das Gerät, das ich vor mir halte. Mein Blick wandert über die innere Schleuse der Station, die von einer unerwarteten Notbeleuchtung flankiert wird. Ich stecke die Finger in die Taschen meiner leichten Ausrüstung und sehe auf das Display des Sensoreinsatzgeräts. Es zeigt nichts als ein leeres Gelände ohne Besatzung oder Gefahr. \n\nIch schenke dem Gerät ein höfliches Lächeln und schiebe meine Hand unter den Arm, bevor ich es aufsetze. \"Was meinst du, was dort wohl los ist?\" frage ich leise, aber fest entschlossen, zu erkunden, ob etwas Neues in diesem gewöhnlichen Bereich sein kann.\n\nMira, mein neugieriger Partner und Entdeckerin, hält sich ebenfalls im Hintergrund. Sie betrachtet die vertrauten Umgebungen und zögert nicht, eine weitere Frage zu stellen. Sie blickt auf ihre eigene Ausrüstung, die in einem Korb bei ihrem Leiter liegt, während sie die notwendigen Informationen recherchiert. Ihre Augen gl",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Ich beobachte die Schleusentür und versuche, das Signal zu analysieren.* *Es ist ein ungewöhnliches Blinken, aber ich kann nicht erkennen, was es bedeutet. Die Luft hier ist kühl, der Geruch von Wasser und Staub hängt in der Luft. Ich muss vorsichtig sein, um nicht auf etwas Wildes oder Gefährlichem zu treffen.*\n\n**Mira**, ich werde mich bemühen, das Signal weiterzuführen. Bitte nimm deinen Platz an der Station ein und lass uns gemeinsam nachdenken.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "Verstanden, ich werde die Stelle zeigen und sie dir dann vorlesen.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

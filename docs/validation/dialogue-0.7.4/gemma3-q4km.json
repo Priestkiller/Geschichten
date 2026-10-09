@@ -1,0 +1,26 @@
+[
+  {
+    "seconds": 230.4717547,
+    "answer": "**„Nun denn… Eben. Ihr habt also auch gehört, wie es sich anfühlt, ein bisschen verloren zu sein.“**\n\n*Mira nimmt einen verschitzt Schritt vorwärts, ihre Hand befindet sich bereits auf dem Auslögespr größe Scanner. Ihr Blick huscht über das verwitterte Türrahmen, sucht nach einem unsichtbaren Muster, irgendetwas, das auf eine natürliche Ursache für dieses Signal schließen lässt. Ihr Scanner zeigt lediglich einen blösischen Höhenunterschied.*\n\n**„Das Gerät sagt nichts, was? Ihr habt euch also entschieden, dass ein einzelnes, schwaches Signal nicht unbedingt ein Einladungsüsselwort ist. Ihr müsst euch vermutlich etwas mehr Mühe geben, wenn ihr etwas sehen wollt.“**\n\n*Sie fährt einen Fingerdruck auf ihrem Kommunikator aus, prüft die Reichweite ihres Scanrührers. Ihr Blick fällt kurz auf das verrostete Uhrwerk, das sie bei der Gründung ihrer Erkundungsrückwehr aufgepäppt hatte.*\n\n**„Wir könnten das Gerät vielleicht etwas näher heranbringen. Oder wir lassen uns überraschen. Beide Optionen sind… interessant.“**",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_k_m.gguf",
+    "outputTokenLimit": 256,
+    "case": "mira-denial",
+    "runtime": "Windows x86_64 CPU"
+  },
+  {
+    "seconds": 210.8853879,
+    "answer": "**„…Nein, hör erstmal auf, dass du dich abwärts richtest.“**\n\n*Mira nimmt einen länglichen Scanner aus ihrem Gurusschacht – ein Gerät, das aussieht, als wäre es einem Kriegsfährung missfänglich gehörte, überarbeiteten Gerät überwachsend aufgelegt worden. Sie richtet ihn auf das Türüssel, während sie sich kaum bewegt.*\n\n**„Das bisschen Strom, das wir gehört haben, könnte ein Kurzschluss sein. Oder ein verfrühtes Gerät. Wir wollen nicht, dass wir uns selbst mit einem fehlgeschlagenen Neustart erwürglichen, oder etwa nicht?“,** *Sie betrachtet mich kurz, ein leichter Schatten huscht über ihr Gesicht.* **„Dieser Scanner soll ein bisschen mehr Informationen liefern, bevor wir irgendwelche dummen Entscheidungen treffen.“,** *Sie beginnt, die Anzeige zu durchstöbern, ihre Finger fahren über die übergübösen Tasten, während ein kaum hörbares Brummeln von dem Gerät dringt.*",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_k_m.gguf",
+    "outputTokenLimit": 256,
+    "case": "mira-caution",
+    "runtime": "Windows x86_64 CPU"
+  },
+  {
+    "seconds": 248.9360462,
+    "answer": "*Grask kneift die Schultern zusammen, ein kaum hörbarer Knacken dringt durch. Seine Hörner berühren leicht das schmale Metallgitter, ein kaum wahrnehmbares Kratzem.*\n\n**„Dann.“**\n\n*Er deutet mit einer riesenförmigen Kla ประจํา über das Registerüssel. Ein einzelnes Blatt, dünn wie ein Wirbelstab, löst sich vorsichtig ab. Er wirft es mit einer ruckartigen Bewegung über euch hin, sodass ihr es auffngen könnt. Ihr könnt sehen, dass das Blatt ein gebüchstes Verzeichnis ist, dunkel vom Staub und vermutlich von Jahrhundetten. Eine einzelne Einträge wird hervorgeöhnt.*\n\n**„’…Torment… Markus… ß… 1789…§… 12… 6… §… 60…§… 600…§… 6000…§… 60000…§… 600000…§… 6000000…§… 60000000…§… 600000000…§… 60000000",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_k_m.gguf",
+    "outputTokenLimit": 256,
+    "case": "grask-reading",
+    "runtime": "Windows x86_64 CPU"
+  }
+]

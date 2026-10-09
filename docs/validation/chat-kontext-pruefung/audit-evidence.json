@@ -1,0 +1,214 @@
+{
+  "changedExistingSourceFiles": [
+    "app/src/main/cpp/gguf-jni.cpp",
+    "app/src/main/java/dev/vincent/geschichten/AppViewModel.kt",
+    "app/src/main/java/dev/vincent/geschichten/ai/GgufEngine.kt",
+    "app/src/main/java/dev/vincent/geschichten/ai/LocalModelEngine.kt",
+    "app/src/main/java/dev/vincent/geschichten/ai/StoryPrompt.kt",
+    "app/src/main/java/dev/vincent/geschichten/ai/StorySummaryPrompt.kt"
+  ],
+  "newSourceFiles": [
+    "app/src/main/java/dev/vincent/geschichten/ai/LiteRtStoryTemplate.kt",
+    "app/src/main/java/dev/vincent/geschichten/ai/StoryGeneration.kt",
+    "app/src/main/java/dev/vincent/geschichten/ai/StoryOutputLimit.kt",
+    "app/src/main/java/dev/vincent/geschichten/ai/StorySummaryPlan.kt",
+    "app/src/test/java/dev/vincent/geschichten/ai/LiteRtStoryTemplateTest.kt",
+    "app/src/test/java/dev/vincent/geschichten/ai/StoryContextAuditTest.kt",
+    "app/src/visualTest/java/dev/vincent/geschichten/ChatContextIntegrationTest.kt"
+  ],
+  "removedOriginalSourceFiles": [],
+  "normalTests": {
+    "suites": [
+      {
+        "name": "dev.vincent.geschichten.ai.LiteRtStoryTemplateTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.LocalModelCatalogTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.ModelDownloadProtocolTest",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.ModelPerformanceTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.StoryContextAuditTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.StoryPromptTest",
+        "tests": 23,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.StoryReplyValidationTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.StorySummaryPromptTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.data.BuiltinCharactersCatalogTest",
+        "tests": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ui.StoryTextTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.updates.UpdatePolicyTest",
+        "tests": 16,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "totals": {
+      "tests": 82,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "selectedIntegrationTests": {
+    "suites": [
+      {
+        "name": "dev.vincent.geschichten.ai.StoryContextAuditTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.StoryPromptTest",
+        "tests": 23,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ai.StorySummaryPromptTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.AppViewModelHistoryIntegrationTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.ChatContextIntegrationTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.data.CatalogMigrationTest",
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "dev.vincent.geschichten.data.StoryRepositoryIntegrationTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "totals": {
+      "tests": 55,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "lintBefore": {
+    "bySeverity": {
+      "Warning": 119
+    },
+    "byId": {
+      "ApplySharedPref": 1,
+      "GradleDependency": 5,
+      "ModifierParameter": 1,
+      "DiscouragedApi": 2,
+      "ChromeOsAbiSupport": 1,
+      "ObsoleteSdkInt": 1,
+      "UnusedResources": 91,
+      "MonochromeLauncherIcon": 1,
+      "UseKtx": 16
+    }
+  },
+  "lintAfter": {
+    "bySeverity": {
+      "Warning": 119
+    },
+    "byId": {
+      "ApplySharedPref": 1,
+      "GradleDependency": 5,
+      "ModifierParameter": 1,
+      "DiscouragedApi": 2,
+      "ChromeOsAbiSupport": 1,
+      "ObsoleteSdkInt": 1,
+      "UnusedResources": 91,
+      "MonochromeLauncherIcon": 1,
+      "UseKtx": 16
+    }
+  },
+  "apk": {
+    "sha256": "fcc767afba172643b52d674846ff59014b437344df0d9cf993d344a88c7dfbd5",
+    "bytes": 313400812,
+    "nativeLibraries": [
+      "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "lib/arm64-v8a/libgeschichten_gguf.so",
+      "lib/arm64-v8a/liblitertlm_jni.so"
+    ],
+    "includesSyntheticTestClass": false
+  },
+  "adapter": {
+    "sha256": "07e9a6314fa42e4457df5adce34f1d85e57fe63a6471243bbd2295e1cd03194b",
+    "bytes": 132187888
+  },
+  "inputAfterSha256": "83b265152e6856561d8fd5523241bf350877b0314c908770b7edc1ea5cf82d68",
+  "inputBeforeSha256": "b8e6e869fce0bbe507f689b5edc5b3edb5ac1efc372ccb56e4558422dba940c4"
+}

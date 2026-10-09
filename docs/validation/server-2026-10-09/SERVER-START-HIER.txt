@@ -1,0 +1,55 @@
+GESCHICHTEN – PROJEKTSTAND FÜR CODEX AUF DEM SERVER
+Stand: 9. Oktober 2026. Diese Datei dokumentiert den bisherigen Stand; der neue Arbeitsauftrag kommt vom Nutzer im Chat.
+
+ZIEL
+Die Android-App soll nachvollziehbare deutsche Figurengespräche schreiben. Figurenwissen, Rollen, Eigentum, Träger, Verwandtschaften, aktuelle Handlungen und Nutzerkorrekturen müssen erhalten bleiben. Der Nutzer möchte nach schlechten Handy-Modellergebnissen jetzt leistungsfähigere lokale Modelle auf seinem PC prüfen. Keine Nachrichtengebühren für die Geschichten-KI; Ollama soll lokal arbeiten.
+
+TATSÄCHLICHE SERVERHARDWARE
+Windows 10, Intel Core i7-6700K (NICHT Ryzen 5900X), 32 GB RAM, RTX 2060 mit 6 GiB eigenem Grafikspeicher. SSDs vorhanden; freier Plattenplatz muss vor weiteren Downloads vor Ort geprüft werden. Die im Task-Manager insgesamt angezeigten 22 GB GPU-Speicher umfassen 16 GB geteilten RAM.
+
+ERREICHTER TESTZUGANG
+Ollama 0.40.2. Laufende manuell gestartete Sitzung:
+  OLLAMA_HOST=192.168.178.73:11434
+  OLLAMA_NO_CLOUD=1
+  ollama serve
+Das PowerShell-Fenster muss für diese Sitzung offen bleiben. Diese Umgebungsvariablen wurden nicht dauerhaft eingerichtet. Nach Neustart nicht annehmen, dass dieselbe Adresse oder Cloud-Einstellung weiterhin gilt.
+CUDA erkennt die RTX 2060. Der Startlog meldete etwa 5 GiB freien VRAM.
+Vom bisherigen Arbeits-PC benötigte die API-Abfrage die genehmigte Ausführung außerhalb des eingeschränkten Werkzeugprozesses. Keine zusätzliche Firewalländerung war notwendig. Fensterautomation auf diesem bisherigen Arbeits-PC scheiterte mit einem Laufzeitfehler; daraus folgt keine Aussage über Computer Use auf diesem Server.
+
+INSTALLIERTE MODELLE UND KONFIGURATION
+  hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M
+  geschichten-qwen3-8b-test
+Das erste ist der unveränderte Import. Das zweite nutzt dieselben Gewichte und eine angepasste Testvorlage für API-think:false, ohne sichtbare Denkmarker. Die GUI ohne explizites think:false ist für diese Testdefinition noch nicht geprüft. Es ist kein neu trainiertes Modell.
+Qualitätsprofil: num_ctx=4096, num_predict=384, seed=42, temperature=0.7, top_k=20, top_p=0.8, min_p=0, repeat_penalty=1, presence_penalty=1.5, think=false, nur eine Anfrage gleichzeitig.
+Der Originalimport hat sehr große Defaults (40960 Kontext, 32768 Ausgabe). Bei dieser Hardware nicht ungeprüft übernehmen.
+
+TATSÄCHLICH GEMESSEN
+28 Qualitätsantworten plus sechs kurze Konfigurations-/Geschwindigkeitsproben direkt über die Server-API. Alle 28 vollständig, ohne Ausgabeabbruch, ohne Denktext oder Denkmarker; maximal 3423 gemeldete Eingabetokens plus 384 reservierte Ausgabetokens, innerhalb 4096.
+Fortlaufende Mira-/Grask-Gespräche: erster Text 0.38–1.10 s, Median 0.49 s; ganze Antworten 9.50–20.36 s. Kurzer Kaltstart etwa 4.55–5.38 s. Lange frisch zu verarbeitende Gedächtniseingabe bis 8.93 s zum ersten Text. Keine Android-Ende-zu-Ende- oder Mehrnutzer-Latenzmessung.
+/api/ps meldet bei 4096 Tokens etwa 5.76 GB Modellbelegung, davon 4.19 GB auf GPU: teilweise GPU, teilweise CPU/RAM. Das ist Speicherplatzierung, keine prozentuale Echtzeit-GPU-Auslastung.
+Zwölf kurze Quellenfragen: 8/12 Kernantworten richtig, nur 6/12 ganze Antworten ohne zusätzliche Faktenfehler. Acht alte App-Eingaben: 5/8 Kernantworten, 4/8 ganze Antworten faktentreu.
+Wichtige Fehler: Ruth falscher Schwester zugeordnet, Leif/Elva als schon genannte Schenker nicht erkannt, Amulett-Eigentümer und Erbstück erfunden, unbekannte Übergabe aus einer Frage als definitiv nicht geschehen behandelt, Liv/Arne bei Übergabegrund verwechselt. Grask erfindet Alter und Vergangenheit und widerspricht sich. Mira behält Alex/Empfänger und die geschlossene Tür, führt aber ungesicherte Scan-/Kartenfähigkeiten ein.
+Entscheidung: Hardware funktioniert; Qwen3-8B ist in dieser Konfiguration noch nicht verlässlich genug für den gewünschten Geschichtenbetrieb.
+
+EMPFOHLENE NÄCHSTE KANDIDATEN – NOCH NICHT GETESTET ODER HERUNTERGELADEN
+1. Ministral 3 14B Instruct, Ollama ministral-3:14b, Q4_K_M, ungefähr 9.1 GB Download.
+2. Gemma 4 12B, Ollama gemma4:12b, Windows/llama.cpp Q4-Variante ungefähr 8 GB.
+Beide passen nicht vollständig in 6 GiB VRAM und brauchen CPU/RAM-Unterstützung. Geschwindigkeit und Qualität sind offen. Herstellerbenchmarks sind kein Nachweis für unsere Figurenfälle. Korrekte modellspezifische Vorlagen und Denkmodus-Behandlung prüfen, bevor Ausgaben bewertet werden.
+Eine Empfehlung allein ist kein Nachweis, dass ein Modell bereits installiert ist oder gewonnen hat. Weitere Downloads/Tests richten sich nach dem aktuellen Nutzerauftrag.
+
+TESTDATEIEN IM PAKET
+docs/PRUEFBERICHT-SERVER-2026-10-09.md: deutscher Ergebnisbericht mit Einschränkungen und Primärquellen.
+docs/validation/server-2026-10-09/: eingefrorener Plan, tatsächliche HTTP-Requests, native Metriken, unveränderte Rohstreams, manuelle Auswertung, gewichtsgleiche Testdefinition, Python-Test und Auswertung.
+Zusätzlich enthalten: exakt die historischen JSON-Quellen, die plan-frozen.json per SHA-256 referenziert. Es gibt keine APK, Android-Quellcode, Modellgewichte oder Zugangsschlüssel in diesem ZIP.
+Vorhandene Messdateien erhalten. Neue Modellvergleiche in neuen Ausgabeverzeichnissen ablegen. probe.py ist auf das getestete Qwen-Modell festgelegt; vor einem Vergleich um explizite Modell-/Profilparameter erweitern, statt still die alten Daten oder eingefrorenen Einstellungen zu überschreiben.
+Die beiden vierzügigen Dialoge müssen die jeweils neu erzeugten Antworten des getesteten Modells weiterverwenden. Keine handgeschriebenen Ersatzantworten oder erwarteten Lösungen an das Modell übermitteln.
+summarize.py prüft auch die mitgelieferten Originalquellen. Der historische Kira-Brieffall enthält bereits fremde Profilreste Tammo/Yara; diese Einschränkung ist im Bericht festgehalten. Bei einem bereinigten Testfall neue Version erzeugen und die alten Ergebnisse erhalten.
+
+ANDROID-APP UND GRENZEN
+Aktuelle lokale APK auf dem ursprünglichen Arbeits-PC: Geschichten 0.8.7, versionCode 21, dev.vincent.geschichten. SHA-256 fd15af5bb3928674a4b965ab0d773dceee4bd5f84068b45fb9663da283873071. Gleiche Signatur wie vorher, Gedächtnisschema 10. Kein neuer Release für diese Servertests.
+Originalprojekt liegt auf dem anderen Arbeits-PC unter F:\Geschichte App KI\geschichten-android. Dieser Ordner und das gesamte Android-Projekt sind nicht Teil des Übergabepakets. Auch die Pfade der bisherigen lokalen Projektchats sind dadurch nicht auf den Server übertragen.
+Die Handy-Anbindung an Ollama ist noch nicht implementiert. Die bisherigen Modelltests schreiben nicht in die Android-Datenbank. Sie belegen getrennt, welche Eingabe übermittelt wurde und wie das Modell antwortete; sie ersetzen keine Tests des tatsächlichen App-Speicher-/Such-/Korrekturablaufs.
+Der frühere lokale Faktenhelfer wurde wegen unzuverlässiger Ergebnisse standardmäßig deaktiviert. Nicht als bewährte Lösung behandeln. Größere Modelle, Fine-Tuning oder ein Modell-Team sind noch kein nachgewiesener Fix.
+
+ZUR FORTSETZUNG
+Zuerst diesen Stand und den Prüfbericht lesen, lokalen Ollama-Status und freien Speicher abfragen und den aktuellen Nutzerauftrag klären. Ein fairer Vergleich muss Kernfakten UND die ganze Antwort, Verständlichkeit, Figurenverhalten, Zeit bis zum ersten Antworttext und Ausgabezeit getrennt bewerten. Eine bessere Testquote ist kein Versprechen für alle 90 Figuren oder unbegrenzt lange Gespräche.

@@ -1,0 +1,158 @@
+{
+  "calls": 18,
+  "modelCount": 6,
+  "allPromptCountsMatch": true,
+  "allInputsWithinBudget": true,
+  "archiveOriginalsActuallyPresent": true,
+  "immediateBlueCorrectionActuallyPresent": true,
+  "unknownEventNotRecalled": true,
+  "inputsSha256": "45e3bea6aa98372ea0d9226d8224446113f63f0c54a19d4361f67c6afc3423a9",
+  "additionalMemoryModelCalls": 0,
+  "models": [
+    {
+      "model": "dolphin3-llama3.2-3b",
+      "case": "archive",
+      "tokens": 3560,
+      "planningMs": 189,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "dolphin3-llama3.2-3b",
+      "case": "correction",
+      "tokens": 3372,
+      "planningMs": 47,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "dolphin3-llama3.2-3b",
+      "case": "unknown",
+      "tokens": 3396,
+      "planningMs": 31,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "gemma-4-e2b",
+      "case": "archive",
+      "tokens": 3454,
+      "planningMs": 297,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "gemma-4-e2b",
+      "case": "correction",
+      "tokens": 3515,
+      "planningMs": 59,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "gemma-4-e2b",
+      "case": "unknown",
+      "tokens": 3541,
+      "planningMs": 54,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "gemma3-davidau-4b",
+      "case": "archive",
+      "tokens": 3450,
+      "planningMs": 243,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "gemma3-davidau-4b",
+      "case": "correction",
+      "tokens": 3511,
+      "planningMs": 101,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "gemma3-davidau-4b",
+      "case": "unknown",
+      "tokens": 3537,
+      "planningMs": 88,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "huihui-qwen3-4b",
+      "case": "archive",
+      "tokens": 3324,
+      "planningMs": 201,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "huihui-qwen3-4b",
+      "case": "correction",
+      "tokens": 3378,
+      "planningMs": 51,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "huihui-qwen3-4b",
+      "case": "unknown",
+      "tokens": 3402,
+      "planningMs": 40,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "qwen2.5-1.5b",
+      "case": "archive",
+      "tokens": 3325,
+      "planningMs": 202,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "qwen2.5-1.5b",
+      "case": "correction",
+      "tokens": 3379,
+      "planningMs": 57,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "qwen2.5-1.5b",
+      "case": "unknown",
+      "tokens": 3403,
+      "planningMs": 48,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "qwen3-0.6b",
+      "case": "archive",
+      "tokens": 3328,
+      "planningMs": 198,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "qwen3-0.6b",
+      "case": "correction",
+      "tokens": 3382,
+      "planningMs": 60,
+      "accepted": true,
+      "error": null
+    },
+    {
+      "model": "qwen3-0.6b",
+      "case": "unknown",
+      "tokens": 3406,
+      "planningMs": 47,
+      "accepted": true,
+      "error": null
+    }
+  ],
+  "note": "Acceptance is not a correctness verdict; read the separate manual model assessment."
+}

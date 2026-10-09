@@ -1,0 +1,518 @@
+[
+  {
+    "case": "aux-similar-items",
+    "split": "robustness",
+    "bundle": {
+      "story": {
+        "id": "aux-similar-items",
+        "characterId": "nella",
+        "title": "dev-transfer",
+        "summary": "",
+        "startContext": "Nella und Falk stehen im Hof.",
+        "createdAt": 1800000000000,
+        "updatedAt": 1800000000100
+      },
+      "character": {
+        "id": "nella",
+        "name": "Nella",
+        "role": "Begleiterin von Falk",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Nella spricht klar und ist vorsichtig.",
+        "scenario": "Hof",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Nella blickt Falk an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "aux-similar-items-0",
+          "storyId": "aux-similar-items",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        {
+          "id": "aux-similar-items-1",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Das rote Amulett gehört Nella.",
+          "createdAt": 1800000000001
+        },
+        {
+          "id": "aux-similar-items-2",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Das blaue Amulett gehört Falk.",
+          "createdAt": 1800000000002
+        },
+        {
+          "id": "aux-similar-items-3",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Wem gehört das rote Amulett?",
+          "createdAt": 1800000000003
+        }
+      ],
+      "memories": [],
+      "memory": {
+        "version": 2,
+        "facts": [],
+        "knowledge": [],
+        "scannedSources": [],
+        "excludedEvents": [],
+        "pendingSources": 0,
+        "overview": "",
+        "characterAliases": [
+          "nella"
+        ]
+      }
+    },
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [
+      "aux-similar-items-1"
+    ],
+    "forbiddenSourceIds": []
+  },
+  {
+    "case": "aux-secret",
+    "split": "robustness",
+    "bundle": {
+      "story": {
+        "id": "aux-secret",
+        "characterId": "nella",
+        "title": "dev-transfer",
+        "summary": "",
+        "startContext": "Nella und Falk stehen im Hof.",
+        "createdAt": 1800000000000,
+        "updatedAt": 1800000000100
+      },
+      "character": {
+        "id": "nella",
+        "name": "Nella",
+        "role": "Begleiterin von Falk",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Nella spricht klar und ist vorsichtig.",
+        "scenario": "Hof",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Nella blickt Falk an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "aux-secret-0",
+          "storyId": "aux-secret",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        {
+          "id": "aux-secret-1",
+          "storyId": "aux-secret",
+          "role": "USER",
+          "text": "Unbeobachtet lege ich den Ring in den Tresor.",
+          "createdAt": 1800000000001
+        },
+        {
+          "id": "aux-secret-2",
+          "storyId": "aux-secret",
+          "role": "USER",
+          "text": "Eine Wolke zieht vorbei.",
+          "createdAt": 1800000000002
+        },
+        {
+          "id": "aux-secret-3",
+          "storyId": "aux-secret",
+          "role": "USER",
+          "text": "Wo liegt der Ring?",
+          "createdAt": 1800000000003
+        }
+      ],
+      "memories": [],
+      "memory": {
+        "version": 2,
+        "facts": [],
+        "knowledge": [],
+        "scannedSources": [],
+        "excludedEvents": [],
+        "pendingSources": 0,
+        "overview": "",
+        "characterAliases": [
+          "nella"
+        ]
+      }
+    },
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [],
+    "forbiddenSourceIds": [
+      "aux-secret-1"
+    ]
+  },
+  {
+    "case": "aux-excluded",
+    "split": "robustness",
+    "bundle": {
+      "story": {
+        "id": "aux-excluded",
+        "characterId": "nella",
+        "title": "dev-transfer",
+        "summary": "",
+        "startContext": "Nella und Falk stehen im Hof.",
+        "createdAt": 1800000000000,
+        "updatedAt": 1800000000100
+      },
+      "character": {
+        "id": "nella",
+        "name": "Nella",
+        "role": "Begleiterin von Falk",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Nella spricht klar und ist vorsichtig.",
+        "scenario": "Hof",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Nella blickt Falk an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "aux-excluded-0",
+          "storyId": "aux-excluded",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        {
+          "id": "aux-excluded-1",
+          "storyId": "aux-excluded",
+          "role": "USER",
+          "text": "Das Losungswort lautet Silberbach.",
+          "createdAt": 1800000000001
+        },
+        {
+          "id": "aux-excluded-2",
+          "storyId": "aux-excluded",
+          "role": "USER",
+          "text": "Ein Bach fließt am Weg.",
+          "createdAt": 1800000000002
+        },
+        {
+          "id": "aux-excluded-3",
+          "storyId": "aux-excluded",
+          "role": "USER",
+          "text": "Wie lautet das Losungswort?",
+          "createdAt": 1800000000003
+        }
+      ],
+      "memories": [],
+      "memory": {
+        "version": 2,
+        "facts": [
+          {
+            "id": "aux-excluded-fact",
+            "storyId": "aux-excluded",
+            "entity": {
+              "id": "aux-excluded-entity",
+              "storyId": "aux-excluded",
+              "kind": "ITEM",
+              "name": "Quelle"
+            },
+            "field": "note",
+            "value": "Ausgeschlossen",
+            "status": "EXCLUDED",
+            "pinned": false,
+            "sourceId": "aux-excluded-1",
+            "sourceText": "",
+            "version": 2,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": true,
+            "createdAt": 1800000000003,
+            "sourceOrder": 3
+          }
+        ],
+        "knowledge": [],
+        "scannedSources": [],
+        "excludedEvents": [],
+        "pendingSources": 0,
+        "overview": "",
+        "characterAliases": [
+          "nella"
+        ]
+      }
+    },
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [],
+    "forbiddenSourceIds": [
+      "aux-excluded-1"
+    ]
+  },
+  {
+    "case": "aux-other-story",
+    "split": "robustness",
+    "bundle": {
+      "story": {
+        "id": "aux-other-story",
+        "characterId": "nella",
+        "title": "dev-transfer",
+        "summary": "",
+        "startContext": "Nella und Falk stehen im Hof.",
+        "createdAt": 1800000000000,
+        "updatedAt": 1800000000100
+      },
+      "character": {
+        "id": "nella",
+        "name": "Nella",
+        "role": "Begleiterin von Falk",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Nella spricht klar und ist vorsichtig.",
+        "scenario": "Hof",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Nella blickt Falk an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "aux-other-story-0",
+          "storyId": "aux-other-story",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        {
+          "id": "aux-other-story-1",
+          "storyId": "different-story",
+          "role": "USER",
+          "text": "Die Karte liegt im Regal.",
+          "createdAt": 1800000000001
+        },
+        {
+          "id": "aux-other-story-2",
+          "storyId": "aux-other-story",
+          "role": "USER",
+          "text": "Ein Vogel ruft.",
+          "createdAt": 1800000000002
+        },
+        {
+          "id": "aux-other-story-3",
+          "storyId": "aux-other-story",
+          "role": "USER",
+          "text": "Wo liegt die Karte?",
+          "createdAt": 1800000000003
+        }
+      ],
+      "memories": [],
+      "memory": {
+        "version": 2,
+        "facts": [],
+        "knowledge": [],
+        "scannedSources": [],
+        "excludedEvents": [],
+        "pendingSources": 0,
+        "overview": "",
+        "characterAliases": [
+          "nella"
+        ]
+      }
+    },
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [],
+    "forbiddenSourceIds": [
+      "aux-other-story-1"
+    ]
+  },
+  {
+    "case": "aux-model-repetition",
+    "split": "robustness",
+    "bundle": {
+      "story": {
+        "id": "aux-model-repetition",
+        "characterId": "nella",
+        "title": "dev-transfer",
+        "summary": "",
+        "startContext": "Nella und Falk stehen im Hof.",
+        "createdAt": 1800000000000,
+        "updatedAt": 1800000000100
+      },
+      "character": {
+        "id": "nella",
+        "name": "Nella",
+        "role": "Begleiterin von Falk",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Nella spricht klar und ist vorsichtig.",
+        "scenario": "Hof",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Nella blickt Falk an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "aux-model-repetition-0",
+          "storyId": "aux-model-repetition",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        {
+          "id": "aux-model-repetition-1",
+          "storyId": "aux-model-repetition",
+          "role": "CHARACTER",
+          "text": "Ich erinnere mich: Deine Schwester hat mir den Ring geschenkt.",
+          "createdAt": 1800000000001
+        },
+        {
+          "id": "aux-model-repetition-2",
+          "storyId": "aux-model-repetition",
+          "role": "CHARACTER",
+          "text": "Ich erinnere mich: Deine Schwester hat mir den Ring geschenkt.",
+          "createdAt": 1800000000002
+        },
+        {
+          "id": "aux-model-repetition-3",
+          "storyId": "aux-model-repetition",
+          "role": "USER",
+          "text": "Von wem kam der Ring?",
+          "createdAt": 1800000000003
+        }
+      ],
+      "memories": [],
+      "memory": {
+        "version": 2,
+        "facts": [],
+        "knowledge": [],
+        "scannedSources": [],
+        "excludedEvents": [],
+        "pendingSources": 0,
+        "overview": "",
+        "characterAliases": [
+          "nella"
+        ]
+      }
+    },
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [],
+    "forbiddenSourceIds": [
+      "aux-model-repetition-1",
+      "aux-model-repetition-2"
+    ]
+  },
+  {
+    "case": "aux-current-correction",
+    "split": "robustness",
+    "bundle": {
+      "story": {
+        "id": "aux-current-correction",
+        "characterId": "nella",
+        "title": "dev-transfer",
+        "summary": "",
+        "startContext": "Nella und Falk stehen im Hof.",
+        "createdAt": 1800000000000,
+        "updatedAt": 1800000000100
+      },
+      "character": {
+        "id": "nella",
+        "name": "Nella",
+        "role": "Begleiterin von Falk",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Nella spricht klar und ist vorsichtig.",
+        "scenario": "Hof",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Nella blickt Falk an.* „Wir können hier reden.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "aux-current-correction-0",
+          "storyId": "aux-current-correction",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        {
+          "id": "aux-current-correction-1",
+          "storyId": "aux-current-correction",
+          "role": "USER",
+          "text": "Die Karte liegt auf der Bank.",
+          "createdAt": 1800000000001
+        },
+        {
+          "id": "aux-current-correction-2",
+          "storyId": "aux-current-correction",
+          "role": "USER",
+          "text": "Die Karte liegt im Schrank.",
+          "createdAt": 1800000000002
+        },
+        {
+          "id": "aux-current-correction-3",
+          "storyId": "aux-current-correction",
+          "role": "USER",
+          "text": "Wo liegt die Karte jetzt?",
+          "createdAt": 1800000000003
+        }
+      ],
+      "memories": [],
+      "memory": {
+        "version": 2,
+        "facts": [
+          {
+            "id": "aux-current-correction-fact",
+            "storyId": "aux-current-correction",
+            "entity": {
+              "id": "aux-current-correction-entity",
+              "storyId": "aux-current-correction",
+              "kind": "ITEM",
+              "name": "Karte"
+            },
+            "field": "holder",
+            "value": "In/bei Schrank",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": null,
+            "sourceText": "",
+            "version": 2,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": true,
+            "createdAt": 1800000000003,
+            "sourceOrder": 3
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "aux-current-correction-fact",
+            "knower": "character",
+            "sourceId": null,
+            "version": 2
+          }
+        ],
+        "scannedSources": [],
+        "excludedEvents": [],
+        "pendingSources": 0,
+        "overview": "",
+        "characterAliases": [
+          "nella"
+        ]
+      }
+    },
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [
+      "aux-current-correction-2"
+    ],
+    "forbiddenSourceIds": [
+      "aux-current-correction-1"
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+Compiled from "FileProvider.java"
+class androidx.core.content.FileProvider$SimplePathStrategy implements androidx.core.content.FileProvider$PathStrategy {
+  private final java.lang.String mAuthority;
+
+  private final java.util.HashMap<java.lang.String, java.io.File> mRoots;
+
+  androidx.core.content.FileProvider$SimplePathStrategy(java.lang.String);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: new           #7                  // class java/util/HashMap
+       8: dup
+       9: invokespecial #9                  // Method java/util/HashMap."<init>":()V
+      12: putfield      #10                 // Field mRoots:Ljava/util/HashMap;
+      15: aload_0
+      16: aload_1
+      17: putfield      #16                 // Field mAuthority:Ljava/lang/String;
+      20: return
+
+  void addRoot(java.lang.String, java.io.File);
+    Code:
+       0: aload_1
+       1: invokestatic  #20                 // Method android/text/TextUtils.isEmpty:(Ljava/lang/CharSequence;)Z
+       4: ifeq          17
+       7: new           #26                 // class java/lang/IllegalArgumentException
+      10: dup
+      11: ldc           #28                 // String Name must not be empty
+      13: invokespecial #30                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      16: athrow
+      17: aload_2
+      18: invokevirtual #33                 // Method java/io/File.getCanonicalFile:()Ljava/io/File;
+      21: astore_2
+      22: goto          54
+      25: astore_3
+      26: new           #26                 // class java/lang/IllegalArgumentException
+      29: dup
+      30: new           #41                 // class java/lang/StringBuilder
+      33: dup
+      34: invokespecial #43                 // Method java/lang/StringBuilder."<init>":()V
+      37: ldc           #44                 // String Failed to resolve canonical path for
+      39: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      42: aload_2
+      43: invokevirtual #50                 // Method java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      46: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      49: aload_3
+      50: invokespecial #57                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;Ljava/lang/Throwable;)V
+      53: athrow
+      54: aload_0
+      55: getfield      #10                 // Field mRoots:Ljava/util/HashMap;
+      58: aload_1
+      59: aload_2
+      60: invokevirtual #60                 // Method java/util/HashMap.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      63: pop
+      64: return
+    Exception table:
+       from    to  target type
+          17    22    25   Class java/io/IOException
+
+  public android.net.Uri getUriForFile(java.io.File);
+    Code:
+       0: aload_1
+       1: invokevirtual #64                 // Method java/io/File.getCanonicalPath:()Ljava/lang/String;
+       4: astore_2
+       5: goto          36
+       8: astore_3
+       9: new           #26                 // class java/lang/IllegalArgumentException
+      12: dup
+      13: new           #41                 // class java/lang/StringBuilder
+      16: dup
+      17: invokespecial #43                 // Method java/lang/StringBuilder."<init>":()V
+      20: ldc           #44                 // String Failed to resolve canonical path for
+      22: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      25: aload_1
+      26: invokevirtual #50                 // Method java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      29: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      32: invokespecial #30                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      35: athrow
+      36: aconst_null
+      37: astore_3
+      38: aload_0
+      39: getfield      #10                 // Field mRoots:Ljava/util/HashMap;
+      42: invokevirtual #67                 // Method java/util/HashMap.entrySet:()Ljava/util/Set;
+      45: invokeinterface #71,  1           // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;
+      50: astore        4
+      52: aload         4
+      54: invokeinterface #77,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+      59: ifeq          132
+      62: aload         4
+      64: invokeinterface #83,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      69: checkcast     #87                 // class java/util/Map$Entry
+      72: astore        5
+      74: aload         5
+      76: invokeinterface #89,  1           // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;
+      81: checkcast     #34                 // class java/io/File
+      84: invokevirtual #92                 // Method java/io/File.getPath:()Ljava/lang/String;
+      87: astore        6
+      89: aload_0
+      90: aload_2
+      91: aload         6
+      93: invokespecial #95                 // Method belongsToRoot:(Ljava/lang/String;Ljava/lang/String;)Z
+      96: ifeq          129
+      99: aload_3
+     100: ifnull        126
+     103: aload         6
+     105: invokevirtual #99                 // Method java/lang/String.length:()I
+     108: aload_3
+     109: invokeinterface #89,  1           // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;
+     114: checkcast     #34                 // class java/io/File
+     117: invokevirtual #92                 // Method java/io/File.getPath:()Ljava/lang/String;
+     120: invokevirtual #99                 // Method java/lang/String.length:()I
+     123: if_icmple     129
+     126: aload         5
+     128: astore_3
+     129: goto          52
+     132: aload_3
+     133: ifnonnull     163
+     136: new           #26                 // class java/lang/IllegalArgumentException
+     139: dup
+     140: new           #41                 // class java/lang/StringBuilder
+     143: dup
+     144: invokespecial #43                 // Method java/lang/StringBuilder."<init>":()V
+     147: ldc           #105                // String Failed to find configured root that contains
+     149: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     152: aload_2
+     153: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     156: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     159: invokespecial #30                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+     162: athrow
+     163: aload_3
+     164: invokeinterface #89,  1           // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;
+     169: checkcast     #34                 // class java/io/File
+     172: invokevirtual #92                 // Method java/io/File.getPath:()Ljava/lang/String;
+     175: astore        4
+     177: aload         4
+     179: ldc           #107                // String /
+     181: invokevirtual #109                // Method java/lang/String.endsWith:(Ljava/lang/String;)Z
+     184: ifeq          200
+     187: aload_2
+     188: aload         4
+     190: invokevirtual #99                 // Method java/lang/String.length:()I
+     193: invokevirtual #113                // Method java/lang/String.substring:(I)Ljava/lang/String;
+     196: astore_2
+     197: goto          212
+     200: aload_2
+     201: aload         4
+     203: invokevirtual #99                 // Method java/lang/String.length:()I
+     206: iconst_1
+     207: iadd
+     208: invokevirtual #113                // Method java/lang/String.substring:(I)Ljava/lang/String;
+     211: astore_2
+     212: new           #41                 // class java/lang/StringBuilder
+     215: dup
+     216: invokespecial #43                 // Method java/lang/StringBuilder."<init>":()V
+     219: aload_3
+     220: invokeinterface #117,  1          // InterfaceMethod java/util/Map$Entry.getKey:()Ljava/lang/Object;
+     225: checkcast     #100                // class java/lang/String
+     228: invokestatic  #120                // Method android/net/Uri.encode:(Ljava/lang/String;)Ljava/lang/String;
+     231: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     234: bipush        47
+     236: invokevirtual #126                // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+     239: aload_2
+     240: ldc           #107                // String /
+     242: invokestatic  #129                // Method android/net/Uri.encode:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+     245: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     248: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     251: astore_2
+     252: new           #132                // class android/net/Uri$Builder
+     255: dup
+     256: invokespecial #134                // Method android/net/Uri$Builder."<init>":()V
+     259: ldc           #135                // String content
+     261: invokevirtual #137                // Method android/net/Uri$Builder.scheme:(Ljava/lang/String;)Landroid/net/Uri$Builder;
+     264: aload_0
+     265: getfield      #16                 // Field mAuthority:Ljava/lang/String;
+     268: invokevirtual #141                // Method android/net/Uri$Builder.authority:(Ljava/lang/String;)Landroid/net/Uri$Builder;
+     271: aload_2
+     272: invokevirtual #144                // Method android/net/Uri$Builder.encodedPath:(Ljava/lang/String;)Landroid/net/Uri$Builder;
+     275: invokevirtual #147                // Method android/net/Uri$Builder.build:()Landroid/net/Uri;
+     278: areturn
+    Exception table:
+       from    to  target type
+           0     5     8   Class java/io/IOException
+
+  public java.io.File getFileForUri(android.net.Uri);
+    Code:
+       0: aload_1
+       1: invokevirtual #151                // Method android/net/Uri.getEncodedPath:()Ljava/lang/String;
+       4: astore_2
+       5: aload_2
+       6: bipush        47
+       8: iconst_1
+       9: invokevirtual #154                // Method java/lang/String.indexOf:(II)I
+      12: istore_3
+      13: iload_3
+      14: iconst_m1
+      15: if_icmpne     45
+      18: new           #26                 // class java/lang/IllegalArgumentException
+      21: dup
+      22: new           #41                 // class java/lang/StringBuilder
+      25: dup
+      26: invokespecial #43                 // Method java/lang/StringBuilder."<init>":()V
+      29: ldc           #158                // String Unable to find path from root:
+      31: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      34: aload_1
+      35: invokevirtual #50                 // Method java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      38: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      41: invokespecial #30                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      44: athrow
+      45: aload_2
+      46: iconst_1
+      47: iload_3
+      48: invokevirtual #160                // Method java/lang/String.substring:(II)Ljava/lang/String;
+      51: invokestatic  #163                // Method android/net/Uri.decode:(Ljava/lang/String;)Ljava/lang/String;
+      54: astore        4
+      56: aload_2
+      57: iload_3
+      58: iconst_1
+      59: iadd
+      60: invokevirtual #113                // Method java/lang/String.substring:(I)Ljava/lang/String;
+      63: invokestatic  #163                // Method android/net/Uri.decode:(Ljava/lang/String;)Ljava/lang/String;
+      66: astore_2
+      67: aload_0
+      68: getfield      #10                 // Field mRoots:Ljava/util/HashMap;
+      71: aload         4
+      73: invokevirtual #166                // Method java/util/HashMap.get:(Ljava/lang/Object;)Ljava/lang/Object;
+      76: checkcast     #34                 // class java/io/File
+      79: astore        5
+      81: aload         5
+      83: ifnonnull     113
+      86: new           #26                 // class java/lang/IllegalArgumentException
+      89: dup
+      90: new           #41                 // class java/lang/StringBuilder
+      93: dup
+      94: invokespecial #43                 // Method java/lang/StringBuilder."<init>":()V
+      97: ldc           #170                // String Unable to find configured root for
+      99: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     102: aload_1
+     103: invokevirtual #50                 // Method java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+     106: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     109: invokespecial #30                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+     112: athrow
+     113: new           #34                 // class java/io/File
+     116: dup
+     117: aload         5
+     119: aload_2
+     120: invokespecial #172                // Method java/io/File."<init>":(Ljava/io/File;Ljava/lang/String;)V
+     123: astore        6
+     125: aload         6
+     127: invokevirtual #33                 // Method java/io/File.getCanonicalFile:()Ljava/io/File;
+     130: astore        6
+     132: goto          165
+     135: astore        7
+     137: new           #26                 // class java/lang/IllegalArgumentException
+     140: dup
+     141: new           #41                 // class java/lang/StringBuilder
+     144: dup
+     145: invokespecial #43                 // Method java/lang/StringBuilder."<init>":()V
+     148: ldc           #44                 // String Failed to resolve canonical path for
+     150: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     153: aload         6
+     155: invokevirtual #50                 // Method java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+     158: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     161: invokespecial #30                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+     164: athrow
+     165: aload_0
+     166: aload         6
+     168: invokevirtual #92                 // Method java/io/File.getPath:()Ljava/lang/String;
+     171: aload         5
+     173: invokevirtual #92                 // Method java/io/File.getPath:()Ljava/lang/String;
+     176: invokespecial #95                 // Method belongsToRoot:(Ljava/lang/String;Ljava/lang/String;)Z
+     179: ifne          192
+     182: new           #175                // class java/lang/SecurityException
+     185: dup
+     186: ldc           #177                // String Resolved path jumped beyond configured root
+     188: invokespecial #179                // Method java/lang/SecurityException."<init>":(Ljava/lang/String;)V
+     191: athrow
+     192: aload         6
+     194: areturn
+    Exception table:
+       from    to  target type
+         125   132   135   Class java/io/IOException
+
+  private boolean belongsToRoot(java.lang.String, java.lang.String);
+    Code:
+       0: aload_1
+       1: invokestatic  #180                // Method androidx/core/content/FileProvider.access$000:(Ljava/lang/String;)Ljava/lang/String;
+       4: astore_1
+       5: aload_2
+       6: invokestatic  #180                // Method androidx/core/content/FileProvider.access$000:(Ljava/lang/String;)Ljava/lang/String;
+       9: astore_2
+      10: aload_1
+      11: new           #41                 // class java/lang/StringBuilder
+      14: dup
+      15: invokespecial #43                 // Method java/lang/StringBuilder."<init>":()V
+      18: aload_2
+      19: invokevirtual #46                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      22: bipush        47
+      24: invokevirtual #126                // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+      27: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      30: invokevirtual #185                // Method java/lang/String.startsWith:(Ljava/lang/String;)Z
+      33: ireturn
+}

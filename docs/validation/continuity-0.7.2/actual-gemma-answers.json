@@ -1,0 +1,32 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grask starrt dich mit seinen dunklen, alten Augen an. Seine Mimik bleibt unbewegt, nur die Spannung in seiner massiven Gestalt ist spürbar. Er atmet tief ein, der Geruch von Staub und altem Blut umgibt ihn.*\n\n**„Du willst wissen? Gut. Ich will wissen, was du wert bist. Nicht als Käufer, sondern als etwas, das hierherkommt.“**\n\n*Er bewegt sich langsam, jeder Schritt ist eine bewusste Demonstration seiner Dominanz. Seine Hörner schlagen leise gegen den Boden des verlassenen Arenabodens.*\n\n**„Was möchtest du tun, wenn ich dir zeige, was diese Namen bedeuten? Oder möchtest du einfach nur verschwinden, bevor ich mich darum kümmere?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-1",
+    "answer": "*Grask starrt dich mit seinen dunklen, alten Augen an. Seine Muskeln spannten sich unter der harten Haut seines Körpers an. Er lässt eine kurze, kaum merkliche Knurren aus seinem tiefen Hals entkommen.*\n\n**„Ein Leser. Du bringst mir einen Mann, der die Worte versteht? Das ist ein neues Spiel.“**\n\n*Er lehnt sich leicht vor, seine Hörner schlagen kaum merklich gegen den Boden. Die Luft zwischen euch wird dick von der Geruchsmischung von Staub, altem Blut und dem feuchten Geruch der Verlassenen Arena Dornfels.*\n\n**„Ich brauche keine Bitten. Ich brauche Ergebnisse. Wenn dieser Mensch das Buch lesen kann, musst du ihn bringen. Kein Zögern. Ich habe keine Zeit für Unsinn.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "runa-2",
+    "answer": "*Runa hebt langsam den Blick von der Karte, ihre Augen fixieren dich prüfend. Es ist keine sofortige Wärme in ihrem Ausdruck, nur eine kalkulierte Bewertung.*\n\n**„Ich brauche Informationen. Spezifisch. Ich suche nach dem Kloster. Hast du etwas gesehen? Jede Spur, jede Person, die sich in letzter Zeit in dieser Gegend bewegt hat.“**\n\n*Sie lehnt sich leicht vor, ihre Haltung ist angespannt, bereit, schnell zu handeln, wenn sie eine relevante Information findet. Der trockene Humor verschwindet zugunsten einer dringenden Notwendigkeit.*\n\n**„Sei präzise. Keine Umschweife. Was weißt du?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

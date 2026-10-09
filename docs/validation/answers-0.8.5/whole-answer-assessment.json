@@ -1,0 +1,738 @@
+[
+  {
+    "file": "raw-baseline-lexical-qwen3-official-4b.json",
+    "case": "hold-reverse",
+    "condition": "A-lexical",
+    "requiredSpans": [
+      "Tammo reicht Yara das Buch.",
+      "Tammo hat eine verletzte rechte Hand."
+    ],
+    "actuallyProvided": [
+      "Tammo reicht Yara das Buch."
+    ],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Widersprüchlicher aktueller Träger, erfundene Übergabemotive und unbelegtes Eigentum. Ein verletzter Arm allein belegt keinen Grund.",
+    "answerSha256": "adb063cf426ea62e20156600699f45d638df0d48ec53a5816029bc5ae0bd87c8",
+    "formattedPromptSha256": "151611132d2bf6048cfbeb349405c542dc2e50a3b193b2cfc8068d8989aa36ef",
+    "actualInputTokens": 3384,
+    "plannedInputTokens": 3384,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-lexical-qwen3-official-4b.json",
+    "case": "hold-family",
+    "condition": "A-lexical",
+    "requiredSpans": [
+      "Meine Schwester heißt Ruth.",
+      "Ruth hat dir den Kristall geschenkt."
+    ],
+    "actuallyProvided": [
+      "Ruth hat dir den Kristall geschenkt."
+    ],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Geber Ruth erkannt, Verwandtschaft nicht beantwortet; benötigter Familiensatz fehlt im Prompt.",
+    "answerSha256": "7a6177810e19ce854dcb814b04f1314815a4eedcd6179d3912d47cc6e09e44d4",
+    "formattedPromptSha256": "ca659f4a3afe52516f7f9adc558fbf206411232d3576d99b88f3f35e58bacc6e",
+    "actualInputTokens": 3377,
+    "plannedInputTokens": 3377,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-lexical-qwen3-official-4b.json",
+    "case": "hold-correction",
+    "condition": "A-lexical",
+    "requiredSpans": [
+      "Nun lege ich sie in den Schrank."
+    ],
+    "actuallyProvided": [],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Aktueller Schrank korrekt genannt. Nüchterne Darstellung ohne Anführungszeichen; Figurenwirkung eingeschränkt.",
+    "answerSha256": "4d15d347680b4bd7dd5c921f94081ea8b915e2a87f591d04901fd7d65474b8f3",
+    "formattedPromptSha256": "1f8f04eda8c109f7931116f60a91b128f80c8472447f5ef0ca764f685361cdf7",
+    "actualInputTokens": 3231,
+    "plannedInputTokens": 3231,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-lexical-qwen3-official-4b.json",
+    "case": "hold-transfer",
+    "condition": "A-lexical",
+    "requiredSpans": [
+      "Ich gebe dir das Amulett.",
+      "Mein linkes Bein ist verletzt; deines ist unverletzt."
+    ],
+    "actuallyProvided": [
+      "Ich gebe dir das Amulett.",
+      "Mein linkes Bein ist verletzt; deines ist unverletzt."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Geber korrekt, Figurenbein unverletzt korrekt, aber gesuchte Verletzung des Spielerbeins fehlt.",
+    "answerSha256": "4274224fbc5693a7add2514900b240e25a41cda551f48bee67fa287b42055993",
+    "formattedPromptSha256": "a89b9b936f5d6e0bf5b5dbdcd312e662289c56ff7ad9d54a133513a3f18d2467",
+    "actualInputTokens": 3502,
+    "plannedInputTokens": 3502,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-lexical-qwen3-official-4b.json",
+    "case": "hold-water",
+    "condition": "A-lexical",
+    "requiredSpans": [
+      "Jette kann nicht schwimmen und hat Angst vor tiefem Wasser."
+    ],
+    "actuallyProvided": [],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Wasserangst und Nichtschwimmen der Figur fehlen; unbelegte Bootserinnerung bzw. Entscheidung für Nutzer.",
+    "answerSha256": "791f33f6bce16864bbd9ac8813bfbbd494592179fd0626a9b384ee48f75562e5",
+    "formattedPromptSha256": "747604a19aa707d984f3cae5978d44c1046d35674124cbedad34769891f13c5f",
+    "actualInputTokens": 3188,
+    "plannedInputTokens": 3188,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-lexical-qwen3-official-4b.json",
+    "case": "causal-letter",
+    "condition": "A-lexical",
+    "requiredSpans": [
+      "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte."
+    ],
+    "actuallyProvided": [
+      "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Übergabegrund und Figurenbesitz/Tragen zunächst richtig, später widersprüchlich: weiß nicht, wer ihn hält, behauptet zugleich, ihn zu halten. Hand als handelndes Subjekt sprachlich unsauber.",
+    "answerSha256": "57bde133e06e6bcd0d4cd957b2308d0bd1408d8d567d2f026553340caa7df11c",
+    "formattedPromptSha256": "87e957a3e2442c359a6afbe3c6b24f63e76584bc50916cdfab74417139515495",
+    "actualInputTokens": 3360,
+    "plannedInputTokens": 3360,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-hybrid-qwen3-official-4b.json",
+    "case": "hold-reverse",
+    "condition": "B-hybrid",
+    "requiredSpans": [
+      "Tammo reicht Yara das Buch.",
+      "Tammo hat eine verletzte rechte Hand."
+    ],
+    "actuallyProvided": [
+      "Tammo reicht Yara das Buch."
+    ],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Widersprüchlicher aktueller Träger, erfundene Übergabemotive und unbelegtes Eigentum. Ein verletzter Arm allein belegt keinen Grund.",
+    "answerSha256": "adb063cf426ea62e20156600699f45d638df0d48ec53a5816029bc5ae0bd87c8",
+    "formattedPromptSha256": "151611132d2bf6048cfbeb349405c542dc2e50a3b193b2cfc8068d8989aa36ef",
+    "actualInputTokens": 3384,
+    "plannedInputTokens": 3384,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-hybrid-qwen3-official-4b.json",
+    "case": "hold-family",
+    "condition": "B-hybrid",
+    "requiredSpans": [
+      "Meine Schwester heißt Ruth.",
+      "Ruth hat dir den Kristall geschenkt."
+    ],
+    "actuallyProvided": [
+      "Ruth hat dir den Kristall geschenkt."
+    ],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Geber Ruth erkannt, Verwandtschaft nicht beantwortet; benötigter Familiensatz fehlt im Prompt.",
+    "answerSha256": "7a6177810e19ce854dcb814b04f1314815a4eedcd6179d3912d47cc6e09e44d4",
+    "formattedPromptSha256": "ca659f4a3afe52516f7f9adc558fbf206411232d3576d99b88f3f35e58bacc6e",
+    "actualInputTokens": 3377,
+    "plannedInputTokens": 3377,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-hybrid-qwen3-official-4b.json",
+    "case": "hold-correction",
+    "condition": "B-hybrid",
+    "requiredSpans": [
+      "Nun lege ich sie in den Schrank."
+    ],
+    "actuallyProvided": [
+      "Nun lege ich sie in den Schrank."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Aktueller Schrank korrekt genannt. Nüchterne Darstellung ohne Anführungszeichen; Figurenwirkung eingeschränkt.",
+    "answerSha256": "7e9a9b2745bfd82ec2f9bce1f5ddfa6bcd105a6583e333b545f026471d0de541",
+    "formattedPromptSha256": "604a9a3de4904d2d00943e3d9a36578344516499f9b12c45428d729424411253",
+    "actualInputTokens": 3382,
+    "plannedInputTokens": 3382,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-hybrid-qwen3-official-4b.json",
+    "case": "hold-transfer",
+    "condition": "B-hybrid",
+    "requiredSpans": [
+      "Ich gebe dir das Amulett.",
+      "Mein linkes Bein ist verletzt; deines ist unverletzt."
+    ],
+    "actuallyProvided": [
+      "Ich gebe dir das Amulett.",
+      "Mein linkes Bein ist verletzt; deines ist unverletzt."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Geber korrekt, Figurenbein unverletzt korrekt, aber gesuchte Verletzung des Spielerbeins fehlt.",
+    "answerSha256": "4274224fbc5693a7add2514900b240e25a41cda551f48bee67fa287b42055993",
+    "formattedPromptSha256": "a89b9b936f5d6e0bf5b5dbdcd312e662289c56ff7ad9d54a133513a3f18d2467",
+    "actualInputTokens": 3502,
+    "plannedInputTokens": 3502,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-hybrid-qwen3-official-4b.json",
+    "case": "hold-water",
+    "condition": "B-hybrid",
+    "requiredSpans": [
+      "Jette kann nicht schwimmen und hat Angst vor tiefem Wasser."
+    ],
+    "actuallyProvided": [],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Wasserangst und Nichtschwimmen der Figur fehlen; unbelegte Bootserinnerung bzw. Entscheidung für Nutzer.",
+    "answerSha256": "8889bd98c238ca1eae9709ad1f5091c191e9f997eb487f12a1009879ddd6a491",
+    "formattedPromptSha256": "ac23879eb2d61632d8b75dc0d6c80a962c89cdd97a5630bb46ed36ebd4e6fb7d",
+    "actualInputTokens": 3337,
+    "plannedInputTokens": 3337,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-baseline-hybrid-qwen3-official-4b.json",
+    "case": "causal-letter",
+    "condition": "B-hybrid",
+    "requiredSpans": [
+      "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte."
+    ],
+    "actuallyProvided": [
+      "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Übergabegrund und Figurenbesitz/Tragen zunächst richtig, später widersprüchlich: weiß nicht, wer ihn hält, behauptet zugleich, ihn zu halten. Hand als handelndes Subjekt sprachlich unsauber.",
+    "answerSha256": "57bde133e06e6bcd0d4cd957b2308d0bd1408d8d567d2f026553340caa7df11c",
+    "formattedPromptSha256": "87e957a3e2442c359a6afbe3c6b24f63e76584bc50916cdfab74417139515495",
+    "actualInputTokens": 3360,
+    "plannedInputTokens": 3360,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-corrected-hybrid-qwen3-official-4b.json",
+    "case": "hold-reverse",
+    "condition": "C-corrected-hybrid-context",
+    "requiredSpans": [
+      "Tammo reicht Yara das Buch.",
+      "Tammo hat eine verletzte rechte Hand."
+    ],
+    "actuallyProvided": [
+      "Tammo reicht Yara das Buch.",
+      "Tammo hat eine verletzte rechte Hand."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Widersprüchlicher aktueller Träger, erfundene Übergabemotive und unbelegtes Eigentum. Ein verletzter Arm allein belegt keinen Grund.",
+    "answerSha256": "8dc547831ec1c1381a19c5ec2b44a995e079290574fc7fd63c8ca7bcf1eaeedf",
+    "formattedPromptSha256": "e2c0683cb4643e590516eb973f3976beb9650aac32b2147f6bbf568eb25e2d8f",
+    "actualInputTokens": 3395,
+    "plannedInputTokens": 3395,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-corrected-hybrid-qwen3-official-4b.json",
+    "case": "hold-family",
+    "condition": "C-corrected-hybrid-context",
+    "requiredSpans": [
+      "Meine Schwester heißt Ruth.",
+      "Ruth hat dir den Kristall geschenkt."
+    ],
+    "actuallyProvided": [
+      "Meine Schwester heißt Ruth.",
+      "Ruth hat dir den Kristall geschenkt."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Trotz vollständiger Quelle werden Schwester und Empfänger vertauscht.",
+    "answerSha256": "538aee37a38afe021c23b78ef9fd57ee62b15f264ea8707971480d6a37fc2807",
+    "formattedPromptSha256": "729390e1cd3d230244f6c4746101c176455060565ec4549a9cbee20ded7bdbf0",
+    "actualInputTokens": 3389,
+    "plannedInputTokens": 3389,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-corrected-hybrid-qwen3-official-4b.json",
+    "case": "hold-correction",
+    "condition": "C-corrected-hybrid-context",
+    "requiredSpans": [
+      "Nun lege ich sie in den Schrank."
+    ],
+    "actuallyProvided": [
+      "Nun lege ich sie in den Schrank."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Aktueller Schrank korrekt genannt. Nüchterne Darstellung ohne Anführungszeichen; Figurenwirkung eingeschränkt.",
+    "answerSha256": "7e9a9b2745bfd82ec2f9bce1f5ddfa6bcd105a6583e333b545f026471d0de541",
+    "formattedPromptSha256": "604a9a3de4904d2d00943e3d9a36578344516499f9b12c45428d729424411253",
+    "actualInputTokens": 3382,
+    "plannedInputTokens": 3382,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-corrected-hybrid-qwen3-official-4b.json",
+    "case": "hold-transfer",
+    "condition": "C-corrected-hybrid-context",
+    "requiredSpans": [
+      "Ich gebe dir das Amulett.",
+      "Mein linkes Bein ist verletzt; deines ist unverletzt."
+    ],
+    "actuallyProvided": [
+      "Ich gebe dir das Amulett.",
+      "Mein linkes Bein ist verletzt; deines ist unverletzt."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Geber und beide Verletzungszuordnungen korrekt.",
+    "answerSha256": "73d04f952c0139bc24c33e7423a2248378698b60fc35820c082af62df3f52c56",
+    "formattedPromptSha256": "72951475763aee4700797a0ee398b9ea2a1808f5942123d40536635132147fe5",
+    "actualInputTokens": 3444,
+    "plannedInputTokens": 3444,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-corrected-hybrid-qwen3-official-4b.json",
+    "case": "hold-water",
+    "condition": "C-corrected-hybrid-context",
+    "requiredSpans": [
+      "Jette kann nicht schwimmen und hat Angst vor tiefem Wasser."
+    ],
+    "actuallyProvided": [
+      "Jette kann nicht schwimmen und hat Angst vor tiefem Wasser."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Figur nennt ihre Wasserangst und Nichtschwimmen korrekt; Spielerrolle bleibt beim Nutzer.",
+    "answerSha256": "13ccf91467e8a1be3a42d37a2be9624c5f39c296db84fcc782627039fcff7e61",
+    "formattedPromptSha256": "9db6385c48c805772d02b86318de5642224160b61ce8687f87a4e333dcb12b44",
+    "actualInputTokens": 3352,
+    "plannedInputTokens": 3352,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-corrected-hybrid-qwen3-official-4b.json",
+    "case": "causal-letter",
+    "condition": "C-corrected-hybrid-context",
+    "requiredSpans": [
+      "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte."
+    ],
+    "actuallyProvided": [
+      "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Übergabegrund und Figurenbesitz/Tragen zunächst richtig, später widersprüchlich: weiß nicht, wer ihn hält, behauptet zugleich, ihn zu halten. Hand als handelndes Subjekt sprachlich unsauber.",
+    "answerSha256": "57bde133e06e6bcd0d4cd957b2308d0bd1408d8d567d2f026553340caa7df11c",
+    "formattedPromptSha256": "87e957a3e2442c359a6afbe3c6b24f63e76584bc50916cdfab74417139515495",
+    "actualInputTokens": 3360,
+    "plannedInputTokens": 3360,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-final-hybrid-qwen3-official-4b.json",
+    "case": "hold-reverse",
+    "condition": "diagnostic-lexical-context",
+    "requiredSpans": [
+      "Tammo reicht Yara das Buch.",
+      "Tammo hat eine verletzte rechte Hand."
+    ],
+    "actuallyProvided": [
+      "Tammo reicht Yara das Buch.",
+      "Tammo hat eine verletzte rechte Hand."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Widersprüchlicher aktueller Träger, erfundene Übergabemotive und unbelegtes Eigentum. Ein verletzter Arm allein belegt keinen Grund.",
+    "answerSha256": "8dc547831ec1c1381a19c5ec2b44a995e079290574fc7fd63c8ca7bcf1eaeedf",
+    "formattedPromptSha256": "e2c0683cb4643e590516eb973f3976beb9650aac32b2147f6bbf568eb25e2d8f",
+    "actualInputTokens": 3395,
+    "plannedInputTokens": 3395,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-final-hybrid-qwen3-official-4b.json",
+    "case": "hold-family",
+    "condition": "diagnostic-lexical-context",
+    "requiredSpans": [
+      "Meine Schwester heißt Ruth.",
+      "Ruth hat dir den Kristall geschenkt."
+    ],
+    "actuallyProvided": [
+      "Meine Schwester heißt Ruth.",
+      "Ruth hat dir den Kristall geschenkt."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Trotz vollständiger Quelle werden Schwester und Empfänger vertauscht.",
+    "answerSha256": "538aee37a38afe021c23b78ef9fd57ee62b15f264ea8707971480d6a37fc2807",
+    "formattedPromptSha256": "729390e1cd3d230244f6c4746101c176455060565ec4549a9cbee20ded7bdbf0",
+    "actualInputTokens": 3389,
+    "plannedInputTokens": 3389,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-final-hybrid-qwen3-official-4b.json",
+    "case": "hold-correction",
+    "condition": "diagnostic-lexical-context",
+    "requiredSpans": [
+      "Nun lege ich sie in den Schrank."
+    ],
+    "actuallyProvided": [],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Aktueller Schrank korrekt genannt. Nüchterne Darstellung ohne Anführungszeichen; Figurenwirkung eingeschränkt.",
+    "answerSha256": "4d15d347680b4bd7dd5c921f94081ea8b915e2a87f591d04901fd7d65474b8f3",
+    "formattedPromptSha256": "1f8f04eda8c109f7931116f60a91b128f80c8472447f5ef0ca764f685361cdf7",
+    "actualInputTokens": 3231,
+    "plannedInputTokens": 3231,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-final-hybrid-qwen3-official-4b.json",
+    "case": "hold-transfer",
+    "condition": "diagnostic-lexical-context",
+    "requiredSpans": [
+      "Ich gebe dir das Amulett.",
+      "Mein linkes Bein ist verletzt; deines ist unverletzt."
+    ],
+    "actuallyProvided": [
+      "Ich gebe dir das Amulett.",
+      "Mein linkes Bein ist verletzt; deines ist unverletzt."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Geber und beide Verletzungszuordnungen korrekt.",
+    "answerSha256": "73d04f952c0139bc24c33e7423a2248378698b60fc35820c082af62df3f52c56",
+    "formattedPromptSha256": "72951475763aee4700797a0ee398b9ea2a1808f5942123d40536635132147fe5",
+    "actualInputTokens": 3444,
+    "plannedInputTokens": 3444,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-final-hybrid-qwen3-official-4b.json",
+    "case": "hold-water",
+    "condition": "diagnostic-lexical-context",
+    "requiredSpans": [
+      "Jette kann nicht schwimmen und hat Angst vor tiefem Wasser."
+    ],
+    "actuallyProvided": [],
+    "originalCoverageComplete": false,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Wasserangst und Nichtschwimmen der Figur fehlen; unbelegte Bootserinnerung bzw. Entscheidung für Nutzer.",
+    "answerSha256": "791f33f6bce16864bbd9ac8813bfbbd494592179fd0626a9b384ee48f75562e5",
+    "formattedPromptSha256": "747604a19aa707d984f3cae5978d44c1046d35674124cbedad34769891f13c5f",
+    "actualInputTokens": 3188,
+    "plannedInputTokens": 3188,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-final-hybrid-qwen3-official-4b.json",
+    "case": "causal-letter",
+    "condition": "diagnostic-lexical-context",
+    "requiredSpans": [
+      "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte."
+    ],
+    "actuallyProvided": [
+      "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte."
+    ],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": true,
+    "missedBadAnswer": true,
+    "falseRejection": false,
+    "reason": "Übergabegrund und Figurenbesitz/Tragen zunächst richtig, später widersprüchlich: weiß nicht, wer ihn hält, behauptet zugleich, ihn zu halten. Hand als handelndes Subjekt sprachlich unsauber.",
+    "answerSha256": "57bde133e06e6bcd0d4cd957b2308d0bd1408d8d567d2f026553340caa7df11c",
+    "formattedPromptSha256": "87e957a3e2442c359a6afbe3c6b24f63e76584bc50916cdfab74417139515495",
+    "actualInputTokens": 3360,
+    "plannedInputTokens": 3360,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-new-free-qwen3-official-4b.json",
+    "case": "new-holder",
+    "condition": "new-free",
+    "requiredSpans": [],
+    "actuallyProvided": [],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Richtiger Kern und verständliche freundliche Antwort; keine Rollenverwechslung.",
+    "answerSha256": "bbb0dc151d9e81990caf8dc64adad08c7a81390299e08e5dc53196103600ab91",
+    "formattedPromptSha256": "908d880d5724ee2c4385e35f3d964c759a9fd11c191bfc15f1639c5f47ca6df0",
+    "actualInputTokens": 562,
+    "plannedInputTokens": 562,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-new-free-qwen3-official-4b.json",
+    "case": "new-owner",
+    "condition": "new-free",
+    "requiredSpans": [],
+    "actuallyProvided": [],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Richtiger Kern und verständliche freundliche Antwort; keine Rollenverwechslung.",
+    "answerSha256": "2738bec8abab3b164de33afb465640b58e900119982568f4256899670cc644d8",
+    "formattedPromptSha256": "998215d4b7b3916af8b9e8b4ac6bb60d589e192f83b56042518914ce40c1f9b4",
+    "actualInputTokens": 584,
+    "plannedInputTokens": 584,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-new-free-qwen3-official-4b.json",
+    "case": "new-placed",
+    "condition": "new-free",
+    "requiredSpans": [],
+    "actuallyProvided": [],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Richtiger Kern und verständliche freundliche Antwort; keine Rollenverwechslung.",
+    "answerSha256": "d360f8c37828d6df0987ad09ecaaf956f967acaf3bcd7c1cec45cb5d270abf32",
+    "formattedPromptSha256": "6ad6668b5de6570e4846ebff987dcc7e91b488f0235ecf2e9d58f15bbd37494e",
+    "actualInputTokens": 607,
+    "plannedInputTokens": 607,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-new-free-qwen3-official-4b.json",
+    "case": "new-injury",
+    "condition": "new-free",
+    "requiredSpans": [],
+    "actuallyProvided": [],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Richtiger Kern und verständliche freundliche Antwort; keine Rollenverwechslung.",
+    "answerSha256": "6452bf8a9d78cea3722cbe0110f9ae458dceef95b2abf093821df3bc9d5d8827",
+    "formattedPromptSha256": "dc2676e05e510d474030c022d3b32e309658afd170b630ae7b608e98d0b0741d",
+    "actualInputTokens": 577,
+    "plannedInputTokens": 577,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-new-free-qwen3-official-4b.json",
+    "case": "new-goal",
+    "condition": "new-free",
+    "requiredSpans": [],
+    "actuallyProvided": [],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": true,
+    "wholeUseful": true,
+    "naturalGerman": "gut lesbar",
+    "characterEffect": "neutral/kurz",
+    "guardAccepted": true,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Richtiger Kern, verständliches Deutsch, neutrale freundliche Begleitung. Bei Zielantwort ungünstige verschachtelte Anführungszeichen.",
+    "answerSha256": "fb73dd27276a3b4090e4818bc13b933cc8aae1399aa0f92f02793b846a542a91",
+    "formattedPromptSha256": "5632da88c4457ad10426e7648faff851c0fa7ba5ceabbac191b9db31c1182192",
+    "actualInputTokens": 556,
+    "plannedInputTokens": 556,
+    "tokenBudgetValid": true
+  },
+  {
+    "file": "raw-conversation-1-qwen3-official-4b.json",
+    "case": "conversation-1",
+    "condition": "ongoing-free",
+    "requiredSpans": [],
+    "actuallyProvided": [],
+    "originalCoverageComplete": true,
+    "currentFactualCoreCorrect": false,
+    "wholeUseful": false,
+    "naturalGerman": "siehe Begründung",
+    "characterEffect": "durch Rollen- oder Inhaltsfehler beeinträchtigt",
+    "guardAccepted": false,
+    "missedBadAnswer": false,
+    "falseRejection": false,
+    "reason": "Neue Nutzerangabe ist richtig in der Eingabe; Modell ordnet aktuellen Träger seiner eigenen Rolle zu. Korrekt blockiert, keine brauchbare Ersatzantwort.",
+    "answerSha256": "8aedd5e46b4f76f783233fade9db3a49e4479dc591f22dbf0f7417f69de5cd01",
+    "formattedPromptSha256": "eeb4cc943eeb00e4544839d46089454b3c33022c66f4a8850748de6d2c1d7865",
+    "actualInputTokens": 641,
+    "plannedInputTokens": 641,
+    "tokenBudgetValid": true
+  }
+]

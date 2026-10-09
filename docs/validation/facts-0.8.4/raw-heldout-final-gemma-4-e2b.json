@@ -1,0 +1,211 @@
+[
+  {
+    "model": "gemma-4-e2b",
+    "case": "accept-gift",
+    "mode": "production",
+    "seed": 42,
+    "expected": "[[\"ITEM\",\"Anhänger\",\"owner\",\"Darian\"],[\"ITEM\",\"Anhänger\",\"holder\",\"Niemand\"],[\"ITEM\",\"Anhänger\",\"placement\",\"hinter der Truhe\"]]; unknown\u003d[]",
+    "system": "Du spielst Darian; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Darian. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBela (Spielerfigur) · Name: Bela\nAnhänger · Träger: Niemand\nAnhänger · Eigentümer: Darian\nAnhänger · Ablage: hinter der Truhe\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Bela."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Bela schenkt Darian den Anhänger. Darian legt ihn hinter die Truhe."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nBela (Spielerfigur) · Name: Bela\nAnhänger · Träger: Niemand\nAnhänger · Eigentümer: Darian\nAnhänger · Ablage: hinter der Truhe\n\nNÄCHSTE NUTZERNACHRICHT:\nWem gehört der Anhänger und wo liegt er jetzt?"
+      }
+    ],
+    "plannedInputTokens": 535,
+    "planningMs": 5155,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "formattedPrompt": "\u003c|turn\u003esystem\nDu spielst Darian; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Darian. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBela (Spielerfigur) · Name: Bela\nAnhänger · Träger: Niemand\nAnhänger · Eigentümer: Darian\nAnhänger · Ablage: hinter der Truhe\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003cturn|\u003e\n\u003c|turn\u003euser\nSetze die verfasste Ausgangsszene fort.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Ich höre zu.“\u003cturn|\u003e\n\u003c|turn\u003euser\nIch heiße Bela.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Verstanden.“\u003cturn|\u003e\n\u003c|turn\u003euser\nBela schenkt Darian den Anhänger. Darian legt ihn hinter die Truhe.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Verstanden.“\u003cturn|\u003e\n\u003c|turn\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nBela (Spielerfigur) · Name: Bela\nAnhänger · Träger: Niemand\nAnhänger · Eigentümer: Darian\nAnhänger · Ablage: hinter der Truhe\n\nNÄCHSTE NUTZERNACHRICHT:\nWem gehört der Anhänger und wo liegt er jetzt?\u003cturn|\u003e\n\u003c|turn\u003emodel\n",
+    "nativePromptTokens": 535,
+    "decoded": 15,
+    "eog": "not exposed by Kotlin API",
+    "answer": "„Der Anhänger gehört Bela und liegt jetzt hinter der Truhe.“",
+    "firstTextMs": 7315,
+    "totalMs": 8664,
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": false,
+    "guardError": "java.lang.IllegalStateException: Die Antwort widerspricht einem bekannten Gedächtniseintrag (Anhänger: Eigentümer). Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "gemma-4-e2b",
+    "case": "accept-body",
+    "mode": "production",
+    "seed": 42,
+    "expected": "[[\"PERSON\",\"Salen\",\"injury:linke schulter\",\"linke schulter: gebrochen\"],[\"PERSON\",\"Du\",\"injury:rechte hand\",\"rechte hand: verwundet\"],[\"PERSON\",\"Du\",\"injury:linkes bein\",\"linkes bein: verletzt\"]]; unknown\u003d[]",
+    "system": "Du spielst Salen; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Salen. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nTilda (Spielerfigur) · Name: Tilda\nSalen · Verletzung: linke schulter: gebrochen\nTilda (Spielerfigur) · Verletzung: rechte hand: verwundet\nTilda (Spielerfigur) · Verletzung: linkes bein: verletzt\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Tilda."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Salen hat eine gebrochene linke Schulter. Meine rechte Hand ist verwundet und mein linkes Bein ist verletzt."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nTilda (Spielerfigur) · Name: Tilda\nSalen · Verletzung: linke schulter: gebrochen\nTilda (Spielerfigur) · Verletzung: rechte hand: verwundet\nTilda (Spielerfigur) · Verletzung: linkes bein: verletzt\n\nNÄCHSTE NUTZERNACHRICHT:\nWelche Verletzungen haben wir beide?"
+      }
+    ],
+    "plannedInputTokens": 582,
+    "planningMs": 96,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "formattedPrompt": "\u003c|turn\u003esystem\nDu spielst Salen; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Salen. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nTilda (Spielerfigur) · Name: Tilda\nSalen · Verletzung: linke schulter: gebrochen\nTilda (Spielerfigur) · Verletzung: rechte hand: verwundet\nTilda (Spielerfigur) · Verletzung: linkes bein: verletzt\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003cturn|\u003e\n\u003c|turn\u003euser\nSetze die verfasste Ausgangsszene fort.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Ich höre zu.“\u003cturn|\u003e\n\u003c|turn\u003euser\nIch heiße Tilda.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Verstanden.“\u003cturn|\u003e\n\u003c|turn\u003euser\nSalen hat eine gebrochene linke Schulter. Meine rechte Hand ist verwundet und mein linkes Bein ist verletzt.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Verstanden.“\u003cturn|\u003e\n\u003c|turn\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nTilda (Spielerfigur) · Name: Tilda\nSalen · Verletzung: linke schulter: gebrochen\nTilda (Spielerfigur) · Verletzung: rechte hand: verwundet\nTilda (Spielerfigur) · Verletzung: linkes bein: verletzt\n\nNÄCHSTE NUTZERNACHRICHT:\nWelche Verletzungen haben wir beide?\u003cturn|\u003e\n\u003c|turn\u003emodel\n",
+    "nativePromptTokens": 582,
+    "decoded": 60,
+    "eog": "not exposed by Kotlin API",
+    "answer": "*Salen blickt Tilda aufmerksam an und stellt sich leicht aufrecht, um die Situation besser einschätzen zu können.*\n\n„Ich habe eine gebrochene linke Schulter. Du hast eine verwundete rechte Hand und ein verletztes linkes Bein.“",
+    "firstTextMs": 2010,
+    "totalMs": 12546,
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": true
+  },
+  {
+    "model": "gemma-4-e2b",
+    "case": "accept-hypothesis",
+    "mode": "production",
+    "seed": 42,
+    "expected": "[]; unknown\u003d[\"owner\",\"holder\"]",
+    "system": "Du spielst Kelda; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Kelda. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nOtto (Spielerfigur) · Name: Otto\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Otto."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Angenommen, ich hätte dir die Münze geschenkt. Ich möchte dir den Ring geben. Soll ich dir das Buch schenken?"
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nOtto (Spielerfigur) · Name: Otto\n\nNÄCHSTE NUTZERNACHRICHT:\nHabe ich dir bereits etwas geschenkt oder gegeben?"
+      }
+    ],
+    "plannedInputTokens": 485,
+    "planningMs": 11,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "formattedPrompt": "\u003c|turn\u003esystem\nDu spielst Kelda; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Kelda. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nOtto (Spielerfigur) · Name: Otto\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003cturn|\u003e\n\u003c|turn\u003euser\nSetze die verfasste Ausgangsszene fort.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Ich höre zu.“\u003cturn|\u003e\n\u003c|turn\u003euser\nIch heiße Otto.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Verstanden.“\u003cturn|\u003e\n\u003c|turn\u003euser\nAngenommen, ich hätte dir die Münze geschenkt. Ich möchte dir den Ring geben. Soll ich dir das Buch schenken?\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Verstanden.“\u003cturn|\u003e\n\u003c|turn\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nOtto (Spielerfigur) · Name: Otto\n\nNÄCHSTE NUTZERNACHRICHT:\nHabe ich dir bereits etwas geschenkt oder gegeben?\u003cturn|\u003e\n\u003c|turn\u003emodel\n",
+    "nativePromptTokens": 485,
+    "decoded": 36,
+    "eog": "not exposed by Kotlin API",
+    "answer": "*Kelda blickt aufmerksam in die Richtung, aus der Otto spricht, und verweilt einen Moment inne.*\n\n„Ich habe noch nichts von dir gehört.“",
+    "firstTextMs": 1866,
+    "totalMs": 7491,
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": true
+  },
+  {
+    "model": "gemma-4-e2b",
+    "case": "accept-pickup",
+    "mode": "production",
+    "seed": 42,
+    "expected": "[[\"ITEM\",\"Trank\",\"owner\",\"Du\"],[\"ITEM\",\"Trank\",\"holder\",\"Du\"],[\"ITEM\",\"Trank\",\"placement\",\"Nicht abgelegt\"]]; unknown\u003d[]",
+    "system": "Du spielst Riona; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Riona. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nVeit (Spielerfigur) · Name: Veit\nTrank · Eigentümer: Veit (Spielerfigur)\nTrank · Träger: Veit (Spielerfigur)\nTrank · Ablage: Nicht abgelegt\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "„Ich höre zu.“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Veit."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Der Trank gehört Veit. Er liegt auf der Bank. Ich nehme ihn von der Bank auf."
+      },
+      {
+        "user": false,
+        "text": "„Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nVeit (Spielerfigur) · Name: Veit\nTrank · Eigentümer: Veit (Spielerfigur)\nTrank · Träger: Veit (Spielerfigur)\nTrank · Ablage: Nicht abgelegt\n\nNÄCHSTE NUTZERNACHRICHT:\nWem gehört der Trank und wer hält ihn jetzt?"
+      }
+    ],
+    "plannedInputTokens": 559,
+    "planningMs": 89,
+    "recalledSources": [],
+    "omittedSourceIds": [],
+    "formattedPrompt": "\u003c|turn\u003esystem\nDu spielst Riona; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Riona. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nVeit (Spielerfigur) · Name: Veit\nTrank · Eigentümer: Veit (Spielerfigur)\nTrank · Träger: Veit (Spielerfigur)\nTrank · Ablage: Nicht abgelegt\nÄltere Quellen sind teilweise noch unausgewertet. Die oben angegebenen Zustände sind bereits belegt; andere fehlende Angaben sind unbekannt. Keine Erinnerungen erfinden.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt\u003cturn|\u003e\n\u003c|turn\u003euser\nSetze die verfasste Ausgangsszene fort.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Ich höre zu.“\u003cturn|\u003e\n\u003c|turn\u003euser\nIch heiße Veit.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Verstanden.“\u003cturn|\u003e\n\u003c|turn\u003euser\nDer Trank gehört Veit. Er liegt auf der Bank. Ich nehme ihn von der Bank auf.\u003cturn|\u003e\n\u003c|turn\u003emodel\n„Verstanden.“\u003cturn|\u003e\n\u003c|turn\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nVeit (Spielerfigur) · Name: Veit\nTrank · Eigentümer: Veit (Spielerfigur)\nTrank · Träger: Veit (Spielerfigur)\nTrank · Ablage: Nicht abgelegt\n\nNÄCHSTE NUTZERNACHRICHT:\nWem gehört der Trank und wer hält ihn jetzt?\u003cturn|\u003e\n\u003c|turn\u003emodel\n",
+    "nativePromptTokens": 559,
+    "decoded": 52,
+    "eog": "not exposed by Kotlin API",
+    "answer": "*Riona blickt auf den Trank, der Veit gerade von der Bank genommen hat. Sie beobachtet sorgfältig, wie Veit ihn in die Hand nimmt.*\n\n„Der Trank gehört Veit und er hält ihn jetzt.“",
+    "firstTextMs": 1990,
+    "totalMs": 8320,
+    "accepted": true,
+    "completed": true,
+    "guardAccepted": true
+  }
+]

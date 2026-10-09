@@ -1,0 +1,20 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grasks Augen, tief und dunkel, fixieren dich. Es ist kein Blick der Bedrohung, sondern der unerschütterlichen, alten Erfahrung. Er lässt die Schwere seiner Präsenz in der Stille der Arena wirken. Er wartet, die Muskeln unter seiner Panzerung scheinen leicht angespannt zu sein.*\n\n*Er lässt einen tiefen, schweren Atemzug entweichen, der nach Staub und altem Blut riecht. Seine Stimme bleibt rau, langsam, jeder Laut wirkt wie ein Schlag auf den Boden.*\n\n**„Du bist nicht wie die anderen. Du bittest um Hilfe. Das ist neu. Ich habe noch keine Jagd zugesagt. Ich brauche keine neuen Befehle. Ich brauche eine Erklärung.“**\n\n*Er schiebt seinen massiven Körper einen Schritt voran, seine Hufe knirpen leise auf dem trockenem Boden. Er blickt auf das Wärtergitter, dann wieder auf dich. Seine Augen suchen nach etwas, das über die Oberfläche hinausgeht – nach einem Anzuchter, einem Zeichen, das ihm sagt, dass du nicht einfach nur ein weiterer Schatten bist.*\n\n**„Was suchst du hier? Warum bittest du einen Minotaurus, dessen Zeit mit dem Töten gefüllt war, um etwas zu lesen? Sei direkt. Keine Lüge.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  },
+  {
+    "case": "grask-1",
+    "answer": "*Grasks Augen, die wie dunkle Obsidianbrocken wirken, fixieren dich. Seine Mähne scheint im schwachen Licht der verlassenen Arena zu vibrieren. Er verhakt den Kopf leicht, eine Mischung aus Skepsis und einer unerwarteten, fast kalkulierten Erleichterung in seinem Blick.*\n\n*Er starrt dich an, seine gesamte Haltung ist eine Mischung aus brutaler Bereitschaft und einer tiefen, unerschütterlichen Misstrauenssicht. Die Vorstellung, dass jemand die Arbeit für ihn übernehmen könnte, ist ungewöhnlich, aber die Möglichkeit, eine neue Art von Macht zu gewinnen, ist reizvoll.*\n\n**„Du willst mich liest? Du willst, dass jemand meinen Mund füllt?“** *Seine Stimme ist tief, rau und klingt wie das Schleifen von Metall über Stein. Es gibt keine Wärme in dieser Frage, nur die reine, ungeschminkte Notwendigkeit.*\n\n*Er bewegt sich nicht von seinem Platz, aber die Spannung in seinem Körper ist greifbar. Er prüft, ob du eine Bedrohung darstellst oder einfach nur einen weiteren, unvorhersehbaren Fremden.*\n\n**„Ich brauche keine Worte von dir, wenn du nicht weißt, was du sagst. Zeig mir, wer dieser Mensch ist. Wer hat den Mut, meine Zeit zu verschwenden?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  },
+  {
+    "case": "runa-2",
+    "answer": "*Runa blickt dich mit einem prüfenden, fast scharfen Blick an. Ihr Ausdruck ist eine Mischung aus Skepsis und einer gewissen, fast kalkulierten Vorsicht. Sie lehnt sich leicht vor, ihre Haltung signalisiert, dass sie bereit ist, Informationen auszutauschen, aber nicht einfach nur zuzuhören.*\n\n**„Ich brauche keine Hilfe. Ich brauche Informationen. Du bist ein Bote. Du hast den Pass durchquert, du weißt, wo du herkommst, und du weißt, was du gesehen hast. Das ist alles.“**\n\n*Sie gestikuliert kurz mit der Hand auf die Karte und das Suchblatt, ihre Bewegungen sind präzise und auf den Punkt gebracht. Ihr Blick bleibt auf dir fixiert, prüft jede Nuance in deinem Ausdruck.*\n\n**„Was hast du gesehen? Hast du etwas bemerkt, das nicht auf der Karte steht? Und was weißt du über das Kloster? Sei präzise. Zeit kostet hier.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  }
+]

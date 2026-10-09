@@ -1,0 +1,1463 @@
+[
+  {
+    "case": "new-holder",
+    "expected": "„Ich halte den Dolch.“",
+    "bundle": {
+      "story": {
+        "id": "1f410a07-abc0-4921-af99-023786dd30cc",
+        "characterId": "new-holder",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791448457291,
+        "updatedAt": 1791448457297
+      },
+      "character": {
+        "id": "new-holder",
+        "name": "Liora",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "180b51e4-1164-4d0d-8c11-1f87d27ce5e3",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791448457291
+        },
+        {
+          "id": "9e756aa8-97a6-45d6-826b-551e9251a655",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "role": "USER",
+          "text": "Ich heiße Bennet.",
+          "createdAt": 1791448457292
+        },
+        {
+          "id": "7a11fa47-7149-43f7-aee1-0ea85fd540c0",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457293
+        },
+        {
+          "id": "0ca58667-ae81-40a8-835a-411c616c16a0",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "role": "USER",
+          "text": "Du hältst den Dolch.",
+          "createdAt": 1791448457294
+        },
+        {
+          "id": "f82cd0c9-1dbe-4301-8b70-8f03469d97bc",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457295
+        },
+        {
+          "id": "4b4f0901-e925-4350-9652-b10d24c074ab",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "role": "USER",
+          "text": "Wer hält den Dolch jetzt?",
+          "createdAt": 1791448457297
+        }
+      ],
+      "memories": [
+        {
+          "id": "d7675de3-88ca-40c8-8559-81c679fc68cf",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "kind": "FACT",
+          "text": "Startvorgabe: Liora: Begleitung",
+          "pinned": true,
+          "createdAt": 1791448457291,
+          "updatedAt": 1791448457291
+        },
+        {
+          "id": "eb6c3a15-bdca-4413-b47f-b86cc427f696",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791448457292,
+          "updatedAt": 1791448457292
+        }
+      ],
+      "memory": {
+        "version": 7,
+        "facts": [
+          {
+            "id": "bd47d5c8d1ee98a2ea44f5e48d559289",
+            "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+            "entity": {
+              "id": "63c89c65f17c250ef52e0c3d3d5a4629",
+              "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Bennet",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "9e756aa8-97a6-45d6-826b-551e9251a655",
+            "sourceText": "Ich heiße Bennet.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457292,
+            "sourceOrder": 2
+          },
+          {
+            "id": "e80f52d5261766169ca914dd3edc4d9f",
+            "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+            "entity": {
+              "id": "b05db7a2d50c390e659fd83d8cc285a6",
+              "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+              "kind": "ITEM",
+              "name": "Dolch"
+            },
+            "field": "holder",
+            "value": "Liora",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "0ca58667-ae81-40a8-835a-411c616c16a0",
+            "sourceText": "Du hältst den Dolch.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457294,
+            "sourceOrder": 4
+          },
+          {
+            "id": "10cef36c3ca19119a429d8f96596aa04",
+            "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+            "entity": {
+              "id": "b05db7a2d50c390e659fd83d8cc285a6",
+              "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+              "kind": "ITEM",
+              "name": "Dolch"
+            },
+            "field": "holder",
+            "value": "Wer",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "4b4f0901-e925-4350-9652-b10d24c074ab",
+            "sourceText": "Wer hält den Dolch jetzt?",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457297,
+            "sourceOrder": 6
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "bd47d5c8d1ee98a2ea44f5e48d559289",
+            "knower": "character",
+            "sourceId": "9e756aa8-97a6-45d6-826b-551e9251a655",
+            "version": 3
+          },
+          {
+            "factId": "bd47d5c8d1ee98a2ea44f5e48d559289",
+            "knower": "player",
+            "sourceId": "9e756aa8-97a6-45d6-826b-551e9251a655",
+            "version": 3
+          },
+          {
+            "factId": "e80f52d5261766169ca914dd3edc4d9f",
+            "knower": "character",
+            "sourceId": "0ca58667-ae81-40a8-835a-411c616c16a0",
+            "version": 6
+          },
+          {
+            "factId": "e80f52d5261766169ca914dd3edc4d9f",
+            "knower": "player",
+            "sourceId": "0ca58667-ae81-40a8-835a-411c616c16a0",
+            "version": 6
+          }
+        ],
+        "scannedSources": [
+          "9e756aa8-97a6-45d6-826b-551e9251a655",
+          "7a11fa47-7149-43f7-aee1-0ea85fd540c0",
+          "0ca58667-ae81-40a8-835a-411c616c16a0",
+          "f82cd0c9-1dbe-4301-8b70-8f03469d97bc"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "liora"
+        ]
+      }
+    }
+  },
+  {
+    "case": "new-owner",
+    "expected": "„Der Ring gehört dir.“",
+    "bundle": {
+      "story": {
+        "id": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+        "characterId": "new-owner",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791448457306,
+        "updatedAt": 1791448457325
+      },
+      "character": {
+        "id": "new-owner",
+        "name": "Neris",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "d0769850-df01-42b0-8316-a1b4445136ef",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791448457306
+        },
+        {
+          "id": "38846525-9de2-43c9-86e9-fffc967e4a5a",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "role": "USER",
+          "text": "Ich heiße Thilo.",
+          "createdAt": 1791448457307
+        },
+        {
+          "id": "010ddfef-c0b2-4ae3-8034-3c6cb675f9a7",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457318
+        },
+        {
+          "id": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "role": "USER",
+          "text": "Der Ring gehört mir. Du hältst den Ring.",
+          "createdAt": 1791448457320
+        },
+        {
+          "id": "4853b809-5151-4a1d-86ea-4aba86f16c76",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457323
+        },
+        {
+          "id": "4ab441b7-210c-4231-b34d-22dd1c5e8969",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "role": "USER",
+          "text": "Wem gehört der Ring?",
+          "createdAt": 1791448457325
+        }
+      ],
+      "memories": [
+        {
+          "id": "dbb3103b-8252-4424-8694-7282934cad13",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "kind": "FACT",
+          "text": "Startvorgabe: Neris: Begleitung",
+          "pinned": true,
+          "createdAt": 1791448457306,
+          "updatedAt": 1791448457306
+        },
+        {
+          "id": "79e24143-f744-44ce-9b62-59fd4420c3bc",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791448457307,
+          "updatedAt": 1791448457307
+        }
+      ],
+      "memory": {
+        "version": 8,
+        "facts": [
+          {
+            "id": "86af68da3facd6c226063e6b2af06265",
+            "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+            "entity": {
+              "id": "6f9d933d050c30d846937f82e6e1f2d2",
+              "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Thilo",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "38846525-9de2-43c9-86e9-fffc967e4a5a",
+            "sourceText": "Ich heiße Thilo.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457307,
+            "sourceOrder": 9
+          },
+          {
+            "id": "7fef49d355ee40868e4df06d7e5e407f",
+            "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+            "entity": {
+              "id": "2e1f6663f3baa88386115d23a96520b7",
+              "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+              "kind": "ITEM",
+              "name": "Ring"
+            },
+            "field": "owner",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+            "sourceText": "Der Ring gehört mir.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457320,
+            "sourceOrder": 11
+          },
+          {
+            "id": "e41105a6377bfcbab75e0c2e5b999f38",
+            "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+            "entity": {
+              "id": "2e1f6663f3baa88386115d23a96520b7",
+              "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+              "kind": "ITEM",
+              "name": "Ring"
+            },
+            "field": "holder",
+            "value": "Neris",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+            "sourceText": "Du hältst den Ring.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457320,
+            "sourceOrder": 11
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "e41105a6377bfcbab75e0c2e5b999f38",
+            "knower": "character",
+            "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+            "version": 7
+          },
+          {
+            "factId": "e41105a6377bfcbab75e0c2e5b999f38",
+            "knower": "player",
+            "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+            "version": 7
+          },
+          {
+            "factId": "7fef49d355ee40868e4df06d7e5e407f",
+            "knower": "character",
+            "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+            "version": 6
+          },
+          {
+            "factId": "7fef49d355ee40868e4df06d7e5e407f",
+            "knower": "player",
+            "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+            "version": 6
+          },
+          {
+            "factId": "86af68da3facd6c226063e6b2af06265",
+            "knower": "character",
+            "sourceId": "38846525-9de2-43c9-86e9-fffc967e4a5a",
+            "version": 3
+          },
+          {
+            "factId": "86af68da3facd6c226063e6b2af06265",
+            "knower": "player",
+            "sourceId": "38846525-9de2-43c9-86e9-fffc967e4a5a",
+            "version": 3
+          }
+        ],
+        "scannedSources": [
+          "38846525-9de2-43c9-86e9-fffc967e4a5a",
+          "010ddfef-c0b2-4ae3-8034-3c6cb675f9a7",
+          "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+          "4853b809-5151-4a1d-86ea-4aba86f16c76"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "neris"
+        ]
+      }
+    }
+  },
+  {
+    "case": "new-placed",
+    "expected": "„Der Brief liegt auf der Bank.“",
+    "bundle": {
+      "story": {
+        "id": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+        "characterId": "new-placed",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791448457337,
+        "updatedAt": 1791448457343
+      },
+      "character": {
+        "id": "new-placed",
+        "name": "Varda",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "35fdee2e-e24e-4637-8053-bb038717a86e",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791448457337
+        },
+        {
+          "id": "3867ed80-db25-46a9-a65e-066a6412deb6",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "role": "USER",
+          "text": "Ich heiße Eike.",
+          "createdAt": 1791448457338
+        },
+        {
+          "id": "fdffdb8b-a88e-4d8c-bf92-0bfe74a6035e",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457339
+        },
+        {
+          "id": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "role": "USER",
+          "text": "Der Brief gehört mir. Ich lege den Brief auf die Bank.",
+          "createdAt": 1791448457340
+        },
+        {
+          "id": "ef9ff323-6b49-46d6-84fd-43782a4d61be",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457341
+        },
+        {
+          "id": "8f782a3f-7ba8-440d-8fc3-f170eebd209a",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "role": "USER",
+          "text": "Wo liegt der Brief aktuell?",
+          "createdAt": 1791448457343
+        }
+      ],
+      "memories": [
+        {
+          "id": "ac408742-6009-46b7-b072-235c9cb28592",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "kind": "FACT",
+          "text": "Startvorgabe: Varda: Begleitung",
+          "pinned": true,
+          "createdAt": 1791448457337,
+          "updatedAt": 1791448457337
+        },
+        {
+          "id": "c9966dfd-dcf8-46c7-a4b0-b0372a508144",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791448457338,
+          "updatedAt": 1791448457338
+        }
+      ],
+      "memory": {
+        "version": 9,
+        "facts": [
+          {
+            "id": "c7e716dfdcbd1de9bbda2a14ce1e1181",
+            "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+            "entity": {
+              "id": "ffc33ba1b120a90d25cc93ac1d0548d0",
+              "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Eike",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "3867ed80-db25-46a9-a65e-066a6412deb6",
+            "sourceText": "Ich heiße Eike.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457338,
+            "sourceOrder": 16
+          },
+          {
+            "id": "d14fbac1a3f537e651d53ef15ad1f00d",
+            "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+            "entity": {
+              "id": "2ca1a41ef0c3b536d9ecef28414e317a",
+              "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+              "kind": "ITEM",
+              "name": "Brief"
+            },
+            "field": "owner",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "sourceText": "Der Brief gehört mir.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457340,
+            "sourceOrder": 18
+          },
+          {
+            "id": "3f92d8feac8c7ac1351c71fa8dd96b56",
+            "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+            "entity": {
+              "id": "2ca1a41ef0c3b536d9ecef28414e317a",
+              "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+              "kind": "ITEM",
+              "name": "Brief"
+            },
+            "field": "holder",
+            "value": "Niemand",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "sourceText": "Ich lege den Brief auf die Bank.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457340,
+            "sourceOrder": 18
+          },
+          {
+            "id": "d7c61c65e1f7ec761543d80fc6b6e955",
+            "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+            "entity": {
+              "id": "2ca1a41ef0c3b536d9ecef28414e317a",
+              "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+              "kind": "ITEM",
+              "name": "Brief"
+            },
+            "field": "placement",
+            "value": "auf der Bank",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "sourceText": "Ich lege den Brief auf die Bank.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457340,
+            "sourceOrder": 18
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "3f92d8feac8c7ac1351c71fa8dd96b56",
+            "knower": "character",
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "version": 7
+          },
+          {
+            "factId": "3f92d8feac8c7ac1351c71fa8dd96b56",
+            "knower": "player",
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "version": 7
+          },
+          {
+            "factId": "d14fbac1a3f537e651d53ef15ad1f00d",
+            "knower": "character",
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "version": 6
+          },
+          {
+            "factId": "d14fbac1a3f537e651d53ef15ad1f00d",
+            "knower": "player",
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "version": 6
+          },
+          {
+            "factId": "d7c61c65e1f7ec761543d80fc6b6e955",
+            "knower": "character",
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "version": 8
+          },
+          {
+            "factId": "d7c61c65e1f7ec761543d80fc6b6e955",
+            "knower": "player",
+            "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+            "version": 8
+          },
+          {
+            "factId": "c7e716dfdcbd1de9bbda2a14ce1e1181",
+            "knower": "character",
+            "sourceId": "3867ed80-db25-46a9-a65e-066a6412deb6",
+            "version": 3
+          },
+          {
+            "factId": "c7e716dfdcbd1de9bbda2a14ce1e1181",
+            "knower": "player",
+            "sourceId": "3867ed80-db25-46a9-a65e-066a6412deb6",
+            "version": 3
+          }
+        ],
+        "scannedSources": [
+          "3867ed80-db25-46a9-a65e-066a6412deb6",
+          "fdffdb8b-a88e-4d8c-bf92-0bfe74a6035e",
+          "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "ef9ff323-6b49-46d6-84fd-43782a4d61be"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "varda"
+        ]
+      }
+    }
+  },
+  {
+    "case": "new-injury",
+    "expected": "„Meine linke Schulter ist gebrochen.“",
+    "bundle": {
+      "story": {
+        "id": "9174873a-e7a3-4738-b674-04a1a894edb1",
+        "characterId": "new-injury",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791448457366,
+        "updatedAt": 1791448457371
+      },
+      "character": {
+        "id": "new-injury",
+        "name": "Maren",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "d41edcac-fa9e-47fd-85d3-2a18a0cd529d",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791448457366
+        },
+        {
+          "id": "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "role": "USER",
+          "text": "Ich heiße Corvin.",
+          "createdAt": 1791448457367
+        },
+        {
+          "id": "62a7514d-8951-41bb-8979-ac08132d2e9f",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457368
+        },
+        {
+          "id": "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "role": "USER",
+          "text": "Deine linke Schulter ist gebrochen.",
+          "createdAt": 1791448457369
+        },
+        {
+          "id": "2203f371-2646-4672-aa94-b513f139eb00",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457370
+        },
+        {
+          "id": "0c901ca1-07f5-484a-bdaf-7c5d1a806140",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "role": "USER",
+          "text": "Welche Person hat eine gebrochene linke Schulter?",
+          "createdAt": 1791448457371
+        }
+      ],
+      "memories": [
+        {
+          "id": "5324980f-b285-46b8-9f75-37ed5736dd8c",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "kind": "FACT",
+          "text": "Startvorgabe: Maren: Begleitung",
+          "pinned": true,
+          "createdAt": 1791448457366,
+          "updatedAt": 1791448457366
+        },
+        {
+          "id": "fcd31ba6-cce6-482c-b668-10177b969f81",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791448457367,
+          "updatedAt": 1791448457367
+        }
+      ],
+      "memory": {
+        "version": 7,
+        "facts": [
+          {
+            "id": "7fa769dd16e455980b45133fd1ba8a3d",
+            "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+            "entity": {
+              "id": "624885ab3cf46b0a1eabbec290c1a8b7",
+              "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Corvin",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+            "sourceText": "Ich heiße Corvin.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457367,
+            "sourceOrder": 23
+          },
+          {
+            "id": "0c0467c2fde9085e2a5b18446312a01c",
+            "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+            "entity": {
+              "id": "cc7bc1c21a261d7c8f8298f8e1026aea",
+              "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+              "kind": "PERSON",
+              "name": "Maren"
+            },
+            "field": "injury:linke schulter",
+            "value": "linke schulter: gebrochen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+            "sourceText": "Deine linke Schulter ist gebrochen.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457369,
+            "sourceOrder": 25
+          },
+          {
+            "id": "d26bba49e71f4f53de779f5ec2f1a033",
+            "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+            "entity": {
+              "id": "c0e077c8965c35ce060c475ac8c32abd",
+              "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+              "kind": "PERSON",
+              "name": "Person"
+            },
+            "field": "injury:linke schulter",
+            "value": "linke schulter: gebrochen",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "0c901ca1-07f5-484a-bdaf-7c5d1a806140",
+            "sourceText": "Welche Person hat eine gebrochene linke Schulter?",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457371,
+            "sourceOrder": 6
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "7fa769dd16e455980b45133fd1ba8a3d",
+            "knower": "character",
+            "sourceId": "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+            "version": 3
+          },
+          {
+            "factId": "7fa769dd16e455980b45133fd1ba8a3d",
+            "knower": "player",
+            "sourceId": "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+            "version": 3
+          },
+          {
+            "factId": "0c0467c2fde9085e2a5b18446312a01c",
+            "knower": "character",
+            "sourceId": "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+            "version": 6
+          },
+          {
+            "factId": "0c0467c2fde9085e2a5b18446312a01c",
+            "knower": "player",
+            "sourceId": "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+            "version": 6
+          }
+        ],
+        "scannedSources": [
+          "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+          "62a7514d-8951-41bb-8979-ac08132d2e9f",
+          "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+          "2203f371-2646-4672-aa94-b513f139eb00"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "maren"
+        ]
+      }
+    }
+  },
+  {
+    "case": "new-goal",
+    "expected": "„Ja, das Ziel »Signal finden« ist abgeschlossen.“",
+    "bundle": {
+      "story": {
+        "id": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+        "characterId": "new-goal",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791448457389,
+        "updatedAt": 1791448457396
+      },
+      "character": {
+        "id": "new-goal",
+        "name": "Elin",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "025ff593-c90e-445b-abc6-a00cc368fb4a",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791448457389
+        },
+        {
+          "id": "e251e388-632d-44e2-9080-7ded94350ebe",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "role": "USER",
+          "text": "Ich heiße Raban.",
+          "createdAt": 1791448457390
+        },
+        {
+          "id": "86ad3875-8ca7-4609-afbe-b411b0c97f9d",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457393
+        },
+        {
+          "id": "6bb97955-f612-44e2-9a54-af7846ef095e",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "role": "USER",
+          "text": "Das Ziel Signal finden ist abgeschlossen.",
+          "createdAt": 1791448457394
+        },
+        {
+          "id": "26129c3e-17f0-441c-8b6e-bdf87c21145a",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457395
+        },
+        {
+          "id": "192136d6-13bd-4379-ada0-d52b01625539",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "role": "USER",
+          "text": "Ist das Ziel Signal finden bereits abgeschlossen?",
+          "createdAt": 1791448457396
+        }
+      ],
+      "memories": [
+        {
+          "id": "fcda2cf2-5535-4203-80f9-3f8c888011a4",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "kind": "FACT",
+          "text": "Startvorgabe: Elin: Begleitung",
+          "pinned": true,
+          "createdAt": 1791448457389,
+          "updatedAt": 1791448457389
+        },
+        {
+          "id": "20ef6d3c-9369-4652-94d1-e168775b3b1b",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791448457390,
+          "updatedAt": 1791448457390
+        }
+      ],
+      "memory": {
+        "version": 7,
+        "facts": [
+          {
+            "id": "e9f98324a77893d82ec27b123f532b25",
+            "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+            "entity": {
+              "id": "65162dc3efef01b2aa85c7d4123df6cb",
+              "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Raban",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "e251e388-632d-44e2-9080-7ded94350ebe",
+            "sourceText": "Ich heiße Raban.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457390,
+            "sourceOrder": 30
+          },
+          {
+            "id": "3ba340c15bf16bcfabd994ad295e4bda",
+            "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+            "entity": {
+              "id": "f64ff9be15d77f4aba2ad17543576387",
+              "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+              "kind": "GOAL",
+              "name": "Signal finden"
+            },
+            "field": "status",
+            "value": "Abgeschlossen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "6bb97955-f612-44e2-9a54-af7846ef095e",
+            "sourceText": "Das Ziel Signal finden ist abgeschlossen.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457394,
+            "sourceOrder": 32
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "e9f98324a77893d82ec27b123f532b25",
+            "knower": "character",
+            "sourceId": "e251e388-632d-44e2-9080-7ded94350ebe",
+            "version": 3
+          },
+          {
+            "factId": "e9f98324a77893d82ec27b123f532b25",
+            "knower": "player",
+            "sourceId": "e251e388-632d-44e2-9080-7ded94350ebe",
+            "version": 3
+          },
+          {
+            "factId": "3ba340c15bf16bcfabd994ad295e4bda",
+            "knower": "character",
+            "sourceId": "6bb97955-f612-44e2-9a54-af7846ef095e",
+            "version": 6
+          },
+          {
+            "factId": "3ba340c15bf16bcfabd994ad295e4bda",
+            "knower": "player",
+            "sourceId": "6bb97955-f612-44e2-9a54-af7846ef095e",
+            "version": 6
+          }
+        ],
+        "scannedSources": [
+          "e251e388-632d-44e2-9080-7ded94350ebe",
+          "86ad3875-8ca7-4609-afbe-b411b0c97f9d",
+          "6bb97955-f612-44e2-9a54-af7846ef095e",
+          "26129c3e-17f0-441c-8b6e-bdf87c21145a"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "elin"
+        ]
+      }
+    }
+  },
+  {
+    "case": "dev-carry",
+    "expected": "„Du hältst das Buch.“",
+    "bundle": {
+      "story": {
+        "id": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+        "characterId": "dev-carry",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791448457584,
+        "updatedAt": 1791448457589
+      },
+      "character": {
+        "id": "dev-carry",
+        "name": "Alara",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "40b9acdf-46f2-4220-819f-04741b774087",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791448457584
+        },
+        {
+          "id": "34f42357-efca-4b88-850f-d7471d325fb8",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "role": "USER",
+          "text": "Ich heiße Joris.",
+          "createdAt": 1791448457585
+        },
+        {
+          "id": "8a72b943-2364-4bb5-b490-d45462705ff2",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457586
+        },
+        {
+          "id": "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "role": "USER",
+          "text": "Ich halte das Buch.",
+          "createdAt": 1791448457587
+        },
+        {
+          "id": "376917a1-707f-42e7-a5f8-67d4eb96dbf7",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457588
+        },
+        {
+          "id": "54a1212b-1a1e-4475-8145-8c8b6f8dc2c4",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "role": "USER",
+          "text": "Wer trägt das Buch?",
+          "createdAt": 1791448457589
+        }
+      ],
+      "memories": [
+        {
+          "id": "962e1bc8-9c42-4623-99b3-148b2fcfae29",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "kind": "FACT",
+          "text": "Startvorgabe: Alara: Begleitung",
+          "pinned": true,
+          "createdAt": 1791448457584,
+          "updatedAt": 1791448457584
+        },
+        {
+          "id": "f2507e0e-0a13-4ce4-8b94-89216a87b862",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791448457585,
+          "updatedAt": 1791448457585
+        }
+      ],
+      "memory": {
+        "version": 7,
+        "facts": [
+          {
+            "id": "725c6522debc14470a183a3021f8d894",
+            "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+            "entity": {
+              "id": "b6077c3db607f2deaa30f6603252cdc1",
+              "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Joris",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "34f42357-efca-4b88-850f-d7471d325fb8",
+            "sourceText": "Ich heiße Joris.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457585,
+            "sourceOrder": 117
+          },
+          {
+            "id": "5a2a5335b5e55d99c78588ef33515174",
+            "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+            "entity": {
+              "id": "c15b9dcd28d806948f49f7d5df012606",
+              "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+              "kind": "ITEM",
+              "name": "Buch"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+            "sourceText": "Ich halte das Buch.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457587,
+            "sourceOrder": 119
+          },
+          {
+            "id": "47e08123cc661fb584c97a0bad24b6e6",
+            "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+            "entity": {
+              "id": "c15b9dcd28d806948f49f7d5df012606",
+              "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+              "kind": "ITEM",
+              "name": "Buch"
+            },
+            "field": "holder",
+            "value": "Wer",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "54a1212b-1a1e-4475-8145-8c8b6f8dc2c4",
+            "sourceText": "Wer trägt das Buch?",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457589,
+            "sourceOrder": 6
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "725c6522debc14470a183a3021f8d894",
+            "knower": "character",
+            "sourceId": "34f42357-efca-4b88-850f-d7471d325fb8",
+            "version": 3
+          },
+          {
+            "factId": "725c6522debc14470a183a3021f8d894",
+            "knower": "player",
+            "sourceId": "34f42357-efca-4b88-850f-d7471d325fb8",
+            "version": 3
+          },
+          {
+            "factId": "5a2a5335b5e55d99c78588ef33515174",
+            "knower": "character",
+            "sourceId": "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+            "version": 6
+          },
+          {
+            "factId": "5a2a5335b5e55d99c78588ef33515174",
+            "knower": "player",
+            "sourceId": "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+            "version": 6
+          }
+        ],
+        "scannedSources": [
+          "34f42357-efca-4b88-850f-d7471d325fb8",
+          "8a72b943-2364-4bb5-b490-d45462705ff2",
+          "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+          "376917a1-707f-42e7-a5f8-67d4eb96dbf7"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "alara"
+        ]
+      }
+    }
+  },
+  {
+    "case": "dev-open",
+    "expected": "„Nein, das Ziel »Tür öffnen« ist noch offen.“",
+    "bundle": {
+      "story": {
+        "id": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+        "characterId": "dev-open",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791448457606,
+        "updatedAt": 1791448457611
+      },
+      "character": {
+        "id": "dev-open",
+        "name": "Borin",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "ff86f516-0d15-40d7-89b3-425e2c3693c9",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791448457606
+        },
+        {
+          "id": "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "role": "USER",
+          "text": "Ich heiße Nela.",
+          "createdAt": 1791448457607
+        },
+        {
+          "id": "ce620015-4004-4dff-b193-3057bfb6c4bb",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457608
+        },
+        {
+          "id": "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "role": "USER",
+          "text": "Das Ziel Tür öffnen ist offen.",
+          "createdAt": 1791448457609
+        },
+        {
+          "id": "f9bba382-cc82-4d4c-a6af-5dc814fef110",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791448457610
+        },
+        {
+          "id": "acb54762-dd27-44ac-a67f-f8e0be937160",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "role": "USER",
+          "text": "Ist das Ziel Tür öffnen abgeschlossen?",
+          "createdAt": 1791448457611
+        }
+      ],
+      "memories": [
+        {
+          "id": "a2ab15d1-c50f-4c32-be01-1b8a9a49e94c",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "kind": "FACT",
+          "text": "Startvorgabe: Borin: Begleitung",
+          "pinned": true,
+          "createdAt": 1791448457606,
+          "updatedAt": 1791448457606
+        },
+        {
+          "id": "f2ca62c9-da0d-44ed-ab0f-7148028e555d",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791448457607,
+          "updatedAt": 1791448457607
+        }
+      ],
+      "memory": {
+        "version": 7,
+        "facts": [
+          {
+            "id": "b945ef923c4f61809661334e1eaac616",
+            "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+            "entity": {
+              "id": "05e9f3736e568248891f78f02ce84f47",
+              "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Nela",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+            "sourceText": "Ich heiße Nela.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457607,
+            "sourceOrder": 124
+          },
+          {
+            "id": "84ccb6d0a3569ef7b10d23e52b7147d8",
+            "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+            "entity": {
+              "id": "8ba47464ffeeeaa8571b462d25f25590",
+              "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+              "kind": "GOAL",
+              "name": "Tür öffnen"
+            },
+            "field": "status",
+            "value": "Offen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+            "sourceText": "Das Ziel Tür öffnen ist offen.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791448457609,
+            "sourceOrder": 126
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "b945ef923c4f61809661334e1eaac616",
+            "knower": "character",
+            "sourceId": "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+            "version": 3
+          },
+          {
+            "factId": "b945ef923c4f61809661334e1eaac616",
+            "knower": "player",
+            "sourceId": "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+            "version": 3
+          },
+          {
+            "factId": "84ccb6d0a3569ef7b10d23e52b7147d8",
+            "knower": "character",
+            "sourceId": "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+            "version": 6
+          },
+          {
+            "factId": "84ccb6d0a3569ef7b10d23e52b7147d8",
+            "knower": "player",
+            "sourceId": "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+            "version": 6
+          }
+        ],
+        "scannedSources": [
+          "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+          "ce620015-4004-4dff-b193-3057bfb6c4bb",
+          "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+          "f9bba382-cc82-4d4c-a6af-5dc814fef110"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "borin"
+        ]
+      }
+    }
+  }
+]

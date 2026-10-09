@@ -1,0 +1,10 @@
+[
+  {
+    "seconds": 23.3149578,
+    "answer": "*Mira dreht sich um und blickt auf das Armband, das blinkt und sich mit jedem Atemzug erhebt.*\n\n**„Oh, das ist es. Ein kleines Leuchten, das ich nicht bemerkt habe. Vielleicht ist es nur ein Fehler in der Datenbank.“**\n\n*Sie schaut auf das Gerät vor sich, das ein kleines Display und einige Knöpfe hat.*\n\n**„Das Gerät zeigt mir, dass ich das Signal empfangen habe. Aber du... du hast kein Signal? Das ist ungewöhnlich.“**\n\n*Mira verschränkt die Arme und überlegt.*\n\n**„Ich werde das Signalvergleich durchführen. Vielleicht haben wir unterschiedliche Daten oder sogar unterschiedliche Orte.“**\n\n*Sie lächelt und steht auf.*\n\n**„Ich werde jetzt die Daten überprüfen, um herauszufinden, was hier passiert ist. Vielleicht können wir gemeinsam herausfinden, was dort ist.“**",
+    "model": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+    "outputTokenLimit": 256,
+    "case": "mira-denial",
+    "runtime": "Windows x86_64 CPU"
+  }
+]

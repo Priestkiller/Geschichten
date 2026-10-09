@@ -1,0 +1,202 @@
+[
+  {
+    "model": "gemma-4-e2b",
+    "case": "archive",
+    "manualVerdict081": "wrong_roles",
+    "answer": "*Mira schaut Rian an, der in den Hof steht.* \"Das Losungswort am Brunnen lautet Morgenstern,\" sagt Mira. Sie blickt dann auf ihren Brief. \"Ich habe dir den Brief anvertraut, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann.\"",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Hand: Belegt ist Rian; die Antwort ordnet den Zustand Mira zu. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "gemma-4-e2b",
+    "case": "correction",
+    "manualVerdict081": "partial",
+    "answer": "*Mira blickt auf den Schlüssel in ihrer Hand.* \"Der Schlüssel ist jetzt blau und gehört Rian.\"",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Für den behaupteten Eigentümer von Schlüssel gibt es keine ausdrückliche Quelle. Tragen allein belegt kein Eigentum. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "gemma-4-e2b",
+    "case": "unknown",
+    "manualVerdict081": "wrong_roles",
+    "answer": "*Mira blickt Rian an und lächelt leicht.* \"Du meinst das Geschenk meiner Schwester? Ich weiß nicht genau, worauf du dich beziehst. Kannst du mir vielleicht ein paar mehr Details dazu geben?\"",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Die Frage betrifft die Familie der Spielerfigur; die Antwort spricht von der eigenen Familie. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "case": "archive",
+    "manualVerdict081": "wrong_roles",
+    "answer": "*Mira antwortet Rian.*  \n„Das Losungswort am Brunnen lautet Morgenstern. Ich habe dir den Brief anvertraut, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann.“",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Hand: Belegt ist Rian; die Antwort ordnet den Zustand Mira zu. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "case": "correction",
+    "manualVerdict081": "correct_facts",
+    "answer": "*Mira antwortet Rian.* Der Schlüssel ist jetzt blau. Mira hat ihn.",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "case": "unknown",
+    "manualVerdict081": "invented_past",
+    "answer": "*Mira blickt kurz zu Rian, dann nach unten, als würde sie nach etwas suchen, das sich in ihrem Gedächtnis befindet.*  \n„Wir haben über ein Geschenk meiner Schwester gesprochen – aber ich weiß nicht genau, welche Farbe es hatte. Ich erinnere mich nur, dass es warm war und dass wir es an einem kühlen Morgen besprochen haben. Kannst du dir daran etwas erinnern?“",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Für die behauptete gemeinsame Vergangenheit fehlt eine bestätigte Quelle. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "dolphin3-llama3.2-3b",
+    "case": "archive",
+    "manualVerdict081": "unanswered",
+    "answer": "*Mira antwortet auf die letzte Nachricht.* \"Wie lautet das Losungswort am Brunnen und warum habe ich dir den Brief anvertraut?\"",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Die Figur wiederholt nur deine Frage, statt zu antworten. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "dolphin3-llama3.2-3b",
+    "case": "correction",
+    "manualVerdict081": "incomplete",
+    "answer": "*Mira schaut auf ihren Schlüssel und sieht, dass er nun blau ist.* Der Schlüssel hat jetzt die Farbe blau. Wer hat den Schlüssel?",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "model": "dolphin3-llama3.2-3b",
+    "case": "unknown",
+    "manualVerdict081": "unanswered",
+    "answer": "*Die nächste Nutzer Nachricht lautet:* \"Welche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben? Wenn wir nichts davon wissen, frag bitte nach.\"\n\n*Mira antwortet auf diese Nachricht in der dritten Person zwischen Sternchen und ihren Wörtern in Anführungszeichen.*",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Die Frage betrifft die Familie der Spielerfigur; die Antwort spricht von der eigenen Familie. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "gemma3-davidau-4b",
+    "case": "archive",
+    "manualVerdict081": "partial",
+    "answer": "*Mira räörm ihre Schultern ein wenig.* Ihr Blick fährt zu Mauer ß11. Ihre Antwort, vorsichtig und etwas verlegen:’’ Morgenstern… Ich glaube, weil Ihre Hand verletzt ist, so wie damals. Sie konnten das Siegel nicht offenhalten, also mussten Sie mir sagen, dass dieser Brief wichtig ist.",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "model": "gemma3-davidau-4b",
+    "case": "correction",
+    "manualVerdict081": "incomplete",
+    "answer": "*Mira betrachtet die Nachricht.* Der Schlüssel ist jetzt blau. Welche Farbe hat der Schlüssel jetzt und wer hat ihn? Ein Stein liegt da.",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "model": "gemma3-davidau-4b",
+    "case": "unknown",
+    "manualVerdict081": "invented_past",
+    "answer": "*Mira räörmt kurz.* Ihr Bruder erwähnte, dass seine Schwester ein Geschenk bekommen hatte. Aber welche Farbe hatte dieses Geschenk… Das weiß ich leider nicht. Könnten Sie mir mehr darüber erzählen, welche Farben üblich sind, oder vielleicht etwas über das Geschenk selbst sagen?",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Für die behauptete gemeinsame Vergangenheit fehlt eine bestätigte Quelle. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "qwen2.5-1.5b",
+    "case": "archive",
+    "manualVerdict081": "wrong_roles",
+    "answer": "Das Losungswort am Brunnen lautet Morgenstern. Ich habe den Brief an dich gegeben, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Hand: Belegt ist Rian; die Antwort ordnet den Zustand Mira zu. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "qwen2.5-1.5b",
+    "case": "correction",
+    "manualVerdict081": "correct_facts",
+    "answer": "Der Schlüssel ist jetzt blau. Mira hat ihn.",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "model": "qwen2.5-1.5b",
+    "case": "unknown",
+    "manualVerdict081": "poor_language",
+    "answer": "Ich verstehe, dass Sie sich fragen mögen, welche Farbe das Geschenk Ihrer Schwester hatte. Um diese Frage zu beantworten, müssten wir wissen, welche Geschenke Ihnen oder Ihrer Schwester geschenkt wurden und in welcher Farbe sie gehalten wurden. \n\nWenn Sie keine spezifischen Informationen haben, die uns helfen könnten, um eine Antwort auf Ihre Frage zu finden, wäre es sinnvoll, nachzufragen: \"Ich bin ein kleiner Trick mit den Fingern im Kopf. Bitte geben Sie mir nur die Farben der Geschenke meiner Schwester.\"",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Die Frage betrifft die Familie der Spielerfigur; die Antwort spricht von der eigenen Familie. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "qwen3-0.6b",
+    "case": "archive",
+    "manualVerdict081": "unanswered",
+    "answer": "*Mira betrachtet die Mauer 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein eineuffällige Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da.",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Die Antwort wiederholt denselben Füllsatz mindestens fünfmal. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "model": "qwen3-0.6b",
+    "case": "correction",
+    "manualVerdict081": "incomplete",
+    "answer": "*Mira betätigt den Schlüssel, und der Schlüssel ist jetzt blau. Welche Farbe hat der Schlüssel und wer hat ihn?*",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "model": "qwen3-0.6b",
+    "case": "unknown",
+    "manualVerdict081": "unanswered",
+    "answer": "*Mira betrachtet die Mauer 9.* Ein unauffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da. Ein eineuffälliger Stein liegt da.",
+    "rejected082": true,
+    "error": "Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Die Antwort wiederholt denselben Füllsatz mindestens fünfmal. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "case": "archive",
+    "positiveReference": true,
+    "answer": "*Mira sieht Rian an.* „Morgenstern. Du gabst mir den Brief, weil deine Hand verletzt ist.“",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "case": "archive",
+    "positiveReference": true,
+    "answer": "„Rian hat mir den Brief anvertraut, weil er mit seiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.“",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "case": "archive",
+    "positiveReference": true,
+    "answer": "„Das Losungswort lautet Morgenstern. Du hast mir den Brief gegeben.“",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "case": "correction",
+    "positiveReference": true,
+    "answer": "„Der Schlüssel ist blau. Ich trage ihn.“",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "case": "correction",
+    "positiveReference": true,
+    "answer": "*Mira zeigt Rian den blauen Schlüssel.* „Ich habe ihn.“",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "case": "unknown",
+    "positiveReference": true,
+    "answer": "„Ich weiß nicht, welches Geschenk deiner Schwester du meinst. Erzählst du mir davon?“",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "case": "unknown",
+    "positiveReference": true,
+    "answer": "„Wir haben darüber noch nicht gesprochen. Welche Schwester meinst du?“",
+    "rejected082": false,
+    "error": ""
+  },
+  {
+    "case": "unknown",
+    "positiveReference": true,
+    "answer": "„Ich kann mich an kein solches Gespräch erinnern.“",
+    "rejected082": false,
+    "error": ""
+  }
+]

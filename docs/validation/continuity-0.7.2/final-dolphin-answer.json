@@ -1,0 +1,8 @@
+{
+  "case": "grask-0",
+  "modelFile": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+  "answer": "**„Es ist schwer, die Stimme zu hören unter deinem massiven Körper. Aber ich bin hier, um meine Bitte klar zu machen.“**\n\n*Grask versetzt den Stierkopf von einer Seite zur anderen, ein warnendes Knirschen der Knochen bildet die Hintergrundmusik seiner Worte.*\n\n**„Was möchtest du wissen? Ich habe meine Zusage gegeben; jetzt erwarte ich eine Antwort auf meiner Frage. Gib mir Deinen. Wir sind beide hier für etwas, aber es wird Zeit, dass wir weitergehen.“**\n\n*Die letzte leere Kette hängt an seinem rechten Handgelenk wie ein Zeichen seines Entwurfs.*",
+  "streamMatchesResult": true,
+  "runtime": "llama.cpp v0.5.0 production JNI source, Windows x86_64 CPU",
+  "maxOutputTokens": 256
+}

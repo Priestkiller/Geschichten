@@ -1,0 +1,82 @@
+{
+  "originalConfigurationUnchanged": true,
+  "originalWeightManifest": {
+    "models": [
+      {
+        "name": "geschichten-qwen3-8b-test:latest",
+        "model": "geschichten-qwen3-8b-test:latest",
+        "modified_at": "2026-10-09T22:00:20.4694652+02:00",
+        "size": 5027797031,
+        "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+        "details": {
+          "parent_model": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 4096,
+          "runner": "llamacpp"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "model": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "modified_at": "2026-10-09T17:09:41.8293928+02:00",
+        "size": 5027797508,
+        "digest": "b14ffb635b5bbdb62bbb1aed050de1c32b12a5b139eb5adeb529497c6622bc1b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 4096,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      }
+    ]
+  },
+  "finalRunningModels": {
+    "models": [
+      {
+        "name": "geschichten-qwen3-8b-test:latest",
+        "model": "geschichten-qwen3-8b-test:latest",
+        "size": 5763802068,
+        "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-09T22:14:48.7787053+02:00",
+        "size_vram": 4193811168,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "appAPK_SHA256": "fd15af5bb3928674a4b965ab0d773dceee4bd5f84068b45fb9663da283873071"
+}

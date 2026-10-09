@@ -1,0 +1,169 @@
+{
+  "actualGenerations": 60,
+  "distinctAnswerScenes": 7,
+  "note": "Small bounded corpus; manual whole-answer review; no keyword match or guard acceptance treated as quality. A/B/C/D same 3 regressions; heldout/heldout-final same 4 new scenes. Hypothetical completion remains unknown; whole-answer strict German/style and unsupported reasons count separately.",
+  "rows": [
+    {
+      "phase": "A",
+      "model": "huihui-qwen3-4b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 0
+    },
+    {
+      "phase": "A",
+      "model": "qwen3-official-4b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 2,
+      "targetFieldsCorrect": 0
+    },
+    {
+      "phase": "A",
+      "model": "gemma-4-e2b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 0
+    },
+    {
+      "phase": "B",
+      "model": "huihui-qwen3-4b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 0
+    },
+    {
+      "phase": "B",
+      "model": "qwen3-official-4b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 0
+    },
+    {
+      "phase": "B",
+      "model": "gemma-4-e2b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 1,
+      "targetFieldsCorrect": 0
+    },
+    {
+      "phase": "C",
+      "model": "huihui-qwen3-4b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 1
+    },
+    {
+      "phase": "C",
+      "model": "qwen3-official-4b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 1
+    },
+    {
+      "phase": "C",
+      "model": "gemma-4-e2b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 0
+    },
+    {
+      "phase": "D",
+      "model": "huihui-qwen3-4b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 2,
+      "targetFieldsCorrect": 1
+    },
+    {
+      "phase": "D",
+      "model": "qwen3-official-4b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 2,
+      "targetFieldsCorrect": 1
+    },
+    {
+      "phase": "D",
+      "model": "gemma-4-e2b",
+      "n": 3,
+      "strictWhole": 0,
+      "usable": 0,
+      "effectiveGuardAccepted": 2,
+      "targetFieldsCorrect": 0
+    },
+    {
+      "phase": "heldout",
+      "model": "huihui-qwen3-4b",
+      "n": 4,
+      "strictWhole": 1,
+      "usable": 0,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 3
+    },
+    {
+      "phase": "heldout",
+      "model": "qwen3-official-4b",
+      "n": 4,
+      "strictWhole": 1,
+      "usable": 1,
+      "effectiveGuardAccepted": 4,
+      "targetFieldsCorrect": 3
+    },
+    {
+      "phase": "heldout",
+      "model": "gemma-4-e2b",
+      "n": 4,
+      "strictWhole": 1,
+      "usable": 1,
+      "effectiveGuardAccepted": 2,
+      "targetFieldsCorrect": 1
+    },
+    {
+      "phase": "heldout-final",
+      "model": "huihui-qwen3-4b",
+      "n": 4,
+      "strictWhole": 1,
+      "usable": 1,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 3
+    },
+    {
+      "phase": "heldout-final",
+      "model": "qwen3-official-4b",
+      "n": 4,
+      "strictWhole": 1,
+      "usable": 1,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 3
+    },
+    {
+      "phase": "heldout-final",
+      "model": "gemma-4-e2b",
+      "n": 4,
+      "strictWhole": 2,
+      "usable": 2,
+      "effectiveGuardAccepted": 3,
+      "targetFieldsCorrect": 2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "versionName": "0.7.1",
+  "versionCode": 10,
+  "apkBytes": 313286124,
+  "apkSha256": "e9a1fe48bf2692d2a6dd05078d67e2d844fd66c2498e7687c6d1302b1b4225a8",
+  "unitTests": {
+    "tests": 58,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "androidUiTests": {
+    "tests": 6,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 114
+  },
+  "nativeLibrariesUnchangedFrom070": [
+    "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "lib/arm64-v8a/libgeschichten_gguf.so",
+    "lib/arm64-v8a/liblitertlm_jni.so"
+  ],
+  "modelFilesAndRuntimeUnchanged": true,
+  "modelWeightsBundled": false,
+  "nativeInferenceEvidence": "../models-0.7.0",
+  "physicalDeviceInstallTested": false,
+  "publication": "published_verified",
+  "publicVerification": {
+    "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.7.1",
+    "releaseId": 403105465,
+    "publishedAtUtc": "2026-10-04T16:31:05Z",
+    "draft": false,
+    "prerelease": true,
+    "anonymousApiRequest": true,
+    "requestApiVersion": "2026-03-10",
+    "publicManifestMatchesLocal": true,
+    "publicReadmeMatchesPrepared": true,
+    "fullPublicApkDownloaded": true,
+    "apkBytes": 313286124,
+    "apkSha256": "e9a1fe48bf2692d2a6dd05078d67e2d844fd66c2498e7687c6d1302b1b4225a8",
+    "readmeSha256": "15f59d2ec1fd025e2bdfdb72fa6f018bbaf41853ba11c7746799f215f66c3967",
+    "physicalDeviceInstallTested": false
+  },
+  "productionUpdateParserPassed": true,
+  "readmeCommit": "0103f0e60e0bf513ec096f04caf926cc7d19b013",
+  "readmeContentSha": "171026b02247723b6e5d999a461cd6bfdb512d8b"
+}

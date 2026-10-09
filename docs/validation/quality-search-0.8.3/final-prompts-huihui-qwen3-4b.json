@@ -1,0 +1,178 @@
+[
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-transfer"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-reverse"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-family"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-owner"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-negation"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-water"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-crowd"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-multiple"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-correction"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-heldout.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-unknown"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-hybrid.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-family"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-hybrid.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-water"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-hybrid.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-crowd"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "acceptance-huihui-qwen3-4b-hybrid.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "hold-multiple"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "development-huihui-qwen3-4b-production.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "dev-transfer"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "development-huihui-qwen3-4b-production.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "dev-family"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "development-huihui-qwen3-4b-production.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "dev-negation"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "development-huihui-qwen3-4b-production.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "dev-panic"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "development-huihui-qwen3-4b-short.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "dev-transfer"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "development-huihui-qwen3-4b-short.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "dev-family"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "development-huihui-qwen3-4b-short.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "dev-negation"
+  },
+  {
+    "guardEqual": true,
+    "actualTokensEqual": true,
+    "file": "development-huihui-qwen3-4b-short.json",
+    "actualRenderEqual": true,
+    "selectedInputByteEqual": true,
+    "case": "dev-panic"
+  }
+]

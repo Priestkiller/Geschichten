@@ -1,0 +1,2259 @@
+[
+  {
+    "case": "accept-gift",
+    "split": "heldout",
+    "character": "Darian",
+    "player": "Bela",
+    "source": "Bela schenkt Darian den Anhänger. Darian legt ihn hinter die Truhe.",
+    "gold": [
+      [
+        "ITEM",
+        "Anhänger",
+        "owner",
+        "Darian"
+      ],
+      [
+        "ITEM",
+        "Anhänger",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Anhänger",
+        "placement",
+        "hinter der Truhe"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation",
+    "bundle": {
+      "story": {
+        "id": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+        "characterId": "accept-gift-profile",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791393275146,
+        "updatedAt": 1791393275234
+      },
+      "character": {
+        "id": "accept-gift-profile",
+        "name": "Darian",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "6fd285f8-cfdb-42ce-b621-dec2e280c2e3",
+          "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791393275146
+        },
+        {
+          "id": "c13f2476-bab0-415e-9659-5c2cf137a1cd",
+          "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+          "role": "USER",
+          "text": "Ich heiße Bela.",
+          "createdAt": 1791393275152
+        },
+        {
+          "id": "f1842c9a-168d-43b7-a560-db4cf3dd0a39",
+          "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275182
+        },
+        {
+          "id": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+          "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+          "role": "USER",
+          "text": "Bela schenkt Darian den Anhänger. Darian legt ihn hinter die Truhe.",
+          "createdAt": 1791393275192
+        },
+        {
+          "id": "b4a054d0-7abd-4932-a6bf-b8930e9367bf",
+          "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275215
+        },
+        {
+          "id": "c48368d3-df6c-499a-a573-6c80c607cb18",
+          "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+          "role": "USER",
+          "text": "Wem gehört der Anhänger und wo liegt er jetzt?",
+          "createdAt": 1791393275234
+        }
+      ],
+      "memories": [
+        {
+          "id": "5c8f21b5-1f66-421c-a355-4efd99a465c8",
+          "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+          "kind": "FACT",
+          "text": "Startvorgabe: Darian: Begleitung",
+          "pinned": true,
+          "createdAt": 1791393275146,
+          "updatedAt": 1791393275146
+        },
+        {
+          "id": "b854946f-dda3-4bb6-903d-3ede2c3219c8",
+          "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791393275147,
+          "updatedAt": 1791393275147
+        }
+      ],
+      "memory": {
+        "version": 10,
+        "facts": [
+          {
+            "id": "942b540a2c718919e6c1ebc2541e0e48",
+            "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+            "entity": {
+              "id": "25f3eb07b1e6ff347bb8dd168fbdf081",
+              "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Bela",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "c13f2476-bab0-415e-9659-5c2cf137a1cd",
+            "sourceText": "Ich heiße Bela.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275152,
+            "sourceOrder": 2
+          },
+          {
+            "id": "abff917d886e52a2a541119bf2106c96",
+            "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+            "entity": {
+              "id": "70e39b9890fb7c24ce45fa529eb66ff4",
+              "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+              "kind": "ITEM",
+              "name": "Anhänger"
+            },
+            "field": "holder",
+            "value": "Darian",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "sourceText": "Bela schenkt Darian den Anhänger.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275192,
+            "sourceOrder": 4
+          },
+          {
+            "id": "2b84b0f9ffd969379d2d69f4a65cb326",
+            "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+            "entity": {
+              "id": "70e39b9890fb7c24ce45fa529eb66ff4",
+              "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+              "kind": "ITEM",
+              "name": "Anhänger"
+            },
+            "field": "owner",
+            "value": "Darian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "sourceText": "Bela schenkt Darian den Anhänger.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275192,
+            "sourceOrder": 4
+          },
+          {
+            "id": "cfb667c095660e86a007969bcfa7511a",
+            "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+            "entity": {
+              "id": "70e39b9890fb7c24ce45fa529eb66ff4",
+              "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+              "kind": "ITEM",
+              "name": "Anhänger"
+            },
+            "field": "holder",
+            "value": "Niemand",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "sourceText": "Darian legt ihn hinter die Truhe.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275192,
+            "sourceOrder": 4
+          },
+          {
+            "id": "43c7259936bb5803774531104ddbfc4c",
+            "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+            "entity": {
+              "id": "70e39b9890fb7c24ce45fa529eb66ff4",
+              "storyId": "52b4b862-df6c-4c27-b5fd-db4faaa4f12d",
+              "kind": "ITEM",
+              "name": "Anhänger"
+            },
+            "field": "placement",
+            "value": "hinter der Truhe",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "sourceText": "Darian legt ihn hinter die Truhe.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275192,
+            "sourceOrder": 4
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "942b540a2c718919e6c1ebc2541e0e48",
+            "knower": "character",
+            "sourceId": "c13f2476-bab0-415e-9659-5c2cf137a1cd",
+            "version": 3
+          },
+          {
+            "factId": "942b540a2c718919e6c1ebc2541e0e48",
+            "knower": "player",
+            "sourceId": "c13f2476-bab0-415e-9659-5c2cf137a1cd",
+            "version": 3
+          },
+          {
+            "factId": "abff917d886e52a2a541119bf2106c96",
+            "knower": "character",
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "version": 6
+          },
+          {
+            "factId": "abff917d886e52a2a541119bf2106c96",
+            "knower": "player",
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "version": 6
+          },
+          {
+            "factId": "cfb667c095660e86a007969bcfa7511a",
+            "knower": "character",
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "version": 8
+          },
+          {
+            "factId": "cfb667c095660e86a007969bcfa7511a",
+            "knower": "player",
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "version": 8
+          },
+          {
+            "factId": "2b84b0f9ffd969379d2d69f4a65cb326",
+            "knower": "character",
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "version": 7
+          },
+          {
+            "factId": "2b84b0f9ffd969379d2d69f4a65cb326",
+            "knower": "player",
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "version": 7
+          },
+          {
+            "factId": "43c7259936bb5803774531104ddbfc4c",
+            "knower": "character",
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "version": 9
+          },
+          {
+            "factId": "43c7259936bb5803774531104ddbfc4c",
+            "knower": "player",
+            "sourceId": "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+            "version": 9
+          }
+        ],
+        "scannedSources": [
+          "c13f2476-bab0-415e-9659-5c2cf137a1cd",
+          "f1842c9a-168d-43b7-a560-db4cf3dd0a39",
+          "76a2b3cf-96a5-4d7d-9b31-7aec9415832f",
+          "b4a054d0-7abd-4932-a6bf-b8930e9367bf"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "darian"
+        ]
+      }
+    },
+    "expected": "[[\"ITEM\",\"Anhänger\",\"owner\",\"Darian\"],[\"ITEM\",\"Anhänger\",\"holder\",\"Niemand\"],[\"ITEM\",\"Anhänger\",\"placement\",\"hinter der Truhe\"]]; unknown\u003d[]"
+  },
+  {
+    "case": "accept-handover",
+    "split": "heldout",
+    "character": "Svenja",
+    "player": "Jarek",
+    "source": "Das Amulett gehört Jarek. Jarek überreicht Svenja das Amulett. Svenja legt es unter das Regal.",
+    "gold": [
+      [
+        "ITEM",
+        "Amulett",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Amulett",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Amulett",
+        "placement",
+        "unter dem Regal"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation",
+    "bundle": {
+      "story": {
+        "id": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+        "characterId": "accept-handover-profile",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791393275284,
+        "updatedAt": 1791393275318
+      },
+      "character": {
+        "id": "accept-handover-profile",
+        "name": "Svenja",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "cfc39951-34b8-45fd-96ca-4b88efc14204",
+          "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791393275284
+        },
+        {
+          "id": "d9971f8e-7829-4a97-b2a3-a6807ab2ca90",
+          "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+          "role": "USER",
+          "text": "Ich heiße Jarek.",
+          "createdAt": 1791393275286
+        },
+        {
+          "id": "3c757fa9-399f-4cc5-b879-7e85b55fe0aa",
+          "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275290
+        },
+        {
+          "id": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+          "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+          "role": "USER",
+          "text": "Das Amulett gehört Jarek. Jarek überreicht Svenja das Amulett. Svenja legt es unter das Regal.",
+          "createdAt": 1791393275297
+        },
+        {
+          "id": "28d33378-1216-4576-b83c-27a4aa51e708",
+          "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275304
+        },
+        {
+          "id": "5b9a1957-6674-4282-8743-5190ed24f229",
+          "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+          "role": "USER",
+          "text": "Wem gehört das Amulett und wo liegt es?",
+          "createdAt": 1791393275318
+        }
+      ],
+      "memories": [
+        {
+          "id": "3473673a-3e6b-4a4b-aa67-1988d5700211",
+          "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+          "kind": "FACT",
+          "text": "Startvorgabe: Svenja: Begleitung",
+          "pinned": true,
+          "createdAt": 1791393275284,
+          "updatedAt": 1791393275284
+        },
+        {
+          "id": "fe2dff8b-9be7-46d6-8b46-55bc42896618",
+          "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791393275285,
+          "updatedAt": 1791393275285
+        }
+      ],
+      "memory": {
+        "version": 10,
+        "facts": [
+          {
+            "id": "fa5e3a87e93f612df4b98413ac90366a",
+            "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+            "entity": {
+              "id": "b7303d143728e8a4a6d9cfafd6dc0e0b",
+              "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Jarek",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "d9971f8e-7829-4a97-b2a3-a6807ab2ca90",
+            "sourceText": "Ich heiße Jarek.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275286,
+            "sourceOrder": 8
+          },
+          {
+            "id": "9c9e37d57cd2710a8bf6aa601db92cac",
+            "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+            "entity": {
+              "id": "7cdc18fd7543b9aa0e7e07d676d6f087",
+              "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+              "kind": "ITEM",
+              "name": "Amulett"
+            },
+            "field": "owner",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "sourceText": "Das Amulett gehört Jarek.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275297,
+            "sourceOrder": 10
+          },
+          {
+            "id": "e7f64b9fd1dd2821713c79fb5cc767da",
+            "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+            "entity": {
+              "id": "7cdc18fd7543b9aa0e7e07d676d6f087",
+              "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+              "kind": "ITEM",
+              "name": "Amulett"
+            },
+            "field": "holder",
+            "value": "Svenja",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "sourceText": "Jarek überreicht Svenja das Amulett.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275297,
+            "sourceOrder": 10
+          },
+          {
+            "id": "0567a107f184537591b9bb2e47f0bfd6",
+            "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+            "entity": {
+              "id": "7cdc18fd7543b9aa0e7e07d676d6f087",
+              "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+              "kind": "ITEM",
+              "name": "Amulett"
+            },
+            "field": "holder",
+            "value": "Niemand",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "sourceText": "Svenja legt es unter das Regal.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275297,
+            "sourceOrder": 10
+          },
+          {
+            "id": "9a413cbe18a1761926546251a8c21ad5",
+            "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+            "entity": {
+              "id": "7cdc18fd7543b9aa0e7e07d676d6f087",
+              "storyId": "b8cfb553-5a1b-4648-a975-b091f0174cbc",
+              "kind": "ITEM",
+              "name": "Amulett"
+            },
+            "field": "placement",
+            "value": "unter dem Regal",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "sourceText": "Svenja legt es unter das Regal.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275297,
+            "sourceOrder": 10
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "e7f64b9fd1dd2821713c79fb5cc767da",
+            "knower": "character",
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "version": 7
+          },
+          {
+            "factId": "e7f64b9fd1dd2821713c79fb5cc767da",
+            "knower": "player",
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "version": 7
+          },
+          {
+            "factId": "0567a107f184537591b9bb2e47f0bfd6",
+            "knower": "character",
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "version": 8
+          },
+          {
+            "factId": "0567a107f184537591b9bb2e47f0bfd6",
+            "knower": "player",
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "version": 8
+          },
+          {
+            "factId": "9c9e37d57cd2710a8bf6aa601db92cac",
+            "knower": "character",
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "version": 6
+          },
+          {
+            "factId": "9c9e37d57cd2710a8bf6aa601db92cac",
+            "knower": "player",
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "version": 6
+          },
+          {
+            "factId": "9a413cbe18a1761926546251a8c21ad5",
+            "knower": "character",
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "version": 9
+          },
+          {
+            "factId": "9a413cbe18a1761926546251a8c21ad5",
+            "knower": "player",
+            "sourceId": "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+            "version": 9
+          },
+          {
+            "factId": "fa5e3a87e93f612df4b98413ac90366a",
+            "knower": "character",
+            "sourceId": "d9971f8e-7829-4a97-b2a3-a6807ab2ca90",
+            "version": 3
+          },
+          {
+            "factId": "fa5e3a87e93f612df4b98413ac90366a",
+            "knower": "player",
+            "sourceId": "d9971f8e-7829-4a97-b2a3-a6807ab2ca90",
+            "version": 3
+          }
+        ],
+        "scannedSources": [
+          "d9971f8e-7829-4a97-b2a3-a6807ab2ca90",
+          "3c757fa9-399f-4cc5-b879-7e85b55fe0aa",
+          "cdf553c7-b2c9-4172-84bb-4671fc61b320",
+          "28d33378-1216-4576-b83c-27a4aa51e708"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "svenja"
+        ]
+      }
+    },
+    "expected": "[[\"ITEM\",\"Amulett\",\"owner\",\"Du\"],[\"ITEM\",\"Amulett\",\"holder\",\"Niemand\"],[\"ITEM\",\"Amulett\",\"placement\",\"unter dem Regal\"]]; unknown\u003d[]"
+  },
+  {
+    "case": "accept-body",
+    "split": "heldout",
+    "character": "Salen",
+    "player": "Tilda",
+    "source": "Salen hat eine gebrochene linke Schulter. Meine rechte Hand ist verwundet und mein linkes Bein ist verletzt.",
+    "gold": [
+      [
+        "PERSON",
+        "Salen",
+        "injury:linke schulter",
+        "linke schulter: gebrochen"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:rechte hand",
+        "rechte hand: verwundet"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:linkes bein",
+        "linkes bein: verletzt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation",
+    "bundle": {
+      "story": {
+        "id": "33dc404f-923c-4f46-8713-4f5e1629135e",
+        "characterId": "accept-body-profile",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791393275337,
+        "updatedAt": 1791393275360
+      },
+      "character": {
+        "id": "accept-body-profile",
+        "name": "Salen",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "599b271a-374b-468f-8487-75f3ace9e81c",
+          "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791393275337
+        },
+        {
+          "id": "cca6f427-84e8-4196-8e52-c442f35af774",
+          "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+          "role": "USER",
+          "text": "Ich heiße Tilda.",
+          "createdAt": 1791393275338
+        },
+        {
+          "id": "ab4a0003-155e-4fe9-b032-fe92a1174cfc",
+          "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275342
+        },
+        {
+          "id": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+          "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+          "role": "USER",
+          "text": "Salen hat eine gebrochene linke Schulter. Meine rechte Hand ist verwundet und mein linkes Bein ist verletzt.",
+          "createdAt": 1791393275347
+        },
+        {
+          "id": "41e83bfd-403d-485c-82ff-09b10d7e4231",
+          "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275353
+        },
+        {
+          "id": "ec049222-8a56-47ab-a270-5fcc6c9b8b0f",
+          "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+          "role": "USER",
+          "text": "Welche Verletzungen haben wir beide?",
+          "createdAt": 1791393275360
+        }
+      ],
+      "memories": [
+        {
+          "id": "e48d7f0b-e877-4cee-b7b2-f879fc1ab00e",
+          "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+          "kind": "FACT",
+          "text": "Startvorgabe: Salen: Begleitung",
+          "pinned": true,
+          "createdAt": 1791393275337,
+          "updatedAt": 1791393275337
+        },
+        {
+          "id": "07dd4497-c0f0-4942-a0a0-a309161bdf26",
+          "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791393275338,
+          "updatedAt": 1791393275338
+        }
+      ],
+      "memory": {
+        "version": 9,
+        "facts": [
+          {
+            "id": "5a8449e910334270469feb7b247a70c6",
+            "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+            "entity": {
+              "id": "7c1b6c48275ee3a322c2bea2fbe35482",
+              "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Tilda",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "cca6f427-84e8-4196-8e52-c442f35af774",
+            "sourceText": "Ich heiße Tilda.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275338,
+            "sourceOrder": 14
+          },
+          {
+            "id": "6091fab213be4d877a0585c5dd3e8f5f",
+            "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+            "entity": {
+              "id": "d9f796eead6ed1013cdafc1e7e844dc6",
+              "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+              "kind": "PERSON",
+              "name": "Salen"
+            },
+            "field": "injury:linke schulter",
+            "value": "linke schulter: gebrochen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "sourceText": "Salen hat eine gebrochene linke Schulter.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275347,
+            "sourceOrder": 16
+          },
+          {
+            "id": "c80e25e659314ce35e4f54ee88f92084",
+            "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+            "entity": {
+              "id": "7c1b6c48275ee3a322c2bea2fbe35482",
+              "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:rechte hand",
+            "value": "rechte hand: verwundet",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "sourceText": "Meine rechte Hand ist verwundet und mein linkes Bein ist verletzt.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275347,
+            "sourceOrder": 16
+          },
+          {
+            "id": "108d2c83e27abbaf4680a1a65fa769be",
+            "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+            "entity": {
+              "id": "7c1b6c48275ee3a322c2bea2fbe35482",
+              "storyId": "33dc404f-923c-4f46-8713-4f5e1629135e",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:linkes bein",
+            "value": "linkes bein: verletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "sourceText": "Meine rechte Hand ist verwundet und mein linkes Bein ist verletzt.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275347,
+            "sourceOrder": 16
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "5a8449e910334270469feb7b247a70c6",
+            "knower": "character",
+            "sourceId": "cca6f427-84e8-4196-8e52-c442f35af774",
+            "version": 3
+          },
+          {
+            "factId": "5a8449e910334270469feb7b247a70c6",
+            "knower": "player",
+            "sourceId": "cca6f427-84e8-4196-8e52-c442f35af774",
+            "version": 3
+          },
+          {
+            "factId": "108d2c83e27abbaf4680a1a65fa769be",
+            "knower": "character",
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "version": 8
+          },
+          {
+            "factId": "108d2c83e27abbaf4680a1a65fa769be",
+            "knower": "player",
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "version": 8
+          },
+          {
+            "factId": "c80e25e659314ce35e4f54ee88f92084",
+            "knower": "character",
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "version": 7
+          },
+          {
+            "factId": "c80e25e659314ce35e4f54ee88f92084",
+            "knower": "player",
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "version": 7
+          },
+          {
+            "factId": "6091fab213be4d877a0585c5dd3e8f5f",
+            "knower": "character",
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "version": 6
+          },
+          {
+            "factId": "6091fab213be4d877a0585c5dd3e8f5f",
+            "knower": "player",
+            "sourceId": "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+            "version": 6
+          }
+        ],
+        "scannedSources": [
+          "cca6f427-84e8-4196-8e52-c442f35af774",
+          "ab4a0003-155e-4fe9-b032-fe92a1174cfc",
+          "fa6a05ce-586a-40f0-8b5f-1d68f7829b6e",
+          "41e83bfd-403d-485c-82ff-09b10d7e4231"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "salen"
+        ]
+      }
+    },
+    "expected": "[[\"PERSON\",\"Salen\",\"injury:linke schulter\",\"linke schulter: gebrochen\"],[\"PERSON\",\"Du\",\"injury:rechte hand\",\"rechte hand: verwundet\"],[\"PERSON\",\"Du\",\"injury:linkes bein\",\"linkes bein: verletzt\"]]; unknown\u003d[]"
+  },
+  {
+    "case": "accept-healed",
+    "split": "heldout",
+    "character": "Tavin",
+    "player": "Edda",
+    "source": "Meine rechte Hand ist verletzt. Ich bin nicht mehr verletzt.",
+    "gold": [
+      [
+        "PERSON",
+        "Du",
+        "injury:rechte hand",
+        "rechte hand: unverletzt"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:allgemein",
+        "allgemein: unverletzt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation",
+    "bundle": {
+      "story": {
+        "id": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+        "characterId": "accept-healed-profile",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791393275369,
+        "updatedAt": 1791393275391
+      },
+      "character": {
+        "id": "accept-healed-profile",
+        "name": "Tavin",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "f1f1b404-36ad-4295-add9-c14c6746a83e",
+          "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791393275369
+        },
+        {
+          "id": "9846cb4c-d02a-441a-b89c-f92e10533cb8",
+          "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+          "role": "USER",
+          "text": "Ich heiße Edda.",
+          "createdAt": 1791393275370
+        },
+        {
+          "id": "c243731c-2a9f-4638-b97c-71a290ffb61b",
+          "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275374
+        },
+        {
+          "id": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+          "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+          "role": "USER",
+          "text": "Meine rechte Hand ist verletzt. Ich bin nicht mehr verletzt.",
+          "createdAt": 1791393275377
+        },
+        {
+          "id": "e7cc9cc7-d3db-407b-8208-dc7d5fe6b978",
+          "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275382
+        },
+        {
+          "id": "ecc6d4f2-bdd1-41a2-a7e0-8ad29046bc21",
+          "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+          "role": "USER",
+          "text": "Ist meine rechte Hand noch verletzt?",
+          "createdAt": 1791393275391
+        }
+      ],
+      "memories": [
+        {
+          "id": "0a352fc7-7a1e-4978-915b-7fd496eaf52b",
+          "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+          "kind": "FACT",
+          "text": "Startvorgabe: Tavin: Begleitung",
+          "pinned": true,
+          "createdAt": 1791393275369,
+          "updatedAt": 1791393275369
+        },
+        {
+          "id": "7c93e039-27d7-4f1b-ab5d-709874829c7f",
+          "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791393275370,
+          "updatedAt": 1791393275370
+        }
+      ],
+      "memory": {
+        "version": 9,
+        "facts": [
+          {
+            "id": "2d75f95295fdcf3bb524ba7db12c1e7c",
+            "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+            "entity": {
+              "id": "061ce0f61c91c2778562f24a5cf0722f",
+              "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Edda",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "9846cb4c-d02a-441a-b89c-f92e10533cb8",
+            "sourceText": "Ich heiße Edda.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275370,
+            "sourceOrder": 20
+          },
+          {
+            "id": "4b2e3dc9c8fb4b4579b0e9e43bc3cd3a",
+            "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+            "entity": {
+              "id": "061ce0f61c91c2778562f24a5cf0722f",
+              "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:rechte hand",
+            "value": "rechte hand: verletzt",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "sourceText": "Meine rechte Hand ist verletzt.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275377,
+            "sourceOrder": 22
+          },
+          {
+            "id": "090698705fbd7f9dfa52d543bcbaac79",
+            "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+            "entity": {
+              "id": "061ce0f61c91c2778562f24a5cf0722f",
+              "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:allgemein",
+            "value": "allgemein: unverletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "sourceText": "Ich bin nicht mehr verletzt.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275377,
+            "sourceOrder": 22
+          },
+          {
+            "id": "44f7c6acf1f48c96f9fdb9de706901b9",
+            "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+            "entity": {
+              "id": "061ce0f61c91c2778562f24a5cf0722f",
+              "storyId": "66a32b8e-56c7-4c0d-a39f-8aab4b5442d4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:rechte hand",
+            "value": "rechte hand: unverletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "sourceText": "Ich bin nicht mehr verletzt.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275377,
+            "sourceOrder": 22
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "2d75f95295fdcf3bb524ba7db12c1e7c",
+            "knower": "character",
+            "sourceId": "9846cb4c-d02a-441a-b89c-f92e10533cb8",
+            "version": 3
+          },
+          {
+            "factId": "2d75f95295fdcf3bb524ba7db12c1e7c",
+            "knower": "player",
+            "sourceId": "9846cb4c-d02a-441a-b89c-f92e10533cb8",
+            "version": 3
+          },
+          {
+            "factId": "090698705fbd7f9dfa52d543bcbaac79",
+            "knower": "character",
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "version": 7
+          },
+          {
+            "factId": "090698705fbd7f9dfa52d543bcbaac79",
+            "knower": "player",
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "version": 7
+          },
+          {
+            "factId": "4b2e3dc9c8fb4b4579b0e9e43bc3cd3a",
+            "knower": "character",
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "version": 6
+          },
+          {
+            "factId": "4b2e3dc9c8fb4b4579b0e9e43bc3cd3a",
+            "knower": "player",
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "version": 6
+          },
+          {
+            "factId": "44f7c6acf1f48c96f9fdb9de706901b9",
+            "knower": "character",
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "version": 8
+          },
+          {
+            "factId": "44f7c6acf1f48c96f9fdb9de706901b9",
+            "knower": "player",
+            "sourceId": "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+            "version": 8
+          }
+        ],
+        "scannedSources": [
+          "9846cb4c-d02a-441a-b89c-f92e10533cb8",
+          "c243731c-2a9f-4638-b97c-71a290ffb61b",
+          "40450fc8-c8d5-48f5-a8eb-afd5718af0c3",
+          "e7cc9cc7-d3db-407b-8208-dc7d5fe6b978"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "tavin"
+        ]
+      }
+    },
+    "expected": "[[\"PERSON\",\"Du\",\"injury:rechte hand\",\"rechte hand: unverletzt\"],[\"PERSON\",\"Du\",\"injury:allgemein\",\"allgemein: unverletzt\"]]; unknown\u003d[]"
+  },
+  {
+    "case": "accept-hypothesis",
+    "split": "heldout",
+    "character": "Kelda",
+    "player": "Otto",
+    "source": "Angenommen, ich hätte dir die Münze geschenkt. Ich möchte dir den Ring geben. Soll ich dir das Buch schenken?",
+    "gold": [],
+    "unknown": [
+      "owner",
+      "holder"
+    ],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation",
+    "bundle": {
+      "story": {
+        "id": "0a805429-80f4-45f5-be90-f9ed73f46595",
+        "characterId": "accept-hypothesis-profile",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791393275403,
+        "updatedAt": 1791393275424
+      },
+      "character": {
+        "id": "accept-hypothesis-profile",
+        "name": "Kelda",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "432a95e8-f572-41c8-8ced-dd8dcc90a7f1",
+          "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791393275403
+        },
+        {
+          "id": "f3b22aea-0b32-43c5-ba79-94af3f4af210",
+          "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+          "role": "USER",
+          "text": "Ich heiße Otto.",
+          "createdAt": 1791393275406
+        },
+        {
+          "id": "f874d111-29bf-45e4-87f2-14405c6b8b7c",
+          "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275409
+        },
+        {
+          "id": "b4d523af-f19c-43fd-8fa0-3efb7c32a3a1",
+          "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+          "role": "USER",
+          "text": "Angenommen, ich hätte dir die Münze geschenkt. Ich möchte dir den Ring geben. Soll ich dir das Buch schenken?",
+          "createdAt": 1791393275413
+        },
+        {
+          "id": "941c49da-2a03-4d1a-8c70-cea4b0d918d1",
+          "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275421
+        },
+        {
+          "id": "dc79e0c0-7349-4d38-abf1-625866ceff44",
+          "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+          "role": "USER",
+          "text": "Habe ich dir bereits etwas geschenkt oder gegeben?",
+          "createdAt": 1791393275424
+        }
+      ],
+      "memories": [
+        {
+          "id": "6cd0c002-d7ca-468f-8481-60e380ae8cc0",
+          "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+          "kind": "FACT",
+          "text": "Startvorgabe: Kelda: Begleitung",
+          "pinned": true,
+          "createdAt": 1791393275403,
+          "updatedAt": 1791393275403
+        },
+        {
+          "id": "17f0edfc-3d52-49e6-82ab-4fb4b2fde8ae",
+          "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791393275404,
+          "updatedAt": 1791393275404
+        }
+      ],
+      "memory": {
+        "version": 6,
+        "facts": [
+          {
+            "id": "afa5c299a18f72b555d6d9133d6316a1",
+            "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+            "entity": {
+              "id": "32916e9d44438db486d3b7eb47723d4f",
+              "storyId": "0a805429-80f4-45f5-be90-f9ed73f46595",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Otto",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "f3b22aea-0b32-43c5-ba79-94af3f4af210",
+            "sourceText": "Ich heiße Otto.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275406,
+            "sourceOrder": 26
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "afa5c299a18f72b555d6d9133d6316a1",
+            "knower": "character",
+            "sourceId": "f3b22aea-0b32-43c5-ba79-94af3f4af210",
+            "version": 3
+          },
+          {
+            "factId": "afa5c299a18f72b555d6d9133d6316a1",
+            "knower": "player",
+            "sourceId": "f3b22aea-0b32-43c5-ba79-94af3f4af210",
+            "version": 3
+          }
+        ],
+        "scannedSources": [
+          "f3b22aea-0b32-43c5-ba79-94af3f4af210",
+          "f874d111-29bf-45e4-87f2-14405c6b8b7c",
+          "b4d523af-f19c-43fd-8fa0-3efb7c32a3a1",
+          "941c49da-2a03-4d1a-8c70-cea4b0d918d1"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "kelda"
+        ]
+      }
+    },
+    "expected": "[]; unknown\u003d[\"owner\",\"holder\"]"
+  },
+  {
+    "case": "accept-pickup",
+    "split": "heldout",
+    "character": "Riona",
+    "player": "Veit",
+    "source": "Der Trank gehört Veit. Er liegt auf der Bank. Ich nehme ihn von der Bank auf.",
+    "gold": [
+      [
+        "ITEM",
+        "Trank",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Trank",
+        "holder",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Trank",
+        "placement",
+        "Nicht abgelegt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation",
+    "bundle": {
+      "story": {
+        "id": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+        "characterId": "accept-pickup-profile",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791393275434,
+        "updatedAt": 1791393275455
+      },
+      "character": {
+        "id": "accept-pickup-profile",
+        "name": "Riona",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "cfd6538d-9bd1-46ed-8f70-85115cbf50d2",
+          "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791393275434
+        },
+        {
+          "id": "eb9fc959-ce97-4bfd-97bc-24910f4fa541",
+          "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+          "role": "USER",
+          "text": "Ich heiße Veit.",
+          "createdAt": 1791393275436
+        },
+        {
+          "id": "168436a7-cfe1-4abe-87f7-2749d0e7613a",
+          "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275439
+        },
+        {
+          "id": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+          "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+          "role": "USER",
+          "text": "Der Trank gehört Veit. Er liegt auf der Bank. Ich nehme ihn von der Bank auf.",
+          "createdAt": 1791393275443
+        },
+        {
+          "id": "74dd8025-a315-4303-8f6e-d300586da882",
+          "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275446
+        },
+        {
+          "id": "575c468c-a12e-422b-8899-e6ba4ed74bf3",
+          "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+          "role": "USER",
+          "text": "Wem gehört der Trank und wer hält ihn jetzt?",
+          "createdAt": 1791393275455
+        }
+      ],
+      "memories": [
+        {
+          "id": "7f8f7e65-f32c-405a-98b9-cee3400a8bef",
+          "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+          "kind": "FACT",
+          "text": "Startvorgabe: Riona: Begleitung",
+          "pinned": true,
+          "createdAt": 1791393275434,
+          "updatedAt": 1791393275434
+        },
+        {
+          "id": "906b163b-c8e8-4551-b126-e8a7d7f29ac1",
+          "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791393275435,
+          "updatedAt": 1791393275435
+        }
+      ],
+      "memory": {
+        "version": 11,
+        "facts": [
+          {
+            "id": "853b8450e1b904d4505f0fb12051a2e2",
+            "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+            "entity": {
+              "id": "b0d1a4bcaf19135bf1c1ee8d181aabdf",
+              "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Veit",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "eb9fc959-ce97-4bfd-97bc-24910f4fa541",
+            "sourceText": "Ich heiße Veit.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275436,
+            "sourceOrder": 32
+          },
+          {
+            "id": "fdda05f75350362e639ff9cc5d844dad",
+            "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+            "entity": {
+              "id": "98af39e9dc57b66ef9ab373429b94508",
+              "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+              "kind": "ITEM",
+              "name": "Trank"
+            },
+            "field": "owner",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "sourceText": "Der Trank gehört Veit.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275443,
+            "sourceOrder": 34
+          },
+          {
+            "id": "a3ff0e695ebaaa3a4aba4d5db210712c",
+            "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+            "entity": {
+              "id": "98af39e9dc57b66ef9ab373429b94508",
+              "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+              "kind": "ITEM",
+              "name": "Trank"
+            },
+            "field": "holder",
+            "value": "Niemand",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "sourceText": "Er liegt auf der Bank.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275443,
+            "sourceOrder": 34
+          },
+          {
+            "id": "2a4ad985a87bf7ea95c072a0ec61b2da",
+            "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+            "entity": {
+              "id": "98af39e9dc57b66ef9ab373429b94508",
+              "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+              "kind": "ITEM",
+              "name": "Trank"
+            },
+            "field": "placement",
+            "value": "auf der Bank",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "sourceText": "Er liegt auf der Bank.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275443,
+            "sourceOrder": 34
+          },
+          {
+            "id": "a07f4608376694c6deb970f6f94e1d1b",
+            "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+            "entity": {
+              "id": "98af39e9dc57b66ef9ab373429b94508",
+              "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+              "kind": "ITEM",
+              "name": "Trank"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "sourceText": "Ich nehme ihn von der Bank auf.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275443,
+            "sourceOrder": 34
+          },
+          {
+            "id": "f09e5efc50751a9e1293778a46bad1bd",
+            "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+            "entity": {
+              "id": "98af39e9dc57b66ef9ab373429b94508",
+              "storyId": "4eed522b-0b8f-44bc-9bfc-1b80593b0844",
+              "kind": "ITEM",
+              "name": "Trank"
+            },
+            "field": "placement",
+            "value": "Nicht abgelegt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "sourceText": "Ich nehme ihn von der Bank auf.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275443,
+            "sourceOrder": 34
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "a3ff0e695ebaaa3a4aba4d5db210712c",
+            "knower": "character",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 7
+          },
+          {
+            "factId": "a3ff0e695ebaaa3a4aba4d5db210712c",
+            "knower": "player",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 7
+          },
+          {
+            "factId": "a07f4608376694c6deb970f6f94e1d1b",
+            "knower": "character",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 9
+          },
+          {
+            "factId": "a07f4608376694c6deb970f6f94e1d1b",
+            "knower": "player",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 9
+          },
+          {
+            "factId": "fdda05f75350362e639ff9cc5d844dad",
+            "knower": "character",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 6
+          },
+          {
+            "factId": "fdda05f75350362e639ff9cc5d844dad",
+            "knower": "player",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 6
+          },
+          {
+            "factId": "2a4ad985a87bf7ea95c072a0ec61b2da",
+            "knower": "character",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 8
+          },
+          {
+            "factId": "2a4ad985a87bf7ea95c072a0ec61b2da",
+            "knower": "player",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 8
+          },
+          {
+            "factId": "f09e5efc50751a9e1293778a46bad1bd",
+            "knower": "character",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 10
+          },
+          {
+            "factId": "f09e5efc50751a9e1293778a46bad1bd",
+            "knower": "player",
+            "sourceId": "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+            "version": 10
+          },
+          {
+            "factId": "853b8450e1b904d4505f0fb12051a2e2",
+            "knower": "character",
+            "sourceId": "eb9fc959-ce97-4bfd-97bc-24910f4fa541",
+            "version": 3
+          },
+          {
+            "factId": "853b8450e1b904d4505f0fb12051a2e2",
+            "knower": "player",
+            "sourceId": "eb9fc959-ce97-4bfd-97bc-24910f4fa541",
+            "version": 3
+          }
+        ],
+        "scannedSources": [
+          "eb9fc959-ce97-4bfd-97bc-24910f4fa541",
+          "168436a7-cfe1-4abe-87f7-2749d0e7613a",
+          "31bae456-bcef-4a13-826f-c1bd5cb786c7",
+          "74dd8025-a315-4303-8f6e-d300586da882"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "riona"
+        ]
+      }
+    },
+    "expected": "[[\"ITEM\",\"Trank\",\"owner\",\"Du\"],[\"ITEM\",\"Trank\",\"holder\",\"Du\"],[\"ITEM\",\"Trank\",\"placement\",\"Nicht abgelegt\"]]; unknown\u003d[]"
+  },
+  {
+    "case": "accept-ambiguous",
+    "split": "heldout",
+    "character": "Fenro",
+    "player": "Gisa",
+    "source": "Das Buch und die Schriftrolle liegen auf dem Tisch. Ich gebe sie dir.",
+    "gold": [],
+    "unknown": [
+      "holder",
+      "owner"
+    ],
+    "ambiguous": [
+      "pronoun:sie",
+      "plural location unsupported"
+    ],
+    "basis": "Human-authored source and independent gold before implementation",
+    "bundle": {
+      "story": {
+        "id": "f06be816-2942-483c-88b7-d20858fd62b1",
+        "characterId": "accept-ambiguous-profile",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791393275465,
+        "updatedAt": 1791393275478
+      },
+      "character": {
+        "id": "accept-ambiguous-profile",
+        "name": "Fenro",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "665ef050-3a3b-4c79-bdcd-aabc3fc44dce",
+          "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791393275465
+        },
+        {
+          "id": "21ab9936-1d31-4e2d-9e1d-0ad906dfd3ae",
+          "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+          "role": "USER",
+          "text": "Ich heiße Gisa.",
+          "createdAt": 1791393275467
+        },
+        {
+          "id": "bd709e51-f10d-4a4d-960f-568059198bd1",
+          "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275470
+        },
+        {
+          "id": "71e5e467-77b9-4684-97c1-e095c6abedff",
+          "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+          "role": "USER",
+          "text": "Das Buch und die Schriftrolle liegen auf dem Tisch. Ich gebe sie dir.",
+          "createdAt": 1791393275474
+        },
+        {
+          "id": "978e5e28-7cc2-4e09-a0bd-7ace0026615b",
+          "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275477
+        },
+        {
+          "id": "ccbde1ad-def0-47c2-9f89-ba7309cc39d6",
+          "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+          "role": "USER",
+          "text": "Habe ich dir die Schriftrolle gegeben?",
+          "createdAt": 1791393275478
+        }
+      ],
+      "memories": [
+        {
+          "id": "211735e4-fa64-4125-a430-4d1a0a4a7091",
+          "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+          "kind": "FACT",
+          "text": "Startvorgabe: Fenro: Begleitung",
+          "pinned": true,
+          "createdAt": 1791393275465,
+          "updatedAt": 1791393275465
+        },
+        {
+          "id": "59609820-5141-4e05-9f0a-9bfc23af6fcd",
+          "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791393275466,
+          "updatedAt": 1791393275466
+        }
+      ],
+      "memory": {
+        "version": 6,
+        "facts": [
+          {
+            "id": "2fc51638538105879088732980875496",
+            "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+            "entity": {
+              "id": "3112c05a2e2085d74c6dd5e50ff05087",
+              "storyId": "f06be816-2942-483c-88b7-d20858fd62b1",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Gisa",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "21ab9936-1d31-4e2d-9e1d-0ad906dfd3ae",
+            "sourceText": "Ich heiße Gisa.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275467,
+            "sourceOrder": 38
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "2fc51638538105879088732980875496",
+            "knower": "character",
+            "sourceId": "21ab9936-1d31-4e2d-9e1d-0ad906dfd3ae",
+            "version": 3
+          },
+          {
+            "factId": "2fc51638538105879088732980875496",
+            "knower": "player",
+            "sourceId": "21ab9936-1d31-4e2d-9e1d-0ad906dfd3ae",
+            "version": 3
+          }
+        ],
+        "scannedSources": [
+          "21ab9936-1d31-4e2d-9e1d-0ad906dfd3ae",
+          "bd709e51-f10d-4a4d-960f-568059198bd1",
+          "71e5e467-77b9-4684-97c1-e095c6abedff",
+          "978e5e28-7cc2-4e09-a0bd-7ace0026615b"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "fenro"
+        ]
+      }
+    },
+    "expected": "[]; unknown\u003d[\"holder\",\"owner\"]"
+  },
+  {
+    "case": "accept-perfect",
+    "split": "heldout",
+    "character": "Mara",
+    "player": "Gero",
+    "source": "Ich habe dir den Kristall geschenkt. Du legst den Kristall in den Schrank. Du nimmst ihn wieder auf.",
+    "gold": [
+      [
+        "ITEM",
+        "Kristall",
+        "owner",
+        "Mara"
+      ],
+      [
+        "ITEM",
+        "Kristall",
+        "holder",
+        "Mara"
+      ],
+      [
+        "ITEM",
+        "Kristall",
+        "placement",
+        "Nicht abgelegt"
+      ]
+    ],
+    "unknown": [],
+    "ambiguous": [],
+    "basis": "Human-authored source and independent gold before implementation",
+    "bundle": {
+      "story": {
+        "id": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+        "characterId": "accept-perfect-profile",
+        "title": "Werkstatt",
+        "summary": "",
+        "startContext": "Werkstatt",
+        "createdAt": 1791393275490,
+        "updatedAt": 1791393275511
+      },
+      "character": {
+        "id": "accept-perfect-profile",
+        "name": "Mara",
+        "role": "Begleitung",
+        "genre": "Fantasy",
+        "traits": "Aufmerksam",
+        "personality": "Spricht klar und freundlich.",
+        "scenario": "Werkstatt",
+        "storyTitle": "Werkstatt",
+        "openingMessage": "„Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": false
+      },
+      "messages": [
+        {
+          "id": "1db4040a-3352-46af-89db-41463f5aa4b8",
+          "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+          "role": "CHARACTER",
+          "text": "„Ich höre zu.“",
+          "createdAt": 1791393275490
+        },
+        {
+          "id": "1feefd96-e54e-4651-afe9-e38426e6eba1",
+          "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+          "role": "USER",
+          "text": "Ich heiße Gero.",
+          "createdAt": 1791393275491
+        },
+        {
+          "id": "38b243d4-4261-4da9-8a15-c97c1013ef2c",
+          "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275494
+        },
+        {
+          "id": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+          "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+          "role": "USER",
+          "text": "Ich habe dir den Kristall geschenkt. Du legst den Kristall in den Schrank. Du nimmst ihn wieder auf.",
+          "createdAt": 1791393275499
+        },
+        {
+          "id": "fa601702-dd04-4627-b338-b9c5bddcfe4f",
+          "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+          "role": "CHARACTER",
+          "text": "„Verstanden.“",
+          "createdAt": 1791393275503
+        },
+        {
+          "id": "b5e72180-0835-487a-9631-e868aedf5a27",
+          "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+          "role": "USER",
+          "text": "Wem gehört der Kristall und wo ist er jetzt?",
+          "createdAt": 1791393275511
+        }
+      ],
+      "memories": [
+        {
+          "id": "57d7d291-e575-41ce-9868-22339fe0499f",
+          "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mara: Begleitung",
+          "pinned": true,
+          "createdAt": 1791393275490,
+          "updatedAt": 1791393275490
+        },
+        {
+          "id": "1f7baf6a-ee00-449f-9af0-8a7618072706",
+          "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Werkstatt",
+          "pinned": true,
+          "createdAt": 1791393275491,
+          "updatedAt": 1791393275491
+        }
+      ],
+      "memory": {
+        "version": 12,
+        "facts": [
+          {
+            "id": "2e3d4f536871b3c414c4d41422a6fede",
+            "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+            "entity": {
+              "id": "ba4b1093d24aeac8d07866f30b09ffcb",
+              "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Gero",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "1feefd96-e54e-4651-afe9-e38426e6eba1",
+            "sourceText": "Ich heiße Gero.",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275491,
+            "sourceOrder": 44
+          },
+          {
+            "id": "f073c192cce6251d573945e80cf600b9",
+            "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+            "entity": {
+              "id": "f7c67095084c9a631c9f4ecbc9ce51a6",
+              "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "holder",
+            "value": "Mara",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "sourceText": "Ich habe dir den Kristall geschenkt.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275499,
+            "sourceOrder": 46
+          },
+          {
+            "id": "6fb46d9a092f78dbbcf754b279e9f99a",
+            "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+            "entity": {
+              "id": "f7c67095084c9a631c9f4ecbc9ce51a6",
+              "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "owner",
+            "value": "Mara",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "sourceText": "Ich habe dir den Kristall geschenkt.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275499,
+            "sourceOrder": 46
+          },
+          {
+            "id": "3df15b59a0a31d64ceb03d9fd489ed47",
+            "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+            "entity": {
+              "id": "f7c67095084c9a631c9f4ecbc9ce51a6",
+              "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "holder",
+            "value": "Niemand",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "sourceText": "Du legst den Kristall in den Schrank.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275499,
+            "sourceOrder": 46
+          },
+          {
+            "id": "5869cdeba51326ea19f4ce654590a59a",
+            "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+            "entity": {
+              "id": "f7c67095084c9a631c9f4ecbc9ce51a6",
+              "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "placement",
+            "value": "in dem Schrank",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "sourceText": "Du legst den Kristall in den Schrank.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275499,
+            "sourceOrder": 46
+          },
+          {
+            "id": "f8195f903bc06469b85598e3764140b6",
+            "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+            "entity": {
+              "id": "f7c67095084c9a631c9f4ecbc9ce51a6",
+              "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "holder",
+            "value": "Mara",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "sourceText": "Du nimmst ihn wieder auf.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275499,
+            "sourceOrder": 46
+          },
+          {
+            "id": "8093893708ce98413bb0a807fd61783d",
+            "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+            "entity": {
+              "id": "f7c67095084c9a631c9f4ecbc9ce51a6",
+              "storyId": "17382319-80a7-4d52-aa4f-ea226ef7a4e1",
+              "kind": "ITEM",
+              "name": "Kristall"
+            },
+            "field": "placement",
+            "value": "Nicht abgelegt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "sourceText": "Du nimmst ihn wieder auf.",
+            "version": 11,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791393275499,
+            "sourceOrder": 46
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "2e3d4f536871b3c414c4d41422a6fede",
+            "knower": "character",
+            "sourceId": "1feefd96-e54e-4651-afe9-e38426e6eba1",
+            "version": 3
+          },
+          {
+            "factId": "2e3d4f536871b3c414c4d41422a6fede",
+            "knower": "player",
+            "sourceId": "1feefd96-e54e-4651-afe9-e38426e6eba1",
+            "version": 3
+          },
+          {
+            "factId": "f073c192cce6251d573945e80cf600b9",
+            "knower": "character",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 6
+          },
+          {
+            "factId": "f073c192cce6251d573945e80cf600b9",
+            "knower": "player",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 6
+          },
+          {
+            "factId": "3df15b59a0a31d64ceb03d9fd489ed47",
+            "knower": "character",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 8
+          },
+          {
+            "factId": "3df15b59a0a31d64ceb03d9fd489ed47",
+            "knower": "player",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 8
+          },
+          {
+            "factId": "f8195f903bc06469b85598e3764140b6",
+            "knower": "character",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 10
+          },
+          {
+            "factId": "f8195f903bc06469b85598e3764140b6",
+            "knower": "player",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 10
+          },
+          {
+            "factId": "6fb46d9a092f78dbbcf754b279e9f99a",
+            "knower": "character",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 7
+          },
+          {
+            "factId": "6fb46d9a092f78dbbcf754b279e9f99a",
+            "knower": "player",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 7
+          },
+          {
+            "factId": "5869cdeba51326ea19f4ce654590a59a",
+            "knower": "character",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 9
+          },
+          {
+            "factId": "5869cdeba51326ea19f4ce654590a59a",
+            "knower": "player",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 9
+          },
+          {
+            "factId": "8093893708ce98413bb0a807fd61783d",
+            "knower": "character",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 11
+          },
+          {
+            "factId": "8093893708ce98413bb0a807fd61783d",
+            "knower": "player",
+            "sourceId": "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+            "version": 11
+          }
+        ],
+        "scannedSources": [
+          "1feefd96-e54e-4651-afe9-e38426e6eba1",
+          "38b243d4-4261-4da9-8a15-c97c1013ef2c",
+          "a5a5afee-6516-487f-8c5d-04cf6bf8014a",
+          "fa601702-dd04-4627-b338-b9c5bddcfe4f"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 2,
+        "overview": "",
+        "characterAliases": [
+          "mara"
+        ]
+      }
+    },
+    "expected": "[[\"ITEM\",\"Kristall\",\"owner\",\"Mara\"],[\"ITEM\",\"Kristall\",\"holder\",\"Mara\"],[\"ITEM\",\"Kristall\",\"placement\",\"Nicht abgelegt\"]]; unknown\u003d[]"
+  }
+]

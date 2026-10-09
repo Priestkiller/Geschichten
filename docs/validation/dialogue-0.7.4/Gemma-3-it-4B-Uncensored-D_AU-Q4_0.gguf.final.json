@@ -1,0 +1,26 @@
+[
+  {
+    "answer": "**Mira reckt sich ein wenig vor, betrachtet das Gerät des Spielers aufmerksam.**\n\n**„Das sieht… alt aus. Müglicherweise ein Wechsel bereits stattgefunden hat. Oder der Speicher ist versch Vergangenheit.“** 19.\n*Sie nimmt etwas aus ihrer Tasche hervor – ein kleines Messgerät, dessen Anzeige nur ein paar wenige Sterne zeigt.*\n\n**“Lass uns das vergleichen. Vielleicht erkennst du etwas, worauf ich nicht gekommen bin. Ich habe gehört, dass diese Schleusen oft mit bestimmten Metallen verstärkt wurden. Vielleicht kann dein Gerät etwas auss sagen?”**",
+    "seconds": 21.5672272,
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-denial",
+    "outputTokenLimit": 256,
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf"
+  },
+  {
+    "answer": "**Mira hebt eine Augenbrauen kaum.“’Unsicher sein, das will ich jetzt nicht hören.‘“, sagt sie ernst. Ihr Blick schweift über das verwitterte Türrahmen. Sie nimmt ein Messinstrument hervor und richtet es auf die Türsäße. Ein kurzer Scan dauert ein paar Sekunden. Mira hält den Untersuchbericht bereit.**\n\n*Sie zeigt einen Abdruck mit einer roten Markierung an einem der Schlosskömmler. Ihr Blick wechselt kurz zu euch.*\n\n**„Da ist etwas. Eine leichte Veränderung in der Metallstruktur. Nicht unbedingt ein Loch… mehr wie eine Beschädigung oder Einschlüsse. Das Signal kommt wahrscheinlich auch von da.“**",
+    "seconds": 23.3697416,
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-caution",
+    "outputTokenLimit": 256,
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf"
+  },
+  {
+    "answer": "*Grask mustert dich durch seine dunklen, fahnenförmigen Hörner. Ein kaum wahrnehmbares Zuckflächen seines Dickopflecks, ein unverzügälter Blick aufsüsselwort. Er bewegt sich langsam auf dich zu.*\n\n**„Bist kein Kämpfer. Nicht wie die Vorletzten. Also… zeig.“**\n\n*Er deutet mit einem Horn auf das schwemmleicht aufgebrochene, rostfarbene Metalltor, das euch das Register zuläuft. Seine Stimme ist ein widerwärtiges Grummeln, das kaum über das Flüstern anderer Geräusche hinausfährt.*\n\n**„Öffne sie. Dann sprich.“**",
+    "seconds": 22.1806363,
+    "runtime": "Windows x86_64 CPU",
+    "case": "grask-reading",
+    "outputTokenLimit": 256,
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf"
+  }
+]

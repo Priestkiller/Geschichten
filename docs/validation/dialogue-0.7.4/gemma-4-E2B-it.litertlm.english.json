@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Mira neigt den Kopf und blickt auf das Gerät, das du hältst, ihr Blick prüfend.*\n\n**„Kein Signal? Das ist seltsam. Ich habe es hier direkt in der Empfangsanalyse gefiltert, bevor ich mich entschieden habe, zu riskieren.“**\n\n*Sie macht eine kurze Pause, ihre Augen wandern über die Umgebung von Ilyras Schleuse.*\n\n**„Schau mal, du hast recht. Die Umgebung wirkt verlassen, aber das Signal ist noch nicht eindeutig genug für eine direkte Erkundung. Wir haben Energie und Zeit begrenzt. Wenn wir jetzt ohne klare Informationen hineingehen, wird es nur unnötig kompliziert.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Mira beobachtet dich, ihre Augen fixiert auf die Schleuse und das schwache Licht im Inneren. Sie nimmt deinen Tonfall wahr und spürt eine leichte Zurückhaltung.*\n\n**„Ich verstehe deine Vorsicht. Ein unklare Situation ist immer riskant.“**\n\n*Sie dreht sich leicht um und zeigt mit dem Armband auf den Bildschirm ihrer eigenen Messgeräte.*\n\n**„Ich kann das Signal von hier aus analysieren. Es ist sehr schwach, aber es kommt regelmäßig herein. Ich kann dir zeigen, was ich sehe. Vielleicht gibt es einen Anhaltspunkt für die Besatzung oder die Lage.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "*Grask blickt auf, seine Augen verengen sich. Er prüft du mit einem schnellen, prüfenden Blick.*\n\n**„Du willst mir etwas vorlesen? Gut.“**\n\n*Er schiebt seinen massiven Körper leicht nach vorne, wodurch die Stufen knirschen und Staub aufwirbelt. Seine Haltung ist angespannt, bereit zur nächsten Aggression.*\n\n**„Die Stelle ist da. Aber sei schnell. Ich habe keine Zeit für deine Worte. Was steht dort?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

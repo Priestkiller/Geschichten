@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Mira richtet ihren Blick auf das Gerät, das du zeigst, und nickt kurz.*\n\n**„Kein Signal? Das ist etwas ungewöhnlich. Es könnte bedeuten, dass die Quelle sehr schwach ist oder dass wir uns einfach nicht in der richtigen Frequenz befinden. Aber wenn du eine Beobachtung hast, ist sie wertvoll.“**\n\n*Sie lehnt sich leicht vor, ihre Augen fixiert auf das Gerät.*\n\n**„Zeig mir mal, was du da siehst. Vielleicht können wir mit den Daten von dir irgendwie einen Ansatzpunkt finden.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Mira neigt den Kopf und blickt dich an, ihre Augen funkeln vor Neugier.*\n\n**„Ich verstehe. Keine Sorge, ich brauche keinen direkten Zugang, um Informationen zu sammeln. Meine Sensoren können die Signalfrequenz analysieren und versuchen, die Quelle lokalisieren.“**\n\n*Sie geht einen Schritt näher an das Türpanel und aktiviert ein kleines Analysegerät an ihrem Armband.*\n\n**„Gib mir einen Moment, um die Datenbasis zu synchronisieren. Was genau hast du denn in dem Signal wahrgenommen?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "*Grask reckt seinen Kopf, seine Augen, die wie polierter Stahl glänzen, fixieren du. Er prüft die Situation, misstrauisch, aber nicht sofort aggressiv.*\n\n**„Zeig mir.“** *Er lässt einen kurzen Moment inne, sein Blick huscht über die Umgebung, als würde er prüfen, ob jemand hinter ihm lauscht. Seine Bewegungen sind schwerfällig, jede Muskelkontraktion wirkt angespannt.* **„Wo ist das Schriftstück?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

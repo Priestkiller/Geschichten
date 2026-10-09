@@ -1,0 +1,90 @@
+{
+  "id": "qa-new-owner-holder",
+  "request": {
+    "model": "geschichten-qwen3-8b-test",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Continue this German roleplay. You play \"Marten\". The user plays \"Edda\". Write only your next reply in fluent German. Refer to yourself as ich in dialogue, and describe your own actions in third person between asterisks. The first user message is the original source, spoken by the player to your character. Keep the two persons and their belongings separate. Answer the latest question from that source. Do not invent a missing past event or reason. Questions and hypothetical events are not facts. Do not act for the player. If a past fact is unknown, say so."
+      },
+      {
+        "role": "user",
+        "content": "Der Kompass gehört Edda. Marten hält ihn für sie in der Hand."
+      },
+      {
+        "role": "assistant",
+        "content": "„Ich höre zu.“"
+      },
+      {
+        "role": "user",
+        "content": "Wer ist Eigentümer und wer ist Träger des Kompasses?"
+      }
+    ],
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 384,
+      "seed": 42,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "min_p": 0,
+      "repeat_penalty": 1,
+      "presence_penalty": 1.5
+    },
+    "stream": true,
+    "keep_alive": "10m",
+    "think": false
+  },
+  "startUTC": "2026-10-09T20:04:30.276385+00:00",
+  "server": "http://192.168.178.73:11434",
+  "content": "Der Kompass gehört Edda. Ich halte ihn für sie in der Hand.",
+  "thinking": "",
+  "completed": true,
+  "finalChunk": {
+    "model": "geschichten-qwen3-8b-test",
+    "created_at": "2026-10-09T20:04:32.59656Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1311491000,
+    "load_duration": 6679200,
+    "prompt_eval_count": 192,
+    "prompt_eval_cached_count": 12,
+    "prompt_eval_duration": 301219000,
+    "eval_count": 18,
+    "eval_duration": 987807000
+  },
+  "wallSeconds": 1.313027000054717,
+  "firstContentSeconds": 0.32498649996705353,
+  "firstThinkingSeconds": null,
+  "rawSHA256": "62d1a37fc49f2f2e4ddf51ca45d8876ddbb0cbb08b39adcd9ea77eaed5701e63",
+  "runningModels": {
+    "models": [
+      {
+        "name": "geschichten-qwen3-8b-test:latest",
+        "model": "geschichten-qwen3-8b-test:latest",
+        "size": 5763802068,
+        "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-09T22:14:32.5970724+02:00",
+        "size_vram": 4193811168,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "truncated": false,
+  "reportedPromptTokensPlusReservedOutputWithinContext": true
+}

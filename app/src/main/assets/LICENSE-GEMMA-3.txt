@@ -1,0 +1,887 @@
+Source: https://ai.google.dev/gemma/terms
+
+/* Styles inlined from /site-assets/css/style.css */
+body[theme="googledevai-theme"] {
+  --devsite-background-0: var(--devsite-background-1);
+  --devsite-button-border: 1px solid #747775;
+  --devsite-button-border-radius: 20rem;
+  --devsite-button-font: 500 14px/36px 'Google Sans Text', Roboto, sans-serif;
+  --devsite-code-font-family: 'Google Sans Mono', Roboto Mono, monospace;
+  --devsite-primary-font-family: 'Google Sans Text', Roboto, sans-serif;
+  --devsite-table-heading-font: 500 14px/20px 'Google Sans Text', Roboto, sans-serif;
+  --googledevai-border-color: #c4c7c5;
+  --googledevai-blue-light: #d7e6ff;
+  --googledevai-blue-dark: #2e64de;
+  --googledevai-cyan-light: #c7e4ff;
+  --googledevai-cyan-dark: #3c8fe3;
+  --googledevai-purple-light: #dce2ff;
+  --googledevai-purple-dark: #987be9;
+  --googledevai-purple: #ac87eb;
+  --googledevai-red: #ee4d5d;
+  --googledevai-secondary-text: #001d35;
+  --googledevai-button-gradient-light: linear-gradient(90deg, var(--googledevai-blue-light), var(--googledevai-cyan-light), var(--googledevai-purple-light));
+  --googledevai-button-gradient-dark: linear-gradient(90deg, var(--googledevai-blue), var(--googledevai-cyan), var(--googledevai-purple));
+}
+
+body[theme="googledevai-theme"]:not([type="reference"]){
+  --googledevai-page-width: 1100px;
+}
+
+body[layout=docs][theme="googledevai-theme"]:not([type="reference"]) .devsite-main-content,
+body[layout=docs][theme="googledevai-theme"]:not([type="reference"]) .devsite-main-content[has-book-nav][has-sidebar] {
+  grid-template-columns: minmax(269px, 1fr) minmax(752px, var(--googledevai-page-width)) minmax(160px, 1fr);
+  grid-gap: 3rem;
+}
+
+body[layout=docs][theme="googledevai-theme"] devsite-content {
+  max-width: var(--googledevai-page-width);
+}
+
+body[layout=docs][theme="googledevai-theme"] .devsite-article {
+  box-shadow: unset;
+}
+
+body[theme="googledevai-theme"] {
+  --googledevai-header-gradient: linear-gradient(90deg, var(--googledevai-blue) 50%, var(--googledevai-cyan), var(--googledevai-purple), var(--googledevai-red));
+}
+
+body[theme="googledevai-theme"].color-scheme--dark {
+  --googledevai-header-gradient: linear-gradient(90deg, var(--googledevai-blue) 75%, var(--googledevai-cyan), var(--googledevai-purple));
+  --googledevai-border-color: #444746;
+}
+
+/* Ensure that full-bleed pages get the full width. */
+body[theme="googledevai-theme"][layout="full"] .devsite-main-content {
+  max-width: none;
+  padding: 0;
+}
+
+/* And ensure that any site banners/ACL warnings/etc don't get hidden on
+ * full-bleed pages. */
+body[theme="googledevai-theme"][layout="full"] .devsite-banner {
+  margin: 0;
+}
+
+tab:has(> a.hidden-tab) {
+  display: none;
+}
+
+body[theme="googledevai-theme"] devsite-toc > .devsite-nav-list {
+  border-inline-start: unset;
+}
+
+/* Banner notice */
+[layout=docs] .devsite-banner:first-of-type {
+  background: var(--googledevai-cyan-light);
+  border-radius: 10px;
+  color: var(--googledevai-secondary-text);
+  margin: -2.5rem -0.25rem 2.5rem;
+  display: flex;
+}
+
+/* Banner notice smaller screens */
+@media (max-width: 840px) {
+  [layout=docs] .devsite-banner:first-of-type {
+    margin: -0.25rem -0.25rem 2.5rem;
+  }
+}
+
+/* Asides */
+.devsite-article-body>aside:not([class*=attempt])  {
+  border-radius: 2px;
+}
+
+/* Tables */
+table:not(.tfo-notebook-buttons) {
+  border: 1px solid var(--googledevai-border-color);
+  border-collapse: unset;
+  border-radius: 9px;
+  margin: auto;
+  width: 100%;
+}
+
+.gemini-api-model-table tr:not(:last-child) td:not(:first-child),
+.gemini-api-model-table tr:not(:last-child) th,
+th,
+table:not(.gemini-api-model-table):not(.tfo-notebook-buttons) tr:not(:last-child) td {
+  border-bottom: 1px solid var(--googledevai-border-color);
+}
+
+th,
+td {
+  background: transparent;
+  padding: 1rem;
+}
+
+/* Notebooks */
+devsite-code .tfo-notebook-code-cell-output {
+  max-height: 300px;
+  overflow: auto;
+  background: rgba(237, 247, 255, 1);  /* blue bg to distinguish from input code cells */
+}
+
+devsite-code .tfo-notebook-code-cell-output + .devsite-code-buttons-container button {
+  background: rgba(237, 247, 255, .7);  /* blue bg to distinguish from input code cells */
+}
+
+.color-scheme--dark devsite-code .tfo-notebook-code-cell-output {
+  background: rgba(var(--devsite-background-2), 1);
+}
+
+.color-scheme--dark devsite-code .tfo-notebook-code-cell-output + .devsite-code-buttons-container button {
+  background: rgba(var(--devsite-background-2), .7);
+}
+
+devsite-code[dark-code] .tfo-notebook-code-cell-output {
+  background: rgba(64, 78, 103, 1);  /* medium slate */
+}
+
+devsite-code[dark-code] .tfo-notebook-code-cell-output + .devsite-code-buttons-container button {
+  background: rgba(64, 78, 103, .7);  /* medium slate */
+}
+
+.devsite-article-body>devsite-code {
+  --devsite-code-buttons-container-right: 0;
+  --devsite-code-margin: 0 0;
+  --devsite-code-padding-block: 14px;
+  border-radius: 8px;
+}
+
+.devsite-article-body>.beta:not([class*=attempt]),
+.devsite-article-body>.caution:not([class*=attempt]),
+.devsite-article-body>.deprecated:not([class*=attempt]),
+.devsite-article-body>.dogfood:not([class*=attempt]),
+.devsite-article-body>.experimental:not([class*=attempt]),
+.devsite-article-body>.key-point:not([class*=attempt]),
+.devsite-article-body>.key-term:not([class*=attempt]),
+.devsite-article-body>.note:not([class*=attempt]),
+.devsite-article-body>.objective:not([class*=attempt]),
+.devsite-article-body>.preview:not([class*=attempt]),
+.devsite-article-body>.special:not([class*=attempt]),
+.devsite-article-body>.success:not([class*=attempt]),
+.devsite-article-body>.tip:not([class*=attempt]),
+.devsite-article-body>.warning:not([class*=attempt]),
+.devsite-article-body>aside:not([class*=attempt]) {
+  --devsite-notice-margin: 0 0;
+  border-radius: 8px;
+}
+
+/* override default table styles for notebook buttons */
+.devsite-table-wrapper .tfo-notebook-buttons {
+  display: block;
+  width: auto;
+}
+
+.tfo-notebook-buttons td {
+  display: inline-block;
+  padding: 0 16px 16px 0;
+}
+
+/* from DevSite's buttons.scss */
+.tfo-notebook-buttons a,
+.tfo-notebook-buttons :link,
+.tfo-notebook-buttons :visited {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  align-self: var(--devsite-button-align-self);
+  background: var(--devsite-button-background, var(--devsite-background-1));
+  border: var(--devsite-button-border, 0);
+  border-radius: var(--devsite-button-border-radius, 2px);
+  box-sizing: border-box;
+  color: var(--devsite-button-color);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font: var(--devsite-button-font, 500 14px/36px var(--devsite-primary-font-family));
+  height: var(--devsite-button-height, 36px);
+  letter-spacing: var(--devsite-button-letter-spacing, 0);
+  line-height: var(--devsite-button-line-height, 36px);
+  margin: var(--devsite-button-margin, 0);
+  margin-inline-end: var(--devsite-button-margin-x-end);
+  max-width: var(--devsite-button-max-width, none);
+  min-width: 36px;
+  outline: 0;
+  overflow: hidden;
+  padding: var(--devsite-button-with-icon-padding, 0 16px);
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-transform: var(--devsite-button-text-transform, uppercase);
+  transition:
+    background-color .2s,
+    border .2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: var(--devsite-button-width, auto);
+}
+
+.tfo-notebook-buttons a:hover,
+.tfo-notebook-buttons a:focus {
+  background: var(--devsite-button-background-hover);
+  border: var(--devsite-button-border-hover, 0);
+  color: var(--devsite-button-color-hover, var(--devsite-button-color));
+  text-decoration: var(--devsite-button-text-decoration-hover, none);
+}
+
+.tfo-notebook-buttons a:active {
+  background: var(--devsite-button-background-active);
+  border: var(--devsite-button-border-active, 0);
+  transform: var(--devsite-button-transform-active, none);
+}
+
+.tfo-notebook-buttons tr {
+  background: 0;
+  border: 0;
+}
+
+/* on rendered notebook page,
+   remove link to webpage since we're already here */
+.tfo-notebook-buttons:not(.tfo-api) td:first-child {
+  display: none;
+}
+
+.tfo-notebook-buttons td > a > img {
+  margin: 0 8px 0 -4px;
+  height: 20px;
+}
+
+[appearance='dark'] .tfo-notebook-buttons td > a > img {
+  filter: invert(1);
+}
+
+@media (prefers-color-scheme: dark) {
+  [appearance='device'] .tfo-notebook-buttons td > a > img {
+    filter: invert(1);
+  }
+  .sub-heading {
+    background-color: #333;
+    color: #bdbdbd;
+  }
+}
+
+[appearance='dark'] .sub-heading {
+  background-color: #333;
+  color: #bdbdbd;
+}
+
+.sub-heading {
+  background-color: #f2f2f2;
+  color: #5f6368;
+}
+
+@media screen and (max-width: 600px) {
+  .tfo-notebook-buttons td {
+    display: block;
+  }
+}
+
+devsite-nav-buttons button {
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+code {
+  border-radius: 6px
+}
+
+devsite-book-nav .devsite-nav-list>.devsite-nav-heading:not(.devsite-nav-divider) {
+  border-top: 0;
+  padding-bottom: 0.9rem;
+  font-size: 1rem;
+}
+
+/*
+ * TODO(b/439059414): Remove this workaround in favor of a project-level
+ * body_class when possible.
+ */
+.ais-theme-marker {
+  display: none;
+}
+
+/*
+ * Gemini API body class.
+ * https://source.corp.google.com/piper///depot/google3/third_party/devsite/googledevai/en/gemini-api/_project.yaml;l=7
+ */
+.gemini-api devsite-thumb-rating[position="header"],
+.gemini-api devsite-feedback[position="header"] {
+  /* Hide the thumb rating and feedback widgets at the top of the page. */
+  display: none;
+}
+
+/*
+ * Shaded table styles look like a .pricing-table but are more flexible around
+ * content sizes in each column.
+ */
+.shaded-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.shaded-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+/* These should use theme colours for light too, so we don't
+ * need an override. */
+.color-scheme--dark .shaded-table th {
+  background-color: var(--devsite-ref-palette--grey800);
+}
+
+.shaded-table td {
+    padding: 8px;
+}
+
+.shaded-table th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.shaded-table th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.shaded-table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.shaded-table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.devsite-nav {
+    font-size: var(--devsite-nav-font-size, 14px);
+}
+
+.devsite-nav-item {
+    line-height: var(--devsite-nav-item-line-height, 20px);
+}
+
+.devsite-book-nav-bg, devsite-book-nav {
+    width: 210px;
+    scrollbar-width: thin;
+}
+
+/* Hide the old toggle button immediately */
+.devsite-expandable-nav > .devsite-nav-toggle {
+    display: none !important;
+}
+
+/* Ion setup: Default State (Chevron Right) */
+.devsite-expandable-nav > .devsite-nav-title::after {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    color: #888;
+    /* Default: Chevron Right */
+    content: "\e5cc";
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+/* Down state logic */
+.devsite-expandable-nav.expanded > .devsite-nav-title::after,
+.devsite-expandable-nav:has(.devsite-nav-active) > .devsite-nav-title::after,
+.devsite-expandable-nav > .devsite-nav-title[aria-expanded="true"]::after {
+    content: "\e313";
+}
+
+/* Close state logic */
+.devsite-expandable-nav > .devsite-nav-title[aria-expanded="false"]::after {
+    content: "\e5cc" !important;
+}
+
+/* Hovercard styling */
+.gemini-api .heading:has(devsite-gemini-api-hovercard-button) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gemini-api .heading:has(devsite-gemini-api-hovercard-button) h1 {
+  margin-bottom: 0;
+}
+
+devsite-gemini-api-hovercard,
+devsite-gemini-api-hovercard-button {
+  /* Render above any code blocks on the page */
+  z-index: 1;
+}
+
+.devsite-nav-icon[data-icon="beta"], .devsite-nav-icon[data-icon="preview"],
+.devsite-nav-icon[data-icon="experimental"] {
+  margin: -5px 0 -1px 4px;
+}
+      
+      /* Styles inlined from /site-assets/css/gemma.css */
+body[theme="googledevai-theme"] {
+  --googledevai-header-gradient: linear-gradient(90deg, var(--googledevai-blue) 75%, var(--googledevai-cyan), #acb7ff) !important;
+}
+
+      
+  
+  
+  
+    
+      
+        
+          Gemma 4 released with text, audio and image input and long up to 256K context window! Learn more
+        
+      
+    
+  
+  
+  
+
+  
+    
+    
+    
+  
+  
+
+    
+    
+    
+      
+        
+  
+    
+          Home
+        
+  
+  
+      
+    
+  
+  
+  
+
+    
+      
+      
+    
+    
+    
+      
+        
+  
+    
+          Gemma
+        
+  
+  
+      
+    
+  
+  
+  
+
+    
+      
+      
+    
+    
+    
+      
+        
+  
+    
+          Models
+        
+  
+  
+      
+    
+  
+  
+  
+
+    
+      
+      
+    
+    
+    
+      
+        
+  
+    
+          Docs
+        
+  
+  
+      
+    
+  
+  
+
+    
+      
+    
+    
+  
+    
+    
+  
+  
+    
+
+  
+  
+    
+    Send feedback
+  
+  
+
+  
+    
+
+      Gemma Terms of Use
+    
+  
+      
+    
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+    
+    
+
+
+
+
+
+
+The terms below apply to Gemma models listed in the Appendix at bottom of this page. For Gemma 4 terms, see the Gemma 4 license.
+
+
+
+
+Last modified: April 1, 2026
+
+
+By using, reproducing, modifying, distributing, performing or displaying any
+portion or element of Gemma, Model Derivatives including via any Hosted Service,
+(each as defined below) (collectively, the "Gemma Services") or otherwise
+accepting the terms of this Agreement, you agree to be bound by this Agreement.
+
+
+Section 1: DEFINITIONS
+
+
+1.1 Definitions
+
+
+(a) "Agreement" or "Gemma Terms of Use" means these terms and conditions
+that govern the use, reproduction, Distribution or modification of the Gemma
+Services and any terms and conditions incorporated by reference.
+
+
+(b) "Distribution" or "Distribute" means any transmission, publication,
+or other sharing of Gemma or Model Derivatives to a third party, including by
+providing or making Gemma or its functionality available as a hosted service via
+API, web access, or any other electronic or remote means ("Hosted Service").
+
+
+(c) "Gemma" means the set of machine learning language models, trained model
+weights and parameters identified in the Appendix,
+regardless of the source that you obtained it from.
+
+
+(d) "Google" means Google LLC.
+
+
+(e) "Model Derivatives" means all (i) modifications to Gemma, (ii) works based
+on Gemma, or (iii) any other machine learning model which is created by transfer
+of patterns of the weights, parameters, operations, or Output of Gemma, to that
+model in order to cause that model to perform similarly to Gemma, including
+distillation methods that use intermediate data representations or methods based
+on the generation of synthetic data Outputs by Gemma for training that model.
+For clarity, Outputs are not deemed Model Derivatives.
+
+
+(f) "Output" means the information content output of Gemma or a Model
+Derivative that results from operating or otherwise using Gemma or the Model
+Derivative, including via a Hosted Service.
+
+
+1.2
+
+
+As used in this Agreement, "including" means
+"including without limitation".
+
+
+Section 2: ELIGIBILITY AND USAGE
+
+
+2.1 Eligibility
+
+
+You represent and warrant that you have the legal capacity to enter into this
+Agreement (including being of sufficient age of consent). If you are accessing
+or using any of the Gemma Services for or on behalf of a legal entity, (a) you
+are entering into this Agreement on behalf of yourself and that legal entity,
+(b) you represent and warrant that you have the authority to act on behalf of
+and bind that entity to this Agreement and (c) references to "you" or
+"your" in the remainder of this Agreement refers to both you (as an
+individual) and that entity.
+
+
+2.2 Use
+
+
+You may use, reproduce, modify, Distribute, perform or display any of the Gemma
+Services only in accordance with the terms of this Agreement, and must not
+violate (or encourage or permit anyone else to violate) any term of this
+Agreement.
+
+
+Section 3: DISTRIBUTION AND RESTRICTIONS
+
+
+3.1 Distribution and Redistribution
+
+
+You may reproduce or Distribute copies of Gemma or Model Derivatives if you meet
+all of the following conditions:
+
+
+
+You must include the use restrictions referenced in Section 3.2 as an
+enforceable provision in any agreement (e.g., license agreement, terms of use,
+etc.) governing the use and/or distribution of Gemma or Model Derivatives and
+you must provide notice to subsequent users you Distribute to that Gemma or
+Model Derivatives are subject to the use restrictions in Section 3.2.
+
+You must provide all third party recipients of Gemma or Model Derivatives a
+copy of this Agreement.
+
+You must cause any modified files to carry prominent notices stating that you
+modified the files.
+
+All Distributions (other than through a Hosted Service) must be accompanied
+by a "Notice" text file that contains the following notice:
+"Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms".
+
+
+
+You may add your own intellectual property statement to your modifications and,
+except as set forth in this Section, may provide additional or different terms
+and conditions for use, reproduction, or Distribution of your modifications, or
+for any such Model Derivatives as a whole, provided your use, reproduction,
+modification, Distribution, performance, and display of Gemma otherwise complies
+with the terms and conditions of this Agreement. Any additional or different
+terms and conditions you impose must not conflict with the terms of this
+Agreement.
+
+
+3.2 Use Restrictions
+
+
+You must not use any of the Gemma Services:
+
+
+
+for the restricted uses set forth in the Gemma Prohibited Use Policy at
+ai.google.dev/gemma/prohibited_use_policy
+("Prohibited Use Policy"), which is hereby incorporated by reference into
+this Agreement; or
+
+in violation of applicable laws and regulations.
+
+
+
+To the maximum extent permitted by law, Google reserves the right to restrict
+(remotely or otherwise) usage of any of the Gemma Services that Google
+reasonably believes are in violation of this Agreement.
+
+
+3.3 Generated Output
+
+
+Google claims no rights in Outputs you generate using Gemma. You and your users
+are solely responsible for Outputs and their subsequent uses.
+
+
+Section 4: ADDITIONAL PROVISIONS
+
+
+4.1 Updates
+
+
+Google may update Gemma from time to time.
+
+
+4.2 Trademarks
+
+
+Nothing in this Agreement grants you any rights to use Google's trademarks,
+trade names, logos or to otherwise suggest endorsement or misrepresent the
+relationship between you and Google. Google reserves any rights not expressly
+granted herein.
+
+
+4.3 DISCLAIMER OF WARRANTY
+
+
+UNLESS REQUIRED BY APPLICABLE LAW, THE GEMMA SERVICES, AND OUTPUTS, ARE PROVIDED
+ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER
+EXPRESS OR IMPLIED, INCLUDING ANY WARRANTIES OR CONDITIONS OF TITLE,
+NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE
+SOLELY RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF USING, REPRODUCING,
+MODIFYING, PERFORMING, DISPLAYING OR DISTRIBUTING ANY OF THE GEMMA SERVICES
+OR OUTPUTS AND ASSUME ANY AND ALL RISKS ASSOCIATED WITH YOUR USE OR DISTRIBUTION
+OF ANY OF THE GEMMA SERVICES OR OUTPUTS AND YOUR EXERCISE OF RIGHTS AND
+PERMISSIONS UNDER THIS AGREEMENT.
+
+
+4.4 LIMITATION OF LIABILITY
+
+
+TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT AND UNDER NO
+LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY,
+CONTRACT, OR OTHERWISE, UNLESS REQUIRED BY APPLICABLE LAW, SHALL GOOGLE OR ITS
+AFFILIATES BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOST
+PROFITS OF ANY KIND ARISING FROM THIS AGREEMENT OR RELATED TO, ANY OF THE GEMMA
+SERVICES OR OUTPUTS EVEN IF GOOGLE OR ITS AFFILIATES HAVE BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+
+4.5 Term, Termination, and Survival
+
+
+The term of this Agreement will commence upon your acceptance of this Agreement
+(including acceptance by your use, modification, or Distribution, reproduction,
+performance or display of any portion or element of the Gemma Services) and will
+continue in full force and effect until terminated in accordance with the terms
+of this Agreement. Google may terminate this Agreement if you are in breach of
+any term of this Agreement. Upon termination of this Agreement, you must delete
+and cease use and Distribution of all copies of Gemma and Model Derivatives in
+your possession or control. Sections 1, 2.1, 3.3, 4.2 to 4.9 shall survive the
+termination of this Agreement.
+
+
+4.6 Governing Law and Jurisdiction
+
+
+This Agreement will be governed by the laws of the State of California without
+regard to choice of law principles. The UN Convention on Contracts for the
+International Sale of Goods does not apply to this Agreement. The state and
+federal courts of Santa Clara County, California shall have exclusive
+jurisdiction of any dispute arising out of this Agreement.
+
+
+4.7 Severability
+
+
+If any provision of this Agreement is held to be invalid, illegal or
+unenforceable, the remaining provisions shall be unaffected thereby and remain
+valid as if such provision had not been set forth herein.
+
+
+4.8 Entire Agreement
+
+
+This Agreement states all the terms agreed between the parties and supersedes
+all other agreements between the parties as of the date of acceptance relating
+to its subject matter.
+
+
+4.9 No Waiver
+
+
+Google will not be treated as having waived any rights by not exercising (or
+delaying the exercise of) any rights under this Agreement.
+
+
+Appendix
+
+
+
+Gemma 1
+
+Gemma 1.1
+
+Gemma 2
+
+Gemma 3
+
+Gemma 3n
+
+FunctionGemma
+
+EmbeddingGemma
+
+PaliGemma
+
+PaliGemma 2
+
+ShieldGemma
+
+ShieldGemma 2
+
+CodeGemma
+
+CodeGemma 1.1
+
+Gemma 2 JPN
+
+DataGemma RIG
+
+DataGemma RAG
+
+RecurrentGemma
+
+Gemma Scope
+
+Gemma-APS
+
+T5Gemma
+
+VaultGemma
+
+FunctionGemma
+
+T5Gemma 2
+
+TranslateGemma
+
+Note: Previous versions of these Terms are archived here.
+
+  
+
+  
+
+
+  
+    
+    
+      
+    
+    
+  
+       
+         
+
+  
+  
+    
+    Send feedback

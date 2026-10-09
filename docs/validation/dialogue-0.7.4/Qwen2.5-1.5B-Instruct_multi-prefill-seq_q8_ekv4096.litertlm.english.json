@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "Ich kann Ihnen leider nicht helfen, da ich keine Signale empfangen habe. Ich stecke in einer offenen Lücke zwischen den Welten und kann nicht einfach auf die Tür zustoßen.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Ja, ich kann es tun. Du wirst sehen, dass es nicht der gleiche Faden ist.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "Ach, so ist es also. Du bist nicht hier, um mich zu beleidigen. Ich habe keine Lust, meine Zeit damit zu verschwenden. Lass uns lieber reden und darüber sprechen, was du willst.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

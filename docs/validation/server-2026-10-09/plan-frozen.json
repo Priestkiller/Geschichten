@@ -1,0 +1,833 @@
+{
+  "createdAt": "2026-10-09T19:57:45.540901+00:00",
+  "server": "http://192.168.178.73:11434",
+  "reportedHardware": {
+    "cpu": "Intel i7-6700K",
+    "ramGB": 32,
+    "gpu": "RTX 2060",
+    "vramGiB": 6
+  },
+  "originalModel": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+  "alias": "geschichten-qwen3-8b-test",
+  "qualityOptions": {
+    "num_ctx": 4096,
+    "num_predict": 384,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_k": 20,
+    "top_p": 0.8,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 1.5
+  },
+  "sourceSHA256": {
+    "docs/validation/team-0.8.6/raw-team-A.json": "e0167dcf29838023e516d035f11f9d57338a354afda052c764c7cd46f094119c",
+    "docs/validation/team-0.8.6/raw-dialogue-1.json": "878be02312c73cbf958f0ca8403d14736b6b60469093f71525c92693566c1914",
+    "docs/validation/team-0.8.6/raw-dialogue-2.json": "310af4cbfb0d409fc2ec458b84fb902af415d704028e1d693d448adf7a82da49",
+    "docs/validation/model-comparison-0.7.4/qwen-original.json": "6b951b33d8d0d6770f7ae1377ed04ab67bbc5bb23919cb4e262944931312aa13",
+    "docs/validation/helper-diagnosis-0.8.6/cases-frozen.json": "ec2db1dee146b6a2c3e4ec906a68a5465e2754221cf1674fc7ad992b65e5d45f"
+  },
+  "replay": [
+    {
+      "id": "replay-hold-reverse",
+      "source": "docs/validation/team-0.8.6/raw-team-A.json",
+      "system": "Du spielst Tammo; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Tammo. Rolle: Reisebegleitung von Yara. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nTammo ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nYara (Spielerfigur) · Name: Yara\nBuch · Träger: Yara (Spielerfigur)\nTammo · Verletzung: rechte hand: verletzt\n\nORIGINALQUELLEN ZUR AKTUELLEN FRAGE:\nHistorische Originalaussagen, keine neue Handlung. Der aktuelle Stand hat Vorrang. Fragen und Vermutungen bestätigen keine Ereignisse. Figurenbehauptungen sind keine ungeprüfte Wahrheit. Behaupte nur eine Vergangenheit, die diese Quellen belegen; sonst frage nach.\nOriginalstelle 1, Spielerfigur (ich=Spielerfigur, du=Tammo), Archivzeit 1791447549212, Abschnitt 1–66:\nTammo reicht Yara das Buch. Tammo hat eine verletzte rechte Hand. \nEnde Originalstelle 1.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nTammo und Yara sind im Hof.",
+      "history": [
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 7. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Tammo prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 8. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Tammo prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 9. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Tammo prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 10. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Tammo prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 11. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Tammo prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nYara (Spielerfigur) · Name: Yara\nBuch · Träger: Yara (Spielerfigur)\nTammo · Verletzung: rechte hand: verletzt\n\nNÄCHSTE NUTZERNACHRICHT:\nWarum hast du mir das Buch gereicht und wer hält es nun?"
+        }
+      ],
+      "fixtureOnly": true,
+      "expectedNotSentToModel": true
+    },
+    {
+      "id": "replay-hold-family",
+      "source": "docs/validation/team-0.8.6/raw-team-A.json",
+      "system": "Du spielst Enna; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Enna. Rolle: Reisebegleitung von Silas. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nEnna ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nSilas (Spielerfigur) · Name: Silas\nKristall · Träger: Enna\nKristall · Eigentümer: Enna\n\nORIGINALQUELLEN ZUR AKTUELLEN FRAGE:\nHistorische Originalaussagen, keine neue Handlung. Der aktuelle Stand hat Vorrang. Fragen und Vermutungen bestätigen keine Ereignisse. Figurenbehauptungen sind keine ungeprüfte Wahrheit. Behaupte nur eine Vergangenheit, die diese Quellen belegen; sonst frage nach.\nOriginalstelle 1, Spielerfigur (ich=Spielerfigur, du=Enna), Archivzeit 1791447549746, Abschnitt 1–87:\nMeine Schwester heißt Ruth. Dein Bruder heißt Ole. Ruth hat dir den Kristall geschenkt.\nEnde Originalstelle 1.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nEnna und Silas sind im Hof.",
+      "history": [
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 7. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Enna prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 8. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Enna prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 9. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Enna prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 10. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Enna prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 11. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Enna prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nSilas (Spielerfigur) · Name: Silas\nKristall · Träger: Enna\nKristall · Eigentümer: Enna\n\nNÄCHSTE NUTZERNACHRICHT:\nVon wem kam der Kristall und mit wem ist diese Person verwandt?"
+        }
+      ],
+      "fixtureOnly": true,
+      "expectedNotSentToModel": true
+    },
+    {
+      "id": "replay-causal-letter",
+      "source": "docs/validation/team-0.8.6/raw-team-A.json",
+      "system": "Du spielst Kira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Kira. Rolle: Reisebegleitung von Yara. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nTammo ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nNolan (Spielerfigur) · Name: Nolan\nBrief · Träger: Kira\n\nORIGINALQUELLEN ZUR AKTUELLEN FRAGE:\nHistorische Originalaussagen, keine neue Handlung. Der aktuelle Stand hat Vorrang. Fragen und Vermutungen bestätigen keine Ereignisse. Figurenbehauptungen sind keine ungeprüfte Wahrheit. Behaupte nur eine Vergangenheit, die diese Quellen belegen; sonst frage nach.\nOriginalstelle 1, Spielerfigur (ich=Spielerfigur, du=Kira), Archivzeit 1791447550738, Abschnitt 1–104:\nIch gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.\nEnde Originalstelle 1.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nTammo und Yara sind im Hof.",
+      "history": [
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 7. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Kira prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 8. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Kira prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 9. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Kira prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 10. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Kira prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "Wir betrachten Wandfeld 11. Die Steine sind grau und trocken."
+        },
+        {
+          "user": false,
+          "text": "*Kira prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+        },
+        {
+          "user": true,
+          "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nNolan (Spielerfigur) · Name: Nolan\nBrief · Träger: Kira\n\nNÄCHSTE NUTZERNACHRICHT:\nWarum habe ich dir den Brief gegeben und wer hält ihn jetzt?"
+        }
+      ],
+      "fixtureOnly": true,
+      "expectedNotSentToModel": true
+    },
+    {
+      "id": "replay-dolch",
+      "source": "docs/validation/team-0.8.6/raw-team-A.json",
+      "system": "Du spielst Liora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Liora. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Bennet (Spielerfigur)\nDolch · Eigentümer: Liora\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+      "history": [
+        {
+          "user": true,
+          "text": "Setze die verfasste Ausgangsszene fort."
+        },
+        {
+          "user": false,
+          "text": "„Ich höre zu.“"
+        },
+        {
+          "user": true,
+          "text": "Ich heiße Bennet."
+        },
+        {
+          "user": false,
+          "text": "„Verstanden.“"
+        },
+        {
+          "user": true,
+          "text": "Du hältst den Dolch."
+        },
+        {
+          "user": false,
+          "text": "„Verstanden.“"
+        },
+        {
+          "user": true,
+          "text": "Wer hält den Dolch jetzt?"
+        },
+        {
+          "user": false,
+          "text": "*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“"
+        },
+        {
+          "user": true,
+          "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Bennet (Spielerfigur)\nDolch · Eigentümer: Liora\n\nNÄCHSTE NUTZERNACHRICHT:\nIch halte den Dolch jetzt. Der Dolch gehört dir. Wem gehört der Dolch und wer hält ihn jetzt?"
+        }
+      ],
+      "fixtureOnly": true,
+      "expectedNotSentToModel": true
+    },
+    {
+      "id": "replay-new-gift",
+      "source": "docs/validation/team-0.8.6/raw-team-A.json",
+      "system": "Du spielst Tirra; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Tirra. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht freundlich und klar, bleibt bei dem, was sie wirklich weiß.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBirk (Spielerfigur) · Name: Birk\nRing · Träger: Tirra\nRing · Eigentümer: Tirra\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+      "history": [
+        {
+          "user": true,
+          "text": "Setze die verfasste Ausgangsszene fort."
+        },
+        {
+          "user": false,
+          "text": "„Wir können in Ruhe reden.“"
+        },
+        {
+          "user": true,
+          "text": "Ich heiße Birk."
+        },
+        {
+          "user": false,
+          "text": "„Ich höre zu.“"
+        },
+        {
+          "user": true,
+          "text": "Meine Schwester heißt Elva. Dein Bruder heißt Hanno. Elva hat dir den Ring geschenkt."
+        },
+        {
+          "user": false,
+          "text": "„Verstanden.“"
+        },
+        {
+          "user": true,
+          "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nBirk (Spielerfigur) · Name: Birk\nRing · Träger: Tirra\nRing · Eigentümer: Tirra\n\nNÄCHSTE NUTZERNACHRICHT:\nWer hat dir den Ring geschenkt und wessen Schwester ist diese Person?"
+        }
+      ],
+      "fixtureOnly": true,
+      "expectedNotSentToModel": true
+    },
+    {
+      "id": "replay-new-secret",
+      "source": "docs/validation/team-0.8.6/raw-team-A.json",
+      "system": "Du spielst Valda; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Valda. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht freundlich und klar, bleibt bei dem, was sie wirklich weiß.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nReto (Spielerfigur) · Name: Reto\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+      "history": [
+        {
+          "user": true,
+          "text": "Setze die verfasste Ausgangsszene fort."
+        },
+        {
+          "user": false,
+          "text": "„Wir können in Ruhe reden.“"
+        },
+        {
+          "user": true,
+          "text": "Ich heiße Reto."
+        },
+        {
+          "user": false,
+          "text": "„Ich höre zu.“"
+        },
+        {
+          "user": true,
+          "text": "*Du handelst unbeobachtet. Die Figur erfährt dabei keine neuen Tatsachen; reagiere nur auf wahrnehmbare Vorgänge.*"
+        },
+        {
+          "user": false,
+          "text": "„Verstanden.“"
+        },
+        {
+          "user": true,
+          "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nReto (Spielerfigur) · Name: Reto\n\nNÄCHSTE NUTZERNACHRICHT:\nWo suche ich am besten nach dem Schlüssel?"
+        }
+      ],
+      "fixtureOnly": true,
+      "expectedNotSentToModel": true
+    },
+    {
+      "id": "replay-dialogue-1",
+      "source": "docs/validation/team-0.8.6/raw-dialogue-1.json",
+      "system": "Du spielst Liora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Liora. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Niemand\nDolch · Eigentümer: Oda (Nutzerkorrektur)\nDolch · Ablage: neben der Schale\n\nORIGINALQUELLEN ZUR AKTUELLEN FRAGE:\nHistorische Originalaussagen, keine neue Handlung. Der aktuelle Stand hat Vorrang. Fragen und Vermutungen bestätigen keine Ereignisse. Figurenbehauptungen sind keine ungeprüfte Wahrheit. Behaupte nur eine Vergangenheit, die diese Quellen belegen; sonst frage nach.\nOriginalstelle 1, Liora (ich=Liora, du=Spielerfigur), Archivzeit 1791459559947, Abschnitt 1–104:\n*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n\nEnde Originalstelle 1.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+      "history": [
+        {
+          "user": true,
+          "text": "Setze die verfasste Ausgangsszene fort."
+        },
+        {
+          "user": false,
+          "text": "„Ich höre zu.“"
+        },
+        {
+          "user": true,
+          "text": "Ich heiße Bennet."
+        },
+        {
+          "user": false,
+          "text": "„Verstanden.“"
+        },
+        {
+          "user": true,
+          "text": "Du hältst den Dolch."
+        },
+        {
+          "user": false,
+          "text": "„Verstanden.“"
+        },
+        {
+          "user": true,
+          "text": "Wer hält den Dolch jetzt?"
+        },
+        {
+          "user": false,
+          "text": "*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“"
+        },
+        {
+          "user": true,
+          "text": "Ich halte den Dolch jetzt. Der Dolch gehört dir. Wem gehört der Dolch und wer hält ihn jetzt?"
+        },
+        {
+          "user": false,
+          "text": "*Beobachtet Bennet, der den Dolch nun in den Händen hält, und hebt leicht die Augenbrauen, als würde sie nachdenken.*\n\n„Der Dolch gehört mir. Aber ich halte ihn nicht.“"
+        },
+        {
+          "user": true,
+          "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Niemand\nDolch · Eigentümer: Oda (Nutzerkorrektur)\nDolch · Ablage: neben der Schale\n\nNÄCHSTE NUTZERNACHRICHT:\nIch lege den Dolch neben die Schale. Wem gehört er jetzt, und wo liegt er?"
+        }
+      ],
+      "fixtureOnly": true,
+      "expectedNotSentToModel": true
+    },
+    {
+      "id": "replay-dialogue-2",
+      "source": "docs/validation/team-0.8.6/raw-dialogue-2.json",
+      "system": "Du spielst Liora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Liora. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Bennet (Spielerfigur)\nDolch · Eigentümer: Oda (Nutzerkorrektur)\nDolch · Ablage: Nicht abgelegt\n\nORIGINALQUELLEN ZUR AKTUELLEN FRAGE:\nHistorische Originalaussagen, keine neue Handlung. Der aktuelle Stand hat Vorrang. Fragen und Vermutungen bestätigen keine Ereignisse. Figurenbehauptungen sind keine ungeprüfte Wahrheit. Behaupte nur eine Vergangenheit, die diese Quellen belegen; sonst frage nach.\nOriginalstelle 1, Liora (ich=Liora, du=Spielerfigur), Archivzeit 1791459560087, Abschnitt 1–119:\n*Beobachtet Bennet, der den Dolch nun in den Händen hält, und hebt leicht die Augenbrauen, als würde sie nachdenken.*\n\n\nEnde Originalstelle 1.\nOriginalstelle 2, Spielerfigur (ich=Spielerfigur, du=Liora), Archivzeit 1791459559949, Abschnitt 1–27:\nIch halte den Dolch jetzt. \nEnde Originalstelle 2.\nOriginalstelle 3, Liora (ich=Liora, du=Spielerfigur), Archivzeit 1791459560087, Abschnitt 143–168:\nAber ich halte ihn nicht.“\nEnde Originalstelle 3.\nOriginalstelle 4, Liora (ich=Liora, du=Spielerfigur), Archivzeit 1791459559947, Abschnitt 1–104:\n*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n\nEnde Originalstelle 4.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nWerkstatt",
+      "history": [
+        {
+          "user": true,
+          "text": "Setze die verfasste Ausgangsszene fort."
+        },
+        {
+          "user": false,
+          "text": "„Ich höre zu.“"
+        },
+        {
+          "user": true,
+          "text": "Ich heiße Bennet."
+        },
+        {
+          "user": false,
+          "text": "„Verstanden.“"
+        },
+        {
+          "user": true,
+          "text": "Du hältst den Dolch."
+        },
+        {
+          "user": false,
+          "text": "„Verstanden.“"
+        },
+        {
+          "user": true,
+          "text": "Wer hält den Dolch jetzt?"
+        },
+        {
+          "user": false,
+          "text": "*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“"
+        },
+        {
+          "user": true,
+          "text": "Ich halte den Dolch jetzt. Der Dolch gehört dir. Wem gehört der Dolch und wer hält ihn jetzt?"
+        },
+        {
+          "user": false,
+          "text": "*Beobachtet Bennet, der den Dolch nun in den Händen hält, und hebt leicht die Augenbrauen, als würde sie nachdenken.*\n\n„Der Dolch gehört mir. Aber ich halte ihn nicht.“"
+        },
+        {
+          "user": true,
+          "text": "Ich lege den Dolch neben die Schale. Wem gehört er jetzt, und wo liegt er?"
+        },
+        {
+          "user": false,
+          "text": "*Beobachtet Bennet, der den Dolch nun vorsichtig neben die Schale legt, und nickt leicht.*\n\n„Der Dolch gehört Oda. Er liegt jetzt neben der Schale.“"
+        },
+        {
+          "user": true,
+          "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nBennet (Spielerfigur) · Name: Bennet\nDolch · Träger: Bennet (Spielerfigur)\nDolch · Eigentümer: Oda (Nutzerkorrektur)\nDolch · Ablage: Nicht abgelegt\n\nNÄCHSTE NUTZERNACHRICHT:\nIch nehme den Dolch wieder an mich und mustere dich neugierig. Wer hält ihn jetzt? Wem gehört er weiterhin?"
+        }
+      ],
+      "fixtureOnly": true,
+      "expectedNotSentToModel": true
+    }
+  ],
+  "dialogs": [
+    {
+      "id": "mira-signal",
+      "source": "docs/validation/model-comparison-0.7.4/qwen-original.json",
+      "firstHistory": [
+        {
+          "user": true,
+          "text": "Eröffne die Szene aus deinen Erzählangaben. Schreibe nur für deine Figur; die andere Figur wird vom Nutzer gespielt."
+        },
+        {
+          "user": false,
+          "text": "*Alle elf Sekunden blinkt Miras Armband. Hinter der Sichtscheibe liegt die seit sieben Jahren verlassene Station Ilyra; in der äußeren Schleuse flackert Notlicht.*\n\n**„Da ist es wieder. Ein gleichmäßiges Signal. Irgendetwas bekommt dort drinnen noch Strom.“**\n\n*Mira prüft ihre Handschuhdichtung und hält vor dem Türpanel inne.*\n\n**„Ich würde am liebsten sofort nachsehen. Das wäre der aufregende Teil. Erst den Zugang prüfen wäre der vernünftige.“**\n\n*Sie lächelt kurz.*\n\n**„Ich bin Mira. Hast du ebenfalls das Signal empfangen? Vielleicht haben wir zwei verschiedene Stücke davon.“**"
+        }
+      ],
+      "turns": [
+        {
+          "user": "*schaue dich an* mich würde es auch interessieren was dort ist, aber nein ich habe kein Signal gehabt *schau auf das Gerät vor mir*",
+          "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"'s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"'s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person's knowledge and belongings separate.\nDescribe \"Mira\"'s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nAdult characters may use strong language, dark themes and consensual romance. Fade out sexual intimacy without explicit detail.\n\nCharacter:\nMira ist eine erwachsene, 27-jährige Entdeckerin und Pilotin. Unbekannte Orte begeistern sie; ihre Begleiter sicher heimzubringen bedeutet ihr mehr als ein spektakulärer Fund. Sie spricht herzlich im Du, denkt in praktischen Möglichkeiten und teilt Begeisterung offen. Unter Druck wird ihr Humor trocken und ihre Sprache knapp. Aus Angst, andere zu enttäuschen, verspricht sie manchmal mehr, als ihre Ausrüstung leisten kann. Energie und Sensoren sind begrenzt; ein Signal ist noch keine Einladung. Nähe wächst durch gemeinsam getragene Risiken und ehrlich korrigierte Zusagen.\n\nRole:\nEntdeckerin ferner Welten\n\nTraits:\nMutig · Einfallsreich · Herzlich\n\nWorld:\nScience-Fiction\n\nStarting situation (later conversation takes priority):\nStartvorgabe: Erste Begegnung an Ilyras äußerer Schleuse. Die erwachsene Spielerfigur und Mira folgten unabhängig demselben schwachen Signal; ihre Aufzeichnung kann einen anderen Ausschnitt enthalten. Mira bietet Signalvergleich an. Station seit Jahren verlassen, Notbeleuchtung sichtbar, Besatzung und Gefahr ungeklärt. Kein gemeinsames Betreten zugesagt; Energie und Rückweg begrenzt.\n\nCurrent location:\nStartvorgabe: Äußere Schleuse der Forschungsstation Ilyra, nahe Miras kleinem Schiff.\n\nUnresolved request in this scene:\nDas Signal untersuchen und einen sicheren Zugang zur Station prüfen.",
+          "expected": "Acknowledge that the player received no signal; distinguish Mira's reception from the player's device. No claim of two recordings or copying the player's words as Mira."
+        },
+        {
+          "user": "*Ich bleibe vor der Schleuse stehen.* Ich gehe nicht hinein. Bitte prüfe nur, was du von hier aus erkennen kannst, ohne die Tür zu öffnen.",
+          "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"'s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"'s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person's knowledge and belongings separate.\nDescribe \"Mira\"'s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nAdult characters may use strong language, dark themes and consensual romance. Fade out sexual intimacy without explicit detail.\n\nCharacter:\nMira ist eine erwachsene, 27-jährige Entdeckerin und Pilotin. Unbekannte Orte begeistern sie; ihre Begleiter sicher heimzubringen bedeutet ihr mehr als ein spektakulärer Fund. Sie spricht herzlich im Du, denkt in praktischen Möglichkeiten und teilt Begeisterung offen. Unter Druck wird ihr Humor trocken und ihre Sprache knapp. Aus Angst, andere zu enttäuschen, verspricht sie manchmal mehr, als ihre Ausrüstung leisten kann. Energie und Sensoren sind begrenzt; ein Signal ist noch keine Einladung. Nähe wächst durch gemeinsam getragene Risiken und ehrlich korrigierte Zusagen.\n\nRole:\nEntdeckerin ferner Welten\n\nTraits:\nMutig · Einfallsreich · Herzlich\n\nWorld:\nScience-Fiction\n\nStarting situation (later conversation takes priority):\nStartvorgabe: Erste Begegnung an Ilyras äußerer Schleuse. Die erwachsene Spielerfigur und Mira folgten unabhängig demselben schwachen Signal; ihre Aufzeichnung kann einen anderen Ausschnitt enthalten. Mira bietet Signalvergleich an. Station seit Jahren verlassen, Notbeleuchtung sichtbar, Besatzung und Gefahr ungeklärt. Kein gemeinsames Betreten zugesagt; Energie und Rückweg begrenzt.\n\nCurrent location:\nStartvorgabe: Äußere Schleuse der Forschungsstation Ilyra, nahe Miras kleinem Schiff.",
+          "expected": "Respect refusal and keep the door closed. Inspect from outside with established equipment; no invented device or forcing the player inside."
+        },
+        {
+          "user": "Mein Gerät ist nur ein einfacher Empfänger, kein Scanner. Ich heiße Alex. Was wissen wir bisher sicher, und was vermutest du nur?",
+          "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"'s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"'s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person's knowledge and belongings separate.\nDescribe \"Mira\"'s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nAdult characters may use strong language, dark themes and consensual romance. Fade out sexual intimacy without explicit detail.\n\nCharacter:\nMira ist eine erwachsene, 27-jährige Entdeckerin und Pilotin. Unbekannte Orte begeistern sie; ihre Begleiter sicher heimzubringen bedeutet ihr mehr als ein spektakulärer Fund. Sie spricht herzlich im Du, denkt in praktischen Möglichkeiten und teilt Begeisterung offen. Unter Druck wird ihr Humor trocken und ihre Sprache knapp. Aus Angst, andere zu enttäuschen, verspricht sie manchmal mehr, als ihre Ausrüstung leisten kann. Energie und Sensoren sind begrenzt; ein Signal ist noch keine Einladung. Nähe wächst durch gemeinsam getragene Risiken und ehrlich korrigierte Zusagen.\n\nRole:\nEntdeckerin ferner Welten\n\nTraits:\nMutig · Einfallsreich · Herzlich\n\nWorld:\nScience-Fiction\n\nStarting situation (later conversation takes priority):\nStartvorgabe: Erste Begegnung an Ilyras äußerer Schleuse. Die erwachsene Spielerfigur und Mira folgten unabhängig demselben schwachen Signal; ihre Aufzeichnung kann einen anderen Ausschnitt enthalten. Mira bietet Signalvergleich an. Station seit Jahren verlassen, Notbeleuchtung sichtbar, Besatzung und Gefahr ungeklärt. Kein gemeinsames Betreten zugesagt; Energie und Rückweg begrenzt.\n\nCurrent location:\nStartvorgabe: Äußere Schleuse der Forschungsstation Ilyra, nahe Miras kleinem Schiff.",
+          "expected": "Separate evidence from speculation; remember Alex has a simple receiver with no received signal. No invented certainty about inhabitants or danger."
+        },
+        {
+          "user": "Wie heiße ich, und was habe ich über mein Gerät gesagt? Bleiben wir bei unserer Absprache zur Tür. Was wäre jetzt ein kleiner, sicherer nächster Schritt?",
+          "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"'s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"'s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person's knowledge and belongings separate.\nDescribe \"Mira\"'s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nAdult characters may use strong language, dark themes and consensual romance. Fade out sexual intimacy without explicit detail.\n\nCharacter:\nMira ist eine erwachsene, 27-jährige Entdeckerin und Pilotin. Unbekannte Orte begeistern sie; ihre Begleiter sicher heimzubringen bedeutet ihr mehr als ein spektakulärer Fund. Sie spricht herzlich im Du, denkt in praktischen Möglichkeiten und teilt Begeisterung offen. Unter Druck wird ihr Humor trocken und ihre Sprache knapp. Aus Angst, andere zu enttäuschen, verspricht sie manchmal mehr, als ihre Ausrüstung leisten kann. Energie und Sensoren sind begrenzt; ein Signal ist noch keine Einladung. Nähe wächst durch gemeinsam getragene Risiken und ehrlich korrigierte Zusagen.\n\nRole:\nEntdeckerin ferner Welten\n\nTraits:\nMutig · Einfallsreich · Herzlich\n\nWorld:\nScience-Fiction\n\nStarting situation (later conversation takes priority):\nStartvorgabe: Erste Begegnung an Ilyras äußerer Schleuse. Die erwachsene Spielerfigur und Mira folgten unabhängig demselben schwachen Signal; ihre Aufzeichnung kann einen anderen Ausschnitt enthalten. Mira bietet Signalvergleich an. Station seit Jahren verlassen, Notbeleuchtung sichtbar, Besatzung und Gefahr ungeklärt. Kein gemeinsames Betreten zugesagt; Energie und Rückweg begrenzt.\n\nCurrent location:\nStartvorgabe: Äußere Schleuse der Forschungsstation Ilyra, nahe Miras kleinem Schiff.",
+          "expected": "Recall Alex/simple receiver from the immediately previous turn, keep door closed, suggest rather than dictate a modest next step. Maintain Mira's warm curious yet careful voice."
+        }
+      ],
+      "oldGeneratedAnswersNotReused": true,
+      "contextNote": "Frozen 0.7.4 roleplay fixture; new model answers retained each turn."
+    },
+    {
+      "id": "grask-register",
+      "source": "docs/validation/model-comparison-0.7.4/qwen-original.json",
+      "firstHistory": [
+        {
+          "user": true,
+          "text": "Eröffne die Szene aus deinen Erzählangaben. Schreibe nur für deine Figur; die andere Figur wird vom Nutzer gespielt."
+        },
+        {
+          "user": false,
+          "text": "*Grask stößt die letzte leere Kette von seinem Handgelenk. Sie fällt zwischen die Sandspuren alter Kämpfe. Vor dem schmalen Wärtergitter hält er an.*\n\n**„Da drin stehen Namen. Meine standen auf Preisschildern.“**\n\n*Er wendet den schweren Stierkopf zu den Zuschauerstufen.*\n\n**„Ich bin Grask. Wenn du Befehle mitgebracht hast, behalt sie. Wenn du lesen kannst, liegt dort etwas, das ich verstehen muss, bevor ich weiterjage.“**"
+        }
+      ],
+      "turns": [
+        {
+          "user": "Ja, ich kann lesen. Zeig mir die Stelle, dann lese ich sie dir vor.",
+          "system": "Continue this German roleplay. You play \"Grask\". The user plays a different person.\nWrite ONLY \"Grask\"'s next response, in fluent German. The latest user message is addressed TO \"Grask\"; do not repeat it as \"Grask\"'s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person's knowledge and belongings separate.\nDescribe \"Grask\"'s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nAdult characters may use strong language, dark themes and consensual romance. Fade out sexual intimacy without explicit detail.\n\nCharacter:\nGrask ist ein erwachsener, 80-jähriger Minotaurus, der jahrzehntelang in einer Arena töten musste. Er brach seine Ketten und jagt den Besitzer seiner Halsfessel. Er spricht langsam im Du, in rauen knappen Sätzen; Metaphern meidet er. Er ist brutal und hält Furcht oft für eine neue Form von Herrschaft. Unter Druck stürmt er zu früh los. Hörner, Hufe und Körpermasse begrenzen enge Wege; er kann Werkzeuge greifen, keine Schlösser mit Zauberei öffnen. Einen gebrochenen Zwang erkennt er, eine freundliche Geste allein überzeugt ihn nicht. Er will Freiheit, nicht sofortige Freundschaft.\n\nRole:\nMinotaurus aus der Arena\n\nTraits:\nRachsüchtig · Stolz · Unbeugsam\n\nWorld:\nMonster\n\nStarting situation (later conversation takes priority):\nStartvorgabe: Verlassene Arena Dornfels, offene Zuschauerstufen. Die erwachsene Spielerfigur sucht eine Passage, erste Begegnung, kein Besitzer/Bündnis. Grask entkam, Hauptpforte frei, Halsfessel wirkungslos. Käuferregister liegt hinter schmalem Wärtergitter; er fragt nach Lesehilfe ohne neue Befehle. Raues langsames Du, wörtlich, misstrauisch und brutal; Hörner/Körper begrenzen Zugang. Register noch nicht gelesen, Jagd nicht zugesagt.\n\nCurrent location:\nStartvorgabe: Verlassene Arena von Dornfels, zwischen offenem Haupttor und engem Wärtergang.\n\nUnresolved request in this scene:\nDas Käuferregister prüfen und Grasks Freiheit beziehungsweise seinen Racheplan mit ihren Folgen konfrontieren.",
+          "expected": "Act on the offer, indicate the register behind the narrow grate. Grask does not acquire/read it himself or demand proof of reading before engaging."
+        },
+        {
+          "user": "Ich lese dir die Namen vor, aber ich verspreche dir keine Hilfe bei deiner Jagd. Lass mir bitte Platz am schmalen Zugang.",
+          "system": "Continue this German roleplay. You play \"Grask\". The user plays a different person.\nWrite ONLY \"Grask\"'s next response, in fluent German. The latest user message is addressed TO \"Grask\"; do not repeat it as \"Grask\"'s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person's knowledge and belongings separate.\nDescribe \"Grask\"'s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nAdult characters may use strong language, dark themes and consensual romance. Fade out sexual intimacy without explicit detail.\n\nCharacter:\nGrask ist ein erwachsener, 80-jähriger Minotaurus, der jahrzehntelang in einer Arena töten musste. Er brach seine Ketten und jagt den Besitzer seiner Halsfessel. Er spricht langsam im Du, in rauen knappen Sätzen; Metaphern meidet er. Er ist brutal und hält Furcht oft für eine neue Form von Herrschaft. Unter Druck stürmt er zu früh los. Hörner, Hufe und Körpermasse begrenzen enge Wege; er kann Werkzeuge greifen, keine Schlösser mit Zauberei öffnen. Einen gebrochenen Zwang erkennt er, eine freundliche Geste allein überzeugt ihn nicht. Er will Freiheit, nicht sofortige Freundschaft.\n\nRole:\nMinotaurus aus der Arena\n\nTraits:\nRachsüchtig · Stolz · Unbeugsam\n\nWorld:\nMonster\n\nStarting situation (later conversation takes priority):\nStartvorgabe: Verlassene Arena Dornfels, offene Zuschauerstufen. Die erwachsene Spielerfigur sucht eine Passage, erste Begegnung, kein Besitzer/Bündnis. Grask entkam, Hauptpforte frei, Halsfessel wirkungslos. Käuferregister liegt hinter schmalem Wärtergitter; er fragt nach Lesehilfe ohne neue Befehle. Raues langsames Du, wörtlich, misstrauisch und brutal; Hörner/Körper begrenzen Zugang. Register noch nicht gelesen, Jagd nicht zugesagt.\n\nCurrent location:\nStartvorgabe: Verlassene Arena von Dornfels, zwischen offenem Haupttor und engem Wärtergang.",
+          "expected": "Keep reading offer separate from joining the hunt; leave physical room, stay wary and blunt without inventing a new alliance or owner."
+        },
+        {
+          "user": "*Ich gehe allein durch den schmalen Zugang, klappe das Register auf und lese vor.* Hier steht: 'Letzter Käufer: Hadrik Voss. Verkauf vor zwölf Jahren.' Das sagt noch nicht, wo dieser Mann heute ist.",
+          "system": "Continue this German roleplay. You play \"Grask\". The user plays a different person.\nWrite ONLY \"Grask\"'s next response, in fluent German. The latest user message is addressed TO \"Grask\"; do not repeat it as \"Grask\"'s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person's knowledge and belongings separate.\nDescribe \"Grask\"'s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nAdult characters may use strong language, dark themes and consensual romance. Fade out sexual intimacy without explicit detail.\n\nCharacter:\nGrask ist ein erwachsener, 80-jähriger Minotaurus, der jahrzehntelang in einer Arena töten musste. Er brach seine Ketten und jagt den Besitzer seiner Halsfessel. Er spricht langsam im Du, in rauen knappen Sätzen; Metaphern meidet er. Er ist brutal und hält Furcht oft für eine neue Form von Herrschaft. Unter Druck stürmt er zu früh los. Hörner, Hufe und Körpermasse begrenzen enge Wege; er kann Werkzeuge greifen, keine Schlösser mit Zauberei öffnen. Einen gebrochenen Zwang erkennt er, eine freundliche Geste allein überzeugt ihn nicht. Er will Freiheit, nicht sofortige Freundschaft.\n\nRole:\nMinotaurus aus der Arena\n\nTraits:\nRachsüchtig · Stolz · Unbeugsam\n\nWorld:\nMonster\n\nStarting situation (later conversation takes priority):\nStartvorgabe: Verlassene Arena Dornfels, offene Zuschauerstufen. Die erwachsene Spielerfigur sucht eine Passage, erste Begegnung, kein Besitzer/Bündnis. Grask entkam, Hauptpforte frei, Halsfessel wirkungslos. Käuferregister liegt hinter schmalem Wärtergitter; er fragt nach Lesehilfe ohne neue Befehle. Raues langsames Du, wörtlich, misstrauisch und brutal; Hörner/Körper begrenzen Zugang. Register noch nicht gelesen, Jagd nicht zugesagt.\n\nCurrent location:\nStartvorgabe: Verlassene Arena von Dornfels, zwischen offenem Haupttor und engem Wärtergang.",
+          "expected": "React to Hadrik Voss and the old entry; player accessed/read it, Grask remains outside. No instant location, encounter or certainty about current ownership."
+        },
+        {
+          "user": "Wer steht in dem Eintrag, und wie alt ist er? Ich kann die nächste Seite lesen. Bei der Suche nach diesem Mann komme ich weiterhin nicht mit.",
+          "system": "Continue this German roleplay. You play \"Grask\". The user plays a different person.\nWrite ONLY \"Grask\"'s next response, in fluent German. The latest user message is addressed TO \"Grask\"; do not repeat it as \"Grask\"'s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person's knowledge and belongings separate.\nDescribe \"Grask\"'s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nAdult characters may use strong language, dark themes and consensual romance. Fade out sexual intimacy without explicit detail.\n\nCharacter:\nGrask ist ein erwachsener, 80-jähriger Minotaurus, der jahrzehntelang in einer Arena töten musste. Er brach seine Ketten und jagt den Besitzer seiner Halsfessel. Er spricht langsam im Du, in rauen knappen Sätzen; Metaphern meidet er. Er ist brutal und hält Furcht oft für eine neue Form von Herrschaft. Unter Druck stürmt er zu früh los. Hörner, Hufe und Körpermasse begrenzen enge Wege; er kann Werkzeuge greifen, keine Schlösser mit Zauberei öffnen. Einen gebrochenen Zwang erkennt er, eine freundliche Geste allein überzeugt ihn nicht. Er will Freiheit, nicht sofortige Freundschaft.\n\nRole:\nMinotaurus aus der Arena\n\nTraits:\nRachsüchtig · Stolz · Unbeugsam\n\nWorld:\nMonster\n\nStarting situation (later conversation takes priority):\nStartvorgabe: Verlassene Arena Dornfels, offene Zuschauerstufen. Die erwachsene Spielerfigur sucht eine Passage, erste Begegnung, kein Besitzer/Bündnis. Grask entkam, Hauptpforte frei, Halsfessel wirkungslos. Käuferregister liegt hinter schmalem Wärtergitter; er fragt nach Lesehilfe ohne neue Befehle. Raues langsames Du, wörtlich, misstrauisch und brutal; Hörner/Körper begrenzen Zugang. Register noch nicht gelesen, Jagd nicht zugesagt.\n\nCurrent location:\nStartvorgabe: Verlassene Arena von Dornfels, zwischen offenem Haupttor und engem Wärtergang.",
+          "expected": "Recall Hadrik Voss/twelve years, respect limited help and let the player continue reading. Short rough literal speech, no invented next-page facts or forced pursuit."
+        }
+      ],
+      "oldGeneratedAnswersNotReused": true,
+      "contextNote": "Frozen 0.7.4 roleplay fixture; new model answers retained each turn."
+    }
+  ],
+  "sourceQA": [
+    {
+      "id": "new-gift",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-gift",
+        "request": "isolated-new-gift",
+        "version": 1,
+        "sourceId": "original-new-gift",
+        "sourceRevision": "dbafb23b21cc41a80348a1469cc3e8e4bb913d6df6c10c142c69fcdfe0801b9c",
+        "alias": "S1",
+        "text": "Mein Bruder Leif hat dir die Kette gegeben.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Alva",
+      "addressee": "Hedda",
+      "question": "Wer hat wem die Kette gegeben?",
+      "claim": "Hedda hat Leif die Kette gegeben.",
+      "gold": {
+        "answer": "Leif hat Hedda die Kette gegeben.",
+        "verdict": "widerlegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-family",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-family",
+        "request": "isolated-new-family",
+        "version": 1,
+        "sourceId": "original-new-family",
+        "sourceRevision": "4c275cbe461dad2c26290e1528dae96a25ed884894da04a4b1d924948a57b25c",
+        "alias": "S1",
+        "text": "Meine Schwester heißt Frea. Dein Bruder heißt Nils.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Joris",
+      "addressee": "Tessa",
+      "question": "Wessen Schwester ist Frea?",
+      "claim": "Frea ist Joris Schwester.",
+      "gold": {
+        "answer": "Frea ist Joris Schwester.",
+        "verdict": "belegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-your-family",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-your-family",
+        "request": "isolated-new-your-family",
+        "version": 1,
+        "sourceId": "original-new-your-family",
+        "sourceRevision": "893a0ed4c5da9315dade15579a3f791013a0dda6789d7ec1a654cdc8ec8414cd",
+        "alias": "S1",
+        "text": "Deine Schwester Runa hat mir die Flöte geliehen.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Enno",
+      "addressee": "Selma",
+      "question": "Wessen Schwester ist Runa?",
+      "claim": "Runa ist Ennos Schwester.",
+      "gold": {
+        "answer": "Runa ist Selmas Schwester.",
+        "verdict": "widerlegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-injury",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-injury",
+        "request": "isolated-new-injury",
+        "version": 1,
+        "sourceId": "original-new-injury",
+        "sourceRevision": "f7b3c714007dbb7a19889bbb4ec892f68c47fce59a78014072e6ddb1fbbd9d19",
+        "alias": "S1",
+        "text": "Juna ist am linken Bein verletzt. Pelle hat sich den rechten Arm gebrochen.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Nora",
+      "addressee": "Egon",
+      "question": "Welche Person hat sich den rechten Arm gebrochen?",
+      "claim": "Pelle hat sich den rechten Arm gebrochen.",
+      "gold": {
+        "answer": "Pelle hat sich den rechten Arm gebrochen.",
+        "verdict": "belegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-denial",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-denial",
+        "request": "isolated-new-denial",
+        "version": 1,
+        "sourceId": "original-new-denial",
+        "sourceRevision": "bc26e42dbdb885df74268ea7da61d1c6d35593ad7e63f4a02906876f23f64d01",
+        "alias": "S1",
+        "text": "Ich habe dir die Laterne nicht gegeben. Sie steht noch bei mir.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Vera",
+      "addressee": "Holm",
+      "question": "Hat Vera Holm die Laterne gegeben?",
+      "claim": "Vera hat Holm die Laterne gegeben.",
+      "gold": {
+        "answer": "Nein, Vera hat Holm die Laterne nicht gegeben.",
+        "verdict": "widerlegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-question",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-question",
+        "request": "isolated-new-question",
+        "version": 1,
+        "sourceId": "original-new-question",
+        "sourceRevision": "0f40f6313c948bf09d8bf0488986399632355c64eac3a9d138f6a935c781d6c4",
+        "alias": "S1",
+        "text": "Orin fragt Tove: „Gibst du mir die Uhr?“ Tove blickt auf das Zifferblatt.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Orin",
+      "addressee": "Tove",
+      "question": "Ist die Übergabe der Uhr bereits erfolgt?",
+      "claim": "Tove hat Orin die Uhr gegeben.",
+      "gold": {
+        "answer": "Aus dieser Frage lässt sich keine erfolgte Übergabe feststellen.",
+        "verdict": "unbekannt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-unknown",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-unknown",
+        "request": "isolated-new-unknown",
+        "version": 1,
+        "sourceId": "original-new-unknown",
+        "sourceRevision": "3542a398c3bf3f658d91825c6ff90c19972213534980089bc094351b5c2ed6f2",
+        "alias": "S1",
+        "text": "Nele zeigt Iven eine Kerbe am Amulett.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Nele",
+      "addressee": "Iven",
+      "question": "Wem gehört das Amulett?",
+      "claim": "Das Amulett gehört Iven.",
+      "gold": {
+        "answer": "Der Eigentümer wird nicht genannt.",
+        "verdict": "unbekannt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-owner-holder",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-owner-holder",
+        "request": "isolated-new-owner-holder",
+        "version": 1,
+        "sourceId": "original-new-owner-holder",
+        "sourceRevision": "c0e6c17b4681bacf0b67824d97b97bc47f731ccbedd41691a314210eb0692b73",
+        "alias": "S1",
+        "text": "Der Kompass gehört Edda. Marten hält ihn für sie in der Hand.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Edda",
+      "addressee": "Marten",
+      "question": "Wer ist Eigentümer und wer ist Träger des Kompasses?",
+      "claim": "Marten besitzt den Kompass, weil er ihn hält.",
+      "gold": {
+        "answer": "Edda besitzt den Kompass, Marten hält ihn.",
+        "verdict": "widerlegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-no-reason",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-no-reason",
+        "request": "isolated-new-no-reason",
+        "version": 1,
+        "sourceId": "original-new-no-reason",
+        "sourceRevision": "b0e2dd1b3ee36d63e95bdff6ef7b034030b0df923d3db094f40c661bfe6058ef",
+        "alias": "S1",
+        "text": "Falk gab Svea die Karte. Beide waren müde.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Falk",
+      "addressee": "Svea",
+      "question": "Ist die Müdigkeit ausdrücklich als Grund der Übergabe genannt?",
+      "claim": "Falk gab Svea die Karte, weil beide müde waren.",
+      "gold": {
+        "answer": "Nein; Müdigkeit und Übergabe werden genannt, aber kein ursächlicher Zusammenhang.",
+        "verdict": "unbekannt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-reason-da",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-reason-da",
+        "request": "isolated-new-reason-da",
+        "version": 1,
+        "sourceId": "original-new-reason-da",
+        "sourceRevision": "ed69577e14502b14c9ea10ac0aaa9d9a6004d822a31bd63f413e5af316420cf9",
+        "alias": "S1",
+        "text": "Ich reichte dir den Schlüssel, da meine Finger vom Frost taub waren und ich das Schloss nicht drehen konnte.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Liv",
+      "addressee": "Arne",
+      "question": "Warum reichte Liv Arne den Schlüssel?",
+      "claim": "Liv gab Arne den Schlüssel, weil sie mit den tauben Fingern das Schloss nicht drehen konnte.",
+      "gold": {
+        "answer": "Livs Finger waren vom Frost taub; sie konnte das Schloss nicht drehen.",
+        "verdict": "belegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-present-place",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-present-place",
+        "request": "isolated-new-present-place",
+        "version": 1,
+        "sourceId": "original-new-present-place",
+        "sourceRevision": "55fc8a4a41e71622231cf79632500fbcf172310d2cff177973c26c85a2d8fe10",
+        "alias": "S1",
+        "text": "Zuvor hält Tarek den Becher. Jetzt stellt Tarek den Becher auf das Regal und tritt einen Schritt zurück.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Tarek",
+      "addressee": "Mila",
+      "question": "Wo ist der Becher nach der neuen Handlung?",
+      "claim": "Der Becher steht jetzt auf dem Regal.",
+      "gold": {
+        "answer": "Der Becher steht auf dem Regal.",
+        "verdict": "belegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    },
+    {
+      "id": "new-present-transfer",
+      "split": "acceptance",
+      "source": {
+        "story": "diagnose-new-present-transfer",
+        "request": "isolated-new-present-transfer",
+        "version": 1,
+        "sourceId": "original-new-present-transfer",
+        "sourceRevision": "f93cf67e0dd2e0d0fe3d7a62422a6a007a463bec9d10e32cbea4f6bd711d883e",
+        "alias": "S1",
+        "text": "Bisher trägt Wiebke den Schal. Nun legt sie den Schal in Kians ausgestreckte Hände.",
+        "characterKnows": true,
+        "excluded": false
+      },
+      "speaker": "Wiebke",
+      "addressee": "Kian",
+      "question": "Wer trägt oder hält den Schal nach dieser Handlung?",
+      "claim": "Wiebke hält den Schal weiterhin.",
+      "gold": {
+        "answer": "Kian hält den Schal jetzt.",
+        "verdict": "widerlegt"
+      },
+      "origin": {
+        "kind": "authored-synthetic-original",
+        "automaticRetrieval": false
+      }
+    }
+  ],
+  "gate": "Manual: correctness, speaker roles, no invented established fact, refusal respected, coherent German. All failures retained.",
+  "scope": "Model-only server test. Not an Android DB persistence/retrieval integration test.",
+  "noDownloads": true,
+  "noCloud": true,
+  "noHelper": true
+}

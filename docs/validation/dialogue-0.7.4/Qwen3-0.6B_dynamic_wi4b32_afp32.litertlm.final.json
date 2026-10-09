@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "\"Erwacht, ob es interessieren kann, was dort ist, aber nein, ich habe kein Signal gehabt. Ich schaue auf das Gerät vor mir.\"",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*\"Ich kann das Signal von hier aus prüfen. Ich gehe nicht hinein.\"*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "\"Eröffne die Szene aus deinen Erzählangaben. Zeig mir die Stelle, dann lese ich sie dir vor.\"",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "case": "grask-0",
+  "modelFile": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf",
+  "answer": "*Grask hebt eine Augenwur Pfarr, ein kaum wahrnehmbares Zuckflächen. Er betrachtet dich aufmerksam, sein Blick dringt nicht ein, sondern scannt lediglich, wie ein Tier die Umgebung prüft.*\n\n**„…Wörter. Nicht Gedanken. Nur das, was steht.“**\n\n*Er deutet mit einem langsamen, kaum hörfähigen Wäger auf das schmale, verrostete Wärtergitter. Eine weitere Verüsselung seiner Schulhof, die sich unter seinem Mantel versteckt, bewegt sich kaum ein bisschen. Seine Hörner berühren das Metall kurz.*\n\n**„Ich will keine Geschichte über dich hören. Ich will wissen, wer hier gekauft hat, wen ich jetzt suche. Beschönige nichts. Beschreibe nur das, was da steht.“**\n\n*Eine kurze, wortlose Pause folgt. Seine Finger, dick wie Äste, spielen mit dem verrosteten Schlüsselbund, der um seine Hand gelegt wird. Er scheint abzuwägen, wie viel Mühe er dir verschreiben will, während er erwartungsvoll darauf wartet, dass du beginnst, die erste Kette von Namen zu lesen. Die Luft um ihn herum ist schwer vom Staub und dem muffigen Geruch eines längst",
+  "streamMatchesResult": true,
+  "runtime": "llama.cpp v0.5.0 production JNI source, Windows x86_64 CPU",
+  "maxOutputTokens": 256
+}

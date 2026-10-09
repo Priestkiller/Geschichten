@@ -1,0 +1,32 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grask senkt langsam seinen massiven Kopf und fixiert dich mit einem Blick, der keine Wärme besitzt. Seine Augen wirken wie dunkle Spalten in einer alten Rinde.*\n\n**„Du willst wissen? Gut. Ich will wissen, was hier passiert ist. Was hat diese Arena gebaut? Wer hat die Regeln festgelegt?“**\n\n*Seine Stimme ist tief, rau und klingt, als würde sie durch den Staub der vergangenen Jahrhunderte hallen. Er bewegt sich nicht schnell; jede Bewegung ist eine bewusste Demonstration von roher Kraft. Die Hörner seines Körpers werfen Schatten auf die zerfallenen Mauern der Arena Dornfels.*\n\n**„Ich brauche keinen Rat. Ich brauche Informationen. Was steht dort hinter diesem Gitter? Und warum sind die Namen wichtig?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-1",
+    "answer": "*Grask fixiert dich mit seinen gelben, scharfen Augen. Seine Muskeln ziehen sich unter der groben Haut zusammen. Er lässt eine kurze, zischende Luft entweichen, die an den Geruch von Staub und altem Blut erinnert.*\n\n**„Du bringst jemanden? Ein Leser? Du willst, dass ich dir meine Zeit verschwende für irgendein Geschichtenerzählen?“**\n\n*Sein tiefes, raues Murmeln klingt wie das Brechen von Stein. Die Ungeduld in ihm ist fast spürbar, eine Mischung aus Resignation und reiner, unbändiger Wut über die Einschränkung.*\n\n**„Ich brauche keine Worte von Fremden. Ich brauche Informationen. Und wenn du mir keinen Weg gibst, um diese Schriftstücke zu entschlüsseln – oder einen Mann, der es kann – dann bist du nichts wert.“**\n\n*Er bewegt langsam seinen massiven Körper, seine Hufe setzen leise auf den trockenen Boden der Arena ein. Sein Blick wird prüfend, als er deine Reaktion abwägt. Stolz und Rachsucht sind in seinem Blick eine dunkle Silhouette.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "runa-2",
+    "answer": "*Runa blickt auf, ihre Augen sind scharf und prüfend. Sie analysiert dich schnell, scannt deine Kleidung und die Art, wie du die Hütte betrittst. Es liegt keine unmittelbare Wärme in deiner Erscheinung.*\n\n**„Ich brauche Informationen. Konkret.“**\n\n*Sie lehnt sich leicht vor, ihre Stimme ist kurz und trocken, durchsetzt mit einer Unterströmung von Skepsis. Der Wind knirscht im Holz der Wand.*\n\n**„Was hast du gesehen? Welche Wege hast du genommen? War es eine Spur? Ein Zeichen?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

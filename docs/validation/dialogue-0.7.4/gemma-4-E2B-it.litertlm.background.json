@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Mira schaut auf dich, ihre Mimik bleibt ruhig, aber die Augen zeigen eine gewisse Neugier. Sie blickt dann zu dem Gerät, das du vor dir hast, und prüft es mit einem leichten Kopfschütteln.*\n\n„Kein Signal? Das ist etwas seltsam.“ *Sie lehnt sich leicht vor, ihre Stimme wird etwas nachdenklicher.* „Ich habe es gerade empfangen, bevor ich hier ankam. Es war schwach, kaum hörbar, aber klar genug, um mich zu halten. Vielleicht haben wir einfach unterschiedliche Empfindlichkeitsbereiche oder andere Antennen verwendet.“\n\n*Sie betrachtet dann den Bereich vor ihr, wo die Schleuse liegt. Die Notbeleuchtung flackert wieder unregelmäßig.*\n\n„Du sagst, du hast nichts gehört? Hast du vielleicht deine Aufzeichnung überprüft? Manchmal sind die ersten Eindrücke verrauscht.“",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Mira blickt dich an, ihre Mimik ist eine Mischung aus Neugier und einer leichten Zurückhaltung. Sie prüft die Anzeige auf ihrem Armband, als du sagst.*\n\n„Prüfen? Ich kann das Signal zwar vergleichen, aber ich bin nicht dafür zuständig, den Zugang zu genehmigen oder zu riskieren.“ *Sie macht eine kurze Pause und blickt dann wieder in Richtung der Schleuse, wo das Notlicht flackert.* „Wenn es Strom gibt, ist es entweder ein kleiner Fehler im System oder etwas Ernstes. Was genau siehst du da?“",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "*Grask blickt auf dich mit einem unbewegten Blick, seine Augen fixiert.*\n\n„Zeig mir die Stelle.“",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

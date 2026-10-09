@@ -1,0 +1,304 @@
+{
+  "_id": "67d7d048786ddcb3af560f20",
+  "id": "DavidAU/Gemma-3-it-4B-Uncensored-DBL-X-GGUF",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "tags": [
+    "gguf",
+    "Gemma 3",
+    "instruct",
+    "128k context",
+    "not-for-all-audiences",
+    "all use cases",
+    "r rated",
+    "x rated",
+    "function calling",
+    "roleplaying",
+    "chat",
+    "Uncensored",
+    "creative",
+    "general usage",
+    "problem solving",
+    "brainstorming",
+    "solve riddles",
+    "fiction writing",
+    "plot generation",
+    "sub-plot generation",
+    "story generation",
+    "scene continue",
+    "storytelling",
+    "fiction story",
+    "story",
+    "writing",
+    "fiction",
+    "rp",
+    "swearing",
+    "horror",
+    "text-generation",
+    "en",
+    "base_model:DavidAU/Gemma-3-4b-it-Uncensored-DBL-X",
+    "base_model:quantized:DavidAU/Gemma-3-4b-it-Uncensored-DBL-X",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "region:us",
+    "conversational"
+  ],
+  "downloads": 4269,
+  "likes": 71,
+  "modelId": "DavidAU/Gemma-3-it-4B-Uncensored-DBL-X-GGUF",
+  "author": "DavidAU",
+  "sha": "1a0f89952bf29018124d51ba1ecd29639bdbf061",
+  "lastModified": "2026-06-12T02:58:49.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "base_model": "DavidAU/Gemma-3-4b-it-Uncensored-DBL-X",
+    "tags": [
+      "Gemma 3",
+      "instruct",
+      "128k context",
+      "not-for-all-audiences",
+      "all use cases",
+      "instruct",
+      "r rated",
+      "x rated",
+      "function calling",
+      "roleplaying",
+      "chat",
+      "Uncensored",
+      "creative",
+      "128k context",
+      "general usage",
+      "problem solving",
+      "brainstorming",
+      "solve riddles",
+      "general usage",
+      "problem solving",
+      "brainstorming",
+      "solve riddles",
+      "fiction writing",
+      "plot generation",
+      "sub-plot generation",
+      "fiction writing",
+      "story generation",
+      "scene continue",
+      "storytelling",
+      "fiction story",
+      "story",
+      "writing",
+      "fiction",
+      "rp",
+      "roleplaying",
+      "swearing",
+      "horror"
+    ],
+    "license": "apache-2.0",
+    "pipeline_tag": "text-generation",
+    "language": [
+      "en"
+    ]
+  },
+  "gguf": {
+    "total": 4257793536,
+    "architecture": "gemma3",
+    "context_length": 131072,
+    "chat_template": "{{ bos_token }}\n{%- if messages[0]['role'] == 'system' -%}\n    {%- if messages[0]['content'] is string -%}\n        {%- set first_user_prefix = messages[0]['content'] + '\n\n' -%}\n    {%- else -%}\n        {%- set first_user_prefix = messages[0]['content'][0]['text'] + '\n\n' -%}\n    {%- endif -%}\n    {%- set loop_messages = messages[1:] -%}\n{%- else -%}\n    {%- set first_user_prefix = \"\" -%}\n    {%- set loop_messages = messages -%}\n{%- endif -%}\n{%- for message in loop_messages -%}\n    {%- if (message['role'] == 'user') != (loop.index0 % 2 == 0) -%}\n        {{ raise_exception(\"Conversation roles must alternate user/assistant/user/assistant/...\") }}\n    {%- endif -%}\n    {%- if (message['role'] == 'assistant') -%}\n        {%- set role = \"model\" -%}\n    {%- else -%}\n        {%- set role = message['role'] -%}\n    {%- endif -%}\n    {{ '<start_of_turn>' + role + '\n' + (first_user_prefix if loop.first else \"\") }}\n    {%- if message['content'] is string -%}\n        {{ message['content'] | trim }}\n    {%- elif message['content'] is iterable -%}\n        {%- for item in message['content'] -%}\n            {%- if item['type'] == 'image' -%}\n                {{ '<start_of_image>' }}\n            {%- elif item['type'] == 'text' -%}\n                {{ item['text'] | trim }}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- else -%}\n        {{ raise_exception(\"Invalid content type\") }}\n    {%- endif -%}\n    {{ '<end_of_turn>\n' }}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n    {{'<start_of_turn>model\n'}}\n{%- endif -%}\n",
+    "bos_token": "<bos>",
+    "eos_token": "<eos>",
+    "totalFileSize": 8522953408
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "29f7771d32d202b4d1e848fca237a5a562de091e",
+      "size": 2777
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-F16.gguf",
+      "blobId": "db62e08ec0344ca77afebbd6f740f8ce4c5bca7b",
+      "size": 8522953408,
+      "lfs": {
+        "sha256": "cbb405c5752652ab53fb6a15adbd4e7a4989cd72ae03dc5452f1b2056776841b",
+        "size": 8522953408,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-IQ4_NL.gguf",
+      "blobId": "27396f1d1b541f32fcdf405347a6843f1a975125",
+      "size": 2589130688,
+      "lfs": {
+        "sha256": "815e5872278bdd37a08a97b8164944fb45aa7571f54468517dd6275305f11547",
+        "size": 2589130688,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-IQ4_XS.gguf",
+      "blobId": "733ba5b602545275e09ddcf90cbe011b97753824",
+      "size": 2480340928,
+      "lfs": {
+        "sha256": "ea517aa35cbbb57c0fb7d163c60ed4a49deac8a9585f8247ea1c3b67ca6de8d6",
+        "size": 2480340928,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q2_k.gguf",
+      "blobId": "5d3291f9baab244bf394693dadc59c2ee61380bb",
+      "size": 1867046848,
+      "lfs": {
+        "sha256": "5d699cc5412f5fb83d2e6716a2cf2a7e6c12e64fa33889920839c554533c13ec",
+        "size": 1867046848,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q3_k_l.gguf",
+      "blobId": "f1a6ddced53d94b948001237b7bd4f976f3f0205",
+      "size": 2433605568,
+      "lfs": {
+        "sha256": "54585703f8cb48d6ea9fd6ec4a7a3f44c1755f995806ad7e7bb83e71a83a5dfc",
+        "size": 2433605568,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q3_k_m.gguf",
+      "blobId": "8ebe6ca27e63ca46ac71072ab2f6d7097949addc",
+      "size": 2278940608,
+      "lfs": {
+        "sha256": "ef9ec2be0a184acd2527f178ddd771cd016b8930936c85f1b9f25cb355df4db5",
+        "size": 2278940608,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q3_k_s.gguf",
+      "blobId": "14809905de59ce7ca7fab5c0101f31f2a998be4d",
+      "size": 2099740608,
+      "lfs": {
+        "sha256": "6dac241e7a87fc40c42a218424d12de055b6fc0ca7b9b9516c51289d57027a68",
+        "size": 2099740608,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf",
+      "blobId": "dbcd30308d52abfa51a6d8e114aa4df7a924b7bc",
+      "size": 2576023488,
+      "lfs": {
+        "sha256": "02829b28e6a104daecc06cc8884227ef34b9a461e34f0899cbb819cf7ed6901c",
+        "size": 2576023488,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q4_k_m.gguf",
+      "blobId": "4eeecc3cd11edffa9c94d59fbc8ba13e8e262dfd",
+      "size": 2709839808,
+      "lfs": {
+        "sha256": "077b7eede1d92903c7e234211cd75af7f22507716e5af817c0bd1371b8202683",
+        "size": 2709839808,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q4_k_s.gguf",
+      "blobId": "81b90c55b6d6e431b3c0978664a664f12c28c303",
+      "size": 2590441408,
+      "lfs": {
+        "sha256": "a399a1f7c223f06721104fea0ee9bb116a32cd44ba4065a804ec763d759e4519",
+        "size": 2590441408,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q5_0.gguf",
+      "blobId": "64caecc79195030d7bf2b89d29e766c54dd26a63",
+      "size": 3024289728,
+      "lfs": {
+        "sha256": "ab89ffcccc5215406fac22136950b554a33e5803167f0a6598642cc789815eaf",
+        "size": 3024289728,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q5_k_s.gguf",
+      "blobId": "8f0366b66cd23f45f4dbbdb52a0c0866fdbc44e9",
+      "size": 3024289728,
+      "lfs": {
+        "sha256": "0489df1cf92e93866b98343f3f6a21685c307b9adc006fe1ec8dc69633256efe",
+        "size": 3024289728,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q6_k.gguf",
+      "blobId": "041b4e9ebda7ea5bead3c6bdbd8e5a5faf9cad0b",
+      "size": 3500572608,
+      "lfs": {
+        "sha256": "4ab5aa49c9d0c805b3e4ac11654851644dff6e19f7b0b47dd727164ae25fa27b",
+        "size": 3500572608,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-Q8_0.gguf",
+      "blobId": "166d04da3072827438491d3ac5262450f2b8e3e8",
+      "size": 4531657408,
+      "lfs": {
+        "sha256": "5441bc0e8f4df1b79a8ee3aa9f86a3b2e245d3762a82ce6e2e4a275f8bc223bb",
+        "size": 4531657408,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Gemma-3-it-4B-Uncensored-D_AU-q5_k_m.gguf",
+      "blobId": "0567967200f87fc0b7d0433e6d25f5a776fff426",
+      "size": 3093225408,
+      "lfs": {
+        "sha256": "5b26864f8b90b1cdfd8e51caf420a6f45bb8542eb2a8cbfc3726635d4a4cef29",
+        "size": 3093225408,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "4185b4f59baf164c43802fb9490b41685c924bb8",
+      "size": 60442
+    },
+    {
+      "rfilename": "gemma-4b-uncen.jpg",
+      "blobId": "a00e3b9211246e162f78d491e7cf1f495d3b186a",
+      "size": 134620,
+      "lfs": {
+        "sha256": "59553b50790736af3027beba5d14323ed3a014443fae2b136a9ef721cd58133b",
+        "size": 134620,
+        "pointerSize": 131
+      }
+    }
+  ],
+  "spaces": [
+    "tardellirs/model-pulse",
+    "localellm/WebGPU-gemma-3-it-4b-uncensored-dbl-x-gguf"
+  ],
+  "createdAt": "2025-03-17T07:33:28.000Z",
+  "usedStorage": 47322232860
+}

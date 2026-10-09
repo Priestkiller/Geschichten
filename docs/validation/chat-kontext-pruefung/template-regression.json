@@ -1,0 +1,142 @@
+[
+  {
+    "runtime": "dolphin-tokens-cache",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "dolphin-tokens-cache",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "gemma3-tokens-cache",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "gemma3-tokens-cache",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "huihui-tokens-cache",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "huihui-tokens-cache",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "gemma4-tokens",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "gemma4-tokens",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "qwen25-tokens",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "qwen25-tokens",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "qwen06-tokens",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "qwen06-tokens",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "allHistoryTexts": true,
+      "latestExactlyOnce": true,
+      "order": true
+    }
+  },
+  {
+    "runtime": "qwen25",
+    "case": "A-short",
+    "beforeMissingCharacterMessages": 1
+  },
+  {
+    "runtime": "qwen25",
+    "case": "E-courtyard",
+    "beforeMissingCharacterMessages": 5
+  },
+  {
+    "runtime": "qwen06",
+    "case": "A-short",
+    "beforeMissingCharacterMessages": 1
+  },
+  {
+    "runtime": "qwen06",
+    "case": "E-courtyard",
+    "beforeMissingCharacterMessages": 5
+  }
+]

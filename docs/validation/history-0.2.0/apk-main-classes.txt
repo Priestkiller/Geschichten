@@ -1,0 +1,6 @@
+C d 53	53	5565	dev.vincent.geschichten.updates.AppUpdater
+C d 2	2	155	dev.vincent.geschichten.updates.UpdateFileProvider
+C d 60	61	9313	dev.vincent.geschichten.AppViewModel
+C d 13	17	1830	dev.vincent.geschichten.MainActivity
+C d 2	2	216	dev.vincent.geschichten.BuildConfig
+No test classes from src/test or src/visualTest are defined in the APK.

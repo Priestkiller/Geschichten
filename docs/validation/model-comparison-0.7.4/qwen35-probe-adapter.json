@@ -1,0 +1,6 @@
+{
+  "productionJniSha256": "4e2484db518bf4f059db17ca384b95dbe58a36d0ce2acd90c169d7f47c9d5958",
+  "probeJniSha256": "2a9f7d5169646dc3092c0281775af3a88f951754b4c7016fa9862439679142ed",
+  "difference": "Append official <think>\\n\\n</think>\\n\\n prefix before generation; no sampling or scene changes",
+  "androidAppChanged": false
+}

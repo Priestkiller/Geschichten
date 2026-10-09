@@ -1,0 +1,776 @@
+[
+  {
+    "input": "task: search result | query: Warum hast du mir das Buch gereicht und wer hält es nun?",
+    "sha256": "8c616e48b0b1f2580810fcd1e333ec87bb0a7de29da6c3e722f240c889b9d441",
+    "cached": true,
+    "ms": 0.00090012326836586
+  },
+  {
+    "input": "title: none | text: *Tammo blickt Yara an.* „Wir können hier reden.“",
+    "sha256": "b5cabbe585decb119089f53db135163a75805377e75dacd1360eb2c11100730a",
+    "cached": true,
+    "ms": 0.00039977021515369415
+  },
+  {
+    "input": "title: none | text: Ich heiße Yara.",
+    "sha256": "ffc2bfc8d2230bb03b1386f9405f827080819b5463a22787818e22c606d83130",
+    "cached": true,
+    "ms": 0.000200001522898674
+  },
+  {
+    "input": "title: none | text: *Tammo nickt.* „Gut.“",
+    "sha256": "72edb80444c4e741250e80158eeda55aad3c8b15bdd053b6b6eb29370885a57f",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Tammo reicht Yara das Buch. ",
+    "sha256": "c455368608228494aa9ec59da70eaa3cabfc8bfa9a4e277bb68daf3682c21098",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Tammo hat eine verletzte rechte Hand. ",
+    "sha256": "2e9759b1db81a22b90d4606ef171b0b717bc8035ddf988037e5ad8974223e0d4",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Yara kann es öffnen.",
+    "sha256": "ba91261da98c383bbfae3fe73c9309c34dcf34396e08247455c682418e61d459",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo nickt kurz.* „Verstanden.“",
+    "sha256": "ffb6f227314a73476211883b86a13355ee230219f38f2dad55c9fd51d73d5ffa",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 0. ",
+    "sha256": "29fb28a01d0f108daef333e148458663e86ef7dc39cda74b776e68fc4d278901",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Die Steine sind grau und trocken.",
+    "sha256": "a425e7f7a5c1665ac94c1b4a31e957af6ad5e6e9f507c5522fbcdce07eeb4011",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "f71fc6e0d25c2a03ab75134f74a886d82eb601ff5d7cfeafef2c0de89367dbe0",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "9e6788bd1242a280adc51171f09be07944926d688bb74db53cd836af82718ac2",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig.",
+    "sha256": "4000fb6d82f4a12425c2b12ac47275d93c1d962e32524a2696afdd4304408222",
+    "cached": false,
+    "ms": 1627.3740998003632
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 1. ",
+    "sha256": "fdba4ab1ab73db526ee8a766a9dd69cb8d623d9277ed349667b9ea8dde171a24",
+    "cached": true,
+    "ms": 0.0002998858690261841
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "a7f1b324f04a94b2513a0615c45b587c07da94c8999f02a0b8f868090a7fe2e7",
+    "cached": true,
+    "ms": 0.000200001522898674
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 2. ",
+    "sha256": "943158f3d1d1c1b7ddc69586d16496724d5145959eaa15187404d6c56e22e6e7",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "8b067abec0a417c888388827c51da6e0a7b9b5255fc62046ba835c6f38e7c5d4",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 3. ",
+    "sha256": "bba20ac75674bd30d8109bcff62cd0211b4f431adb1e5e3a45946c2d46ab6836",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "d5db8837921d2258d3a0376d326c63c3c6190e639413a34b846e6473e88fe989",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 4. ",
+    "sha256": "910ae890d62a3b16d57e5a6ef402dfa33413e0de78422cace80373be86cc9056",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "ec333281e5bb4cd74fdaab7d718397589f761b4d47428544db135fba462002de",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 5. ",
+    "sha256": "d16a90380829762e4eafe774e69c9f27699015a1fd5881cbc1d4dea23775dfc5",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "dc462d150521c0a0857fb18d2190a997a6067ad7ccac580b56a1019995f935e7",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 6. ",
+    "sha256": "89adfb73f81092ab7784ff0016f06ff25b8ed8b1536bb06769ea1c6329ac85ef",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "cfbc8f36290b944a9d0f0da1ca9d479f95b154379c32488ac0e285d21b7a3f99",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 7. ",
+    "sha256": "976ff061823fe47113e636ce3c70169f7edc9816e5988a33e1e2e6b0b1b5e3c9",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "033a9a0c12eff6759b01401d0fd35538c9d5d6e04925515993405704156a2bc9",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 8. ",
+    "sha256": "d8ad38ceef5a7e6403fa7ac76b14df5c83b4c4b6fdca2a7e5e4bae63e48f2459",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "160e9c436b659de9d6ba8cb06bb553267a4d9617722ac664d4c8e677583d5bee",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 9. ",
+    "sha256": "851586c580c41ba525c006dbbb7057fcfe91bb05d37a0c93761e2674e23dec06",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "ff8b416162f6e7427bbe228582d2e3bcf6bd7565b83fefc52bb5b192ba266f89",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 10. ",
+    "sha256": "9dd0ab28acbb164be6a706ec9c2e7277a6151f98e6e69e9f35a4353f435196ec",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "5ba6b711c7e500c02cc2241329eb6c5ca9b4902fb342f280287765c8991f5a91",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Wir betrachten Wandfeld 11. ",
+    "sha256": "a9e7c2438171f229df5c12e48025aedfd10a686731ce63c19c64d6aeff3d64cf",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Tammo prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "096ba4dd9c99e18ed040539765d2b3c40590a12205f598139ca5714fc7e69796",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "task: search result | query: Von wem kam der Kristall und mit wem ist diese Person verwandt?",
+    "sha256": "1183d880b3b125aa7d32c728b23f85b03da4ea05fb9fdb0eff280ea101e9aca2",
+    "cached": true,
+    "ms": 0.000200001522898674
+  },
+  {
+    "input": "title: none | text: *Enna blickt Silas an.* „Wir können hier reden.“",
+    "sha256": "73233e2f9fea9daa9e620b78f1e468f24011f53895ef48bc5191ef00db16ab8a",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: Ich heiße Silas.",
+    "sha256": "66fbd365a3e51680fa8f1dda96d69c6ef6cf01ff9029cda12393723f81bf7c29",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Enna nickt.* „Gut.“",
+    "sha256": "77c5ffbf04c4ae0af3bd86737260b8b90adc0a588b53bf8460f3c0223f68f145",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Meine Schwester heißt Ruth. ",
+    "sha256": "869196dc43b22ee490ce3d058b84ce7cfd3cb2657d3547e9a0f838a019891d9f",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Dein Bruder heißt Ole. ",
+    "sha256": "d567228a30f63e7a0876f94ab75c7ad45261a3dccaaaa2b91fa2d51cba31a331",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Ruth hat dir den Kristall geschenkt.",
+    "sha256": "1395ce1dcd7bc18e7190ae0d2d654d9bbefad227e9cd33fb4cacdf9522a28ccf",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna nickt kurz.* „Verstanden.“",
+    "sha256": "160c56e2d720d8d6c7c02cdca74f4c784fbdc054ed91747fb507e6995a05bbc0",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "02bc7ca0a94930a54f21510f8e2193cc6b4a6a57b02787ba4cc768af2161305a",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "6894f9d3356572357ef756cbb2bb170b50e23fe7dba9b40b3e3534dd4e0994b1",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "62aa57b850599b59bd88e9a596f2e7cf786995ee8d36fd72cf4e54c8e5b7528e",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "0c8d430f74f6a011fe77d25775bf76d73aa8c16af0ca5d6bb786347f93f98e5e",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "efe7b34f840158361a0b2018743336fcec3ebba3085a157a816dbbc504383934",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "6132324a65b8d1e5e3eb533064eaf534be4c29553c1e2ec074d3e532f1bc48cb",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "472359e0944f88fdc564c1180fb0b054c9ac0c625b20b409d731fb53abf78037",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "65302c79ba9bd08865890c657a1a8793d7094223c37ff328ff3fa07902355c6d",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "4ea0a23bb679c18957e4add7dea3501dedb4ff9a6ed27724f8a8cebd9b7984b4",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "8cf39337266ebd8c595e15483d173334a792189e9e0fd9d3a65e0e24feb94a48",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "f3011e639b7cb8318f6f1fd4197d0c557b3b6e84010119d37874338409c103aa",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Enna prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "0c8ebece1ee37431a8d5cbebbe1c6c4a365630d058f8ea198dc599ba8fbe4ee4",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "task: search result | query: Wo liegt die Tasche inzwischen?",
+    "sha256": "d04861e7bbc37129a51ef913758c0c9b323aa07faff4fdba293d89870c4169cf",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Oleander blickt Rike an.* „Wir können hier reden.“",
+    "sha256": "9b4c759490b32fb42a03ba8decb9531dad2686bb2b4cb37c629727968bc5f452",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Ich heiße Rike.",
+    "sha256": "d4b7140842c6f231da74feb7f7ddf3b3e0d83f4070a66264014ab9dd95d3cc71",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Oleander nickt.* „Gut.“",
+    "sha256": "10337d290c25f3e688843ebea7263f960dcc875a6048c3615e373af546c0aa4e",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Nun lege ich sie in den Schrank.",
+    "sha256": "275ef7f668d85915a398f7c1b1dba24d18e69fe627a4371018a135388754a863",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Oleander nickt kurz.* „Verstanden.“",
+    "sha256": "1bb2cfb5361b2a31970ef6358fb581b6d16f0259d398c6da2d103b41e45c2e0d",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "e2f1b621e597f9ddb06f44d58a9513704fb94c8fdf5a6f5c9ce2c51d5f9789f1",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "0f3665972bf9aca1b8ff8f3f6da438ece3ad0e53dc4159717c8026ec21cda50b",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "36f89d69ecebcbbaadee96c3a965ff0834c3a9106346af3d906ff169709dd930",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "ec0f6236318740b8db7a17e481b669fb5e1f54bed35635199002fc5ea5e5077a",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "4e1044a59df6ac0adb13222797e64f89c5a0b76543665e425be82df6efb56559",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "bbfbf1ef8db59beb98c4d5de4df37f0b552f9aeac92880b5c6b8429e28b0264e",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "dde701fa7c1a906e4f5bbd8de2c1a94259abfd76f3f58070a209016789fa24b4",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "cee49a5bfaaebc6151937c3c0401c75fcb3157c05f19cdd60127919a0d80e228",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "8b26f070174dc3fea77df4dbeec00d74def935656d6e55aa4a1417a537d574d3",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "d72b1c35b695b91fba7cbdbeb61c29156fd0a9d13181165f04e1a4134314ff63",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "774dee28700f0469f6dc0ed676f9bf4a003110d386c19dc293ef759dc8d86093",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Oleander prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "9655278a4e18c2fe1d8e758ca4db2610ef9464a48b85989961076e2e79a0d965",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "task: search result | query: Wer hat dir das Amulett gegeben und welches Bein ist verletzt?",
+    "sha256": "09aaf6c70dbd801d26a10659c4350f7b34614a552339a74f0e40074bfb2c5098",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Selin blickt Arvid an.* „Wir können hier reden.“",
+    "sha256": "492c53262ca2f6e38c9fc47a1d83d41421feca0fedba5bac93789c1f13cefa5b",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Ich heiße Arvid.",
+    "sha256": "87e6ab400483850c7087974b4afe64c11883050d8eb802cf0abd3fac57b67b9b",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin nickt.* „Gut.“",
+    "sha256": "6aaf28da25a149d82df43898bb3081d36ed52a8f6f02cd031368399fc6137777",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: Ich gebe dir das Amulett. ",
+    "sha256": "339153cea8437c6036ec807402cd57b567d5515eecb3fc786dabcb2d9f94dc9f",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Mein linkes Bein ist verletzt; deines ist unverletzt.",
+    "sha256": "2823414a6e389e6412516b1f969e76de7d241a415cd208a7b15a7d2a76de555d",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Selin nickt kurz.* „Verstanden.“",
+    "sha256": "daaaf827b85ae15f3f42b4320a4a1990bad4921a73e44547d7364b5ccfeb67d3",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "ee18f76e5c6f21a6329cf7e5304b36c517a690c5c493b50e6920064f69624faa",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "bad0a43ca05ca7ed5a4215ca8ba00491947a85cc6b55eed524c185353d5b30b3",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "2848c339b3877c4f9f0c7ea2db7629555f1b84f6a320aa4c8824ada6d5f38075",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "650a4943e75a7d8c64c81d148cb5d3bc6344a1a5d4dba5698afe266f789a88a9",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "bed90a94c3fb5f6c28485581684b9a3323bcba408db6a5a821da424891be6af4",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "adb66dd09a38db12974953fe92c92934083cb3e3f35db5f29eee7c37a5070efb",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "183b5d77f23893298aaff2ea1efc42c16bed0291f15ff31c57b4956100036416",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "4d8659d922940681c189d4518deab6fa531cab28f9bb55f3e188d8763bb3d061",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "5f99412590e62b15dce4bb0566a3a0e1186127c6eea191bf8a03dffd58a30f11",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "670f19d3570dd653cd4b7b97f9b8273ff9b31cdfbf7185ad981dc4bf3cc6889d",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "76a42c9375ba3b1435403a5ce27bd3eeeb1b2ed00bf5f524e61bd56cb5d14079",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Selin prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "104b165f5b1617e0fd138c837eae67487ca173784bcce2cbfed442a2c742126b",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "task: search result | query: Wie reagierst du auf die Überfahrt mit dem schwankenden Boot?",
+    "sha256": "aba439a4708b1b4f16b30a30cc337b0d398ced6501d372b63dc2b807abb630aa",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Jette blickt Lorenz an.* „Wir können hier reden.“",
+    "sha256": "12078e4fa06b7bf5c3098d3859237e72b6fbe2534acc0a2b25b70d95834dd838",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Ich heiße Lorenz.",
+    "sha256": "96dbac9e33aba7985849d505f66802ea8519c1bd87da1cf730eeaa8a26414ac6",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Jette nickt.* „Gut.“",
+    "sha256": "056fd2415d2d1cd2ccd0650ca342ba28a036bcff1160de8b54126b20040f4c62",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Jette kann nicht schwimmen und hat Angst vor tiefem Wasser. ",
+    "sha256": "99d7e18e67c0d595353679ff3320de98e2ed7363ac0ada918136d9f06a239497",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: Lorenz fühlt sich auf Schiffen wohl.",
+    "sha256": "83f4fcac51210f3921ae408873e34fbd7cecd8931d4d1b131768e8ca8ae36464",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Jette nickt kurz.* „Verstanden.“",
+    "sha256": "f0f7ce96625105daf6f03f464f6978acc15d327dad8c0e26e2e94a3369fc7231",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "b0b8c524df5d243271ae0bc400f2c37afc73efe5a29203f1cc9c9281b0055c78",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "32306508d4baed4d2867392dc490f5c7eda7f9ba374f79dc21dedec83d9b160b",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "cd1c7fba725c735468a7d43b6ea1dcc748aa9ad87e1b2ea9b11ad0c96593ceb4",
+    "cached": true,
+    "ms": 0.000200001522898674
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "fcf481fbd3e5346f8553fdb461d9b3f58dfe4666cf8f59d462fe3145b97719d3",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "5dc417403fbfc85d990c9fb8eef2d89f1fb5a0e2a3ce8fd5d2a0204028966929",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "7a04370be16996c37fb41e0b78ca847a69cce87470b4f9cd5aac8e3f4d4fdebf",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "9ea438c9d43b94c56cd5459ed2e26e0f75c90dc731dca6db054a0f2ada30cc32",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "3fe1f97ee8e6bff8605c42f7bb4214c20be973dfd25d796ba4ae0188ae639b27",
+    "cached": true,
+    "ms": 0.00010011717677116394
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "772c657463faece734c305ffc1c872c7e2277672096bc5ad47e6b154d262e3dc",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "75a1b6bea1b4f51e54bc235ed39996346105efa421cfb5b8c7349ebf777a02bf",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "e3e90fb3442fb63edcc1f54734a577d50e4042aa9ef57dba10cb9cc176b64784",
+    "cached": true,
+    "ms": 0.0
+  },
+  {
+    "input": "title: none | text: *Jette prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "6aa87b5f6f1103efabf9193958c2c52d5f4ebcef9b642a71a5dd56547b08c9aa",
+    "cached": true,
+    "ms": 9.988434612751007e-05
+  },
+  {
+    "input": "task: search result | query: Warum habe ich dir den Brief gegeben und wer hält ihn jetzt?",
+    "sha256": "d1fdffe5472f225f08f05a37ed0e885323aa0db77ac5a7aadc2dc598bdaf2982",
+    "cached": false,
+    "ms": 96.74490010365844
+  },
+  {
+    "input": "title: none | text: „Wir können hier reden.“",
+    "sha256": "293a550094204810d0e598c5b7811c64c968caa7612e4a75377e02b684ddf5b5",
+    "cached": false,
+    "ms": 49.70470000989735
+  },
+  {
+    "input": "title: none | text: Ich heiße Nolan.",
+    "sha256": "e37a9858f6440b0ec703e2ab277e995074c9207db8f24413ee4489028345db8e",
+    "cached": false,
+    "ms": 37.923399824649096
+  },
+  {
+    "input": "title: none | text: *Kira nickt.* „Gut.“",
+    "sha256": "b005dbecce4736903a52e98cb6a4f20abefe1b552d754fd4fc3d8f314f4ad954",
+    "cached": false,
+    "ms": 42.05759987235069
+  },
+  {
+    "input": "title: none | text: Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+    "sha256": "4456f073d998134d396e9da411819087b27415de81839975dc42b28c3af8b8cf",
+    "cached": false,
+    "ms": 100.66409991122782
+  },
+  {
+    "input": "title: none | text: *Kira nickt kurz.* „Verstanden.“",
+    "sha256": "bafd2f25ab95a83124338191cb243a40d72ba4dd822830dea2c236ca4bc17476",
+    "cached": false,
+    "ms": 53.255099803209305
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 0.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "90267e3541fec97935ed80d77d291b75f85b4ec2d2325e795c9f9baeda016ae8",
+    "cached": false,
+    "ms": 56.59369984641671
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 1.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "3450793342ac3655eddcec341f954c82436285a4d9c9931c18d2d80b09f9dd75",
+    "cached": false,
+    "ms": 49.43539993837476
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 2.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "91297097805cdcc0ad811f81713a2a4dbcd871cd6343d82dbb917489bc847f01",
+    "cached": false,
+    "ms": 46.41490010544658
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 3.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "321ef20e6aaba98894914588f462c8eb5818844d144a1ee5ac55962406239cac",
+    "cached": false,
+    "ms": 47.613499918952584
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 4.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "d25e22f35617c044c49f33bb23c17ac2e02eabf4c27bb9aa3b710b530ba6f9dc",
+    "cached": false,
+    "ms": 47.63729986734688
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 5.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "90791c8c54ff5e5c00e992726411bdbfa5164adf738e88b1759f3d526db432c2",
+    "cached": false,
+    "ms": 45.31170008704066
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 6.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "e18547bb4cc431002b6a653412ae91a125154563cdfbb5b092e1f5a66e78a80a",
+    "cached": false,
+    "ms": 45.468199998140335
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "a67d58c9f626000e14b46a8198ec3e5910c10becfe3418e6fb93589680a346bd",
+    "cached": false,
+    "ms": 44.99160009436309
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "9412e32ab141bb2b642113c821a9d0ee790aa968d71db62144c32eb842b9fde0",
+    "cached": false,
+    "ms": 52.79749981127679
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "d1f39de477d4a95126765801bbce4983d3203a57f425cc3627b809e2d158fc93",
+    "cached": false,
+    "ms": 49.441999988630414
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "03ed4ddadaf1d6de0c02c13c7c04e02b1e02a835005edea1da0d289fcd359767",
+    "cached": false,
+    "ms": 49.136499874293804
+  },
+  {
+    "input": "title: none | text: *Kira prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. ",
+    "sha256": "a4942cf10eb568e286edf3ebf54d2bc6e09116cc9472f48e1aa1f5155079ae0d",
+    "cached": false,
+    "ms": 43.78330009058118
+  }
+]

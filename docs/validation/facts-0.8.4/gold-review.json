@@ -1,0 +1,7 @@
+{
+  "case": "dev-family",
+  "immutableOriginal": "Meine Schwester heißt Wiebke. Dein Bruder heißt Nils. Wiebke hat dir eine Karte geschickt.",
+  "initialGold": "holder Tessa",
+  "reviewedGold": "holder unknown; owner unknown",
+  "reason": "geschickt establishes sending, not arrival. Initial human gold inferred delivery without evidence. Revised independently; frozen new development/heldout gold unchanged."
+}

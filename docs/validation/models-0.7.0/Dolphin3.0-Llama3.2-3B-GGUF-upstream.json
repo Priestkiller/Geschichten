@@ -1,0 +1,361 @@
+{
+  "_id": "677ac48c045fdf269cb424d7",
+  "id": "bartowski/Dolphin3.0-Llama3.2-3B-GGUF",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "tags": [
+    "gguf",
+    "text-generation",
+    "en",
+    "dataset:OpenCoder-LLM/opc-sft-stage1",
+    "dataset:OpenCoder-LLM/opc-sft-stage2",
+    "dataset:microsoft/orca-agentinstruct-1M-v1",
+    "dataset:microsoft/orca-math-word-problems-200k",
+    "dataset:NousResearch/hermes-function-calling-v1",
+    "dataset:AI-MO/NuminaMath-CoT",
+    "dataset:AI-MO/NuminaMath-TIR",
+    "dataset:allenai/tulu-3-sft-mixture",
+    "dataset:cognitivecomputations/dolphin-coder",
+    "dataset:HuggingFaceTB/smoltalk",
+    "dataset:cognitivecomputations/samantha-data",
+    "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+    "dataset:m-a-p/Code-Feedback",
+    "base_model:dphn/Dolphin3.0-Llama3.2-3B",
+    "base_model:quantized:dphn/Dolphin3.0-Llama3.2-3B",
+    "license:llama3.2",
+    "endpoints_compatible",
+    "region:us",
+    "imatrix",
+    "conversational"
+  ],
+  "downloads": 12890,
+  "likes": 34,
+  "modelId": "bartowski/Dolphin3.0-Llama3.2-3B-GGUF",
+  "author": "bartowski",
+  "sha": "ac6b1ee98e3864ebd5998216f800a07d74b166b5",
+  "lastModified": "2025-01-05T18:02:17.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "quantized_by": "bartowski",
+    "pipeline_tag": "text-generation",
+    "language": [
+      "en"
+    ],
+    "base_model": "cognitivecomputations/Dolphin3.0-Llama3.2-3B",
+    "license": "llama3.2",
+    "datasets": [
+      "OpenCoder-LLM/opc-sft-stage1",
+      "OpenCoder-LLM/opc-sft-stage2",
+      "microsoft/orca-agentinstruct-1M-v1",
+      "microsoft/orca-math-word-problems-200k",
+      "NousResearch/hermes-function-calling-v1",
+      "AI-MO/NuminaMath-CoT",
+      "AI-MO/NuminaMath-TIR",
+      "allenai/tulu-3-sft-mixture",
+      "cognitivecomputations/dolphin-coder",
+      "HuggingFaceTB/smoltalk",
+      "cognitivecomputations/samantha-data",
+      "m-a-p/CodeFeedback-Filtered-Instruction",
+      "m-a-p/Code-Feedback"
+    ]
+  },
+  "gguf": {
+    "total": 3212756032,
+    "architecture": "llama",
+    "context_length": 131072,
+    "quantize_imatrix_file": "/models_out/Dolphin3.0-Llama3.2-3B-GGUF/Dolphin3.0-Llama3.2-3B.imatrix",
+    "chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+    "bos_token": "<|begin_of_text|>",
+    "eos_token": "<|im_end|>",
+    "totalFileSize": 6433700032
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "d1cfe2ff8f8433844e5ff5b38b868f54409dcdb7",
+      "size": 3273
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-IQ2_M.gguf",
+      "blobId": "13a915dcaa2e1e1fb4f319bfad3e9e2e4e47f9c0",
+      "size": 1229035840,
+      "lfs": {
+        "sha256": "dc07e2f0dfd4a0882aa5b3f1e6fba1fde504e14209623e3b38d296384bcd29e5",
+        "size": 1229035840,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-IQ3_M.gguf",
+      "blobId": "83514f260e7161e5f12e2f41b7c7456fbff26fd8",
+      "size": 1599673472,
+      "lfs": {
+        "sha256": "2e8a89732af9cfcb2573f7ff26e83b97f6ee2bec8e86c649ca7aeed96c688cc1",
+        "size": 1599673472,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-IQ3_XS.gguf",
+      "blobId": "4ceb676adb290d4c1815726f755e86261c203a07",
+      "size": 1476793472,
+      "lfs": {
+        "sha256": "1964c35f7df1db779484cb7e71477da2b9ce8bfcb0ca822d636bbcec44776f47",
+        "size": 1476793472,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-IQ4_NL.gguf",
+      "blobId": "26e6bc900a5bab70e1a3cdcea349eba0bfb44988",
+      "size": 1917195392,
+      "lfs": {
+        "sha256": "a3152aefb150122405d3c41e86d51038b4d970e9f78654dec88e38990f1e6f6f",
+        "size": 1917195392,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-IQ4_XS.gguf",
+      "blobId": "78d673eed6570f39d73fe6992728b6f0e9147ae0",
+      "size": 1829115008,
+      "lfs": {
+        "sha256": "12b6c0d4f2279b136a4593ada5bf3e6a613241120dfa00aa20b35bebd510ec53",
+        "size": 1829115008,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q2_K.gguf",
+      "blobId": "33e7b540cec0ccf2ab1c87a85bbb501e478b7f2a",
+      "size": 1363940480,
+      "lfs": {
+        "sha256": "c43919526d31d95a9832e2df327e0ebfc2d016413b5d231eda709ac833974860",
+        "size": 1363940480,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q2_K_L.gguf",
+      "blobId": "0b4f029a0b015bb63fbf3e82baee89ae7e4c0c21",
+      "size": 1459364416,
+      "lfs": {
+        "sha256": "9f5011bc0abaf974c282f7be8d29b69a9317b23ab54c524552f04cd681917016",
+        "size": 1459364416,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q3_K_L.gguf",
+      "blobId": "b84dda7e5dcf37042879d3d6ca2632352ca7e840",
+      "size": 1815352448,
+      "lfs": {
+        "sha256": "3daf22106d38a44ccb60a6effe5fc39a201d7829b50a02fcae98df46e0807771",
+        "size": 1815352448,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q3_K_M.gguf",
+      "blobId": "bd7c0e1a502a12826c88ed6e66561970932b902b",
+      "size": 1687164032,
+      "lfs": {
+        "sha256": "fd7a13e2eb7ec276c24062880b249ac3990fdc38c61abcae9d15dc9b849b35b3",
+        "size": 1687164032,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q3_K_S.gguf",
+      "blobId": "4b8e9f241b717e213d03e94024f572da7b84f0a3",
+      "size": 1542853760,
+      "lfs": {
+        "sha256": "88346f6c1d9bc57ca3d41b3a6c8ab83c65271e8b8927f0f95957f3ce2961ceca",
+        "size": 1542853760,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q3_K_XL.gguf",
+      "blobId": "d3ed1a9dffe4a83551d04603ac351eecc6b273b8",
+      "size": 1910776384,
+      "lfs": {
+        "sha256": "29e34f4107cf2a67062a3db48768a07419acfca97aac5f687bb0a29a951149fa",
+        "size": 1910776384,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q4_0.gguf",
+      "blobId": "a886c03f094b029f70fa1e4c6542ac7771a5e015",
+      "size": 1921913984,
+      "lfs": {
+        "sha256": "551618c7c03866cf7966809e83ef0f5d81c4d2eb726a3b05f8399e849e327f0a",
+        "size": 1921913984,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q4_1.gguf",
+      "blobId": "318a393a08b40e28d4c5ecbf4ef61bb62eb8bd6a",
+      "size": 2093356160,
+      "lfs": {
+        "sha256": "3719877091aad85b7f346856b7c4777ffca9f7b768d458d3a4fdb7513dc33e18",
+        "size": 2093356160,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q4_K_L.gguf",
+      "blobId": "e70452517e16a4548cc99594bbcc3b0c28c4afae",
+      "size": 2114806336,
+      "lfs": {
+        "sha256": "1c550caa35be15af8a7d0c961221b369092ce0f6333e5b93474913bcd0d65017",
+        "size": 2114806336,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+      "blobId": "c44420c1d390be04dbbf9f860888c5b651cac505",
+      "size": 2019382400,
+      "lfs": {
+        "sha256": "5d6d02eeefa1ab5dbf23f97afdf5c2c95ad3d946dc3b6e9ab72e6c1637d54177",
+        "size": 2019382400,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q4_K_S.gguf",
+      "blobId": "04f06193fcc52b9af42815eb70c3178031650678",
+      "size": 1928205440,
+      "lfs": {
+        "sha256": "8ba95a98e27b5559d3b7a692248ab4fd5399793d80b7e7b531ca726fce819c0b",
+        "size": 1928205440,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q5_K_L.gguf",
+      "blobId": "ec16ca11ff810e08226c4a6a5aa3e5e1e5246e2a",
+      "size": 2417582656,
+      "lfs": {
+        "sha256": "d91e3637a352051f99aaa9eea6550fce82c2914f35dc98b77827dd7989b9f7d7",
+        "size": 2417582656,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q5_K_M.gguf",
+      "blobId": "a8fcca30c6ee22d02ce74cb1dac5d70b408c386d",
+      "size": 2322158720,
+      "lfs": {
+        "sha256": "6d80400d2354e95966e324fe0840ce3d0d4f6f72b16f4bea940baa4aa1be4a86",
+        "size": 2322158720,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q5_K_S.gguf",
+      "blobId": "84c869eda17e8464841f430cb287a7b47b2dd749",
+      "size": 2269516928,
+      "lfs": {
+        "sha256": "08ff6ec021c1952ba937a20ef942175ace69559ddabadb1ae036320b72896aa2",
+        "size": 2269516928,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q6_K.gguf",
+      "blobId": "4c22970cdc40ce22e4918f2fb1e98ed058b17f2d",
+      "size": 2643858560,
+      "lfs": {
+        "sha256": "a3197bbc65a383767daef570060802cb6bbafad4470a09386509dcbcd03fec5b",
+        "size": 2643858560,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q6_K_L.gguf",
+      "blobId": "f702f99430fea2acfe6bdac02411f26e2c575e2e",
+      "size": 2739282496,
+      "lfs": {
+        "sha256": "419ca3d68001820496f155643d79ecbce2474033ca4463917b8afbb6995efe07",
+        "size": 2739282496,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-Q8_0.gguf",
+      "blobId": "24d60e9ba7626d8ff45463a7b9ff46912a2fb0cc",
+      "size": 3421905472,
+      "lfs": {
+        "sha256": "d7a51f65ebd35e7e7da5632274183c9b54f38330e015a6c73adca0bf3523fdae",
+        "size": 3421905472,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-f16.gguf",
+      "blobId": "9dcb20d0fcaef6d04b269d7aea5d0730c48af8fd",
+      "size": 6433700032,
+      "lfs": {
+        "sha256": "bde88f7223ea57676aa3a6c138e2463012bcd5b0d501ad43f3837d4e5c065b00",
+        "size": 6433700032,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B-f32.gguf",
+      "blobId": "42d575667f1792bc369444c008aeb2977892c1d5",
+      "size": 12858861472,
+      "lfs": {
+        "sha256": "5f39913705a149684e470abe5e129d7910460064568628f39bf42e62412a9411",
+        "size": 12858861472,
+        "pointerSize": 136
+      }
+    },
+    {
+      "rfilename": "Dolphin3.0-Llama3.2-3B.imatrix",
+      "blobId": "39b7a4c984d11484b8e830d4b2d0fe0c444a1829",
+      "size": 2988390,
+      "lfs": {
+        "sha256": "25e7a0c2f9856951dfb227230c42d6dacb6393308ba633abf50fbcb251fc3bc6",
+        "size": 2988390,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "517499b8b39e16506a569e0add398dae26a52fea",
+      "size": 14215
+    }
+  ],
+  "spaces": [
+    "tardellirs/model-pulse",
+    "daddy14/disha-ai-girlfriend",
+    "Jolly6443/Obsidian",
+    "Jolly4927/Obsidian",
+    "unsensoredai/adarsha",
+    "jolly5673/Obsidian"
+  ],
+  "createdAt": "2025-01-05T17:42:36.000Z",
+  "usedStorage": 63018783750
+}

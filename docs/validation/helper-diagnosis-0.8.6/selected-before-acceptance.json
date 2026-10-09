@@ -1,0 +1,13 @@
+{
+  "model": "huihui-qwen3-4b",
+  "profile": "baseline",
+  "temperature": 0.75,
+  "topK": 40,
+  "topP": 0.9,
+  "output": 512,
+  "seed": 42,
+  "reason": "Huihui: A/B/C jeweils6/6 inhaltlich richtig bei beiden Temperaturen, strukturierte Ergebnisse verwertbar. Keine Verbesserung durch0.2; bei Gleichstand bleibt das Ausgangsprofil. Gemma: trotz kürzerem Auftrag weiter Rollen-/Kausalfehler; JSON ohne native Begrenzung in Markdown.",
+  "acceptanceNotYetRead": true,
+  "forcedFormatIsSeparateComparison": true,
+  "defaultTeamRemainsOff": true
+}

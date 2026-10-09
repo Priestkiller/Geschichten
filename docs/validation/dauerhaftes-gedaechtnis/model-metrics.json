@@ -1,0 +1,131 @@
+{
+  "models": {
+    "dolphin3-llama3.2-3b": {
+      "cases": 6,
+      "accepted": 4,
+      "tokenizerMatches": 6,
+      "inputTokens": [
+        785,
+        1116
+      ],
+      "coldPlanningMs": 117,
+      "warmPlanningMsRange": [
+        7,
+        11
+      ],
+      "warmPlanningMedianMs": 8,
+      "firstTextMsRange": [
+        5720,
+        8195
+      ],
+      "environment": "Desktop CPU 4 threads, model initialization excluded; not an S24 benchmark"
+    },
+    "gemma-4-e2b": {
+      "cases": 6,
+      "accepted": 5,
+      "tokenizerMatches": 6,
+      "inputTokens": [
+        671,
+        948
+      ],
+      "coldPlanningMs": 189,
+      "warmPlanningMsRange": [
+        12,
+        21
+      ],
+      "warmPlanningMedianMs": 16,
+      "firstTextMsRange": [
+        593,
+        811
+      ],
+      "environment": "Desktop CPU 4 threads, model initialization excluded; not an S24 benchmark"
+    },
+    "gemma3-davidau-4b": {
+      "cases": 6,
+      "accepted": 5,
+      "tokenizerMatches": 6,
+      "inputTokens": [
+        667,
+        944
+      ],
+      "coldPlanningMs": 122,
+      "warmPlanningMsRange": [
+        13,
+        26
+      ],
+      "warmPlanningMedianMs": 21,
+      "firstTextMsRange": [
+        7700,
+        10839
+      ],
+      "environment": "Desktop CPU 4 threads, model initialization excluded; not an S24 benchmark"
+    },
+    "huihui-qwen3-4b": {
+      "cases": 6,
+      "accepted": 6,
+      "tokenizerMatches": 6,
+      "inputTokens": [
+        789,
+        1123
+      ],
+      "coldPlanningMs": 142,
+      "warmPlanningMsRange": [
+        7,
+        13
+      ],
+      "warmPlanningMedianMs": 10,
+      "firstTextMsRange": [
+        8218,
+        12817
+      ],
+      "environment": "Desktop CPU 4 threads, model initialization excluded; not an S24 benchmark"
+    },
+    "qwen2.5-1.5b": {
+      "cases": 6,
+      "accepted": 4,
+      "tokenizerMatches": 6,
+      "inputTokens": [
+        790,
+        1124
+      ],
+      "coldPlanningMs": 117,
+      "warmPlanningMsRange": [
+        10,
+        17
+      ],
+      "warmPlanningMedianMs": 14,
+      "firstTextMsRange": [
+        1274,
+        1751
+      ],
+      "environment": "Desktop CPU 4 threads, model initialization excluded; not an S24 benchmark"
+    },
+    "qwen3-0.6b": {
+      "cases": 6,
+      "accepted": 5,
+      "tokenizerMatches": 6,
+      "inputTokens": [
+        793,
+        1127
+      ],
+      "coldPlanningMs": 117,
+      "warmPlanningMsRange": [
+        12,
+        17
+      ],
+      "warmPlanningMedianMs": 14,
+      "firstTextMsRange": [
+        2058,
+        3082
+      ],
+      "environment": "Desktop CPU 4 threads, model initialization excluded; not an S24 benchmark"
+    }
+  },
+  "finalCalls": 36,
+  "matchedBeforeCalls": 36,
+  "intermediateCalls": 36,
+  "additionalMemoryModelCalls": 0,
+  "finalPromptCountsMatch": true,
+  "reserve": 512,
+  "context": 4096
+}

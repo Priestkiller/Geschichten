@@ -1,0 +1,136 @@
+{
+  "apk": "Geschichten-0.2.0.apk",
+  "bytes": 138454734,
+  "sha256": "62834fe6dfc683e4699125d9c77229bd8b741d8471a6b6bea8cd4a92949a215a",
+  "package": "dev.vincent.geschichten",
+  "versionName": "0.2.0",
+  "versionCode": 2,
+  "minSdk": 31,
+  "targetSdk": 35,
+  "abi": [
+    "arm64-v8a"
+  ],
+  "lintErrors": 0,
+  "lintWarnings": 38,
+  "lintCategories": {
+    "ApplySharedPref": 1,
+    "ModifierParameter": 1,
+    "DiscouragedApi": 2,
+    "ChromeOsAbiSupport": 1,
+    "ObsoleteSdkInt": 1,
+    "UnusedResources": 21,
+    "MonochromeLauncherIcon": 1,
+    "UseKtx": 10
+  },
+  "normalTests": 43,
+  "visualProfileTests": 63,
+  "visualProfileEvidence": "Latest passing result per suite; full profile plus targeted UiScreenshotTest confirmation after fixing a scrolling test selector.",
+  "testSuites": {
+    "normal": [
+      {
+        "suite": "dev.vincent.geschichten.ai.ModelDownloadProtocolTest",
+        "tests": 10,
+        "timestamp": "2026-10-03T19:55:55"
+      },
+      {
+        "suite": "dev.vincent.geschichten.ai.StoryPromptTest",
+        "tests": 12,
+        "timestamp": "2026-10-03T19:55:55"
+      },
+      {
+        "suite": "dev.vincent.geschichten.ai.StorySummaryPromptTest",
+        "tests": 2,
+        "timestamp": "2026-10-03T19:55:55"
+      },
+      {
+        "suite": "dev.vincent.geschichten.data.BuiltinCharactersCatalogTest",
+        "tests": 3,
+        "timestamp": "2026-10-03T19:55:55"
+      },
+      {
+        "suite": "dev.vincent.geschichten.updates.UpdatePolicyTest",
+        "tests": 16,
+        "timestamp": "2026-10-03T19:55:55"
+      }
+    ],
+    "visual": [
+      {
+        "suite": "dev.vincent.geschichten.MainActivityLaunchTest",
+        "tests": 1,
+        "timestamp": "2026-10-03T19:49:45"
+      },
+      {
+        "suite": "dev.vincent.geschichten.ai.ModelDownloadProtocolTest",
+        "tests": 10,
+        "timestamp": "2026-10-03T19:49:53"
+      },
+      {
+        "suite": "dev.vincent.geschichten.ai.StoryPromptTest",
+        "tests": 12,
+        "timestamp": "2026-10-03T19:49:53"
+      },
+      {
+        "suite": "dev.vincent.geschichten.ai.StorySummaryPromptTest",
+        "tests": 2,
+        "timestamp": "2026-10-03T19:49:53"
+      },
+      {
+        "suite": "dev.vincent.geschichten.data.BuiltinCharactersCatalogTest",
+        "tests": 3,
+        "timestamp": "2026-10-03T19:49:53"
+      },
+      {
+        "suite": "dev.vincent.geschichten.data.CatalogMigrationTest",
+        "tests": 2,
+        "timestamp": "2026-10-03T19:49:53"
+      },
+      {
+        "suite": "dev.vincent.geschichten.data.StoryRepositoryIntegrationTest",
+        "tests": 3,
+        "timestamp": "2026-10-03T19:49:55"
+      },
+      {
+        "suite": "dev.vincent.geschichten.ui.UiScreenshotTest",
+        "tests": 9,
+        "timestamp": "2026-10-03T19:51:48"
+      },
+      {
+        "suite": "dev.vincent.geschichten.updates.AppUpdatesUiTest",
+        "tests": 3,
+        "timestamp": "2026-10-03T19:50:01"
+      },
+      {
+        "suite": "dev.vincent.geschichten.updates.UpdateFileProviderIntegrationTest",
+        "tests": 2,
+        "timestamp": "2026-10-03T19:50:02"
+      },
+      {
+        "suite": "dev.vincent.geschichten.updates.UpdatePolicyTest",
+        "tests": 16,
+        "timestamp": "2026-10-03T19:50:02"
+      }
+    ]
+  },
+  "screenshots": 11,
+  "signatureScheme": "v2",
+  "certificateSha256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+  "sameCertificateAsVersion010": true,
+  "previousApkSha256": "1a74ab7c4dc1e38528d1a01b0305f97277368d7ab484cf50f9d3b617c8b32df4",
+  "updateRepository": "Priestkiller/Geschichten",
+  "updateIncludePrerelease": true,
+  "publicDeploymentStatus": "Public repository and documentation are online. APK release is pending because a browser session-continuation error blocked release asset upload. Public APK download and device installation are not verified.",
+  "publicPublicationAuthorized": true,
+  "publicRepositoryPublished": true,
+  "publicDocumentationPublished": true,
+  "publicDocumentationCommit": "a9243e081b131cca6e5d4d97982f9bce2610fc35",
+  "publicReleasePublished": false,
+  "publicReleaseCount": 0,
+  "publicReleaseUploadBlocker": "Browser session-continuation error during release asset upload.",
+  "publicApkDownloadVerified": false,
+  "physicalDeviceTested": false,
+  "modelInferenceTested": false,
+  "apkInstallationOrUpgradeOnDeviceTested": false,
+  "nativeElfLoadAlignmentBytes": 16384,
+  "buildResult": "BUILD SUCCESSFUL in 1m 22s",
+  "buildOutputsIsolatedForFilesystemSynchronization": true
+}

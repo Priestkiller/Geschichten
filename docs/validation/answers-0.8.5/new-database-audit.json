@@ -1,0 +1,2517 @@
+[
+  {
+    "case": "new-holder",
+    "question": "Wer hält den Dolch jetzt?",
+    "expected": "„Ich halte den Dolch.“",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "bd47d5c8d1ee98a2ea44f5e48d559289",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "entity": {
+            "id": "63c89c65f17c250ef52e0c3d3d5a4629",
+            "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Bennet",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "9e756aa8-97a6-45d6-826b-551e9251a655",
+          "sourceText": "Ich heiße Bennet.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457292,
+          "sourceOrder": 2
+        },
+        {
+          "id": "e80f52d5261766169ca914dd3edc4d9f",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "entity": {
+            "id": "b05db7a2d50c390e659fd83d8cc285a6",
+            "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+            "kind": "ITEM",
+            "name": "Dolch"
+          },
+          "field": "holder",
+          "value": "Liora",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "0ca58667-ae81-40a8-835a-411c616c16a0",
+          "sourceText": "Du hältst den Dolch.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457294,
+          "sourceOrder": 4
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "bd47d5c8d1ee98a2ea44f5e48d559289",
+          "knower": "character",
+          "sourceId": "9e756aa8-97a6-45d6-826b-551e9251a655",
+          "version": 3
+        },
+        {
+          "factId": "bd47d5c8d1ee98a2ea44f5e48d559289",
+          "knower": "player",
+          "sourceId": "9e756aa8-97a6-45d6-826b-551e9251a655",
+          "version": 3
+        },
+        {
+          "factId": "e80f52d5261766169ca914dd3edc4d9f",
+          "knower": "character",
+          "sourceId": "0ca58667-ae81-40a8-835a-411c616c16a0",
+          "version": 6
+        },
+        {
+          "factId": "e80f52d5261766169ca914dd3edc4d9f",
+          "knower": "player",
+          "sourceId": "0ca58667-ae81-40a8-835a-411c616c16a0",
+          "version": 6
+        }
+      ],
+      "scannedSources": [
+        "9e756aa8-97a6-45d6-826b-551e9251a655",
+        "7a11fa47-7149-43f7-aee1-0ea85fd540c0",
+        "0ca58667-ae81-40a8-835a-411c616c16a0",
+        "f82cd0c9-1dbe-4301-8b70-8f03469d97bc"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "liora"
+      ]
+    },
+    "actualAnswerInput": [
+      {
+        "id": "e80f52d5261766169ca914dd3edc4d9f",
+        "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+        "entity": {
+          "id": "b05db7a2d50c390e659fd83d8cc285a6",
+          "storyId": "1f410a07-abc0-4921-af99-023786dd30cc",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Liora",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "0ca58667-ae81-40a8-835a-411c616c16a0",
+        "sourceText": "Du hältst den Dolch.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791448457294,
+        "sourceOrder": 4
+      }
+    ],
+    "actualAnswer": "„Ich halte den Dolch.“",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": true
+  },
+  {
+    "case": "new-owner",
+    "question": "Wem gehört der Ring?",
+    "expected": "„Der Ring gehört dir.“",
+    "storage": {
+      "version": 8,
+      "facts": [
+        {
+          "id": "86af68da3facd6c226063e6b2af06265",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "entity": {
+            "id": "6f9d933d050c30d846937f82e6e1f2d2",
+            "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Thilo",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "38846525-9de2-43c9-86e9-fffc967e4a5a",
+          "sourceText": "Ich heiße Thilo.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457307,
+          "sourceOrder": 9
+        },
+        {
+          "id": "7fef49d355ee40868e4df06d7e5e407f",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "entity": {
+            "id": "2e1f6663f3baa88386115d23a96520b7",
+            "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "owner",
+          "value": "Du",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+          "sourceText": "Der Ring gehört mir.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457320,
+          "sourceOrder": 11
+        },
+        {
+          "id": "e41105a6377bfcbab75e0c2e5b999f38",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "entity": {
+            "id": "2e1f6663f3baa88386115d23a96520b7",
+            "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "holder",
+          "value": "Neris",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+          "sourceText": "Du hältst den Ring.",
+          "version": 7,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457320,
+          "sourceOrder": 11
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "e41105a6377bfcbab75e0c2e5b999f38",
+          "knower": "character",
+          "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+          "version": 7
+        },
+        {
+          "factId": "e41105a6377bfcbab75e0c2e5b999f38",
+          "knower": "player",
+          "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+          "version": 7
+        },
+        {
+          "factId": "7fef49d355ee40868e4df06d7e5e407f",
+          "knower": "character",
+          "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+          "version": 6
+        },
+        {
+          "factId": "7fef49d355ee40868e4df06d7e5e407f",
+          "knower": "player",
+          "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+          "version": 6
+        },
+        {
+          "factId": "86af68da3facd6c226063e6b2af06265",
+          "knower": "character",
+          "sourceId": "38846525-9de2-43c9-86e9-fffc967e4a5a",
+          "version": 3
+        },
+        {
+          "factId": "86af68da3facd6c226063e6b2af06265",
+          "knower": "player",
+          "sourceId": "38846525-9de2-43c9-86e9-fffc967e4a5a",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "38846525-9de2-43c9-86e9-fffc967e4a5a",
+        "010ddfef-c0b2-4ae3-8034-3c6cb675f9a7",
+        "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+        "4853b809-5151-4a1d-86ea-4aba86f16c76"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "neris"
+      ]
+    },
+    "actualAnswerInput": [
+      {
+        "id": "7fef49d355ee40868e4df06d7e5e407f",
+        "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+        "entity": {
+          "id": "2e1f6663f3baa88386115d23a96520b7",
+          "storyId": "1f7a9e79-0bc5-4891-aeeb-7768fcb19d52",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "owner",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "b6bad7a1-a4c2-4f4a-aae8-63eef9821dbf",
+        "sourceText": "Der Ring gehört mir.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791448457320,
+        "sourceOrder": 11
+      }
+    ],
+    "actualAnswer": "„Der Ring gehört dir.“",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": true
+  },
+  {
+    "case": "new-placed",
+    "question": "Wo liegt der Brief aktuell?",
+    "expected": "„Der Brief liegt auf der Bank.“",
+    "storage": {
+      "version": 9,
+      "facts": [
+        {
+          "id": "c7e716dfdcbd1de9bbda2a14ce1e1181",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "entity": {
+            "id": "ffc33ba1b120a90d25cc93ac1d0548d0",
+            "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Eike",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "3867ed80-db25-46a9-a65e-066a6412deb6",
+          "sourceText": "Ich heiße Eike.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457338,
+          "sourceOrder": 16
+        },
+        {
+          "id": "d14fbac1a3f537e651d53ef15ad1f00d",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "entity": {
+            "id": "2ca1a41ef0c3b536d9ecef28414e317a",
+            "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+            "kind": "ITEM",
+            "name": "Brief"
+          },
+          "field": "owner",
+          "value": "Du",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "sourceText": "Der Brief gehört mir.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457340,
+          "sourceOrder": 18
+        },
+        {
+          "id": "3f92d8feac8c7ac1351c71fa8dd96b56",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "entity": {
+            "id": "2ca1a41ef0c3b536d9ecef28414e317a",
+            "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+            "kind": "ITEM",
+            "name": "Brief"
+          },
+          "field": "holder",
+          "value": "Niemand",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "sourceText": "Ich lege den Brief auf die Bank.",
+          "version": 7,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457340,
+          "sourceOrder": 18
+        },
+        {
+          "id": "d7c61c65e1f7ec761543d80fc6b6e955",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "entity": {
+            "id": "2ca1a41ef0c3b536d9ecef28414e317a",
+            "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+            "kind": "ITEM",
+            "name": "Brief"
+          },
+          "field": "placement",
+          "value": "auf der Bank",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "sourceText": "Ich lege den Brief auf die Bank.",
+          "version": 8,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457340,
+          "sourceOrder": 18
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "3f92d8feac8c7ac1351c71fa8dd96b56",
+          "knower": "character",
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "version": 7
+        },
+        {
+          "factId": "3f92d8feac8c7ac1351c71fa8dd96b56",
+          "knower": "player",
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "version": 7
+        },
+        {
+          "factId": "d14fbac1a3f537e651d53ef15ad1f00d",
+          "knower": "character",
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "version": 6
+        },
+        {
+          "factId": "d14fbac1a3f537e651d53ef15ad1f00d",
+          "knower": "player",
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "version": 6
+        },
+        {
+          "factId": "d7c61c65e1f7ec761543d80fc6b6e955",
+          "knower": "character",
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "version": 8
+        },
+        {
+          "factId": "d7c61c65e1f7ec761543d80fc6b6e955",
+          "knower": "player",
+          "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+          "version": 8
+        },
+        {
+          "factId": "c7e716dfdcbd1de9bbda2a14ce1e1181",
+          "knower": "character",
+          "sourceId": "3867ed80-db25-46a9-a65e-066a6412deb6",
+          "version": 3
+        },
+        {
+          "factId": "c7e716dfdcbd1de9bbda2a14ce1e1181",
+          "knower": "player",
+          "sourceId": "3867ed80-db25-46a9-a65e-066a6412deb6",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "3867ed80-db25-46a9-a65e-066a6412deb6",
+        "fdffdb8b-a88e-4d8c-bf92-0bfe74a6035e",
+        "546c1706-8755-4e12-8a89-671e7b2af2df",
+        "ef9ff323-6b49-46d6-84fd-43782a4d61be"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "varda"
+      ]
+    },
+    "actualAnswerInput": [
+      {
+        "id": "d7c61c65e1f7ec761543d80fc6b6e955",
+        "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+        "entity": {
+          "id": "2ca1a41ef0c3b536d9ecef28414e317a",
+          "storyId": "bb68cd45-7498-44d0-adac-6dc689d936fa",
+          "kind": "ITEM",
+          "name": "Brief"
+        },
+        "field": "placement",
+        "value": "auf der Bank",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "546c1706-8755-4e12-8a89-671e7b2af2df",
+        "sourceText": "Ich lege den Brief auf die Bank.",
+        "version": 8,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791448457340,
+        "sourceOrder": 18
+      }
+    ],
+    "actualAnswer": "„Der Brief liegt auf der Bank.“",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": true
+  },
+  {
+    "case": "new-injury",
+    "question": "Welche Person hat eine gebrochene linke Schulter?",
+    "expected": "„Meine linke Schulter ist gebrochen.“",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "7fa769dd16e455980b45133fd1ba8a3d",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "entity": {
+            "id": "624885ab3cf46b0a1eabbec290c1a8b7",
+            "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Corvin",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+          "sourceText": "Ich heiße Corvin.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457367,
+          "sourceOrder": 23
+        },
+        {
+          "id": "0c0467c2fde9085e2a5b18446312a01c",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "entity": {
+            "id": "cc7bc1c21a261d7c8f8298f8e1026aea",
+            "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+            "kind": "PERSON",
+            "name": "Maren"
+          },
+          "field": "injury:linke schulter",
+          "value": "linke schulter: gebrochen",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+          "sourceText": "Deine linke Schulter ist gebrochen.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457369,
+          "sourceOrder": 25
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "7fa769dd16e455980b45133fd1ba8a3d",
+          "knower": "character",
+          "sourceId": "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+          "version": 3
+        },
+        {
+          "factId": "7fa769dd16e455980b45133fd1ba8a3d",
+          "knower": "player",
+          "sourceId": "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+          "version": 3
+        },
+        {
+          "factId": "0c0467c2fde9085e2a5b18446312a01c",
+          "knower": "character",
+          "sourceId": "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+          "version": 6
+        },
+        {
+          "factId": "0c0467c2fde9085e2a5b18446312a01c",
+          "knower": "player",
+          "sourceId": "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+          "version": 6
+        }
+      ],
+      "scannedSources": [
+        "9bd6aa7d-e34e-41eb-b744-f860f17f15db",
+        "62a7514d-8951-41bb-8979-ac08132d2e9f",
+        "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+        "2203f371-2646-4672-aa94-b513f139eb00"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "maren"
+      ]
+    },
+    "actualAnswerInput": [
+      {
+        "id": "0c0467c2fde9085e2a5b18446312a01c",
+        "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+        "entity": {
+          "id": "cc7bc1c21a261d7c8f8298f8e1026aea",
+          "storyId": "9174873a-e7a3-4738-b674-04a1a894edb1",
+          "kind": "PERSON",
+          "name": "Maren"
+        },
+        "field": "injury:linke schulter",
+        "value": "linke schulter: gebrochen",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "c5510e7e-0110-41dc-80f8-10b4c39366e2",
+        "sourceText": "Deine linke Schulter ist gebrochen.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791448457369,
+        "sourceOrder": 25
+      }
+    ],
+    "actualAnswer": "„Meine linke Schulter ist gebrochen.“",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": true
+  },
+  {
+    "case": "new-goal",
+    "question": "Ist das Ziel Signal finden bereits abgeschlossen?",
+    "expected": "„Ja, das Ziel »Signal finden« ist abgeschlossen.“",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "e9f98324a77893d82ec27b123f532b25",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "entity": {
+            "id": "65162dc3efef01b2aa85c7d4123df6cb",
+            "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Raban",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "e251e388-632d-44e2-9080-7ded94350ebe",
+          "sourceText": "Ich heiße Raban.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457390,
+          "sourceOrder": 30
+        },
+        {
+          "id": "3ba340c15bf16bcfabd994ad295e4bda",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "entity": {
+            "id": "f64ff9be15d77f4aba2ad17543576387",
+            "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+            "kind": "GOAL",
+            "name": "Signal finden"
+          },
+          "field": "status",
+          "value": "Abgeschlossen",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "6bb97955-f612-44e2-9a54-af7846ef095e",
+          "sourceText": "Das Ziel Signal finden ist abgeschlossen.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457394,
+          "sourceOrder": 32
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "e9f98324a77893d82ec27b123f532b25",
+          "knower": "character",
+          "sourceId": "e251e388-632d-44e2-9080-7ded94350ebe",
+          "version": 3
+        },
+        {
+          "factId": "e9f98324a77893d82ec27b123f532b25",
+          "knower": "player",
+          "sourceId": "e251e388-632d-44e2-9080-7ded94350ebe",
+          "version": 3
+        },
+        {
+          "factId": "3ba340c15bf16bcfabd994ad295e4bda",
+          "knower": "character",
+          "sourceId": "6bb97955-f612-44e2-9a54-af7846ef095e",
+          "version": 6
+        },
+        {
+          "factId": "3ba340c15bf16bcfabd994ad295e4bda",
+          "knower": "player",
+          "sourceId": "6bb97955-f612-44e2-9a54-af7846ef095e",
+          "version": 6
+        }
+      ],
+      "scannedSources": [
+        "e251e388-632d-44e2-9080-7ded94350ebe",
+        "86ad3875-8ca7-4609-afbe-b411b0c97f9d",
+        "6bb97955-f612-44e2-9a54-af7846ef095e",
+        "26129c3e-17f0-441c-8b6e-bdf87c21145a"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "elin"
+      ]
+    },
+    "actualAnswerInput": [
+      {
+        "id": "3ba340c15bf16bcfabd994ad295e4bda",
+        "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+        "entity": {
+          "id": "f64ff9be15d77f4aba2ad17543576387",
+          "storyId": "d7ee92ae-59e0-42c8-b8c2-89e6e658fda2",
+          "kind": "GOAL",
+          "name": "Signal finden"
+        },
+        "field": "status",
+        "value": "Abgeschlossen",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "6bb97955-f612-44e2-9a54-af7846ef095e",
+        "sourceText": "Das Ziel Signal finden ist abgeschlossen.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791448457394,
+        "sourceOrder": 32
+      }
+    ],
+    "actualAnswer": "„Ja, das Ziel »Signal finden« ist abgeschlossen.“",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": true
+  },
+  {
+    "case": "new-two-items",
+    "question": "Wem gehört der Ring?",
+    "expected": "fallback",
+    "storage": {
+      "version": 10,
+      "facts": [
+        {
+          "id": "91e1ea80932716f5fde9917e9853bd2a",
+          "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+          "entity": {
+            "id": "c63e0d91e088f0a2b713219b15262487",
+            "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Fenja",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "86c9cb27-5a7a-4dad-94fa-8b3a619ef657",
+          "sourceText": "Ich heiße Fenja.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457412,
+          "sourceOrder": 37
+        },
+        {
+          "id": "0c764e3e7fafdf3307330cc3b932063a",
+          "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+          "entity": {
+            "id": "9fba771fa8df7c7b29933363b252a103",
+            "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "color",
+          "value": "blau",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "sourceText": "Der blaue Ring gehört mir.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457415,
+          "sourceOrder": 39
+        },
+        {
+          "id": "bab91f972d28e244ea1bc0ac5c43e59f",
+          "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+          "entity": {
+            "id": "9fba771fa8df7c7b29933363b252a103",
+            "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "owner",
+          "value": "Du",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "sourceText": "Der blaue Ring gehört mir.",
+          "version": 7,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457415,
+          "sourceOrder": 39
+        },
+        {
+          "id": "3430a2d98b97274af32adea593288779",
+          "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+          "entity": {
+            "id": "9bc508aebd8a262872f52811a3011c88",
+            "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+            "kind": "ITEM",
+            "name": "rot Ring"
+          },
+          "field": "color",
+          "value": "rot",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "sourceText": "Der rote Ring gehört dir.",
+          "version": 8,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457415,
+          "sourceOrder": 39
+        },
+        {
+          "id": "2eea1d537d5c125be628c0fa1677122e",
+          "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+          "entity": {
+            "id": "9bc508aebd8a262872f52811a3011c88",
+            "storyId": "fe9b1bb8-deb5-403b-a5d9-aaf4e55cc8f6",
+            "kind": "ITEM",
+            "name": "rot Ring"
+          },
+          "field": "owner",
+          "value": "Halmar",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "sourceText": "Der rote Ring gehört dir.",
+          "version": 9,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457415,
+          "sourceOrder": 39
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "3430a2d98b97274af32adea593288779",
+          "knower": "character",
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "version": 8
+        },
+        {
+          "factId": "3430a2d98b97274af32adea593288779",
+          "knower": "player",
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "version": 8
+        },
+        {
+          "factId": "2eea1d537d5c125be628c0fa1677122e",
+          "knower": "character",
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "version": 9
+        },
+        {
+          "factId": "2eea1d537d5c125be628c0fa1677122e",
+          "knower": "player",
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "version": 9
+        },
+        {
+          "factId": "0c764e3e7fafdf3307330cc3b932063a",
+          "knower": "character",
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "version": 6
+        },
+        {
+          "factId": "0c764e3e7fafdf3307330cc3b932063a",
+          "knower": "player",
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "version": 6
+        },
+        {
+          "factId": "bab91f972d28e244ea1bc0ac5c43e59f",
+          "knower": "character",
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "version": 7
+        },
+        {
+          "factId": "bab91f972d28e244ea1bc0ac5c43e59f",
+          "knower": "player",
+          "sourceId": "e887a484-4226-49d8-92a3-89bd172985c9",
+          "version": 7
+        },
+        {
+          "factId": "91e1ea80932716f5fde9917e9853bd2a",
+          "knower": "character",
+          "sourceId": "86c9cb27-5a7a-4dad-94fa-8b3a619ef657",
+          "version": 3
+        },
+        {
+          "factId": "91e1ea80932716f5fde9917e9853bd2a",
+          "knower": "player",
+          "sourceId": "86c9cb27-5a7a-4dad-94fa-8b3a619ef657",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "86c9cb27-5a7a-4dad-94fa-8b3a619ef657",
+        "cbde295e-7337-4c87-a41f-4fc6186d83f4",
+        "e887a484-4226-49d8-92a3-89bd172985c9",
+        "625cd2da-ad23-47a5-bb73-4030a5287a1b"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "halmar"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-private",
+    "question": "Wer hält den Schlüssel jetzt?",
+    "expected": "fallback",
+    "storage": {
+      "version": 6,
+      "facts": [
+        {
+          "id": "4891038d92315aafb1c80265ec74e68e",
+          "storyId": "3c31ece7-8d15-40bd-ac58-5805eaf0683f",
+          "entity": {
+            "id": "fd03b8e30c74c456cd2ce4b2679d03df",
+            "storyId": "3c31ece7-8d15-40bd-ac58-5805eaf0683f",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Tilo",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "112ef6e6-cb1c-4c88-b8e8-1969fe764fdf",
+          "sourceText": "Ich heiße Tilo.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457428,
+          "sourceOrder": 43
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "4891038d92315aafb1c80265ec74e68e",
+          "knower": "character",
+          "sourceId": "112ef6e6-cb1c-4c88-b8e8-1969fe764fdf",
+          "version": 3
+        },
+        {
+          "factId": "4891038d92315aafb1c80265ec74e68e",
+          "knower": "player",
+          "sourceId": "112ef6e6-cb1c-4c88-b8e8-1969fe764fdf",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "112ef6e6-cb1c-4c88-b8e8-1969fe764fdf",
+        "b5a62888-48f9-41aa-ac12-f0373a86f6b7",
+        "896a4dd0-0e44-4cfa-a52a-1c88b399d47b",
+        "bbf3a388-6a98-4360-9202-ec437219a804"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "serin"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-last-known",
+    "question": "Wo liegt der Kristall jetzt?",
+    "expected": "fallback-after-private-move",
+    "storage": {
+      "version": 11,
+      "facts": [
+        {
+          "id": "e33956a899d251244a1c0e25cc64e2ee",
+          "storyId": "f5ae05d3-6e2c-4f8f-9b06-14e207579aba",
+          "entity": {
+            "id": "4fcdc63048e868af283e196e042011b8",
+            "storyId": "f5ae05d3-6e2c-4f8f-9b06-14e207579aba",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Dorian",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "fa96e4ee-cf86-444e-aede-038ebe465f75",
+          "sourceText": "Ich heiße Dorian.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457438,
+          "sourceOrder": 49
+        },
+        {
+          "id": "25e2ea96f204ae42e09d850503a4974f",
+          "storyId": "f5ae05d3-6e2c-4f8f-9b06-14e207579aba",
+          "entity": {
+            "id": "91522ae702cb8bbc1bc6d15b3574000f",
+            "storyId": "f5ae05d3-6e2c-4f8f-9b06-14e207579aba",
+            "kind": "ITEM",
+            "name": "Kristall"
+          },
+          "field": "holder",
+          "value": "Niemand",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "ec316b0a-be17-484f-9988-e780f113bd3d",
+          "sourceText": "Der Kristall liegt unter dem Regal.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457440,
+          "sourceOrder": 51
+        },
+        {
+          "id": "9ecef73d39cb2e1423a714b258c83e75",
+          "storyId": "f5ae05d3-6e2c-4f8f-9b06-14e207579aba",
+          "entity": {
+            "id": "91522ae702cb8bbc1bc6d15b3574000f",
+            "storyId": "f5ae05d3-6e2c-4f8f-9b06-14e207579aba",
+            "kind": "ITEM",
+            "name": "Kristall"
+          },
+          "field": "placement",
+          "value": "unter dem Regal",
+          "status": "HISTORICAL",
+          "pinned": false,
+          "sourceId": "ec316b0a-be17-484f-9988-e780f113bd3d",
+          "sourceText": "Der Kristall liegt unter dem Regal.",
+          "version": 7,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457440,
+          "sourceOrder": 51
+        },
+        {
+          "id": "b41a455e3f540da2de3e5aacbf80db41",
+          "storyId": "f5ae05d3-6e2c-4f8f-9b06-14e207579aba",
+          "entity": {
+            "id": "91522ae702cb8bbc1bc6d15b3574000f",
+            "storyId": "f5ae05d3-6e2c-4f8f-9b06-14e207579aba",
+            "kind": "ITEM",
+            "name": "Kristall"
+          },
+          "field": "placement",
+          "value": "auf dem Tisch",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "4c0c1d8b-455f-46c0-bbbd-df08de847c86",
+          "sourceText": "Ich lege den Kristall heimlich auf den Tisch.",
+          "version": 10,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457443,
+          "sourceOrder": 53
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "e33956a899d251244a1c0e25cc64e2ee",
+          "knower": "character",
+          "sourceId": "fa96e4ee-cf86-444e-aede-038ebe465f75",
+          "version": 3
+        },
+        {
+          "factId": "e33956a899d251244a1c0e25cc64e2ee",
+          "knower": "player",
+          "sourceId": "fa96e4ee-cf86-444e-aede-038ebe465f75",
+          "version": 3
+        },
+        {
+          "factId": "25e2ea96f204ae42e09d850503a4974f",
+          "knower": "character",
+          "sourceId": "ec316b0a-be17-484f-9988-e780f113bd3d",
+          "version": 6
+        },
+        {
+          "factId": "25e2ea96f204ae42e09d850503a4974f",
+          "knower": "player",
+          "sourceId": "ec316b0a-be17-484f-9988-e780f113bd3d",
+          "version": 6
+        },
+        {
+          "factId": "9ecef73d39cb2e1423a714b258c83e75",
+          "knower": "character",
+          "sourceId": "ec316b0a-be17-484f-9988-e780f113bd3d",
+          "version": 7
+        },
+        {
+          "factId": "9ecef73d39cb2e1423a714b258c83e75",
+          "knower": "player",
+          "sourceId": "ec316b0a-be17-484f-9988-e780f113bd3d",
+          "version": 7
+        },
+        {
+          "factId": "b41a455e3f540da2de3e5aacbf80db41",
+          "knower": "player",
+          "sourceId": "4c0c1d8b-455f-46c0-bbbd-df08de847c86",
+          "version": 10
+        }
+      ],
+      "scannedSources": [
+        "fa96e4ee-cf86-444e-aede-038ebe465f75",
+        "4174c1fb-d7ba-4754-8fa6-f70020450275",
+        "ec316b0a-be17-484f-9988-e780f113bd3d",
+        "6603adf9-21a7-424b-b865-29bfa596b689",
+        "4c0c1d8b-455f-46c0-bbbd-df08de847c86",
+        "96cdd2f7-9db7-4a18-9e04-b9f6c3c4aaac"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "meris"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-why",
+    "question": "Warum hast du mir die Karte gegeben?",
+    "expected": "fallback",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "81d94a359b1db03a4edc570c7e537d54",
+          "storyId": "6bd960c2-a003-4c2a-a19b-412df69e842a",
+          "entity": {
+            "id": "6e9182918cda735875237af867178c24",
+            "storyId": "6bd960c2-a003-4c2a-a19b-412df69e842a",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Nora",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "9e4798c0-1b81-4f5c-9470-786d6b2b1c97",
+          "sourceText": "Ich heiße Nora.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457465,
+          "sourceOrder": 57
+        },
+        {
+          "id": "4b1c6be01022323389780ab70d290ec1",
+          "storyId": "6bd960c2-a003-4c2a-a19b-412df69e842a",
+          "entity": {
+            "id": "abd74d57e09b3a77506bf051378d8c6f",
+            "storyId": "6bd960c2-a003-4c2a-a19b-412df69e842a",
+            "kind": "ITEM",
+            "name": "Karte"
+          },
+          "field": "holder",
+          "value": "Sariel",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "9176ed0a-9a14-49a9-b437-dceb85c03473",
+          "sourceText": "Du hältst die Karte.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457467,
+          "sourceOrder": 59
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "81d94a359b1db03a4edc570c7e537d54",
+          "knower": "character",
+          "sourceId": "9e4798c0-1b81-4f5c-9470-786d6b2b1c97",
+          "version": 3
+        },
+        {
+          "factId": "81d94a359b1db03a4edc570c7e537d54",
+          "knower": "player",
+          "sourceId": "9e4798c0-1b81-4f5c-9470-786d6b2b1c97",
+          "version": 3
+        },
+        {
+          "factId": "4b1c6be01022323389780ab70d290ec1",
+          "knower": "character",
+          "sourceId": "9176ed0a-9a14-49a9-b437-dceb85c03473",
+          "version": 6
+        },
+        {
+          "factId": "4b1c6be01022323389780ab70d290ec1",
+          "knower": "player",
+          "sourceId": "9176ed0a-9a14-49a9-b437-dceb85c03473",
+          "version": 6
+        }
+      ],
+      "scannedSources": [
+        "9e4798c0-1b81-4f5c-9470-786d6b2b1c97",
+        "b2617308-c813-47d6-b66e-c64bd1a685b2",
+        "9176ed0a-9a14-49a9-b437-dceb85c03473",
+        "e2a6d828-f307-4d63-ad0b-c47c4d137729"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "sariel"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-hypothetical",
+    "question": "Wem würde der Ring gehören, wenn ich ihn dir schenke?",
+    "expected": "fallback",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "757763bca702500ab45506e4c33452f5",
+          "storyId": "908f2599-ac0b-42da-ab55-cf1b56dea720",
+          "entity": {
+            "id": "36a1e2e57fcf8e86eb77ccd36bb4df59",
+            "storyId": "908f2599-ac0b-42da-ab55-cf1b56dea720",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Frida",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "1e5127b2-66ad-4752-b4b3-325dfa3a10aa",
+          "sourceText": "Ich heiße Frida.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457476,
+          "sourceOrder": 63
+        },
+        {
+          "id": "ed4df499826070b1cd9e754edef046bf",
+          "storyId": "908f2599-ac0b-42da-ab55-cf1b56dea720",
+          "entity": {
+            "id": "1cff41c80ef31b1188c72a1382f17af4",
+            "storyId": "908f2599-ac0b-42da-ab55-cf1b56dea720",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "owner",
+          "value": "Du",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "932d9476-0fad-451f-b72b-014dfd8fb4e4",
+          "sourceText": "Der Ring gehört mir.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457479,
+          "sourceOrder": 65
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "ed4df499826070b1cd9e754edef046bf",
+          "knower": "character",
+          "sourceId": "932d9476-0fad-451f-b72b-014dfd8fb4e4",
+          "version": 6
+        },
+        {
+          "factId": "ed4df499826070b1cd9e754edef046bf",
+          "knower": "player",
+          "sourceId": "932d9476-0fad-451f-b72b-014dfd8fb4e4",
+          "version": 6
+        },
+        {
+          "factId": "757763bca702500ab45506e4c33452f5",
+          "knower": "character",
+          "sourceId": "1e5127b2-66ad-4752-b4b3-325dfa3a10aa",
+          "version": 3
+        },
+        {
+          "factId": "757763bca702500ab45506e4c33452f5",
+          "knower": "player",
+          "sourceId": "1e5127b2-66ad-4752-b4b3-325dfa3a10aa",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "1e5127b2-66ad-4752-b4b3-325dfa3a10aa",
+        "ae7c5666-94f1-487f-9eb2-f206ab885fbf",
+        "932d9476-0fad-451f-b72b-014dfd8fb4e4",
+        "73169242-9b33-4b03-a5c2-039ae53b67ab"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "romen"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-feeling",
+    "question": "Was bedeutet dir der Ring?",
+    "expected": "fallback",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "41bf65e388d15353875bcdc1ff430549",
+          "storyId": "ca9c308d-2150-4934-9c44-814da3a0c57a",
+          "entity": {
+            "id": "a0648b0e49dbaf85a51b2e93b585f0ed",
+            "storyId": "ca9c308d-2150-4934-9c44-814da3a0c57a",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Mira",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "a58e6a83-de1d-44a4-afee-d8f4fab1db4c",
+          "sourceText": "Ich heiße Mira.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457490,
+          "sourceOrder": 69
+        },
+        {
+          "id": "96cb9c3574b9ec479fc22d6cf1b09001",
+          "storyId": "ca9c308d-2150-4934-9c44-814da3a0c57a",
+          "entity": {
+            "id": "89496c68f46d1544e80e127f4a471158",
+            "storyId": "ca9c308d-2150-4934-9c44-814da3a0c57a",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "holder",
+          "value": "Taren",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "74dbf91d-67a1-45f1-af31-f1c60a7e90c4",
+          "sourceText": "Du hältst den Ring.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457492,
+          "sourceOrder": 71
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "96cb9c3574b9ec479fc22d6cf1b09001",
+          "knower": "character",
+          "sourceId": "74dbf91d-67a1-45f1-af31-f1c60a7e90c4",
+          "version": 6
+        },
+        {
+          "factId": "96cb9c3574b9ec479fc22d6cf1b09001",
+          "knower": "player",
+          "sourceId": "74dbf91d-67a1-45f1-af31-f1c60a7e90c4",
+          "version": 6
+        },
+        {
+          "factId": "41bf65e388d15353875bcdc1ff430549",
+          "knower": "character",
+          "sourceId": "a58e6a83-de1d-44a4-afee-d8f4fab1db4c",
+          "version": 3
+        },
+        {
+          "factId": "41bf65e388d15353875bcdc1ff430549",
+          "knower": "player",
+          "sourceId": "a58e6a83-de1d-44a4-afee-d8f4fab1db4c",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "a58e6a83-de1d-44a4-afee-d8f4fab1db4c",
+        "70a85065-767f-44a0-a144-c14f89d10320",
+        "74dbf91d-67a1-45f1-af31-f1c60a7e90c4",
+        "4d3b634b-e159-408e-b33a-d7b65bdf99d7"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "taren"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-invitation",
+    "question": "Wer hält den Ring, wenn wir jetzt aufbrechen?",
+    "expected": "fallback",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "1d466aabcc0361b24cb3df99f59008bd",
+          "storyId": "94841036-3d41-465c-967b-b3f793522a19",
+          "entity": {
+            "id": "89fce3b4d9807ac4a9916ec87ddf4ff9",
+            "storyId": "94841036-3d41-465c-967b-b3f793522a19",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Kian",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "f431da5b-509c-4b9b-a0a7-bfd5b50978a7",
+          "sourceText": "Ich heiße Kian.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457501,
+          "sourceOrder": 75
+        },
+        {
+          "id": "73a054a18c8922befd6bf014b26432cc",
+          "storyId": "94841036-3d41-465c-967b-b3f793522a19",
+          "entity": {
+            "id": "4ea3528dc3e120d6c78a8d2ff36a7508",
+            "storyId": "94841036-3d41-465c-967b-b3f793522a19",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "holder",
+          "value": "Tessa",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "d32cfbe1-f16e-4027-86e1-74fecdb4467a",
+          "sourceText": "Du hältst den Ring.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457503,
+          "sourceOrder": 77
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "73a054a18c8922befd6bf014b26432cc",
+          "knower": "character",
+          "sourceId": "d32cfbe1-f16e-4027-86e1-74fecdb4467a",
+          "version": 6
+        },
+        {
+          "factId": "73a054a18c8922befd6bf014b26432cc",
+          "knower": "player",
+          "sourceId": "d32cfbe1-f16e-4027-86e1-74fecdb4467a",
+          "version": 6
+        },
+        {
+          "factId": "1d466aabcc0361b24cb3df99f59008bd",
+          "knower": "character",
+          "sourceId": "f431da5b-509c-4b9b-a0a7-bfd5b50978a7",
+          "version": 3
+        },
+        {
+          "factId": "1d466aabcc0361b24cb3df99f59008bd",
+          "knower": "player",
+          "sourceId": "f431da5b-509c-4b9b-a0a7-bfd5b50978a7",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "f431da5b-509c-4b9b-a0a7-bfd5b50978a7",
+        "81d2d648-4e43-4d22-91d3-d9b4760fba2b",
+        "d32cfbe1-f16e-4027-86e1-74fecdb4467a",
+        "80c40541-e1f4-4d0d-b293-1a2806de7b8b"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "tessa"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-new-action",
+    "question": "Ich nehme den Ring. Wer hält ihn jetzt?",
+    "expected": "fallback",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "314da8e180d0cb1f7c7e7b75bf136d63",
+          "storyId": "9f7c288f-ba28-4874-a9de-00ba7c7b0f39",
+          "entity": {
+            "id": "c70719da72919c1000efcada83cda054",
+            "storyId": "9f7c288f-ba28-4874-a9de-00ba7c7b0f39",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Jara",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "63ee17d7-c88e-4d4c-b801-3ac51aa0e10d",
+          "sourceText": "Ich heiße Jara.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457514,
+          "sourceOrder": 81
+        },
+        {
+          "id": "f0f3ce367396347f1af6ac42fa684591",
+          "storyId": "9f7c288f-ba28-4874-a9de-00ba7c7b0f39",
+          "entity": {
+            "id": "729271ad6e36f3d0fe376d197570e420",
+            "storyId": "9f7c288f-ba28-4874-a9de-00ba7c7b0f39",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "holder",
+          "value": "Niven",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "fcde6045-1055-40fd-86fe-6b566013b9d0",
+          "sourceText": "Du hältst den Ring.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457516,
+          "sourceOrder": 83
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "f0f3ce367396347f1af6ac42fa684591",
+          "knower": "character",
+          "sourceId": "fcde6045-1055-40fd-86fe-6b566013b9d0",
+          "version": 6
+        },
+        {
+          "factId": "f0f3ce367396347f1af6ac42fa684591",
+          "knower": "player",
+          "sourceId": "fcde6045-1055-40fd-86fe-6b566013b9d0",
+          "version": 6
+        },
+        {
+          "factId": "314da8e180d0cb1f7c7e7b75bf136d63",
+          "knower": "character",
+          "sourceId": "63ee17d7-c88e-4d4c-b801-3ac51aa0e10d",
+          "version": 3
+        },
+        {
+          "factId": "314da8e180d0cb1f7c7e7b75bf136d63",
+          "knower": "player",
+          "sourceId": "63ee17d7-c88e-4d4c-b801-3ac51aa0e10d",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "63ee17d7-c88e-4d4c-b801-3ac51aa0e10d",
+        "0bb9780f-1141-4f9b-9bb6-892b9636c867",
+        "fcde6045-1055-40fd-86fe-6b566013b9d0",
+        "2bd703f9-3cf7-49fd-ab72-d5aebbcb6f0e"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "niven"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-request",
+    "question": "Kannst du den Ring für mich halten?",
+    "expected": "fallback",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "af63f85d6df1636b1fdd7d4cb88fd2f0",
+          "storyId": "cc01c5ef-b864-476a-b5a5-ececbbf90645",
+          "entity": {
+            "id": "acc27157484d25070d3a8aa48502f7d8",
+            "storyId": "cc01c5ef-b864-476a-b5a5-ececbbf90645",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Torben",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "f81021c9-956a-4696-b883-d8621917dfb4",
+          "sourceText": "Ich heiße Torben.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457524,
+          "sourceOrder": 87
+        },
+        {
+          "id": "ea829bfefabef204b6224ffb86d7199c",
+          "storyId": "cc01c5ef-b864-476a-b5a5-ececbbf90645",
+          "entity": {
+            "id": "38455a3432d19f8c1b9b6fbceecb5615",
+            "storyId": "cc01c5ef-b864-476a-b5a5-ececbbf90645",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "holder",
+          "value": "Della",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "3cb0d867-0348-44a6-bb46-e3c22dead880",
+          "sourceText": "Du hältst den Ring.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457526,
+          "sourceOrder": 89
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "ea829bfefabef204b6224ffb86d7199c",
+          "knower": "character",
+          "sourceId": "3cb0d867-0348-44a6-bb46-e3c22dead880",
+          "version": 6
+        },
+        {
+          "factId": "ea829bfefabef204b6224ffb86d7199c",
+          "knower": "player",
+          "sourceId": "3cb0d867-0348-44a6-bb46-e3c22dead880",
+          "version": 6
+        },
+        {
+          "factId": "af63f85d6df1636b1fdd7d4cb88fd2f0",
+          "knower": "character",
+          "sourceId": "f81021c9-956a-4696-b883-d8621917dfb4",
+          "version": 3
+        },
+        {
+          "factId": "af63f85d6df1636b1fdd7d4cb88fd2f0",
+          "knower": "player",
+          "sourceId": "f81021c9-956a-4696-b883-d8621917dfb4",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "f81021c9-956a-4696-b883-d8621917dfb4",
+        "dd20e343-2411-4d94-bc46-385adefd1f64",
+        "3cb0d867-0348-44a6-bb46-e3c22dead880",
+        "f04e1195-632d-4daf-93b6-517229e6c8fd"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "della"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-poem",
+    "question": "Wo liegt der Brief? Erzähle ein Gedicht darüber.",
+    "expected": "fallback",
+    "storage": {
+      "version": 8,
+      "facts": [
+        {
+          "id": "0f6e065284ec55a044126f71ea19c06e",
+          "storyId": "2723f551-6fa9-444a-958e-5ba6e3361c4a",
+          "entity": {
+            "id": "d94fd33631a8f2994b2d50b6f4cf3449",
+            "storyId": "2723f551-6fa9-444a-958e-5ba6e3361c4a",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Lutz",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "2c4f58c3-dc46-4720-be52-b3e42ad90722",
+          "sourceText": "Ich heiße Lutz.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457534,
+          "sourceOrder": 93
+        },
+        {
+          "id": "afb68123b25d95a531c8c8fadd69c0b5",
+          "storyId": "2723f551-6fa9-444a-958e-5ba6e3361c4a",
+          "entity": {
+            "id": "b4e55e94519ad12ec4d60aef48739166",
+            "storyId": "2723f551-6fa9-444a-958e-5ba6e3361c4a",
+            "kind": "ITEM",
+            "name": "Brief"
+          },
+          "field": "holder",
+          "value": "Niemand",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "efb00f75-722b-43ee-9ccd-81736ea31d9b",
+          "sourceText": "Der Brief liegt im Schrank.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457536,
+          "sourceOrder": 95
+        },
+        {
+          "id": "bfd2d0766236c3b49117102ce984bbf9",
+          "storyId": "2723f551-6fa9-444a-958e-5ba6e3361c4a",
+          "entity": {
+            "id": "b4e55e94519ad12ec4d60aef48739166",
+            "storyId": "2723f551-6fa9-444a-958e-5ba6e3361c4a",
+            "kind": "ITEM",
+            "name": "Brief"
+          },
+          "field": "placement",
+          "value": "in dem Schrank",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "efb00f75-722b-43ee-9ccd-81736ea31d9b",
+          "sourceText": "Der Brief liegt im Schrank.",
+          "version": 7,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457536,
+          "sourceOrder": 95
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "afb68123b25d95a531c8c8fadd69c0b5",
+          "knower": "character",
+          "sourceId": "efb00f75-722b-43ee-9ccd-81736ea31d9b",
+          "version": 6
+        },
+        {
+          "factId": "afb68123b25d95a531c8c8fadd69c0b5",
+          "knower": "player",
+          "sourceId": "efb00f75-722b-43ee-9ccd-81736ea31d9b",
+          "version": 6
+        },
+        {
+          "factId": "bfd2d0766236c3b49117102ce984bbf9",
+          "knower": "character",
+          "sourceId": "efb00f75-722b-43ee-9ccd-81736ea31d9b",
+          "version": 7
+        },
+        {
+          "factId": "bfd2d0766236c3b49117102ce984bbf9",
+          "knower": "player",
+          "sourceId": "efb00f75-722b-43ee-9ccd-81736ea31d9b",
+          "version": 7
+        },
+        {
+          "factId": "0f6e065284ec55a044126f71ea19c06e",
+          "knower": "character",
+          "sourceId": "2c4f58c3-dc46-4720-be52-b3e42ad90722",
+          "version": 3
+        },
+        {
+          "factId": "0f6e065284ec55a044126f71ea19c06e",
+          "knower": "player",
+          "sourceId": "2c4f58c3-dc46-4720-be52-b3e42ad90722",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "2c4f58c3-dc46-4720-be52-b3e42ad90722",
+        "c1b11aa5-11a3-4284-bf97-4eb07646ac3d",
+        "efb00f75-722b-43ee-9ccd-81736ea31d9b",
+        "c94ec384-67c4-4196-bc63-01ee4a73b8ba"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "raina"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-past",
+    "question": "Wo lag der Ring gestern?",
+    "expected": "fallback",
+    "storage": {
+      "version": 8,
+      "facts": [
+        {
+          "id": "5b00458affe2ffbb3b43d2f310000a1b",
+          "storyId": "7e07091a-ab6e-43dc-bf8f-818cc6f113f9",
+          "entity": {
+            "id": "d71b73d3da74e5f481bf66636e311131",
+            "storyId": "7e07091a-ab6e-43dc-bf8f-818cc6f113f9",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Petra",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "a7db4782-5ae7-4878-8d99-ab041f291ea0",
+          "sourceText": "Ich heiße Petra.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457546,
+          "sourceOrder": 99
+        },
+        {
+          "id": "672a2f92fe49bf3b9b0ba3742975b1f1",
+          "storyId": "7e07091a-ab6e-43dc-bf8f-818cc6f113f9",
+          "entity": {
+            "id": "5645eac6aef978f36bcba8740bcdbe61",
+            "storyId": "7e07091a-ab6e-43dc-bf8f-818cc6f113f9",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "holder",
+          "value": "Niemand",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "6d3cbd95-723d-411f-b95b-404f57abc64f",
+          "sourceText": "Der Ring liegt auf dem Tisch.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457548,
+          "sourceOrder": 101
+        },
+        {
+          "id": "952c39e51233c9f0dc4556341ce8126a",
+          "storyId": "7e07091a-ab6e-43dc-bf8f-818cc6f113f9",
+          "entity": {
+            "id": "5645eac6aef978f36bcba8740bcdbe61",
+            "storyId": "7e07091a-ab6e-43dc-bf8f-818cc6f113f9",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "placement",
+          "value": "auf dem Tisch",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "6d3cbd95-723d-411f-b95b-404f57abc64f",
+          "sourceText": "Der Ring liegt auf dem Tisch.",
+          "version": 7,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457548,
+          "sourceOrder": 101
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "672a2f92fe49bf3b9b0ba3742975b1f1",
+          "knower": "character",
+          "sourceId": "6d3cbd95-723d-411f-b95b-404f57abc64f",
+          "version": 6
+        },
+        {
+          "factId": "672a2f92fe49bf3b9b0ba3742975b1f1",
+          "knower": "player",
+          "sourceId": "6d3cbd95-723d-411f-b95b-404f57abc64f",
+          "version": 6
+        },
+        {
+          "factId": "952c39e51233c9f0dc4556341ce8126a",
+          "knower": "character",
+          "sourceId": "6d3cbd95-723d-411f-b95b-404f57abc64f",
+          "version": 7
+        },
+        {
+          "factId": "952c39e51233c9f0dc4556341ce8126a",
+          "knower": "player",
+          "sourceId": "6d3cbd95-723d-411f-b95b-404f57abc64f",
+          "version": 7
+        },
+        {
+          "factId": "5b00458affe2ffbb3b43d2f310000a1b",
+          "knower": "character",
+          "sourceId": "a7db4782-5ae7-4878-8d99-ab041f291ea0",
+          "version": 3
+        },
+        {
+          "factId": "5b00458affe2ffbb3b43d2f310000a1b",
+          "knower": "player",
+          "sourceId": "a7db4782-5ae7-4878-8d99-ab041f291ea0",
+          "version": 3
+        }
+      ],
+      "scannedSources": [
+        "a7db4782-5ae7-4878-8d99-ab041f291ea0",
+        "3a04aa9a-7dde-4c78-8934-e1a7163aaf51",
+        "6d3cbd95-723d-411f-b95b-404f57abc64f",
+        "3461c129-2b4f-471b-b29d-78d50cfc3e07"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "ellan"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-metaphor",
+    "question": "Wer trägt die Verantwortung für den Ring?",
+    "expected": "fallback",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "5274b3a222b0ebf7fd0ec69068ada256",
+          "storyId": "672a5b83-b353-4493-96b1-7a4afa91d8cf",
+          "entity": {
+            "id": "2fe85fd3bbb2a86c08dbb68e32496a24",
+            "storyId": "672a5b83-b353-4493-96b1-7a4afa91d8cf",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Soren",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "129f8acc-d1d4-4d0b-9df0-9450b28b48bd",
+          "sourceText": "Ich heiße Soren.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457557,
+          "sourceOrder": 105
+        },
+        {
+          "id": "98f553659ed5349ee2d910bfe62a4595",
+          "storyId": "672a5b83-b353-4493-96b1-7a4afa91d8cf",
+          "entity": {
+            "id": "45ee785c5a973d970b94a6d415a63287",
+            "storyId": "672a5b83-b353-4493-96b1-7a4afa91d8cf",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "holder",
+          "value": "Isla",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "d8dcb98f-6803-4f57-a29f-8d8ded9ab991",
+          "sourceText": "Du hältst den Ring.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457560,
+          "sourceOrder": 107
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "5274b3a222b0ebf7fd0ec69068ada256",
+          "knower": "character",
+          "sourceId": "129f8acc-d1d4-4d0b-9df0-9450b28b48bd",
+          "version": 3
+        },
+        {
+          "factId": "5274b3a222b0ebf7fd0ec69068ada256",
+          "knower": "player",
+          "sourceId": "129f8acc-d1d4-4d0b-9df0-9450b28b48bd",
+          "version": 3
+        },
+        {
+          "factId": "98f553659ed5349ee2d910bfe62a4595",
+          "knower": "character",
+          "sourceId": "d8dcb98f-6803-4f57-a29f-8d8ded9ab991",
+          "version": 6
+        },
+        {
+          "factId": "98f553659ed5349ee2d910bfe62a4595",
+          "knower": "player",
+          "sourceId": "d8dcb98f-6803-4f57-a29f-8d8ded9ab991",
+          "version": 6
+        }
+      ],
+      "scannedSources": [
+        "129f8acc-d1d4-4d0b-9df0-9450b28b48bd",
+        "a93c5715-c7d4-4589-b999-317c673ec01e",
+        "d8dcb98f-6803-4f57-a29f-8d8ded9ab991",
+        "2045ed37-a2d6-47c4-9000-573d60f5f61d"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "isla"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "new-unknown-gift",
+    "question": "Wer hat dir den Schlüssel geschenkt?",
+    "expected": "fallback",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "d967655cedae33ce77262579c8bda4b4",
+          "storyId": "337cd28c-8fc5-471f-93ad-de35811a8c14",
+          "entity": {
+            "id": "3f9ea6634a448eeea5e3cb042fef07b8",
+            "storyId": "337cd28c-8fc5-471f-93ad-de35811a8c14",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Bente",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "1a345960-c43c-4b45-8cba-dc52839c795c",
+          "sourceText": "Ich heiße Bente.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457571,
+          "sourceOrder": 111
+        },
+        {
+          "id": "7a89828918fcc0bbf57b793c009455bf",
+          "storyId": "337cd28c-8fc5-471f-93ad-de35811a8c14",
+          "entity": {
+            "id": "73458a8a1e2a90555651c6783d182787",
+            "storyId": "337cd28c-8fc5-471f-93ad-de35811a8c14",
+            "kind": "ITEM",
+            "name": "Schlüssel"
+          },
+          "field": "owner",
+          "value": "Leron",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "debb1ebc-a8db-4c0b-b0da-1eb85b59e2ca",
+          "sourceText": "Der Schlüssel gehört dir.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457575,
+          "sourceOrder": 113
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "d967655cedae33ce77262579c8bda4b4",
+          "knower": "character",
+          "sourceId": "1a345960-c43c-4b45-8cba-dc52839c795c",
+          "version": 3
+        },
+        {
+          "factId": "d967655cedae33ce77262579c8bda4b4",
+          "knower": "player",
+          "sourceId": "1a345960-c43c-4b45-8cba-dc52839c795c",
+          "version": 3
+        },
+        {
+          "factId": "7a89828918fcc0bbf57b793c009455bf",
+          "knower": "character",
+          "sourceId": "debb1ebc-a8db-4c0b-b0da-1eb85b59e2ca",
+          "version": 6
+        },
+        {
+          "factId": "7a89828918fcc0bbf57b793c009455bf",
+          "knower": "player",
+          "sourceId": "debb1ebc-a8db-4c0b-b0da-1eb85b59e2ca",
+          "version": 6
+        }
+      ],
+      "scannedSources": [
+        "1a345960-c43c-4b45-8cba-dc52839c795c",
+        "b489a87c-7f78-4c7d-92e6-fc1c88b23246",
+        "debb1ebc-a8db-4c0b-b0da-1eb85b59e2ca",
+        "b02dfa9e-d627-4bbf-a04d-786617cc1cd2"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "leron"
+      ]
+    },
+    "actualAnswerInput": [],
+    "actualAnswer": "fallback",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": false
+  },
+  {
+    "case": "dev-carry",
+    "question": "Wer trägt das Buch?",
+    "expected": "„Du hältst das Buch.“",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "725c6522debc14470a183a3021f8d894",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "entity": {
+            "id": "b6077c3db607f2deaa30f6603252cdc1",
+            "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Joris",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "34f42357-efca-4b88-850f-d7471d325fb8",
+          "sourceText": "Ich heiße Joris.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457585,
+          "sourceOrder": 117
+        },
+        {
+          "id": "5a2a5335b5e55d99c78588ef33515174",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "entity": {
+            "id": "c15b9dcd28d806948f49f7d5df012606",
+            "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+            "kind": "ITEM",
+            "name": "Buch"
+          },
+          "field": "holder",
+          "value": "Du",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+          "sourceText": "Ich halte das Buch.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457587,
+          "sourceOrder": 119
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "725c6522debc14470a183a3021f8d894",
+          "knower": "character",
+          "sourceId": "34f42357-efca-4b88-850f-d7471d325fb8",
+          "version": 3
+        },
+        {
+          "factId": "725c6522debc14470a183a3021f8d894",
+          "knower": "player",
+          "sourceId": "34f42357-efca-4b88-850f-d7471d325fb8",
+          "version": 3
+        },
+        {
+          "factId": "5a2a5335b5e55d99c78588ef33515174",
+          "knower": "character",
+          "sourceId": "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+          "version": 6
+        },
+        {
+          "factId": "5a2a5335b5e55d99c78588ef33515174",
+          "knower": "player",
+          "sourceId": "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+          "version": 6
+        }
+      ],
+      "scannedSources": [
+        "34f42357-efca-4b88-850f-d7471d325fb8",
+        "8a72b943-2364-4bb5-b490-d45462705ff2",
+        "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+        "376917a1-707f-42e7-a5f8-67d4eb96dbf7"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "alara"
+      ]
+    },
+    "actualAnswerInput": [
+      {
+        "id": "5a2a5335b5e55d99c78588ef33515174",
+        "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+        "entity": {
+          "id": "c15b9dcd28d806948f49f7d5df012606",
+          "storyId": "40eae7f0-9d60-486e-b163-b5068dfc63e6",
+          "kind": "ITEM",
+          "name": "Buch"
+        },
+        "field": "holder",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "0584d31c-6ec5-4503-a3f4-c05309ccf4dd",
+        "sourceText": "Ich halte das Buch.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791448457587,
+        "sourceOrder": 119
+      }
+    ],
+    "actualAnswer": "„Du hältst das Buch.“",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": true
+  },
+  {
+    "case": "dev-open",
+    "question": "Ist das Ziel Tür öffnen abgeschlossen?",
+    "expected": "„Nein, das Ziel »Tür öffnen« ist noch offen.“",
+    "storage": {
+      "version": 7,
+      "facts": [
+        {
+          "id": "b945ef923c4f61809661334e1eaac616",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "entity": {
+            "id": "05e9f3736e568248891f78f02ce84f47",
+            "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+            "kind": "PERSON",
+            "name": "Du"
+          },
+          "field": "identity",
+          "value": "Nela",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+          "sourceText": "Ich heiße Nela.",
+          "version": 3,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457607,
+          "sourceOrder": 124
+        },
+        {
+          "id": "84ccb6d0a3569ef7b10d23e52b7147d8",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "entity": {
+            "id": "8ba47464ffeeeaa8571b462d25f25590",
+            "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+            "kind": "GOAL",
+            "name": "Tür öffnen"
+          },
+          "field": "status",
+          "value": "Offen",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+          "sourceText": "Das Ziel Tür öffnen ist offen.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448457609,
+          "sourceOrder": 126
+        }
+      ],
+      "knowledge": [
+        {
+          "factId": "b945ef923c4f61809661334e1eaac616",
+          "knower": "character",
+          "sourceId": "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+          "version": 3
+        },
+        {
+          "factId": "b945ef923c4f61809661334e1eaac616",
+          "knower": "player",
+          "sourceId": "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+          "version": 3
+        },
+        {
+          "factId": "84ccb6d0a3569ef7b10d23e52b7147d8",
+          "knower": "character",
+          "sourceId": "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+          "version": 6
+        },
+        {
+          "factId": "84ccb6d0a3569ef7b10d23e52b7147d8",
+          "knower": "player",
+          "sourceId": "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+          "version": 6
+        }
+      ],
+      "scannedSources": [
+        "a9ecda0b-fd38-4900-bfaf-f93e0f3d8dea",
+        "ce620015-4004-4dff-b193-3057bfb6c4bb",
+        "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+        "f9bba382-cc82-4d4c-a6af-5dc814fef110"
+      ],
+      "excludedEvents": [],
+      "pendingSources": 2,
+      "overview": "",
+      "characterAliases": [
+        "borin"
+      ]
+    },
+    "actualAnswerInput": [
+      {
+        "id": "84ccb6d0a3569ef7b10d23e52b7147d8",
+        "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+        "entity": {
+          "id": "8ba47464ffeeeaa8571b462d25f25590",
+          "storyId": "a63cf607-31ff-4223-a2ec-8da46d9b475b",
+          "kind": "GOAL",
+          "name": "Tür öffnen"
+        },
+        "field": "status",
+        "value": "Offen",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "5083b20f-8cd0-4905-9f7e-44022d0f5bd1",
+        "sourceText": "Das Ziel Tür öffnen ist offen.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791448457609,
+        "sourceOrder": 126
+      }
+    ],
+    "actualAnswer": "„Nein, das Ziel »Tür öffnen« ist noch offen.“",
+    "activationCorrect": true,
+    "guardAccepted": true,
+    "committed": true
+  }
+]

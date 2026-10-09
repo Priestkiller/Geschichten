@@ -1,0 +1,30 @@
+[
+  {
+    "model": "huihui-qwen3-4b",
+    "calls": 14,
+    "formatValid": 12,
+    "factTasks": 5,
+    "factTasksWithIndependentlyAcceptedCue": 3,
+    "independentlyAcceptedCueCount": 4,
+    "reviewTasks": 9,
+    "confirmedReviewConflicts": 0,
+    "callsWithGenerationTiming": 14,
+    "medianGenerationMs": 23644.0,
+    "measuredGenerationMs": 346070,
+    "rawSha256": "0bc6a0a1892e4745d985ec030e872ab0a3e35bbca62dd40229b45b7cc6a0c0ed"
+  },
+  {
+    "model": "gemma-4-e2b",
+    "calls": 14,
+    "formatValid": 1,
+    "factTasks": 5,
+    "factTasksWithIndependentlyAcceptedCue": 0,
+    "independentlyAcceptedCueCount": 0,
+    "reviewTasks": 9,
+    "confirmedReviewConflicts": 0,
+    "callsWithGenerationTiming": 12,
+    "medianGenerationMs": 8668.5,
+    "measuredGenerationMs": 203117,
+    "rawSha256": "193aac56c778aa610b619de5bcd6a4b26e6f88265b31cc017356ef5502147482"
+  }
+]

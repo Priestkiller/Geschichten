@@ -1,0 +1,61 @@
+[
+  {
+    "case": "cold",
+    "firstTextMs": 110605.4855,
+    "promptTokens": 481,
+    "reusedTokens": 0,
+    "totalMs": 112685.0925
+  },
+  {
+    "case": "identical-cached",
+    "firstTextMs": 38995.1691,
+    "promptTokens": 481,
+    "reusedTokens": 256,
+    "totalMs": 44109.9381,
+    "maxLogitDifference": 0.0
+  },
+  {
+    "case": "changed-tail-cached",
+    "firstTextMs": 44352.4235,
+    "promptTokens": 473,
+    "reusedTokens": 256,
+    "totalMs": 46591.8151
+  },
+  {
+    "case": "changed-tail-clean",
+    "firstTextMs": 73666.9194,
+    "promptTokens": 473,
+    "reusedTokens": 0,
+    "totalMs": 75616.0534,
+    "maxLogitDifference": 0.0
+  },
+  {
+    "case": "other-story-cached",
+    "firstTextMs": 5257.487,
+    "promptTokens": 35,
+    "reusedTokens": 0,
+    "totalMs": 6982.5022
+  },
+  {
+    "case": "other-story-clean",
+    "firstTextMs": 5062.0723,
+    "promptTokens": 35,
+    "reusedTokens": 0,
+    "totalMs": 6660.1398,
+    "maxLogitDifference": 0.0
+  },
+  {
+    "case": "after-cancellation",
+    "firstTextMs": 71045.9455,
+    "promptTokens": 481,
+    "reusedTokens": 0,
+    "totalMs": 72807.7878
+  },
+  {
+    "case": "after-callback-error",
+    "firstTextMs": 72856.6638,
+    "promptTokens": 481,
+    "reusedTokens": 0,
+    "totalMs": 74466.7671
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "tests": 43,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "lintErrors": 0,
+  "lintWarnings": 43,
+  "signatureMatchesVersion020": true,
+  "apkAlignment16KB": true,
+  "historicalApkHashMatches": true,
+  "normalBuildWithoutVisualProfile": true,
+  "publicReleaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.2.1",
+  "anonymousPublicDownloadVerified": true,
+  "publishedReleaseRecognizedByAppParser": true,
+  "physicalDeviceInstallTested": false
+}

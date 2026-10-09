@@ -1,0 +1,28 @@
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.2530856Z","message":{"role":"assistant","content":"P"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.3123354Z","message":{"role":"assistant","content":"elle"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.3742802Z","message":{"role":"assistant","content":" hat"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.4317254Z","message":{"role":"assistant","content":" sich"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.4890861Z","message":{"role":"assistant","content":" den"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.5466682Z","message":{"role":"assistant","content":" re"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.6042721Z","message":{"role":"assistant","content":"chten"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.6619038Z","message":{"role":"assistant","content":" Arm"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.7194059Z","message":{"role":"assistant","content":" geb"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.7771764Z","message":{"role":"assistant","content":"ro"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.8345713Z","message":{"role":"assistant","content":"chen"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.8919021Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:19.9494104Z","message":{"role":"assistant","content":" *"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.0067816Z","message":{"role":"assistant","content":"Ich"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.0644585Z","message":{"role":"assistant","content":" must"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.1219831Z","message":{"role":"assistant","content":"ere"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.1799594Z","message":{"role":"assistant","content":" die"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.240435Z","message":{"role":"assistant","content":" Ver"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.2983958Z","message":{"role":"assistant","content":"let"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.3559859Z","message":{"role":"assistant","content":"z"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.4167033Z","message":{"role":"assistant","content":"ungen"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.4747714Z","message":{"role":"assistant","content":" und"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.532625Z","message":{"role":"assistant","content":" neh"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.5902591Z","message":{"role":"assistant","content":"me"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.647679Z","message":{"role":"assistant","content":" Not"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.7057605Z","message":{"role":"assistant","content":"izen"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.7636237Z","message":{"role":"assistant","content":".*"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:04:20.8211904Z","message":{"role":"assistant","content":""},"done":true,"done_reason":"stop","total_duration":1905097000,"load_duration":7113200,"prompt_eval_count":195,"prompt_eval_cached_count":12,"prompt_eval_duration":308457000,"eval_count":28,"eval_duration":1568178000}

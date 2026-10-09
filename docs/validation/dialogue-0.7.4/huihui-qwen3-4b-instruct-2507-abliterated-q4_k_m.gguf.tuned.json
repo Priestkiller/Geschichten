@@ -1,0 +1,26 @@
+[
+  {
+    "case": "mira-denial",
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 258.7449695,
+    "answer": "*Mira beugt sich vor, so dass ihr Gesicht nur einen kleinen Abstand von dem Gerät hat, das der Nutzer gerade betrachtet.*\n\n**„Ah – also, du hast das gleiche Signal wie ich, aber es kommt nicht durch dein Gerät?“**\n\n*Sie hebt die Hand, zeigt auf das Display, wo ihr eigenes Signal leuchtet, dann auf das des Nutzers, das still steht.*\n\n**„Dann ist es nicht verloren. Vielleicht ist es einfach nur schwach. Oder… vielleicht ist es ein Signal, das nur für uns zwei gedacht ist.“**\n\n*Sie dreht ihren Arm, sodass das Licht ihrer Armbanduhr auf das Gerät des Nutzers fällt.*\n\n**„Ich schlage vor: Wir machen es gemeinsam. Ich übernehme die Schleuse, du bleibst hier und überprüfst dein Gerät. Wenn du das Signal nicht siehst, dann schaust du in den Hintergrund – vielleicht ist es dort, wo die Wände an der Schleuse aneinanderstoßen.“**\n\n*Sie hält die Hand ausstreckt, als würde sie den Kontakt suchen, wie bei einer ersten Berührung.*  \n\n**„",
+    "model": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "outputTokenLimit": 256
+  },
+  {
+    "case": "mira-caution",
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 234.1029403,
+    "answer": "*Bevor sie antwortet, sieht Mira kurz auf ihre Sensoranzeige – ein flackerndes, aber regelmäßiges Signal, wie von einem lebendigen Herz.*\n\n**„Natürlich. Ich kann es überprüfen.“**\n\n*Sie dreht sich langsam um und zeigt mit einer Handbewegung auf die Schleusenwand, wo das Notlicht schwebt.*  \n\n**„Ich gehe jetzt an die Schleusenstation, um das Signal zu analysieren. Wenn ich es verlasse, bleibt die Lichtschicht warm – das ist der kleinste Vorteil.“**\n\n*Sie zieht ihren kleinen Datentisch aus dem Rucksack und legt ihn neben die Tür.*  \n\n**„Warte, ich mache eine kleine Aufzeichnung. Wenn du willst, können wir das Signal später gemeinsam vergleichen – vielleicht gibt es einen Unterschied in der Frequenz. Oder… vielleicht ist es nur ein Echo, das sich von hier aus verändert.“*\n\n*Sie hält den Datentisch so, dass er direkt vor dem Türpanel steht, damit er sichtbar bleibt.*  \n\n**„Ich bleibe hier, solange du möchtest.",
+    "model": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "outputTokenLimit": 256
+  },
+  {
+    "case": "grask-reading",
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 248.2135064,
+    "answer": "*Grask blickt kurz auf die schmalle Stelle zwischen den Holzspalten des Wärtergitters. Sein Hals bewegt sich leicht, wie bei einer langsam gewachsenen Erinnerung.*\n\n**„Hörst du? Die Schrift ist alt. Keine Farbe. Nur Schatten. Aber ich kenne das. So wie die Halsfessel – sie hat sich nicht verändert, nur die Menschen.“**\n\n*Er tritt einen Schritt vor, Hufe knirschen leicht auf dem Steinbelag. Sein Körper bleibt geradlinig, Hörner leicht nach vorne gebeugt, als würde er die Stufen mit einem Auge abwägen.*\n\n**„Dahinter – hinter dem Gitter – liegt das Register. Ich habe es schon mehrfach gesehen. Aber nie berührt. Die Namen sind still. Wie die Erinnerungen der Zuschauer.“**\n\n*Er hebt eine kräftige, fleischige Hand und zeigt mit dem Finger auf das Gitter. Die Bewegung ist langsam, wie ein Rhythmus aus dem Inneren seiner Muskulatur.*  \n\n**„Zeig mir die Stelle. Dann le",
+    "model": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "outputTokenLimit": 256
+  }
+]

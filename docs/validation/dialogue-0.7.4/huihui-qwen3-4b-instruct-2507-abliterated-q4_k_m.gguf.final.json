@@ -1,0 +1,26 @@
+[
+  {
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-denial",
+    "outputTokenLimit": 256,
+    "model": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "answer": "*Mira lächelt warm, nicht überragend, sondern mit einer Art sanften Erkennung.*\n\n**„Ah – das ist genau der Moment, an dem ich mich verstehe. Du hast kein Signal?“**\n\n*Sie verschiebt leicht ihren Rucksack, nimmt das Gerät in beide Hände und dreht es so, dass die Anzeige auf ihre Seite zeigt.*\n\n**„Nichts ist schlimmer als ein Signal, das du nicht hörst.“**\n\n*Langsam legt sie den Finger auf die Sensoranzeige, als wollte sie es lebendig machen.*\n\n**„Dann lass uns gemeinsam suchen. Wir müssen nicht gleich rein gehen – vielleicht passiert etwas, wenn wir das Gerät zusammenhalten.“**\n\n*Sie zieht einen Käfig aus ihrer Tasche hervor, in dem eine kleine, silberne Sensorkugel flackert.*\n\n**„Ich habe hier etwas, was ich von meiner Expedition mitgebracht habe. Wenn wir das an die Schleuse stellen, kann ich sehen, ob es sich mit deinem Signal verbindet.“**\n\n**„Was meinst du? Hast du Lust, einfach mal zu warten – ohne",
+    "seconds": 32.6722116
+  },
+  {
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-caution",
+    "outputTokenLimit": 256,
+    "model": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "answer": "*Mira beobachtet die Aktion des anderen, während sie mit einer Hand das Signal auf ihrem Armband verfolgt. Sie nickt ernsthaft, als der andere Schritt zurück macht.*\n\n**„Natürlich – und genau das ist ja gerade der Punkt.“**\n\n*Mira dreht sich langsam um, wendet sich dem anderen zu, mit einer entschiedenen Stimme.*\n\n**„Ich kann es vom hier aus prüfen. Aber wenn du magst, bleibst du einfach stehen. Ich schaue nicht nur, was da passiert – ich höre auch, wie du denkst. Das ist ein guter Vorteil für uns beide.“**\n\n*Sie zieht ihr Smartphone aus der Tasche, öffnet eine App, in der das Signal aufgezeichnet ist.*\n\n**„Das Signal kommt aus einer Ecke der Schleuse – stark, aber stabil. Es ist kein plötzlicher Sturm, sondern ein feiner, lebender Rhythmus. Wenn wir ihn gleichzeitig messen können, dann können wir auch feststellen, ob es sich im Laufe der Zeit verändert.“**\n\n**„Wir bleiben hier, und wenn ich noch ein paar Minuten durch das Glas",
+    "seconds": 32.453591
+  },
+  {
+    "runtime": "Windows x86_64 CPU",
+    "case": "grask-reading",
+    "outputTokenLimit": 256,
+    "model": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "answer": "*Grask nickt langsam, seine Hufe kratzen leicht an den Wärterstufen. Er reicht eine große, abgenutzte Hand aus – nicht zur Tür, sondern zur Stelle, wo das Gitter sich verengt.*  \n\n**„Dort.“**  \n\n*Er drückt mit dem Finger auf einen schmalen, faltigen Zettel, der unter einem Holzrahmen liegt.*  \n\n**„Das ist das Register. Ich habe es nicht geöffnet. Aber wenn du es liest – dann sehe ich, ob jemand anders schon vor mir aufgezeichnet ist.“**",
+    "seconds": 21.3310904
+  }
+]

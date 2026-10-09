@@ -1,0 +1,90 @@
+{
+  "id": "qa-new-no-reason",
+  "request": {
+    "model": "geschichten-qwen3-8b-test",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Continue this German roleplay. You play \"Svea\". The user plays \"Falk\". Write only your next reply in fluent German. Refer to yourself as ich in dialogue, and describe your own actions in third person between asterisks. The first user message is the original source, spoken by the player to your character. Keep the two persons and their belongings separate. Answer the latest question from that source. Do not invent a missing past event or reason. Questions and hypothetical events are not facts. Do not act for the player. If a past fact is unknown, say so."
+      },
+      {
+        "role": "user",
+        "content": "Falk gab Svea die Karte. Beide waren müde."
+      },
+      {
+        "role": "assistant",
+        "content": "„Ich höre zu.“"
+      },
+      {
+        "role": "user",
+        "content": "Ist die Müdigkeit ausdrücklich als Grund der Übergabe genannt?"
+      }
+    ],
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 384,
+      "seed": 42,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "min_p": 0,
+      "repeat_penalty": 1,
+      "presence_penalty": 1.5
+    },
+    "stream": true,
+    "keep_alive": "10m",
+    "think": false
+  },
+  "startUTC": "2026-10-09T20:04:31.620763+00:00",
+  "server": "http://192.168.178.73:11434",
+  "content": "Nein, die Müdigkeit wurde nicht als Grund der Übergabe explizit genannt. Ich habe die Karte einfach in deine Hand gelegt, als wir beide sehr müde waren. Es war eher ein Moment der Ruhe, in dem ich denken musste, dass du sie vielleicht brauchst.",
+  "thinking": "",
+  "completed": true,
+  "finalChunk": {
+    "model": "geschichten-qwen3-8b-test",
+    "created_at": "2026-10-09T20:04:36.894974Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4249739400,
+    "load_duration": 6856700,
+    "prompt_eval_count": 194,
+    "prompt_eval_cached_count": 12,
+    "prompt_eval_duration": 249697000,
+    "eval_count": 67,
+    "eval_duration": 3979496000
+  },
+  "wallSeconds": 4.266163900028914,
+  "firstContentSeconds": 0.28684950014576316,
+  "firstThinkingSeconds": null,
+  "rawSHA256": "a39a56a2e49086ba50f7032852aa5176c982c90693ebb968e25c3392cb4c6982",
+  "runningModels": {
+    "models": [
+      {
+        "name": "geschichten-qwen3-8b-test:latest",
+        "model": "geschichten-qwen3-8b-test:latest",
+        "size": 5763802068,
+        "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-09T22:14:36.8954858+02:00",
+        "size_vram": 4193811168,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "truncated": false,
+  "reportedPromptTokensPlusReservedOutputWithinContext": true
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "Mira nickt, als sie sich den Sensor anlegt. *Ich kann das Signal auch untersuchen, aber ich werde es erst am besten sehen können, wenn wir uns dort nähern.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "Natürlich, ich werde das Signal untersuchen. Mach dir keine Sorgen, ich werde vorsichtig sein.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "**Grask:** Ich habe die Register geleert, aber es gibt keinen Besitzer. Und nun? Was willst du tun?\n\nIch kann nicht antworten, weil ich zu einem Kampf bereit bin.\n\n\"**Ja, ich kann lesen. Zeig mir die Stelle, dann lese ich sie dir vor.**\"",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

@@ -1,0 +1,1117 @@
+[
+  {
+    "case": "dev-transfer",
+    "gold": [
+      [
+        "ITEM",
+        "Karte",
+        "holder",
+        "Liora"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:rechte hand",
+        "rechte hand: verletzt"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "cae1a2a6c041c91967ed8f0e6ff43980",
+        "storyId": "dev-transfer",
+        "entity": {
+          "id": "6d4fb44f66c186608f11bd4954c49acf",
+          "storyId": "dev-transfer",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Bennet",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-transfer-1",
+        "sourceText": "Ich heiße Bennet.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000000001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "57bf545cc08009d78323caf298a87cba",
+        "storyId": "dev-transfer",
+        "entity": {
+          "id": "0f6a3500c0a4832155e392ca7e8a5ade",
+          "storyId": "dev-transfer",
+          "kind": "ITEM",
+          "name": "Karte"
+        },
+        "field": "holder",
+        "value": "Liora",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-transfer-3",
+        "sourceText": "Ich reiche dir die Karte, weil meine rechte Hand verletzt ist.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000000003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "4312633513254a453f3ce3304f5ab680",
+        "storyId": "dev-transfer",
+        "entity": {
+          "id": "6d4fb44f66c186608f11bd4954c49acf",
+          "storyId": "dev-transfer",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "injury:rechte hand",
+        "value": "rechte hand: verletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-transfer-3",
+        "sourceText": "Ich reiche dir die Karte, weil meine rechte Hand verletzt ist.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000000003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Liora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Liora. Rolle: Reisebegleitung von Bennet. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nLiora ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBennet (Spielerfigur) · Name: Bennet\nKarte · Träger: Liora\nBennet (Spielerfigur) · Verletzung: rechte hand: verletzt\n"
+  },
+  {
+    "case": "dev-reverse",
+    "gold": [
+      [
+        "ITEM",
+        "Kristall",
+        "holder",
+        "Du"
+      ],
+      [
+        "PERSON",
+        "Oskar",
+        "injury:linke schulter",
+        "linke schulter: verletzt"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:allgemein",
+        "allgemein: unverletzt"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "40738135067ce39a24fbb82e393d704b",
+        "storyId": "dev-reverse",
+        "entity": {
+          "id": "6d5a8c8ca3f3a14c9ac1aad1d9732269",
+          "storyId": "dev-reverse",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Fenna",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-reverse-1",
+        "sourceText": "Ich heiße Fenna.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000001001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "feef7a319bbaca0c3a63c6b7e9514a37",
+        "storyId": "dev-reverse",
+        "entity": {
+          "id": "6a719e26d739b5be9a1c6a8a2bd15a34",
+          "storyId": "dev-reverse",
+          "kind": "ITEM",
+          "name": "Kristall"
+        },
+        "field": "holder",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-reverse-3",
+        "sourceText": "Oskar gibt Fenna den Kristall.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000001003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "e6d8a1e0ac38c3a4abbc534435792257",
+        "storyId": "dev-reverse",
+        "entity": {
+          "id": "cf7c32d26d28fa9d78cb593bf2345ca1",
+          "storyId": "dev-reverse",
+          "kind": "PERSON",
+          "name": "Oskar"
+        },
+        "field": "injury:linke schulter",
+        "value": "linke schulter: verletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-reverse-3",
+        "sourceText": "Oskars linke Schulter ist verletzt.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000001003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "da15816f7c9c8d4b1af344ad7439de41",
+        "storyId": "dev-reverse",
+        "entity": {
+          "id": "6d5a8c8ca3f3a14c9ac1aad1d9732269",
+          "storyId": "dev-reverse",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "injury:allgemein",
+        "value": "allgemein: unverletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-reverse-3",
+        "sourceText": "Fenna ist unverletzt.",
+        "version": 5,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000001003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Oskar; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Oskar. Rolle: Reisebegleitung von Fenna. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nOskar ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nFenna (Spielerfigur) · Name: Fenna\nKristall · Träger: Fenna (Spielerfigur)\nOskar · Verletzung: linke schulter: verletzt\nFenna (Spielerfigur) · Verletzung: allgemein: unverletzt\n"
+  },
+  {
+    "case": "dev-family",
+    "gold": [],
+    "facts": [
+      {
+        "id": "cb72fbacdd0ba7731bdc5506ba96a82d",
+        "storyId": "dev-family",
+        "entity": {
+          "id": "c9e37bbc7383b2c61f753768d97ad2d7",
+          "storyId": "dev-family",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Joris",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-family-1",
+        "sourceText": "Ich heiße Joris.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000002001,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Tessa; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Tessa. Rolle: Reisebegleitung von Joris. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nTessa ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nJoris (Spielerfigur) · Name: Joris\n"
+  },
+  {
+    "case": "dev-owner",
+    "gold": [
+      [
+        "ITEM",
+        "Buch",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Buch",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Buch",
+        "placement",
+        "auf dem Tisch"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "6209b0cb3ce6b5f16967b90e55ce562a",
+        "storyId": "dev-owner",
+        "entity": {
+          "id": "6fdb5cd2eb45cace92613b844825b6c8",
+          "storyId": "dev-owner",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Nora",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-owner-1",
+        "sourceText": "Ich heiße Nora.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000003001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "1412dd5413854f0d48b5523506101778",
+        "storyId": "dev-owner",
+        "entity": {
+          "id": "8953dbcb39059cdb6cfa3e8f12fb07d3",
+          "storyId": "dev-owner",
+          "kind": "ITEM",
+          "name": "Buch"
+        },
+        "field": "owner",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-owner-3",
+        "sourceText": "Das Buch gehört Nora.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000003003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "4b0e3a9c2e82f7982aea826f7fdd8908",
+        "storyId": "dev-owner",
+        "entity": {
+          "id": "8953dbcb39059cdb6cfa3e8f12fb07d3",
+          "storyId": "dev-owner",
+          "kind": "ITEM",
+          "name": "Buch"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-owner-3",
+        "sourceText": "Es liegt nun auf dem Tisch.",
+        "version": 5,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000003003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "a13b2937ad2e67baa163222f24987ff5",
+        "storyId": "dev-owner",
+        "entity": {
+          "id": "8953dbcb39059cdb6cfa3e8f12fb07d3",
+          "storyId": "dev-owner",
+          "kind": "ITEM",
+          "name": "Buch"
+        },
+        "field": "placement",
+        "value": "auf dem Tisch",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-owner-3",
+        "sourceText": "Es liegt nun auf dem Tisch.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000003003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Emil; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Emil. Rolle: Reisebegleitung von Nora. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nEmil ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nNora (Spielerfigur) · Name: Nora\nBuch · Eigentümer: Nora (Spielerfigur)\nBuch · Träger: Niemand\nBuch · Ablage: auf dem Tisch\n"
+  },
+  {
+    "case": "dev-negation",
+    "gold": [
+      [
+        "PERSON",
+        "Du",
+        "injury:allgemein",
+        "allgemein: unverletzt"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "352c1700d040d81dbc9ec25999774c39",
+        "storyId": "dev-negation",
+        "entity": {
+          "id": "6530e85c57103f07a863f5bcf1ac4e41",
+          "storyId": "dev-negation",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Sven",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-negation-1",
+        "sourceText": "Ich heiße Sven.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000004001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "b6f575dd59f5cba043793f16454e5c10",
+        "storyId": "dev-negation",
+        "entity": {
+          "id": "6530e85c57103f07a863f5bcf1ac4e41",
+          "storyId": "dev-negation",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "injury:allgemein",
+        "value": "allgemein: unverletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-negation-3",
+        "sourceText": "Ich bin nicht verletzt.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000004003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Hedda; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Hedda. Rolle: Reisebegleitung von Sven. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nHedda ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nSven (Spielerfigur) · Name: Sven\nSven (Spielerfigur) · Verletzung: allgemein: unverletzt\n"
+  },
+  {
+    "case": "dev-correction",
+    "gold": [
+      [
+        "ITEM",
+        "Dolch",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Dolch",
+        "placement",
+        "auf dem Tisch"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "bdc214438bcdd885249e5e67c7bf01e0",
+        "storyId": "dev-correction",
+        "entity": {
+          "id": "0b788dd5fac932b151ae8e18802d7a24",
+          "storyId": "dev-correction",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Lutz",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-correction-1",
+        "sourceText": "Ich heiße Lutz.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000008001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "7ad5d83cd4efcfdcd104fe0d9744bdda",
+        "storyId": "dev-correction",
+        "entity": {
+          "id": "1785133cd770d0baa27ca32479b43a9a",
+          "storyId": "dev-correction",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-correction-3",
+        "sourceText": "Der Dolch liegt in der Truhe.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000008003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "d97325e30af444b1d02f0932ca1f6660",
+        "storyId": "dev-correction",
+        "entity": {
+          "id": "1785133cd770d0baa27ca32479b43a9a",
+          "storyId": "dev-correction",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "placement",
+        "value": "auf dem Tisch",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-correction-3",
+        "sourceText": "Danach lege ich den Dolch auf den Tisch.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000008003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Ida; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Ida. Rolle: Reisebegleitung von Lutz. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nIda ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nLutz (Spielerfigur) · Name: Lutz\nDolch · Träger: Niemand\nDolch · Ablage: auf dem Tisch\n"
+  },
+  {
+    "case": "hold-transfer",
+    "gold": [
+      [
+        "ITEM",
+        "Amulett",
+        "holder",
+        "Selin"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:linkes bein",
+        "linkes bein: verletzt"
+      ],
+      [
+        "PERSON",
+        "Selin",
+        "injury:linkes bein",
+        "linkes bein: unverletzt"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "67b39d69f5929f1b811440b258691018",
+        "storyId": "hold-transfer",
+        "entity": {
+          "id": "3a74fd2ddf759025fd6abef6e2b19051",
+          "storyId": "hold-transfer",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Arvid",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-transfer-1",
+        "sourceText": "Ich heiße Arvid.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000010001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "22d86b741f27cc9f3c3e8feda24e2336",
+        "storyId": "hold-transfer",
+        "entity": {
+          "id": "b84e1d2bf7b8ef74571e0f93942306d4",
+          "storyId": "hold-transfer",
+          "kind": "ITEM",
+          "name": "Amulett"
+        },
+        "field": "holder",
+        "value": "Selin",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-transfer-3",
+        "sourceText": "Ich gebe dir das Amulett.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000010003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "50167c5ed6e38dbbd4bbbf7f58cf21c4",
+        "storyId": "hold-transfer",
+        "entity": {
+          "id": "3a74fd2ddf759025fd6abef6e2b19051",
+          "storyId": "hold-transfer",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "injury:linkes bein",
+        "value": "linkes bein: verletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-transfer-3",
+        "sourceText": "Mein linkes Bein ist verletzt;",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000010003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "a4f4a5fd5e87017beec13e0fcd7dfad1",
+        "storyId": "hold-transfer",
+        "entity": {
+          "id": "d7e4f33d4330516674a32460a5be6564",
+          "storyId": "hold-transfer",
+          "kind": "PERSON",
+          "name": "Selin"
+        },
+        "field": "injury:linkes bein",
+        "value": "linkes bein: unverletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-transfer-3",
+        "sourceText": "deines ist unverletzt.",
+        "version": 5,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000010003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Selin; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Selin. Rolle: Reisebegleitung von Arvid. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nSelin ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nArvid (Spielerfigur) · Name: Arvid\nAmulett · Träger: Selin\nArvid (Spielerfigur) · Verletzung: linkes bein: verletzt\nSelin · Verletzung: linkes bein: unverletzt\n"
+  },
+  {
+    "case": "hold-reverse",
+    "gold": [
+      [
+        "ITEM",
+        "Buch",
+        "holder",
+        "Du"
+      ],
+      [
+        "PERSON",
+        "Tammo",
+        "injury:rechte hand",
+        "rechte hand: verletzt"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "fd85aedf7cc54cc7c685e2531bb4435c",
+        "storyId": "hold-reverse",
+        "entity": {
+          "id": "77fb512dd8f0daa843687f05bd006a19",
+          "storyId": "hold-reverse",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Yara",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-reverse-1",
+        "sourceText": "Ich heiße Yara.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000011001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "8aee6ec6ef47d58433d6f882005d80b3",
+        "storyId": "hold-reverse",
+        "entity": {
+          "id": "c085adea6d716894d91566e332cdedb4",
+          "storyId": "hold-reverse",
+          "kind": "ITEM",
+          "name": "Buch"
+        },
+        "field": "holder",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-reverse-3",
+        "sourceText": "Tammo reicht Yara das Buch.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000011003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "3f8db163e2dce2670f1a47e3968c79c6",
+        "storyId": "hold-reverse",
+        "entity": {
+          "id": "0b6898078677810680661337c3d32793",
+          "storyId": "hold-reverse",
+          "kind": "PERSON",
+          "name": "Tammo"
+        },
+        "field": "injury:rechte hand",
+        "value": "rechte hand: verletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-reverse-3",
+        "sourceText": "Tammo hat eine verletzte rechte Hand.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000011003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Tammo; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Tammo. Rolle: Reisebegleitung von Yara. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nTammo ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nYara (Spielerfigur) · Name: Yara\nBuch · Träger: Yara (Spielerfigur)\nTammo · Verletzung: rechte hand: verletzt\n"
+  },
+  {
+    "case": "hold-family",
+    "gold": [
+      [
+        "ITEM",
+        "Kristall",
+        "holder",
+        "Enna"
+      ],
+      [
+        "ITEM",
+        "Kristall",
+        "owner",
+        "Enna"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "9a5842faace4219e2662551488c2fd8a",
+        "storyId": "hold-family",
+        "entity": {
+          "id": "29e77b7e3bc8fc1147c6f1c9e31158c3",
+          "storyId": "hold-family",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Silas",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-family-1",
+        "sourceText": "Ich heiße Silas.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000012001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "55711b9968e50ca7e2c1f1d54b69418d",
+        "storyId": "hold-family",
+        "entity": {
+          "id": "96510c7ff17a666c986902e0703aa498",
+          "storyId": "hold-family",
+          "kind": "ITEM",
+          "name": "Kristall"
+        },
+        "field": "holder",
+        "value": "Enna",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-family-3",
+        "sourceText": "Ruth hat dir den Kristall geschenkt.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000012003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "3f865a773586da141b3336bd3ca0c919",
+        "storyId": "hold-family",
+        "entity": {
+          "id": "96510c7ff17a666c986902e0703aa498",
+          "storyId": "hold-family",
+          "kind": "ITEM",
+          "name": "Kristall"
+        },
+        "field": "owner",
+        "value": "Enna",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-family-3",
+        "sourceText": "Ruth hat dir den Kristall geschenkt.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000012003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Enna; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Enna. Rolle: Reisebegleitung von Silas. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nEnna ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nSilas (Spielerfigur) · Name: Silas\nKristall · Träger: Enna\nKristall · Eigentümer: Enna\n"
+  },
+  {
+    "case": "hold-owner",
+    "gold": [
+      [
+        "ITEM",
+        "Ring",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Ring",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Ring",
+        "placement",
+        "auf der Kommode"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "8a5d00a0486d2a0783e21a6036e2ad1e",
+        "storyId": "hold-owner",
+        "entity": {
+          "id": "22220a8e28168bcce8e1c4393c5d1d39",
+          "storyId": "hold-owner",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Amelie",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-owner-1",
+        "sourceText": "Ich heiße Amelie.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000013001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "0edaa7cddf9790addbb04619f84bcfdf",
+        "storyId": "hold-owner",
+        "entity": {
+          "id": "54ee9385fa703022c98e66e79d6305aa",
+          "storyId": "hold-owner",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "owner",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-owner-3",
+        "sourceText": "Der Ring gehört Amelie.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000013003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "510e3040217c71a58ff694549253750d",
+        "storyId": "hold-owner",
+        "entity": {
+          "id": "54ee9385fa703022c98e66e79d6305aa",
+          "storyId": "hold-owner",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-owner-3",
+        "sourceText": "Der Ring liegt auf der Kommode.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000013003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "4473656bd5d91215bc48cc00cc81b199",
+        "storyId": "hold-owner",
+        "entity": {
+          "id": "54ee9385fa703022c98e66e79d6305aa",
+          "storyId": "hold-owner",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "placement",
+        "value": "auf der Kommode",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-owner-3",
+        "sourceText": "Der Ring liegt auf der Kommode.",
+        "version": 5,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000013003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Ruben; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Ruben. Rolle: Reisebegleitung von Amelie. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nRuben ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nAmelie (Spielerfigur) · Name: Amelie\nRing · Eigentümer: Amelie (Spielerfigur)\nRing · Träger: Niemand\nRing · Ablage: auf der Kommode\n"
+  },
+  {
+    "case": "hold-negation",
+    "gold": [
+      [
+        "PERSON",
+        "Du",
+        "injury:allgemein",
+        "allgemein: unverletzt"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "03f7eff4a59ac4734c0e1fb67ed5e16e",
+        "storyId": "hold-negation",
+        "entity": {
+          "id": "00c5ac26fe4535a39c0aa1bc95277ece",
+          "storyId": "hold-negation",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Bruna",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-negation-1",
+        "sourceText": "Ich heiße Bruna.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000014001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "a8a40ef97e916c8ce76872d081c2eb48",
+        "storyId": "hold-negation",
+        "entity": {
+          "id": "00c5ac26fe4535a39c0aa1bc95277ece",
+          "storyId": "hold-negation",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "injury:allgemein",
+        "value": "allgemein: unverletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-negation-3",
+        "sourceText": "Ich bin nicht mehr verletzt.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000014003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Mika; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mika. Rolle: Reisebegleitung von Bruna. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMika ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nBruna (Spielerfigur) · Name: Bruna\nBruna (Spielerfigur) · Verletzung: allgemein: unverletzt\n"
+  },
+  {
+    "case": "hold-correction",
+    "gold": [
+      [
+        "ITEM",
+        "Tasche",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Tasche",
+        "placement",
+        "in dem Schrank"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "7c9466bad29889f3f6f082e14caa62c8",
+        "storyId": "hold-correction",
+        "entity": {
+          "id": "5163878e918783d5c55229fba87102c8",
+          "storyId": "hold-correction",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Rike",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-correction-1",
+        "sourceText": "Ich heiße Rike.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000018001,
+        "sourceOrder": 2
+      },
+      {
+        "id": "fb118f0dde2dbaa36cb9a7e0fbb9aca3",
+        "storyId": "hold-correction",
+        "entity": {
+          "id": "59d78ff5c31f1397b391173a56808970",
+          "storyId": "hold-correction",
+          "kind": "ITEM",
+          "name": "Tasche"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-correction-3",
+        "sourceText": "Die Tasche liegt auf der Bank.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000018003,
+        "sourceOrder": 4
+      },
+      {
+        "id": "69bdedd2033e49d37aac0c18ba74318c",
+        "storyId": "hold-correction",
+        "entity": {
+          "id": "59d78ff5c31f1397b391173a56808970",
+          "storyId": "hold-correction",
+          "kind": "ITEM",
+          "name": "Tasche"
+        },
+        "field": "placement",
+        "value": "in dem Schrank",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "hold-correction-3",
+        "sourceText": "Nun lege ich sie in den Schrank.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1800000018003,
+        "sourceOrder": 4
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Oleander; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Oleander. Rolle: Reisebegleitung von Rike. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nOleander ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRike (Spielerfigur) · Name: Rike\nTasche · Träger: Niemand\nTasche · Ablage: in dem Schrank\n"
+  }
+]

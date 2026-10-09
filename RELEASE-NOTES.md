@@ -1,3 +1,28 @@
+# Geschichten 0.8.7 – Dauerhaftes Gedächtnis und Faktenkorrekturen
+
+**Testversion 0.8.7, Versionscode 21.** Dieses Update bündelt die bisher lokalen Änderungen seit dem öffentlichen Stand 0.7.3.
+
+- Dauerhaftes, bearbeitbares Geschichten-Gedächtnis mit Quellen, Verlauf, Eigentümern, Trägern, Orten, Beziehungen und getrenntem Figurenwissen.
+- Auswertung im Gesprächsablauf, sofortige Berücksichtigung gespeicherter Nutzerkorrekturen, revisionsgebundene Verarbeitung und Abruf relevanter älterer Originalstellen unter dem tatsächlichen Tokenbudget.
+- Gezielte Verbesserungen bei Rollen, Fragen, Vermutungen, hypothetischen Ereignissen und belegten Fakten. Gefundene Originalabschnitte enthalten mehr passenden Kontext aus derselben Nachricht.
+- Optional einschaltbare Bedeutungssuche, Qwen 3 4B Original Instruct 2507 als siebtes Textmodell sowie standardmäßig ausgeschaltete Versuche für kurze Faktenantworten und eine zusätzliche Fakten-KI.
+- Fix in 0.8.7: Bei „Er gehört weiterhin Oda“ wird weiterhin als Zeitangabe erkannt. Oda bleibt die Eigentümerin; eine korrekte Antwort wird deswegen nicht mehr blockiert. Dasselbe gilt an dieser Stelle für jetzt/nun. Echte Eigentümerwidersprüche bleiben Konflikte.
+- Das Repository enthält jetzt auch den aktuellen Android-Quellcode und die Testunterlagen für die Arbeit mit Codex auf dem Server.
+
+**Antwortqualität bleibt begrenzt:** Modelle können weiterhin Personen verwechseln, unbekannte Vergangenheit erfinden und unverständlich schreiben. Ein verlässlicher Gewinn des Faktenhelfers ist nicht belegt; er bleibt standardmäßig aus. Es wurde kein eigenes Modell trainiert. Die Android-App hat noch keine Ollama-Anbindung.
+
+Die bestehenden 90 Figuren, langen Einstiege, Profile, Modellwechsel und Darstellungsfunktionen bleiben erhalten. Hauptschema 10, Suchindexschema 1. Paket-ID und Signatur sind kompatibel mit den bisherigen Testupdates.
+
+**Installieren:** Einstellungen → App-Updates → Testversionen einbeziehen → Nach Updates suchen. Alternativ die APK aus diesem Release öffnen. Die vorhandene App nicht deinstallieren. Android bestätigt die Installation.
+
+**Prüfung:** unveränderte APK des am 8. Oktober geprüften Stands; 148 reguläre und 100 relevante Integrationstests (26 Überschneidungen), zusätzlicher SQLite-Nachweis, Build/Lint bestanden. APK-Version, Bytegröße, SHA-256 und bisherige Signatur wurden für die Veröffentlichung erneut geprüft. Ein physisches S24 war nicht angeschlossen; die Installation und der gesamte Updateablauf auf dem Gerät bleiben zu prüfen.
+
+APK: `Geschichten-0.8.7.apk`, 321708671 Bytes. SHA-256: `fd15af5bb3928674a4b965ab0d773dceee4bd5f84068b45fb9663da283873071`.
+
+Das zusätzliche Server-Übergabepaket enthält die bisherigen Testskripte und Messungen, keinen vollständigen Chat-Export. Der Android-Quellcode liegt auf `main` und in GitHubs automatisch erzeugtem Quellcodearchiv.
+
+---
+
 # Geschichten 0.2.0 – 20 Figuren und App-Updates
 
 **Testversion 0.2.0, Versionscode 2.**

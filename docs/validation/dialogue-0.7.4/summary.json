@@ -1,0 +1,30 @@
+{
+  "versionName": "0.7.4",
+  "versionCode": 13,
+  "databaseVersion": 8,
+  "unit": {
+    "tests": 76,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "migration": {
+    "tests": 15,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 119
+  },
+  "actualFinalResponses": 18,
+  "nativeModelCount": 6,
+  "allModelsPassStoryQuality": false,
+  "physicalPhoneTest": false,
+  "published": false,
+  "modelFilesInCatalogChanged": false,
+  "samplingSettingsChanged": false,
+  "apkBytes": 313384428,
+  "apkSha256": "ced8515cdadac906d27a1631628a8ce263ecc9d58b488d62c51dbc8992e8796a",
+  "promptSha256": "661a416a4a568263f3ce5d9dbedcdbc5ba58acceec48e770506b7534e76ca1db"
+}

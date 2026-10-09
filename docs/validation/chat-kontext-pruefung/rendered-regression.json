@@ -1,0 +1,344 @@
+[
+  {
+    "tag": "dolphin-tokens-cache",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 534,
+    "firstTokenIds": [
+      128000,
+      128257,
+      9125,
+      198
+    ],
+    "lastTokenIds": [
+      198,
+      128257,
+      78191,
+      198
+    ],
+    "parts": {
+      "rules": 249,
+      "Character": 49,
+      "Role": 10,
+      "Traits": 12,
+      "World": 4,
+      "Starting situation (later conversation takes priority)": 65,
+      "Location note (recent conversation takes priority)": 21
+    },
+    "cacheFlags": {
+      "identicalCacheEquivalent": true,
+      "changedSummaryCacheEquivalent": true,
+      "removedHistoryCacheEquivalent": true,
+      "editedHistoryCacheEquivalent": true,
+      "changedProfileCacheEquivalent": true,
+      "failedCacheCleared": true,
+      "cancelledCacheCleared": true
+    }
+  },
+  {
+    "tag": "dolphin-tokens-cache",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 752,
+    "firstTokenIds": [
+      128000,
+      128257,
+      9125,
+      198
+    ],
+    "lastTokenIds": [
+      198,
+      128257,
+      78191,
+      198
+    ],
+    "parts": {
+      "rules": 249,
+      "Character": 49,
+      "Role": 10,
+      "Traits": 12,
+      "World": 4,
+      "Starting situation (later conversation takes priority)": 65,
+      "Location note (recent conversation takes priority)": 21
+    },
+    "cacheFlags": {}
+  },
+  {
+    "tag": "dolphin-tokens-cache",
+    "case": "overflow-character-budget",
+    "error": "java.io.IOException: Dieser Gesprächsausschnitt ist zu lang. Bitte kürze die letzte Nachricht oder einige Erinnerungen."
+  },
+  {
+    "tag": "gemma3-tokens-cache",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 500,
+    "firstTokenIds": [
+      2,
+      105,
+      2364,
+      107
+    ],
+    "lastTokenIds": [
+      107,
+      105,
+      4368,
+      107
+    ],
+    "parts": {
+      "rules": 251,
+      "Character": 42,
+      "Role": 10,
+      "Traits": 12,
+      "World": 4,
+      "Starting situation (later conversation takes priority)": 55,
+      "Location note (recent conversation takes priority)": 22
+    },
+    "cacheFlags": {
+      "identicalCacheEquivalent": true,
+      "changedSummaryCacheEquivalent": true,
+      "removedHistoryCacheEquivalent": true,
+      "editedHistoryCacheEquivalent": true,
+      "changedProfileCacheEquivalent": true,
+      "failedCacheCleared": true,
+      "cancelledCacheCleared": true
+    }
+  },
+  {
+    "tag": "gemma3-tokens-cache",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 693,
+    "firstTokenIds": [
+      2,
+      105,
+      2364,
+      107
+    ],
+    "lastTokenIds": [
+      107,
+      105,
+      4368,
+      107
+    ],
+    "parts": {
+      "rules": 251,
+      "Character": 42,
+      "Role": 10,
+      "Traits": 12,
+      "World": 4,
+      "Starting situation (later conversation takes priority)": 55,
+      "Location note (recent conversation takes priority)": 22
+    },
+    "cacheFlags": {}
+  },
+  {
+    "tag": "gemma3-tokens-cache",
+    "case": "overflow-character-budget",
+    "error": "java.io.IOException: Dieser Gesprächsausschnitt ist zu lang. Bitte kürze die letzte Nachricht oder einige Erinnerungen."
+  },
+  {
+    "tag": "huihui-tokens-cache",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 535,
+    "firstTokenIds": [
+      151644,
+      8948,
+      198,
+      23526
+    ],
+    "lastTokenIds": [
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "parts": {
+      "rules": 249,
+      "Character": 50,
+      "Role": 10,
+      "Traits": 12,
+      "World": 4,
+      "Starting situation (later conversation takes priority)": 65,
+      "Location note (recent conversation takes priority)": 21
+    },
+    "cacheFlags": {
+      "identicalCacheEquivalent": true,
+      "changedSummaryCacheEquivalent": true,
+      "removedHistoryCacheEquivalent": true,
+      "editedHistoryCacheEquivalent": true,
+      "changedProfileCacheEquivalent": true,
+      "failedCacheCleared": true,
+      "cancelledCacheCleared": true
+    }
+  },
+  {
+    "tag": "huihui-tokens-cache",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 753,
+    "firstTokenIds": [
+      151644,
+      8948,
+      198,
+      23526
+    ],
+    "lastTokenIds": [
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "parts": {
+      "rules": 249,
+      "Character": 50,
+      "Role": 10,
+      "Traits": 12,
+      "World": 4,
+      "Starting situation (later conversation takes priority)": 65,
+      "Location note (recent conversation takes priority)": 21
+    },
+    "cacheFlags": {}
+  },
+  {
+    "tag": "huihui-tokens-cache",
+    "case": "overflow-character-budget",
+    "error": "java.io.IOException: Dieser Gesprächsausschnitt ist zu lang. Bitte kürze die letzte Nachricht oder einige Erinnerungen."
+  },
+  {
+    "tag": "gemma4-tokens",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 504,
+    "firstTokenIds": [],
+    "lastTokenIds": [],
+    "parts": null,
+    "cacheFlags": {}
+  },
+  {
+    "tag": "gemma4-tokens",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 697,
+    "firstTokenIds": [],
+    "lastTokenIds": [],
+    "parts": null,
+    "cacheFlags": {}
+  },
+  {
+    "tag": "gemma4-tokens",
+    "case": "overflow-character-budget",
+    "error": "java.lang.RuntimeException: com.google.ai.edge.litertlm.LiteRtLmJniException: Status Code: 3. Message: Input token ids are too long. Exceeding the maximum number of tokens allowed: 7362 >= 4096"
+  },
+  {
+    "tag": "qwen25-tokens",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 536,
+    "firstTokenIds": [],
+    "lastTokenIds": [],
+    "parts": null,
+    "cacheFlags": {}
+  },
+  {
+    "tag": "qwen25-tokens",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 754,
+    "firstTokenIds": [],
+    "lastTokenIds": [],
+    "parts": null,
+    "cacheFlags": {}
+  },
+  {
+    "tag": "qwen25-tokens",
+    "case": "overflow-character-budget",
+    "error": "java.lang.RuntimeException: com.google.ai.edge.litertlm.LiteRtLmJniException: Status Code: 3. Message: Input token ids are too long. Exceeding the maximum number of tokens allowed: 4862 >= 4096"
+  },
+  {
+    "tag": "qwen06-tokens",
+    "case": "A-short",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 539,
+    "firstTokenIds": [],
+    "lastTokenIds": [],
+    "parts": null,
+    "cacheFlags": {}
+  },
+  {
+    "tag": "qwen06-tokens",
+    "case": "E-courtyard",
+    "checks": {
+      "system": true,
+      "historyAll": true,
+      "latestExactlyOnce": true,
+      "historyOrder": true
+    },
+    "inputTokens": 757,
+    "firstTokenIds": [],
+    "lastTokenIds": [],
+    "parts": null,
+    "cacheFlags": {}
+  },
+  {
+    "tag": "qwen06-tokens",
+    "case": "overflow-character-budget",
+    "error": "java.lang.RuntimeException: com.google.ai.edge.litertlm.LiteRtLmJniException: Status Code: 3. Message: Input token ids are too long. Exceeding the maximum number of tokens allowed: 4865 >= 4096"
+  }
+]

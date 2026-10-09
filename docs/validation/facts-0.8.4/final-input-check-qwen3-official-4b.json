@@ -1,0 +1,60 @@
+[
+  {
+    "phase": "D",
+    "case": "hold-reverse",
+    "tokens": 3384,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": false,
+    "finalGuardAccepted": false,
+    "finalGuardError": "java.lang.IllegalStateException: Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Für den behaupteten Eigentümer von Buch gibt es keine ausdrückliche Quelle. Tragen allein belegt kein Eigentum. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "phase": "D",
+    "case": "hold-family",
+    "tokens": 3377,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  },
+  {
+    "phase": "D",
+    "case": "hold-correction",
+    "tokens": 3231,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  },
+  {
+    "phase": "heldout-final",
+    "case": "accept-gift",
+    "tokens": 625,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  },
+  {
+    "phase": "heldout-final",
+    "case": "accept-body",
+    "tokens": 681,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  },
+  {
+    "phase": "heldout-final",
+    "case": "accept-hypothesis",
+    "tokens": 560,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": false,
+    "finalGuardAccepted": false,
+    "finalGuardError": "java.lang.IllegalStateException: Die Antwort verwechselt belegte Rollen oder behauptet unbelegte Vergangenheit: Für die behauptete gemeinsame Vergangenheit fehlt eine bestätigte Quelle. Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "phase": "heldout-final",
+    "case": "accept-pickup",
+    "tokens": 639,
+    "actualFinalInputByteIdentical": true,
+    "originalGuardAccepted": true,
+    "finalGuardAccepted": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grask starrt dich mit seinen dunklen, alten Augen an. Seine Mimik bleibt unbewegt, nur die Spannung in seinen massiven Schultern deutet auf seine Wachsamkeit hin. Er atmet langsam, ein tiefes, rauhes Geräusch, das wie das Knistern von trockenem Holz klingt.*\n\n**„Du willst wissen? Gut. Du hast die Fähigkeit. Das ist mehr wert als ein gebrochenes Bein.“**\n\n*Er verschiebt seinen schweren Körper leicht, und die Bewegung ist bedrohlich. Seine Hörner glänzen im schwachen Licht der verlassenen Arena.*\n\n**„Ich brauche keinen Namen. Ich brauche die Wahrheit. Was ist das, was hinter diesem Wärtergitter steckt? Was genau steht dort, das ich nicht lesen kann?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512
+  },
+  {
+    "case": "grask-1",
+    "answer": "*Grask starrt dich mit seinen dunklen, alten Augen an. Seine Muskeln anspannen sich unter der harten Haut seines Körpers. Er nimmt deine Antwort mit einer langsamen, prüfenden Bewegung auf, seine Hörner schlagen leicht gegen die Steinmauer.*\n\n**„Du willst jemanden holen? Ein Leser? Du glaubst, ich sei ein Bibliothekar? Ich brauche keine Geschichten. Ich brauche Informationen. Und ich brauche keine Hilfereiche, die nur für deinen kleinen Kopf gedacht sind.“**\n\n*Er bewegt seinen Kopf, seine Aufmerksamkeit ist gespannt, misstrauisch, aber nicht sofort wütend. Er ist nicht verärgert, sondern analysierend. Die Erwartungshaltung ist kalt und fordernd.*\n\n**„Du hast keine Befehle gebracht. Du hast nur eine Versprechung gemacht. Was genau soll dieser Leser tun? Was soll er mir sagen, damit ich meine nächsten Schritte planen kann? Sei präzise.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512
+  },
+  {
+    "case": "runa-2",
+    "answer": "*Runa hebt langsam den Blick von der Karte, ihre Augen fixieren dich prüfend. Es ist keine sofortige Wärme in ihrem Blick, sondern eine kalkulierte Bewertung.*\n\n**„Ich brauche keine Almosen. Ich brauche Informationen. Hast du etwas gesehen, das nicht dem Sturm gehört?“**\n\n*Sie lehnt sich leicht vor, ihre Haltung ist angespannt, aber nicht aggressiv. Der trockene Humor ist fast eine Verteidigungslinie.*\n\n**„Was genau suchst du denn? Sei präzise. Ich habe keine Zeit für Unsinn.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 512
+  }
+]

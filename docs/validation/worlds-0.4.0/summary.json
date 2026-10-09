@@ -1,0 +1,186 @@
+{
+  "version": "0.4.0",
+  "versionCode": 6,
+  "databaseVersion": 5,
+  "publication": "published_verified",
+  "finalJvm": [
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StoryPromptTest.xml",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StorySummaryPromptTest.xml",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.BuiltinCharactersCatalogTest.xml",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.UpdatePolicyTest.xml",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "targetedAndroidUiTests": [
+    {
+      "file": "TEST-dev.vincent.geschichten.data.CatalogMigrationTest.xml",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.StoryRepositoryIntegrationTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.MainActivityLaunchTest.xml",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.ChatArtworkRegressionTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.UiScreenshotTest.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.AppUpdatesUiTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "distinctPassedCases": 80,
+  "failures": 0,
+  "skipped": 0,
+  "correctedTestExpectations": "Age syntax supports existing years wording; v2 now adds 70; gallery test returns to the filter header between categories.",
+  "lintSeverityCounts": {
+    "Warning": 108
+  },
+  "lintIssueCounts": {
+    "ApplySharedPref": 1,
+    "ModifierParameter": 1,
+    "DiscouragedApi": 2,
+    "ChromeOsAbiSupport": 1,
+    "ObsoleteSdkInt": 1,
+    "UnusedResources": 91,
+    "MonochromeLauncherIcon": 1,
+    "UseKtx": 10
+  },
+  "catalog": {
+    "total": 90,
+    "added": 40,
+    "released031ProfilesUnchanged": 50,
+    "maxPersonalityCharacters": 621,
+    "maxScenarioCharacters": 470,
+    "categoryGenderCounts": {
+      "Nordische Fantasy": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Fantasy": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Krimi": {
+        "männlich": 5,
+        "weiblich": 5
+      },
+      "Science-Fiction": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Kreaturen": {
+        "männlich": 5,
+        "weiblich": 5
+      },
+      "Mittelerde": {
+        "männlich": 5,
+        "weiblich": 5
+      },
+      "Blade Runner": {
+        "männlich": 5,
+        "weiblich": 5
+      },
+      "Cyberpunk 2077": {
+        "weiblich": 5,
+        "männlich": 5
+      },
+      "Monster": {
+        "weiblich": 5,
+        "männlich": 5
+      }
+    }
+  },
+  "old50PortraitsByteIdenticalTo031": true,
+  "new40PortraitsMatchGeneratedSources": true,
+  "actualUiScreenshots": 180,
+  "newCategoryFilterScreenshots": 4,
+  "testActivityAbsent": true,
+  "zipAlignment16KB": "passed",
+  "apk": {
+    "assetName": "Geschichten-0.4.0.apk",
+    "size": 306719750,
+    "sha256": "3942596b01ba21a6258fb96cae9e9390522f4b2a96303b3f7062d0fd05d6be0d"
+  },
+  "manifestSha256": "a6e83a70fe73c2bb9203f921b0eac22b0fd9d4d1c873aa9b48ce0bab782dd8d9",
+  "signerCertificateSha256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+  "physicalS24InstallationAndModelInference": "not_tested",
+  "existingWindowsFileProviderHostCase": "not_rerun; provider and installation code unchanged",
+  "publicRelease": {
+    "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.4.0",
+    "releaseId": 402959753,
+    "publishedAtUtc": "2026-10-04T10:14:16Z",
+    "draft": false,
+    "prerelease": true,
+    "anonymousApiRequest": true,
+    "requestApiVersion": "2026-03-10",
+    "publicManifestMatchesLocal": true,
+    "publicReadmeMatchesPrepared": true,
+    "fullPublicApkDownloaded": true,
+    "apkBytes": 306719750,
+    "apkSha256": "3942596b01ba21a6258fb96cae9e9390522f4b2a96303b3f7062d0fd05d6be0d",
+    "readmeSha256": "6246eff1e538a60d94f8886591539ab928268f6c74f6d61edcce52d9ae152f62",
+    "physicalDeviceInstallTested": false
+  },
+  "publicAppParserCheck": "passed_for_codes_2_3_4_5",
+  "publicReadmeUpdate": {
+    "commit_sha": "ff3983e87eda3a7418209b26085db59d207967e6",
+    "content_sha": "85d7914be0bff7e75a25cc01b9477eb37bc2439f",
+    "verified_content_sha": "85d7914be0bff7e75a25cc01b9477eb37bc2439f"
+  }
+}

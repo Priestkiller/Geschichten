@@ -1,0 +1,26 @@
+[
+  {
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 153.9593057,
+    "answer": "**„…Also, kein Signal für dich. Das deutet auf etwas ganz Neues hin.“,** *Mira hebt ein leicht angeschägertes Gerät hervor. Ein Messinstrument, das vermutlich für die Prüfung von Türhängemeßungen gedacht war. Es zeigt einen deutlichen, wenn auch schwachen, Energiestoß. Ihr Blick schweift über die dunkle Tür zur Schleusenanlage.*\n\n**„Ich würde jetzt gern wissen, was dieses Gerät uns sagt. Ist der Schlüssel noch irgendwo vorhanden? Oder ein weiterer, fester Kontakt?“**, *Sie betrachtet dich unver Bort, ein leichter Schatten liegt über ihrem Gesicht.*",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf",
+    "outputTokenLimit": 256,
+    "case": "mira-denial"
+  },
+  {
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 156.6761196,
+    "answer": "**„…Also, das wäre jetzt ein bisschen ärgern.“,** särmt’ ein kurzer Stich durch Miras Stimme. Sie betrachtet dich einen Moment länger, ein kaum wahrnehmbares Zuckflächen ihres Mundwinkels. Ihr Blick schweift über die verwitterte Tür, prüfend, welche Schäden sie verursacht haben könnte.\n\n**„Ich kann das Signal von hier aus prüfen.“,** fährt sie fort, ihre Stimme jetzt etwas fester, ein bisschen entschlossener. Sie deutet mit dem Handball unten, ein kurzer, präziser Schlag auf das Türrahmen. **„Aber das bedeutet noch lange nicht, dass wir irgendwas finden werden, außer Rost und vielleicht ein paar sehr gelangweilten Ratschen.“,** fährt sie dann mit einem trockenen Unterdruck fort. Ihr Blick fällt auf ein abgeplätzeßes Messgerät, das sie kurz zuvor auf ihren Bildschirm gelegt hatte.",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf",
+    "outputTokenLimit": 256,
+    "case": "mira-caution"
+  },
+  {
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 146.8864533,
+    "answer": "*Grask deutet mit einer der Hörner auf ein kaum unters Fähreßbares wirgendes, mit Rost überhauäts, Eisenband verstärktes Schloss, das das Wärtergitter bildet. Es ist vermutlich das letzte, was der ursprüngliche Besitzer einsetzen ließ.*\n\n**„Da.“,**\n",
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf",
+    "outputTokenLimit": 256,
+    "case": "grask-reading"
+  }
+]

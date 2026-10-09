@@ -1,0 +1,62 @@
+{
+  "A-lexical": {
+    "answers": 6,
+    "wholeUseful": 1,
+    "factualCoreCorrect": 2,
+    "originalCoverageComplete": 2,
+    "originalSpansProvided": 5,
+    "originalSpansRequired": 9,
+    "guardMisses": 5,
+    "falseRejections": 0
+  },
+  "B-hybrid": {
+    "answers": 6,
+    "wholeUseful": 1,
+    "factualCoreCorrect": 2,
+    "originalCoverageComplete": 3,
+    "originalSpansProvided": 6,
+    "originalSpansRequired": 9,
+    "guardMisses": 5,
+    "falseRejections": 0
+  },
+  "C-corrected-hybrid-context": {
+    "answers": 6,
+    "wholeUseful": 3,
+    "factualCoreCorrect": 4,
+    "originalCoverageComplete": 6,
+    "originalSpansProvided": 9,
+    "originalSpansRequired": 9,
+    "guardMisses": 3,
+    "falseRejections": 0
+  },
+  "diagnostic-lexical-context": {
+    "answers": 6,
+    "wholeUseful": 2,
+    "factualCoreCorrect": 3,
+    "originalCoverageComplete": 4,
+    "originalSpansProvided": 7,
+    "originalSpansRequired": 9,
+    "guardMisses": 4,
+    "falseRejections": 0
+  },
+  "new-free": {
+    "answers": 5,
+    "wholeUseful": 5,
+    "factualCoreCorrect": 5,
+    "originalCoverageComplete": 5,
+    "originalSpansProvided": 0,
+    "originalSpansRequired": 0,
+    "guardMisses": 0,
+    "falseRejections": 0
+  },
+  "ongoing-free": {
+    "answers": 1,
+    "wholeUseful": 0,
+    "factualCoreCorrect": 0,
+    "originalCoverageComplete": 1,
+    "originalSpansProvided": 0,
+    "originalSpansRequired": 0,
+    "guardMisses": 0,
+    "falseRejections": 0
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "baseline": "0.8.0 after hashes overlaid with 0.8.1 changed/added after hashes; diagnostics excluded",
+  "changed": [
+    {
+      "path": "BUILD_WINDOWS.cmd",
+      "beforeSha256": "3b418303e6f6edeb1f7a6fb4b9d80d8fa46ff812487693781e10483714557838",
+      "afterSha256": "859dc320f97b2d98661eff5b6c8c8a5a63ab4fa13198c777a3a3b8718c334b71"
+    },
+    {
+      "path": "README.md",
+      "beforeSha256": "63215e9657cdc07e8993a83bbbaa3165e2d15370e3f404bed32ce6d42a6c4a75",
+      "afterSha256": "8d91b9e6f351e4b8ce5ba34551f11c194c8d456ae5c2aea0c53d8b71ad9ad9ab"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "beforeSha256": "c2c2f796abd4231949ae4c28d593be04a91495a59505721309b3b0f00fd0dad4",
+      "afterSha256": "32d0841fbd6085f759fc6dce1bd039cf25d400086f14f5cbb5cb5989ea64ec72"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/AppViewModel.kt",
+      "beforeSha256": "85784acdd3f5ba5dc5693f3d636a454bfa11f9e8ec6a6f3631b5e5cb0d405c5f",
+      "afterSha256": "1158e860a6a0c65cdecf7a04b15f61c909259fadba479cbda73f1d874cc34e7c"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/StoryRepository.kt",
+      "beforeSha256": "aed43fe437cf99130a50458de99317009e776c9bec1d6d4df1d541df5dede5ea",
+      "afterSha256": "9df1dd54c618b923edb057565f4e44a27377eaafad6cae3276bc7d029a1fde08"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryPrompt.kt",
+      "beforeSha256": "6b5ab152ec04e18cf5f651711dbbd856a340d08829fbb1f47a90b32e7e4542a5",
+      "afterSha256": "fad1efb11ec90ad8d69740ee01f40e9b57e1b87f73025c6db407cf21a3a1b9cb"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryReplyGuard.kt",
+      "beforeSha256": "0faae647baaa866061ad1973c91e4dcc1d89e50155a0e97ee34e658ff307e7c8",
+      "afterSha256": "a41e57fc5b44b0cc80ad5e39aa21bf21f6eb82431f4a9548ef84a50374aea498"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/StoryMemory.kt",
+      "beforeSha256": "e043c5070c5dc632f07f4696fe809a35d1e6464d393733a7376481c1ebb07645",
+      "afterSha256": "2df4775528bc4fadf3de5deb43be4b1eb241b43f7bf39960b4fbbe634fcdf9c3"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ui/StateMemoryUi.kt",
+      "beforeSha256": "be1a32b76fd7ac203b3b3aaa6c2862f6d92f2118d8556b79819cb1fa5fd1106c",
+      "afterSha256": "f5bd081e38e08f99d55a2ecc31a99e8852c9fd4766f450711d8c1302867792d3"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/memory/MemoryRulesTest.kt",
+      "beforeSha256": "72fa0a8b8fd25456d92c023d4d59ee1897de3e5fb4dd554dee666e6f80c05420",
+      "afterSha256": "1e5e0c5e42c3d26fcda2c5cb063fb0adabdcf37e6cc75cd7d8d59010a38fd2bb"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ChatContextIntegrationTest.kt",
+      "beforeSha256": "23aff00168fef1439e79ccaa6ca7582596c7f8f0286f016744497718138d8b32",
+      "afterSha256": "af7b6285c53c433ad870371eac288847fc76f3186e1e04e8e9420de0445c699f"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/MemoryRepositoryIntegrationTest.kt",
+      "beforeSha256": "01ae3b60cf7cacc5e5de0bf508f8f6b06ee128dd4d1ee794649887b44758b928",
+      "afterSha256": "96b879da58e8fd5348748e76d2c95aab281217b0c4cb35656928b900bfefdac7"
+    },
+    {
+      "path": "build-linux.sh",
+      "beforeSha256": "62d3fc86907c23a57ee611a2b2dd4550b127b1c620229e4aa74aa0e12f7725de",
+      "afterSha256": "58eb854431d8d2fad5dfd5add85adbd8e2c13f3bbd2bcea68a0125ccf789fa7e"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/ArchiveRecall.kt",
+      "beforeSha256": "6850b7621f73edcdc655f23e7fb3d9a032f3cf74c52279b26f448c2a91c10e15",
+      "afterSha256": "7df20713a40bca91e5d1157fa2c6221a61edd12f849abe488e1906a38140415f"
+    }
+  ],
+  "newProductionAndTestFiles": [
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleEvidence.kt",
+      "sha256": "a93709d90f18f16d8f8f522b951176250f1d531baf9d62e59ad45405cee7c019"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleReplyGuard.kt",
+      "sha256": "5e68f157d86092b8a7322d5eccf7cc86e3caebbe9ab5013f248104a00d417784"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/RoleSourcePolicy.kt",
+      "sha256": "f69dcd977895957fd4c5fc7997fa16d847c9d57e6b6cadd3c991689c8199b519"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/memory/RoleEvidenceTest.kt",
+      "sha256": "fb05929a5e6517d99b74bfbbc6fb4f0601354fbd50c4878b8b2a172cd403a2a5"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleAnswerCorpusTest.kt",
+      "sha256": "e2a08b516d0a8ab7d54610f7720fcaba319a18321159eda546cb18e830342e07"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleComparisonFixturesTest.kt",
+      "sha256": "5b71ed2a1bf2e2a070c6ff8c61e8641c4ba0a99b1ea1fd3e685501840fa147be"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RoleContaminationInvestigationTest.kt",
+      "sha256": "6836aa8993ed0e09b606752b6d8be9bef774a15c75eb6ea6b7b337b24522dcd3"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/RolePersistenceTest.kt",
+      "sha256": "dda7f09a35109121a697dc5778930bb52103e50b2c7f21145c77dad1ce3cd67e"
+    }
+  ],
+  "requiredUnchanged": [
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/ai/LocalModelCatalog.kt",
+      "sha256": "824d8918f685a7cc7aed21dda5b736a3d230bfa861e15d5b773820ad1d8e28b0"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/BuiltinCharacters.kt",
+      "sha256": "fea1c3093b2c244a9c6f1e42669684f7fab761165a76f89eb4462468115acc38"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/CharacterIntroductions.kt",
+      "sha256": "d2439c34b2ff770ea78f05ae60ff89f7d37a0e406148666e3b175b3276231c4f"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/ReleasedIntroductionsV6.kt",
+      "sha256": "b6fa10f91a2b1a9a70b741aa8f89856e4f1b1fec4c38733d490f12bd79232949"
+    }
+  ],
+  "newDocuments": [
+    {
+      "path": "docs/rollen-pruefung-0.8.2.md",
+      "sha256": "8f0fc3350c41aec75ee281f844f9d8d59ad1166930e056effdf96a2a8933cb84"
+    },
+    {
+      "path": "docs/PRUEFBERICHT-0.8.2.md",
+      "sha256": "4e97c92bcdfb7d3694e28b9a02bb38d0d858516c7a7e8b9f80ecdd1389065ae1"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "bartowski/Dolphin3.0-Llama3.2-3B-GGUF",
+    "revision": "ac6b1ee98e3864ebd5998216f800a07d74b166b5",
+    "file": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+    "bytes": 2019382400,
+    "sha256": "5d6d02eeefa1ab5dbf23f97afdf5c2c95ad3d946dc3b6e9ab72e6c1637d54177",
+    "anonymousDownloadVerified": true
+  },
+  {
+    "repository": "mahdisml/Huihui-Qwen3-4B-Instruct-2507-abliterated-Q4_K_M-GGUF",
+    "revision": "1cbc997dbe95f5ec9b196bb79090328519363b84",
+    "file": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "bytes": 2497276736,
+    "sha256": "d80ef0f08a0e64887f4a19bc9202fe1a108d9666a2c49eb9a30bc3a30995121b",
+    "anonymousDownloadVerified": true
+  },
+  {
+    "repository": "DavidAU/Gemma-3-it-4B-Uncensored-DBL-X-GGUF",
+    "revision": "1a0f89952bf29018124d51ba1ecd29639bdbf061",
+    "file": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf",
+    "bytes": 2576023488,
+    "sha256": "02829b28e6a104daecc06cc8884227ef34b9a461e34f0899cbb819cf7ed6901c",
+    "anonymousDownloadVerified": true
+  }
+]

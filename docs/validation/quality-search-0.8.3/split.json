@@ -1,0 +1,28 @@
+{
+  "development": [
+    "dev-transfer",
+    "dev-reverse",
+    "dev-family",
+    "dev-owner",
+    "dev-negation",
+    "dev-panic",
+    "dev-sound",
+    "dev-multiple",
+    "dev-correction",
+    "dev-unknown"
+  ],
+  "heldout": [
+    "hold-transfer",
+    "hold-reverse",
+    "hold-family",
+    "hold-owner",
+    "hold-negation",
+    "hold-water",
+    "hold-crowd",
+    "hold-multiple",
+    "hold-correction",
+    "hold-unknown"
+  ],
+  "sha256": "2c83a547998881e93cf2c170b570d32992820785c889a7e6003f4d0849dda0c4",
+  "criterion": "Whole answer, separate factual/roles/completeness/German/style/past/meta/echo/repetition/refusal/abort; acceptance independent."
+}

@@ -1,0 +1,96 @@
+{
+  "baseline": "0.8.0 source-changes.json after hashes",
+  "changed": [
+    {
+      "path": "BUILD_WINDOWS.cmd",
+      "beforeSha256": "cb4fd6e0cfd27a135173076bff4b6dc44c9750d0e9db3fa6409486604c551f96",
+      "afterSha256": "3b418303e6f6edeb1f7a6fb4b9d80d8fa46ff812487693781e10483714557838"
+    },
+    {
+      "path": "README.md",
+      "beforeSha256": "7b431d84332eaf32299d5b6e49aa892cc9d05198db8131acc3e990274a2f527e",
+      "afterSha256": "63215e9657cdc07e8993a83bbbaa3165e2d15370e3f404bed32ce6d42a6c4a75"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "beforeSha256": "1bfd88d9be2a6e38eb8eb342fd34da4ad656ab15173c2aee8deaf4f01ea16e55",
+      "afterSha256": "c2c2f796abd4231949ae4c28d593be04a91495a59505721309b3b0f00fd0dad4"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/AppViewModel.kt",
+      "beforeSha256": "d7a47ac2faee6d8f2620bdb10c0ed9986840b522b51f92dec1c3b60689996091",
+      "afterSha256": "85784acdd3f5ba5dc5693f3d636a454bfa11f9e8ec6a6f3631b5e5cb0d405c5f"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/data/StoryRepository.kt",
+      "beforeSha256": "87f71debb65e65d40b8557926c1b76676d51d549ce4e046ddf2040a0822fc0d9",
+      "afterSha256": "aed43fe437cf99130a50458de99317009e776c9bec1d6d4df1d541df5dede5ea"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/ArchiveRecall.kt",
+      "beforeSha256": null,
+      "afterSha256": "6850b7621f73edcdc655f23e7fb3d9a032f3cf74c52279b26f448c2a91c10e15"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryDatabase.kt",
+      "beforeSha256": "b64c44985fea8be43279227c6ba026c4a974e4c5a7fdabd0e2f86da1e8a36af5",
+      "afterSha256": "1729e031a8221102f5db3170b0e5a152cbe66267bab8c8a6fb45009284904190"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryPrompt.kt",
+      "beforeSha256": "6bdcc66d79d18a099a16911bf8f404f2732c285f9d9d7ac497041f5b1451fa49",
+      "afterSha256": "6b5ab152ec04e18cf5f651711dbbd856a340d08829fbb1f47a90b32e7e4542a5"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/MemoryReplyGuard.kt",
+      "beforeSha256": "0fcdfe71ba27c7a6303276abb68720757d95d35a88dfd9e0e6adc4b01b92d335",
+      "afterSha256": "0faae647baaa866061ad1973c91e4dcc1d89e50155a0e97ee34e658ff307e7c8"
+    },
+    {
+      "path": "app/src/main/java/dev/vincent/geschichten/memory/StoryMemory.kt",
+      "beforeSha256": "86d9185d6fce4f15c8ba2e8dee5bd956ffa23ea70c3c8a5d10f15d49e0131092",
+      "afterSha256": "e043c5070c5dc632f07f4696fe809a35d1e6464d393733a7376481c1ebb07645"
+    },
+    {
+      "path": "app/src/test/java/dev/vincent/geschichten/memory/ArchiveRecallTest.kt",
+      "beforeSha256": null,
+      "afterSha256": "7a44c688755d7253ffb5bf86d9e2ff126ab54ba492c2d11251fa1af3a45c1b76"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/ChatContextIntegrationTest.kt",
+      "beforeSha256": "81f18cbce29037274e0ffdf45eee5ba16eb91e0db2e9e8b6908879f16a66e681",
+      "afterSha256": "23aff00168fef1439e79ccaa6ca7582596c7f8f0286f016744497718138d8b32"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/ActiveMemoryModelFixturesTest.kt",
+      "beforeSha256": null,
+      "afterSha256": "611b8291438f42cd0ff39109d022ce4bf5ac57714958d1fa64f2d61f97d7797f"
+    },
+    {
+      "path": "app/src/visualTest/java/dev/vincent/geschichten/memory/MemoryRepositoryIntegrationTest.kt",
+      "beforeSha256": "01227a68004e6a2926d8783480c134cc99ed86db4557aae2642fff0dd9ab73d3",
+      "afterSha256": "01ae3b60cf7cacc5e5de0bf508f8f6b06ee128dd4d1ee794649887b44758b928"
+    },
+    {
+      "path": "build-linux.sh",
+      "beforeSha256": "da19832019e87e2bf08ccca93bfb37bf629158ae75f143170f41ff49555da1ec",
+      "afterSha256": "62d3fc86907c23a57ee611a2b2dd4550b127b1c620229e4aa74aa0e12f7725de"
+    },
+    {
+      "path": "docs/BUILD.md",
+      "beforeSha256": "297eea3510fa397f66eceeaec065e7f755bf081d46e6ab201727212826e8f141",
+      "afterSha256": "634db39b3a81eb9ca8bfc99fcea066fbc652711bedda73a1cc5d53f8ece8feab"
+    },
+    {
+      "path": "docs/PRUEFBERICHT-0.8.1.md",
+      "beforeSha256": null,
+      "afterSha256": "aaa6cce3014109a85dcb321ebbe31f8bc7d525cdd8942850a960357545cdfaae"
+    },
+    {
+      "path": "docs/aktives-gedaechtnis-0.8.1.md",
+      "beforeSha256": null,
+      "afterSha256": "3e84d88526eba5f67fd845b804496d713631d19f6130abbc48d1d60045a772c2"
+    }
+  ],
+  "removed": 0
+}

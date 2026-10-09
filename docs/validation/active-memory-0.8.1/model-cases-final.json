@@ -1,0 +1,1793 @@
+[
+  {
+    "case": "archive",
+    "bundle": {
+      "story": {
+        "id": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+        "characterId": "fixture-mira",
+        "title": "Der Brunnen",
+        "summary": "",
+        "startContext": "Mira und Rian sind im Hof.",
+        "createdAt": 1791269012814,
+        "updatedAt": 1791269013161
+      },
+      "character": {
+        "id": "fixture-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt und spricht klares Deutsch. Sie ist praktisch, herzlich und vorsichtig. Rian ist ihre Reisebegleitung.",
+        "scenario": "Mira und Rian sind im Hof.",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Mira sieht Rian an.* „Womit beginnen wir?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "32653832-30d4-47da-8a8d-a85225949bc9",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira sieht Rian an.* „Womit beginnen wir?“",
+          "createdAt": 1791269012814
+        },
+        {
+          "id": "87d51ab5-2712-478e-b404-599fa2716c24",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den roten Schlüssel. Wir sind im Hof.",
+          "createdAt": 1791269012815
+        },
+        {
+          "id": "1a9460f8-9af0-4273-ae59-4bedae7b5186",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791269012824
+        },
+        {
+          "id": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Das Losungswort am Brunnen lautet Morgenstern. Ich gebe dir am Brunnen den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann.",
+          "createdAt": 1791269012827
+        },
+        {
+          "id": "727f61ee-bf16-4f75-9ec8-28cf03b5b0ae",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791269012970
+        },
+        {
+          "id": "b1f93f81-793c-4891-acf8-53ceaf45db28",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 0.",
+          "createdAt": 1791269013112
+        },
+        {
+          "id": "38395c22-106d-4320-a25d-27435af37e8e",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 0.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013113
+        },
+        {
+          "id": "d7e85a78-6387-44d1-a9e6-7d6ac8cfbafd",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 1.",
+          "createdAt": 1791269013115
+        },
+        {
+          "id": "142764e9-29bd-479b-a0c8-97882c97b55d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 1.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013116
+        },
+        {
+          "id": "a49119d6-de1f-4df4-b8c3-d7b3b098009a",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 2.",
+          "createdAt": 1791269013117
+        },
+        {
+          "id": "3d9059fe-2f36-4218-a5bf-afdd586680e3",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 2.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013118
+        },
+        {
+          "id": "4dda29a4-f9a2-41a4-a477-6de3f640445d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 3.",
+          "createdAt": 1791269013119
+        },
+        {
+          "id": "6a884151-cf43-477a-9f44-09a05a1283f0",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 3.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013121
+        },
+        {
+          "id": "02cea5fd-90e5-4146-b478-f6c94074dc2d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 4.",
+          "createdAt": 1791269013122
+        },
+        {
+          "id": "2d08c091-9e3a-48a3-970a-393f9195cd53",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 4.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013125
+        },
+        {
+          "id": "49477b55-9a9d-411b-9bfc-52be45284f09",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 5.",
+          "createdAt": 1791269013127
+        },
+        {
+          "id": "6522d4c7-74cd-4398-9e92-6fec7198a36e",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 5.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013130
+        },
+        {
+          "id": "0c13200c-8be0-4751-bffe-1fb34d5f1f0f",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 6.",
+          "createdAt": 1791269013132
+        },
+        {
+          "id": "fb041729-5f5c-4154-8aaa-3e3d52bb7dc1",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 6.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013134
+        },
+        {
+          "id": "7327dbe5-90e5-4185-9351-294a96e13781",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 7.",
+          "createdAt": 1791269013135
+        },
+        {
+          "id": "7984b33b-dab1-4a1a-b16c-1aed10b64241",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 7.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013137
+        },
+        {
+          "id": "0cf6fffb-9766-4919-941f-c5da0cb7a9c4",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 8.",
+          "createdAt": 1791269013140
+        },
+        {
+          "id": "73e142b6-1494-43c3-a2d6-434698fccc35",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 8.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013145
+        },
+        {
+          "id": "094c6f9e-cbea-404b-98c5-488cb881f315",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 9.",
+          "createdAt": 1791269013147
+        },
+        {
+          "id": "97d9b916-795e-4a70-a7ee-8f74d2678741",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 9.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013152
+        },
+        {
+          "id": "9d1c7ed9-7ea0-4be4-90b9-dd0e1e9148d2",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 10.",
+          "createdAt": 1791269013153
+        },
+        {
+          "id": "7a8c9a4e-4f76-4341-ac5c-bd158cbe3c18",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013156
+        },
+        {
+          "id": "867d7b5a-6e4d-4cb6-8fbf-abc47f6a80c0",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 11.",
+          "createdAt": 1791269013157
+        },
+        {
+          "id": "8450ba3f-e4b8-4f0d-ab50-258a1a50acba",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 11.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013160
+        },
+        {
+          "id": "980a274f-4a76-4f73-8be6-ca178d12af52",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wie lautet das Losungswort am Brunnen und warum habe ich dir den Brief anvertraut?",
+          "createdAt": 1791269013161
+        }
+      ],
+      "memories": [
+        {
+          "id": "6f521e2c-8d1c-4cbf-b501-a4ad6bc18182",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791269012814,
+          "updatedAt": 1791269012814
+        },
+        {
+          "id": "e08b1085-eea2-4f41-be08-c2605d700ff4",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Mira und Rian sind im Hof.",
+          "pinned": true,
+          "createdAt": 1791269012815,
+          "updatedAt": 1791269012815
+        }
+      ],
+      "memory": {
+        "version": 37,
+        "facts": [
+          {
+            "id": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6c7238d7231209312a2a3aaf0b9344d0",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Ich heiße Rian.",
+            "version": 4,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "3af02eea91d672b3170b559144411378",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "rot",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Mira hat den roten Schlüssel.",
+            "version": 5,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "878c45732ac90d434e76a085769297de",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Mira hat den roten Schlüssel.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "2ec2647961054945da34c78b2bac6a3b",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6c7238d7231209312a2a3aaf0b9344d0",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6410568bb53f5966cacdca8122bcb97c",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "5056e40927b46b8e0a8976d83d0b689c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "dd06ad65ab992e05231bee6cddd75e84",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "39d7e542f9da4aac58eb8ea929f0630c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "659799271a447a8144039e2aed0a8cc4",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Brief"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "sourceText": "Ich gebe dir am Brunnen den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012827,
+            "sourceOrder": 4
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "3af02eea91d672b3170b559144411378",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 5
+          },
+          {
+            "factId": "3af02eea91d672b3170b559144411378",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 5
+          },
+          {
+            "factId": "878c45732ac90d434e76a085769297de",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 6
+          },
+          {
+            "factId": "878c45732ac90d434e76a085769297de",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 6
+          },
+          {
+            "factId": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 8
+          },
+          {
+            "factId": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 8
+          },
+          {
+            "factId": "39d7e542f9da4aac58eb8ea929f0630c",
+            "knower": "character",
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "version": 12
+          },
+          {
+            "factId": "39d7e542f9da4aac58eb8ea929f0630c",
+            "knower": "player",
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "version": 12
+          },
+          {
+            "factId": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 4
+          },
+          {
+            "factId": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 4
+          },
+          {
+            "factId": "2ec2647961054945da34c78b2bac6a3b",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 7
+          },
+          {
+            "factId": "2ec2647961054945da34c78b2bac6a3b",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 7
+          },
+          {
+            "factId": "5056e40927b46b8e0a8976d83d0b689c",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 9
+          },
+          {
+            "factId": "5056e40927b46b8e0a8976d83d0b689c",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 9
+          }
+        ],
+        "scannedSources": [
+          "32653832-30d4-47da-8a8d-a85225949bc9",
+          "87d51ab5-2712-478e-b404-599fa2716c24",
+          "1a9460f8-9af0-4273-ae59-4bedae7b5186",
+          "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+          "727f61ee-bf16-4f75-9ec8-28cf03b5b0ae",
+          "b1f93f81-793c-4891-acf8-53ceaf45db28",
+          "38395c22-106d-4320-a25d-27435af37e8e",
+          "d7e85a78-6387-44d1-a9e6-7d6ac8cfbafd",
+          "142764e9-29bd-479b-a0c8-97882c97b55d",
+          "a49119d6-de1f-4df4-b8c3-d7b3b098009a",
+          "3d9059fe-2f36-4218-a5bf-afdd586680e3",
+          "4dda29a4-f9a2-41a4-a477-6de3f640445d",
+          "6a884151-cf43-477a-9f44-09a05a1283f0",
+          "02cea5fd-90e5-4146-b478-f6c94074dc2d",
+          "2d08c091-9e3a-48a3-970a-393f9195cd53",
+          "49477b55-9a9d-411b-9bfc-52be45284f09",
+          "6522d4c7-74cd-4398-9e92-6fec7198a36e",
+          "0c13200c-8be0-4751-bffe-1fb34d5f1f0f",
+          "fb041729-5f5c-4154-8aaa-3e3d52bb7dc1",
+          "7327dbe5-90e5-4185-9351-294a96e13781",
+          "7984b33b-dab1-4a1a-b16c-1aed10b64241",
+          "0cf6fffb-9766-4919-941f-c5da0cb7a9c4",
+          "73e142b6-1494-43c3-a2d6-434698fccc35",
+          "094c6f9e-cbea-404b-98c5-488cb881f315",
+          "97d9b916-795e-4a70-a7ee-8f74d2678741",
+          "9d1c7ed9-7ea0-4be4-90b9-dd0e1e9148d2",
+          "7a8c9a4e-4f76-4341-ac5c-bd158cbe3c18",
+          "867d7b5a-6e4d-4cb6-8fbf-abc47f6a80c0",
+          "8450ba3f-e4b8-4f0d-ab50-258a1a50acba"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "mira"
+        ]
+      }
+    }
+  },
+  {
+    "case": "correction",
+    "bundle": {
+      "story": {
+        "id": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+        "characterId": "fixture-mira",
+        "title": "Der Brunnen",
+        "summary": "",
+        "startContext": "Mira und Rian sind im Hof.",
+        "createdAt": 1791269012814,
+        "updatedAt": 1791269013166
+      },
+      "character": {
+        "id": "fixture-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt und spricht klares Deutsch. Sie ist praktisch, herzlich und vorsichtig. Rian ist ihre Reisebegleitung.",
+        "scenario": "Mira und Rian sind im Hof.",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Mira sieht Rian an.* „Womit beginnen wir?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "32653832-30d4-47da-8a8d-a85225949bc9",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira sieht Rian an.* „Womit beginnen wir?“",
+          "createdAt": 1791269012814
+        },
+        {
+          "id": "87d51ab5-2712-478e-b404-599fa2716c24",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den roten Schlüssel. Wir sind im Hof.",
+          "createdAt": 1791269012815
+        },
+        {
+          "id": "1a9460f8-9af0-4273-ae59-4bedae7b5186",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791269012824
+        },
+        {
+          "id": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Das Losungswort am Brunnen lautet Morgenstern. Ich gebe dir am Brunnen den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann.",
+          "createdAt": 1791269012827
+        },
+        {
+          "id": "727f61ee-bf16-4f75-9ec8-28cf03b5b0ae",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791269012970
+        },
+        {
+          "id": "b1f93f81-793c-4891-acf8-53ceaf45db28",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 0.",
+          "createdAt": 1791269013112
+        },
+        {
+          "id": "38395c22-106d-4320-a25d-27435af37e8e",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 0.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013113
+        },
+        {
+          "id": "d7e85a78-6387-44d1-a9e6-7d6ac8cfbafd",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 1.",
+          "createdAt": 1791269013115
+        },
+        {
+          "id": "142764e9-29bd-479b-a0c8-97882c97b55d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 1.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013116
+        },
+        {
+          "id": "a49119d6-de1f-4df4-b8c3-d7b3b098009a",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 2.",
+          "createdAt": 1791269013117
+        },
+        {
+          "id": "3d9059fe-2f36-4218-a5bf-afdd586680e3",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 2.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013118
+        },
+        {
+          "id": "4dda29a4-f9a2-41a4-a477-6de3f640445d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 3.",
+          "createdAt": 1791269013119
+        },
+        {
+          "id": "6a884151-cf43-477a-9f44-09a05a1283f0",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 3.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013121
+        },
+        {
+          "id": "02cea5fd-90e5-4146-b478-f6c94074dc2d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 4.",
+          "createdAt": 1791269013122
+        },
+        {
+          "id": "2d08c091-9e3a-48a3-970a-393f9195cd53",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 4.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013125
+        },
+        {
+          "id": "49477b55-9a9d-411b-9bfc-52be45284f09",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 5.",
+          "createdAt": 1791269013127
+        },
+        {
+          "id": "6522d4c7-74cd-4398-9e92-6fec7198a36e",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 5.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013130
+        },
+        {
+          "id": "0c13200c-8be0-4751-bffe-1fb34d5f1f0f",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 6.",
+          "createdAt": 1791269013132
+        },
+        {
+          "id": "fb041729-5f5c-4154-8aaa-3e3d52bb7dc1",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 6.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013134
+        },
+        {
+          "id": "7327dbe5-90e5-4185-9351-294a96e13781",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 7.",
+          "createdAt": 1791269013135
+        },
+        {
+          "id": "7984b33b-dab1-4a1a-b16c-1aed10b64241",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 7.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013137
+        },
+        {
+          "id": "0cf6fffb-9766-4919-941f-c5da0cb7a9c4",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 8.",
+          "createdAt": 1791269013140
+        },
+        {
+          "id": "73e142b6-1494-43c3-a2d6-434698fccc35",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 8.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013145
+        },
+        {
+          "id": "094c6f9e-cbea-404b-98c5-488cb881f315",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 9.",
+          "createdAt": 1791269013147
+        },
+        {
+          "id": "97d9b916-795e-4a70-a7ee-8f74d2678741",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 9.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013152
+        },
+        {
+          "id": "9d1c7ed9-7ea0-4be4-90b9-dd0e1e9148d2",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 10.",
+          "createdAt": 1791269013153
+        },
+        {
+          "id": "7a8c9a4e-4f76-4341-ac5c-bd158cbe3c18",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013156
+        },
+        {
+          "id": "867d7b5a-6e4d-4cb6-8fbf-abc47f6a80c0",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 11.",
+          "createdAt": 1791269013157
+        },
+        {
+          "id": "8450ba3f-e4b8-4f0d-ab50-258a1a50acba",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 11.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013160
+        },
+        {
+          "id": "bd716370-87f7-4a89-bb70-c7dc47631a34",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Der Schlüssel ist jetzt blau. Welche Farbe hat der Schlüssel jetzt und wer hat ihn?",
+          "createdAt": 1791269013165
+        }
+      ],
+      "memories": [
+        {
+          "id": "6f521e2c-8d1c-4cbf-b501-a4ad6bc18182",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791269012814,
+          "updatedAt": 1791269012814
+        },
+        {
+          "id": "e08b1085-eea2-4f41-be08-c2605d700ff4",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Mira und Rian sind im Hof.",
+          "pinned": true,
+          "createdAt": 1791269012815,
+          "updatedAt": 1791269012815
+        }
+      ],
+      "memory": {
+        "version": 41,
+        "facts": [
+          {
+            "id": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6c7238d7231209312a2a3aaf0b9344d0",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Ich heiße Rian.",
+            "version": 4,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "3af02eea91d672b3170b559144411378",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "rot",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Mira hat den roten Schlüssel.",
+            "version": 5,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "878c45732ac90d434e76a085769297de",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Mira hat den roten Schlüssel.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "2ec2647961054945da34c78b2bac6a3b",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6c7238d7231209312a2a3aaf0b9344d0",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6410568bb53f5966cacdca8122bcb97c",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "5056e40927b46b8e0a8976d83d0b689c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "dd06ad65ab992e05231bee6cddd75e84",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "39d7e542f9da4aac58eb8ea929f0630c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "659799271a447a8144039e2aed0a8cc4",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Brief"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "sourceText": "Ich gebe dir am Brunnen den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012827,
+            "sourceOrder": 4
+          },
+          {
+            "id": "dfbc0b1b-1686-4962-a11f-e9ed731706f5",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "silbern",
+            "status": "HISTORICAL",
+            "pinned": true,
+            "sourceText": "Manuelle Korrektur: rot → silbern",
+            "version": 40,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": true,
+            "createdAt": 1791269013164,
+            "sourceOrder": 29
+          },
+          {
+            "id": "dd03c640d4130d04d374c81fa1db72cb",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "blau",
+            "status": "CURRENT",
+            "pinned": true,
+            "sourceId": "bd716370-87f7-4a89-bb70-c7dc47631a34",
+            "sourceText": "Der Schlüssel ist jetzt blau.",
+            "version": 50,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269013165,
+            "sourceOrder": 30
+          },
+          {
+            "id": "ba0f51ab6009ab3949c6386621d49ab6",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Farbe",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "bd716370-87f7-4a89-bb70-c7dc47631a34",
+            "sourceText": "Welche Farbe hat der Schlüssel jetzt und wer hat ihn?",
+            "version": 51,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269013165,
+            "sourceOrder": 30
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "3af02eea91d672b3170b559144411378",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 5
+          },
+          {
+            "factId": "3af02eea91d672b3170b559144411378",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 5
+          },
+          {
+            "factId": "dfbc0b1b-1686-4962-a11f-e9ed731706f5",
+            "knower": "character",
+            "version": 40
+          },
+          {
+            "factId": "dfbc0b1b-1686-4962-a11f-e9ed731706f5",
+            "knower": "player",
+            "version": 40
+          },
+          {
+            "factId": "878c45732ac90d434e76a085769297de",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 6
+          },
+          {
+            "factId": "878c45732ac90d434e76a085769297de",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 6
+          },
+          {
+            "factId": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 8
+          },
+          {
+            "factId": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 8
+          },
+          {
+            "factId": "39d7e542f9da4aac58eb8ea929f0630c",
+            "knower": "character",
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "version": 12
+          },
+          {
+            "factId": "39d7e542f9da4aac58eb8ea929f0630c",
+            "knower": "player",
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "version": 12
+          },
+          {
+            "factId": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 4
+          },
+          {
+            "factId": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 4
+          },
+          {
+            "factId": "2ec2647961054945da34c78b2bac6a3b",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 7
+          },
+          {
+            "factId": "2ec2647961054945da34c78b2bac6a3b",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 7
+          },
+          {
+            "factId": "5056e40927b46b8e0a8976d83d0b689c",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 9
+          },
+          {
+            "factId": "5056e40927b46b8e0a8976d83d0b689c",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 9
+          },
+          {
+            "factId": "dd03c640d4130d04d374c81fa1db72cb",
+            "knower": "player",
+            "sourceId": "bd716370-87f7-4a89-bb70-c7dc47631a34",
+            "version": 50
+          },
+          {
+            "factId": "dd03c640d4130d04d374c81fa1db72cb",
+            "knower": "character",
+            "sourceId": "bd716370-87f7-4a89-bb70-c7dc47631a34",
+            "version": 50
+          }
+        ],
+        "scannedSources": [
+          "32653832-30d4-47da-8a8d-a85225949bc9",
+          "87d51ab5-2712-478e-b404-599fa2716c24",
+          "1a9460f8-9af0-4273-ae59-4bedae7b5186",
+          "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+          "727f61ee-bf16-4f75-9ec8-28cf03b5b0ae",
+          "b1f93f81-793c-4891-acf8-53ceaf45db28",
+          "38395c22-106d-4320-a25d-27435af37e8e",
+          "d7e85a78-6387-44d1-a9e6-7d6ac8cfbafd",
+          "142764e9-29bd-479b-a0c8-97882c97b55d",
+          "a49119d6-de1f-4df4-b8c3-d7b3b098009a",
+          "3d9059fe-2f36-4218-a5bf-afdd586680e3",
+          "4dda29a4-f9a2-41a4-a477-6de3f640445d",
+          "6a884151-cf43-477a-9f44-09a05a1283f0",
+          "02cea5fd-90e5-4146-b478-f6c94074dc2d",
+          "2d08c091-9e3a-48a3-970a-393f9195cd53",
+          "49477b55-9a9d-411b-9bfc-52be45284f09",
+          "6522d4c7-74cd-4398-9e92-6fec7198a36e",
+          "0c13200c-8be0-4751-bffe-1fb34d5f1f0f",
+          "fb041729-5f5c-4154-8aaa-3e3d52bb7dc1",
+          "7327dbe5-90e5-4185-9351-294a96e13781",
+          "7984b33b-dab1-4a1a-b16c-1aed10b64241",
+          "0cf6fffb-9766-4919-941f-c5da0cb7a9c4",
+          "73e142b6-1494-43c3-a2d6-434698fccc35",
+          "094c6f9e-cbea-404b-98c5-488cb881f315",
+          "97d9b916-795e-4a70-a7ee-8f74d2678741",
+          "9d1c7ed9-7ea0-4be4-90b9-dd0e1e9148d2",
+          "7a8c9a4e-4f76-4341-ac5c-bd158cbe3c18",
+          "867d7b5a-6e4d-4cb6-8fbf-abc47f6a80c0",
+          "8450ba3f-e4b8-4f0d-ab50-258a1a50acba"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "mira"
+        ]
+      }
+    }
+  },
+  {
+    "case": "unknown",
+    "bundle": {
+      "story": {
+        "id": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+        "characterId": "fixture-mira",
+        "title": "Der Brunnen",
+        "summary": "",
+        "startContext": "Mira und Rian sind im Hof.",
+        "createdAt": 1791269012814,
+        "updatedAt": 1791269013168
+      },
+      "character": {
+        "id": "fixture-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt und spricht klares Deutsch. Sie ist praktisch, herzlich und vorsichtig. Rian ist ihre Reisebegleitung.",
+        "scenario": "Mira und Rian sind im Hof.",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Mira sieht Rian an.* „Womit beginnen wir?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "32653832-30d4-47da-8a8d-a85225949bc9",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira sieht Rian an.* „Womit beginnen wir?“",
+          "createdAt": 1791269012814
+        },
+        {
+          "id": "87d51ab5-2712-478e-b404-599fa2716c24",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den roten Schlüssel. Wir sind im Hof.",
+          "createdAt": 1791269012815
+        },
+        {
+          "id": "1a9460f8-9af0-4273-ae59-4bedae7b5186",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791269012824
+        },
+        {
+          "id": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Das Losungswort am Brunnen lautet Morgenstern. Ich gebe dir am Brunnen den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann.",
+          "createdAt": 1791269012827
+        },
+        {
+          "id": "727f61ee-bf16-4f75-9ec8-28cf03b5b0ae",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791269012970
+        },
+        {
+          "id": "b1f93f81-793c-4891-acf8-53ceaf45db28",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 0.",
+          "createdAt": 1791269013112
+        },
+        {
+          "id": "38395c22-106d-4320-a25d-27435af37e8e",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 0.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013113
+        },
+        {
+          "id": "d7e85a78-6387-44d1-a9e6-7d6ac8cfbafd",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 1.",
+          "createdAt": 1791269013115
+        },
+        {
+          "id": "142764e9-29bd-479b-a0c8-97882c97b55d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 1.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013116
+        },
+        {
+          "id": "a49119d6-de1f-4df4-b8c3-d7b3b098009a",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 2.",
+          "createdAt": 1791269013117
+        },
+        {
+          "id": "3d9059fe-2f36-4218-a5bf-afdd586680e3",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 2.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013118
+        },
+        {
+          "id": "4dda29a4-f9a2-41a4-a477-6de3f640445d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 3.",
+          "createdAt": 1791269013119
+        },
+        {
+          "id": "6a884151-cf43-477a-9f44-09a05a1283f0",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 3.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013121
+        },
+        {
+          "id": "02cea5fd-90e5-4146-b478-f6c94074dc2d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 4.",
+          "createdAt": 1791269013122
+        },
+        {
+          "id": "2d08c091-9e3a-48a3-970a-393f9195cd53",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 4.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013125
+        },
+        {
+          "id": "49477b55-9a9d-411b-9bfc-52be45284f09",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 5.",
+          "createdAt": 1791269013127
+        },
+        {
+          "id": "6522d4c7-74cd-4398-9e92-6fec7198a36e",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 5.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013130
+        },
+        {
+          "id": "0c13200c-8be0-4751-bffe-1fb34d5f1f0f",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 6.",
+          "createdAt": 1791269013132
+        },
+        {
+          "id": "fb041729-5f5c-4154-8aaa-3e3d52bb7dc1",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 6.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013134
+        },
+        {
+          "id": "7327dbe5-90e5-4185-9351-294a96e13781",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 7.",
+          "createdAt": 1791269013135
+        },
+        {
+          "id": "7984b33b-dab1-4a1a-b16c-1aed10b64241",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 7.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013137
+        },
+        {
+          "id": "0cf6fffb-9766-4919-941f-c5da0cb7a9c4",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 8.",
+          "createdAt": 1791269013140
+        },
+        {
+          "id": "73e142b6-1494-43c3-a2d6-434698fccc35",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 8.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013145
+        },
+        {
+          "id": "094c6f9e-cbea-404b-98c5-488cb881f315",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 9.",
+          "createdAt": 1791269013147
+        },
+        {
+          "id": "97d9b916-795e-4a70-a7ee-8f74d2678741",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 9.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013152
+        },
+        {
+          "id": "9d1c7ed9-7ea0-4be4-90b9-dd0e1e9148d2",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 10.",
+          "createdAt": 1791269013153
+        },
+        {
+          "id": "7a8c9a4e-4f76-4341-ac5c-bd158cbe3c18",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013156
+        },
+        {
+          "id": "867d7b5a-6e4d-4cb6-8fbf-abc47f6a80c0",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 11.",
+          "createdAt": 1791269013157
+        },
+        {
+          "id": "8450ba3f-e4b8-4f0d-ab50-258a1a50acba",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 11.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013160
+        },
+        {
+          "id": "16ae97d9-cece-4169-9576-c2ec3dec009c",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Welche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben? Wenn wir nichts davon wissen, frag bitte nach.",
+          "createdAt": 1791269013168
+        }
+      ],
+      "memories": [
+        {
+          "id": "6f521e2c-8d1c-4cbf-b501-a4ad6bc18182",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791269012814,
+          "updatedAt": 1791269012814
+        },
+        {
+          "id": "e08b1085-eea2-4f41-be08-c2605d700ff4",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Mira und Rian sind im Hof.",
+          "pinned": true,
+          "createdAt": 1791269012815,
+          "updatedAt": 1791269012815
+        }
+      ],
+      "memory": {
+        "version": 43,
+        "facts": [
+          {
+            "id": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6c7238d7231209312a2a3aaf0b9344d0",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Ich heiße Rian.",
+            "version": 4,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "3af02eea91d672b3170b559144411378",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "rot",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Mira hat den roten Schlüssel.",
+            "version": 5,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "878c45732ac90d434e76a085769297de",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Mira hat den roten Schlüssel.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "2ec2647961054945da34c78b2bac6a3b",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6c7238d7231209312a2a3aaf0b9344d0",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6410568bb53f5966cacdca8122bcb97c",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "5056e40927b46b8e0a8976d83d0b689c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "dd06ad65ab992e05231bee6cddd75e84",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "39d7e542f9da4aac58eb8ea929f0630c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "659799271a447a8144039e2aed0a8cc4",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Brief"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "sourceText": "Ich gebe dir am Brunnen den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012827,
+            "sourceOrder": 4
+          },
+          {
+            "id": "dfbc0b1b-1686-4962-a11f-e9ed731706f5",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "silbern",
+            "status": "CURRENT",
+            "pinned": true,
+            "sourceText": "Manuelle Korrektur: rot → silbern",
+            "version": 40,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": true,
+            "createdAt": 1791269013164,
+            "sourceOrder": 29
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "3af02eea91d672b3170b559144411378",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 5
+          },
+          {
+            "factId": "3af02eea91d672b3170b559144411378",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 5
+          },
+          {
+            "factId": "dfbc0b1b-1686-4962-a11f-e9ed731706f5",
+            "knower": "character",
+            "version": 40
+          },
+          {
+            "factId": "dfbc0b1b-1686-4962-a11f-e9ed731706f5",
+            "knower": "player",
+            "version": 40
+          },
+          {
+            "factId": "878c45732ac90d434e76a085769297de",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 6
+          },
+          {
+            "factId": "878c45732ac90d434e76a085769297de",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 6
+          },
+          {
+            "factId": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 8
+          },
+          {
+            "factId": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 8
+          },
+          {
+            "factId": "39d7e542f9da4aac58eb8ea929f0630c",
+            "knower": "character",
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "version": 12
+          },
+          {
+            "factId": "39d7e542f9da4aac58eb8ea929f0630c",
+            "knower": "player",
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "version": 12
+          },
+          {
+            "factId": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 4
+          },
+          {
+            "factId": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 4
+          },
+          {
+            "factId": "2ec2647961054945da34c78b2bac6a3b",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 7
+          },
+          {
+            "factId": "2ec2647961054945da34c78b2bac6a3b",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 7
+          },
+          {
+            "factId": "5056e40927b46b8e0a8976d83d0b689c",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 9
+          },
+          {
+            "factId": "5056e40927b46b8e0a8976d83d0b689c",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 9
+          }
+        ],
+        "scannedSources": [
+          "32653832-30d4-47da-8a8d-a85225949bc9",
+          "87d51ab5-2712-478e-b404-599fa2716c24",
+          "1a9460f8-9af0-4273-ae59-4bedae7b5186",
+          "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+          "727f61ee-bf16-4f75-9ec8-28cf03b5b0ae",
+          "b1f93f81-793c-4891-acf8-53ceaf45db28",
+          "38395c22-106d-4320-a25d-27435af37e8e",
+          "d7e85a78-6387-44d1-a9e6-7d6ac8cfbafd",
+          "142764e9-29bd-479b-a0c8-97882c97b55d",
+          "a49119d6-de1f-4df4-b8c3-d7b3b098009a",
+          "3d9059fe-2f36-4218-a5bf-afdd586680e3",
+          "4dda29a4-f9a2-41a4-a477-6de3f640445d",
+          "6a884151-cf43-477a-9f44-09a05a1283f0",
+          "02cea5fd-90e5-4146-b478-f6c94074dc2d",
+          "2d08c091-9e3a-48a3-970a-393f9195cd53",
+          "49477b55-9a9d-411b-9bfc-52be45284f09",
+          "6522d4c7-74cd-4398-9e92-6fec7198a36e",
+          "0c13200c-8be0-4751-bffe-1fb34d5f1f0f",
+          "fb041729-5f5c-4154-8aaa-3e3d52bb7dc1",
+          "7327dbe5-90e5-4185-9351-294a96e13781",
+          "7984b33b-dab1-4a1a-b16c-1aed10b64241",
+          "0cf6fffb-9766-4919-941f-c5da0cb7a9c4",
+          "73e142b6-1494-43c3-a2d6-434698fccc35",
+          "094c6f9e-cbea-404b-98c5-488cb881f315",
+          "97d9b916-795e-4a70-a7ee-8f74d2678741",
+          "9d1c7ed9-7ea0-4be4-90b9-dd0e1e9148d2",
+          "7a8c9a4e-4f76-4341-ac5c-bd158cbe3c18",
+          "867d7b5a-6e4d-4cb6-8fbf-abc47f6a80c0",
+          "8450ba3f-e4b8-4f0d-ab50-258a1a50acba"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "mira"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,248 @@
+[
+  {
+    "case": "aux-similar-items",
+    "question": "Wem gehört das rote Amulett?",
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [
+      "aux-similar-items-1"
+    ],
+    "candidates": [
+      {
+        "message": {
+          "id": "aux-similar-items-0",
+          "storyId": "aux-similar-items",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        "start": 0,
+        "end": 48,
+        "score": 0
+      },
+      {
+        "message": {
+          "id": "aux-similar-items-1",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Das rote Amulett gehört Nella.",
+          "createdAt": 1800000000001
+        },
+        "start": 0,
+        "end": 30,
+        "score": 0
+      },
+      {
+        "message": {
+          "id": "aux-similar-items-2",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Das blaue Amulett gehört Falk.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 30,
+        "score": 0
+      }
+    ],
+    "lexicalMs": 11.2505,
+    "lexical": [
+      {
+        "message": {
+          "id": "aux-similar-items-1",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Das rote Amulett gehört Nella.",
+          "createdAt": 1800000000001
+        },
+        "start": 0,
+        "end": 30,
+        "score": 31
+      },
+      {
+        "message": {
+          "id": "aux-similar-items-2",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Das blaue Amulett gehört Falk.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 30,
+        "score": 21
+      }
+    ]
+  },
+  {
+    "case": "aux-secret",
+    "question": "Wo liegt der Ring?",
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [],
+    "candidates": [
+      {
+        "message": {
+          "id": "aux-secret-0",
+          "storyId": "aux-secret",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        "start": 0,
+        "end": 48,
+        "score": 0
+      },
+      {
+        "message": {
+          "id": "aux-secret-2",
+          "storyId": "aux-secret",
+          "role": "USER",
+          "text": "Eine Wolke zieht vorbei.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 24,
+        "score": 0
+      }
+    ],
+    "lexicalMs": 0.222,
+    "lexical": []
+  },
+  {
+    "case": "aux-excluded",
+    "question": "Wie lautet das Losungswort?",
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [],
+    "candidates": [
+      {
+        "message": {
+          "id": "aux-excluded-0",
+          "storyId": "aux-excluded",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        "start": 0,
+        "end": 48,
+        "score": 0
+      },
+      {
+        "message": {
+          "id": "aux-excluded-2",
+          "storyId": "aux-excluded",
+          "role": "USER",
+          "text": "Ein Bach fließt am Weg.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 23,
+        "score": 0
+      }
+    ],
+    "lexicalMs": 0.226,
+    "lexical": []
+  },
+  {
+    "case": "aux-other-story",
+    "question": "Wo liegt die Karte?",
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [],
+    "candidates": [
+      {
+        "message": {
+          "id": "aux-other-story-0",
+          "storyId": "aux-other-story",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        "start": 0,
+        "end": 48,
+        "score": 0
+      },
+      {
+        "message": {
+          "id": "aux-other-story-2",
+          "storyId": "aux-other-story",
+          "role": "USER",
+          "text": "Ein Vogel ruft.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 15,
+        "score": 0
+      }
+    ],
+    "lexicalMs": 0.2159,
+    "lexical": []
+  },
+  {
+    "case": "aux-model-repetition",
+    "question": "Von wem kam der Ring?",
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [],
+    "candidates": [
+      {
+        "message": {
+          "id": "aux-model-repetition-0",
+          "storyId": "aux-model-repetition",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        "start": 0,
+        "end": 48,
+        "score": 0
+      }
+    ],
+    "lexicalMs": 0.5568,
+    "lexical": []
+  },
+  {
+    "case": "aux-current-correction",
+    "question": "Wo liegt die Karte jetzt?",
+    "expected": "Filter und genaue Quellenidentität erhalten",
+    "relevantSourceIds": [
+      "aux-current-correction-2"
+    ],
+    "candidates": [
+      {
+        "message": {
+          "id": "aux-current-correction-0",
+          "storyId": "aux-current-correction",
+          "role": "CHARACTER",
+          "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+          "createdAt": 1800000000000
+        },
+        "start": 0,
+        "end": 48,
+        "score": 0
+      },
+      {
+        "message": {
+          "id": "aux-current-correction-2",
+          "storyId": "aux-current-correction",
+          "role": "USER",
+          "text": "Die Karte liegt im Schrank.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 27,
+        "score": 0
+      }
+    ],
+    "lexicalMs": 1.2694,
+    "lexical": [
+      {
+        "message": {
+          "id": "aux-current-correction-2",
+          "storyId": "aux-current-correction",
+          "role": "USER",
+          "text": "Die Karte liegt im Schrank.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 27,
+        "score": 21
+      }
+    ]
+  }
+]

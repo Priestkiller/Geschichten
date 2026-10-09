@@ -1,0 +1,11 @@
+{
+  "environment": "Desktop Robolectric SQLite; no inference, no S24",
+  "turns": 100,
+  "medianMs": 32,
+  "p95Ms": 392,
+  "maxMs": 20069,
+  "facts": 210,
+  "currentFacts": 8,
+  "messages": 203,
+  "dbBytes": 880640
+}

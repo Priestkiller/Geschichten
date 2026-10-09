@@ -1,0 +1,10 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "Grask. Wenn du Befehle mitgebracht hast, behalt sie. Wenn du lesen kannst, liegt dort etwas, das ich verstehen muss, bevor ich weiterjage.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 256
+  }
+]

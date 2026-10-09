@@ -1,0 +1,20 @@
+{
+  "normal": {
+    "tests": 110,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "targeted": {
+    "tests": 73,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Warning": 125,
+    "Information": 1
+  },
+  "note": "Overlapping runs, not added; actual model answers are a separate layer."
+}

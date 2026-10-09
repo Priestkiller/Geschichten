@@ -1,0 +1,194 @@
+[
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-transfer",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-reverse",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-family",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-owner",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-negation",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-water",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-crowd",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-multiple",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-correction",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-heldout.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-unknown",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-hybrid.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-family",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-hybrid.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-water",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-hybrid.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-crowd",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "acceptance-qwen3-official-4b-hybrid.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "hold-multiple",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "development-qwen3-official-4b-production.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-transfer",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "development-qwen3-official-4b-production.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-family",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "development-qwen3-official-4b-production.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-negation",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "development-qwen3-official-4b-production.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-panic",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "development-qwen3-official-4b-short.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-transfer",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "development-qwen3-official-4b-short.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-family",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "development-qwen3-official-4b-short.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-negation",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "development-qwen3-official-4b-short.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-panic",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "official-profile-short.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-transfer",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  },
+  {
+    "file": "official-profile-short.json",
+    "actualTokensEqual": true,
+    "guardEqual": true,
+    "case": "dev-family",
+    "selectedInputByteEqual": true,
+    "actualRenderEqual": true
+  }
+]

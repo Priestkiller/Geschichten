@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "\u003cbeitrag\u003e\n*meine Rolle: Antwort auf deines Gegenüber, nicht meine Figur*  \n*das Gerät vor mir schau*,  \n*wüns ich es über das Gesicht,*  \n*wäre es interessant, was dort ist? *nein, ich habe kein Signal gehabt*  \n\u003c/beitrag\u003e",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "\u003cbeitrag\u003e\n*Ich gehe zu der Tür.* Nein, ich kann nicht dort rein. Ich verstecke mich in meinem Zimmer und beweise mir die Notbeleuchtung.\n\u003c/beitrag\u003e",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "\u003cbeitrag\u003e\nJa, ich kann das überseele. Zeig mir die Stelle, dann lese ich sie dir vor.\n\u003c/beitrag\u003e",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

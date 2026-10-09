@@ -1,0 +1,522 @@
+[
+  {
+    "id": "caerion",
+    "name": "Caerion",
+    "genre": "Mittelerde",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_caerion.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-cb6142b8-1c90-42f0-8a58-e72fae1d33a5.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "a9708657e9b0b0318ba10fc514eba51a1fa02ccca19eeb3fde8bb5f90fba4c59"
+  },
+  {
+    "id": "linnet",
+    "name": "Linnet",
+    "genre": "Mittelerde",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_linnet.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-31071a75-ef80-4fbc-9471-199b398e0c00.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "3aadd2714ad5a7e54e70fc6dd96bb822344216672cb87502156840abe700b9bf"
+  },
+  {
+    "id": "tessa",
+    "name": "Tessa",
+    "genre": "Mittelerde",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_tessa.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-97d2d931-2b44-4f20-ae66-afb5cb222316.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "d2b14a5b640acf6cc64cfaf2c9a2fd03a3e50dd4d5341532875a268963732b56"
+  },
+  {
+    "id": "thamund",
+    "name": "Thamund",
+    "genre": "Mittelerde",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_thamund.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-00a463b1-97ac-41e1-aef1-97049b6e3e44.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "349a91e32e75f73a8ecf0a97933c7916f82fb393792160813b3c9279bc55751e"
+  },
+  {
+    "id": "irilwen",
+    "name": "Irilwen",
+    "genre": "Mittelerde",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_irilwen.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-0ee3d45d-2c02-46e1-a334-d016d5fd7bf0.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "074abc345a389d98fd9f309b3fc68d509f8d91392bac17f09af39546f5a53a71"
+  },
+  {
+    "id": "hildis",
+    "name": "Hildis",
+    "genre": "Mittelerde",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_hildis.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-5d4ec76b-0541-4685-8e11-37243121a508.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "6383c8d6e316fb9007fdea7ce7510b08ca3e1b6d4639a50fa045d3246a9a724d"
+  },
+  {
+    "id": "dorik",
+    "name": "Dorik",
+    "genre": "Mittelerde",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_dorik.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-aa9905e0-5c16-4e00-a2eb-4f712cd9b850.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "6582f15794a468c2957bc04417970eb5743ef29b6ad45246854cd95c33a2a45c"
+  },
+  {
+    "id": "eldran",
+    "name": "Eldran",
+    "genre": "Mittelerde",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_eldran.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-9ab90960-04e8-4468-9eea-85dfe84f6d85.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "e5edeac05bb01a233764fe71e0f15a3055d24158fedb1974d23d151d70e4826d"
+  },
+  {
+    "id": "saelith",
+    "name": "Saelith",
+    "genre": "Mittelerde",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_saelith.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-42292030-0068-4db2-96be-f5f5d182e010.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "7641b67d6882bcebdaf663f397325e357b64342e03b3439edb31a03b8fe08a17"
+  },
+  {
+    "id": "berenor",
+    "name": "Berenor",
+    "genre": "Mittelerde",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_berenor.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-a69b3af3-d59d-4393-bbf0-9dbba1c73976.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "60b933d8b61044fb3a88795b7c9f4c4a68b3ab83e09f7f64665c19293dc09253"
+  },
+  {
+    "id": "soren_vale",
+    "name": "Soren Vale",
+    "genre": "Blade Runner",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_soren_vale.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-76aeb3c3-dbe1-456b-ba50-73171d62c2a2.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "b0e9b3f9afe8bd785b4f56c989947015e4983cdaf18f51b185659a3c648e1d5e"
+  },
+  {
+    "id": "riven",
+    "name": "Riven",
+    "genre": "Blade Runner",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_riven.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-a1d6f20d-e0fd-4ed7-8a45-fe426557ca44.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "1b8aaa1632643c32fc479ba8f7096a7a0d524e752c53c8eab4353cef6a0d69b6"
+  },
+  {
+    "id": "eris_wynn",
+    "name": "Eris Wynn",
+    "genre": "Blade Runner",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_eris_wynn.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-52236dd9-bef0-41a9-afa6-c65867ca7d5b.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "219158477bcd8cad520ddbfb26e269768f159bd377b2a485f26b4b787b21a988"
+  },
+  {
+    "id": "nyx_rho",
+    "name": "Nyx Rho",
+    "genre": "Blade Runner",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_nyx_rho.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-9762be8a-ceee-4754-91d3-60de7fa2dd28.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "5c29b8d70662b59553955dfb31a6f9e562f483863e3d14e0ce7f5a9e23fcc605"
+  },
+  {
+    "id": "zhara_voss",
+    "name": "Zhara Voss",
+    "genre": "Blade Runner",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_zhara_voss.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-ea9eda0a-0021-4162-be8b-86d72df6599a.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "093cac62ba7ab8f45ee482d03fe69fc33a551952c088fe9f1e4ecf800edeb493"
+  },
+  {
+    "id": "jalen_7",
+    "name": "Jalen-7",
+    "genre": "Blade Runner",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_jalen_7.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-aa0e1d36-42ce-4b78-813c-21e8af3d0d57.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "a82be5e14b31892f5515b6f04acf5629582fc2a1ff248bfd147972f18898de15"
+  },
+  {
+    "id": "ena",
+    "name": "Ena",
+    "genre": "Blade Runner",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_ena.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-fed27ed7-140a-4b3b-ab69-d911c2148f0f.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "6b8deaaf2fe0d34d397e7be71c3d3b2d106c6b699a2acfa828b77c2dafc8f269"
+  },
+  {
+    "id": "liora_cass",
+    "name": "Dr. Liora Cass",
+    "genre": "Blade Runner",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_liora_cass.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-7052716a-22f0-4ccc-9b7f-669fcdefb3e8.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "5037ac58da3ab00e1d8ae6dea178868ab074c7396bf08fc2fe094d726de85dc9"
+  },
+  {
+    "id": "mael_voss",
+    "name": "Mael Voss",
+    "genre": "Blade Runner",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_mael_voss.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-31641ef6-376f-41be-9fbb-3c924820d4c1.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "5ce1f89562948a34c71ef2aee98e44b1ad9bfeed2b789cc0840c9d3f2467b618"
+  },
+  {
+    "id": "daren_moss",
+    "name": "Daren Moss",
+    "genre": "Blade Runner",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_daren_moss.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-c42ac1d5-2741-4074-a161-80f1b44b6008.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "ae24bbab3702294f8d6b6010bc4c7cb29be2f53a53d5a235be6519729ec1e6ae"
+  },
+  {
+    "id": "kira_rook",
+    "name": "Kira Rook",
+    "genre": "Cyberpunk 2077",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_kira_rook.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-2cc4fb88-ecaf-4d80-997a-679a8068e2cd.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "f8756d0db0a182611c6c62833a29d0b3169ea54f22ff52616ab68ae77b0b0bec"
+  },
+  {
+    "id": "naya_cruz",
+    "name": "Naya Cruz",
+    "genre": "Cyberpunk 2077",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_naya_cruz.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-98169575-7eec-4c1e-a889-52a5691de3ff.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "c6fe76edd9fd17238bf9271b35b551a78d95fda67bcfaf9af4c70dde23b135a5"
+  },
+  {
+    "id": "maren_flux",
+    "name": "Maren Flux",
+    "genre": "Cyberpunk 2077",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_maren_flux.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-3a7e54d6-b770-4aa1-9b43-fe9ca0d914e7.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "2f50061287b2d9ea5feb5f187c8f1d8b779a3d418e91528d932e1335f342e36c"
+  },
+  {
+    "id": "selene_kade",
+    "name": "Selene Kade",
+    "genre": "Cyberpunk 2077",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_selene_kade.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-4aa037d1-af23-4f5b-af83-9a45309fb3c7.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "6e3f185201d66b186d2ffa58988d3bee3c50851b51aa522e1ec324cb7174dc9a"
+  },
+  {
+    "id": "elys_voss",
+    "name": "Elys Voss",
+    "genre": "Cyberpunk 2077",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_elys_voss.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-45574cd8-d0b6-4454-8ccd-73ec1e454bde.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "a6fdb42e241f454cdd17edbb997981ba7f9a8908b4c3d573d8ce6160358c387a"
+  },
+  {
+    "id": "dante_raze",
+    "name": "Dante Raze",
+    "genre": "Cyberpunk 2077",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_dante_raze.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-1c0ab841-2ef2-4e99-b47a-c151b6f610c0.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "68ee6eb41617e8dc68bf08fd8f7794e911e951643aece4e83a448d186e8c4864"
+  },
+  {
+    "id": "bruno_vega",
+    "name": "Bruno Vega",
+    "genre": "Cyberpunk 2077",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_bruno_vega.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-c6b354ca-0e30-443c-a0e0-0f99726d9442.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "44a3464dc24d85038ff1a9511c1314ac9404d9845ea9495a986abcdb17474867"
+  },
+  {
+    "id": "renji_sato",
+    "name": "Renji Sato",
+    "genre": "Cyberpunk 2077",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_renji_sato.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-0c8efea4-34ab-4a76-b505-5bee1117f979.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "a4f8a42b70f0edcf70f4fd99ddd20de0d072c12c8324208152e6f14d336fa0fd"
+  },
+  {
+    "id": "bastion",
+    "name": "Bastion",
+    "genre": "Cyberpunk 2077",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_bastion.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-a6ba30a8-506b-47bd-ace5-4e4d66ae2948.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "f3c4ecb90eb6abf8fdfd9d68d59386faa13515cf61d18de4d5c40b47010dc8b5"
+  },
+  {
+    "id": "ari_maddox",
+    "name": "Ari Maddox",
+    "genre": "Cyberpunk 2077",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_ari_maddox.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-6c90c66e-ea18-4c00-9541-a679e9cd08e3.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "940443d3d325201cd2b88464495362cd4f478d42311e6506f7d8f9050a26848d"
+  },
+  {
+    "id": "morga",
+    "name": "Morga",
+    "genre": "Monster",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_morga.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-1a5ca195-1658-48e8-b438-1934dc1becf1.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "f020329ad5e60c1f973d828300b0e8f13bc70760cbda54251f8ec9ebecc157d3"
+  },
+  {
+    "id": "grask",
+    "name": "Grask",
+    "genre": "Monster",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_grask.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-7f6ca286-f6c6-4864-acbc-efb58fdaa11c.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "482dec5536b63d0e26c98ad66ffb3576b970f2468dd63e31e64c8673c2f46ddb"
+  },
+  {
+    "id": "varkesha",
+    "name": "Varkesha",
+    "genre": "Monster",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_varkesha.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-42fc987a-bbc4-48d9-a7f0-7f28853282c4.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "449a7ec8a54fa514fde68589fd86e5fca1b62936a1ca8f200ce66fceadb60e63"
+  },
+  {
+    "id": "drazhul",
+    "name": "Drazhul",
+    "genre": "Monster",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_drazhul.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-beba9ced-cf0a-4ef1-b7d1-7ec32f429c4c.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "6a9e404cd34f8d1361015e7e340672d1d49caf7fc37ea7063042483e1367278d"
+  },
+  {
+    "id": "raukha",
+    "name": "Raukha",
+    "genre": "Monster",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_raukha.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-f3acd335-7343-4e58-b428-6a97a1063bc0.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "9a8feb4393fd1af13e89bbcecb331d4b82abebe19282f5607860b7e01d3089f5"
+  },
+  {
+    "id": "nharok",
+    "name": "Nharok",
+    "genre": "Monster",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_nharok.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-b38fb9b8-7afb-48ab-9583-578d3c1acc93.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "b4f1beae398d3a7b152c92d772c7225b54c89715d70175aa95ca5e0c6e9cbd02"
+  },
+  {
+    "id": "velyss",
+    "name": "Velyss",
+    "genre": "Monster",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_velyss.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-ee645720-813d-4818-a221-30dbb472561d.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "5c38533dfa1026fa7507bdabedc3f997e23a3fc6c16a72e3f9e920bf4405ffab"
+  },
+  {
+    "id": "skarn",
+    "name": "Skarn",
+    "genre": "Monster",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_skarn.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-e17133c9-a1b8-443b-ae32-edbf85ee1ec2.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "5a7d1c7bba05cb63ccdd9d1d41207c6a5801bc1de921c9a4784ae10ce682d343"
+  },
+  {
+    "id": "siraxa",
+    "name": "Siraxa",
+    "genre": "Monster",
+    "gender": "weiblich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_siraxa.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-7a754258-7057-4555-9349-2857bdacb45e.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "75ee264199255f8e065738a7d827a45a1c3878022d806bfd9db6a80ae5935ad2"
+  },
+  {
+    "id": "throgg",
+    "name": "Throgg",
+    "genre": "Monster",
+    "gender": "männlich",
+    "file": "F:\\Geschichte App KI\\geschichten-android\\app\\src\\main\\res\\drawable-nodpi\\portrait_throgg.png",
+    "original": "H:\\Codex\\generated_images\\01a103d6-7b5a-7892-9af0-2b74d76416e7\\exec-269750e5-7ad1-460f-b3e6-f0a18260230b.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "sha256": "b7aa91b0d022f93bf06f03bc60220157b057741e74e5986d0887d2a2f91a10d5"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "case": "new-good-action",
+  "originalGold": "clear",
+  "reviewed": "Correct new placement and family relation, but gift-giver part is not answered. A valid missing-answer issue would not be a false alarm. Wrong family reversal claims remain false alarms.",
+  "frozenOriginalPreserved": true,
+  "goldNeverPassedToModels": true
+}

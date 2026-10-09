@@ -1,0 +1,128 @@
+[
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 4324.6711,
+    "threads": 2,
+    "runtime": "Windows x86_64 CPU",
+    "model": "gemma-4-e2b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 755.6823,
+    "threads": 4,
+    "runtime": "Windows x86_64 CPU",
+    "model": "gemma-4-e2b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 728.0033,
+    "threads": 6,
+    "runtime": "Windows x86_64 CPU",
+    "model": "gemma-4-e2b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 1300.2138,
+    "threads": 2,
+    "runtime": "Windows x86_64 CPU",
+    "model": "qwen2.5-1.5b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 621.666,
+    "threads": 4,
+    "runtime": "Windows x86_64 CPU",
+    "model": "qwen2.5-1.5b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 606.0735,
+    "threads": 6,
+    "runtime": "Windows x86_64 CPU",
+    "model": "qwen2.5-1.5b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 1417.0286,
+    "threads": 2,
+    "runtime": "Windows x86_64 CPU",
+    "model": "qwen3-0.6b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 1471.7138,
+    "threads": 4,
+    "runtime": "Windows x86_64 CPU",
+    "model": "qwen3-0.6b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 1411.9698,
+    "threads": 6,
+    "runtime": "Windows x86_64 CPU",
+    "model": "qwen3-0.6b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 8716.0198,
+    "threads": 2,
+    "runtime": "Windows x86_64 CPU",
+    "model": "dolphin3-llama3.2-3b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 6120.8295,
+    "threads": 4,
+    "runtime": "Windows x86_64 CPU",
+    "model": "dolphin3-llama3.2-3b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 25460.0495,
+    "threads": 6,
+    "runtime": "Windows x86_64 CPU",
+    "model": "dolphin3-llama3.2-3b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 11027.1323,
+    "threads": 2,
+    "runtime": "Windows x86_64 CPU",
+    "model": "huihui-qwen3-4b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 11061.0373,
+    "threads": 4,
+    "runtime": "Windows x86_64 CPU",
+    "model": "huihui-qwen3-4b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 22444.0182,
+    "threads": 6,
+    "runtime": "Windows x86_64 CPU",
+    "model": "huihui-qwen3-4b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 49360.7737,
+    "threads": 2,
+    "runtime": "Windows x86_64 CPU",
+    "model": "gemma3-davidau-4b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 17036.3124,
+    "threads": 4,
+    "runtime": "Windows x86_64 CPU",
+    "model": "gemma3-davidau-4b"
+  },
+  {
+    "phoneBenchmark": false,
+    "firstTextMs": 63532.0901,
+    "threads": 6,
+    "runtime": "Windows x86_64 CPU",
+    "model": "gemma3-davidau-4b"
+  }
+]

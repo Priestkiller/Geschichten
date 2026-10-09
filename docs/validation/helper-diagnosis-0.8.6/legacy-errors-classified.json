@@ -1,0 +1,919 @@
+{
+  "scope": "All 59 actual helper calls from 0.8.6; categories overlap. Literal proof/schema defects and known independently reviewed scene failures. This is not a complete semantic truth oracle.",
+  "callCount": 59,
+  "categoryCounts": {
+    "format": 27,
+    "source_assignment": 33,
+    "output_limit": 5,
+    "person_or_event_understanding": 8,
+    "missed_contradiction": 13,
+    "unsupported_complaint": 8
+  },
+  "rows": [
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[0]",
+      "case": "facts-hold-reverse",
+      "task": "facts",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[1]",
+      "case": "bad-hold-family",
+      "task": "review",
+      "categories": [
+        "format",
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[2]",
+      "case": "good-hold-family",
+      "task": "review",
+      "categories": [
+        "source_assignment",
+        "unsupported_complaint"
+      ],
+      "observations": [
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden.",
+        "Unabhängig richtiger Fakteninhalt wird beanstandet; ggf. Sprachmangel ist kein Rollenbeweis."
+      ],
+      "rawVerdict": "uncertain",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[3]",
+      "case": "facts-hold-family",
+      "task": "facts",
+      "categories": [
+        "person_or_event_understanding",
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet.",
+        "Richtung der Familienbeziehung vertauscht."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[4]",
+      "case": "bad-causal-letter",
+      "task": "review",
+      "categories": [
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[5]",
+      "case": "good-causal-letter",
+      "task": "review",
+      "categories": [],
+      "observations": [],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[6]",
+      "case": "bad-dolch",
+      "task": "review",
+      "categories": [
+        "format",
+        "output_limit"
+      ],
+      "observations": [
+        "Ausgabe unvollständig; wird nicht als gültige Freigabe gezählt.",
+        "Kein vollständiges JSON nach dem ursprünglichen Ausgabeauftrag."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[7]",
+      "case": "good-dolch",
+      "task": "review",
+      "categories": [
+        "source_assignment",
+        "unsupported_complaint"
+      ],
+      "observations": [
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden.",
+        "Unabhängig richtiger Fakteninhalt wird beanstandet; ggf. Sprachmangel ist kein Rollenbeweis."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[8]",
+      "case": "facts-dolch",
+      "task": "facts",
+      "categories": [
+        "format",
+        "source_assignment"
+      ],
+      "observations": [
+        "Schemafremder Faktentyp; ursprünglicher Parser konnte diesen nur als unsicher verwerfen.",
+        "An-sich-Nehmen belegt kein Eigentum."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[9]",
+      "case": "new-bad-family",
+      "task": "review",
+      "categories": [
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[10]",
+      "case": "new-good-action",
+      "task": "review",
+      "categories": [
+        "source_assignment",
+        "unsupported_complaint"
+      ],
+      "observations": [
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden.",
+        "Unbekannter oder zusammengeklebter Belegalias.",
+        "Zulässige Handlung/Verwandtschaft beanstandet. Fehlender Geschenkgeber bleibt legitime separate Beanstandung."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[11]",
+      "case": "facts-new-gift",
+      "task": "facts",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Fakt nennt keinen unveränderten freigegebenen Originalausschnitt."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[12]",
+      "case": "new-bad-privacy",
+      "task": "review",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden."
+      ],
+      "rawVerdict": "uncertain",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-huihui-qwen3-4b.json[13]",
+      "case": "facts-new-secret",
+      "task": "facts",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[0]",
+      "case": "facts-hold-reverse",
+      "task": "facts",
+      "categories": [
+        "format",
+        "source_assignment"
+      ],
+      "observations": [
+        "Modellecho der technischen Bindung stimmt nicht.",
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[1]",
+      "case": "bad-hold-family",
+      "task": "review",
+      "categories": [
+        "format",
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[2]",
+      "case": "good-hold-family",
+      "task": "review",
+      "categories": [
+        "format"
+      ],
+      "observations": [
+        "Kein vollständiges JSON nach dem ursprünglichen Ausgabeauftrag."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[3]",
+      "case": "facts-hold-family",
+      "task": "facts",
+      "categories": [
+        "format",
+        "person_or_event_understanding",
+        "source_assignment"
+      ],
+      "observations": [
+        "Modellecho der technischen Bindung stimmt nicht.",
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[4]",
+      "case": "bad-causal-letter",
+      "task": "review",
+      "categories": [
+        "format",
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[5]",
+      "case": "good-causal-letter",
+      "task": "review",
+      "categories": [
+        "format"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[6]",
+      "case": "bad-dolch",
+      "task": "review",
+      "categories": [
+        "format",
+        "output_limit"
+      ],
+      "observations": [
+        "Ausgabe unvollständig; wird nicht als gültige Freigabe gezählt.",
+        "Kein vollständiges JSON nach dem ursprünglichen Ausgabeauftrag."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[7]",
+      "case": "good-dolch",
+      "task": "review",
+      "categories": [
+        "format",
+        "output_limit"
+      ],
+      "observations": [
+        "Ausgabe unvollständig; wird nicht als gültige Freigabe gezählt.",
+        "Kein vollständiges JSON nach dem ursprünglichen Ausgabeauftrag."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[8]",
+      "case": "facts-dolch",
+      "task": "facts",
+      "categories": [
+        "format",
+        "source_assignment"
+      ],
+      "observations": [
+        "Modellecho der technischen Bindung stimmt nicht.",
+        "Fakt nennt keinen unveränderten freigegebenen Originalausschnitt."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[9]",
+      "case": "new-bad-family",
+      "task": "review",
+      "categories": [
+        "format",
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[10]",
+      "case": "new-good-action",
+      "task": "review",
+      "categories": [
+        "format"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Modellecho der technischen Bindung stimmt nicht."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[11]",
+      "case": "facts-new-gift",
+      "task": "facts",
+      "categories": [
+        "format"
+      ],
+      "observations": [
+        "Modellecho der technischen Bindung stimmt nicht."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[12]",
+      "case": "new-bad-privacy",
+      "task": "review",
+      "categories": [
+        "format",
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-phase-a-gemma-4-e2b.json[13]",
+      "case": "facts-new-secret",
+      "task": "facts",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-B.json[0].steps[1]",
+      "case": "hold-reverse",
+      "task": "review",
+      "categories": [
+        "format",
+        "source_assignment"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden."
+      ],
+      "rawVerdict": "uncertain",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-B.json[1].steps[1]",
+      "case": "hold-family",
+      "task": "review",
+      "categories": [
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-B.json[2].steps[1]",
+      "case": "causal-letter",
+      "task": "review",
+      "categories": [
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-B.json[3].steps[1]",
+      "case": "dolch",
+      "task": "review",
+      "categories": [
+        "source_assignment",
+        "unsupported_complaint"
+      ],
+      "observations": [
+        "Unbekannter oder zusammengeklebter Belegalias.",
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden.",
+        "Unabhängig richtiger Fakteninhalt wird beanstandet; ggf. Sprachmangel ist kein Rollenbeweis."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-B.json[4].steps[1]",
+      "case": "new-gift",
+      "task": "review",
+      "categories": [
+        "format",
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-B.json[4].steps[3]",
+      "case": "new-gift",
+      "task": "review",
+      "categories": [
+        "format",
+        "source_assignment"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden."
+      ],
+      "rawVerdict": "uncertain",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-B.json[5].steps[1]",
+      "case": "new-secret",
+      "task": "review",
+      "categories": [],
+      "observations": [],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[0].steps[0]",
+      "case": "hold-reverse",
+      "task": "facts",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[0].steps[2]",
+      "case": "hold-reverse",
+      "task": "review",
+      "categories": [
+        "format",
+        "source_assignment"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[0].steps[4]",
+      "case": "hold-reverse",
+      "task": "review",
+      "categories": [
+        "format"
+      ],
+      "observations": [
+        "Kein vollständiges JSON nach dem ursprünglichen Ausgabeauftrag."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[1].steps[0]",
+      "case": "hold-family",
+      "task": "facts",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[1].steps[2]",
+      "case": "hold-family",
+      "task": "review",
+      "categories": [
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[2].steps[0]",
+      "case": "causal-letter",
+      "task": "facts",
+      "categories": [
+        "person_or_event_understanding",
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[2].steps[2]",
+      "case": "causal-letter",
+      "task": "review",
+      "categories": [
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[3].steps[0]",
+      "case": "dolch",
+      "task": "facts",
+      "categories": [
+        "format",
+        "person_or_event_understanding",
+        "source_assignment"
+      ],
+      "observations": [
+        "Schemafremder Faktentyp; ursprünglicher Parser konnte diesen nur als unsicher verwerfen.",
+        "Fakt nennt keinen unveränderten freigegebenen Originalausschnitt.",
+        "Nimmt-an-sich wird zur falschen Übergaberichtung gemacht."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[3].steps[2]",
+      "case": "dolch",
+      "task": "review",
+      "categories": [
+        "output_limit",
+        "source_assignment",
+        "unsupported_complaint"
+      ],
+      "observations": [
+        "Ausgabe unvollständig; wird nicht als gültige Freigabe gezählt.",
+        "Unbekannter oder zusammengeklebter Belegalias.",
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden.",
+        "Unabhängig richtiger Fakteninhalt wird beanstandet; ggf. Sprachmangel ist kein Rollenbeweis."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[4].steps[0]",
+      "case": "new-gift",
+      "task": "facts",
+      "categories": [],
+      "observations": [],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[4].steps[2]",
+      "case": "new-gift",
+      "task": "review",
+      "categories": [
+        "format",
+        "missed_contradiction"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Tatsächlicher Fehler erhält ein rohes clear; Parserfehler und Endfreigabe werden getrennt bewertet."
+      ],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[4].steps[4]",
+      "case": "new-gift",
+      "task": "review",
+      "categories": [
+        "format",
+        "source_assignment"
+      ],
+      "observations": [
+        "Zusatz-/fehlende Felder gegenüber ursprünglichem Vertrag.",
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[5].steps[0]",
+      "case": "new-secret",
+      "task": "facts",
+      "categories": [
+        "format",
+        "person_or_event_understanding",
+        "source_assignment"
+      ],
+      "observations": [
+        "Modellecho der technischen Bindung stimmt nicht.",
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-C.json[5].steps[2]",
+      "case": "new-secret",
+      "task": "review",
+      "categories": [],
+      "observations": [],
+      "rawVerdict": "clear",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-self.json[0].steps[0]",
+      "case": "hold-family",
+      "task": "facts",
+      "categories": [
+        "person_or_event_understanding",
+        "source_assignment"
+      ],
+      "observations": [
+        "Fakt nennt keinen unveränderten freigegebenen Originalausschnitt.",
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-self.json[0].steps[2]",
+      "case": "hold-family",
+      "task": "review",
+      "categories": [
+        "source_assignment",
+        "unsupported_complaint"
+      ],
+      "observations": [
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden.",
+        "Unbekannter oder zusammengeklebter Belegalias.",
+        "Unabhängig richtiger Fakteninhalt wird beanstandet; ggf. Sprachmangel ist kein Rollenbeweis."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-self.json[1].steps[0]",
+      "case": "dolch",
+      "task": "facts",
+      "categories": [
+        "person_or_event_understanding",
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet.",
+        "Nimmt-an-sich wird zur falschen Übergaberichtung gemacht.",
+        "Fakt nennt keinen unveränderten freigegebenen Originalausschnitt."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-self.json[1].steps[2]",
+      "case": "dolch",
+      "task": "review",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Unbekannter oder zusammengeklebter Belegalias.",
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-team-self.json[1].steps[4]",
+      "case": "dolch",
+      "task": "review",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-dialogue-1.json[0].steps[0]",
+      "case": "dialogue-1",
+      "task": "facts",
+      "categories": [
+        "format",
+        "person_or_event_understanding",
+        "source_assignment"
+      ],
+      "observations": [
+        "Nimmt-an-sich wird zur falschen Übergaberichtung gemacht.",
+        "Dolch-Beobachtung wird zu einer Verletzung erklärt.",
+        "Schemafremder Faktentyp; ursprünglicher Parser konnte diesen nur als unsicher verwerfen.",
+        "Fakt nennt keinen unveränderten freigegebenen Originalausschnitt."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-dialogue-1.json[0].steps[2]",
+      "case": "dialogue-1",
+      "task": "review",
+      "categories": [
+        "source_assignment",
+        "unsupported_complaint"
+      ],
+      "observations": [
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden.",
+        "Unabhängig richtiger Fakteninhalt wird beanstandet; ggf. Sprachmangel ist kein Rollenbeweis."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-dialogue-2.json[0].steps[0]",
+      "case": "dialogue-2",
+      "task": "facts",
+      "categories": [
+        "source_assignment"
+      ],
+      "observations": [
+        "Eine Frage wird als Beleg einer tatsächlichen Aussage/Handlung verwendet.",
+        "Fakt nennt keinen unveränderten freigegebenen Originalausschnitt."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-dialogue-2.json[0].steps[2]",
+      "case": "dialogue-2",
+      "task": "review",
+      "categories": [
+        "format",
+        "output_limit"
+      ],
+      "observations": [
+        "Ausgabe unvollständig; wird nicht als gültige Freigabe gezählt.",
+        "Kein vollständiges JSON nach dem ursprünglichen Ausgabeauftrag."
+      ],
+      "rawVerdict": null,
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    },
+    {
+      "reference": "raw-dialogue-2.json[0].steps[4]",
+      "case": "dialogue-2",
+      "task": "review",
+      "categories": [
+        "source_assignment",
+        "unsupported_complaint"
+      ],
+      "observations": [
+        "Unbekannter oder zusammengeklebter Belegalias.",
+        "Beanstandeter Original-Antwortausschnitt ist nicht tatsächlich vorhanden.",
+        "Unabhängig richtiger Fakteninhalt wird beanstandet; ggf. Sprachmangel ist kein Rollenbeweis."
+      ],
+      "rawVerdict": "conflict",
+      "meaningNotCertifiedByParser": true,
+      "sourceChecksDoNotExhaustSemanticErrors": true
+    }
+  ],
+  "originalsSha256": {
+    "raw-dialogue-1.json": "878be02312c73cbf958f0ca8403d14736b6b60469093f71525c92693566c1914",
+    "raw-dialogue-2.json": "310af4cbfb0d409fc2ec458b84fb902af415d704028e1d693d448adf7a82da49",
+    "raw-phase-a-gemma-4-e2b.json": "193aac56c778aa610b619de5bcd6a4b26e6f88265b31cc017356ef5502147482",
+    "raw-phase-a-huihui-qwen3-4b.json": "0bc6a0a1892e4745d985ec030e872ab0a3e35bbca62dd40229b45b7cc6a0c0ed",
+    "raw-team-A.json": "e0167dcf29838023e516d035f11f9d57338a354afda052c764c7cd46f094119c",
+    "raw-team-B.json": "87c5939746908ea3e9607cd88bba866f4740a423f28cc9aeaa622bf189fb0b95",
+    "raw-team-C.json": "5bd345a72253b78748744cfd06d0ccf848b8a75ebb89050790a5e2e5359f42d7",
+    "raw-team-self.json": "433a8ccdcfc0aa8db06fb29bd93357370f6df1b715ae7dafa5cab4edb32da816"
+  }
+}

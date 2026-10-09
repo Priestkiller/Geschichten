@@ -1,0 +1,6 @@
+{
+  "selectedForBoundedPhaseB": "huihui-qwen3-4b",
+  "reason": "12/14 schema-valid outputs versus 1/14. Neither candidate reliably detected the three development errors. Huihui is a provisional experimental choice, not a quality recommendation.",
+  "basedOnDevelopmentBeforeAcceptance": "Development format/compliance and raw review defects; heldout facts not used to tune production answers.",
+  "defaultTeamEnabled": false
+}

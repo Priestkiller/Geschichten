@@ -1,0 +1,12 @@
+[
+  {
+    "case": "grask-reading",
+    "answer": "*Grask reckt seinen Kopf leicht, seine Augen fixieren dich mit einer kalten Intensität. Er blickt kurz auf das Wärtergitter, dann wieder zu dir.*\n\n**„Zeig mir. Nicht lange Umschweife.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 200,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

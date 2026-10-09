@@ -1,0 +1,25 @@
+{
+  "baseline": "0.8.5 corrected-hybrid only",
+  "development": [
+    "hold-family",
+    "causal-letter",
+    "hold-reverse",
+    "dolch"
+  ],
+  "heldout": [
+    "new-gift",
+    "new-secret"
+  ],
+  "narrator": "qwen3-official-4b",
+  "helperCandidates": [
+    "huihui-qwen3-4b",
+    "gemma-4-e2b"
+  ],
+  "seed": 42,
+  "context": 4096,
+  "output": 512,
+  "temperature": 0.75,
+  "topP": 0.9,
+  "topK": 40,
+  "beforeProductionChanges": true
+}

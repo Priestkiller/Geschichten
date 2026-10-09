@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mira-signal", "characterId": "mira",
+    "turns": [
+      {"user": "*schaue dich an* mich würde es auch interessieren was dort ist, aber nein ich habe kein Signal gehabt *schau auf das Gerät vor mir*", "expected": "Acknowledge that the player received no signal; distinguish Mira's reception from the player's device. No claim of two recordings or copying the player's words as Mira."},
+      {"user": "*Ich bleibe vor der Schleuse stehen.* Ich gehe nicht hinein. Bitte prüfe nur, was du von hier aus erkennen kannst, ohne die Tür zu öffnen.", "expected": "Respect refusal and keep the door closed. Inspect from outside with established equipment; no invented device or forcing the player inside."},
+      {"user": "Mein Gerät ist nur ein einfacher Empfänger, kein Scanner. Ich heiße Alex. Was wissen wir bisher sicher, und was vermutest du nur?", "expected": "Separate evidence from speculation; remember Alex has a simple receiver with no received signal. No invented certainty about inhabitants or danger."},
+      {"user": "Wie heiße ich, und was habe ich über mein Gerät gesagt? Bleiben wir bei unserer Absprache zur Tür. Was wäre jetzt ein kleiner, sicherer nächster Schritt?", "expected": "Recall Alex/simple receiver from the immediately previous turn, keep door closed, suggest rather than dictate a modest next step. Maintain Mira's warm curious yet careful voice."}
+    ]
+  },
+  {
+    "id": "grask-register", "characterId": "grask",
+    "turns": [
+      {"user": "Ja, ich kann lesen. Zeig mir die Stelle, dann lese ich sie dir vor.", "expected": "Act on the offer, indicate the register behind the narrow grate. Grask does not acquire/read it himself or demand proof of reading before engaging."},
+      {"user": "Ich lese dir die Namen vor, aber ich verspreche dir keine Hilfe bei deiner Jagd. Lass mir bitte Platz am schmalen Zugang.", "expected": "Keep reading offer separate from joining the hunt; leave physical room, stay wary and blunt without inventing a new alliance or owner."},
+      {"user": "*Ich gehe allein durch den schmalen Zugang, klappe das Register auf und lese vor.* Hier steht: 'Letzter Käufer: Hadrik Voss. Verkauf vor zwölf Jahren.' Das sagt noch nicht, wo dieser Mann heute ist.", "expected": "React to Hadrik Voss and the old entry; player accessed/read it, Grask remains outside. No instant location, encounter or certainty about current ownership."},
+      {"user": "Wer steht in dem Eintrag, und wie alt ist er? Ich kann die nächste Seite lesen. Bei der Suche nach diesem Mann komme ich weiterhin nicht mit.", "expected": "Recall Hadrik Voss/twelve years, respect limited help and let the player continue reading. Short rough literal speech, no invented next-page facts or forced pursuit."}
+    ]
+  },
+  {
+    "id": "runa-observation", "characterId": "runa",
+    "turns": [
+      {"user": "*Ich schließe die Hüttentür.* Ja, ich war am Kloster. Deine Schwester habe ich nicht gesehen. Ich suche gerade nur Schutz vor dem Sturm.", "expected": "Accept no sighting of sister and immediate need for shelter. Runa may ask about observations but no confirmed rescue lead or imposed search agreement."},
+      {"user": "Ich heiße Alex. Vor dem Klostertor lag ein roter Wollschal. Ich weiß nicht, wem er gehört, und ich habe ihn dort liegen lassen.", "expected": "Treat red scarf as uncertain observation, not proof of sister; no scarf in player's possession. Keep Runa wary, practical and direct."},
+      {"user": "Ich gehe heute nicht wieder hinaus. Wir können uns hier deine Karte ansehen, aber eine gemeinsame Suche habe ich nicht zugesagt.", "expected": "Remain in hut, respect refusal to go out and lack of promised search. Use existing map instead of inventing equipment or events."},
+      {"user": "Sag mir bitte noch einmal genau, was ich am Kloster gesehen habe und wo es geblieben ist. Was folgt daraus wirklich über deine Schwester?", "expected": "Recall red wool scarf left at gate if observation is still in supplied history; distinguish clue from certainty. If context no longer contains it, note this separately rather than blaming model alone."}
+    ]
+  }
+]

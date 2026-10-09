@@ -1,0 +1,20 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "Grask hob einen massiven Kopf, seine Augen, die wie glühende Kohlen aussahen, fixierten dich. Er ließ seinen schweren, muskulösen Körper leicht nach vorne sinken, eine Geste, die mehr Bedrohung als Unterwerfung vermittelte. Seine Stimme war ein tiefes, rauhes Grollen, das die leeren Mauern der Arena vibrieren ließ.\n\n„Was willst du? Red nicht so weich“, knurrte er, seine Worte waren wie steinernähe. „Ich habe keine Zeit für deine Schwachsinn. Du bist klein. Du hast keine Waffe, die mir nichts nützt. Sprich direkt. Was suchst du in diesem Schrott, in diesem Staub?“",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  },
+  {
+    "case": "grask-1",
+    "answer": "Grask lässt den Kopf leicht neigen, die Augen, die wie dunkle Spiegel wirken, fixieren dich. Seine großen, dunklen Augen verstreichen die Szene – die verfallene Arena, die offenen Stufen, die Zuschauer, die wie gespenstische Schatten in der Stille tanzen. Er starrt dann auf das Wärtergitter, wo die Oberfläche des alten Metalls die Schatten der Umgebung einfängt.\n\nSeine Stimme ist tief, rau, wie Gestein, das unter enormem Druck zerbricht. Sie ist langatmig, jeder Laut scheint eine bewusste Entscheidung zu sein.\n\n„Du kannst nicht lesen?“, knurrt er, die Worte sind nicht nett, sie sind Feststellungen, wie das Knacken von Knochen. Er lässt einen kurzen, unpersönlichen Atemzug entweichen. „Das ist irrelevant. Ich brauche die Worte. Oder ich brauche jemanden, der sie für mich liest. Was willst du von mir?“\n\nEr lehnt sich leicht vor, die massive Masse seines Körpers verschiebt sich, und die Hörner auf seinem Schädel scheinen kurz zu glänzen. Sein Blick ist eine Mischung aus brutaler Skepsis und einer tief sitzenden, unstillbaren Verzweiflung. Er sieht nicht Freundlichkeit, nur eine potenzielle Quelle für weiteren Zwang.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  },
+  {
+    "case": "runa-2",
+    "answer": "Runa schaut dich an, ihre Augen sind scharf und wachsam, durchzogen vom fahlen Licht der Hütte. Der Wind knallt gegen die Holzrahmen, und der Schnee rauscht wie ein hungriger Wolf um sie herum. Sie hält eine Karte in der Hand, ihre Finger sanft über die Falten der alten Papiere gleiten.\n\n\"Ich brauche Informationen,\" sagt sie, ihre Stimme ist rau, durch den Lärm des Sturms verdeckt. Sie blickt dich an, ihre Mimik ist neutral, aber es liegt eine unterschwellige Anspannung in ihren Augen. \"Was weißt du über dieses Kloster? Und was hast du hier gesehen?\"",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  }
+]

@@ -1,0 +1,4287 @@
+[
+  {
+    "case": "short",
+    "bundle": {
+      "story": {
+        "id": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+        "characterId": "test-mira",
+        "title": "Der Turm",
+        "summary": "",
+        "startContext": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "createdAt": 1791232050695,
+        "updatedAt": 1791232050709
+      },
+      "character": {
+        "id": "test-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.",
+        "scenario": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "storyTitle": "Der Turm",
+        "openingMessage": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+          "createdAt": 1791232050695
+        },
+        {
+          "id": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.",
+          "createdAt": 1791232050703
+        },
+        {
+          "id": "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050704
+        },
+        {
+          "id": "b1d54a1e-b825-43fb-bedd-47a920d373b3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wo sind wir, wer hat den Schlüssel und was ist mit meiner Hand?",
+          "createdAt": 1791232050709
+        }
+      ],
+      "memories": [
+        {
+          "id": "f5f5f090-1abf-4c55-a2cf-e7597d73f3d9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791232050695,
+          "updatedAt": 1791232050695
+        },
+        {
+          "id": "05306841-140b-4ff2-b4b9-7555f626bb55",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+          "pinned": true,
+          "createdAt": 1791232050696,
+          "updatedAt": 1791232050696
+        }
+      ],
+      "memory": {
+        "version": 14,
+        "facts": [
+          {
+            "id": "4e75055f78fcc0b8262e572d017d398a",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 2,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "f744caf2d56e069527e0116044365490",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ich heiße Rian.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "6c077d19727d92177b776320289929ce",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "924643cffb65d34ba095ab203cbf76ad",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:linke hand",
+            "value": "linke hand: verletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Meine linke Hand ist verletzt.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "8a2f0823f36482339c9ab7c428a40583",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "bce62bb4bf622ec715fe558305a3627e",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "f4b47f191ff6befc8c77f3fdaf573bbb",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 11,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "4ae9cd9796c74ad3d949a154d79eae0a",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "eb488c676f5be6edc5c56af2328be57c",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "80db74bbdb8f9386fea726a499dc21d5",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "GOAL",
+              "name": "Flucht"
+            },
+            "field": "status",
+            "value": "Offen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ziel Flucht ist offen.",
+            "version": 13,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "11c5938b5b10df472d525839af67c174",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "wer",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "b1d54a1e-b825-43fb-bedd-47a920d373b3",
+            "sourceText": "Wo sind wir, wer hat den Schlüssel und was ist mit meiner Hand?",
+            "version": 25,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050709
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          }
+        ],
+        "scannedSources": [
+          "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": ""
+      }
+    }
+  },
+  {
+    "case": "container",
+    "bundle": {
+      "story": {
+        "id": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+        "characterId": "test-mira",
+        "title": "Der Turm",
+        "summary": "",
+        "startContext": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "createdAt": 1791232050695,
+        "updatedAt": 1791232050717
+      },
+      "character": {
+        "id": "test-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.",
+        "scenario": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "storyTitle": "Der Turm",
+        "openingMessage": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+          "createdAt": 1791232050695
+        },
+        {
+          "id": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.",
+          "createdAt": 1791232050703
+        },
+        {
+          "id": "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050704
+        },
+        {
+          "id": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Mira gibt Rian den Schlüssel. Ich lege den Schlüssel in die Truhe.",
+          "createdAt": 1791232050711
+        },
+        {
+          "id": "cc995658-359c-43a6-af59-c82cf550cbbc",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050712
+        },
+        {
+          "id": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Der Schlüssel ist silbern.",
+          "createdAt": 1791232050714
+        },
+        {
+          "id": "b9166f88-49ce-46e6-a162-22292470098d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050715
+        },
+        {
+          "id": "dbde13da-1ddc-40db-bfa9-b56a24cd1317",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Welche Farbe hat der Schlüssel und wer trägt ihn jetzt?",
+          "createdAt": 1791232050717
+        }
+      ],
+      "memories": [
+        {
+          "id": "f5f5f090-1abf-4c55-a2cf-e7597d73f3d9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791232050695,
+          "updatedAt": 1791232050695
+        },
+        {
+          "id": "05306841-140b-4ff2-b4b9-7555f626bb55",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+          "pinned": true,
+          "createdAt": 1791232050696,
+          "updatedAt": 1791232050696
+        }
+      ],
+      "memory": {
+        "version": 23,
+        "facts": [
+          {
+            "id": "4e75055f78fcc0b8262e572d017d398a",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 2,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "f744caf2d56e069527e0116044365490",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ich heiße Rian.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "6c077d19727d92177b776320289929ce",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "924643cffb65d34ba095ab203cbf76ad",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:linke hand",
+            "value": "linke hand: verletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Meine linke Hand ist verletzt.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "8a2f0823f36482339c9ab7c428a40583",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "bce62bb4bf622ec715fe558305a3627e",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "f4b47f191ff6befc8c77f3fdaf573bbb",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 11,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "4ae9cd9796c74ad3d949a154d79eae0a",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "eb488c676f5be6edc5c56af2328be57c",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "80db74bbdb8f9386fea726a499dc21d5",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "GOAL",
+              "name": "Flucht"
+            },
+            "field": "status",
+            "value": "Offen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ziel Flucht ist offen.",
+            "version": 13,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "4db246a4d5acb95bea88a26347399987",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "sourceText": "Mira gibt Rian den Schlüssel.",
+            "version": 18,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050711
+          },
+          {
+            "id": "f209a767122548a9264bedbe4f4ef4b7",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "In/bei Truhe",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "sourceText": "Ich lege den Schlüssel in die Truhe.",
+            "version": 19,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050711
+          },
+          {
+            "id": "5587df1bbe39c12be113b6d3c673c5b1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "silbern",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "sourceText": "Der Schlüssel ist silbern.",
+            "version": 22,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050714
+          },
+          {
+            "id": "5b34ca0fd57257f49ccbaa80b28fd3e5",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Farbe",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "dbde13da-1ddc-40db-bfa9-b56a24cd1317",
+            "sourceText": "Welche Farbe hat der Schlüssel und wer trägt ihn jetzt?",
+            "version": 37,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "5587df1bbe39c12be113b6d3c673c5b1",
+            "knower": "character",
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "version": 22
+          },
+          {
+            "factId": "5587df1bbe39c12be113b6d3c673c5b1",
+            "knower": "player",
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "version": 22
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "4db246a4d5acb95bea88a26347399987",
+            "knower": "character",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 18
+          },
+          {
+            "factId": "4db246a4d5acb95bea88a26347399987",
+            "knower": "player",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 18
+          },
+          {
+            "factId": "f209a767122548a9264bedbe4f4ef4b7",
+            "knower": "character",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 19
+          },
+          {
+            "factId": "f209a767122548a9264bedbe4f4ef4b7",
+            "knower": "player",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 19
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          }
+        ],
+        "scannedSources": [
+          "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+          "cc995658-359c-43a6-af59-c82cf550cbbc",
+          "40c558ed-8126-4c99-9c6a-289cfb86d779",
+          "b9166f88-49ce-46e6-a162-22292470098d"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": ""
+      }
+    }
+  },
+  {
+    "case": "long",
+    "bundle": {
+      "story": {
+        "id": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+        "characterId": "test-mira",
+        "title": "Der Turm",
+        "summary": "Rian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.",
+        "startContext": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "createdAt": 1791232050695,
+        "updatedAt": 1791232050792
+      },
+      "character": {
+        "id": "test-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.",
+        "scenario": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "storyTitle": "Der Turm",
+        "openingMessage": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+          "createdAt": 1791232050695
+        },
+        {
+          "id": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.",
+          "createdAt": 1791232050703
+        },
+        {
+          "id": "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050704
+        },
+        {
+          "id": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Mira gibt Rian den Schlüssel. Ich lege den Schlüssel in die Truhe.",
+          "createdAt": 1791232050711
+        },
+        {
+          "id": "cc995658-359c-43a6-af59-c82cf550cbbc",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050712
+        },
+        {
+          "id": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Der Schlüssel ist silbern.",
+          "createdAt": 1791232050714
+        },
+        {
+          "id": "b9166f88-49ce-46e6-a162-22292470098d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050715
+        },
+        {
+          "id": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich nehme den Schlüssel. Wir sind nun im Hof. Ziel Flucht ist abgeschlossen.",
+          "createdAt": 1791232050717
+        },
+        {
+          "id": "3735b613-615b-4569-b5ac-18bc9360d263",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050718
+        },
+        {
+          "id": "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050721
+        },
+        {
+          "id": "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050723
+        },
+        {
+          "id": "3120e01c-c146-44a4-bd45-4e507394b4ce",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050726
+        },
+        {
+          "id": "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050727
+        },
+        {
+          "id": "2f9bb021-0027-4067-aa1e-347c0df962bb",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050729
+        },
+        {
+          "id": "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050731
+        },
+        {
+          "id": "674ebb7d-6c75-40a7-980d-462769997ac0",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050732
+        },
+        {
+          "id": "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050734
+        },
+        {
+          "id": "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050737
+        },
+        {
+          "id": "0e58ae6e-70b9-43b4-9995-c97da9590007",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050738
+        },
+        {
+          "id": "e1328840-c7c4-463b-8da8-038ced60c719",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050740
+        },
+        {
+          "id": "82875c9f-3acd-4857-b977-1d5de90c5cb9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050741
+        },
+        {
+          "id": "2e33c34e-0be9-4b57-8704-b91b15dddee5",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050743
+        },
+        {
+          "id": "fc0a5de7-c1cb-4709-ad08-d1adc79a7613",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050744
+        },
+        {
+          "id": "784b0341-21cc-4f9a-a422-474bc4c448c4",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050747
+        },
+        {
+          "id": "9d7bdfe5-8c4f-4a66-9a59-043c5bdb72a3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050748
+        },
+        {
+          "id": "e198ea9a-5cc2-42f4-aaf3-4ee3cb942845",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050749
+        },
+        {
+          "id": "c003c0ff-06ca-4ff2-b10b-edcefbbd0f43",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050751
+        },
+        {
+          "id": "42dcfcf4-36ea-4135-b61f-09046a7d5203",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050752
+        },
+        {
+          "id": "8aba9f8b-33d4-4bf1-97d9-5b33ea3a1e21",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050753
+        },
+        {
+          "id": "958eefae-dc07-4cb7-8cb1-f0ba1e1ec312",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050755
+        },
+        {
+          "id": "d6fa03ce-bc46-43e5-b01e-39cb009271d4",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050757
+        },
+        {
+          "id": "46bbaf81-efe2-42e8-be93-5efe96cbe64b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050758
+        },
+        {
+          "id": "e65364a4-abfc-4ce9-8a31-289af22036a2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050760
+        },
+        {
+          "id": "47125ff6-d280-4b25-a227-7616f8f94521",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050761
+        },
+        {
+          "id": "1fac40a6-c002-4606-a128-e844ba793021",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050762
+        },
+        {
+          "id": "8ba47683-a35b-4431-aea6-62dbe5390221",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050764
+        },
+        {
+          "id": "84372405-5412-4bb6-b0e3-b58d0e5f03b7",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050765
+        },
+        {
+          "id": "c8f4dabe-029f-4cb7-882f-d793bc8a10a3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050766
+        },
+        {
+          "id": "8ebc7cac-459b-45ac-bdf8-6ef39f06097d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050768
+        },
+        {
+          "id": "8c1003de-de93-49a1-9c55-78989a8b54e9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050769
+        },
+        {
+          "id": "ef7b5a06-0d16-4f5e-b319-41febaa868e0",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050772
+        },
+        {
+          "id": "a990b0d6-c708-4c95-b0e0-cc429293903c",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050774
+        },
+        {
+          "id": "b97c96a4-8c09-45e5-bab1-10e6ec0ee3ec",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050777
+        },
+        {
+          "id": "06a5ce7a-9892-49ed-a78f-d091fbb8dbe1",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050778
+        },
+        {
+          "id": "6588c576-8d27-4d6c-b55b-ab657e641b4b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050781
+        },
+        {
+          "id": "9373d5af-ef46-4468-a8c9-6185d4c83849",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050783
+        },
+        {
+          "id": "faa22ae3-a3d5-4831-9609-c6cde71f546a",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050784
+        },
+        {
+          "id": "0641e8d0-029f-49ce-875e-8a562fc68d2e",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050787
+        },
+        {
+          "id": "60fc3aa3-3672-4a96-a0bd-f851a8e8ba8d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050788
+        },
+        {
+          "id": "5d2aa0b5-8246-495e-a046-790cfe8d2e52",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?",
+          "createdAt": 1791232050791
+        }
+      ],
+      "memories": [
+        {
+          "id": "f5f5f090-1abf-4c55-a2cf-e7597d73f3d9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791232050695,
+          "updatedAt": 1791232050695
+        },
+        {
+          "id": "05306841-140b-4ff2-b4b9-7555f626bb55",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+          "pinned": true,
+          "createdAt": 1791232050696,
+          "updatedAt": 1791232050696
+        }
+      ],
+      "memory": {
+        "version": 72,
+        "facts": [
+          {
+            "id": "4e75055f78fcc0b8262e572d017d398a",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 2,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "f744caf2d56e069527e0116044365490",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ich heiße Rian.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "6c077d19727d92177b776320289929ce",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "924643cffb65d34ba095ab203cbf76ad",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:linke hand",
+            "value": "linke hand: verletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Meine linke Hand ist verletzt.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "8a2f0823f36482339c9ab7c428a40583",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "bce62bb4bf622ec715fe558305a3627e",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "f4b47f191ff6befc8c77f3fdaf573bbb",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 11,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "4ae9cd9796c74ad3d949a154d79eae0a",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "eb488c676f5be6edc5c56af2328be57c",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "80db74bbdb8f9386fea726a499dc21d5",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "GOAL",
+              "name": "Flucht"
+            },
+            "field": "status",
+            "value": "Offen",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ziel Flucht ist offen.",
+            "version": 13,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "4db246a4d5acb95bea88a26347399987",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "sourceText": "Mira gibt Rian den Schlüssel.",
+            "version": 18,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050711
+          },
+          {
+            "id": "f209a767122548a9264bedbe4f4ef4b7",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "In/bei Truhe",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "sourceText": "Ich lege den Schlüssel in die Truhe.",
+            "version": 19,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050711
+          },
+          {
+            "id": "5587df1bbe39c12be113b6d3c673c5b1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "silbern",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "sourceText": "Der Schlüssel ist silbern.",
+            "version": 22,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050714
+          },
+          {
+            "id": "3c0f0b07942f865999929f9fff319a1f",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Ich nehme den Schlüssel.",
+            "version": 27,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "0f74a7b4164fa4467f6b68017879bed7",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 28,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "4e6ba9493044462f95ce88c9273029ff",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "f4b47f191ff6befc8c77f3fdaf573bbb",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 29,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "0d00aac36256e68c25b5f42d27423b4e",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "4ae9cd9796c74ad3d949a154d79eae0a",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 30,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "3e7216a95b07cf6e93dc17538fda4734",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "80db74bbdb8f9386fea726a499dc21d5",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "GOAL",
+              "name": "Flucht"
+            },
+            "field": "status",
+            "value": "Abgeschlossen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Ziel Flucht ist abgeschlossen.",
+            "version": 31,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "3da361940044001b6abf5d5b470b8322",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "wer",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "5d2aa0b5-8246-495e-a046-790cfe8d2e52",
+            "sourceText": "Wo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?",
+            "version": 91,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050791
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "5587df1bbe39c12be113b6d3c673c5b1",
+            "knower": "character",
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "version": 22
+          },
+          {
+            "factId": "5587df1bbe39c12be113b6d3c673c5b1",
+            "knower": "player",
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "version": 22
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "4db246a4d5acb95bea88a26347399987",
+            "knower": "character",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 18
+          },
+          {
+            "factId": "4db246a4d5acb95bea88a26347399987",
+            "knower": "player",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 18
+          },
+          {
+            "factId": "f209a767122548a9264bedbe4f4ef4b7",
+            "knower": "character",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 19
+          },
+          {
+            "factId": "f209a767122548a9264bedbe4f4ef4b7",
+            "knower": "player",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 19
+          },
+          {
+            "factId": "3c0f0b07942f865999929f9fff319a1f",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 27
+          },
+          {
+            "factId": "3c0f0b07942f865999929f9fff319a1f",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 27
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "0d00aac36256e68c25b5f42d27423b4e",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 30
+          },
+          {
+            "factId": "0d00aac36256e68c25b5f42d27423b4e",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 30
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "0f74a7b4164fa4467f6b68017879bed7",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 28
+          },
+          {
+            "factId": "0f74a7b4164fa4467f6b68017879bed7",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 28
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "3e7216a95b07cf6e93dc17538fda4734",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 31
+          },
+          {
+            "factId": "3e7216a95b07cf6e93dc17538fda4734",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 31
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          },
+          {
+            "factId": "4e6ba9493044462f95ce88c9273029ff",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 29
+          },
+          {
+            "factId": "4e6ba9493044462f95ce88c9273029ff",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 29
+          }
+        ],
+        "scannedSources": [
+          "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+          "cc995658-359c-43a6-af59-c82cf550cbbc",
+          "40c558ed-8126-4c99-9c6a-289cfb86d779",
+          "b9166f88-49ce-46e6-a162-22292470098d",
+          "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+          "3735b613-615b-4569-b5ac-18bc9360d263",
+          "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+          "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+          "3120e01c-c146-44a4-bd45-4e507394b4ce",
+          "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+          "2f9bb021-0027-4067-aa1e-347c0df962bb",
+          "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+          "674ebb7d-6c75-40a7-980d-462769997ac0",
+          "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+          "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+          "0e58ae6e-70b9-43b4-9995-c97da9590007",
+          "e1328840-c7c4-463b-8da8-038ced60c719",
+          "82875c9f-3acd-4857-b977-1d5de90c5cb9",
+          "2e33c34e-0be9-4b57-8704-b91b15dddee5",
+          "fc0a5de7-c1cb-4709-ad08-d1adc79a7613",
+          "784b0341-21cc-4f9a-a422-474bc4c448c4",
+          "9d7bdfe5-8c4f-4a66-9a59-043c5bdb72a3",
+          "e198ea9a-5cc2-42f4-aaf3-4ee3cb942845",
+          "c003c0ff-06ca-4ff2-b10b-edcefbbd0f43",
+          "42dcfcf4-36ea-4135-b61f-09046a7d5203",
+          "8aba9f8b-33d4-4bf1-97d9-5b33ea3a1e21",
+          "958eefae-dc07-4cb7-8cb1-f0ba1e1ec312",
+          "d6fa03ce-bc46-43e5-b01e-39cb009271d4",
+          "46bbaf81-efe2-42e8-be93-5efe96cbe64b",
+          "e65364a4-abfc-4ce9-8a31-289af22036a2",
+          "47125ff6-d280-4b25-a227-7616f8f94521",
+          "1fac40a6-c002-4606-a128-e844ba793021",
+          "8ba47683-a35b-4431-aea6-62dbe5390221",
+          "84372405-5412-4bb6-b0e3-b58d0e5f03b7",
+          "c8f4dabe-029f-4cb7-882f-d793bc8a10a3",
+          "8ebc7cac-459b-45ac-bdf8-6ef39f06097d",
+          "8c1003de-de93-49a1-9c55-78989a8b54e9",
+          "ef7b5a06-0d16-4f5e-b319-41febaa868e0",
+          "a990b0d6-c708-4c95-b0e0-cc429293903c",
+          "b97c96a4-8c09-45e5-bab1-10e6ec0ee3ec",
+          "06a5ce7a-9892-49ed-a78f-d091fbb8dbe1",
+          "6588c576-8d27-4d6c-b55b-ab657e641b4b",
+          "9373d5af-ef46-4468-a8c9-6185d4c83849",
+          "faa22ae3-a3d5-4831-9609-c6cde71f546a",
+          "0641e8d0-029f-49ce-875e-8a562fc68d2e",
+          "60fc3aa3-3672-4a96-a0bd-f851a8e8ba8d"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": ""
+      }
+    }
+  },
+  {
+    "case": "unknown",
+    "bundle": {
+      "story": {
+        "id": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+        "characterId": "test-mira",
+        "title": "Der Turm",
+        "summary": "Rian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.",
+        "startContext": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "createdAt": 1791232050695,
+        "updatedAt": 1791232050794
+      },
+      "character": {
+        "id": "test-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.",
+        "scenario": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "storyTitle": "Der Turm",
+        "openingMessage": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+          "createdAt": 1791232050695
+        },
+        {
+          "id": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.",
+          "createdAt": 1791232050703
+        },
+        {
+          "id": "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050704
+        },
+        {
+          "id": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Mira gibt Rian den Schlüssel. Ich lege den Schlüssel in die Truhe.",
+          "createdAt": 1791232050711
+        },
+        {
+          "id": "cc995658-359c-43a6-af59-c82cf550cbbc",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050712
+        },
+        {
+          "id": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Der Schlüssel ist silbern.",
+          "createdAt": 1791232050714
+        },
+        {
+          "id": "b9166f88-49ce-46e6-a162-22292470098d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050715
+        },
+        {
+          "id": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich nehme den Schlüssel. Wir sind nun im Hof. Ziel Flucht ist abgeschlossen.",
+          "createdAt": 1791232050717
+        },
+        {
+          "id": "3735b613-615b-4569-b5ac-18bc9360d263",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050718
+        },
+        {
+          "id": "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050721
+        },
+        {
+          "id": "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050723
+        },
+        {
+          "id": "3120e01c-c146-44a4-bd45-4e507394b4ce",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050726
+        },
+        {
+          "id": "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050727
+        },
+        {
+          "id": "2f9bb021-0027-4067-aa1e-347c0df962bb",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050729
+        },
+        {
+          "id": "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050731
+        },
+        {
+          "id": "674ebb7d-6c75-40a7-980d-462769997ac0",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050732
+        },
+        {
+          "id": "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050734
+        },
+        {
+          "id": "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050737
+        },
+        {
+          "id": "0e58ae6e-70b9-43b4-9995-c97da9590007",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050738
+        },
+        {
+          "id": "e1328840-c7c4-463b-8da8-038ced60c719",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050740
+        },
+        {
+          "id": "82875c9f-3acd-4857-b977-1d5de90c5cb9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050741
+        },
+        {
+          "id": "2e33c34e-0be9-4b57-8704-b91b15dddee5",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050743
+        },
+        {
+          "id": "fc0a5de7-c1cb-4709-ad08-d1adc79a7613",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050744
+        },
+        {
+          "id": "784b0341-21cc-4f9a-a422-474bc4c448c4",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050747
+        },
+        {
+          "id": "9d7bdfe5-8c4f-4a66-9a59-043c5bdb72a3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050748
+        },
+        {
+          "id": "e198ea9a-5cc2-42f4-aaf3-4ee3cb942845",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050749
+        },
+        {
+          "id": "c003c0ff-06ca-4ff2-b10b-edcefbbd0f43",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050751
+        },
+        {
+          "id": "42dcfcf4-36ea-4135-b61f-09046a7d5203",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050752
+        },
+        {
+          "id": "8aba9f8b-33d4-4bf1-97d9-5b33ea3a1e21",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050753
+        },
+        {
+          "id": "958eefae-dc07-4cb7-8cb1-f0ba1e1ec312",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050755
+        },
+        {
+          "id": "d6fa03ce-bc46-43e5-b01e-39cb009271d4",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050757
+        },
+        {
+          "id": "46bbaf81-efe2-42e8-be93-5efe96cbe64b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050758
+        },
+        {
+          "id": "e65364a4-abfc-4ce9-8a31-289af22036a2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050760
+        },
+        {
+          "id": "47125ff6-d280-4b25-a227-7616f8f94521",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050761
+        },
+        {
+          "id": "1fac40a6-c002-4606-a128-e844ba793021",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050762
+        },
+        {
+          "id": "8ba47683-a35b-4431-aea6-62dbe5390221",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050764
+        },
+        {
+          "id": "84372405-5412-4bb6-b0e3-b58d0e5f03b7",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050765
+        },
+        {
+          "id": "c8f4dabe-029f-4cb7-882f-d793bc8a10a3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050766
+        },
+        {
+          "id": "8ebc7cac-459b-45ac-bdf8-6ef39f06097d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050768
+        },
+        {
+          "id": "8c1003de-de93-49a1-9c55-78989a8b54e9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050769
+        },
+        {
+          "id": "ef7b5a06-0d16-4f5e-b319-41febaa868e0",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050772
+        },
+        {
+          "id": "a990b0d6-c708-4c95-b0e0-cc429293903c",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050774
+        },
+        {
+          "id": "b97c96a4-8c09-45e5-bab1-10e6ec0ee3ec",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050777
+        },
+        {
+          "id": "06a5ce7a-9892-49ed-a78f-d091fbb8dbe1",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050778
+        },
+        {
+          "id": "6588c576-8d27-4d6c-b55b-ab657e641b4b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050781
+        },
+        {
+          "id": "9373d5af-ef46-4468-a8c9-6185d4c83849",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050783
+        },
+        {
+          "id": "faa22ae3-a3d5-4831-9609-c6cde71f546a",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050784
+        },
+        {
+          "id": "0641e8d0-029f-49ce-875e-8a562fc68d2e",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050787
+        },
+        {
+          "id": "60fc3aa3-3672-4a96-a0bd-f851a8e8ba8d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050788
+        },
+        {
+          "id": "a3359dce-3bc7-4e4c-9705-0a0350539257",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Welche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben? Falls es unbekannt ist, sag das.",
+          "createdAt": 1791232050793
+        }
+      ],
+      "memories": [
+        {
+          "id": "f5f5f090-1abf-4c55-a2cf-e7597d73f3d9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791232050695,
+          "updatedAt": 1791232050695
+        },
+        {
+          "id": "05306841-140b-4ff2-b4b9-7555f626bb55",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+          "pinned": true,
+          "createdAt": 1791232050696,
+          "updatedAt": 1791232050696
+        }
+      ],
+      "memory": {
+        "version": 74,
+        "facts": [
+          {
+            "id": "4e75055f78fcc0b8262e572d017d398a",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 2,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "f744caf2d56e069527e0116044365490",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ich heiße Rian.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "6c077d19727d92177b776320289929ce",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "924643cffb65d34ba095ab203cbf76ad",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:linke hand",
+            "value": "linke hand: verletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Meine linke Hand ist verletzt.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "8a2f0823f36482339c9ab7c428a40583",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "bce62bb4bf622ec715fe558305a3627e",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "f4b47f191ff6befc8c77f3fdaf573bbb",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 11,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "4ae9cd9796c74ad3d949a154d79eae0a",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "eb488c676f5be6edc5c56af2328be57c",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "80db74bbdb8f9386fea726a499dc21d5",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "GOAL",
+              "name": "Flucht"
+            },
+            "field": "status",
+            "value": "Offen",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ziel Flucht ist offen.",
+            "version": 13,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "4db246a4d5acb95bea88a26347399987",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "sourceText": "Mira gibt Rian den Schlüssel.",
+            "version": 18,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050711
+          },
+          {
+            "id": "f209a767122548a9264bedbe4f4ef4b7",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "In/bei Truhe",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "sourceText": "Ich lege den Schlüssel in die Truhe.",
+            "version": 19,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050711
+          },
+          {
+            "id": "5587df1bbe39c12be113b6d3c673c5b1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "silbern",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "sourceText": "Der Schlüssel ist silbern.",
+            "version": 22,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050714
+          },
+          {
+            "id": "3c0f0b07942f865999929f9fff319a1f",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Ich nehme den Schlüssel.",
+            "version": 27,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "0f74a7b4164fa4467f6b68017879bed7",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 28,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "4e6ba9493044462f95ce88c9273029ff",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "f4b47f191ff6befc8c77f3fdaf573bbb",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 29,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "0d00aac36256e68c25b5f42d27423b4e",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "4ae9cd9796c74ad3d949a154d79eae0a",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 30,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "3e7216a95b07cf6e93dc17538fda4734",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "80db74bbdb8f9386fea726a499dc21d5",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "GOAL",
+              "name": "Flucht"
+            },
+            "field": "status",
+            "value": "Abgeschlossen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Ziel Flucht ist abgeschlossen.",
+            "version": 31,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "5587df1bbe39c12be113b6d3c673c5b1",
+            "knower": "character",
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "version": 22
+          },
+          {
+            "factId": "5587df1bbe39c12be113b6d3c673c5b1",
+            "knower": "player",
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "version": 22
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "4db246a4d5acb95bea88a26347399987",
+            "knower": "character",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 18
+          },
+          {
+            "factId": "4db246a4d5acb95bea88a26347399987",
+            "knower": "player",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 18
+          },
+          {
+            "factId": "f209a767122548a9264bedbe4f4ef4b7",
+            "knower": "character",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 19
+          },
+          {
+            "factId": "f209a767122548a9264bedbe4f4ef4b7",
+            "knower": "player",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 19
+          },
+          {
+            "factId": "3c0f0b07942f865999929f9fff319a1f",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 27
+          },
+          {
+            "factId": "3c0f0b07942f865999929f9fff319a1f",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 27
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "0d00aac36256e68c25b5f42d27423b4e",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 30
+          },
+          {
+            "factId": "0d00aac36256e68c25b5f42d27423b4e",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 30
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "0f74a7b4164fa4467f6b68017879bed7",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 28
+          },
+          {
+            "factId": "0f74a7b4164fa4467f6b68017879bed7",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 28
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "3e7216a95b07cf6e93dc17538fda4734",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 31
+          },
+          {
+            "factId": "3e7216a95b07cf6e93dc17538fda4734",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 31
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          },
+          {
+            "factId": "4e6ba9493044462f95ce88c9273029ff",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 29
+          },
+          {
+            "factId": "4e6ba9493044462f95ce88c9273029ff",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 29
+          }
+        ],
+        "scannedSources": [
+          "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+          "cc995658-359c-43a6-af59-c82cf550cbbc",
+          "40c558ed-8126-4c99-9c6a-289cfb86d779",
+          "b9166f88-49ce-46e6-a162-22292470098d",
+          "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+          "3735b613-615b-4569-b5ac-18bc9360d263",
+          "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+          "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+          "3120e01c-c146-44a4-bd45-4e507394b4ce",
+          "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+          "2f9bb021-0027-4067-aa1e-347c0df962bb",
+          "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+          "674ebb7d-6c75-40a7-980d-462769997ac0",
+          "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+          "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+          "0e58ae6e-70b9-43b4-9995-c97da9590007",
+          "e1328840-c7c4-463b-8da8-038ced60c719",
+          "82875c9f-3acd-4857-b977-1d5de90c5cb9",
+          "2e33c34e-0be9-4b57-8704-b91b15dddee5",
+          "fc0a5de7-c1cb-4709-ad08-d1adc79a7613",
+          "784b0341-21cc-4f9a-a422-474bc4c448c4",
+          "9d7bdfe5-8c4f-4a66-9a59-043c5bdb72a3",
+          "e198ea9a-5cc2-42f4-aaf3-4ee3cb942845",
+          "c003c0ff-06ca-4ff2-b10b-edcefbbd0f43",
+          "42dcfcf4-36ea-4135-b61f-09046a7d5203",
+          "8aba9f8b-33d4-4bf1-97d9-5b33ea3a1e21",
+          "958eefae-dc07-4cb7-8cb1-f0ba1e1ec312",
+          "d6fa03ce-bc46-43e5-b01e-39cb009271d4",
+          "46bbaf81-efe2-42e8-be93-5efe96cbe64b",
+          "e65364a4-abfc-4ce9-8a31-289af22036a2",
+          "47125ff6-d280-4b25-a227-7616f8f94521",
+          "1fac40a6-c002-4606-a128-e844ba793021",
+          "8ba47683-a35b-4431-aea6-62dbe5390221",
+          "84372405-5412-4bb6-b0e3-b58d0e5f03b7",
+          "c8f4dabe-029f-4cb7-882f-d793bc8a10a3",
+          "8ebc7cac-459b-45ac-bdf8-6ef39f06097d",
+          "8c1003de-de93-49a1-9c55-78989a8b54e9",
+          "ef7b5a06-0d16-4f5e-b319-41febaa868e0",
+          "a990b0d6-c708-4c95-b0e0-cc429293903c",
+          "b97c96a4-8c09-45e5-bab1-10e6ec0ee3ec",
+          "06a5ce7a-9892-49ed-a78f-d091fbb8dbe1",
+          "6588c576-8d27-4d6c-b55b-ab657e641b4b",
+          "9373d5af-ef46-4468-a8c9-6185d4c83849",
+          "faa22ae3-a3d5-4831-9609-c6cde71f546a",
+          "0641e8d0-029f-49ce-875e-8a562fc68d2e",
+          "60fc3aa3-3672-4a96-a0bd-f851a8e8ba8d"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": ""
+      }
+    }
+  },
+  {
+    "case": "secret",
+    "bundle": {
+      "story": {
+        "id": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+        "characterId": "test-mira",
+        "title": "Der Turm",
+        "summary": "Rian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.",
+        "startContext": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "createdAt": 1791232050695,
+        "updatedAt": 1791232050799
+      },
+      "character": {
+        "id": "test-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.",
+        "scenario": "Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+        "storyTitle": "Der Turm",
+        "openingMessage": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“",
+          "createdAt": 1791232050695
+        },
+        {
+          "id": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.",
+          "createdAt": 1791232050703
+        },
+        {
+          "id": "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050704
+        },
+        {
+          "id": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Mira gibt Rian den Schlüssel. Ich lege den Schlüssel in die Truhe.",
+          "createdAt": 1791232050711
+        },
+        {
+          "id": "cc995658-359c-43a6-af59-c82cf550cbbc",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050712
+        },
+        {
+          "id": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Der Schlüssel ist silbern.",
+          "createdAt": 1791232050714
+        },
+        {
+          "id": "b9166f88-49ce-46e6-a162-22292470098d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050715
+        },
+        {
+          "id": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich nehme den Schlüssel. Wir sind nun im Hof. Ziel Flucht ist abgeschlossen.",
+          "createdAt": 1791232050717
+        },
+        {
+          "id": "3735b613-615b-4569-b5ac-18bc9360d263",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791232050718
+        },
+        {
+          "id": "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050721
+        },
+        {
+          "id": "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050723
+        },
+        {
+          "id": "3120e01c-c146-44a4-bd45-4e507394b4ce",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050726
+        },
+        {
+          "id": "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050727
+        },
+        {
+          "id": "2f9bb021-0027-4067-aa1e-347c0df962bb",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050729
+        },
+        {
+          "id": "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050731
+        },
+        {
+          "id": "674ebb7d-6c75-40a7-980d-462769997ac0",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050732
+        },
+        {
+          "id": "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050734
+        },
+        {
+          "id": "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050737
+        },
+        {
+          "id": "0e58ae6e-70b9-43b4-9995-c97da9590007",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050738
+        },
+        {
+          "id": "e1328840-c7c4-463b-8da8-038ced60c719",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050740
+        },
+        {
+          "id": "82875c9f-3acd-4857-b977-1d5de90c5cb9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050741
+        },
+        {
+          "id": "2e33c34e-0be9-4b57-8704-b91b15dddee5",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050743
+        },
+        {
+          "id": "fc0a5de7-c1cb-4709-ad08-d1adc79a7613",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050744
+        },
+        {
+          "id": "784b0341-21cc-4f9a-a422-474bc4c448c4",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050747
+        },
+        {
+          "id": "9d7bdfe5-8c4f-4a66-9a59-043c5bdb72a3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050748
+        },
+        {
+          "id": "e198ea9a-5cc2-42f4-aaf3-4ee3cb942845",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050749
+        },
+        {
+          "id": "c003c0ff-06ca-4ff2-b10b-edcefbbd0f43",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050751
+        },
+        {
+          "id": "42dcfcf4-36ea-4135-b61f-09046a7d5203",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050752
+        },
+        {
+          "id": "8aba9f8b-33d4-4bf1-97d9-5b33ea3a1e21",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050753
+        },
+        {
+          "id": "958eefae-dc07-4cb7-8cb1-f0ba1e1ec312",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050755
+        },
+        {
+          "id": "d6fa03ce-bc46-43e5-b01e-39cb009271d4",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050757
+        },
+        {
+          "id": "46bbaf81-efe2-42e8-be93-5efe96cbe64b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050758
+        },
+        {
+          "id": "e65364a4-abfc-4ce9-8a31-289af22036a2",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050760
+        },
+        {
+          "id": "47125ff6-d280-4b25-a227-7616f8f94521",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050761
+        },
+        {
+          "id": "1fac40a6-c002-4606-a128-e844ba793021",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050762
+        },
+        {
+          "id": "8ba47683-a35b-4431-aea6-62dbe5390221",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050764
+        },
+        {
+          "id": "84372405-5412-4bb6-b0e3-b58d0e5f03b7",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050765
+        },
+        {
+          "id": "c8f4dabe-029f-4cb7-882f-d793bc8a10a3",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050766
+        },
+        {
+          "id": "8ebc7cac-459b-45ac-bdf8-6ef39f06097d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050768
+        },
+        {
+          "id": "8c1003de-de93-49a1-9c55-78989a8b54e9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050769
+        },
+        {
+          "id": "ef7b5a06-0d16-4f5e-b319-41febaa868e0",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050772
+        },
+        {
+          "id": "a990b0d6-c708-4c95-b0e0-cc429293903c",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050774
+        },
+        {
+          "id": "b97c96a4-8c09-45e5-bab1-10e6ec0ee3ec",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050777
+        },
+        {
+          "id": "06a5ce7a-9892-49ed-a78f-d091fbb8dbe1",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050778
+        },
+        {
+          "id": "6588c576-8d27-4d6c-b55b-ab657e641b4b",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050781
+        },
+        {
+          "id": "9373d5af-ef46-4468-a8c9-6185d4c83849",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050783
+        },
+        {
+          "id": "faa22ae3-a3d5-4831-9609-c6cde71f546a",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050784
+        },
+        {
+          "id": "0641e8d0-029f-49ce-875e-8a562fc68d2e",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Wir betrachten die Mauer im Hof.",
+          "createdAt": 1791232050787
+        },
+        {
+          "id": "60fc3aa3-3672-4a96-a0bd-f851a8e8ba8d",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.",
+          "createdAt": 1791232050788
+        },
+        {
+          "id": "71248fd6-8afa-41bd-ba5b-0966ab15c744",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Ich lege den Schlüssel heimlich in die Truhe.",
+          "createdAt": 1791232050794
+        },
+        {
+          "id": "80f1a881-8ed7-4c22-809e-4e3cdda2fae7",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet weiter die Mauer.*",
+          "createdAt": 1791232050796
+        },
+        {
+          "id": "6933d29a-cbf8-4f2f-a0df-ce4ac7e67424",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "role": "USER",
+          "text": "Mira, weißt du, wo der Schlüssel gerade ist?",
+          "createdAt": 1791232050799
+        }
+      ],
+      "memories": [
+        {
+          "id": "f5f5f090-1abf-4c55-a2cf-e7597d73f3d9",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791232050695,
+          "updatedAt": 1791232050695
+        },
+        {
+          "id": "05306841-140b-4ff2-b4b9-7555f626bb55",
+          "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Du spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+          "pinned": true,
+          "createdAt": 1791232050696,
+          "updatedAt": 1791232050696
+        }
+      ],
+      "memory": {
+        "version": 79,
+        "facts": [
+          {
+            "id": "4e75055f78fcc0b8262e572d017d398a",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 2,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "f744caf2d56e069527e0116044365490",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "d5af2267-80ea-455a-b098-e7e120f592d2",
+            "sourceText": "Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?",
+            "version": 3,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050695
+          },
+          {
+            "id": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ich heiße Rian.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "bronzen",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "6c077d19727d92177b776320289929ce",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Mira hat den bronzenen Schlüssel.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "924643cffb65d34ba095ab203cbf76ad",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:linke hand",
+            "value": "linke hand: verletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Meine linke Hand ist verletzt.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "8a2f0823f36482339c9ab7c428a40583",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "bce62bb4bf622ec715fe558305a3627e",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "f4b47f191ff6befc8c77f3fdaf573bbb",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 11,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "4ae9cd9796c74ad3d949a154d79eae0a",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Turmzimmer",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Wir sind im Turmzimmer.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "eb488c676f5be6edc5c56af2328be57c",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "80db74bbdb8f9386fea726a499dc21d5",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "GOAL",
+              "name": "Flucht"
+            },
+            "field": "status",
+            "value": "Offen",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "sourceText": "Ziel Flucht ist offen.",
+            "version": 13,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050703
+          },
+          {
+            "id": "4db246a4d5acb95bea88a26347399987",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "sourceText": "Mira gibt Rian den Schlüssel.",
+            "version": 18,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050711
+          },
+          {
+            "id": "f209a767122548a9264bedbe4f4ef4b7",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "In/bei Truhe",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "sourceText": "Ich lege den Schlüssel in die Truhe.",
+            "version": 19,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050711
+          },
+          {
+            "id": "5587df1bbe39c12be113b6d3c673c5b1",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "silbern",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "sourceText": "Der Schlüssel ist silbern.",
+            "version": 22,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050714
+          },
+          {
+            "id": "3c0f0b07942f865999929f9fff319a1f",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Ich nehme den Schlüssel.",
+            "version": 27,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "0f74a7b4164fa4467f6b68017879bed7",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "51a0b108fd597725b462153748b603c4",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 28,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "4e6ba9493044462f95ce88c9273029ff",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "f4b47f191ff6befc8c77f3fdaf573bbb",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 29,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "0d00aac36256e68c25b5f42d27423b4e",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "4ae9cd9796c74ad3d949a154d79eae0a",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Wir sind nun im Hof.",
+            "version": 30,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "3e7216a95b07cf6e93dc17538fda4734",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "80db74bbdb8f9386fea726a499dc21d5",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "GOAL",
+              "name": "Flucht"
+            },
+            "field": "status",
+            "value": "Abgeschlossen",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "sourceText": "Ziel Flucht ist abgeschlossen.",
+            "version": 31,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050717
+          },
+          {
+            "id": "0f6bb23329e64ba40c8a15838e955124",
+            "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+            "entity": {
+              "id": "3cfefa8d36f481a1f2d6cb9c2cb0a32d",
+              "storyId": "b496037b-3b57-47ba-b0fd-fcce572d4bae",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "In/bei Truhe",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "71248fd6-8afa-41bd-ba5b-0966ab15c744",
+            "sourceText": "Ich lege den Schlüssel heimlich in die Truhe.",
+            "version": 78,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791232050794
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "61e23f32c1d233e11bb8c394fd9fdcb1",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 7
+          },
+          {
+            "factId": "5587df1bbe39c12be113b6d3c673c5b1",
+            "knower": "character",
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "version": 22
+          },
+          {
+            "factId": "5587df1bbe39c12be113b6d3c673c5b1",
+            "knower": "player",
+            "sourceId": "40c558ed-8126-4c99-9c6a-289cfb86d779",
+            "version": 22
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "6c077d19727d92177b776320289929ce",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 8
+          },
+          {
+            "factId": "4db246a4d5acb95bea88a26347399987",
+            "knower": "character",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 18
+          },
+          {
+            "factId": "4db246a4d5acb95bea88a26347399987",
+            "knower": "player",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 18
+          },
+          {
+            "factId": "f209a767122548a9264bedbe4f4ef4b7",
+            "knower": "character",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 19
+          },
+          {
+            "factId": "f209a767122548a9264bedbe4f4ef4b7",
+            "knower": "player",
+            "sourceId": "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+            "version": 19
+          },
+          {
+            "factId": "3c0f0b07942f865999929f9fff319a1f",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 27
+          },
+          {
+            "factId": "3c0f0b07942f865999929f9fff319a1f",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 27
+          },
+          {
+            "factId": "0f6bb23329e64ba40c8a15838e955124",
+            "knower": "player",
+            "sourceId": "71248fd6-8afa-41bd-ba5b-0966ab15c744",
+            "version": 78
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "9ed37da2f4b7ea1d86578ded5c5ac05d",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 12
+          },
+          {
+            "factId": "0d00aac36256e68c25b5f42d27423b4e",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 30
+          },
+          {
+            "factId": "0d00aac36256e68c25b5f42d27423b4e",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 30
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "82fa1fba34b524b0d1e4a6f980b8b2ff",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 6
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "924643cffb65d34ba095ab203cbf76ad",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 9
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "8a2f0823f36482339c9ab7c428a40583",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 10
+          },
+          {
+            "factId": "0f74a7b4164fa4467f6b68017879bed7",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 28
+          },
+          {
+            "factId": "0f74a7b4164fa4467f6b68017879bed7",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 28
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "eb488c676f5be6edc5c56af2328be57c",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 13
+          },
+          {
+            "factId": "3e7216a95b07cf6e93dc17538fda4734",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 31
+          },
+          {
+            "factId": "3e7216a95b07cf6e93dc17538fda4734",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 31
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "character",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          },
+          {
+            "factId": "bce62bb4bf622ec715fe558305a3627e",
+            "knower": "player",
+            "sourceId": "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+            "version": 11
+          },
+          {
+            "factId": "4e6ba9493044462f95ce88c9273029ff",
+            "knower": "character",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 29
+          },
+          {
+            "factId": "4e6ba9493044462f95ce88c9273029ff",
+            "knower": "player",
+            "sourceId": "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+            "version": 29
+          }
+        ],
+        "scannedSources": [
+          "d5af2267-80ea-455a-b098-e7e120f592d2",
+          "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+          "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+          "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+          "cc995658-359c-43a6-af59-c82cf550cbbc",
+          "40c558ed-8126-4c99-9c6a-289cfb86d779",
+          "b9166f88-49ce-46e6-a162-22292470098d",
+          "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+          "3735b613-615b-4569-b5ac-18bc9360d263",
+          "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+          "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+          "3120e01c-c146-44a4-bd45-4e507394b4ce",
+          "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+          "2f9bb021-0027-4067-aa1e-347c0df962bb",
+          "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+          "674ebb7d-6c75-40a7-980d-462769997ac0",
+          "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+          "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+          "0e58ae6e-70b9-43b4-9995-c97da9590007",
+          "e1328840-c7c4-463b-8da8-038ced60c719",
+          "82875c9f-3acd-4857-b977-1d5de90c5cb9",
+          "2e33c34e-0be9-4b57-8704-b91b15dddee5",
+          "fc0a5de7-c1cb-4709-ad08-d1adc79a7613",
+          "784b0341-21cc-4f9a-a422-474bc4c448c4",
+          "9d7bdfe5-8c4f-4a66-9a59-043c5bdb72a3",
+          "e198ea9a-5cc2-42f4-aaf3-4ee3cb942845",
+          "c003c0ff-06ca-4ff2-b10b-edcefbbd0f43",
+          "42dcfcf4-36ea-4135-b61f-09046a7d5203",
+          "8aba9f8b-33d4-4bf1-97d9-5b33ea3a1e21",
+          "958eefae-dc07-4cb7-8cb1-f0ba1e1ec312",
+          "d6fa03ce-bc46-43e5-b01e-39cb009271d4",
+          "46bbaf81-efe2-42e8-be93-5efe96cbe64b",
+          "e65364a4-abfc-4ce9-8a31-289af22036a2",
+          "47125ff6-d280-4b25-a227-7616f8f94521",
+          "1fac40a6-c002-4606-a128-e844ba793021",
+          "8ba47683-a35b-4431-aea6-62dbe5390221",
+          "84372405-5412-4bb6-b0e3-b58d0e5f03b7",
+          "c8f4dabe-029f-4cb7-882f-d793bc8a10a3",
+          "8ebc7cac-459b-45ac-bdf8-6ef39f06097d",
+          "8c1003de-de93-49a1-9c55-78989a8b54e9",
+          "ef7b5a06-0d16-4f5e-b319-41febaa868e0",
+          "a990b0d6-c708-4c95-b0e0-cc429293903c",
+          "b97c96a4-8c09-45e5-bab1-10e6ec0ee3ec",
+          "06a5ce7a-9892-49ed-a78f-d091fbb8dbe1",
+          "6588c576-8d27-4d6c-b55b-ab657e641b4b",
+          "9373d5af-ef46-4468-a8c9-6185d4c83849",
+          "faa22ae3-a3d5-4831-9609-c6cde71f546a",
+          "0641e8d0-029f-49ce-875e-8a562fc68d2e",
+          "60fc3aa3-3672-4a96-a0bd-f851a8e8ba8d",
+          "71248fd6-8afa-41bd-ba5b-0966ab15c744",
+          "80f1a881-8ed7-4c22-809e-4e3cdda2fae7"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": ""
+      }
+    }
+  }
+]

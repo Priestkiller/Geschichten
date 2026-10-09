@@ -1,0 +1,12 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grask starrt dich mit seinen tiefen, dunklen Augen an. Seine Atmung ist tief und rau, ein Geräusch wie steinendes Gestein.*\n\n**„Ich will wissen, was dort steht.“**\n\n*Er lässt seinen Blick langsam über die schlichte, verrostete Oberfläche des Wärtergitters gleiten, als würde er die Buchstaben durch seine Sehschärfe analysieren. Es gibt keine Zögern in seiner Stimme, nur eine kühle, unerschütterliche Forderung.*\n\n**„Zeig mir das Register. Oder sag mir, was du willst, bevor ich es selbst mache.“**\n\n*Seine Muskeln spannen sich unter der rauen Lederhaut seines Körpers an. Er wirkt nicht wütend im klassischen Sinne, sondern vor allem konzentriert – ein Raubtier, das den ersten Schritt einer möglichen Jagd plant.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

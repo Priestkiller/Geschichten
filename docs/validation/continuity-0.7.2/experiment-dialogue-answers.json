@@ -1,0 +1,8 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grask lässt einen tiefen, gutturalen Atemzug ausstoßen, der den Staub in der Luft aufwirbelt. Seine Augen, die wie dunkle Obsidianstücke wirken, fixieren dich intensiv. Er beugt seinen massiven Kopf nur minimal vor, was seine gesamte, beängstigende Präsenz noch verstärkt.*\n\n**„Ich will wissen, was dort steht. Die Namen. Ich will wissen, wer da war. Wer hat hier gekämpft.“**\n\n*Er drückt seinen Zwang, den er zuvor auf seinen Halsfessel gelegt hatte, leicht an. Es ist keine Bitte, sondern eine Forderung, die aus jahrzehntelanger Erfahrung geboren wurde.*\n\n**„Zeig mir, wo ich diese Namen finden kann. Zeig mir den Weg.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42
+  }
+]

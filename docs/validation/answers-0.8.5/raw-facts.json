@@ -1,0 +1,414 @@
+[
+  {
+    "case": "hold-reverse",
+    "originalQuestion": {
+      "id": "dfe17fb9-8314-4f0e-8047-51ce8bcca2ef",
+      "storyId": "2d930dc1-1f67-4d1f-b578-cf776a3c3152",
+      "role": "USER",
+      "text": "Warum hast du mir das Buch gereicht und wer hält es nun?",
+      "createdAt": 1791448101156
+    },
+    "activated": false,
+    "textModelCalled": false
+  },
+  {
+    "case": "hold-family",
+    "originalQuestion": {
+      "id": "fe20c07d-0f1f-492a-87a8-3d7192410185",
+      "storyId": "f4fc4c99-cbd8-4788-9e42-ece71b395d01",
+      "role": "USER",
+      "text": "Von wem kam der Kristall und mit wem ist diese Person verwandt?",
+      "createdAt": 1791448101845
+    },
+    "activated": false,
+    "textModelCalled": false
+  },
+  {
+    "case": "hold-correction",
+    "originalQuestion": {
+      "id": "7a828819-b329-4b5e-b28e-d8fc584fb5db",
+      "storyId": "619fa17a-e296-445a-a7b2-643dc32100b3",
+      "role": "USER",
+      "text": "Wo liegt die Tasche inzwischen?",
+      "createdAt": 1791448102259
+    },
+    "activated": true,
+    "answer": {
+      "text": "„Die Tasche liegt in dem Schrank.“",
+      "stateVersion": 37,
+      "facts": [
+        {
+          "id": "6b46596f5083d961d202c34c7c218087",
+          "storyId": "619fa17a-e296-445a-a7b2-643dc32100b3",
+          "entity": {
+            "id": "d10b8d67581bfd04fd379d06904d8453",
+            "storyId": "619fa17a-e296-445a-a7b2-643dc32100b3",
+            "kind": "ITEM",
+            "name": "Tasche"
+          },
+          "field": "placement",
+          "value": "in dem Schrank",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "6064919a-0239-4848-a824-ec8d0aad3649",
+          "sourceText": "Nun lege ich sie in den Schrank.",
+          "version": 35,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448102233,
+          "sourceOrder": 64
+        }
+      ],
+      "intent": "placement"
+    },
+    "textModelCalled": false,
+    "guardAccepted": true
+  },
+  {
+    "case": "hold-transfer",
+    "originalQuestion": {
+      "id": "79ebfa81-21f4-4a2e-bbc8-cd1c84b36df4",
+      "storyId": "0bbd6c77-6e43-49bc-bb1b-91f17a582fb3",
+      "role": "USER",
+      "text": "Wer hat dir das Amulett gegeben und welches Bein ist verletzt?",
+      "createdAt": 1791448102671
+    },
+    "activated": false,
+    "textModelCalled": false
+  },
+  {
+    "case": "hold-water",
+    "originalQuestion": {
+      "id": "5c00b6e6-f3c9-4b99-b4eb-b8d72e8ae78e",
+      "storyId": "fcb96201-44b8-479e-a9b0-1204c5b2d3c7",
+      "role": "USER",
+      "text": "Wie reagierst du auf die Überfahrt mit dem schwankenden Boot?",
+      "createdAt": 1791448102971
+    },
+    "activated": false,
+    "textModelCalled": false
+  },
+  {
+    "case": "causal-letter",
+    "originalQuestion": {
+      "id": "1a3ba7c5-3cc0-4195-9cbb-edefb70fa801",
+      "storyId": "2c51aa5a-8ca1-4e7e-a4d7-cb41eeab07a7",
+      "role": "USER",
+      "text": "Warum habe ich dir den Brief gegeben und wer hält ihn jetzt?",
+      "createdAt": 1791448103240
+    },
+    "activated": false,
+    "textModelCalled": false
+  },
+  {
+    "case": "new-holder",
+    "originalQuestion": {
+      "id": "a5ad613f-eee3-4238-8975-da678399bbc3",
+      "storyId": "c91514d6-1f8e-4383-9134-1fa69a0e86a6",
+      "role": "USER",
+      "text": "Wer hält den Dolch jetzt?",
+      "createdAt": 1791448103665
+    },
+    "activated": true,
+    "answer": {
+      "text": "„Ich halte den Dolch.“",
+      "stateVersion": 7,
+      "facts": [
+        {
+          "id": "66578b27fbc53b87e76fde326298cb67",
+          "storyId": "c91514d6-1f8e-4383-9134-1fa69a0e86a6",
+          "entity": {
+            "id": "03b552091e105b660f7d624eb9bc59e8",
+            "storyId": "c91514d6-1f8e-4383-9134-1fa69a0e86a6",
+            "kind": "ITEM",
+            "name": "Dolch"
+          },
+          "field": "holder",
+          "value": "Liora",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "50134f94-6343-4e80-a2d9-9237d56204d8",
+          "sourceText": "Du hältst den Dolch.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448103661,
+          "sourceOrder": 4
+        }
+      ],
+      "intent": "holder"
+    },
+    "textModelCalled": false,
+    "guardAccepted": true
+  },
+  {
+    "case": "new-owner",
+    "originalQuestion": {
+      "id": "e319626d-642c-4191-83ab-ce2648d684bf",
+      "storyId": "8c518235-cdbd-4cfa-8f49-d4be918a7222",
+      "role": "USER",
+      "text": "Wem gehört der Ring?",
+      "createdAt": 1791448103735
+    },
+    "activated": true,
+    "answer": {
+      "text": "„Der Ring gehört dir.“",
+      "stateVersion": 8,
+      "facts": [
+        {
+          "id": "5ab58954c7a392b915da7f204ee09958",
+          "storyId": "8c518235-cdbd-4cfa-8f49-d4be918a7222",
+          "entity": {
+            "id": "2598b237e76243b2935147e972781791",
+            "storyId": "8c518235-cdbd-4cfa-8f49-d4be918a7222",
+            "kind": "ITEM",
+            "name": "Ring"
+          },
+          "field": "owner",
+          "value": "Du",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "e5875723-7e00-44cc-8352-895c270c67b2",
+          "sourceText": "Der Ring gehört mir.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448103733,
+          "sourceOrder": 11
+        }
+      ],
+      "intent": "owner"
+    },
+    "textModelCalled": false,
+    "guardAccepted": true
+  },
+  {
+    "case": "new-placed",
+    "originalQuestion": {
+      "id": "5b8895ed-4aa9-416c-8409-9d213a4b6bc5",
+      "storyId": "8860f3ef-f42b-40e4-8f57-46611c52b9bc",
+      "role": "USER",
+      "text": "Wo liegt der Brief aktuell?",
+      "createdAt": 1791448103765
+    },
+    "activated": true,
+    "answer": {
+      "text": "„Der Brief liegt auf der Bank.“",
+      "stateVersion": 9,
+      "facts": [
+        {
+          "id": "1b34b1cdf2685391e1d9640b24c311ec",
+          "storyId": "8860f3ef-f42b-40e4-8f57-46611c52b9bc",
+          "entity": {
+            "id": "a25922164742ecf567bdfb3aae3d09ff",
+            "storyId": "8860f3ef-f42b-40e4-8f57-46611c52b9bc",
+            "kind": "ITEM",
+            "name": "Brief"
+          },
+          "field": "placement",
+          "value": "auf der Bank",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "b2f3d77c-4b31-4687-bf45-70c5fdc09565",
+          "sourceText": "Ich lege den Brief auf die Bank.",
+          "version": 8,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448103760,
+          "sourceOrder": 18
+        }
+      ],
+      "intent": "placement"
+    },
+    "textModelCalled": false,
+    "guardAccepted": true
+  },
+  {
+    "case": "new-injury",
+    "originalQuestion": {
+      "id": "a8d8fef2-5ad7-48ce-ad9e-10b6ec638c46",
+      "storyId": "bd578fb7-8b6c-4efb-8554-2d937fdbe1cd",
+      "role": "USER",
+      "text": "Welche Person hat eine gebrochene linke Schulter?",
+      "createdAt": 1791448103790
+    },
+    "activated": true,
+    "answer": {
+      "text": "„Meine linke Schulter ist gebrochen.“",
+      "stateVersion": 7,
+      "facts": [
+        {
+          "id": "0d5b495bd442c39ee8356e77ef2f7029",
+          "storyId": "bd578fb7-8b6c-4efb-8554-2d937fdbe1cd",
+          "entity": {
+            "id": "01a8a2e7659f526b153c2d23d35c384a",
+            "storyId": "bd578fb7-8b6c-4efb-8554-2d937fdbe1cd",
+            "kind": "PERSON",
+            "name": "Maren"
+          },
+          "field": "injury:linke schulter",
+          "value": "linke schulter: gebrochen",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "e9e8085c-cd7a-433d-930d-c2cdf5ad3dcb",
+          "sourceText": "Deine linke Schulter ist gebrochen.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448103786,
+          "sourceOrder": 25
+        }
+      ],
+      "intent": "injury"
+    },
+    "textModelCalled": false,
+    "guardAccepted": true
+  },
+  {
+    "case": "new-goal",
+    "originalQuestion": {
+      "id": "4019f52e-a738-4d5b-b5ea-cf8fe4d737c3",
+      "storyId": "13dc70ba-b43d-4f12-86a8-0eabec327f80",
+      "role": "USER",
+      "text": "Ist das Ziel Signal finden bereits abgeschlossen?",
+      "createdAt": 1791448103811
+    },
+    "activated": true,
+    "answer": {
+      "text": "„Ja, das Ziel »Signal finden« ist abgeschlossen.“",
+      "stateVersion": 7,
+      "facts": [
+        {
+          "id": "05803f143bbde0299207c70c5fb7b62f",
+          "storyId": "13dc70ba-b43d-4f12-86a8-0eabec327f80",
+          "entity": {
+            "id": "3181d0d862a1b201345710ee569aea69",
+            "storyId": "13dc70ba-b43d-4f12-86a8-0eabec327f80",
+            "kind": "GOAL",
+            "name": "Signal finden"
+          },
+          "field": "status",
+          "value": "Abgeschlossen",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "8c80fe18-78b5-4424-9338-d0949be570ac",
+          "sourceText": "Das Ziel Signal finden ist abgeschlossen.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448103805,
+          "sourceOrder": 32
+        }
+      ],
+      "intent": "goal"
+    },
+    "textModelCalled": false,
+    "guardAccepted": true
+  },
+  {
+    "case": "dev-carry",
+    "originalQuestion": {
+      "id": "b738483f-d0df-4de0-8cf8-967cfd6e4cff",
+      "storyId": "dea831f9-668b-401b-ba0a-8ca8710fe00c",
+      "role": "USER",
+      "text": "Wer trägt das Buch?",
+      "createdAt": 1791448104144
+    },
+    "activated": true,
+    "answer": {
+      "text": "„Du hältst das Buch.“",
+      "stateVersion": 7,
+      "facts": [
+        {
+          "id": "99231c93020441d1de0ea0818b59dca9",
+          "storyId": "dea831f9-668b-401b-ba0a-8ca8710fe00c",
+          "entity": {
+            "id": "9cbf25b4336a481ed909728203ff2aaa",
+            "storyId": "dea831f9-668b-401b-ba0a-8ca8710fe00c",
+            "kind": "ITEM",
+            "name": "Buch"
+          },
+          "field": "holder",
+          "value": "Du",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "8ee81b54-ff2d-4b99-90b7-859bd28ff047",
+          "sourceText": "Ich halte das Buch.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448104140,
+          "sourceOrder": 119
+        }
+      ],
+      "intent": "holder"
+    },
+    "textModelCalled": false,
+    "guardAccepted": true
+  },
+  {
+    "case": "dev-open",
+    "originalQuestion": {
+      "id": "6bfff630-3fae-40fb-953c-338f745b5be1",
+      "storyId": "ecdcd481-76ff-46b5-9261-8f4bd255fb58",
+      "role": "USER",
+      "text": "Ist das Ziel Tür öffnen abgeschlossen?",
+      "createdAt": 1791448104164
+    },
+    "activated": true,
+    "answer": {
+      "text": "„Nein, das Ziel »Tür öffnen« ist noch offen.“",
+      "stateVersion": 7,
+      "facts": [
+        {
+          "id": "695d934ad2aa0a116a0acdae6be1406b",
+          "storyId": "ecdcd481-76ff-46b5-9261-8f4bd255fb58",
+          "entity": {
+            "id": "b4da740c0ca219d937019aa7d1fbdfff",
+            "storyId": "ecdcd481-76ff-46b5-9261-8f4bd255fb58",
+            "kind": "GOAL",
+            "name": "Tür öffnen"
+          },
+          "field": "status",
+          "value": "Offen",
+          "status": "CURRENT",
+          "pinned": false,
+          "sourceId": "17a6b33f-58ce-49c5-b2b2-1ac64de8ba69",
+          "sourceText": "Das Ziel Tür öffnen ist offen.",
+          "version": 6,
+          "knownBy": [
+            "player",
+            "character"
+          ],
+          "manual": false,
+          "createdAt": 1791448104161,
+          "sourceOrder": 126
+        }
+      ],
+      "intent": "goal"
+    },
+    "textModelCalled": false,
+    "guardAccepted": true
+  }
+]

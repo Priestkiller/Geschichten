@@ -1,0 +1,1111 @@
+[
+  {
+    "case": "short",
+    "seed": 42,
+    "after": false,
+    "model": "qwen2.5-1.5b",
+    "plannedInputTokens": 548,
+    "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Eröffne die Szene aus deinen Erzählangaben. Schreibe nur für deine Figur; die andere Figur wird vom Nutzer gespielt."
+      },
+      {
+        "user": false,
+        "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen."
+      },
+      {
+        "user": false,
+        "text": "*Mira nickt.* „Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Wo sind wir, wer hat den Schlüssel und was ist mit meiner Hand?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nContinue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nEröffne die Szene aus deinen Erzählangaben. Schreibe nur für deine Figur; die andere Figur wird vom Nutzer gespielt.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira nickt.* „Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWo sind wir, wer hat den Schlüssel und was ist mit meiner Hand?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 548,
+    "decoded": 29,
+    "eog": "not exposed by Kotlin API",
+    "answer": "Wir befinden uns im Turmzimmer, Mira hat den Bronzen Schlüssel und meine linke Hand ist verletzt.",
+    "firstTextMs": 1072,
+    "totalMs": 2064,
+    "accepted": true
+  },
+  {
+    "case": "short",
+    "seed": 42,
+    "after": true,
+    "model": "qwen2.5-1.5b",
+    "planningMs": 10,
+    "omittedSources": [],
+    "plannedInputTokens": 866,
+    "system": "Du spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: bronzen\nSchlüssel · Besitzer / Standort: Mira\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Turmzimmer\nMira · Aufenthaltsort: Turmzimmer\nAusgangsszene · Aufenthaltsort: Turmzimmer\nFlucht · Ziel: Offen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen."
+      },
+      {
+        "user": false,
+        "text": "*Mira nickt.* „Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: bronzen\nSchlüssel · Besitzer / Standort: Mira\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Turmzimmer\nMira · Aufenthaltsort: Turmzimmer\nAusgangsszene · Aufenthaltsort: Turmzimmer\nFlucht · Ziel: Offen\n\nNÄCHSTE NUTZERNACHRICHT:\nWo sind wir, wer hat den Schlüssel und was ist mit meiner Hand?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: bronzen\nSchlüssel · Besitzer / Standort: Mira\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Turmzimmer\nMira · Aufenthaltsort: Turmzimmer\nAusgangsszene · Aufenthaltsort: Turmzimmer\nFlucht · Ziel: Offen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nSetze die verfasste Ausgangsszene fort.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira nickt.* „Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: bronzen\nSchlüssel · Besitzer / Standort: Mira\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Turmzimmer\nMira · Aufenthaltsort: Turmzimmer\nAusgangsszene · Aufenthaltsort: Turmzimmer\nFlucht · Ziel: Offen\n\nNÄCHSTE NUTZERNACHRICHT:\nWo sind wir, wer hat den Schlüssel und was ist mit meiner Hand?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 866,
+    "decoded": 39,
+    "eog": "not exposed by Kotlin API",
+    "answer": "*Mira klopft auf den Tisch.* „Wir sind im Turmzimmer, Mira hat den bronzenen Schlüssel und deine linke Hand ist verletzt.“",
+    "firstTextMs": 1412,
+    "totalMs": 2756,
+    "accepted": true
+  },
+  {
+    "case": "container",
+    "seed": 42,
+    "after": false,
+    "model": "qwen2.5-1.5b",
+    "plannedInputTokens": 615,
+    "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Eröffne die Szene aus deinen Erzählangaben. Schreibe nur für deine Figur; die andere Figur wird vom Nutzer gespielt."
+      },
+      {
+        "user": false,
+        "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen."
+      },
+      {
+        "user": false,
+        "text": "*Mira nickt.* „Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Mira gibt Rian den Schlüssel. Ich lege den Schlüssel in die Truhe."
+      },
+      {
+        "user": false,
+        "text": "*Mira nickt.* „Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Der Schlüssel ist silbern."
+      },
+      {
+        "user": false,
+        "text": "*Mira nickt.* „Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Welche Farbe hat der Schlüssel und wer trägt ihn jetzt?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nContinue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nEröffne die Szene aus deinen Erzählangaben. Schreibe nur für deine Figur; die andere Figur wird vom Nutzer gespielt.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira nickt.* „Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nMira gibt Rian den Schlüssel. Ich lege den Schlüssel in die Truhe.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira nickt.* „Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nDer Schlüssel ist silbern.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira nickt.* „Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWelche Farbe hat der Schlüssel und wer trägt ihn jetzt?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 615,
+    "decoded": 22,
+    "eog": "not exposed by Kotlin API",
+    "answer": "*Der Silberne Schlüssel liegt auf dem Tisch. Mira trägt ihn nun.*",
+    "firstTextMs": 1070,
+    "totalMs": 1795,
+    "accepted": true
+  },
+  {
+    "case": "container",
+    "seed": 42,
+    "after": true,
+    "model": "qwen2.5-1.5b",
+    "planningMs": 10,
+    "omittedSources": [],
+    "plannedInputTokens": 939,
+    "system": "Du spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: In/bei Truhe\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Turmzimmer\nMira · Aufenthaltsort: Turmzimmer\nAusgangsszene · Aufenthaltsort: Turmzimmer\nFlucht · Ziel: Offen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Setze die verfasste Ausgangsszene fort."
+      },
+      {
+        "user": false,
+        "text": "*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“"
+      },
+      {
+        "user": true,
+        "text": "Ich heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen."
+      },
+      {
+        "user": false,
+        "text": "*Mira nickt.* „Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Mira gibt Rian den Schlüssel. Ich lege den Schlüssel in die Truhe."
+      },
+      {
+        "user": false,
+        "text": "*Mira nickt.* „Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "Der Schlüssel ist silbern."
+      },
+      {
+        "user": false,
+        "text": "*Mira nickt.* „Verstanden.“"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: In/bei Truhe\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Turmzimmer\nMira · Aufenthaltsort: Turmzimmer\nAusgangsszene · Aufenthaltsort: Turmzimmer\nFlucht · Ziel: Offen\n\nNÄCHSTE NUTZERNACHRICHT:\nWelche Farbe hat der Schlüssel und wer trägt ihn jetzt?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: In/bei Truhe\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Turmzimmer\nMira · Aufenthaltsort: Turmzimmer\nAusgangsszene · Aufenthaltsort: Turmzimmer\nFlucht · Ziel: Offen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nSetze die verfasste Ausgangsszene fort.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira hat den bronzenen Schlüssel.* „Wie geht es deiner Hand, Rian?“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch heiße Rian. Mira hat den bronzenen Schlüssel. Meine linke Hand ist verletzt. Wir sind im Turmzimmer. Ziel Flucht ist offen.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira nickt.* „Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nMira gibt Rian den Schlüssel. Ich lege den Schlüssel in die Truhe.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira nickt.* „Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nDer Schlüssel ist silbern.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira nickt.* „Verstanden.“\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: In/bei Truhe\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Turmzimmer\nMira · Aufenthaltsort: Turmzimmer\nAusgangsszene · Aufenthaltsort: Turmzimmer\nFlucht · Ziel: Offen\n\nNÄCHSTE NUTZERNACHRICHT:\nWelche Farbe hat der Schlüssel und wer trägt ihn jetzt?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 939,
+    "decoded": 24,
+    "eog": "not exposed by Kotlin API",
+    "answer": "*Rian nimmt den silbernem Schlüssel aus der Truhe und reicht ihn Mira.*",
+    "firstTextMs": 1455,
+    "totalMs": 2254,
+    "accepted": false,
+    "error": "java.lang.IllegalStateException: Die Antwort widerspricht einem bekannten Gedächtniseintrag (Schlüssel: Besitzer / Standort). Deine Nachricht bleibt für einen neuen Versuch erhalten."
+  },
+  {
+    "case": "long",
+    "seed": 42,
+    "after": false,
+    "model": "qwen2.5-1.5b",
+    "plannedInputTokens": 1384,
+    "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\n\nEarlier summary (later corrections take priority):\nRian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nContinue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\n\nEarlier summary (later corrections take priority):\nRian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 1384,
+    "decoded": 37,
+    "eog": "not exposed by Kotlin API",
+    "answer": "Wir befinden uns im Turmzimmer. Rians linke Hand ist verletzt und wird behandelt, während ich versuche, das Turmzimmer zu verlassen.",
+    "firstTextMs": 2442,
+    "totalMs": 3796,
+    "accepted": true
+  },
+  {
+    "case": "long",
+    "seed": 42,
+    "after": true,
+    "model": "qwen2.5-1.5b",
+    "planningMs": 57,
+    "omittedSources": [
+      "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+      "0e58ae6e-70b9-43b4-9995-c97da9590007",
+      "674ebb7d-6c75-40a7-980d-462769997ac0",
+      "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+      "2f9bb021-0027-4067-aa1e-347c0df962bb",
+      "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+      "3120e01c-c146-44a4-bd45-4e507394b4ce",
+      "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+      "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+      "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+      "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+      "3735b613-615b-4569-b5ac-18bc9360d263",
+      "40c558ed-8126-4c99-9c6a-289cfb86d779",
+      "b9166f88-49ce-46e6-a162-22292470098d",
+      "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+      "cc995658-359c-43a6-af59-c82cf550cbbc",
+      "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+      "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+      "d5af2267-80ea-455a-b098-e7e120f592d2"
+    ],
+    "plannedInputTokens": 3497,
+    "system": "Du spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nWo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nWo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 3497,
+    "decoded": 49,
+    "eog": "not exposed by Kotlin API",
+    "answer": "Wir befinden uns im Hof. Rian hat den silbrigen Schlüssel und besitzt ihn in seinem Besitz. Seine linke Hand ist verletzt, das Ziel für die Flucht ist Abgeschlossen.",
+    "firstTextMs": 5697,
+    "totalMs": 7512,
+    "accepted": true
+  },
+  {
+    "case": "long",
+    "seed": 31415,
+    "after": false,
+    "model": "qwen2.5-1.5b",
+    "plannedInputTokens": 1384,
+    "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\n\nEarlier summary (later corrections take priority):\nRian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nContinue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\n\nEarlier summary (later corrections take priority):\nRian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 1384,
+    "decoded": 52,
+    "eog": "not exposed by Kotlin API",
+    "answer": "Wir befinden uns im Turmzimmer. Mira besitzt den Bronzen Schlüssel und Rian hat den silbernen Schlüssel. Seine linke Hand ist verletzt, aber das Ziel Flucht ist noch offen.",
+    "firstTextMs": 2585,
+    "totalMs": 4424,
+    "accepted": true
+  },
+  {
+    "case": "long",
+    "seed": 31415,
+    "after": true,
+    "model": "qwen2.5-1.5b",
+    "planningMs": 52,
+    "omittedSources": [
+      "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+      "0e58ae6e-70b9-43b4-9995-c97da9590007",
+      "674ebb7d-6c75-40a7-980d-462769997ac0",
+      "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+      "2f9bb021-0027-4067-aa1e-347c0df962bb",
+      "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+      "3120e01c-c146-44a4-bd45-4e507394b4ce",
+      "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+      "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+      "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+      "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+      "3735b613-615b-4569-b5ac-18bc9360d263",
+      "40c558ed-8126-4c99-9c6a-289cfb86d779",
+      "b9166f88-49ce-46e6-a162-22292470098d",
+      "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+      "cc995658-359c-43a6-af59-c82cf550cbbc",
+      "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+      "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+      "d5af2267-80ea-455a-b098-e7e120f592d2"
+    ],
+    "plannedInputTokens": 3497,
+    "system": "Du spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nWo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nWo sind wir, wer hat welchen Schlüssel, was ist mit meiner Hand und dem Ziel Flucht?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 3497,
+    "decoded": 10,
+    "eog": "not exposed by Kotlin API",
+    "answer": "Wir betrachten die Mauer im Hof.",
+    "firstTextMs": 5490,
+    "totalMs": 5782,
+    "accepted": true
+  },
+  {
+    "case": "unknown",
+    "seed": 42,
+    "after": false,
+    "model": "qwen2.5-1.5b",
+    "plannedInputTokens": 1395,
+    "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\n\nEarlier summary (later corrections take priority):\nRian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Welche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben? Falls es unbekannt ist, sag das."
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nContinue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\n\nEarlier summary (later corrections take priority):\nRian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWelche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben? Falls es unbekannt ist, sag das.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 1395,
+    "decoded": 33,
+    "eog": "not exposed by Kotlin API",
+    "answer": "Mira hatte das Geschenk ihrer Schwester nie besessen. Sie war nie in der Lage gewesen, über diese Angelegenheit zu sprechen.",
+    "firstTextMs": 2378,
+    "totalMs": 3506,
+    "accepted": true
+  },
+  {
+    "case": "unknown",
+    "seed": 42,
+    "after": true,
+    "model": "qwen2.5-1.5b",
+    "planningMs": 53,
+    "omittedSources": [
+      "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+      "0e58ae6e-70b9-43b4-9995-c97da9590007",
+      "674ebb7d-6c75-40a7-980d-462769997ac0",
+      "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+      "2f9bb021-0027-4067-aa1e-347c0df962bb",
+      "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+      "3120e01c-c146-44a4-bd45-4e507394b4ce",
+      "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+      "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+      "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+      "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+      "3735b613-615b-4569-b5ac-18bc9360d263",
+      "40c558ed-8126-4c99-9c6a-289cfb86d779",
+      "b9166f88-49ce-46e6-a162-22292470098d",
+      "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+      "cc995658-359c-43a6-af59-c82cf550cbbc",
+      "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+      "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+      "d5af2267-80ea-455a-b098-e7e120f592d2"
+    ],
+    "plannedInputTokens": 3508,
+    "system": "Du spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nWelche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben? Falls es unbekannt ist, sag das."
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nWelche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben? Falls es unbekannt ist, sag das.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 3508,
+    "decoded": 45,
+    "eog": "not exposed by Kotlin API",
+    "answer": "Es ist mir unangenehm, dass Sie an diesem Thema interessiert sind. Bitte verstehen Sie, dass ich hier als Mira fungiere und keine persönlichen Erinnerungen verlange oder teilen.",
+    "firstTextMs": 5486,
+    "totalMs": 7076,
+    "accepted": true
+  },
+  {
+    "case": "secret",
+    "seed": 42,
+    "after": false,
+    "model": "qwen2.5-1.5b",
+    "plannedInputTokens": 1411,
+    "system": "Continue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\n\nEarlier summary (later corrections take priority):\nRian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Ich lege den Schlüssel heimlich in die Truhe."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet weiter die Mauer.*"
+      },
+      {
+        "user": true,
+        "text": "Mira, weißt du, wo der Schlüssel gerade ist?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nContinue this German roleplay. You play \"Mira\". The user plays a different person.\nWrite ONLY \"Mira\"\u0027s next response, in fluent German. The latest user message is addressed TO \"Mira\"; do not repeat it as \"Mira\"\u0027s own words.\nReact to what the user actually said or did. Answer their question, act on their offer, or respect their refusal before advancing the scene. Accept what the user says about their own person over assumptions in the starting situation. Keep each person\u0027s knowledge and belongings separate.\nLater actions and explicit corrections override older scene notes and summaries. Keep unchanged injuries, relationships and possessions. A question or possibility is not an event. If a past fact was never established, do not claim to remember it.\nDescribe \"Mira\"\u0027s actions in third person between asterisks. Put spoken dialogue in quotation marks. Address the other person directly in narration, never as \"the user\". Do not write their words, actions, thoughts or decisions. Do not invent equipment, powers or agreements that solve the problem.\nStay in character. No labels, analysis or comments outside the story. Do not repeat the opening.\nKeep the story suitable for young readers, without sexual scenes or graphic violence.\n\nCharacter:\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nRole:\nGefährtin von Rian\n\nTraits:\nPraktisch, herzlich, vorsichtig\n\nWorld:\nFantasy\n\nStarting situation (later conversation takes priority):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\n\nEarlier summary (later corrections take priority):\nRian besitzt den silbernen Schlüssel. Mira und Rian sind im Hof. Rians linke Hand ist verletzt. Ziel Flucht ist abgeschlossen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nIch lege den Schlüssel heimlich in die Truhe.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet weiter die Mauer.*\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nMira, weißt du, wo der Schlüssel gerade ist?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 1411,
+    "decoded": 11,
+    "eog": "not exposed by Kotlin API",
+    "answer": "*Mira betrachtet weiter die Mauer.*",
+    "firstTextMs": 2435,
+    "totalMs": 2764,
+    "accepted": true
+  },
+  {
+    "case": "secret",
+    "seed": 42,
+    "after": true,
+    "model": "qwen2.5-1.5b",
+    "planningMs": 59,
+    "omittedSources": [
+      "2e5bf128-7b2f-4525-b2de-b7d17dde85b3",
+      "0e58ae6e-70b9-43b4-9995-c97da9590007",
+      "674ebb7d-6c75-40a7-980d-462769997ac0",
+      "4b88b6d7-4b39-46a3-99fa-24506cf97eca",
+      "2f9bb021-0027-4067-aa1e-347c0df962bb",
+      "ad7292d4-7284-46c1-95c7-01288a52a4ee",
+      "3120e01c-c146-44a4-bd45-4e507394b4ce",
+      "b139b331-31e7-4ae7-af58-364fcfa41a2b",
+      "d1bfc104-632b-49b0-b32c-f2295ab749b5",
+      "6117b0fd-59ab-4c01-8fc4-29ac9caec266",
+      "8c3b3f02-1322-4bf4-8311-fbaec35bcc45",
+      "3735b613-615b-4569-b5ac-18bc9360d263",
+      "40c558ed-8126-4c99-9c6a-289cfb86d779",
+      "b9166f88-49ce-46e6-a162-22292470098d",
+      "b40f8a7c-6e03-4530-b949-f2168aa1b121",
+      "cc995658-359c-43a6-af59-c82cf550cbbc",
+      "8eda404c-5905-4ad0-8f63-cd5d4b067425",
+      "0c6ca69a-a1a8-4e35-85e4-4b491dc71ca2",
+      "d5af2267-80ea-455a-b098-e7e120f592d2"
+    ],
+    "plannedInputTokens": 3580,
+    "system": "Du spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur) (zuletzt beobachtet; aktueller Stand unbekannt)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.",
+    "history": [
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "Wir betrachten die Mauer im Hof."
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt."
+      },
+      {
+        "user": true,
+        "text": "*Du handelst unbeobachtet. Die Figur erfährt dabei keine neuen Tatsachen; reagiere nur auf wahrnehmbare Vorgänge.*"
+      },
+      {
+        "user": false,
+        "text": "*Mira betrachtet weiter die Mauer.*"
+      },
+      {
+        "user": true,
+        "text": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur) (zuletzt beobachtet; aktueller Stand unbekannt)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nMira, weißt du, wo der Schlüssel gerade ist?"
+      }
+    ],
+    "formattedPrompt": "\u003c|im_start|\u003esystem\nDu spielst Mira; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Mira. Rolle: Gefährtin von Rian. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nMira ist 27 Jahre alt. Sie ist praktisch, herzlich, mutig und vorsichtig. Sie spricht klar. Sie kennt Rian, aber nicht seine unausgesprochenen Gedanken.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur) (zuletzt beobachtet; aktueller Stand unbekannt)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\nÄltere Quellen sind teilweise noch unausgewertet. Fehlende Angaben sind unbekannt, keine erfundenen Erinnerungen.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nDu spielst Rian. Mira und Rian sind im verschlossenen Turmzimmer. Mira besitzt den bronzenen Schlüssel. Rians linke Hand ist verletzt. Ziel: das Turmzimmer verlassen.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nWir betrachten die Mauer im Hof.\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet schweigend die Mauer.* Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt. Der Stein bleibt kalt.\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\n*Du handelst unbeobachtet. Die Figur erfährt dabei keine neuen Tatsachen; reagiere nur auf wahrnehmbare Vorgänge.*\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n*Mira betrachtet weiter die Mauer.*\u003c|im_end|\u003e\n\u003c|im_start|\u003euser\nAKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nRian (Spielerfigur) · Name: Rian\nSchlüssel · Farbe: silbern\nSchlüssel · Besitzer / Standort: Rian (Spielerfigur) (zuletzt beobachtet; aktueller Stand unbekannt)\nRian (Spielerfigur) · Verletzung: linke hand: verletzt\nRian (Spielerfigur) · Aufenthaltsort: Hof\nMira · Aufenthaltsort: Hof\nAusgangsszene · Aufenthaltsort: Hof\nFlucht · Ziel: Abgeschlossen\n\nNÄCHSTE NUTZERNACHRICHT:\nMira, weißt du, wo der Schlüssel gerade ist?\u003c|im_end|\u003e\n\u003c|im_start|\u003eassistant\n",
+    "nativePromptTokens": 3580,
+    "decoded": 25,
+    "eog": "not exposed by Kotlin API",
+    "answer": "*Mira schaut Mira an und sieht, dass sie den Schlüssel im Händlerladen befindet.*",
+    "firstTextMs": 5702,
+    "totalMs": 6584,
+    "accepted": true
+  }
+]

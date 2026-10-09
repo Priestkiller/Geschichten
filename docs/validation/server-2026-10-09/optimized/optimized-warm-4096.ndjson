@@ -1,0 +1,8 @@
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:00:33.6425267Z","message":{"role":"assistant","content":"Ja"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:00:33.7029592Z","message":{"role":"assistant","content":","},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:00:33.7616041Z","message":{"role":"assistant","content":" ich"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:00:33.8204324Z","message":{"role":"assistant","content":" bin"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:00:33.8826792Z","message":{"role":"assistant","content":" bere"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:00:33.941362Z","message":{"role":"assistant","content":"it"},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:00:34.0004373Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"geschichten-qwen3-8b-test","created_at":"2026-10-09T20:00:34.0592215Z","message":{"role":"assistant","content":""},"done":true,"done_reason":"stop","total_duration":488133700,"load_duration":6606300,"prompt_eval_count":38,"prompt_eval_cached_count":37,"prompt_eval_duration":62853000,"eval_count":8,"eval_duration":416745000}

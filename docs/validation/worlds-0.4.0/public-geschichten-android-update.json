@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "applicationId": "dev.vincent.geschichten",
+  "versionCode": 6,
+  "versionName": "0.4.0",
+  "channel": "test",
+  "minSdk": 31,
+  "apk": {
+    "assetName": "Geschichten-0.4.0.apk",
+    "size": 306719750,
+    "sha256": "3942596b01ba21a6258fb96cae9e9390522f4b2a96303b3f7062d0fd05d6be0d"
+  }
+}

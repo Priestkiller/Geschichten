@@ -1,0 +1,682 @@
+{
+  "figures": [
+    {
+      "id": "runa",
+      "name": "Runa",
+      "role": "Nordische Kundschafterin",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_runa.png",
+      "sha256": "d0ffc278eb37e47a2a6c02402f0b345e7bbc8903633ab8d59349cbfe0bd33717"
+    },
+    {
+      "id": "elara",
+      "name": "Elara",
+      "role": "Magierin des Sternenarchivs",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_elara.png",
+      "sha256": "525452bc1d43ddb3e65572a3df36ee56c2b4c1237d79cfc1874ba638bf77186b"
+    },
+    {
+      "id": "leon",
+      "name": "Leon",
+      "role": "Privatdetektiv am Hafen",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_leon.png",
+      "sha256": "ef53b82427cebdb2f0ceb078765a506b97d0067db92be56be9ab77307a2e177d"
+    },
+    {
+      "id": "mira",
+      "name": "Mira",
+      "role": "Entdeckerin ferner Welten",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_mira.png",
+      "sha256": "3fdc63b1f770cbe15499412666af146400e10a630b5e7af38be49a19fab64c88"
+    },
+    {
+      "id": "aelwyn",
+      "name": "Aelwyn",
+      "role": "Waldelfen-Späherin",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_aelwyn.png",
+      "sha256": "5da84cef433a33ebfa21c97151de73c6574b2e558359c51833bce8c5a4e3fc15"
+    },
+    {
+      "id": "borin",
+      "name": "Borin",
+      "role": "Zwergischer Runenschmied",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_borin.png",
+      "sha256": "588ad2f0444fcc3dc0619506343e7a2be8cfa3e7cffae1a7296f0fc3d6af0a12"
+    },
+    {
+      "id": "kael",
+      "name": "Kael",
+      "role": "Menschlicher Paladin",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_kael.png",
+      "sha256": "034ab1c88806e0b2e998e65f89ce1b5e181ad41628b99e5d410f2eaa2ef879a8"
+    },
+    {
+      "id": "nyra",
+      "name": "Nyra",
+      "role": "Tiefling-Diplomatin",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_nyra.png",
+      "sha256": "f5bad439f00fbd58e6a3dae1a71112f611291e4b6d5563fd98cc3792d48fb5f0"
+    },
+    {
+      "id": "sylwen",
+      "name": "Sylwen",
+      "role": "Druidenhüterin",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_sylwen.png",
+      "sha256": "896bb00aa807e73a99fb137194fe07cd1ef150c6d10a4b86ba93d835067828ce"
+    },
+    {
+      "id": "varen",
+      "name": "Varen",
+      "role": "Vampirischer Archivar",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_varen.png",
+      "sha256": "7bf064d81b5c0513baac2e8a88b83cfeff2cedda3db218d59a6712fea4898154"
+    },
+    {
+      "id": "thora",
+      "name": "Thora",
+      "role": "Orkische Karawanenführerin",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_thora.png",
+      "sha256": "e4d88bcc0ff607c3eb932b6f2919a8864923fe4632b5041b272583efd95d9526"
+    },
+    {
+      "id": "orin",
+      "name": "Orin",
+      "role": "Rabengestaltwandler",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_orin.png",
+      "sha256": "c185ad4bcece6edff025d8831f74abfc6d02edb155ba25bc8ef07df06c900d0e"
+    },
+    {
+      "id": "vaelgor",
+      "name": "Vaelgor",
+      "role": "Uralter Bronzedrache",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_vaelgor.png",
+      "sha256": "0eaa1de176cda956fca8d5f479fbaff69eec4d80c70baa347bacb51a676d0228"
+    },
+    {
+      "id": "fenrik",
+      "name": "Fenrik",
+      "role": "Sprechender Runenwolf",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_fenrik.png",
+      "sha256": "d2697abc68283ee5db03046fa7a45fce1a5436dc28c34d8350591aa9510d6dda"
+    },
+    {
+      "id": "soryn",
+      "name": "Soryn",
+      "role": "Waldgeist in Hirschgestalt",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_soryn.png",
+      "sha256": "17fc34b3b03394babeba3adbb460639945d72ca642c0f3fe8ce11bd29db1d68c"
+    },
+    {
+      "id": "seris",
+      "name": "Seris",
+      "role": "Nixe und Meeresbotin",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_seris.png",
+      "sha256": "2469414f5b705506c9a4ef294261fb80b1b5f1a57be4204d90a593a94ae88719"
+    },
+    {
+      "id": "nessa",
+      "name": "Nessa",
+      "role": "Fuchswandlerin",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_nessa.png",
+      "sha256": "b5569423b70cd8f8ce7476110f4c8018e768a5441ae05a894e5243bf18d7164b"
+    },
+    {
+      "id": "korr",
+      "name": "Korr",
+      "role": "Steinwächter (Golem)",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_korr.png",
+      "sha256": "8664997ed5dce53183beb4df160058cda30d2ef4e6320d57964f91de0f0396bd"
+    },
+    {
+      "id": "pyra",
+      "name": "Pyra",
+      "role": "Phönix",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_pyra.png",
+      "sha256": "db513817893abfe7bf42c2782131464b52ec9270c900e45ad17e0272dbcc27d3"
+    },
+    {
+      "id": "aruun",
+      "name": "Aruun",
+      "role": "Sprechender Greif",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_aruun.png",
+      "sha256": "746c88da181fbd057483e36d487d880e2688a47b414df2cad924df9368da6161"
+    },
+    {
+      "id": "astrid",
+      "name": "Astrid",
+      "role": "Heilerin der Fjorddörfer",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_astrid.png",
+      "sha256": "7a56d553ef1b060a2c2c6e44cad062ff231b29a976169337bff418b04d780801"
+    },
+    {
+      "id": "eirik",
+      "name": "Eirik",
+      "role": "Schiffer der Nebelfjorde",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_eirik.png",
+      "sha256": "493c92cc31e211d4f48135b32c2c05285a6e3177cb20479fabae838ecd652f94"
+    },
+    {
+      "id": "sigrid",
+      "name": "Sigrid",
+      "role": "Jarlin von Winterhall",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_sigrid.png",
+      "sha256": "9d7c12ff6329035f4e51eb14300441d06a5de2f7cb1852f7d9f9c467345fe1a1"
+    },
+    {
+      "id": "torben",
+      "name": "Torben",
+      "role": "Skalde der verlorenen Lieder",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_torben.png",
+      "sha256": "ed99e9b2337553078817582964af0bfbf00fbb988a98cebf3158da3953b9778a"
+    },
+    {
+      "id": "liv",
+      "name": "Liv",
+      "role": "Kartografin der Schären",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_liv.png",
+      "sha256": "3665733d4eac5ab83fd135ac123171cbb71ffdcb4555cbe792733f282a1994e0"
+    },
+    {
+      "id": "halvard",
+      "name": "Halvard",
+      "role": "Steinmetz der Bergwege",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_halvard.png",
+      "sha256": "c6824d2e01df55f2afb22fa5b30b9d9a1b47b3b0f4a8f52acfc6c36d852764fa"
+    },
+    {
+      "id": "solveig",
+      "name": "Solveig",
+      "role": "Wetterkundige der Küste",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_solveig.png",
+      "sha256": "65a9bd94da0024361ed57a9e9be5e8d0724880f08e9f20f924126b35d0d40eba"
+    },
+    {
+      "id": "bjarke",
+      "name": "Bjarke",
+      "role": "Wächter des Winterwalds",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_bjarke.png",
+      "sha256": "7ffb41e01d3dab124f54565397b38a79c2d8ec726e069a34933033d1ca4349bc"
+    },
+    {
+      "id": "yngvar",
+      "name": "Yngvar",
+      "role": "Hüter der Hügelschreine",
+      "category": "Nordische Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_yngvar.png",
+      "sha256": "01ad8da5c903083fa8f78263be1a66ca01f9863495614cc6bf2991b241330ed8"
+    },
+    {
+      "id": "maelis",
+      "name": "Maelis",
+      "role": "Gnomischer Alchemist",
+      "category": "Fantasy",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_maelis.png",
+      "sha256": "37d6025f6b0f86dbfcdb0880f4d9c745033184d79ab69ba70b4bf6467203ba84"
+    },
+    {
+      "id": "johanna",
+      "name": "Johanna",
+      "role": "Kriminalkommissarin",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_johanna.png",
+      "sha256": "a5592e26a2c145f745cb9864aa12036dd4d1b075fc6c37d676a74ecc70cb0e06"
+    },
+    {
+      "id": "cem",
+      "name": "Cem",
+      "role": "Investigativer Journalist",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_cem.png",
+      "sha256": "9fa69167aff57f22a57e2978778026dee303863cd0a63b6bc9eb0a90e1f7c5ef"
+    },
+    {
+      "id": "vera",
+      "name": "Vera",
+      "role": "Restauratorin mit Spürsinn",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_vera.png",
+      "sha256": "e9c20d6a1b41427d2bdff07259a6b6b917cbac22852e7aae53ea34fa81e0388f"
+    },
+    {
+      "id": "anton",
+      "name": "Anton",
+      "role": "Pensionierter Tresorspezialist",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_anton.png",
+      "sha256": "26cbf59eeee77083496d388e20e1500457b89cc90778bb346da6d24cdeb0246f"
+    },
+    {
+      "id": "nora",
+      "name": "Nora",
+      "role": "Forensische Fotografin",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_nora.png",
+      "sha256": "2a09864214ed0f1c5a6e5fd03d7f3641a8b880b5600ca7df7a32f6ea61ac0ae7"
+    },
+    {
+      "id": "kaspar",
+      "name": "Kaspar",
+      "role": "Nachtportier im Hotel Abendrot",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_kaspar.png",
+      "sha256": "11cebcf1ea54a5979c0e6ca95412f399a0af65df4bfd9760e7f9e5e24fa04dd7"
+    },
+    {
+      "id": "ines",
+      "name": "Ines",
+      "role": "Ermittlerin für Versicherungen",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_ines.png",
+      "sha256": "2bfb955122b4f828194636932c76faa134d7650999195474884ef750f25082be"
+    },
+    {
+      "id": "malik",
+      "name": "Malik",
+      "role": "Fahrradkurier mit Ortskenntnis",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_malik.png",
+      "sha256": "ffb593d3a58453fc572487eeb306c4a3c28888a129b43a52919e6f6fd5fd2b06"
+    },
+    {
+      "id": "hedda",
+      "name": "Hedda",
+      "role": "Stadtarchivarin",
+      "category": "Krimi",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_hedda.png",
+      "sha256": "985bfddfc538db58f60a5d9104bdd37b7f21932e2da1fe6ffecdf8a69aa81c70"
+    },
+    {
+      "id": "tarek",
+      "name": "Tarek",
+      "role": "Orbitalmechaniker",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_tarek.png",
+      "sha256": "1c044af3dc43d668d0262d8a100375e0c72b92f0f67730ee58e575141d203026"
+    },
+    {
+      "id": "sana",
+      "name": "Sana",
+      "role": "Xenobiologin",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_sana.png",
+      "sha256": "0d9a026dbe5d5b819beed091d4ab40bdeef898393ecf1ae89fa73833505e467b"
+    },
+    {
+      "id": "ivo",
+      "name": "Ivo",
+      "role": "Androidischer Archivverwalter",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_ivo.png",
+      "sha256": "a98e7ae968b12c1196c23d8fce7b7fba0b5364ae98c7a0d4e35b7070b943c3be"
+    },
+    {
+      "id": "lyra",
+      "name": "Lyra",
+      "role": "Analystin für Tiefraumsignale",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_lyra.png",
+      "sha256": "6041e338e76b27e6c0ac78bb5693c46e22094b3385c6bb6b2d0dc3f31e06c196"
+    },
+    {
+      "id": "noam",
+      "name": "Noam",
+      "role": "Gärtner eines Orbitalhabitats",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_noam.png",
+      "sha256": "4c8466a20bdf90cced465c7ca1bcdf676a2172fa68b035b9bdac658264f262b4"
+    },
+    {
+      "id": "keira",
+      "name": "Keira",
+      "role": "Kapitänin eines Frachtshuttles",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_keira.png",
+      "sha256": "2a0db163353a7db9722eef403107c3d955f7548141b66bf42ebddf51ba8477f2"
+    },
+    {
+      "id": "rohan",
+      "name": "Rohan",
+      "role": "Techniker für Terraforming",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_rohan.png",
+      "sha256": "0bdc3f5126ef105122be4df173974254c9762de3522e3cf6aef07650441d4a97"
+    },
+    {
+      "id": "ada",
+      "name": "Ada",
+      "role": "Technikerin für Rettungsrobotik",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_ada.png",
+      "sha256": "84b4005071614113e1627461dd0b38273430c4a744082abbdcbfcc2bedf4a331"
+    },
+    {
+      "id": "silas",
+      "name": "Silas",
+      "role": "Diplomat zwischen Kolonien",
+      "category": "Science-Fiction",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "männlich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_silas.png",
+      "sha256": "6618354db990864cca060dacc3a86578b983a54da000baaef661556f707f6dc7"
+    },
+    {
+      "id": "thalora",
+      "name": "Thalora",
+      "role": "Sprechende Meeresschildkröte",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_thalora.png",
+      "sha256": "33f0c4158c0b97d27fdbcd2c6349eceaead66b0b6ca3997a9c55de693cbcf152"
+    },
+    {
+      "id": "veshra",
+      "name": "Veshra",
+      "role": "Sphinx der Sandsteinbibliothek",
+      "category": "Kreaturen",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "gender": "weiblich",
+      "portrait": "app\\src\\main\\res\\drawable-nodpi\\portrait_veshra.png",
+      "sha256": "9f385da2a7b15167e59f182afba2fe2c19eb9d62341580e8ec30d678a849ce8d"
+    }
+  ],
+  "count": 50,
+  "categories": {
+    "Nordische Fantasy": {
+      "total": 10,
+      "female": 5,
+      "male": 5
+    },
+    "Fantasy": {
+      "total": 10,
+      "female": 5,
+      "male": 5
+    },
+    "Krimi": {
+      "total": 10,
+      "female": 5,
+      "male": 5
+    },
+    "Science-Fiction": {
+      "total": 10,
+      "female": 5,
+      "male": 5
+    },
+    "Kreaturen": {
+      "total": 10,
+      "female": 5,
+      "male": 5
+    }
+  }
+}

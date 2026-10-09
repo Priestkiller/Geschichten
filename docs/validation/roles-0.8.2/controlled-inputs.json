@@ -1,0 +1,2600 @@
+[
+  {
+    "case": "letter-rian-mira",
+    "bundle": {
+      "story": {
+        "id": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+        "characterId": "fixture-mira",
+        "title": "Der Brunnen",
+        "summary": "",
+        "startContext": "Mira und Rian sind im Hof.",
+        "createdAt": 1791269012814,
+        "updatedAt": 1791269013161
+      },
+      "character": {
+        "id": "fixture-mira",
+        "name": "Mira",
+        "role": "Gefährtin von Rian",
+        "genre": "Fantasy",
+        "traits": "Praktisch, herzlich, vorsichtig",
+        "personality": "Mira ist 27 Jahre alt und spricht klares Deutsch. Sie ist praktisch, herzlich und vorsichtig. Rian ist ihre Reisebegleitung.",
+        "scenario": "Mira und Rian sind im Hof.",
+        "storyTitle": "Der Brunnen",
+        "openingMessage": "*Mira sieht Rian an.* „Womit beginnen wir?“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "32653832-30d4-47da-8a8d-a85225949bc9",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira sieht Rian an.* „Womit beginnen wir?“",
+          "createdAt": 1791269012814
+        },
+        {
+          "id": "87d51ab5-2712-478e-b404-599fa2716c24",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Ich heiße Rian. Mira hat den roten Schlüssel. Wir sind im Hof.",
+          "createdAt": 1791269012815
+        },
+        {
+          "id": "1a9460f8-9af0-4273-ae59-4bedae7b5186",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791269012824
+        },
+        {
+          "id": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Vorspann. Das Losungswort am Brunnen lautet Morgenstern. Ich gebe dir am Brunnen den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann. Nachspann.",
+          "createdAt": 1791269012827
+        },
+        {
+          "id": "727f61ee-bf16-4f75-9ec8-28cf03b5b0ae",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira nickt.* „Verstanden.“",
+          "createdAt": 1791269012970
+        },
+        {
+          "id": "b1f93f81-793c-4891-acf8-53ceaf45db28",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 0.",
+          "createdAt": 1791269013112
+        },
+        {
+          "id": "38395c22-106d-4320-a25d-27435af37e8e",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 0.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013113
+        },
+        {
+          "id": "d7e85a78-6387-44d1-a9e6-7d6ac8cfbafd",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 1.",
+          "createdAt": 1791269013115
+        },
+        {
+          "id": "142764e9-29bd-479b-a0c8-97882c97b55d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 1.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013116
+        },
+        {
+          "id": "a49119d6-de1f-4df4-b8c3-d7b3b098009a",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 2.",
+          "createdAt": 1791269013117
+        },
+        {
+          "id": "3d9059fe-2f36-4218-a5bf-afdd586680e3",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 2.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013118
+        },
+        {
+          "id": "4dda29a4-f9a2-41a4-a477-6de3f640445d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 3.",
+          "createdAt": 1791269013119
+        },
+        {
+          "id": "6a884151-cf43-477a-9f44-09a05a1283f0",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 3.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013121
+        },
+        {
+          "id": "02cea5fd-90e5-4146-b478-f6c94074dc2d",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 4.",
+          "createdAt": 1791269013122
+        },
+        {
+          "id": "2d08c091-9e3a-48a3-970a-393f9195cd53",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 4.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013125
+        },
+        {
+          "id": "49477b55-9a9d-411b-9bfc-52be45284f09",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 5.",
+          "createdAt": 1791269013127
+        },
+        {
+          "id": "6522d4c7-74cd-4398-9e92-6fec7198a36e",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 5.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013130
+        },
+        {
+          "id": "0c13200c-8be0-4751-bffe-1fb34d5f1f0f",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 6.",
+          "createdAt": 1791269013132
+        },
+        {
+          "id": "fb041729-5f5c-4154-8aaa-3e3d52bb7dc1",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 6.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013134
+        },
+        {
+          "id": "7327dbe5-90e5-4185-9351-294a96e13781",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 7.",
+          "createdAt": 1791269013135
+        },
+        {
+          "id": "7984b33b-dab1-4a1a-b16c-1aed10b64241",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 7.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013137
+        },
+        {
+          "id": "0cf6fffb-9766-4919-941f-c5da0cb7a9c4",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 8.",
+          "createdAt": 1791269013140
+        },
+        {
+          "id": "73e142b6-1494-43c3-a2d6-434698fccc35",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 8.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013145
+        },
+        {
+          "id": "094c6f9e-cbea-404b-98c5-488cb881f315",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 9.",
+          "createdAt": 1791269013147
+        },
+        {
+          "id": "97d9b916-795e-4a70-a7ee-8f74d2678741",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 9.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013152
+        },
+        {
+          "id": "9d1c7ed9-7ea0-4be4-90b9-dd0e1e9148d2",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 10.",
+          "createdAt": 1791269013153
+        },
+        {
+          "id": "7a8c9a4e-4f76-4341-ac5c-bd158cbe3c18",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013156
+        },
+        {
+          "id": "867d7b5a-6e4d-4cb6-8fbf-abc47f6a80c0",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wir betrachten Mauer Nummer 11.",
+          "createdAt": 1791269013157
+        },
+        {
+          "id": "8450ba3f-e4b8-4f0d-ab50-258a1a50acba",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "CHARACTER",
+          "text": "*Mira betrachtet die Mauer 11.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791269013160
+        },
+        {
+          "id": "980a274f-4a76-4f73-8be6-ca178d12af52",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "role": "USER",
+          "text": "Wie lautet das Losungswort am Brunnen und warum habe ich dir den Brief anvertraut?",
+          "createdAt": 1791269013161
+        }
+      ],
+      "memories": [
+        {
+          "id": "6f521e2c-8d1c-4cbf-b501-a4ad6bc18182",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "kind": "FACT",
+          "text": "Startvorgabe: Mira: Gefährtin von Rian",
+          "pinned": true,
+          "createdAt": 1791269012814,
+          "updatedAt": 1791269012814
+        },
+        {
+          "id": "e08b1085-eea2-4f41-be08-c2605d700ff4",
+          "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Mira und Rian sind im Hof.",
+          "pinned": true,
+          "createdAt": 1791269012815,
+          "updatedAt": 1791269012815
+        }
+      ],
+      "memory": {
+        "version": 37,
+        "facts": [
+          {
+            "id": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6c7238d7231209312a2a3aaf0b9344d0",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Rian",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Ich heiße Rian.",
+            "version": 4,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "3af02eea91d672b3170b559144411378",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "color",
+            "value": "rot",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Mira hat den roten Schlüssel.",
+            "version": 5,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "878c45732ac90d434e76a085769297de",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "49818f542fecb41c1f2d9eeaa8b17596",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Schlüssel"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Mira hat den roten Schlüssel.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "2ec2647961054945da34c78b2bac6a3b",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6c7238d7231209312a2a3aaf0b9344d0",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "6410568bb53f5966cacdca8122bcb97c",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "PERSON",
+              "name": "Mira"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 8,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "5056e40927b46b8e0a8976d83d0b689c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "dd06ad65ab992e05231bee6cddd75e84",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Hof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "sourceText": "Wir sind im Hof.",
+            "version": 9,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012815,
+            "sourceOrder": 2
+          },
+          {
+            "id": "39d7e542f9da4aac58eb8ea929f0630c",
+            "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+            "entity": {
+              "id": "659799271a447a8144039e2aed0a8cc4",
+              "storyId": "193fe8a0-94ce-465b-bda8-bb4350d986a4",
+              "kind": "ITEM",
+              "name": "Brief"
+            },
+            "field": "holder",
+            "value": "Mira",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "sourceText": "Ich gebe dir am Brunnen den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen kann.",
+            "version": 12,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791269012827,
+            "sourceOrder": 4
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "3af02eea91d672b3170b559144411378",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 5
+          },
+          {
+            "factId": "3af02eea91d672b3170b559144411378",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 5
+          },
+          {
+            "factId": "878c45732ac90d434e76a085769297de",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 6
+          },
+          {
+            "factId": "878c45732ac90d434e76a085769297de",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 6
+          },
+          {
+            "factId": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 8
+          },
+          {
+            "factId": "c720f1bde66fa78f8ef3c52b4a441d08",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 8
+          },
+          {
+            "factId": "39d7e542f9da4aac58eb8ea929f0630c",
+            "knower": "character",
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "version": 12
+          },
+          {
+            "factId": "39d7e542f9da4aac58eb8ea929f0630c",
+            "knower": "player",
+            "sourceId": "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+            "version": 12
+          },
+          {
+            "factId": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 4
+          },
+          {
+            "factId": "74bdd80b8d62ae4bf8048baa1ea7218c",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 4
+          },
+          {
+            "factId": "2ec2647961054945da34c78b2bac6a3b",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 7
+          },
+          {
+            "factId": "2ec2647961054945da34c78b2bac6a3b",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 7
+          },
+          {
+            "factId": "5056e40927b46b8e0a8976d83d0b689c",
+            "knower": "character",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 9
+          },
+          {
+            "factId": "5056e40927b46b8e0a8976d83d0b689c",
+            "knower": "player",
+            "sourceId": "87d51ab5-2712-478e-b404-599fa2716c24",
+            "version": 9
+          }
+        ],
+        "scannedSources": [
+          "32653832-30d4-47da-8a8d-a85225949bc9",
+          "87d51ab5-2712-478e-b404-599fa2716c24",
+          "1a9460f8-9af0-4273-ae59-4bedae7b5186",
+          "41f4b40b-e68c-4c03-b91a-454932d6ba59",
+          "727f61ee-bf16-4f75-9ec8-28cf03b5b0ae",
+          "b1f93f81-793c-4891-acf8-53ceaf45db28",
+          "38395c22-106d-4320-a25d-27435af37e8e",
+          "d7e85a78-6387-44d1-a9e6-7d6ac8cfbafd",
+          "142764e9-29bd-479b-a0c8-97882c97b55d",
+          "a49119d6-de1f-4df4-b8c3-d7b3b098009a",
+          "3d9059fe-2f36-4218-a5bf-afdd586680e3",
+          "4dda29a4-f9a2-41a4-a477-6de3f640445d",
+          "6a884151-cf43-477a-9f44-09a05a1283f0",
+          "02cea5fd-90e5-4146-b478-f6c94074dc2d",
+          "2d08c091-9e3a-48a3-970a-393f9195cd53",
+          "49477b55-9a9d-411b-9bfc-52be45284f09",
+          "6522d4c7-74cd-4398-9e92-6fec7198a36e",
+          "0c13200c-8be0-4751-bffe-1fb34d5f1f0f",
+          "fb041729-5f5c-4154-8aaa-3e3d52bb7dc1",
+          "7327dbe5-90e5-4185-9351-294a96e13781",
+          "7984b33b-dab1-4a1a-b16c-1aed10b64241",
+          "0cf6fffb-9766-4919-941f-c5da0cb7a9c4",
+          "73e142b6-1494-43c3-a2d6-434698fccc35",
+          "094c6f9e-cbea-404b-98c5-488cb881f315",
+          "97d9b916-795e-4a70-a7ee-8f74d2678741",
+          "9d1c7ed9-7ea0-4be4-90b9-dd0e1e9148d2",
+          "7a8c9a4e-4f76-4341-ac5c-bd158cbe3c18",
+          "867d7b5a-6e4d-4cb6-8fbf-abc47f6a80c0",
+          "8450ba3f-e4b8-4f0d-ab50-258a1a50acba"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "mira"
+        ]
+      }
+    },
+    "manualEvent": "Vergangenheit: Rian übergab Mira den Brief am Brunnen. Handelnde Person: Rian. Gegenstand: Brief. Empfängerin: Mira. Rians Hand war verletzt. Grund der Übergabe: Rian konnte mit der verletzten Hand das Siegel nicht unbeschädigt öffnen. Mira erhielt den Brief und kennt diesen Grund. Losungswort am Brunnen: Morgenstern.",
+    "expected": "Morgenstern; Rian gab Mira den Brief, weil Rians Hand verletzt war; Mira antwortet Rian mit du/deine statt ich/meine.",
+    "repeat": true
+  },
+  {
+    "case": "reverse-kora-levin",
+    "bundle": {
+      "story": {
+        "id": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+        "characterId": "role-reverse-kora-levin",
+        "title": "Innenhof",
+        "summary": "",
+        "startContext": "Kora und Levin sind im Innenhof.",
+        "createdAt": 1791306108009,
+        "updatedAt": 1791306108227
+      },
+      "character": {
+        "id": "role-reverse-kora-levin",
+        "name": "Kora",
+        "role": "Reisebegleitung von Levin",
+        "genre": "Fantasy",
+        "traits": "Praktisch, aufmerksam",
+        "personality": "Kora ist 29 Jahre alt, spricht klares Deutsch und hört Levin aufmerksam zu.",
+        "scenario": "Kora und Levin sind im Innenhof.",
+        "storyTitle": "Innenhof",
+        "openingMessage": "*Kora sieht Levin an.* „Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "eb395a88-d780-47e0-ae0f-dadaefff9006",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora sieht Levin an.* „Ich höre zu.“",
+          "createdAt": 1791306108009
+        },
+        {
+          "id": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Ich heiße Levin. Wir sind im Innenhof.",
+          "createdAt": 1791306108031
+        },
+        {
+          "id": "6eda4e0a-4f5c-4cc6-b5f3-cd051158ced4",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora nickt.* „Verstanden.“",
+          "createdAt": 1791306108043
+        },
+        {
+          "id": "0123c234-bdae-4302-ba93-749e1335c656",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Was tust du?",
+          "createdAt": 1791306108061
+        },
+        {
+          "id": "3da7405d-c1f6-4fc0-85f3-23699cb957c8",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora gibt Levin das Amulett.* „Ich gebe dir das Amulett, weil meine rechte Schulter verletzt ist und ich es nicht tragen kann.“",
+          "createdAt": 1791306108073
+        },
+        {
+          "id": "ffb946f0-94c5-487a-8b76-e48aa3c17e93",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 0.",
+          "createdAt": 1791306108087
+        },
+        {
+          "id": "eb67ae7f-4015-4777-8ad7-e8452d99491b",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 0.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108093
+        },
+        {
+          "id": "663f6f9b-a438-4e05-bb80-59ff89309321",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 1.",
+          "createdAt": 1791306108103
+        },
+        {
+          "id": "202ebfd1-a81a-4022-9618-33acee7a1ea8",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 1.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108110
+        },
+        {
+          "id": "dc3fe135-4344-48cf-b4c0-8dc945f86fe4",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 2.",
+          "createdAt": 1791306108123
+        },
+        {
+          "id": "b57075ec-2c66-4315-baea-1842d44672b5",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 2.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108137
+        },
+        {
+          "id": "1ee21449-94b6-4301-ad61-e1afa5ac779c",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 3.",
+          "createdAt": 1791306108146
+        },
+        {
+          "id": "b05fd5e5-1bb0-49b5-a769-538e96cf05ff",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 3.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108152
+        },
+        {
+          "id": "85fc63be-83ab-4f22-98b5-2b62d4bd1a2c",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 4.",
+          "createdAt": 1791306108158
+        },
+        {
+          "id": "bf479624-6d22-46ab-af1e-3d9db183cc69",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 4.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108162
+        },
+        {
+          "id": "b74e6bf5-1b92-4a77-b00f-17c54691684d",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 5.",
+          "createdAt": 1791306108167
+        },
+        {
+          "id": "f9e55240-cfd5-486c-bf99-25f6e6d183d0",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 5.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108172
+        },
+        {
+          "id": "5a3b0b78-2986-46d7-94d4-882e5f9b392d",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 6.",
+          "createdAt": 1791306108177
+        },
+        {
+          "id": "3765cb61-69d7-462f-9355-6df547eb43df",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 6.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108181
+        },
+        {
+          "id": "e1447319-0a7b-4d59-8f26-86fdb7e7ab5b",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 7.",
+          "createdAt": 1791306108186
+        },
+        {
+          "id": "f56c4f1b-8642-4b39-955d-350b98a66955",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 7.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108190
+        },
+        {
+          "id": "6c55401a-74aa-4959-84d4-085aa4585a13",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 8.",
+          "createdAt": 1791306108194
+        },
+        {
+          "id": "3e5c6711-a933-4c12-a81b-d92dd90289a3",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 8.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108198
+        },
+        {
+          "id": "1a5c386c-c06d-4385-8618-69f4bd180028",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 9.",
+          "createdAt": 1791306108202
+        },
+        {
+          "id": "f9eff58b-e245-4110-8c65-e1b14ea7b307",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 9.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108205
+        },
+        {
+          "id": "60cf2cc7-9804-402d-b542-3aa0f6f6f266",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 10.",
+          "createdAt": 1791306108210
+        },
+        {
+          "id": "98d0a43c-d035-49ea-9bd0-2ca8fe989754",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108213
+        },
+        {
+          "id": "7e34f7c8-0d66-4611-811c-6534f7a97aab",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 11.",
+          "createdAt": 1791306108217
+        },
+        {
+          "id": "100223b7-2776-4b4a-923e-20b528a965f1",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "CHARACTER",
+          "text": "*Kora betrachtet Stein 11.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108223
+        },
+        {
+          "id": "6d2c0d68-bece-41ad-8da8-e787a6cd178b",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "role": "USER",
+          "text": "Warum hast du mir das Amulett gegeben und wessen rechte Schulter ist verletzt?",
+          "createdAt": 1791306108227
+        }
+      ],
+      "memories": [
+        {
+          "id": "09deeacc-9e01-4172-a1c2-363372cf8351",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "kind": "FACT",
+          "text": "Startvorgabe: Kora: Reisebegleitung von Levin",
+          "pinned": true,
+          "createdAt": 1791306108009,
+          "updatedAt": 1791306108009
+        },
+        {
+          "id": "c874f78f-fe2a-4b5e-b987-953dcaa6b456",
+          "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Kora und Levin sind im Innenhof.",
+          "pinned": true,
+          "createdAt": 1791306108010,
+          "updatedAt": 1791306108010
+        }
+      ],
+      "memory": {
+        "version": 36,
+        "facts": [
+          {
+            "id": "51c125c4d45d61277b19943f9bff4274",
+            "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+            "entity": {
+              "id": "839fef10201f050ef642dc59e8d7eae3",
+              "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Levin",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "sourceText": "Ich heiße Levin.",
+            "version": 4,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108031,
+            "sourceOrder": 2
+          },
+          {
+            "id": "aa58b3b4a33b7d84aa023e573c251751",
+            "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+            "entity": {
+              "id": "839fef10201f050ef642dc59e8d7eae3",
+              "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 5,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108031,
+            "sourceOrder": 2
+          },
+          {
+            "id": "1b015bb615a97bc3fe504d30111f073e",
+            "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+            "entity": {
+              "id": "594ca57b488b416df2925f98f6a4f1f9",
+              "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+              "kind": "PERSON",
+              "name": "Kora"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108031,
+            "sourceOrder": 2
+          },
+          {
+            "id": "c9e8241d23bc39deb6591e0747a4b0bd",
+            "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+            "entity": {
+              "id": "22563e2436a2a1744eb6aaa0279b53dc",
+              "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108031,
+            "sourceOrder": 2
+          },
+          {
+            "id": "e2b45b5bfed24917030553718592234a",
+            "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+            "entity": {
+              "id": "ca67c7545727639c6a0808d32864a2cb",
+              "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+              "kind": "ITEM",
+              "name": "Amulett"
+            },
+            "field": "holder",
+            "value": "Schulter",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "3da7405d-c1f6-4fc0-85f3-23699cb957c8",
+            "sourceText": "Kora gibt Levin das Amulett.* „Ich gebe dir das Amulett, weil meine rechte Schulter verletzt ist und ich es nicht tragen kann.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108073,
+            "sourceOrder": 5
+          },
+          {
+            "id": "35a1f8d123e51f3443826a1058c8738d",
+            "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+            "entity": {
+              "id": "594ca57b488b416df2925f98f6a4f1f9",
+              "storyId": "ffe46d4a-bd8d-4c6c-b92d-fd5ca3e1fdb2",
+              "kind": "PERSON",
+              "name": "Kora"
+            },
+            "field": "injury:schulter",
+            "value": "schulter: verletzt",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "3da7405d-c1f6-4fc0-85f3-23699cb957c8",
+            "sourceText": "Kora gibt Levin das Amulett.* „Ich gebe dir das Amulett, weil meine rechte Schulter verletzt ist und ich es nicht tragen kann.",
+            "version": 11,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108073,
+            "sourceOrder": 5
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "c9e8241d23bc39deb6591e0747a4b0bd",
+            "knower": "character",
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "version": 7
+          },
+          {
+            "factId": "c9e8241d23bc39deb6591e0747a4b0bd",
+            "knower": "player",
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "version": 7
+          },
+          {
+            "factId": "1b015bb615a97bc3fe504d30111f073e",
+            "knower": "character",
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "version": 6
+          },
+          {
+            "factId": "1b015bb615a97bc3fe504d30111f073e",
+            "knower": "player",
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "version": 6
+          },
+          {
+            "factId": "51c125c4d45d61277b19943f9bff4274",
+            "knower": "character",
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "version": 4
+          },
+          {
+            "factId": "51c125c4d45d61277b19943f9bff4274",
+            "knower": "player",
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "version": 4
+          },
+          {
+            "factId": "aa58b3b4a33b7d84aa023e573c251751",
+            "knower": "character",
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "version": 5
+          },
+          {
+            "factId": "aa58b3b4a33b7d84aa023e573c251751",
+            "knower": "player",
+            "sourceId": "912e840d-749b-40f8-9b52-1afb152a6f6d",
+            "version": 5
+          }
+        ],
+        "scannedSources": [
+          "eb395a88-d780-47e0-ae0f-dadaefff9006",
+          "912e840d-749b-40f8-9b52-1afb152a6f6d",
+          "6eda4e0a-4f5c-4cc6-b5f3-cd051158ced4",
+          "0123c234-bdae-4302-ba93-749e1335c656",
+          "3da7405d-c1f6-4fc0-85f3-23699cb957c8",
+          "ffb946f0-94c5-487a-8b76-e48aa3c17e93",
+          "eb67ae7f-4015-4777-8ad7-e8452d99491b",
+          "663f6f9b-a438-4e05-bb80-59ff89309321",
+          "202ebfd1-a81a-4022-9618-33acee7a1ea8",
+          "dc3fe135-4344-48cf-b4c0-8dc945f86fe4",
+          "b57075ec-2c66-4315-baea-1842d44672b5",
+          "1ee21449-94b6-4301-ad61-e1afa5ac779c",
+          "b05fd5e5-1bb0-49b5-a769-538e96cf05ff",
+          "85fc63be-83ab-4f22-98b5-2b62d4bd1a2c",
+          "bf479624-6d22-46ab-af1e-3d9db183cc69",
+          "b74e6bf5-1b92-4a77-b00f-17c54691684d",
+          "f9e55240-cfd5-486c-bf99-25f6e6d183d0",
+          "5a3b0b78-2986-46d7-94d4-882e5f9b392d",
+          "3765cb61-69d7-462f-9355-6df547eb43df",
+          "e1447319-0a7b-4d59-8f26-86fdb7e7ab5b",
+          "f56c4f1b-8642-4b39-955d-350b98a66955",
+          "6c55401a-74aa-4959-84d4-085aa4585a13",
+          "3e5c6711-a933-4c12-a81b-d92dd90289a3",
+          "1a5c386c-c06d-4385-8618-69f4bd180028",
+          "f9eff58b-e245-4110-8c65-e1b14ea7b307",
+          "60cf2cc7-9804-402d-b542-3aa0f6f6f266",
+          "98d0a43c-d035-49ea-9bd0-2ca8fe989754",
+          "7e34f7c8-0d66-4611-811c-6534f7a97aab",
+          "100223b7-2776-4b4a-923e-20b528a965f1"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "kora"
+        ]
+      }
+    },
+    "manualEvent": "Vergangenheit: Kora gab Levin das Amulett. Handelnde Person: Kora. Empfänger: Levin. Koras rechte Schulter ist verletzt. Kora konnte das Amulett deshalb nicht tragen. Levin hat es jetzt. Kora kennt ihre eigene Handlung und Verletzung.",
+    "expected": "Kora gab Levin das Amulett; Koras Schulter verletzt, nicht Levins.",
+    "repeat": false
+  },
+  {
+    "case": "injury-juna-tarek",
+    "bundle": {
+      "story": {
+        "id": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+        "characterId": "role-injury-juna-tarek",
+        "title": "Innenhof",
+        "summary": "",
+        "startContext": "Tarek und Juna sind im Innenhof.",
+        "createdAt": 1791306108231,
+        "updatedAt": 1791306108321
+      },
+      "character": {
+        "id": "role-injury-juna-tarek",
+        "name": "Tarek",
+        "role": "Reisebegleitung von Juna",
+        "genre": "Fantasy",
+        "traits": "Praktisch, aufmerksam",
+        "personality": "Tarek ist 29 Jahre alt, spricht klares Deutsch und hört Juna aufmerksam zu.",
+        "scenario": "Tarek und Juna sind im Innenhof.",
+        "storyTitle": "Innenhof",
+        "openingMessage": "*Tarek sieht Juna an.* „Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "31f858ce-af76-4050-b1b5-db212aa53986",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek sieht Juna an.* „Ich höre zu.“",
+          "createdAt": 1791306108231
+        },
+        {
+          "id": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Ich heiße Juna. Wir sind im Innenhof.",
+          "createdAt": 1791306108234
+        },
+        {
+          "id": "a08f4a16-606a-4a99-aa7c-770523571a07",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek nickt.* „Verstanden.“",
+          "createdAt": 1791306108237
+        },
+        {
+          "id": "5d57af8f-d252-4989-bbe1-37b7322c574b",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Meine linke Hand ist verletzt. Deine rechte Schulter ist unverletzt. Ich kann die schwere Tür deshalb nicht öffnen.",
+          "createdAt": 1791306108244
+        },
+        {
+          "id": "b456a412-7a45-49c7-af47-1132fdf6725f",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek nickt.* „Verstanden.“",
+          "createdAt": 1791306108246
+        },
+        {
+          "id": "e7ebb04e-6107-4678-a1e6-3b6a2af4128d",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 0.",
+          "createdAt": 1791306108250
+        },
+        {
+          "id": "c35f51cc-be53-4d75-988a-e82bd4c05ad3",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 0.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108253
+        },
+        {
+          "id": "c9d7d521-4b30-4114-b101-db128f273d45",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 1.",
+          "createdAt": 1791306108257
+        },
+        {
+          "id": "fc0eab27-2a19-4a4f-ab59-4834454331b8",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 1.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108259
+        },
+        {
+          "id": "e35430aa-171f-4e91-be8c-cc62ac59dd73",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 2.",
+          "createdAt": 1791306108263
+        },
+        {
+          "id": "e7e2e7fe-e70f-42de-981a-b9d083ea7017",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 2.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108264
+        },
+        {
+          "id": "7d1912bf-d661-4009-8a7d-b4b7aeb1ef98",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 3.",
+          "createdAt": 1791306108269
+        },
+        {
+          "id": "aefcaaed-f0b0-43f2-8dfa-d9817f2fc02f",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 3.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108271
+        },
+        {
+          "id": "e8cf85d1-a856-4fbe-a4e0-04f202907a7f",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 4.",
+          "createdAt": 1791306108274
+        },
+        {
+          "id": "6686fb85-6453-4a1f-9ae2-28a6be02536a",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 4.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108277
+        },
+        {
+          "id": "f39e63f2-1a10-4942-8170-f5ab593902eb",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 5.",
+          "createdAt": 1791306108280
+        },
+        {
+          "id": "dd91739e-0755-4aa7-8a7e-5229d1ffe1e1",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 5.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108283
+        },
+        {
+          "id": "dce0d43c-1760-4585-acff-9e9359f12c7f",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 6.",
+          "createdAt": 1791306108286
+        },
+        {
+          "id": "d58de750-92e7-4515-832f-b83f5c29cb3c",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 6.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108288
+        },
+        {
+          "id": "0bc0734c-8fd5-4720-9036-3eb1040d7749",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 7.",
+          "createdAt": 1791306108291
+        },
+        {
+          "id": "3750ee52-7d19-452d-b401-1c8db7618c2f",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 7.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108295
+        },
+        {
+          "id": "770f2c01-e450-4b10-971a-92c0e1b13359",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 8.",
+          "createdAt": 1791306108297
+        },
+        {
+          "id": "9ce2b848-1512-4767-a499-6d7d9b19ce6f",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 8.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108299
+        },
+        {
+          "id": "1c00ff00-5e20-4438-bef9-a1c25948cb8a",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 9.",
+          "createdAt": 1791306108302
+        },
+        {
+          "id": "652efa1c-5602-4c78-8334-5fe94c0c22e6",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 9.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108305
+        },
+        {
+          "id": "d2f69d69-ff50-46c7-8dcc-7c997f7f1b22",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 10.",
+          "createdAt": 1791306108308
+        },
+        {
+          "id": "c5caa752-ccf0-439f-a80c-4cca39eb4188",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108311
+        },
+        {
+          "id": "fbe9e542-07dc-44ea-a6ce-8781f6d49501",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 11.",
+          "createdAt": 1791306108313
+        },
+        {
+          "id": "d600eaf4-b668-4056-8e1e-d7981866604f",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "CHARACTER",
+          "text": "*Tarek betrachtet Stein 11.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108318
+        },
+        {
+          "id": "505d917c-970d-4082-8c44-791aca671e2a",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "role": "USER",
+          "text": "Wessen Hand ist verletzt und warum kann ich die Tür nicht öffnen?",
+          "createdAt": 1791306108321
+        }
+      ],
+      "memories": [
+        {
+          "id": "7900737d-d8d3-491b-80dc-3bee3db196c3",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "kind": "FACT",
+          "text": "Startvorgabe: Tarek: Reisebegleitung von Juna",
+          "pinned": true,
+          "createdAt": 1791306108231,
+          "updatedAt": 1791306108231
+        },
+        {
+          "id": "632ee682-437c-449a-8126-0df5524d1c7f",
+          "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Tarek und Juna sind im Innenhof.",
+          "pinned": true,
+          "createdAt": 1791306108232,
+          "updatedAt": 1791306108232
+        }
+      ],
+      "memory": {
+        "version": 35,
+        "facts": [
+          {
+            "id": "642b3fc4ba64c3af09a8fe3d447cfb0e",
+            "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+            "entity": {
+              "id": "e4d0f2383a907252526da05acd619549",
+              "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Juna",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "sourceText": "Ich heiße Juna.",
+            "version": 4,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108234,
+            "sourceOrder": 32
+          },
+          {
+            "id": "b99ca5a7a3670133687f3b78a2303a68",
+            "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+            "entity": {
+              "id": "e4d0f2383a907252526da05acd619549",
+              "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 5,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108234,
+            "sourceOrder": 32
+          },
+          {
+            "id": "a6c0940008bb0908fd7aacff4e3ee2e7",
+            "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+            "entity": {
+              "id": "c61cf0c1cc6c2c738d4e4a3c86c56f14",
+              "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+              "kind": "PERSON",
+              "name": "Tarek"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108234,
+            "sourceOrder": 32
+          },
+          {
+            "id": "b6b35ddac431e6d19fb5defac0e99466",
+            "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+            "entity": {
+              "id": "7f11c0f3d653dd8553817f8b96bc231c",
+              "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108234,
+            "sourceOrder": 32
+          },
+          {
+            "id": "be73f20e6256aedb7237740616876d57",
+            "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+            "entity": {
+              "id": "e4d0f2383a907252526da05acd619549",
+              "storyId": "2e80129d-d6fb-49f2-af85-e2f9b0ea4950",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "injury:linke hand",
+            "value": "linke hand: verletzt",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "5d57af8f-d252-4989-bbe1-37b7322c574b",
+            "sourceText": "Meine linke Hand ist verletzt.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108244,
+            "sourceOrder": 34
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "b6b35ddac431e6d19fb5defac0e99466",
+            "knower": "character",
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "version": 7
+          },
+          {
+            "factId": "b6b35ddac431e6d19fb5defac0e99466",
+            "knower": "player",
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "version": 7
+          },
+          {
+            "factId": "a6c0940008bb0908fd7aacff4e3ee2e7",
+            "knower": "character",
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "version": 6
+          },
+          {
+            "factId": "a6c0940008bb0908fd7aacff4e3ee2e7",
+            "knower": "player",
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "version": 6
+          },
+          {
+            "factId": "642b3fc4ba64c3af09a8fe3d447cfb0e",
+            "knower": "character",
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "version": 4
+          },
+          {
+            "factId": "642b3fc4ba64c3af09a8fe3d447cfb0e",
+            "knower": "player",
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "version": 4
+          },
+          {
+            "factId": "be73f20e6256aedb7237740616876d57",
+            "knower": "character",
+            "sourceId": "5d57af8f-d252-4989-bbe1-37b7322c574b",
+            "version": 10
+          },
+          {
+            "factId": "be73f20e6256aedb7237740616876d57",
+            "knower": "player",
+            "sourceId": "5d57af8f-d252-4989-bbe1-37b7322c574b",
+            "version": 10
+          },
+          {
+            "factId": "b99ca5a7a3670133687f3b78a2303a68",
+            "knower": "character",
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "version": 5
+          },
+          {
+            "factId": "b99ca5a7a3670133687f3b78a2303a68",
+            "knower": "player",
+            "sourceId": "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+            "version": 5
+          }
+        ],
+        "scannedSources": [
+          "31f858ce-af76-4050-b1b5-db212aa53986",
+          "4e9fecee-3d57-4a3a-9453-ef9ec83a7a3a",
+          "a08f4a16-606a-4a99-aa7c-770523571a07",
+          "5d57af8f-d252-4989-bbe1-37b7322c574b",
+          "b456a412-7a45-49c7-af47-1132fdf6725f",
+          "e7ebb04e-6107-4678-a1e6-3b6a2af4128d",
+          "c35f51cc-be53-4d75-988a-e82bd4c05ad3",
+          "c9d7d521-4b30-4114-b101-db128f273d45",
+          "fc0eab27-2a19-4a4f-ab59-4834454331b8",
+          "e35430aa-171f-4e91-be8c-cc62ac59dd73",
+          "e7e2e7fe-e70f-42de-981a-b9d083ea7017",
+          "7d1912bf-d661-4009-8a7d-b4b7aeb1ef98",
+          "aefcaaed-f0b0-43f2-8dfa-d9817f2fc02f",
+          "e8cf85d1-a856-4fbe-a4e0-04f202907a7f",
+          "6686fb85-6453-4a1f-9ae2-28a6be02536a",
+          "f39e63f2-1a10-4942-8170-f5ab593902eb",
+          "dd91739e-0755-4aa7-8a7e-5229d1ffe1e1",
+          "dce0d43c-1760-4585-acff-9e9359f12c7f",
+          "d58de750-92e7-4515-832f-b83f5c29cb3c",
+          "0bc0734c-8fd5-4720-9036-3eb1040d7749",
+          "3750ee52-7d19-452d-b401-1c8db7618c2f",
+          "770f2c01-e450-4b10-971a-92c0e1b13359",
+          "9ce2b848-1512-4767-a499-6d7d9b19ce6f",
+          "1c00ff00-5e20-4438-bef9-a1c25948cb8a",
+          "652efa1c-5602-4c78-8334-5fe94c0c22e6",
+          "d2f69d69-ff50-46c7-8dcc-7c997f7f1b22",
+          "c5caa752-ccf0-439f-a80c-4cca39eb4188",
+          "fbe9e542-07dc-44ea-a6ce-8781f6d49501",
+          "d600eaf4-b668-4056-8e1e-d7981866604f"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "tarek"
+        ]
+      }
+    },
+    "manualEvent": "Vergangenheit und fortbestehender Zustand: Junas linke Hand ist verletzt. Tareks rechte Schulter ist unverletzt. Juna kann wegen Junas verletzter Hand die schwere Tür nicht öffnen. Tarek hat diese Angaben von Juna erfahren.",
+    "expected": "Juna/deine Hand verletzt; Tarek übernimmt Junas Verletzung nicht.",
+    "repeat": false
+  },
+  {
+    "case": "family-niko-selma",
+    "bundle": {
+      "story": {
+        "id": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+        "characterId": "role-family-niko-selma",
+        "title": "Innenhof",
+        "summary": "",
+        "startContext": "Selma und Niko sind im Innenhof.",
+        "createdAt": 1791306108323,
+        "updatedAt": 1791306108398
+      },
+      "character": {
+        "id": "role-family-niko-selma",
+        "name": "Selma",
+        "role": "Reisebegleitung von Niko",
+        "genre": "Fantasy",
+        "traits": "Praktisch, aufmerksam",
+        "personality": "Selma ist 29 Jahre alt, spricht klares Deutsch und hört Niko aufmerksam zu.",
+        "scenario": "Selma und Niko sind im Innenhof.",
+        "storyTitle": "Innenhof",
+        "openingMessage": "*Selma sieht Niko an.* „Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "112738fd-c115-49d5-ad96-0785939a9be5",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma sieht Niko an.* „Ich höre zu.“",
+          "createdAt": 1791306108323
+        },
+        {
+          "id": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Ich heiße Niko. Wir sind im Innenhof.",
+          "createdAt": 1791306108326
+        },
+        {
+          "id": "f0b59f21-1525-4914-87d3-09829c818cf4",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma nickt.* „Verstanden.“",
+          "createdAt": 1791306108327
+        },
+        {
+          "id": "f3f5c594-a873-4f36-9ee7-4b192a4d7098",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Meine Schwester heißt Alma. Dein Bruder heißt Aron. Meine Schwester Alma hat dir eine Karte geschickt.",
+          "createdAt": 1791306108331
+        },
+        {
+          "id": "1296a7d8-26d2-408c-ab59-0f19da911354",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma nickt.* „Verstanden.“",
+          "createdAt": 1791306108334
+        },
+        {
+          "id": "36145058-4a0d-4b63-9155-83ea48c03326",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 0.",
+          "createdAt": 1791306108339
+        },
+        {
+          "id": "b36e0f71-2970-4b9a-9d67-642e28b855e9",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 0.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108341
+        },
+        {
+          "id": "a6f71dca-d429-4ff2-9e83-c5209719a770",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 1.",
+          "createdAt": 1791306108343
+        },
+        {
+          "id": "49e317c2-a531-42c4-97d6-9496e7b797b2",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 1.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108346
+        },
+        {
+          "id": "b8c57d5e-5930-4cb5-ade7-ff0217ac354f",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 2.",
+          "createdAt": 1791306108349
+        },
+        {
+          "id": "9fd9b43b-9b1b-401b-a83e-8fa7f550d3ef",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 2.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108352
+        },
+        {
+          "id": "5c699772-2d0d-435c-94f8-2d0571043c0f",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 3.",
+          "createdAt": 1791306108354
+        },
+        {
+          "id": "69aecb69-2dbf-40a6-8c49-628d06c3278a",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 3.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108357
+        },
+        {
+          "id": "b9e23826-831e-43b3-a296-87581fdc63c2",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 4.",
+          "createdAt": 1791306108359
+        },
+        {
+          "id": "df37befd-f50d-4f57-85c4-fd04d268ec12",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 4.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108361
+        },
+        {
+          "id": "bd8296f9-09f8-4e5b-b79a-cccbbc948dfe",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 5.",
+          "createdAt": 1791306108362
+        },
+        {
+          "id": "a9b8a072-ebc4-4108-9c4c-3092f14e4ad6",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 5.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108365
+        },
+        {
+          "id": "49bd052f-2b50-41ed-a4a3-08332ed3c200",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 6.",
+          "createdAt": 1791306108367
+        },
+        {
+          "id": "b0e52b0f-3a89-4201-8433-a153c51bc910",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 6.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108370
+        },
+        {
+          "id": "8d7deb75-dce6-4cc6-921f-495ca246eddf",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 7.",
+          "createdAt": 1791306108371
+        },
+        {
+          "id": "1618582b-2227-4fd6-a58d-c442591824cb",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 7.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108374
+        },
+        {
+          "id": "aea87c26-6828-466d-bf9a-49bdb75bff29",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 8.",
+          "createdAt": 1791306108377
+        },
+        {
+          "id": "5c1c6b8b-d87e-49bf-a731-f6294077512f",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 8.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108381
+        },
+        {
+          "id": "025e10ff-d233-440c-aeb7-b82a9972e15b",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 9.",
+          "createdAt": 1791306108382
+        },
+        {
+          "id": "ab60217c-f987-4670-8fd7-e20fd3ddbceb",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 9.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108386
+        },
+        {
+          "id": "daee4baa-477e-4c77-8b7f-397b2d5a973f",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 10.",
+          "createdAt": 1791306108388
+        },
+        {
+          "id": "d587370a-6e4d-4030-99aa-829682d5a83d",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108390
+        },
+        {
+          "id": "7b346a4d-07a9-4556-9c4e-fc0a8e4d52fe",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 11.",
+          "createdAt": 1791306108393
+        },
+        {
+          "id": "d434d010-14eb-48dd-ba17-bb638414e18a",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "CHARACTER",
+          "text": "*Selma betrachtet Stein 11.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108397
+        },
+        {
+          "id": "1efe7d30-fd54-41d4-898d-1e57d65a15f3",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "role": "USER",
+          "text": "Wie heißen meine Schwester und dein Bruder, und wer hat die Karte geschickt?",
+          "createdAt": 1791306108398
+        }
+      ],
+      "memories": [
+        {
+          "id": "a9b55ebf-d9e1-4e06-a494-276e0328c7b6",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "kind": "FACT",
+          "text": "Startvorgabe: Selma: Reisebegleitung von Niko",
+          "pinned": true,
+          "createdAt": 1791306108323,
+          "updatedAt": 1791306108323
+        },
+        {
+          "id": "fc67f4c3-0bb2-420b-8429-8a9881b220a7",
+          "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Selma und Niko sind im Innenhof.",
+          "pinned": true,
+          "createdAt": 1791306108324,
+          "updatedAt": 1791306108324
+        }
+      ],
+      "memory": {
+        "version": 35,
+        "facts": [
+          {
+            "id": "acd2a43d3920c69820821726311c6605",
+            "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+            "entity": {
+              "id": "eb83513113bdb1ce59bcd0af90111a2e",
+              "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Niko",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "sourceText": "Ich heiße Niko.",
+            "version": 4,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108326,
+            "sourceOrder": 62
+          },
+          {
+            "id": "8ce848f1b7e6e700d23a6f99c65cb5c7",
+            "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+            "entity": {
+              "id": "eb83513113bdb1ce59bcd0af90111a2e",
+              "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 5,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108326,
+            "sourceOrder": 62
+          },
+          {
+            "id": "a8e8dff580816e643eef454bd6e7f4eb",
+            "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+            "entity": {
+              "id": "c54a1b0225f762f6c4d34358c013c8ce",
+              "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+              "kind": "PERSON",
+              "name": "Selma"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108326,
+            "sourceOrder": 62
+          },
+          {
+            "id": "4389bf4d28a474931671d5a9fe295566",
+            "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+            "entity": {
+              "id": "8d97938b6e8aab07fed38b322620cf11",
+              "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108326,
+            "sourceOrder": 62
+          },
+          {
+            "id": "184722e2bd081fcaabbf3bf2a9ae9740",
+            "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+            "entity": {
+              "id": "7aeb846a12f26c3fe68b307e104db9ea",
+              "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+              "kind": "ITEM",
+              "name": "Karte"
+            },
+            "field": "holder",
+            "value": "Alma",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "f3f5c594-a873-4f36-9ee7-4b192a4d7098",
+            "sourceText": "Meine Schwester Alma hat dir eine Karte geschickt.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108331,
+            "sourceOrder": 64
+          },
+          {
+            "id": "8adf61a9083ae36ce175ceb3b69bfba8",
+            "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+            "entity": {
+              "id": "7aeb846a12f26c3fe68b307e104db9ea",
+              "storyId": "adb270a9-9358-47df-a79f-b5f9a2249b22",
+              "kind": "ITEM",
+              "name": "Karte"
+            },
+            "field": "holder",
+            "value": "wer",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "1efe7d30-fd54-41d4-898d-1e57d65a15f3",
+            "sourceText": "Wie heißen meine Schwester und dein Bruder, und wer hat die Karte geschickt?",
+            "version": 41,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108398,
+            "sourceOrder": 30
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "184722e2bd081fcaabbf3bf2a9ae9740",
+            "knower": "character",
+            "sourceId": "f3f5c594-a873-4f36-9ee7-4b192a4d7098",
+            "version": 10
+          },
+          {
+            "factId": "184722e2bd081fcaabbf3bf2a9ae9740",
+            "knower": "player",
+            "sourceId": "f3f5c594-a873-4f36-9ee7-4b192a4d7098",
+            "version": 10
+          },
+          {
+            "factId": "4389bf4d28a474931671d5a9fe295566",
+            "knower": "character",
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "version": 7
+          },
+          {
+            "factId": "4389bf4d28a474931671d5a9fe295566",
+            "knower": "player",
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "version": 7
+          },
+          {
+            "factId": "a8e8dff580816e643eef454bd6e7f4eb",
+            "knower": "character",
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "version": 6
+          },
+          {
+            "factId": "a8e8dff580816e643eef454bd6e7f4eb",
+            "knower": "player",
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "version": 6
+          },
+          {
+            "factId": "acd2a43d3920c69820821726311c6605",
+            "knower": "character",
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "version": 4
+          },
+          {
+            "factId": "acd2a43d3920c69820821726311c6605",
+            "knower": "player",
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "version": 4
+          },
+          {
+            "factId": "8ce848f1b7e6e700d23a6f99c65cb5c7",
+            "knower": "character",
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "version": 5
+          },
+          {
+            "factId": "8ce848f1b7e6e700d23a6f99c65cb5c7",
+            "knower": "player",
+            "sourceId": "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+            "version": 5
+          }
+        ],
+        "scannedSources": [
+          "112738fd-c115-49d5-ad96-0785939a9be5",
+          "162f9c4f-a3b3-4b21-a839-0a749e29712f",
+          "f0b59f21-1525-4914-87d3-09829c818cf4",
+          "f3f5c594-a873-4f36-9ee7-4b192a4d7098",
+          "1296a7d8-26d2-408c-ab59-0f19da911354",
+          "36145058-4a0d-4b63-9155-83ea48c03326",
+          "b36e0f71-2970-4b9a-9d67-642e28b855e9",
+          "a6f71dca-d429-4ff2-9e83-c5209719a770",
+          "49e317c2-a531-42c4-97d6-9496e7b797b2",
+          "b8c57d5e-5930-4cb5-ade7-ff0217ac354f",
+          "9fd9b43b-9b1b-401b-a83e-8fa7f550d3ef",
+          "5c699772-2d0d-435c-94f8-2d0571043c0f",
+          "69aecb69-2dbf-40a6-8c49-628d06c3278a",
+          "b9e23826-831e-43b3-a296-87581fdc63c2",
+          "df37befd-f50d-4f57-85c4-fd04d268ec12",
+          "bd8296f9-09f8-4e5b-b79a-cccbbc948dfe",
+          "a9b8a072-ebc4-4108-9c4c-3092f14e4ad6",
+          "49bd052f-2b50-41ed-a4a3-08332ed3c200",
+          "b0e52b0f-3a89-4201-8433-a153c51bc910",
+          "8d7deb75-dce6-4cc6-921f-495ca246eddf",
+          "1618582b-2227-4fd6-a58d-c442591824cb",
+          "aea87c26-6828-466d-bf9a-49bdb75bff29",
+          "5c1c6b8b-d87e-49bf-a731-f6294077512f",
+          "025e10ff-d233-440c-aeb7-b82a9972e15b",
+          "ab60217c-f987-4670-8fd7-e20fd3ddbceb",
+          "daee4baa-477e-4c77-8b7f-397b2d5a973f",
+          "d587370a-6e4d-4030-99aa-829682d5a83d",
+          "7b346a4d-07a9-4556-9c4e-fc0a8e4d52fe",
+          "d434d010-14eb-48dd-ba17-bb638414e18a"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "selma"
+        ]
+      }
+    },
+    "manualEvent": "Familienzuordnung: Alma ist Nikos Schwester. Aron ist Selmas Bruder. Vergangenes Ereignis: Alma schickte Selma die Karte. Senderin: Alma. Empfängerin: Selma. Selma kennt diese Angaben durch Niko.",
+    "expected": "Nikos Schwester Alma, Selmas Bruder Aron, Senderin Alma an Selma.",
+    "repeat": false
+  },
+  {
+    "case": "owner-malik-daria",
+    "bundle": {
+      "story": {
+        "id": "7243005a-9525-4b56-9047-712cae0aeb34",
+        "characterId": "role-owner-malik-daria",
+        "title": "Innenhof",
+        "summary": "",
+        "startContext": "Daria und Malik sind im Innenhof.",
+        "createdAt": 1791306108401,
+        "updatedAt": 1791306108464
+      },
+      "character": {
+        "id": "role-owner-malik-daria",
+        "name": "Daria",
+        "role": "Reisebegleitung von Malik",
+        "genre": "Fantasy",
+        "traits": "Praktisch, aufmerksam",
+        "personality": "Daria ist 29 Jahre alt, spricht klares Deutsch und hört Malik aufmerksam zu.",
+        "scenario": "Daria und Malik sind im Innenhof.",
+        "storyTitle": "Innenhof",
+        "openingMessage": "*Daria sieht Malik an.* „Ich höre zu.“",
+        "avatarKey": "runa",
+        "custom": true
+      },
+      "messages": [
+        {
+          "id": "e21db234-2138-4b52-bd67-2ae300e9f4ee",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria sieht Malik an.* „Ich höre zu.“",
+          "createdAt": 1791306108401
+        },
+        {
+          "id": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Ich heiße Malik. Wir sind im Innenhof.",
+          "createdAt": 1791306108403
+        },
+        {
+          "id": "c2ed6cfc-71bb-4249-b1c6-94448eea6793",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria nickt.* „Verstanden.“",
+          "createdAt": 1791306108405
+        },
+        {
+          "id": "3436594a-df5d-41a4-8005-676e3ec44a15",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Das Amulett gehört mir. Du trägst das Amulett für mich.",
+          "createdAt": 1791306108407
+        },
+        {
+          "id": "0a003886-b65d-430b-ba3b-a13d2cde6c1c",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria nickt.* „Verstanden.“",
+          "createdAt": 1791306108411
+        },
+        {
+          "id": "bd3b6abb-f2de-43fb-a056-f2ed1cab2979",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 0.",
+          "createdAt": 1791306108414
+        },
+        {
+          "id": "31d0ee0f-a759-4d69-b7e3-aac9cc7e18b2",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 0.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108416
+        },
+        {
+          "id": "eb1a1ef0-db79-4cad-9ffe-547c28840b3a",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 1.",
+          "createdAt": 1791306108418
+        },
+        {
+          "id": "c139e733-1fda-4c8f-9691-fd5edd0c4c67",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 1.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108421
+        },
+        {
+          "id": "196b1ce1-f409-45f4-86bb-c232a734ae68",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 2.",
+          "createdAt": 1791306108423
+        },
+        {
+          "id": "e1892556-f192-4456-9ebf-63c0b55b1c1f",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 2.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108424
+        },
+        {
+          "id": "3c2b5d5c-b281-48d7-a729-548735c9cc0a",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 3.",
+          "createdAt": 1791306108425
+        },
+        {
+          "id": "a4acc99d-a5a1-4864-a1e8-4a3fe81eb150",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 3.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108428
+        },
+        {
+          "id": "b8a19ebd-0ecd-4d82-b0d0-9192b3520edf",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 4.",
+          "createdAt": 1791306108430
+        },
+        {
+          "id": "51fdbe9a-8349-4da8-9568-04fd9a20dfad",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 4.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108431
+        },
+        {
+          "id": "2e0f4dd4-5584-48ea-94d5-eb06404eba55",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 5.",
+          "createdAt": 1791306108434
+        },
+        {
+          "id": "7cf17e9d-41d5-4726-ac26-4992cfb03402",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 5.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108436
+        },
+        {
+          "id": "ec15814f-2667-482a-a2c3-6670c6aa009d",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 6.",
+          "createdAt": 1791306108437
+        },
+        {
+          "id": "c759270a-a646-4896-b9fc-82491480c2e5",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 6.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108439
+        },
+        {
+          "id": "e0f24129-ddad-4bd0-93c7-3b7a45a25df6",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 7.",
+          "createdAt": 1791306108442
+        },
+        {
+          "id": "c4d0e409-d123-4a38-8ba7-ad6c5ed62a8a",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 7.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108443
+        },
+        {
+          "id": "0662bd28-7e0b-48e0-9dca-180cf89cea6b",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 8.",
+          "createdAt": 1791306108446
+        },
+        {
+          "id": "29659030-a42f-44b7-a1e4-fb62d2c89b30",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 8.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108448
+        },
+        {
+          "id": "e6969481-0e0a-4873-9cb9-6df6ad6dcd11",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 9.",
+          "createdAt": 1791306108451
+        },
+        {
+          "id": "d10e350c-b774-4a89-ba13-94a046cbd712",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 9.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108452
+        },
+        {
+          "id": "bc9377e7-87bd-41fb-983c-35a9647d2dd6",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 10.",
+          "createdAt": 1791306108455
+        },
+        {
+          "id": "225a7d38-ecd1-4762-972e-719484fdcac7",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 10.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108456
+        },
+        {
+          "id": "a15c693b-08b0-45c5-b6b7-8b6d1e909657",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wir betrachten Stein Nummer 11.",
+          "createdAt": 1791306108458
+        },
+        {
+          "id": "ecfddfb9-6c8a-4638-bc5e-1e207ef80c0c",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "CHARACTER",
+          "text": "*Daria betrachtet Stein 11.* Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da. Ein unauffälliger Stein liegt da.",
+          "createdAt": 1791306108461
+        },
+        {
+          "id": "fe084e20-9e30-4034-876c-baf73f0e64fc",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "role": "USER",
+          "text": "Wer trägt das Amulett gerade und wem gehört es?",
+          "createdAt": 1791306108464
+        }
+      ],
+      "memories": [
+        {
+          "id": "e7dc529b-6204-47c3-bd04-423ffa6bcf7b",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "kind": "FACT",
+          "text": "Startvorgabe: Daria: Reisebegleitung von Malik",
+          "pinned": true,
+          "createdAt": 1791306108401,
+          "updatedAt": 1791306108401
+        },
+        {
+          "id": "033f60c9-43b8-42cd-b8b6-121f9ba20758",
+          "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+          "kind": "EVENT",
+          "text": "Startvorgabe: Daria und Malik sind im Innenhof.",
+          "pinned": true,
+          "createdAt": 1791306108402,
+          "updatedAt": 1791306108402
+        }
+      ],
+      "memory": {
+        "version": 36,
+        "facts": [
+          {
+            "id": "9c60442da989928a18323e4278fac6f2",
+            "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+            "entity": {
+              "id": "9a6850108b5e346a2913233e44549ad9",
+              "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "identity",
+            "value": "Malik",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "sourceText": "Ich heiße Malik.",
+            "version": 4,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108403,
+            "sourceOrder": 92
+          },
+          {
+            "id": "5766b9fb7cc62d133c08f299cf164bd9",
+            "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+            "entity": {
+              "id": "9a6850108b5e346a2913233e44549ad9",
+              "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+              "kind": "PERSON",
+              "name": "Du"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 5,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108403,
+            "sourceOrder": 92
+          },
+          {
+            "id": "c28bf654b30033de986cdda73a7a945a",
+            "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+            "entity": {
+              "id": "6cca4e725e0f9996db6d6b5f8bd932c8",
+              "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+              "kind": "PERSON",
+              "name": "Daria"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 6,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108403,
+            "sourceOrder": 92
+          },
+          {
+            "id": "f04b52bedbf6301cc7456a399e7dd009",
+            "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+            "entity": {
+              "id": "1e2a8cb12aa5a965bab8194ad14f75f2",
+              "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+              "kind": "SCENE",
+              "name": "Ausgangsszene"
+            },
+            "field": "location",
+            "value": "Innenhof",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "sourceText": "Wir sind im Innenhof.",
+            "version": 7,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108403,
+            "sourceOrder": 92
+          },
+          {
+            "id": "30a3b7e3993a647736defebdbf064c71",
+            "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+            "entity": {
+              "id": "21cd61fa8f3b89abbf2184dfe8682368",
+              "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+              "kind": "ITEM",
+              "name": "Amulett"
+            },
+            "field": "holder",
+            "value": "Du",
+            "status": "HISTORICAL",
+            "pinned": false,
+            "sourceId": "3436594a-df5d-41a4-8005-676e3ec44a15",
+            "sourceText": "Das Amulett gehört mir.",
+            "version": 10,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108407,
+            "sourceOrder": 94
+          },
+          {
+            "id": "e76415b27622f5cec6c36d3ba45d11ff",
+            "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+            "entity": {
+              "id": "21cd61fa8f3b89abbf2184dfe8682368",
+              "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+              "kind": "ITEM",
+              "name": "Amulett"
+            },
+            "field": "holder",
+            "value": "Daria",
+            "status": "CURRENT",
+            "pinned": false,
+            "sourceId": "3436594a-df5d-41a4-8005-676e3ec44a15",
+            "sourceText": "Du trägst das Amulett für mich.",
+            "version": 11,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108407,
+            "sourceOrder": 94
+          },
+          {
+            "id": "5d28d5041e0615af5d0c2dcea122c906",
+            "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+            "entity": {
+              "id": "21cd61fa8f3b89abbf2184dfe8682368",
+              "storyId": "7243005a-9525-4b56-9047-712cae0aeb34",
+              "kind": "ITEM",
+              "name": "Amulett"
+            },
+            "field": "holder",
+            "value": "Wer",
+            "status": "UNCERTAIN",
+            "pinned": false,
+            "sourceId": "fe084e20-9e30-4034-876c-baf73f0e64fc",
+            "sourceText": "Wer trägt das Amulett gerade und wem gehört es?",
+            "version": 43,
+            "knownBy": [
+              "player",
+              "character"
+            ],
+            "manual": false,
+            "createdAt": 1791306108464,
+            "sourceOrder": 30
+          }
+        ],
+        "knowledge": [
+          {
+            "factId": "f04b52bedbf6301cc7456a399e7dd009",
+            "knower": "character",
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "version": 7
+          },
+          {
+            "factId": "f04b52bedbf6301cc7456a399e7dd009",
+            "knower": "player",
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "version": 7
+          },
+          {
+            "factId": "30a3b7e3993a647736defebdbf064c71",
+            "knower": "character",
+            "sourceId": "3436594a-df5d-41a4-8005-676e3ec44a15",
+            "version": 10
+          },
+          {
+            "factId": "30a3b7e3993a647736defebdbf064c71",
+            "knower": "player",
+            "sourceId": "3436594a-df5d-41a4-8005-676e3ec44a15",
+            "version": 10
+          },
+          {
+            "factId": "e76415b27622f5cec6c36d3ba45d11ff",
+            "knower": "character",
+            "sourceId": "3436594a-df5d-41a4-8005-676e3ec44a15",
+            "version": 11
+          },
+          {
+            "factId": "e76415b27622f5cec6c36d3ba45d11ff",
+            "knower": "player",
+            "sourceId": "3436594a-df5d-41a4-8005-676e3ec44a15",
+            "version": 11
+          },
+          {
+            "factId": "c28bf654b30033de986cdda73a7a945a",
+            "knower": "character",
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "version": 6
+          },
+          {
+            "factId": "c28bf654b30033de986cdda73a7a945a",
+            "knower": "player",
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "version": 6
+          },
+          {
+            "factId": "9c60442da989928a18323e4278fac6f2",
+            "knower": "character",
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "version": 4
+          },
+          {
+            "factId": "9c60442da989928a18323e4278fac6f2",
+            "knower": "player",
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "version": 4
+          },
+          {
+            "factId": "5766b9fb7cc62d133c08f299cf164bd9",
+            "knower": "character",
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "version": 5
+          },
+          {
+            "factId": "5766b9fb7cc62d133c08f299cf164bd9",
+            "knower": "player",
+            "sourceId": "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+            "version": 5
+          }
+        ],
+        "scannedSources": [
+          "e21db234-2138-4b52-bd67-2ae300e9f4ee",
+          "a36ef2f8-ee69-470e-84d3-9e4ad005a53d",
+          "c2ed6cfc-71bb-4249-b1c6-94448eea6793",
+          "3436594a-df5d-41a4-8005-676e3ec44a15",
+          "0a003886-b65d-430b-ba3b-a13d2cde6c1c",
+          "bd3b6abb-f2de-43fb-a056-f2ed1cab2979",
+          "31d0ee0f-a759-4d69-b7e3-aac9cc7e18b2",
+          "eb1a1ef0-db79-4cad-9ffe-547c28840b3a",
+          "c139e733-1fda-4c8f-9691-fd5edd0c4c67",
+          "196b1ce1-f409-45f4-86bb-c232a734ae68",
+          "e1892556-f192-4456-9ebf-63c0b55b1c1f",
+          "3c2b5d5c-b281-48d7-a729-548735c9cc0a",
+          "a4acc99d-a5a1-4864-a1e8-4a3fe81eb150",
+          "b8a19ebd-0ecd-4d82-b0d0-9192b3520edf",
+          "51fdbe9a-8349-4da8-9568-04fd9a20dfad",
+          "2e0f4dd4-5584-48ea-94d5-eb06404eba55",
+          "7cf17e9d-41d5-4726-ac26-4992cfb03402",
+          "ec15814f-2667-482a-a2c3-6670c6aa009d",
+          "c759270a-a646-4896-b9fc-82491480c2e5",
+          "e0f24129-ddad-4bd0-93c7-3b7a45a25df6",
+          "c4d0e409-d123-4a38-8ba7-ad6c5ed62a8a",
+          "0662bd28-7e0b-48e0-9dca-180cf89cea6b",
+          "29659030-a42f-44b7-a1e4-fb62d2c89b30",
+          "e6969481-0e0a-4873-9cb9-6df6ad6dcd11",
+          "d10e350c-b774-4a89-ba13-94a046cbd712",
+          "bc9377e7-87bd-41fb-983c-35a9647d2dd6",
+          "225a7d38-ecd1-4762-972e-719484fdcac7",
+          "a15c693b-08b0-45c5-b6b7-8b6d1e909657",
+          "ecfddfb9-6c8a-4638-bc5e-1e207ef80c0c"
+        ],
+        "excludedEvents": [],
+        "pendingSources": 1,
+        "overview": "",
+        "characterAliases": [
+          "daria"
+        ]
+      }
+    },
+    "manualEvent": "Aktueller Stand: Daria trägt das Amulett für Malik. Trägerin: Daria. Eigentümer: Malik. Tragen und Eigentum sind zwei verschiedene Beziehungen. Daria kennt beide Angaben von Malik.",
+    "expected": "Daria/ich trägt; Malik/dir gehört. Kein Eigentumswechsel durch Tragen.",
+    "repeat": false
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Mira neigt den Kopf und blickt auf das Gerät, das der Nutzer vor ihr hält. Ihre Augen fixieren die Anzeige.*\n\n**„Kein Signal? Das ist ein Verlust. Aber vielleicht ist es auch besser, wenn wir uns nicht zu schnell drängen.“**\n\n*Sie fährt vorsichtig mit ihrer Hand über die Oberfläche des Geräts, als würde sie versuchen, Informationen aus dem Display abzulesen.*\n\n**„Zeig mir mal, was du da siehst. Was genau erkennst du an dieser Anzeige?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Mira beobachtet deine Bewegung und nickt kurz, ihre Augen fixiert auf die Schleuse. Sie versteht sofort deine Zurückhaltung.*\n\n**„Verstehe. Kein unnötiges Risiko. Ich kann das Signal hier auswerten.“**\n\n*Sie greift zu ihrem Kommunikationsgerät und beginnt, die Empfangswerte des Signals zu analysieren. Die Anzeige auf dem Display springt kurz auf eine höhere Frequenz, bevor sie wieder abfällt.*\n\n**„Es ist schwach, aber es ist *aktiv*. Es kommt nicht von einer Fehlfunktion der Station selbst. Es ist ein echtes, wenn auch sehr gedämpftes Zeichen.“**\n\n*Mira tippt schnell in die Konfiguration, um die Reichweite des Signals zu bestimmen.*\n\n**„Ich muss diese Daten sammeln. Wenn es etwas ist, müssen wir wissen, wie stark es reagiert. Vielleicht können wir dann entscheiden, ob es sich lohnt, mehr Energie für einen direkten Versuch zu riskieren.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "*Grask starrt auf die Stelle, auf der er gerade stehen gelassen wurde. Sein Blick ist prüfend, fast schon misstrauisch, aber es liegt eine minimale Erleichterung in seinen Augen, als würde er einen Weg vorfinden.*\n\n*Er bewegt langsam seinen massiven Körper und richtet sich leicht auf, seine Hörner schlagen leise gegen die Steinmauer des Wärtergitters. Er reicht eine grobe, kräftige Hand zur Seite, um das unmittelbare Umland zu prüfen, bevor er den Weg in die dunklere Passage sucht.*\n\n„*Zeig mir die Stelle? Du bist nicht so leicht, kleiner Mensch. Ich brauche keine Spielereien. Zeig mir nur, was du willst. Und mach es schnell, ich habe keine Zeit für deine Worte.*“",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

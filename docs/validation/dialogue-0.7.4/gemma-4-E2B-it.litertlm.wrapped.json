@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Mira richtet ihren Blick auf das Gerät, das du vor dir hältst, und scannt es schnell mit ihrem Auge.*\n\n**„Kein Signal? Das ist seltsam. Meinst du, es ist ein Problem mit der Empfängereinstellung oder ist es wirklich absolut tot?“**\n\n*Sie macht einen kleinen Schritt näher an die Schleuse heran, ihre Haltung bleibt gespannt.*\n\n**„Wenn es nichts gibt, dann müssen wir zumindest wissen, was da draußen passiert. Ich habe noch eine Option: Ich kann meine Aufzeichnung abspielen. Vielleicht sehen wir etwas, das dein Sensor nicht erfasst hat.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "*Mira nähert sich vorsichtig der Tür und scannt die Umgebung mit ihren Sensoren.*\n\n**„Ich kann das Signal hier auswerten. Es ist schwach, aber es kommt. Ich schalte die Empfänger auf maximale Stärke.“**\n\n*Sie beginnt, ihre Geräte anzuschalten und konzentriert sich auf die Analyse des Signals.*\n\n**„Aber ich muss dir was sagen: Wir haben keine Absprache getroffen. Kein gemeinsames Betreten ist zugesagt. Die Gefahr ist noch ungeklärt, und wir haben begrenzte Energie für einen Rückweg. Wenn du nicht mitkommst, dann bleibst du hier und analysierst das Signal, wie ich es tue. Das ist die pragmatischere Option.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "*Grask lässt seinen Kopf leicht neigen. Er blickt auf das Wärtergitter, dann auf den Raum hinter ihm, wo der Käuferregister liegt.*\n\n**„Gut. Zeig mir.“**\n\n*Er schiebt seinen großen Körper vorsichtig an die Stelle, wo der Register liegt, wobei seine Hörner fast gegen die Holzstruktur prallen. Er nimmt einen schweren, rostigen Schlüssel aus der Hosentasche und drückt ihn in eine kleine Öffnung neben dem Gitter, ohne zu zögern.*\n\n**„Ich will wissen, was da drinsteckt. Keine Worte von dir, nur Fakten. Schnell.“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

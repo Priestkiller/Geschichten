@@ -1,0 +1,549 @@
+{
+  "story": {
+    "id": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+    "characterId": "new-holder",
+    "title": "Werkstatt",
+    "summary": "",
+    "startContext": "Werkstatt",
+    "createdAt": 1791459559936,
+    "updatedAt": 1791459996411
+  },
+  "character": {
+    "id": "new-holder",
+    "name": "Liora",
+    "role": "Begleitung",
+    "genre": "Fantasy",
+    "traits": "Aufmerksam",
+    "personality": "Spricht klar und freundlich.",
+    "scenario": "Werkstatt",
+    "storyTitle": "Werkstatt",
+    "openingMessage": "„Ich höre zu.“",
+    "avatarKey": "runa",
+    "custom": false
+  },
+  "messages": [
+    {
+      "id": "c7903317-dcf4-4f2e-8dbf-8d7b26d883a2",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "CHARACTER",
+      "text": "„Ich höre zu.“",
+      "createdAt": 1791459559936
+    },
+    {
+      "id": "0a0dbdd2-1528-474b-8e1e-8e612f8b8cbf",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "USER",
+      "text": "Ich heiße Bennet.",
+      "createdAt": 1791459559942
+    },
+    {
+      "id": "673ce486-c32e-40e9-b49f-04041f676c65",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "CHARACTER",
+      "text": "„Verstanden.“",
+      "createdAt": 1791459559943
+    },
+    {
+      "id": "98e4b6b8-723a-4cc1-b331-97bbd5310c82",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "USER",
+      "text": "Du hältst den Dolch.",
+      "createdAt": 1791459559944
+    },
+    {
+      "id": "c68ff5d6-9647-4e08-aa58-12ed3760ce71",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "CHARACTER",
+      "text": "„Verstanden.“",
+      "createdAt": 1791459559945
+    },
+    {
+      "id": "f40080ab-527b-4f46-8916-0b9b1e2f6a99",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "USER",
+      "text": "Wer hält den Dolch jetzt?",
+      "createdAt": 1791459559946
+    },
+    {
+      "id": "58ae3506-ea6e-4f92-98d5-8cb983cfe094",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "CHARACTER",
+      "text": "*Beobachtet Bennet und sieht sich kurz um, bevor sie den Dolch mit einem sanften Griff an sich nimmt.*\n\n„Ich halte den Dolch.“",
+      "createdAt": 1791459559947
+    },
+    {
+      "id": "51a17ef0-e437-49a9-8c6e-d9cd197eb804",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "USER",
+      "text": "Ich halte den Dolch jetzt. Der Dolch gehört dir. Wem gehört der Dolch und wer hält ihn jetzt?",
+      "createdAt": 1791459559949
+    },
+    {
+      "id": "ba55f5ba-b4fc-4f4f-a34b-5b354665d652",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "CHARACTER",
+      "text": "*Beobachtet Bennet, der den Dolch nun in den Händen hält, und hebt leicht die Augenbrauen, als würde sie nachdenken.*\n\n„Der Dolch gehört mir. Aber ich halte ihn nicht.“",
+      "createdAt": 1791459560087
+    },
+    {
+      "id": "0752808b-aad8-49ab-a422-913bb2b74775",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "USER",
+      "text": "Ich lege den Dolch neben die Schale. Wem gehört er jetzt, und wo liegt er?",
+      "createdAt": 1791459560104
+    },
+    {
+      "id": "fa084d21-6a57-4746-926b-5adbb64bbb02",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "CHARACTER",
+      "text": "*Beobachtet Bennet, der den Dolch nun vorsichtig neben die Schale legt, und nickt leicht.*\n\n„Der Dolch gehört Oda. Er liegt jetzt neben der Schale.“",
+      "createdAt": 1791459817354
+    },
+    {
+      "id": "f24fe6bc-fcbe-49f6-ac1d-08830ba27e59",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "role": "USER",
+      "text": "Ich nehme den Dolch wieder an mich und mustere dich neugierig. Wer hält ihn jetzt? Wem gehört er weiterhin?",
+      "createdAt": 1791459996411
+    }
+  ],
+  "memories": [
+    {
+      "id": "3ab9d4b2-5581-4ed5-a461-fe3080b74eb8",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "kind": "FACT",
+      "text": "Startvorgabe: Liora: Begleitung",
+      "pinned": true,
+      "createdAt": 1791459559936,
+      "updatedAt": 1791459559936
+    },
+    {
+      "id": "623a4dff-46f7-40ba-85cb-ec05a3fc81e0",
+      "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+      "kind": "EVENT",
+      "text": "Startvorgabe: Werkstatt",
+      "pinned": true,
+      "createdAt": 1791459559937,
+      "updatedAt": 1791459559937
+    }
+  ],
+  "memory": {
+    "version": 25,
+    "facts": [
+      {
+        "id": "ae64121d6382ac1a71c5a063fa42a0b6",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "6215fbe60881d41ae949e26a905e41e8",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Bennet",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "0a0dbdd2-1528-474b-8e1e-8e612f8b8cbf",
+        "sourceText": "Ich heiße Bennet.",
+        "version": 9,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459559942,
+        "sourceOrder": 2
+      },
+      {
+        "id": "a4f3d0f39349d53f1c72f9a289f4af19",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Liora",
+        "status": "HISTORICAL",
+        "pinned": false,
+        "sourceId": "98e4b6b8-723a-4cc1-b331-97bbd5310c82",
+        "sourceText": "Du hältst den Dolch.",
+        "version": 10,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459559944,
+        "sourceOrder": 4
+      },
+      {
+        "id": "6540f78719a1541378039b788facec4a",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Wer",
+        "status": "UNCERTAIN",
+        "pinned": false,
+        "sourceId": "f40080ab-527b-4f46-8916-0b9b1e2f6a99",
+        "sourceText": "Wer hält den Dolch jetzt?",
+        "version": 11,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459559946,
+        "sourceOrder": 6
+      },
+      {
+        "id": "abc6d18278e0756d0a4db4a16fb42663",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Liora",
+        "status": "UNCERTAIN",
+        "pinned": false,
+        "sourceId": "58ae3506-ea6e-4f92-98d5-8cb983cfe094",
+        "sourceText": "Ich halte den Dolch.",
+        "version": 12,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459559947,
+        "sourceOrder": 7
+      },
+      {
+        "id": "d9bc1761b31bd677c1d10a9ba256cd4c",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Du",
+        "status": "HISTORICAL",
+        "pinned": false,
+        "sourceId": "51a17ef0-e437-49a9-8c6e-d9cd197eb804",
+        "sourceText": "Ich halte den Dolch jetzt.",
+        "version": 14,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459559949,
+        "sourceOrder": 8
+      },
+      {
+        "id": "e6acde5c46862fc9076d7fae89ce3208",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "owner",
+        "value": "Liora",
+        "status": "HISTORICAL",
+        "pinned": false,
+        "sourceId": "51a17ef0-e437-49a9-8c6e-d9cd197eb804",
+        "sourceText": "Der Dolch gehört dir.",
+        "version": 15,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459559949,
+        "sourceOrder": 8
+      },
+      {
+        "id": "21018a5b3dcdaaf317cb129ec8f79a89",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "owner",
+        "value": "Liora",
+        "status": "UNCERTAIN",
+        "pinned": false,
+        "sourceId": "ba55f5ba-b4fc-4f4f-a34b-5b354665d652",
+        "sourceText": "Der Dolch gehört mir.",
+        "version": 16,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459560087,
+        "sourceOrder": 9
+      },
+      {
+        "id": "0a97003e-77f9-4a0c-ac86-fb80d4366eb7",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "owner",
+        "value": "Oda",
+        "status": "CURRENT",
+        "pinned": true,
+        "sourceText": "Eigene Festlegung: Dolch · Oda",
+        "version": 17,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": true,
+        "createdAt": 1791459560098,
+        "sourceOrder": 9
+      },
+      {
+        "id": "0f14053657b8a84dfaf147f9af2e7058",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "0752808b-aad8-49ab-a422-913bb2b74775",
+        "sourceText": "Ich lege den Dolch neben die Schale.",
+        "version": 20,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459560104,
+        "sourceOrder": 10
+      },
+      {
+        "id": "70a40ddcee7dd5f105e2a36822283518",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "placement",
+        "value": "neben der Schale",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "0752808b-aad8-49ab-a422-913bb2b74775",
+        "sourceText": "Ich lege den Dolch neben die Schale.",
+        "version": 21,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459560104,
+        "sourceOrder": 10
+      },
+      {
+        "id": "03a5ba1bc7e7a749f0131f9228239de3",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "owner",
+        "value": "Oda",
+        "status": "UNCERTAIN",
+        "pinned": true,
+        "sourceId": "fa084d21-6a57-4746-926b-5adbb64bbb02",
+        "sourceText": "Der Dolch gehört Oda.",
+        "version": 22,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459817354,
+        "sourceOrder": 11
+      },
+      {
+        "id": "a7bb5dac7ffefdb23381058923c080d9",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "UNCERTAIN",
+        "pinned": false,
+        "sourceId": "fa084d21-6a57-4746-926b-5adbb64bbb02",
+        "sourceText": "Er liegt jetzt neben der Schale.",
+        "version": 23,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459817354,
+        "sourceOrder": 11
+      },
+      {
+        "id": "b16ad8cd7249a077bf4ce886cfbe1f5a",
+        "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+        "entity": {
+          "id": "0b230e50e44946bc3102b28c847c7492",
+          "storyId": "c6f6f84c-aac3-4a27-97ad-5e81eae0b4ba",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "placement",
+        "value": "neben der Schale",
+        "status": "UNCERTAIN",
+        "pinned": false,
+        "sourceId": "fa084d21-6a57-4746-926b-5adbb64bbb02",
+        "sourceText": "Er liegt jetzt neben der Schale.",
+        "version": 24,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1791459817354,
+        "sourceOrder": 11
+      }
+    ],
+    "knowledge": [
+      {
+        "factId": "a4f3d0f39349d53f1c72f9a289f4af19",
+        "knower": "character",
+        "sourceId": "98e4b6b8-723a-4cc1-b331-97bbd5310c82",
+        "version": 10
+      },
+      {
+        "factId": "a4f3d0f39349d53f1c72f9a289f4af19",
+        "knower": "player",
+        "sourceId": "98e4b6b8-723a-4cc1-b331-97bbd5310c82",
+        "version": 10
+      },
+      {
+        "factId": "d9bc1761b31bd677c1d10a9ba256cd4c",
+        "knower": "character",
+        "sourceId": "51a17ef0-e437-49a9-8c6e-d9cd197eb804",
+        "version": 14
+      },
+      {
+        "factId": "d9bc1761b31bd677c1d10a9ba256cd4c",
+        "knower": "player",
+        "sourceId": "51a17ef0-e437-49a9-8c6e-d9cd197eb804",
+        "version": 14
+      },
+      {
+        "factId": "0f14053657b8a84dfaf147f9af2e7058",
+        "knower": "character",
+        "sourceId": "0752808b-aad8-49ab-a422-913bb2b74775",
+        "version": 20
+      },
+      {
+        "factId": "0f14053657b8a84dfaf147f9af2e7058",
+        "knower": "player",
+        "sourceId": "0752808b-aad8-49ab-a422-913bb2b74775",
+        "version": 20
+      },
+      {
+        "factId": "e6acde5c46862fc9076d7fae89ce3208",
+        "knower": "character",
+        "sourceId": "51a17ef0-e437-49a9-8c6e-d9cd197eb804",
+        "version": 15
+      },
+      {
+        "factId": "e6acde5c46862fc9076d7fae89ce3208",
+        "knower": "player",
+        "sourceId": "51a17ef0-e437-49a9-8c6e-d9cd197eb804",
+        "version": 15
+      },
+      {
+        "factId": "0a97003e-77f9-4a0c-ac86-fb80d4366eb7",
+        "knower": "character",
+        "version": 17
+      },
+      {
+        "factId": "0a97003e-77f9-4a0c-ac86-fb80d4366eb7",
+        "knower": "player",
+        "version": 17
+      },
+      {
+        "factId": "70a40ddcee7dd5f105e2a36822283518",
+        "knower": "character",
+        "sourceId": "0752808b-aad8-49ab-a422-913bb2b74775",
+        "version": 21
+      },
+      {
+        "factId": "70a40ddcee7dd5f105e2a36822283518",
+        "knower": "player",
+        "sourceId": "0752808b-aad8-49ab-a422-913bb2b74775",
+        "version": 21
+      },
+      {
+        "factId": "ae64121d6382ac1a71c5a063fa42a0b6",
+        "knower": "character",
+        "sourceId": "0a0dbdd2-1528-474b-8e1e-8e612f8b8cbf",
+        "version": 9
+      },
+      {
+        "factId": "ae64121d6382ac1a71c5a063fa42a0b6",
+        "knower": "player",
+        "sourceId": "0a0dbdd2-1528-474b-8e1e-8e612f8b8cbf",
+        "version": 9
+      }
+    ],
+    "scannedSources": [
+      "c7903317-dcf4-4f2e-8dbf-8d7b26d883a2",
+      "0a0dbdd2-1528-474b-8e1e-8e612f8b8cbf",
+      "673ce486-c32e-40e9-b49f-04041f676c65",
+      "98e4b6b8-723a-4cc1-b331-97bbd5310c82",
+      "c68ff5d6-9647-4e08-aa58-12ed3760ce71",
+      "f40080ab-527b-4f46-8916-0b9b1e2f6a99",
+      "58ae3506-ea6e-4f92-98d5-8cb983cfe094",
+      "51a17ef0-e437-49a9-8c6e-d9cd197eb804",
+      "ba55f5ba-b4fc-4f4f-a34b-5b354665d652",
+      "0752808b-aad8-49ab-a422-913bb2b74775",
+      "fa084d21-6a57-4746-926b-5adbb64bbb02"
+    ],
+    "excludedEvents": [],
+    "pendingSources": 1,
+    "overview": "",
+    "characterAliases": [
+      "liora"
+    ]
+  }
+}

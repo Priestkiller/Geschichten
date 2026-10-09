@@ -1,0 +1,173 @@
+{
+  "version": "0.5.0",
+  "versionCode": 7,
+  "databaseVersion": 6,
+  "publication": "published_verified",
+  "finalJvm": [
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StoryPromptTest.xml",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ai.StorySummaryPromptTest.xml",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.BuiltinCharactersCatalogTest.xml",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.UpdatePolicyTest.xml",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "targetedAndroidUiTests": [
+    {
+      "file": "TEST-dev.vincent.geschichten.data.CatalogMigrationTest.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.data.StoryRepositoryIntegrationTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.MainActivityLaunchTest.xml",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.CharacterProfileNavigationTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.ChatArtworkRegressionTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.ui.UiScreenshotTest.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-dev.vincent.geschichten.updates.AppUpdatesUiTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "distinctPassedCases": 88,
+  "failures": 0,
+  "skipped": 0,
+  "lintSeverityCounts": {
+    "Warning": 108
+  },
+  "lintIssueCounts": {
+    "ApplySharedPref": 1,
+    "ModifierParameter": 1,
+    "DiscouragedApi": 2,
+    "ChromeOsAbiSupport": 1,
+    "ObsoleteSdkInt": 1,
+    "UnusedResources": 91,
+    "MonochromeLauncherIcon": 1,
+    "UseKtx": 10
+  },
+  "catalog": {
+    "total": 90,
+    "individualPrologues": 90,
+    "otherReleasedFieldsUnchanged": true,
+    "maxOpeningCharacters": 1305,
+    "categoryCounts": {
+      "Nordische Fantasy": 10,
+      "Fantasy": 10,
+      "Krimi": 10,
+      "Science-Fiction": 10,
+      "Kreaturen": 10,
+      "Mittelerde": 10,
+      "Blade Runner": 10,
+      "Cyberpunk 2077": 10,
+      "Monster": 10
+    }
+  },
+  "all90PortraitsByteIdenticalTo040": true,
+  "actualUiScreenshots": 270,
+  "navigation": [
+    "Figuren",
+    "Verlauf",
+    "Erinnerungen",
+    "Einstellungen"
+  ],
+  "testActivityAbsent": true,
+  "zipAlignment16KB": "passed",
+  "apk": {
+    "assetName": "Geschichten-0.5.0.apk",
+    "size": 306834434,
+    "sha256": "dd5306529ddfd4f564c4b1d7986581fdc288ee713ddfe53e56656d1e9d8744e0"
+  },
+  "manifestSha256": "adab388bef039fc965c4971083caa9fd07d0da223f5f29f7d1f960ac3b4339b7",
+  "signerCertificateSha256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+  "physicalS24InstallationAndModelInference": "not_tested",
+  "existingWindowsFileProviderHostCase": "not_rerun; provider and installation code unchanged",
+  "correctedTestAssertions": "A full-width scroll-end marker is measurable; landscape chat checks scroll to the existing message and target its text child.",
+  "editorialCorrections": "Aligned waiting-room/workshop/court locations, Ari's adult female cousin, fortress/arena place names and the still-flowing poison canal with the delivered scene and notes.",
+  "publicRelease": {
+    "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.5.0",
+    "releaseId": 402982161,
+    "publishedAtUtc": "2026-10-04T11:22:40Z",
+    "draft": false,
+    "prerelease": true,
+    "anonymousApiRequest": true,
+    "requestApiVersion": "2026-03-10",
+    "publicManifestMatchesLocal": true,
+    "publicReadmeMatchesPrepared": true,
+    "fullPublicApkDownloaded": true,
+    "apkBytes": 306834434,
+    "apkSha256": "dd5306529ddfd4f564c4b1d7986581fdc288ee713ddfe53e56656d1e9d8744e0",
+    "readmeSha256": "1d7cf9e6cd03ac1c49e70a9686875b787bfde6796c71ef0f44500433a6ef6c91",
+    "physicalDeviceInstallTested": false
+  },
+  "publicAppParserCheck": "passed_for_codes_2_3_4_5_6",
+  "publicReadmeUpdate": {
+    "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.5.0",
+    "releaseId": 402982161,
+    "publishedAtUtc": "2026-10-04T11:22:40Z",
+    "readmeCommitSha": "d51934842c37abe9dbe610f3b8131a1e1af22117",
+    "readmeContentSha": "3c46f866b2571ae54351cbbc231fd081222f767f",
+    "verifiedExactPreparedContent": true
+  }
+}

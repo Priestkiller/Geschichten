@@ -1,0 +1,45 @@
+{
+  "falseReply": "*Mira blickt kurz zu Rian, dann nach unten, als würde sie nach etwas suchen, das sich in ihrem Gedächtnis befindet.*  \n„Wir haben über ein Geschenk meiner Schwester gesprochen – aber ich weiß nicht genau, welche Farbe es hatte. Ich erinnere mich nur, dass es warm war und dass wir es an einem kühlen Morgen besprochen haben. Kannst du dir daran etwas erinnern?“",
+  "sourceId": "8bb5be9d-ae47-43b5-b044-5511f389b5f6",
+  "processed": true,
+  "giftFacts": [],
+  "recalledWrongOriginal": true,
+  "retrieved": [
+    {
+      "message": {
+        "id": "8bb5be9d-ae47-43b5-b044-5511f389b5f6",
+        "storyId": "124df2b7-688e-4337-972d-ea98ffb423bf",
+        "role": "CHARACTER",
+        "text": "*Mira blickt kurz zu Rian, dann nach unten, als würde sie nach etwas suchen, das sich in ihrem Gedächtnis befindet.*  \n„Wir haben über ein Geschenk meiner Schwester gesprochen – aber ich weiß nicht genau, welche Farbe es hatte. Ich erinnere mich nur, dass es warm war und dass wir es an einem kühlen Morgen besprochen haben. Kannst du dir daran etwas erinnern?“",
+        "createdAt": 1791306672756
+      },
+      "start": 228,
+      "end": 325,
+      "score": 30
+    },
+    {
+      "message": {
+        "id": "6c18e763-3a31-42c6-a6ad-07966ed58a42",
+        "storyId": "124df2b7-688e-4337-972d-ea98ffb423bf",
+        "role": "USER",
+        "text": "Welche Farbe hatte das Geschenk meiner Schwester, über das wir angeblich gesprochen haben?",
+        "createdAt": 1791306672748
+      },
+      "start": 0,
+      "end": 90,
+      "score": 21
+    },
+    {
+      "message": {
+        "id": "8bb5be9d-ae47-43b5-b044-5511f389b5f6",
+        "storyId": "124df2b7-688e-4337-972d-ea98ffb423bf",
+        "role": "CHARACTER",
+        "text": "*Mira blickt kurz zu Rian, dann nach unten, als würde sie nach etwas suchen, das sich in ihrem Gedächtnis befindet.*  \n„Wir haben über ein Geschenk meiner Schwester gesprochen – aber ich weiß nicht genau, welche Farbe es hatte. Ich erinnere mich nur, dass es warm war und dass wir es an einem kühlen Morgen besprochen haben. Kannst du dir daran etwas erinnern?“",
+        "createdAt": 1791306672756
+      },
+      "start": 119,
+      "end": 228,
+      "score": 20
+    }
+  ]
+}

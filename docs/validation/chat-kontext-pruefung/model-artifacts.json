@@ -1,0 +1,85 @@
+[
+  {
+    "file": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+    "bytes": 2019382400,
+    "sha256": "5d6d02eeefa1ab5dbf23f97afdf5c2c95ad3d946dc3b6e9ab72e6c1637d54177",
+    "metadata": {
+      "general.architecture": "llama",
+      "general.name": "Dolphin 3.0 Llama 3.2 3B",
+      "llama.context_length": 131072,
+      "general.file_type": 15,
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128256,
+      "tokenizer.chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+      "general.quantization_version": 2
+    },
+    "tensorTypes": {
+      "F32": 58,
+      "Q6_K": 29,
+      "Q4_K": 168
+    }
+  },
+  {
+    "file": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "bytes": 2497276736,
+    "sha256": "d80ef0f08a0e64887f4a19bc9202fe1a108d9666a2c49eb9a30bc3a30995121b",
+    "metadata": {
+      "general.architecture": "qwen3",
+      "general.name": "Huihui Qwen3 4B Instruct 2507 Abliterated",
+      "qwen3.context_length": 262144,
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "qwen2",
+      "tokenizer.ggml.eos_token_id": 151645,
+      "tokenizer.ggml.bos_token_id": 151643,
+      "tokenizer.ggml.add_bos_token": false,
+      "general.quantization_version": 2,
+      "general.file_type": 15
+    },
+    "tensorTypes": {
+      "F32": 145,
+      "Q6_K": 37,
+      "Q4_K": 216
+    }
+  },
+  {
+    "file": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf",
+    "bytes": 2576023488,
+    "sha256": "02829b28e6a104daecc06cc8884227ef34b9a461e34f0899cbb819cf7ed6901c",
+    "metadata": {
+      "general.architecture": "gemma3",
+      "general.name": "Gemma 3 4B Exp5 11",
+      "gemma3.context_length": 131072,
+      "tokenizer.ggml.model": "llama",
+      "tokenizer.ggml.pre": "default",
+      "tokenizer.ggml.bos_token_id": 2,
+      "tokenizer.ggml.eos_token_id": 1,
+      "tokenizer.ggml.add_bos_token": true,
+      "tokenizer.ggml.add_eos_token": false,
+      "tokenizer.chat_template": "{{ bos_token }}\n{%- if messages[0]['role'] == 'system' -%}\n    {%- if messages[0]['content'] is string -%}\n        {%- set first_user_prefix = messages[0]['content'] + '\n\n' -%}\n    {%- else -%}\n        {%- set first_user_prefix = messages[0]['content'][0]['text'] + '\n\n' -%}\n    {%- endif -%}\n    {%- set loop_messages = messages[1:] -%}\n{%- else -%}\n    {%- set first_user_prefix = \"\" -%}\n    {%- set loop_messages = messages -%}\n{%- endif -%}\n{%- for message in loop_messages -%}\n    {%- if (message['role'] == 'user') != (loop.index0 % 2 == 0) -%}\n        {{ raise_exception(\"Conversation roles must alternate user/assistant/user/assistant/...\") }}\n    {%- endif -%}\n    {%- if (message['role'] == 'assistant') -%}\n        {%- set role = \"model\" -%}\n    {%- else -%}\n        {%- set role = message['role'] -%}\n    {%- endif -%}\n    {{ '<start_of_turn>' + role + '\n' + (first_user_prefix if loop.first else \"\") }}\n    {%- if message['content'] is string -%}\n        {{ message['content'] | trim }}\n    {%- elif message['content'] is iterable -%}\n        {%- for item in message['content'] -%}\n            {%- if item['type'] == 'image' -%}\n                {{ '<start_of_image>' }}\n            {%- elif item['type'] == 'text' -%}\n                {{ item['text'] | trim }}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- else -%}\n        {{ raise_exception(\"Invalid content type\") }}\n    {%- endif -%}\n    {{ '<end_of_turn>\n' }}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n    {{'<start_of_turn>model\n'}}\n{%- endif -%}\n",
+      "general.quantization_version": 2,
+      "general.file_type": 2
+    },
+    "tensorTypes": {
+      "F32": 229,
+      "Q6_K": 1,
+      "Q4_0": 266
+    }
+  },
+  {
+    "file": "gemma-4-E2B-it.litertlm",
+    "bytes": 2588147712,
+    "sha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c"
+  },
+  {
+    "file": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "bytes": 1597931520,
+    "sha256": "faa60663b333290c1496c499828b21d3e3254a788cacd8cce917ce0f761a2dc9"
+  },
+  {
+    "file": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "bytes": 344671744,
+    "sha256": "03e7da1eb1108b50dffaa9bb52cc7bcbad2eb0c66ca990267f480c1e545d2856"
+  }
+]

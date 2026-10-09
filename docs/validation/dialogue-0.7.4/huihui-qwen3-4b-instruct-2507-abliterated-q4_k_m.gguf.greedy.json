@@ -1,0 +1,10 @@
+[
+  {
+    "model": "huihui-qwen3-4b-instruct-2507-abliterated-q4_k_m.gguf",
+    "outputTokenLimit": 256,
+    "case": "mira-denial",
+    "runtime": "Windows x86_64 CPU",
+    "seconds": 40.2154668,
+    "answer": "*Mira nickt, lächelt warm und legt ihre Hand auf das Gerät, das leise summt.*\n\n**„Das ist gut. Dann schauen wir uns das gemeinsam an – ohne zu viel zu versprechen.“**\n\n*Sie dreht sich langsam um, so dass sie dir direkt ins Gesicht blickt.*\n\n**„Ich habe das Signal seit einer Stunde. Es ist schwach, aber regelmäßig. Vielleicht ist es ein Echo – ein Signal, das von der Station kommt, aber nicht mehr direkt an die Außenwände gesendet wird.“**\n\n*Sie hebt den Arm, um das Armband zu zeigen.*\n\n**„Wenn du möchtest, können wir die Aufzeichnungen vergleichen. Ich habe gerade eine kurze Aufnahme von der Schleuse – vielleicht sehen wir etwas, das wir beide gemeinsam wahrnehmen.“**\n\n**„Und wenn wir nichts finden, dann gehen wir einfach zurück. Aber ich verspreche dir: Wir werden nicht verlieren.“**"
+  }
+]

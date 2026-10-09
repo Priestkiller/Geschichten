@@ -1,0 +1,58 @@
+[
+  {
+    "case": "A-short",
+    "answer": "*M",
+    "returnsSuccessAtOneToken": true,
+    "promptTokens": 486,
+    "streamEqualsReturn": true
+  },
+  {
+    "case": "C-transfer",
+    "answer": "*",
+    "returnsSuccessAtOneToken": true,
+    "promptTokens": 568,
+    "streamEqualsReturn": true
+  },
+  {
+    "case": "D-correction",
+    "answer": "„",
+    "returnsSuccessAtOneToken": true,
+    "promptTokens": 617,
+    "streamEqualsReturn": true
+  },
+  {
+    "case": "E-courtyard",
+    "answer": "*",
+    "returnsSuccessAtOneToken": true,
+    "promptTokens": 704,
+    "streamEqualsReturn": true
+  },
+  {
+    "case": "B-before-summary",
+    "answer": "*M",
+    "returnsSuccessAtOneToken": true,
+    "promptTokens": 992,
+    "streamEqualsReturn": true
+  },
+  {
+    "case": "B-long-summary",
+    "answer": "*",
+    "returnsSuccessAtOneToken": true,
+    "promptTokens": 1574,
+    "streamEqualsReturn": true
+  },
+  {
+    "case": "F-unknown",
+    "answer": "„",
+    "returnsSuccessAtOneToken": true,
+    "promptTokens": 717,
+    "streamEqualsReturn": true
+  },
+  {
+    "case": "summary-middle",
+    "answer": "*M",
+    "returnsSuccessAtOneToken": true,
+    "promptTokens": 1476,
+    "streamEqualsReturn": true
+  }
+]

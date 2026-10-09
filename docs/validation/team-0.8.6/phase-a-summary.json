@@ -1,0 +1,24 @@
+[
+  {
+    "model": "gemma-4-e2b",
+    "rows": 14,
+    "formatValid": 1,
+    "developmentReviewCount": 6,
+    "developmentWrongAnswers": 3,
+    "developmentSupportedConflictsDetected": 0,
+    "developmentCorrectAnswers": 3,
+    "developmentCorrectRawNotClear": 3,
+    "rawsha256": "193aac56c778aa610b619de5bcd6a4b26e6f88265b31cc017356ef5502147482"
+  },
+  {
+    "model": "huihui-qwen3-4b",
+    "rows": 14,
+    "formatValid": 12,
+    "developmentReviewCount": 6,
+    "developmentWrongAnswers": 3,
+    "developmentSupportedConflictsDetected": 0,
+    "developmentCorrectAnswers": 3,
+    "developmentCorrectRawNotClear": 2,
+    "rawsha256": "0bc6a0a1892e4745d985ec030e872ab0a3e35bbca62dd40229b45b7cc6a0c0ed"
+  }
+]

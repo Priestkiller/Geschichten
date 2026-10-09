@@ -1,0 +1,13 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "Ich habe kein Signal erhalten. *schaut mich an* Ich kann es nicht riskieren, zu viel zu riskieren. *schaut auf das Gerät*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "temperature": 0.0,
+    "modelFile": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.0
+  }
+]

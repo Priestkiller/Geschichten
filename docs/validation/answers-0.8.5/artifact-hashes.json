@@ -1,0 +1,534 @@
+[
+  {
+    "file": "answer-summary.json",
+    "sha256": "ef566c7eb14203f04c071ed648fb565626efafec418b2cbc1d87deacf00e3aeb"
+  },
+  {
+    "file": "apk-badging.txt",
+    "sha256": "63b2be20bd24761775ee00077ce85dacca985cbb4fcf04391af5ac876f908373"
+  },
+  {
+    "file": "apksigner.txt",
+    "sha256": "a67d171a4268b02ffb280142675699d3e5b9ed4b0d85dd1b20540273172a1fc9"
+  },
+  {
+    "file": "baseline-hashes.json",
+    "sha256": "4a179dbac4ac8f26b4f8b2ce64bb04ae0520624227e98e5697efa8d318f508ac"
+  },
+  {
+    "file": "baseline-hybrid.json",
+    "sha256": "f4b72f434eb7746fe2de405c39e304d0470a76f87e7eadb07da31c749eb64ea7"
+  },
+  {
+    "file": "baseline-lexical.json",
+    "sha256": "7929d374849d7354ef73e7a7944ea044d48b00d3a4d4401f5faef6c2e5bc3c89"
+  },
+  {
+    "file": "baseline-pipeline.log",
+    "sha256": "8e26035d01bdc9e2d221a4233e85c8b2292cf549cbbe49d7d122bd6c0530fbaf"
+  },
+  {
+    "file": "baseline-retrieval-trace.json",
+    "sha256": "f2cd7ea6b44d283e2d4b805b366489a0811b9c1d1343902b2dc3c3fd163ea76e"
+  },
+  {
+    "file": "baseline-scenes.json",
+    "sha256": "8582e33e1569313817b9bc799c1573765a1b11bd6ffe01d96adbf7d86a862368"
+  },
+  {
+    "file": "bootstrap.log",
+    "sha256": "a0948332c498d7cbc4b2d900531896ff027f3f5286038ec5612eff64813a83d2"
+  },
+  {
+    "file": "build-final.log",
+    "sha256": "e5e8f4e0c225fbbeec0056fe9bbeebebb923cb0cb07bdec7accd87454564239c"
+  },
+  {
+    "file": "changed-files.json",
+    "sha256": "1146dfb97209f33ff1d501837c633f0040dd0719d5f417761d23ac4f4ec100a8"
+  },
+  {
+    "file": "comparison-frozen.json",
+    "sha256": "55c1aad0cdc8d219a81ed4b52e6d4e783f35521aa8d58160dc66baa86b2080da"
+  },
+  {
+    "file": "conversation-1-scenes-frozen.json",
+    "sha256": "ee5eddf53ec3ce3e19c25acef76b96cb6e6895f45a4e94c4abce2edb8126c5b7"
+  },
+  {
+    "file": "conversation-1-storage.log",
+    "sha256": "a5565e6b5a4bed154d62e31e7b6b9d18fe58dea1ee8ce7f2ad14546299afb02e"
+  },
+  {
+    "file": "conversation-blocked-database.json",
+    "sha256": "784705134fce335dbae5de50818b39f78b67f3c48a5fc5479c9e4732a0acf14a"
+  },
+  {
+    "file": "conversation-blocked-storage.log",
+    "sha256": "d6e02517fbe3551192a50771e552a2f7916847f3ff83449a4d8f96dc8d681f6a"
+  },
+  {
+    "file": "conversation-final-test.xml",
+    "sha256": "b2a4ed1a98262b9e530fd3e3157c3ecee3cb941255a7b71fec9be7a9791dcaeb"
+  },
+  {
+    "file": "conversation-frozen.json",
+    "sha256": "7830ce096dc16d5dcce65bff6fa179c55b6ee01a36077755d13b5aff4f0734c7"
+  },
+  {
+    "file": "corrected-pipeline.log",
+    "sha256": "b83f9fe0b7d387e9d9e3a2dc8c541673f4a83d7f4758dee00803c8e7f1257569"
+  },
+  {
+    "file": "delivery-verification.json",
+    "sha256": "a6a70ef0820f8faf4b5c68bb4473ff98884ccf6caedfd6eb29f4d551fdf08060"
+  },
+  {
+    "file": "devices.txt",
+    "sha256": "bbfcc7239a6f1be3544814ebdc6bcc9b66bf5b1f0b03baa3340808f19265a630"
+  },
+  {
+    "file": "embed-inputs.json",
+    "sha256": "7c9c057fbeefc70a6509008e2bc8a7a023d130e894ad0d6e5e72a113c30d1422"
+  },
+  {
+    "file": "embedding-trace.json",
+    "sha256": "465f42202df82c0df60118a15afa30a97d8f5176f3fbeb9e3cbec413e30a625f"
+  },
+  {
+    "file": "embedding.log",
+    "sha256": "7c6602a5e1f7cd21563711ca0a6cc20c5989eb85560ecd2438835beb32ff4464"
+  },
+  {
+    "file": "facts-candidate-frozen.kt",
+    "sha256": "f32a8cb8082346ac81b6b7c63f875d94372049eb01ac5c7e72464c5e060b10c3"
+  },
+  {
+    "file": "facts-candidate-hash.json",
+    "sha256": "7983b8f4d8df3d8174ac5a218c3dbc508c3784196b748fe3749f5770330b7dfd"
+  },
+  {
+    "file": "FactsProbe.class",
+    "sha256": "4114bdbff37d39a6e50a8cd87a79c258b2000645ca9030fcf5f3c19a8b8102ae"
+  },
+  {
+    "file": "FactsProbe.java",
+    "sha256": "08bc989f05281276f77f95ed92bcf3f2f98214fae9e0a6a3e99ad91caebc6669"
+  },
+  {
+    "file": "final-hybrid-corrected-frozen.json",
+    "sha256": "f4b72f434eb7746fe2de405c39e304d0470a76f87e7eadb07da31c749eb64ea7"
+  },
+  {
+    "file": "final-hybrid-frozen.json",
+    "sha256": "7929d374849d7354ef73e7a7944ea044d48b00d3a4d4401f5faef6c2e5bc3c89"
+  },
+  {
+    "file": "final-hybrid.json",
+    "sha256": "f4b72f434eb7746fe2de405c39e304d0470a76f87e7eadb07da31c749eb64ea7"
+  },
+  {
+    "file": "final-lexical-corrected-frozen.json",
+    "sha256": "7929d374849d7354ef73e7a7944ea044d48b00d3a4d4401f5faef6c2e5bc3c89"
+  },
+  {
+    "file": "final-lexical-frozen.json",
+    "sha256": "7929d374849d7354ef73e7a7944ea044d48b00d3a4d4401f5faef6c2e5bc3c89"
+  },
+  {
+    "file": "final-lexical.json",
+    "sha256": "7929d374849d7354ef73e7a7944ea044d48b00d3a4d4401f5faef6c2e5bc3c89"
+  },
+  {
+    "file": "final-pipeline.log",
+    "sha256": "01a6e995e9d246b6d9ce7081225e0c70dc82558aae5ad995fe6d4fd65ff0165c"
+  },
+  {
+    "file": "final-retrieval-trace-corrected-frozen.json",
+    "sha256": "f61370edec35d121a4a6852c551586591645594306dfcb478df168a8625c6dcd"
+  },
+  {
+    "file": "final-retrieval-trace-frozen.json",
+    "sha256": "2d7630f67feb9d296ce8ab1b344169755b1e48bbc3e738c3b184e1a9b75501ca"
+  },
+  {
+    "file": "final-retrieval-trace.json",
+    "sha256": "f61370edec35d121a4a6852c551586591645594306dfcb478df168a8625c6dcd"
+  },
+  {
+    "file": "final-scenes-corrected-frozen.json",
+    "sha256": "8582e33e1569313817b9bc799c1573765a1b11bd6ffe01d96adbf7d86a862368"
+  },
+  {
+    "file": "final-scenes-frozen.json",
+    "sha256": "8582e33e1569313817b9bc799c1573765a1b11bd6ffe01d96adbf7d86a862368"
+  },
+  {
+    "file": "final-scenes.json",
+    "sha256": "8582e33e1569313817b9bc799c1573765a1b11bd6ffe01d96adbf7d86a862368"
+  },
+  {
+    "file": "flow-recheck.log",
+    "sha256": "4082579e3f44076efb4d39095323e4f347bc2b73a3c10a4eb47a1daaf5ad934a"
+  },
+  {
+    "file": "integration-final.log",
+    "sha256": "3ad793e88602e6de9c525c001395279f84e52a89435a272bc4f99d4d0dca6c29"
+  },
+  {
+    "file": "lint-results.xml",
+    "sha256": "9a4cb01f81b62a59c52da0524b2d3ae070e353bcd6f5a9e489bb350318a55490"
+  },
+  {
+    "file": "native-semantic-flow.json",
+    "sha256": "d027137b8a082a09e4d444218aa2279f7c7e8616e98480f80ddf2ea7cb1abf0e"
+  },
+  {
+    "file": "native-semantic-flow.log",
+    "sha256": "f95628fe05890c0a191b3b22dabce87179099561d0a18ea9195c4400bd9aa367"
+  },
+  {
+    "file": "new-cases-frozen.json",
+    "sha256": "5e87b0bf94b522c730c9773fa2804d5735142b6bb3f340167977c93dab7bead8"
+  },
+  {
+    "file": "new-database-audit-frozen.json",
+    "sha256": "827194431a780f034e280411723b386ca27838d16dace87b6a78734a0c4bb152"
+  },
+  {
+    "file": "new-database-audit.json",
+    "sha256": "827194431a780f034e280411723b386ca27838d16dace87b6a78734a0c4bb152"
+  },
+  {
+    "file": "new-scenes-frozen.json",
+    "sha256": "9873180c1d6bc6b8e48a83a94414b57427248aed4202d9ad618ac3ca054e2e1a"
+  },
+  {
+    "file": "new-scenes.json",
+    "sha256": "9873180c1d6bc6b8e48a83a94414b57427248aed4202d9ad618ac3ca054e2e1a"
+  },
+  {
+    "file": "new-tests.log",
+    "sha256": "e1ea1c3196c415b75fc4c56b346acd26990fceaa382bd6c195521901027db5a4"
+  },
+  {
+    "file": "ongoing-conversation-frozen.json",
+    "sha256": "e81912409022d656c8f0e693a6b3b4c35cb730acbde2c0adda2054cac2cb2d4b"
+  },
+  {
+    "file": "ongoing-conversation.json",
+    "sha256": "e81912409022d656c8f0e693a6b3b4c35cb730acbde2c0adda2054cac2cb2d4b"
+  },
+  {
+    "file": "phase.txt",
+    "sha256": "2443630b4620165c8b173e7265e17526fe2787ae594364dd6d839ad58f2fc007"
+  },
+  {
+    "file": "QualityProbe.java",
+    "sha256": "b754830ab43c7ce890e88f920d163230da06c5ce74c04b7683cdd54f6e1e9eb8"
+  },
+  {
+    "file": "question-assignment-frozen.json",
+    "sha256": "b70f1a2b12b6c9ed33aca1cdc0489b88a0fa4f58171beba87d44a89e3b5cc5ae"
+  },
+  {
+    "file": "question-assignment.json",
+    "sha256": "b70f1a2b12b6c9ed33aca1cdc0489b88a0fa4f58171beba87d44a89e3b5cc5ae"
+  },
+  {
+    "file": "raw-baseline-hybrid-qwen3-official-4b.json",
+    "sha256": "49303a533e8da05c62922f1fed1632b6ae41efe3f8c6d7c25a1a62133f47f9a8"
+  },
+  {
+    "file": "raw-baseline-hybrid-qwen3-official-4b.log",
+    "sha256": "aa5e385bd9b8e97c0411a80bce7fa6f62515ec9bcb4b855bd3f85c4e1cc75f00"
+  },
+  {
+    "file": "raw-baseline-lexical-qwen3-official-4b.json",
+    "sha256": "847963496e1093cd57d35cf916b909bbd88e6c76033e7674c5513b4fcb2d17f9"
+  },
+  {
+    "file": "raw-baseline-lexical-qwen3-official-4b.log",
+    "sha256": "aa5e385bd9b8e97c0411a80bce7fa6f62515ec9bcb4b855bd3f85c4e1cc75f00"
+  },
+  {
+    "file": "raw-conversation-1-qwen3-official-4b.json",
+    "sha256": "e545def3b5b5e61a02ff6333fa689c8c2c27ed804e6edce21f3ba731e5441974"
+  },
+  {
+    "file": "raw-conversation-1-qwen3-official-4b.log",
+    "sha256": "53e91c88e0b8c39f18ac2f8fe06ed955ca85c849386028978dbd8067cbb151a7"
+  },
+  {
+    "file": "raw-corrected-hybrid-qwen3-official-4b.json",
+    "sha256": "19bf4439aa5858e0a2be20b5f311536de5c9fdf48f0903439afaa483fd043c82"
+  },
+  {
+    "file": "raw-corrected-hybrid-qwen3-official-4b.log",
+    "sha256": "aa5e385bd9b8e97c0411a80bce7fa6f62515ec9bcb4b855bd3f85c4e1cc75f00"
+  },
+  {
+    "file": "raw-facts-final.json",
+    "sha256": "495d821bbf7806bc9e70f2ad84bffcbdbacd44eb72d27d33d34915578d1527b9"
+  },
+  {
+    "file": "raw-facts.json",
+    "sha256": "19ab2a9bfd3992dfa2c4d9de245d450bbb7bbbe29c7d78f53dbdef21508749fc"
+  },
+  {
+    "file": "raw-final-hybrid-qwen3-official-4b.json",
+    "sha256": "74d0174b06aafc1f30ebbe2ae34f9e7cb66bffe4957773450ed68b203348ecdd"
+  },
+  {
+    "file": "raw-final-hybrid-qwen3-official-4b.log",
+    "sha256": "aa5e385bd9b8e97c0411a80bce7fa6f62515ec9bcb4b855bd3f85c4e1cc75f00"
+  },
+  {
+    "file": "raw-new-free-qwen3-official-4b.json",
+    "sha256": "3fdc8f099cb68dd861d72a16c2aa11953876786482657677f9ee5f66d8438f77"
+  },
+  {
+    "file": "raw-new-free-qwen3-official-4b.log",
+    "sha256": "c5e43cf4d7444de68a3c009a4705f2ca07f6eb77f46d783d06a193e55f59c6d9"
+  },
+  {
+    "file": "real-vectors.json",
+    "sha256": "028eceb4bb5b0b897e760885b8ccd3a1fcc00f6d0e0006c4f25698186de7c834"
+  },
+  {
+    "file": "run-probe.ps1",
+    "sha256": "e8236a55931dedfa8eee5022b0da86828ca8b1793a0bcebeaad4def525965cbf"
+  },
+  {
+    "file": "split-frozen.json",
+    "sha256": "39975464418177d1133656bf1c742f87ba95339553ae0a1f04f29a08d474bee8"
+  },
+  {
+    "file": "verify-delivery.py",
+    "sha256": "cc87a2cbae9f30aa6518558287a697341686a892c73b0d2912324f872dff018d"
+  },
+  {
+    "file": "whole-answer-assessment.json",
+    "sha256": "27efad57f82bf5912838945589e1f59357ef743ed8a9cab22195c54c9fe40789"
+  },
+  {
+    "file": "zipalign.txt",
+    "sha256": "386e1d5e65bd3eded2cb9dd61d343dad759a86847cccad4ebf51afdafdb4e3c6"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+    "sha256": "b28de15075789411a0c6b6cd88db2ef8a5261aa95f95af15e4749c56857a1782"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ChatContextIntegrationTest.xml",
+    "sha256": "1a96fdd94899fd17e357f12612d6260812be66afe8d7130ac58f8f38f5b09dd1"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.data.CatalogMigrationTest.xml",
+    "sha256": "5ba81c9625334a512691fa7250a73d987f6c6cea70212d87bb3b690789ecd34f"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.FactAnswerFlowTest.xml",
+    "sha256": "1982e6f27d446bd095d2e5c1c804da22bc84e2dd27fed871b1abb99266757cf4"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.AnswerPipelineTest.xml",
+    "sha256": "d2a4f4a4da2f8d3ae0d84b460295091c49cd23bfbaeae91b993ece6fca8877f5"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.FactAcceptanceTest.xml",
+    "sha256": "46ca5c3c25c5ca5fb77f6ebcfb4df33ef04dde395541746676af006f5e6124fe"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.FactAnswerPersistenceTest.xml",
+    "sha256": "9fa3e635eda524a9b2137cb0a28dbe442378d0fb32c13f2b56839ea15403ae31"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.FactAnswerTest.xml",
+    "sha256": "362d6380fa8bcadbbb2d683c92cb945be4f4494c63cfe839bfc34fc77018e95b"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.FactRepairIntegrationTest.xml",
+    "sha256": "a5692cfc82299a76b4dddda7c09992f7bd2566b791a62d4a77423f39ea8aae7a"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.MemoryRepositoryIntegrationTest.xml",
+    "sha256": "15e4845587bbbdff791d9a4c8799798467720464ba1ae6bb76c77e85fb32424d"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.NewScenePersistenceAuditTest.xml",
+    "sha256": "fbb300f654a84ac106639c656b06c6b18ea3e7021dd4b5421065aff75127075f"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.ProductionSemanticVerificationTest.xml",
+    "sha256": "d367b7fb57e791b4bbb5d9cea7b9d3f8719f76a323ab5217712f6c63dbf712a5"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RecallContextTest.xml",
+    "sha256": "c33ee103ba3f6afaa50b1fc76c489de677d163acdd01ab2ca547a2c40dd956c6"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RoleAnswerCorpusTest.xml",
+    "sha256": "5b32d5f5fd01fd0ec65aaa10d71ee73b53fbcd439322bf6f6ff1a7b76fedb7ef"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RoleContaminationInvestigationTest.xml",
+    "sha256": "e0d002351b7794f6d3fdfd73c82e9a48b0f64ecf6529fadc7e3f8d633a6c1b70"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RoleEvidenceTest.xml",
+    "sha256": "23dfe8d66cf7f3ad71c7672605e118848ed5b691f3e067b69753a922a12c05d7"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.RolePersistenceTest.xml",
+    "sha256": "4b1ef6e3bda4d2a6014bf9ebbe1672765f7af2d3deab771bbee65c109ec2b69e"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.SemanticIndexTest.xml",
+    "sha256": "903647c4b8cd1eb945e8dc5909138a6447d01f1f5912779e3aa4debccdea3e73"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.memory.SemanticSearchFallbackTest.xml",
+    "sha256": "e0e356d0113a2e0553e63e8d0196d0bb671681dbc581c9f0b6a0bb8776085289"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ui.FactAnswerUiTest.xml",
+    "sha256": "901c99ece4d47229a4535237c6a10e106355eef5a5edac014fef516dac1a38e6"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ui.MemoryUiTest.xml",
+    "sha256": "dea894676aad16825929d1c53cba7a86746eab9bc9e85c6bb70c34bd93eb330b"
+  },
+  {
+    "file": "integration-results/TEST-dev.vincent.geschichten.ui.SemanticSearchUiTest.xml",
+    "sha256": "e886825ece0af49cd416e33f599a9795b00cad5563a06d6a7cc40e3954951e41"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ai.LiteRtStoryTemplateTest.xml",
+    "sha256": "133a30945ec00857066bba59cb0848436a93540d6a3d98780dba449fef3c8edd"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ai.LocalModelCatalogTest.xml",
+    "sha256": "1e9fa679a10c1c1e7835089c22d85543216092a9375d356b43d426972eb00ca5"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ai.ModelDownloadProtocolTest.xml",
+    "sha256": "1dc02fa9bc2ce0b1113fa65674c22355dc4b60934249f557cc492f759c8b1977"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ai.ModelPerformanceTest.xml",
+    "sha256": "4dd3fb1f27b6bbf436455327916710fd6c12f32487885ea4057c7007362bd064"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ai.StoryContextAuditTest.xml",
+    "sha256": "24684b1a5088ad46baebc48b384e17b9a86589d12899753ad4ae50e04a43f026"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ai.StoryPromptTest.xml",
+    "sha256": "3f37ff5aa4715e6951592bdfbe58c3c10248541c292ba5eaa670253619ad6ba6"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ai.StoryReplyValidationTest.xml",
+    "sha256": "a79c0491409f4d6c4eca81f139f46b68838a46a5e041df3b34998d63cb97132f"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ai.StorySummaryPromptTest.xml",
+    "sha256": "38f59c176c1768611e2727834a70241f81ec92a9e8f2a7921a13703d88e300b4"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.data.BuiltinCharactersCatalogTest.xml",
+    "sha256": "04dc9fe243803753c8acf3a31b04d7c3b41c8dbfdf3369c88e2a14bd26afc8c5"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.memory.ArchiveRecallTest.xml",
+    "sha256": "7e8ddc8425518cfce56993df808c79c852b948d0ab08e84522c3092443e8f6f3"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.memory.FactAnswerTest.xml",
+    "sha256": "3aa2a0c80d66a8f03fb9da49dbada7f98e7d8c569068655cceab95b7fd8edb3e"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.memory.HybridRecallTest.xml",
+    "sha256": "93e8a44894d9d81b1c836d5280f642bc1395033379c7528bd5ddeb25cb6364c1"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.memory.IndependentFactGoldTest.xml",
+    "sha256": "729609a39db1eb477ec46ad1aeda7d4410b630fe3d8fb78c1e89db92c7f6cdbc"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.memory.MemoryRulesTest.xml",
+    "sha256": "75ea3d1049e8aab5b0a4ca0a9f782f8737ad82c9aacd2e7a2aa4300e5944bee7"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.memory.RecallContextTest.xml",
+    "sha256": "5e8cde26c9eb929b74ebcdafba9f6d25cc1c71c9f3f8dd190f4a36d64dfcb732"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.memory.RoleEvidenceTest.xml",
+    "sha256": "0e3bcbb4ac4bfc0fec619633c379b47f83bc1f884f051aad113a264750e123cd"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.ui.StoryTextTest.xml",
+    "sha256": "e6e83ae0c77ce53787707379e14fbfd95e9d3a2bcca817f25451c0bf58042cd7"
+  },
+  {
+    "file": "normal-results/TEST-dev.vincent.geschichten.updates.UpdatePolicyTest.xml",
+    "sha256": "0060760c83fd480637fa7810b84a8bb68b9e10280c27812c013b7e2ea7b7fcfe"
+  },
+  {
+    "file": "regression-output/answer-guard-corpus.json",
+    "sha256": "7a7a62daa80e2a152928c9e359a26ff58c7607c1a3f2fca30e2f6123daf16ac6"
+  },
+  {
+    "file": "regression-output/automatic-scenes.json",
+    "sha256": "c0899ba251ba52fcf83b1901d51e9d2b7988091c05f5ca178e76f73ee1acb75f"
+  },
+  {
+    "file": "regression-output/contamination-after.json",
+    "sha256": "8c34b4e8cbdb0aa21c0fea798aee1f8f7517eb13c67b34a78fdf1519a5824247"
+  },
+  {
+    "file": "regression-output/database-long-run.json",
+    "sha256": "166fce4e1474eb36a272c7e90c10c705e1c350aab3ab222dee7217f7c642a1fa"
+  },
+  {
+    "file": "regression-output/database-scenes-audit.json",
+    "sha256": "f6a8f029ff242181d092396e97df01d14d595b8773ed6b58a15367a21eed59f4"
+  },
+  {
+    "file": "regression-output/development-interpretation.json",
+    "sha256": "a46dd33ca1c7d2280e2fcf3f250911fea0953112cf2b2b744bd286db3ff4f7fc"
+  },
+  {
+    "file": "regression-output/heldout-database-audit.json",
+    "sha256": "1824c4b091c7e9c0e3767b8655f1a0da8b991a104ff4cc4fc449a20050c7266f"
+  },
+  {
+    "file": "regression-output/heldout-scenes.json",
+    "sha256": "2eccef3664b40c6a3f8daaef1e77f0730d83eb07b472a924020a519e027eaad3"
+  },
+  {
+    "file": "regression-output/regression-interpretation.json",
+    "sha256": "890d7df5aa948d4777370870256b9172f7b5ed60a31067be300782e4297196d0"
+  },
+  {
+    "file": "regression-output/repair-database-audit.json",
+    "sha256": "8f202d02e9a08beeac374de7b26099cde820a839c3318b96af832a57b887abba"
+  },
+  {
+    "file": "regression-output/semantic-regression.json",
+    "sha256": "6209af97fd1924f6ef09c8cd891732555ad949cdeabdcc819577fd37b0458596"
+  },
+  {
+    "file": "dev/vincent/geschichten/ai/ContextNativeProbe.class",
+    "sha256": "4bc2571563a3e2aaf3a5e755c6b8770e73181f267fed958ec77046d5a43f9231"
+  },
+  {
+    "file": "dev/vincent/geschichten/ai/QualityProbe$1.class",
+    "sha256": "8cc58878ecba077e609ce810afdfb813a5a68a3c38b213c2639a2b81c3df9bcd"
+  },
+  {
+    "file": "dev/vincent/geschichten/ai/QualityProbe.class",
+    "sha256": "6ea0aa33434b6704477f58353cad43adb913b36f09c4a00b973e9c836b3c9434"
+  }
+]

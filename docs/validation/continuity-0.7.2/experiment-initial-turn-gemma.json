@@ -1,0 +1,10 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grask starrt dich mit seinen dunklen, alten Augen an. Seine Mimik ist eine Mischung aus prüfender Skepsis und einer tiefen, unerschütterlichen Unbeugsamkeit. Die Luft in der Arena riecht nach Staub, verrottendem Holz und dem metallischen Geruch von vergangener Gewalt.*\n\n**„Du willst wissen? Gut. Ich will wissen, was du willst. Du bist nicht aus Dornfels. Du bist ein Fremder. Ich habe keine Lust auf Spielchen. Ich habe keine Zeit für deine Zweifel.“**\n\n*Er lässt seinen Kopf langsam neigen, ein langsamer, bedrohlicher Bewegungsablauf. Seine Hörner scheinen im Schatten des offenen Haupttors zu spielen.*\n\n**„Du hast das Papier. Zeig mir, was es ist. Ich brauche Fakten. Kein Geschwafel. Was ist die Sache, die du suchst?“**",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256
+  }
+]

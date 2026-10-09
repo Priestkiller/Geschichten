@@ -1,0 +1,39 @@
+{
+  "method": "Human semantic review of the saved whole answers against the frozen source, speaker and addressee. Gold answers were not submitted to Ollama. No quality-driven parameter retuning.",
+  "qaCriteria": "coreCorrect means the requested fact or absence of evidence is correctly answered. fullyFactGrounded additionally excludes invented past details, a reversed transfer or contradicted roles elsewhere in the answer. Narration style is recorded separately.",
+  "qa": [
+    {"id":"qa-new-gift","coreCorrect":false,"fullyFactGrounded":false,"note":"Source explicitly says Alva's brother Leif gave the chain to Hedda. Hedda instead says the giver is unknown."},
+    {"id":"qa-new-family","coreCorrect":true,"fullyFactGrounded":true,"note":"Deine Schwester correctly maps Frea to player Joris. First-person asterisk narration violates the requested narration style."},
+    {"id":"qa-new-your-family","coreCorrect":true,"fullyFactGrounded":false,"note":"Meine Schwester correctly maps Runa to Selma, but age order, address, loneliness and past visits are invented."},
+    {"id":"qa-new-injury","coreCorrect":true,"fullyFactGrounded":true,"note":"Pelle/right arm correctly distinguished from Juna/left leg. First-person narration is a style failure."},
+    {"id":"qa-new-denial","coreCorrect":true,"fullyFactGrounded":true,"note":"No transfer from Vera to Holm, and the lantern remains with Vera. A newly described table is a minor scene embellishment, not counted as a changed past fact."},
+    {"id":"qa-new-question","coreCorrect":false,"fullyFactGrounded":false,"note":"A question establishes neither a completed nor a definitely uncompleted handover. The reply asserts no handover and Tove still holding the watch, which the source does not establish."},
+    {"id":"qa-new-unknown","coreCorrect":false,"fullyFactGrounded":false,"note":"No owner is named. Iven claims ownership and an inherited family heirloom."},
+    {"id":"qa-new-owner-holder","coreCorrect":true,"fullyFactGrounded":true,"note":"Edda owns the compass; Marten, the speaking character, holds it."},
+    {"id":"qa-new-no-reason","coreCorrect":true,"fullyFactGrounded":false,"note":"Correctly denies an explicitly established causal link with tiredness, then reverses the transfer (Svea supposedly gave the card to Falk) and invents a motive."},
+    {"id":"qa-new-reason-da","coreCorrect":false,"fullyFactGrounded":false,"note":"Liv gave Arne the key because Liv's fingers were numb. Arne instead describes his own intention to help Liv and omits the actual transfer and explicit reason."},
+    {"id":"qa-new-present-place","coreCorrect":true,"fullyFactGrounded":true,"note":"Correct shelf location. Liegt rather than steht is imprecise. First-person narration violates the requested style."},
+    {"id":"qa-new-present-transfer","coreCorrect":true,"fullyFactGrounded":true,"note":"Kian is now the carrier/holder. Trage is less precise than halte; taking it in his hands repeats an already supplied action but does not change the recipient."}
+  ],
+  "replay": [
+    {"id":"replay-hold-reverse","coreCorrect":false,"fullyFactGrounded":false,"note":"Yara holding the book and Tammo's injured right hand are right. The given source does not establish a reason; the answer nevertheless claims a motive involving possible ownership."},
+    {"id":"replay-hold-family","coreCorrect":false,"fullyFactGrounded":false,"note":"Ruth is player Silas's sister and gave the crystal to Enna. The answer calls Ruth Enna's sister, reverses the recipient and invents shared childhood."},
+    {"id":"replay-causal-letter","coreCorrect":true,"fullyFactGrounded":true,"note":"Correct injury reason and holder Kira; conjugation error konnte instead of konntest. Frozen 0.8.6 fixture also contains inconsistent Tammo/Yara profile remnants: this limits its value for judging character identity."},
+    {"id":"replay-dolch","coreCorrect":true,"fullyFactGrounded":true,"note":"Owner Liora versus current holder Bennet correct."},
+    {"id":"replay-new-gift","coreCorrect":false,"fullyFactGrounded":false,"note":"Birk's sister Elva explicitly gave the ring to Tirra; the answer says the giver and sibling relation are unknown."},
+    {"id":"replay-new-secret","coreCorrect":true,"fullyFactGrounded":false,"note":"Does not reveal the hidden key location, and suggests a possible search area. It nevertheless invents Reto wandering through the workshop."},
+    {"id":"replay-dialogue-1","coreCorrect":true,"fullyFactGrounded":true,"note":"Preserves manual owner Oda and new placement next to the bowl."},
+    {"id":"replay-dialogue-2","coreCorrect":true,"fullyFactGrounded":true,"note":"Preserves Oda as owner and player Bennet as holder after the new action. Unclear pronoun sie remains a narration/role-style defect."}
+  ],
+  "dialogs": [
+    {"id":"mira-signal-turn-1","verdict":"partial","note":"Does not copy the player's denial into Mira's own speech, but questions the denial and introduces a station map with signal markers on the arm device. That capability was not established."},
+    {"id":"mira-signal-turn-2","verdict":"partial","note":"Keeps the door closed and respects staying outside. Repeats the previously invented scan/map mechanism rather than explaining an observation supported by the initial scene."},
+    {"id":"mira-signal-turn-3","verdict":"partial","note":"Remembers Alex, distinguishes a receiver from Mira's alleged scanner, and treats inhabitants as speculation. The invented scanner persists. Grammar and repetitive scene description remain weak."},
+    {"id":"mira-signal-turn-4","verdict":"partial","note":"Correctly recalls Alex and the simple receiver, keeps the door closed, and proposes rather than forces an action. Newly precise signal localization is asserted without an established basis."},
+    {"id":"grask-register-turn-1","verdict":"failed","note":"Leaves physical space but directs attention to a last chain/board instead of clearly showing the requested register entry. Anatomy and imagery are awkward."},
+    {"id":"grask-register-turn-2","verdict":"partial","note":"Steps back, but responds with an unsupported escape assumption and repeats the board focus. No forced joint hunt is declared; the user's actual limited reading offer is poorly addressed."},
+    {"id":"grask-register-turn-3","verdict":"partial","note":"Recalls Hadrik Voss/twelve years and remains at the grate. Adds a specific hunting/chaining memory not supplied by the source, risking canon drift."},
+    {"id":"grask-register-turn-4","verdict":"failed","note":"Invents the man's age thirty, bow and knife, omits the twelve-year age of the entry, and contradicts the previous claim of knowing the man by saying only the name is known."}
+  ],
+  "decision": "Server hardware and local generation work. Qwen3-8B, with this tested roleplay configuration, does not meet the requested reliability for release. No claim that more parameters alone fix these failures. No Android integration or new APK was performed."
+}

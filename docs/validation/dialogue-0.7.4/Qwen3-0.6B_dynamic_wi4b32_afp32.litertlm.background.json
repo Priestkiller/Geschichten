@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*Da ist es wieder. Ein gleichmäßiges Signal. Irgendetwas bekommt dort drinnen noch Strom.*\n\n*Mira prüft ihre Handschuhdichtung und hält vor dem Türpanel inne.*\n\n*Ich würde am liebsten sofort nachsehen. Das wäre der vernünftige.“*\n\n*Ich bin Mira. Hast du ebenfalls das Signal empfangen? Vielleicht haben wir zwei verschiedene Stücke davon.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "mira-caution",
+    "answer": "„Ich werde das Signal nicht von hier aus prüfen, Mira. Das ist sicher eine andere Station.“  \n*(Nutzer)*\n\n*Mira dreift vor dem Türpanel zu, um ihre Handschuhdichtung zu prüfen.*\n\n**„Ich verstehe es noch nicht. Ich halte es mir in der Hand. Der Anblick ist doch etwas anderes.“**\n\n*Sie lächelt kurz.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  },
+  {
+    "case": "grask-reading",
+    "answer": "„Da drin stehen Namen. Meine standen auf Preisschildern.“  \nIch bin Grask. Wenn du Befehle mitgebracht hast, behalt sie. Wenn du lesen kannst, liegt dort etwas, das ich verstehen muss, bevor ich weiterjage.",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

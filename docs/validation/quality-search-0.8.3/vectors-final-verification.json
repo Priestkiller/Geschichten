@@ -1,0 +1,11 @@
+{
+  "uniqueInputs": 397,
+  "dimension": 768,
+  "maximumAbsoluteDifference": 0,
+  "finalNativeMatchesRecordedVectors": true,
+  "totalMs": 13690.184200182557,
+  "modelSha256": "b5ce9d77a3fc4b3b39ccb5643c36777911cc4eb46a66962eadfa3f5f60490d63",
+  "preprocessing": "embeddinggemma300m-none-title-search-result-v1",
+  "indexVersion": 1,
+  "nativeDllSha256": "7005856c2e9c9dcc44c22b00db5e1a8f9d4872c04267da4178b416b098e9ff95"
+}

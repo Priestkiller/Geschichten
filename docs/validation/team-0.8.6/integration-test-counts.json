@@ -1,0 +1,191 @@
+[
+  {
+    "name": "dev.vincent.geschichten.ai.HelperSelectionTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.ChatContextIntegrationTest",
+    "tests": 8,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.data.CatalogMigrationTest",
+    "tests": 15,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.FactAnswerFlowTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.AnswerPipelineTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.FactAcceptanceTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.FactAnswerPersistenceTest",
+    "tests": 2,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.FactAnswerTest",
+    "tests": 2,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.FactRepairIntegrationTest",
+    "tests": 5,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.MemoryRepositoryIntegrationTest",
+    "tests": 18,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.NewScenePersistenceAuditTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.ProductionSemanticVerificationTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.RecallContextTest",
+    "tests": 2,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.RoleAnswerCorpusTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.RoleContaminationInvestigationTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.RoleEvidenceTest",
+    "tests": 14,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.RolePersistenceTest",
+    "tests": 2,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.SemanticIndexTest",
+    "tests": 4,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.SemanticSearchFallbackTest",
+    "tests": 2,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.TeamPersistenceTest",
+    "tests": 2,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.TeamProtocolTest",
+    "tests": 3,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.memory.TeamRunnerTest",
+    "tests": 3,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.TeamFlowTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.ui.FactAnswerUiTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.ui.MemoryUiTest",
+    "tests": 3,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.ui.SemanticSearchUiTest",
+    "tests": 2,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "name": "dev.vincent.geschichten.ui.TeamUiTest",
+    "tests": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+]

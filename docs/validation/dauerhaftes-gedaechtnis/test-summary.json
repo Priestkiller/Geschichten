@@ -1,0 +1,32 @@
+{
+  "normal": {
+    "tests": 103,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suites": 12,
+    "passed": 103
+  },
+  "extended": {
+    "tests": 183,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 2,
+    "suites": 30,
+    "passed": 181
+  },
+  "targeted": {
+    "tests": 60,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suites": 7,
+    "passed": 60
+  },
+  "lint": {
+    "Error": 0,
+    "Warning": 125,
+    "Information": 1
+  },
+  "note": "Overlapping test runs; counts must not be added. Two FileProvider filesystem cases require Linux/Android and are skipped on Windows."
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "outputTokenLimit": 256,
+    "model": "Gemma-3-it-4B-Uncensored-D_AU-Q4_0.gguf",
+    "answer": "**Mira hebt eine Augenbrauen kaum erhöht.**\n\n**„’Nein, also. Das erklärt einiges.“,** antwortet sie, während sie das Gerät vor dir untersucht. Sie betrachtet die Anzeige, ein paar Messwerte kurz abliest. Ihr Blick schweift kurz zu dir.\n\n**„Das sieht…alt aus. Sehr alt. Das Gerät, das dich interessiert, scheint nicht mit dem Signal verbunden zu sein.“,** sagt sie, während sie das Gerät mit einem feinen, messfähigen Werkzeug untersucht. Ihr Blick bleibt unverändert auf das Gerät selbst.\n\n**„Aber das Einsch Einsch Einsch…“,** deutet sie auf das schwache Licht, das durch die Schleuse dringt. Ihr Blick schweift kurz zu dir. **„Ich glaube, wir sollten uns erstmal ein genaueres Bild machen, bevor wir irgendwas machen.“,** fährt sie fort, während sie ein paar weitere Messwerte aufnimmt.",
+    "seconds": 27.6166787,
+    "runtime": "Windows x86_64 CPU",
+    "case": "mira-denial"
+  }
+]

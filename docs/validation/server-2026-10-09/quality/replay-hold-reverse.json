@@ -1,0 +1,122 @@
+{
+  "id": "replay-hold-reverse",
+  "request": {
+    "model": "geschichten-qwen3-8b-test",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Du spielst Tammo; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Tammo. Rolle: Reisebegleitung von Yara. Welt: Fantasy.\nEigenschaften: Praktisch, herzlich, vorsichtig\nTammo ist 29 Jahre alt, praktisch und herzlich, spricht klares Deutsch und bleibt in der Szene.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nYara (Spielerfigur) · Name: Yara\nBuch · Träger: Yara (Spielerfigur)\nTammo · Verletzung: rechte hand: verletzt\n\nORIGINALQUELLEN ZUR AKTUELLEN FRAGE:\nHistorische Originalaussagen, keine neue Handlung. Der aktuelle Stand hat Vorrang. Fragen und Vermutungen bestätigen keine Ereignisse. Figurenbehauptungen sind keine ungeprüfte Wahrheit. Behaupte nur eine Vergangenheit, die diese Quellen belegen; sonst frage nach.\nOriginalstelle 1, Spielerfigur (ich=Spielerfigur, du=Tammo), Archivzeit 1791447549212, Abschnitt 1–66:\nTammo reicht Yara das Buch. Tammo hat eine verletzte rechte Hand. \nEnde Originalstelle 1.\n\nHISTORISCHER AUSGANGSPUNKT (aktuelle Fakten haben Vorrang):\nTammo und Yara sind im Hof."
+      },
+      {
+        "role": "user",
+        "content": "Wir betrachten Wandfeld 7. Die Steine sind grau und trocken."
+      },
+      {
+        "role": "assistant",
+        "content": "*Tammo prüft Wandfeld 7.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+      },
+      {
+        "role": "user",
+        "content": "Wir betrachten Wandfeld 8. Die Steine sind grau und trocken."
+      },
+      {
+        "role": "assistant",
+        "content": "*Tammo prüft Wandfeld 8.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+      },
+      {
+        "role": "user",
+        "content": "Wir betrachten Wandfeld 9. Die Steine sind grau und trocken."
+      },
+      {
+        "role": "assistant",
+        "content": "*Tammo prüft Wandfeld 9.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+      },
+      {
+        "role": "user",
+        "content": "Wir betrachten Wandfeld 10. Die Steine sind grau und trocken."
+      },
+      {
+        "role": "assistant",
+        "content": "*Tammo prüft Wandfeld 10.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+      },
+      {
+        "role": "user",
+        "content": "Wir betrachten Wandfeld 11. Die Steine sind grau und trocken."
+      },
+      {
+        "role": "assistant",
+        "content": "*Tammo prüft Wandfeld 11.* Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig. Die Fugen sind gerade, der Mörtel ist fest und die Oberfläche unauffällig."
+      },
+      {
+        "role": "user",
+        "content": "AKTUELLES FIGURENWISSEN DER APP (keine neue Handlung):\nYara (Spielerfigur) · Name: Yara\nBuch · Träger: Yara (Spielerfigur)\nTammo · Verletzung: rechte hand: verletzt\n\nNÄCHSTE NUTZERNACHRICHT:\nWarum hast du mir das Buch gereicht und wer hält es nun?"
+      }
+    ],
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 384,
+      "seed": 42,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "min_p": 0,
+      "repeat_penalty": 1,
+      "presence_penalty": 1.5
+    },
+    "stream": true,
+    "keep_alive": "10m",
+    "think": false
+  },
+  "startUTC": "2026-10-09T20:01:02.924258+00:00",
+  "server": "http://192.168.178.73:11434",
+  "content": "*Tammo zuckt leicht mit der linken Hand, als er merkt, dass die Verletzung in der rechten Hand den Griff nach dem Buch erschwert.* „Ich habe das Buch dir gereicht, weil es dir gehören könnte. Es ist noch in deinen Händen.“ *Er mustert Yara, um zu sehen, ob sie es festhält.* „Wenn du es nicht mehr benötigst, kann ich es tragen, solange es notwendig ist.“",
+  "thinking": "",
+  "completed": true,
+  "finalChunk": {
+    "model": "geschichten-qwen3-8b-test",
+    "created_at": "2026-10-09T20:01:25.6067292Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 21677468800,
+    "load_duration": 5363105300,
+    "prompt_eval_count": 3423,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 3546700000,
+    "eval_count": 103,
+    "eval_duration": 12748565000
+  },
+  "wallSeconds": 21.67895620013587,
+  "firstContentSeconds": 8.930279500083998,
+  "firstThinkingSeconds": null,
+  "rawSHA256": "5495283b8f2e70c030ded4a0051f62a9a8a2facf20ded211f7bde951514b3cbc",
+  "runningModels": {
+    "models": [
+      {
+        "name": "geschichten-qwen3-8b-test:latest",
+        "model": "geschichten-qwen3-8b-test:latest",
+        "size": 5763802068,
+        "digest": "086b87f2c23181074b711dff15ddbf545c001dbc7220a17a370dcaa3fcf3d5be",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.19B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-09T22:11:25.607241+02:00",
+        "size_vram": 4193811168,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "truncated": false,
+  "reportedPromptTokensPlusReservedOutputWithinContext": true
+}

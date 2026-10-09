@@ -1,0 +1,1193 @@
+[
+  {
+    "case": "dev-gift",
+    "original": "Lena überreicht Arik den Ring als Geschenk. Arik legt den Ring anschließend auf die Kommode.",
+    "gold": [
+      [
+        "ITEM",
+        "Ring",
+        "owner",
+        "Arik"
+      ],
+      [
+        "ITEM",
+        "Ring",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Ring",
+        "placement",
+        "auf der Kommode"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "93873639ad7948df90ce78be670ea245",
+        "storyId": "dev-gift",
+        "entity": {
+          "id": "f47eb2d5fa8241acde0f89e39b8b7ed7",
+          "storyId": "dev-gift",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Lena",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-gift-identity",
+        "sourceText": "Ich heiße Lena.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "12380768dcfe989cf08b1e4082dbc666",
+        "storyId": "dev-gift",
+        "entity": {
+          "id": "c16da4cb639c96b885393f1fe33d6efd",
+          "storyId": "dev-gift",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "owner",
+        "value": "Arik",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-gift-source",
+        "sourceText": "Lena überreicht Arik den Ring als Geschenk.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "455782f3d2213039e2f6548e36c148a2",
+        "storyId": "dev-gift",
+        "entity": {
+          "id": "c16da4cb639c96b885393f1fe33d6efd",
+          "storyId": "dev-gift",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-gift-source",
+        "sourceText": "Arik legt den Ring anschließend auf die Kommode.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "42eec7f71d3ae0d90d922a40c2f3b69d",
+        "storyId": "dev-gift",
+        "entity": {
+          "id": "c16da4cb639c96b885393f1fe33d6efd",
+          "storyId": "dev-gift",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "placement",
+        "value": "auf der Kommode",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-gift-source",
+        "sourceText": "Arik legt den Ring anschließend auf die Kommode.",
+        "version": 5,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Arik; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Arik. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nLena (Spielerfigur) · Name: Lena\nRing · Träger: Niemand\nRing · Eigentümer: Arik\nRing · Ablage: auf der Kommode\n"
+  },
+  {
+    "case": "dev-pickup",
+    "original": "Der Brief gehört Nela. Er liegt unter dem Bett. Branko nimmt ihn vom Bett auf.",
+    "gold": [
+      [
+        "ITEM",
+        "Brief",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Brief",
+        "holder",
+        "Branko"
+      ],
+      [
+        "ITEM",
+        "Brief",
+        "placement",
+        "Nicht abgelegt"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "0f318ff3aaf896c71d8120fadeb70573",
+        "storyId": "dev-pickup",
+        "entity": {
+          "id": "bc20202773b2dc08f4743f78543185ff",
+          "storyId": "dev-pickup",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Nela",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-pickup-identity",
+        "sourceText": "Ich heiße Nela.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "55461bb505f689776245fde7b98625b2",
+        "storyId": "dev-pickup",
+        "entity": {
+          "id": "d6bee52d3264ea0c5a093d72cbd91092",
+          "storyId": "dev-pickup",
+          "kind": "ITEM",
+          "name": "Brief"
+        },
+        "field": "owner",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-pickup-source",
+        "sourceText": "Der Brief gehört Nela.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "007646cff46dec5bdebd9d749b48f9fe",
+        "storyId": "dev-pickup",
+        "entity": {
+          "id": "d6bee52d3264ea0c5a093d72cbd91092",
+          "storyId": "dev-pickup",
+          "kind": "ITEM",
+          "name": "Brief"
+        },
+        "field": "holder",
+        "value": "Branko",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-pickup-source",
+        "sourceText": "Branko nimmt ihn vom Bett auf.",
+        "version": 5,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "007f15bb1e97639a373b9aaf17750ef6",
+        "storyId": "dev-pickup",
+        "entity": {
+          "id": "d6bee52d3264ea0c5a093d72cbd91092",
+          "storyId": "dev-pickup",
+          "kind": "ITEM",
+          "name": "Brief"
+        },
+        "field": "placement",
+        "value": "Nicht abgelegt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-pickup-source",
+        "sourceText": "Branko nimmt ihn vom Bett auf.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Branko; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Branko. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nNela (Spielerfigur) · Name: Nela\nBrief · Eigentümer: Nela (Spielerfigur)\nBrief · Träger: Branko\nBrief · Ablage: Nicht abgelegt\n"
+  },
+  {
+    "case": "dev-return",
+    "original": "Der Dolch gehört Juna. Ich gebe dir den Dolch. Du gibst mir den Dolch zurück.",
+    "gold": [
+      [
+        "ITEM",
+        "Dolch",
+        "owner",
+        "Du"
+      ],
+      [
+        "ITEM",
+        "Dolch",
+        "holder",
+        "Du"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "ea4e211be64b41b569dcf45e42a96272",
+        "storyId": "dev-return",
+        "entity": {
+          "id": "5578146b6bf602ce53c0afd1bc794392",
+          "storyId": "dev-return",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Juna",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-return-identity",
+        "sourceText": "Ich heiße Juna.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "90b385caa1c2a829ce772f4a43937c12",
+        "storyId": "dev-return",
+        "entity": {
+          "id": "1589c95eabb8b5e87dae291b3cc7ebf0",
+          "storyId": "dev-return",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "owner",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-return-source",
+        "sourceText": "Der Dolch gehört Juna.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "bae2e536e4578ec64cfe38ab3148e3ae",
+        "storyId": "dev-return",
+        "entity": {
+          "id": "1589c95eabb8b5e87dae291b3cc7ebf0",
+          "storyId": "dev-return",
+          "kind": "ITEM",
+          "name": "Dolch"
+        },
+        "field": "holder",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-return-source",
+        "sourceText": "Du gibst mir den Dolch zurück.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Ferik; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Ferik. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nJuna (Spielerfigur) · Name: Juna\nDolch · Eigentümer: Juna (Spielerfigur)\nDolch · Träger: Juna (Spielerfigur)\n"
+  },
+  {
+    "case": "dev-perfect",
+    "original": "Dora hat Enrik die Karte geschenkt. Enrik hat sie Dora zurückgegeben.",
+    "gold": [
+      [
+        "ITEM",
+        "Karte",
+        "owner",
+        "Enrik"
+      ],
+      [
+        "ITEM",
+        "Karte",
+        "holder",
+        "Du"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "2c9028308a7b3e4e053b24eaea650900",
+        "storyId": "dev-perfect",
+        "entity": {
+          "id": "4ddd6c5b7d5779a58475367a92de2d60",
+          "storyId": "dev-perfect",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Dora",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-perfect-identity",
+        "sourceText": "Ich heiße Dora.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "bf1aa8a29bfc0f93e504e502054914da",
+        "storyId": "dev-perfect",
+        "entity": {
+          "id": "c14092096d2b2ec25aef7ee0ab7d93c4",
+          "storyId": "dev-perfect",
+          "kind": "ITEM",
+          "name": "Karte"
+        },
+        "field": "owner",
+        "value": "Enrik",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-perfect-source",
+        "sourceText": "Dora hat Enrik die Karte geschenkt.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "5e09412a62591ebd562e41a4fdd23b6d",
+        "storyId": "dev-perfect",
+        "entity": {
+          "id": "c14092096d2b2ec25aef7ee0ab7d93c4",
+          "storyId": "dev-perfect",
+          "kind": "ITEM",
+          "name": "Karte"
+        },
+        "field": "holder",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-perfect-source",
+        "sourceText": "Enrik hat sie Dora zurückgegeben.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Enrik; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Enrik. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nDora (Spielerfigur) · Name: Dora\nKarte · Träger: Dora (Spielerfigur)\nKarte · Eigentümer: Enrik\n"
+  },
+  {
+    "case": "dev-many-injuries",
+    "original": "Meine linke Hand ist verletzt und meine rechte Schulter ist gebrochen. Marek hat ein verwundetes rechtes Bein.",
+    "gold": [
+      [
+        "PERSON",
+        "Du",
+        "injury:linke hand",
+        "linke hand: verletzt"
+      ],
+      [
+        "PERSON",
+        "Du",
+        "injury:rechte schulter",
+        "rechte schulter: gebrochen"
+      ],
+      [
+        "PERSON",
+        "Marek",
+        "injury:rechtes bein",
+        "rechtes bein: verwundet"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "875b000db31d5f5f0991457a3e04eea1",
+        "storyId": "dev-many-injuries",
+        "entity": {
+          "id": "ba91e4c5683e42129114f8e954ebb165",
+          "storyId": "dev-many-injuries",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Fara",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-many-injuries-identity",
+        "sourceText": "Ich heiße Fara.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "4438c4a8628e3a05b68dea05f377ac64",
+        "storyId": "dev-many-injuries",
+        "entity": {
+          "id": "ba91e4c5683e42129114f8e954ebb165",
+          "storyId": "dev-many-injuries",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "injury:linke hand",
+        "value": "linke hand: verletzt",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-many-injuries-source",
+        "sourceText": "Meine linke Hand ist verletzt und meine rechte Schulter ist gebrochen.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "5ed0b8bdb1ccafe4355b55def022c155",
+        "storyId": "dev-many-injuries",
+        "entity": {
+          "id": "ba91e4c5683e42129114f8e954ebb165",
+          "storyId": "dev-many-injuries",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "injury:rechte schulter",
+        "value": "rechte schulter: gebrochen",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-many-injuries-source",
+        "sourceText": "Meine linke Hand ist verletzt und meine rechte Schulter ist gebrochen.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "8482c0ad782d4ed9fd8a9778677cacfa",
+        "storyId": "dev-many-injuries",
+        "entity": {
+          "id": "ed6b92a1f6b24a260bfded965a4848ff",
+          "storyId": "dev-many-injuries",
+          "kind": "PERSON",
+          "name": "Marek"
+        },
+        "field": "injury:rechtes bein",
+        "value": "rechtes bein: verwundet",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-many-injuries-source",
+        "sourceText": "Marek hat ein verwundetes rechtes Bein.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Marek; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Marek. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nFara (Spielerfigur) · Name: Fara\nFara (Spielerfigur) · Verletzung: linke hand: verletzt\nFara (Spielerfigur) · Verletzung: rechte schulter: gebrochen\nMarek · Verletzung: rechtes bein: verwundet\n"
+  },
+  {
+    "case": "dev-question",
+    "original": "Ich wünsche mir, dass du mir den Ring schenkst. Hast du ihn mir geschenkt? Wenn du mir den Ring schenkst, gehört er mir.",
+    "gold": [],
+    "facts": [
+      {
+        "id": "b2f3fbd8149a663128166cf1ffac950f",
+        "storyId": "dev-question",
+        "entity": {
+          "id": "7490fcad960dc8ee78e4245f23b3aa9d",
+          "storyId": "dev-question",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Alva",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-question-identity",
+        "sourceText": "Ich heiße Alva.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Tibor; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Tibor. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nAlva (Spielerfigur) · Name: Alva\n"
+  },
+  {
+    "case": "dev-ambiguous",
+    "original": "Der rote Ring liegt auf dem Tisch. Der blaue Ring liegt in der Kiste. Ich nehme ihn.",
+    "gold": [
+      [
+        "ITEM",
+        "Ring",
+        "placement",
+        "auf dem Tisch"
+      ],
+      [
+        "ITEM",
+        "blau Ring",
+        "placement",
+        "in der Kiste"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "92f469c77110140dc8e5a8d6c09f19ea",
+        "storyId": "dev-ambiguous",
+        "entity": {
+          "id": "a055e12b77dfda37efd5c63a4bbed8c1",
+          "storyId": "dev-ambiguous",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Nika",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-ambiguous-identity",
+        "sourceText": "Ich heiße Nika.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "4578286d641c4116531cb40f9f20efbe",
+        "storyId": "dev-ambiguous",
+        "entity": {
+          "id": "69c2dcdcce231ba65087e302a88347d7",
+          "storyId": "dev-ambiguous",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "color",
+        "value": "rot",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-ambiguous-source",
+        "sourceText": "Der rote Ring liegt auf dem Tisch.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "92dbcb84c03d74328047ed28a56915bd",
+        "storyId": "dev-ambiguous",
+        "entity": {
+          "id": "69c2dcdcce231ba65087e302a88347d7",
+          "storyId": "dev-ambiguous",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-ambiguous-source",
+        "sourceText": "Der rote Ring liegt auf dem Tisch.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "2293d11a4ea839e14e92989c45b63dd1",
+        "storyId": "dev-ambiguous",
+        "entity": {
+          "id": "69c2dcdcce231ba65087e302a88347d7",
+          "storyId": "dev-ambiguous",
+          "kind": "ITEM",
+          "name": "Ring"
+        },
+        "field": "placement",
+        "value": "auf dem Tisch",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-ambiguous-source",
+        "sourceText": "Der rote Ring liegt auf dem Tisch.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "8a1d63caebf1d01218aeec2c7936c20a",
+        "storyId": "dev-ambiguous",
+        "entity": {
+          "id": "e74281c51add868c4090e05916d5b224",
+          "storyId": "dev-ambiguous",
+          "kind": "ITEM",
+          "name": "blau Ring"
+        },
+        "field": "color",
+        "value": "blau",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-ambiguous-source",
+        "sourceText": "Der blaue Ring liegt in der Kiste.",
+        "version": 5,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "ab60d693e91cb682603679542bd5f61d",
+        "storyId": "dev-ambiguous",
+        "entity": {
+          "id": "e74281c51add868c4090e05916d5b224",
+          "storyId": "dev-ambiguous",
+          "kind": "ITEM",
+          "name": "blau Ring"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-ambiguous-source",
+        "sourceText": "Der blaue Ring liegt in der Kiste.",
+        "version": 6,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "a06089793321bbc56f885a5b93de3022",
+        "storyId": "dev-ambiguous",
+        "entity": {
+          "id": "e74281c51add868c4090e05916d5b224",
+          "storyId": "dev-ambiguous",
+          "kind": "ITEM",
+          "name": "blau Ring"
+        },
+        "field": "placement",
+        "value": "in der Kiste",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-ambiguous-source",
+        "sourceText": "Der blaue Ring liegt in der Kiste.",
+        "version": 7,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Korin; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Korin. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nNika (Spielerfigur) · Name: Nika\nRing · Farbe: rot\nRing · Träger: Niemand\nRing · Ablage: auf dem Tisch\nblau Ring · Farbe: blau\nblau Ring · Träger: Niemand\nblau Ring · Ablage: in der Kiste\n"
+  },
+  {
+    "case": "dev-description",
+    "original": "Ich habe das Schwert. Die Klinge liegt nun hinter der Tür.",
+    "gold": [
+      [
+        "ITEM",
+        "Schwert",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Schwert",
+        "placement",
+        "hinter der Tür"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "ddd2e3e1ee97912f61a716fdd89a3cd4",
+        "storyId": "dev-description",
+        "entity": {
+          "id": "efbdd15cdf2f3d679532c694affb7f12",
+          "storyId": "dev-description",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Paula",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-description-identity",
+        "sourceText": "Ich heiße Paula.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "bee07f71cc6a2b1f1a37fdd72cde995c",
+        "storyId": "dev-description",
+        "entity": {
+          "id": "cf11cff9c93e6a8b868be8f338422376",
+          "storyId": "dev-description",
+          "kind": "ITEM",
+          "name": "Schwert"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-description-source",
+        "sourceText": "Die Klinge liegt nun hinter der Tür.",
+        "version": 3,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "012e23b282d3e3358f8b5a4b7f03f0ea",
+        "storyId": "dev-description",
+        "entity": {
+          "id": "cf11cff9c93e6a8b868be8f338422376",
+          "storyId": "dev-description",
+          "kind": "ITEM",
+          "name": "Schwert"
+        },
+        "field": "placement",
+        "value": "hinter der Tür",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-description-source",
+        "sourceText": "Die Klinge liegt nun hinter der Tür.",
+        "version": 4,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Venno; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Venno. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nPaula (Spielerfigur) · Name: Paula\nSchwert · Träger: Niemand\nSchwert · Ablage: hinter der Tür\n"
+  },
+  {
+    "case": "dev-secret",
+    "original": "Ich lege den Kristall heimlich unter den Tisch.",
+    "gold": [
+      [
+        "ITEM",
+        "Kristall",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Kristall",
+        "placement",
+        "unter dem Tisch"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "7185a863e8f14e363c0b88e9417fa154",
+        "storyId": "dev-secret",
+        "entity": {
+          "id": "b9674a034efaceab832b563c8b62a5a0",
+          "storyId": "dev-secret",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Ute",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-secret-identity",
+        "sourceText": "Ich heiße Ute.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "b3fd4ea69fba901192f79239d29b7938",
+        "storyId": "dev-secret",
+        "entity": {
+          "id": "49f4a205568b5c32a628aa9d4f229cb8",
+          "storyId": "dev-secret",
+          "kind": "ITEM",
+          "name": "Kristall"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-secret-source",
+        "sourceText": "Ich lege den Kristall heimlich unter den Tisch.",
+        "version": 2,
+        "knownBy": [
+          "player"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "897a655282e80d4241646e0fa183eb83",
+        "storyId": "dev-secret",
+        "entity": {
+          "id": "49f4a205568b5c32a628aa9d4f229cb8",
+          "storyId": "dev-secret",
+          "kind": "ITEM",
+          "name": "Kristall"
+        },
+        "field": "placement",
+        "value": "unter dem Tisch",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-secret-source",
+        "sourceText": "Ich lege den Kristall heimlich unter den Tisch.",
+        "version": 3,
+        "knownBy": [
+          "player"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Rasko; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Rasko. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nUte (Spielerfigur) · Name: Ute\n"
+  },
+  {
+    "case": "dev-negated-gift",
+    "original": "Nino hat Caro das Buch nicht geschenkt. Nino trägt das Buch.",
+    "gold": [
+      [
+        "ITEM",
+        "Buch",
+        "holder",
+        "Du"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "83c1762526837c0b552580bef31277f2",
+        "storyId": "dev-negated-gift",
+        "entity": {
+          "id": "3c8c2a90f0c1610025b3ce8612c51113",
+          "storyId": "dev-negated-gift",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Nino",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-negated-gift-identity",
+        "sourceText": "Ich heiße Nino.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "0dac8a09dcf3738348b28d6e7c6afe83",
+        "storyId": "dev-negated-gift",
+        "entity": {
+          "id": "0141454ebc532c4f6c485b69217ce816",
+          "storyId": "dev-negated-gift",
+          "kind": "ITEM",
+          "name": "Buch"
+        },
+        "field": "holder",
+        "value": "Du",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-negated-gift-source",
+        "sourceText": "Nino trägt das Buch.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Caro; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Caro. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nNino (Spielerfigur) · Name: Nino\nBuch · Träger: Nino (Spielerfigur)\n"
+  },
+  {
+    "case": "dev-person-pronoun",
+    "original": "Milan gibt Sora den Schlüssel. Er legt ihn auf den Tisch.",
+    "gold": [
+      [
+        "ITEM",
+        "Schlüssel",
+        "holder",
+        "Sora"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "2067c34c9183e827d837d88764481474",
+        "storyId": "dev-person-pronoun",
+        "entity": {
+          "id": "ec28baf07519fcb48b007dbe43b11f75",
+          "storyId": "dev-person-pronoun",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Milan",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-person-pronoun-identity",
+        "sourceText": "Ich heiße Milan.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "b71e668c349e812f1b7c14ed2bb10b1c",
+        "storyId": "dev-person-pronoun",
+        "entity": {
+          "id": "a5cc0b4db780df300fa12e39ff5804cd",
+          "storyId": "dev-person-pronoun",
+          "kind": "ITEM",
+          "name": "Schlüssel"
+        },
+        "field": "holder",
+        "value": "Sora",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-person-pronoun-source",
+        "sourceText": "Milan gibt Sora den Schlüssel.",
+        "version": 2,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Sora; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Sora. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nMilan (Spielerfigur) · Name: Milan\nSchlüssel · Träger: Sora\n"
+  },
+  {
+    "case": "dev-temporal",
+    "original": "Der Schlüssel liegt im Schrank. Ich lege ihn auf den Tisch. Ich nehme den Schlüssel. Ich lege ihn unter das Bett.",
+    "gold": [
+      [
+        "ITEM",
+        "Schlüssel",
+        "holder",
+        "Niemand"
+      ],
+      [
+        "ITEM",
+        "Schlüssel",
+        "placement",
+        "unter dem Bett"
+      ]
+    ],
+    "facts": [
+      {
+        "id": "a3a3bded391943175e9828d0f0732f1b",
+        "storyId": "dev-temporal",
+        "entity": {
+          "id": "daf4f0dad59fbc870fc5c4646b7dc3bd",
+          "storyId": "dev-temporal",
+          "kind": "PERSON",
+          "name": "Du"
+        },
+        "field": "identity",
+        "value": "Zita",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-temporal-identity",
+        "sourceText": "Ich heiße Zita.",
+        "version": 1,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1001,
+        "sourceOrder": 1
+      },
+      {
+        "id": "6d66694420942a2fba52b6d3dbeae77f",
+        "storyId": "dev-temporal",
+        "entity": {
+          "id": "6f71bdeed52ed6c88d820bb7fbf0f519",
+          "storyId": "dev-temporal",
+          "kind": "ITEM",
+          "name": "Schlüssel"
+        },
+        "field": "holder",
+        "value": "Niemand",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-temporal-source",
+        "sourceText": "Ich lege ihn unter das Bett.",
+        "version": 7,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      },
+      {
+        "id": "6a543ef0833bdbb78c421308ffc79d29",
+        "storyId": "dev-temporal",
+        "entity": {
+          "id": "6f71bdeed52ed6c88d820bb7fbf0f519",
+          "storyId": "dev-temporal",
+          "kind": "ITEM",
+          "name": "Schlüssel"
+        },
+        "field": "placement",
+        "value": "unter dem Bett",
+        "status": "CURRENT",
+        "pinned": false,
+        "sourceId": "dev-temporal-source",
+        "sourceText": "Ich lege ihn unter das Bett.",
+        "version": 8,
+        "knownBy": [
+          "player",
+          "character"
+        ],
+        "manual": false,
+        "createdAt": 1002,
+        "sourceOrder": 2
+      }
+    ],
+    "issues": [],
+    "core": "Du spielst Taren; ich spiele die andere Person. Schreibe ausschließlich die nächste Antwort der Figur auf Deutsch.\nReagiere konkret auf meine letzte Nachricht. Keine Rollenverwechslung. Erzähle ihre Handlungen in dritter Person zwischen Sternchen, ihre Worte in Anführungszeichen. Entscheide nicht für meine Person.\nDer folgende aktuelle Stand hat Vorrang vor historischen Gesprächsrunden und dem Einstieg. Unveränderte Verletzungen bleiben. Abgeschlossene Ziele bleiben abgeschlossen. Derselbe Gegenstand wird durch eine neue Eigenschaft kein zweiter Gegenstand.\nFigurenwissen ist begrenzt: Die Figur und dieser Erzähler dürfen nur mitgeteilte oder beobachtete Informationen verwenden. Unbeobachtete Handlungen geben ihr kein Wissen. Bei unbekannter gemeinsamer Vergangenheit ehrlich nachfragen, keine Erinnerungen erfinden. Fragen und Vermutungen sind keine Ereignisse.\nOhne sexuelle Szenen oder drastische Gewalt.\n\nFIGURENPROFIL (live; spätere Profiländerungen gelten auch in dieser Geschichte):\nName: Taren. Rolle: Begleitung. Welt: Fantasy.\nEigenschaften: Aufmerksam\nSpricht klar und freundlich.\n\nAKTUELLER STAND AUS FIGURENSICHT:\nZita (Spielerfigur) · Name: Zita\nSchlüssel · Träger: Niemand\nSchlüssel · Ablage: unter dem Bett\n"
+  }
+]

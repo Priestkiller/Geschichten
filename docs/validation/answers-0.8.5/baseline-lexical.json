@@ -1,0 +1,114 @@
+[
+  {
+    "case": "hold-reverse",
+    "variants": [
+      {
+        "candidates": [
+          {
+            "message": {
+              "id": "a9378cc7-b813-46a4-9700-80a025e1cb58",
+              "storyId": "278e2464-0665-4bac-84a9-b53eed8cfacb",
+              "role": "USER",
+              "text": "Tammo reicht Yara das Buch. Tammo hat eine verletzte rechte Hand. Yara kann es öffnen.",
+              "createdAt": 1791447549212
+            },
+            "start": 0,
+            "end": 28,
+            "score": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hold-family",
+    "variants": [
+      {
+        "candidates": [
+          {
+            "message": {
+              "id": "f9b0af09-94e0-4227-b22a-7293d4ac6924",
+              "storyId": "358fefc8-3831-444f-8dbf-ccd42b7da0b2",
+              "role": "USER",
+              "text": "Meine Schwester heißt Ruth. Dein Bruder heißt Ole. Ruth hat dir den Kristall geschenkt.",
+              "createdAt": 1791447549746
+            },
+            "start": 51,
+            "end": 87,
+            "score": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hold-correction",
+    "variants": [
+      {
+        "candidates": []
+      }
+    ]
+  },
+  {
+    "case": "hold-transfer",
+    "variants": [
+      {
+        "candidates": [
+          {
+            "message": {
+              "id": "1bc7cee4-8fd7-4b35-9ef5-5b860fbd2d82",
+              "storyId": "e19730d3-93ee-400f-a43f-6bc0e16757a7",
+              "role": "USER",
+              "text": "Ich gebe dir das Amulett. Mein linkes Bein ist verletzt; deines ist unverletzt.",
+              "createdAt": 1791447550343
+            },
+            "start": 26,
+            "end": 79,
+            "score": 21
+          },
+          {
+            "message": {
+              "id": "1bc7cee4-8fd7-4b35-9ef5-5b860fbd2d82",
+              "storyId": "e19730d3-93ee-400f-a43f-6bc0e16757a7",
+              "role": "USER",
+              "text": "Ich gebe dir das Amulett. Mein linkes Bein ist verletzt; deines ist unverletzt.",
+              "createdAt": 1791447550343
+            },
+            "start": 0,
+            "end": 26,
+            "score": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "hold-water",
+    "variants": [
+      {
+        "candidates": []
+      }
+    ]
+  },
+  {
+    "case": "causal-letter",
+    "variants": [
+      {
+        "candidates": [
+          {
+            "message": {
+              "id": "e0ca051a-b581-4fb4-bbd8-cfe4cbf92e1a",
+              "storyId": "48b7ebad-973a-44ce-8e49-84c35d6715bc",
+              "role": "USER",
+              "text": "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+              "createdAt": 1791447550738
+            },
+            "start": 0,
+            "end": 104,
+            "score": 11
+          }
+        ]
+      }
+    ]
+  }
+]

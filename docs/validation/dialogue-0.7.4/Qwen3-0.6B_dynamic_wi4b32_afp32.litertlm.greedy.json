@@ -1,0 +1,13 @@
+[
+  {
+    "case": "mira-denial",
+    "answer": "*\"* *schaue dich an* mich würde es auch interessieren was dort ist, aber nein ich habe kein Signal gehabt *schau auf das Gerät vor mir*\"*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "temperature": 0.0,
+    "modelFile": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "maxOutputTokens": 220,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.0
+  }
+]

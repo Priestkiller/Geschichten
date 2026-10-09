@@ -1,0 +1,12 @@
+[
+  {
+    "case": "grask-0",
+    "answer": "*Grask starrt dich mit seinen dunklen, alten Augen an. Seine Hufe klopfen langsam auf den steinernen Boden der Arena.*\n\n**„Du willst wissen? Gut. Du bist nicht wie die anderen, die nur lauten Gebärden sind.“** *Seine Stimme ist tief, rau und klingt wie das Knistern von trockenem Holz.* **„Ich will wissen, was du weißt. Und ich will wissen, ob dein Wunsch nach dem Lesen mehr als nur ein Spiel ist. Was suchst du wirklich in diesem Schrott?“**\n\n*Er schiebt einen massiven, zerfetzten Fuß gegen das Wärtergitter, prüft dessen Festigkeit mit einer beinahe spielerischen, aber gefährlichen Bewegung seiner Klauen. Er wartet, seine gesamte Körperhaltung strahlt eine kalte, unbewegte Aggression aus. Die Luft zwischen ihnen ist dick von Staub und dem Geruch von altem Blut und verbranntem Metall.*",
+    "runtime": "LiteRT-LM 0.17.1 Windows x86_64 CPU",
+    "seed": 42,
+    "modelFile": "gemma-4-E2B-it.litertlm",
+    "maxOutputTokens": 256,
+    "prefillPrefaceOnInit": false,
+    "repetitionPenalty": 1.08
+  }
+]

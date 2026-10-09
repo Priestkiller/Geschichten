@@ -1,0 +1,39 @@
+{
+  "versionName": "0.7.2",
+  "versionCode": 11,
+  "apkBytes": 314048910,
+  "apkSha256": "56335e9bb0433652e6d53e1937f316d28062bebcf0377e4f71293eb38fc9145c",
+  "unitTests": {
+    "tests": 70,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "androidUiTests": {
+    "tests": 21,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 118
+  },
+  "nativeLibrariesUnchangedFrom071": [
+    "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "lib/arm64-v8a/libgeschichten_gguf.so",
+    "lib/arm64-v8a/liblitertlm_jni.so"
+  ],
+  "modelFilesUnchanged": true,
+  "modelWeightsBundled": false,
+  "completeOpeningTextsRetained": true,
+  "sharedPromptForAll90AndCustomCharacters": true,
+  "sharedPromptForAllSixModels": true,
+  "physicalDeviceInstallTested": false,
+  "nativeProbe": "final-verified-gemma-answer.json",
+  "storyQualityGuaranteed": false,
+  "nativeQualityFinding": "The real model output remains inconsistent; the final Gemma probe asks another broad question instead of concretely specifying the register passage. Context regressions are covered by structural tests, not by a claimed six-model story-quality pass.",
+  "publication": "published-and-publicly-verified",
+  "publicVerification": "public-release-summary.json",
+  "actualAppUpdateParser": "actual-update-parser.log",
+  "readmeCommit": "8b8b78d921a723a7ad4e7d9e29d07420df61a3ca"
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "case": "hold-reverse",
+    "enabled": true,
+    "state": {
+      "enabled": true,
+      "ready": true,
+      "busy": false,
+      "progress": 0,
+      "indexed": 34,
+      "total": 34,
+      "detail": "Erinnerungen dieser Geschichte vorbereitet."
+    },
+    "batches": 3,
+    "indexMs": 10711,
+    "searchMs": 916,
+    "fallback": false,
+    "selected": [
+      {
+        "message": {
+          "id": "a9378cc7-b813-46a4-9700-80a025e1cb58",
+          "storyId": "278e2464-0665-4bac-84a9-b53eed8cfacb",
+          "role": "USER",
+          "text": "Tammo reicht Yara das Buch. Tammo hat eine verletzte rechte Hand. Yara kann es öffnen.",
+          "createdAt": 1791447549212
+        },
+        "start": 0,
+        "end": 28,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "case": "hold-family",
+    "enabled": true,
+    "state": {
+      "enabled": true,
+      "ready": true,
+      "busy": false,
+      "progress": 0,
+      "indexed": 34,
+      "total": 34,
+      "detail": "Erinnerungen dieser Geschichte vorbereitet."
+    },
+    "batches": 3,
+    "indexMs": 9496,
+    "searchMs": 706,
+    "fallback": false,
+    "selected": [
+      {
+        "message": {
+          "id": "f9b0af09-94e0-4227-b22a-7293d4ac6924",
+          "storyId": "358fefc8-3831-444f-8dbf-ccd42b7da0b2",
+          "role": "USER",
+          "text": "Meine Schwester heißt Ruth. Dein Bruder heißt Ole. Ruth hat dir den Kristall geschenkt.",
+          "createdAt": 1791447549746
+        },
+        "start": 51,
+        "end": 87,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "case": "hold-correction",
+    "enabled": true,
+    "state": {
+      "enabled": true,
+      "ready": true,
+      "busy": false,
+      "progress": 0,
+      "indexed": 34,
+      "total": 34,
+      "detail": "Erinnerungen dieser Geschichte vorbereitet."
+    },
+    "batches": 3,
+    "indexMs": 10203,
+    "searchMs": 808,
+    "fallback": false,
+    "selected": [
+      {
+        "message": {
+          "id": "7b947162-1fda-4831-97bc-dd42e1072942",
+          "storyId": "0b320b92-2799-46db-98f6-f8f9cadc4c6f",
+          "role": "USER",
+          "text": "Die Tasche liegt auf der Bank. Korrektur: Die Tasche liegt unter dem Bett. Nun lege ich sie in den Schrank.",
+          "createdAt": 1791447550037
+        },
+        "start": 75,
+        "end": 107,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "case": "hold-transfer",
+    "enabled": true,
+    "state": {
+      "enabled": true,
+      "ready": true,
+      "busy": false,
+      "progress": 0,
+      "indexed": 33,
+      "total": 33,
+      "detail": "Erinnerungen dieser Geschichte vorbereitet."
+    },
+    "batches": 3,
+    "indexMs": 10196,
+    "searchMs": 912,
+    "fallback": false,
+    "selected": [
+      {
+        "message": {
+          "id": "1bc7cee4-8fd7-4b35-9ef5-5b860fbd2d82",
+          "storyId": "e19730d3-93ee-400f-a43f-6bc0e16757a7",
+          "role": "USER",
+          "text": "Ich gebe dir das Amulett. Mein linkes Bein ist verletzt; deines ist unverletzt.",
+          "createdAt": 1791447550343
+        },
+        "start": 26,
+        "end": 79,
+        "score": 0
+      },
+      {
+        "message": {
+          "id": "1bc7cee4-8fd7-4b35-9ef5-5b860fbd2d82",
+          "storyId": "e19730d3-93ee-400f-a43f-6bc0e16757a7",
+          "role": "USER",
+          "text": "Ich gebe dir das Amulett. Mein linkes Bein ist verletzt; deines ist unverletzt.",
+          "createdAt": 1791447550343
+        },
+        "start": 0,
+        "end": 26,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "case": "hold-water",
+    "enabled": true,
+    "state": {
+      "enabled": true,
+      "ready": true,
+      "busy": false,
+      "progress": 0,
+      "indexed": 33,
+      "total": 33,
+      "detail": "Erinnerungen dieser Geschichte vorbereitet."
+    },
+    "batches": 3,
+    "indexMs": 8534,
+    "searchMs": 789,
+    "fallback": false,
+    "selected": [
+      {
+        "message": {
+          "id": "741926cb-ceec-4f3c-87ac-ef2627e813e3",
+          "storyId": "845a21f0-1d52-4de5-8df8-04f3fb24f0ac",
+          "role": "USER",
+          "text": "Jette kann nicht schwimmen und hat Angst vor tiefem Wasser. Lorenz fühlt sich auf Schiffen wohl.",
+          "createdAt": 1791447550552
+        },
+        "start": 60,
+        "end": 96,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "case": "causal-letter",
+    "enabled": true,
+    "state": {
+      "enabled": true,
+      "ready": true,
+      "busy": false,
+      "progress": 0,
+      "indexed": 32,
+      "total": 32,
+      "detail": "Erinnerungen dieser Geschichte vorbereitet."
+    },
+    "batches": 2,
+    "indexMs": 6971,
+    "searchMs": 602,
+    "fallback": false,
+    "selected": [
+      {
+        "message": {
+          "id": "e0ca051a-b581-4fb4-bbd8-cfe4cbf92e1a",
+          "storyId": "48b7ebad-973a-44ce-8e49-84c35d6715bc",
+          "role": "USER",
+          "text": "Ich gebe dir den Brief, weil ich mit meiner verletzten Hand das Siegel nicht unbeschädigt öffnen konnte.",
+          "createdAt": 1791447550738
+        },
+        "start": 0,
+        "end": 104,
+        "score": 0
+      }
+    ]
+  }
+]

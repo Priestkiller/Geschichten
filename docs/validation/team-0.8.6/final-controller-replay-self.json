@@ -1,0 +1,19 @@
+[
+  {
+    "case": "hold-family",
+    "fallback": false,
+    "repaired": false,
+    "sameFinalDecisionAndAnswer": true,
+    "allInputsTokenCountsTemplatesIdentical": true,
+    "calls": 3,
+    "completed": true
+  },
+  {
+    "case": "dolch",
+    "error": "java.lang.IllegalStateException: Auch der einmal verbesserte Entwurf enthält einen bestätigten Fehler. Deine Nachricht bleibt erhalten.",
+    "sameFinalDecisionAndAnswer": true,
+    "allInputsTokenCountsTemplatesIdentical": true,
+    "calls": 5,
+    "completed": false
+  }
+]

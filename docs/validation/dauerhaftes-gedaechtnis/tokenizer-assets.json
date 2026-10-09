@@ -1,0 +1,23 @@
+[
+  {
+    "file": "gemma4.model",
+    "source": "gemma-4-E2B-it.litertlm",
+    "sha256": "e594c8a90eb08d8bda498ff4747977dc827ae0c3c56b5c0d41a605a22d02ef03",
+    "bytes": 4689013,
+    "sourceSectionSha256": "e594c8a90eb08d8bda498ff4747977dc827ae0c3c56b5c0d41a605a22d02ef03"
+  },
+  {
+    "file": "qwen25.gguf",
+    "source": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+    "sha256": "69970130e011e3069e39e9ac036575948262cf9b6a046a610bb5aae1a8736e61",
+    "bytes": 5921728,
+    "sourceSectionSha256": "fd77bdd170472306cd229e0961815ae0482e6934137cb6b4336a9caa1a6bdd0e"
+  },
+  {
+    "file": "qwen06.gguf",
+    "source": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+    "sha256": "79a87fd4710737eefeff82a41208cbf086dc9a5ed92c5d896edbd9e4caa32ab1",
+    "bytes": 5921824,
+    "sourceSectionSha256": "7e610629f8a83c4f8a3e646acdb67d68f32d724e8e38dc1a4a73b5ec524b6a43"
+  }
+]

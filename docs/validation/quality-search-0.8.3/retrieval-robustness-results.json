@@ -1,0 +1,464 @@
+[
+  {
+    "case": "aux-similar-items",
+    "expectedIds": [
+      "aux-similar-items-1"
+    ],
+    "lexical": [
+      {
+        "message": {
+          "id": "aux-similar-items-1",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Das rote Amulett gehört Nella.",
+          "createdAt": 1800000000001
+        },
+        "start": 0,
+        "end": 30,
+        "score": 31
+      },
+      {
+        "message": {
+          "id": "aux-similar-items-2",
+          "storyId": "aux-similar-items",
+          "role": "USER",
+          "text": "Das blaue Amulett gehört Falk.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 30,
+        "score": 21
+      }
+    ],
+    "lexicalRequiredSelected": [
+      "aux-similar-items-1"
+    ],
+    "lexicalAllRequiredSelected": true,
+    "lexicalMs": 11.2505,
+    "semantic": [
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-similar-items-1",
+            "storyId": "aux-similar-items",
+            "role": "USER",
+            "text": "Das rote Amulett gehört Nella.",
+            "createdAt": 1800000000001
+          },
+          "start": 0,
+          "end": 30,
+          "score": 0
+        },
+        "cosine": 0.6627604125652345
+      },
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-similar-items-2",
+            "storyId": "aux-similar-items",
+            "role": "USER",
+            "text": "Das blaue Amulett gehört Falk.",
+            "createdAt": 1800000000002
+          },
+          "start": 0,
+          "end": 30,
+          "score": 0
+        },
+        "cosine": 0.4352252611488614
+      },
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-similar-items-0",
+            "storyId": "aux-similar-items",
+            "role": "CHARACTER",
+            "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+            "createdAt": 1800000000000
+          },
+          "start": 0,
+          "end": 48,
+          "score": 0
+        },
+        "cosine": 0.1699926330536634
+      }
+    ],
+    "variants": [
+      {
+        "threshold": 0.3,
+        "selected": [
+          {
+            "message": {
+              "id": "aux-similar-items-1",
+              "storyId": "aux-similar-items",
+              "role": "USER",
+              "text": "Das rote Amulett gehört Nella.",
+              "createdAt": 1800000000001
+            },
+            "start": 0,
+            "end": 30,
+            "score": 0
+          },
+          {
+            "message": {
+              "id": "aux-similar-items-2",
+              "storyId": "aux-similar-items",
+              "role": "USER",
+              "text": "Das blaue Amulett gehört Falk.",
+              "createdAt": 1800000000002
+            },
+            "start": 0,
+            "end": 30,
+            "score": 0
+          }
+        ],
+        "candidates": [
+          {
+            "message": {
+              "id": "aux-similar-items-1",
+              "storyId": "aux-similar-items",
+              "role": "USER",
+              "text": "Das rote Amulett gehört Nella.",
+              "createdAt": 1800000000001
+            },
+            "start": 0,
+            "end": 30,
+            "score": 0
+          },
+          {
+            "message": {
+              "id": "aux-similar-items-2",
+              "storyId": "aux-similar-items",
+              "role": "USER",
+              "text": "Das blaue Amulett gehört Falk.",
+              "createdAt": 1800000000002
+            },
+            "start": 0,
+            "end": 30,
+            "score": 0
+          }
+        ],
+        "relevantIdsSelected": [
+          "aux-similar-items-1"
+        ],
+        "allRequiredSelected": true,
+        "irrelevantSelected": 1
+      }
+    ],
+    "queryMs": 38.71640004217625,
+    "newVectorCount": 3,
+    "indexMs": 68.95539979450405,
+    "candidateCount": 3,
+    "storedVectorBytes": 9216,
+    "totalMs": 108.4277001209557
+  },
+  {
+    "case": "aux-secret",
+    "expectedIds": [],
+    "lexical": [],
+    "lexicalRequiredSelected": [],
+    "lexicalAllRequiredSelected": true,
+    "lexicalMs": 0.222,
+    "semantic": [
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-secret-2",
+            "storyId": "aux-secret",
+            "role": "USER",
+            "text": "Eine Wolke zieht vorbei.",
+            "createdAt": 1800000000002
+          },
+          "start": 0,
+          "end": 24,
+          "score": 0
+        },
+        "cosine": 0.17404000889527885
+      },
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-secret-0",
+            "storyId": "aux-secret",
+            "role": "CHARACTER",
+            "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+            "createdAt": 1800000000000
+          },
+          "start": 0,
+          "end": 48,
+          "score": 0
+        },
+        "cosine": 0.1301322580190618
+      }
+    ],
+    "variants": [
+      {
+        "threshold": 0.3,
+        "selected": [],
+        "candidates": [],
+        "relevantIdsSelected": [],
+        "allRequiredSelected": true,
+        "irrelevantSelected": 0
+      }
+    ],
+    "queryMs": 16.56770007684827,
+    "newVectorCount": 1,
+    "indexMs": 18.278300063684583,
+    "candidateCount": 2,
+    "storedVectorBytes": 6144,
+    "totalMs": 35.21909983828664
+  },
+  {
+    "case": "aux-excluded",
+    "expectedIds": [],
+    "lexical": [],
+    "lexicalRequiredSelected": [],
+    "lexicalAllRequiredSelected": true,
+    "lexicalMs": 0.226,
+    "semantic": [
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-excluded-2",
+            "storyId": "aux-excluded",
+            "role": "USER",
+            "text": "Ein Bach fließt am Weg.",
+            "createdAt": 1800000000002
+          },
+          "start": 0,
+          "end": 23,
+          "score": 0
+        },
+        "cosine": 0.20256940607690413
+      },
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-excluded-0",
+            "storyId": "aux-excluded",
+            "role": "CHARACTER",
+            "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+            "createdAt": 1800000000000
+          },
+          "start": 0,
+          "end": 48,
+          "score": 0
+        },
+        "cosine": 0.1560230111183316
+      }
+    ],
+    "variants": [
+      {
+        "threshold": 0.3,
+        "selected": [],
+        "candidates": [],
+        "relevantIdsSelected": [],
+        "allRequiredSelected": true,
+        "irrelevantSelected": 0
+      }
+    ],
+    "queryMs": 21.977400174364448,
+    "newVectorCount": 1,
+    "indexMs": 18.336700042709708,
+    "candidateCount": 2,
+    "storedVectorBytes": 6144,
+    "totalMs": 40.7084000762552
+  },
+  {
+    "case": "aux-other-story",
+    "expectedIds": [],
+    "lexical": [],
+    "lexicalRequiredSelected": [],
+    "lexicalAllRequiredSelected": true,
+    "lexicalMs": 0.2159,
+    "semantic": [
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-other-story-0",
+            "storyId": "aux-other-story",
+            "role": "CHARACTER",
+            "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+            "createdAt": 1800000000000
+          },
+          "start": 0,
+          "end": 48,
+          "score": 0
+        },
+        "cosine": 0.140716142025005
+      },
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-other-story-2",
+            "storyId": "aux-other-story",
+            "role": "USER",
+            "text": "Ein Vogel ruft.",
+            "createdAt": 1800000000002
+          },
+          "start": 0,
+          "end": 15,
+          "score": 0
+        },
+        "cosine": 0.09729940889168776
+      }
+    ],
+    "variants": [
+      {
+        "threshold": 0.3,
+        "selected": [],
+        "candidates": [],
+        "relevantIdsSelected": [],
+        "allRequiredSelected": true,
+        "irrelevantSelected": 0
+      }
+    ],
+    "queryMs": 16.90639997832477,
+    "newVectorCount": 1,
+    "indexMs": 17.46360003016889,
+    "candidateCount": 2,
+    "storedVectorBytes": 6144,
+    "totalMs": 34.74519983865321
+  },
+  {
+    "case": "aux-model-repetition",
+    "expectedIds": [],
+    "lexical": [],
+    "lexicalRequiredSelected": [],
+    "lexicalAllRequiredSelected": true,
+    "lexicalMs": 0.5568,
+    "semantic": [
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-model-repetition-0",
+            "storyId": "aux-model-repetition",
+            "role": "CHARACTER",
+            "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+            "createdAt": 1800000000000
+          },
+          "start": 0,
+          "end": 48,
+          "score": 0
+        },
+        "cosine": 0.1026701410885635
+      }
+    ],
+    "variants": [
+      {
+        "threshold": 0.3,
+        "selected": [],
+        "candidates": [],
+        "relevantIdsSelected": [],
+        "allRequiredSelected": true,
+        "irrelevantSelected": 0
+      }
+    ],
+    "queryMs": 18.80630012601614,
+    "newVectorCount": 0,
+    "indexMs": 0,
+    "candidateCount": 1,
+    "storedVectorBytes": 3072,
+    "totalMs": 19.020600011572242
+  },
+  {
+    "case": "aux-current-correction",
+    "expectedIds": [
+      "aux-current-correction-2"
+    ],
+    "lexical": [
+      {
+        "message": {
+          "id": "aux-current-correction-2",
+          "storyId": "aux-current-correction",
+          "role": "USER",
+          "text": "Die Karte liegt im Schrank.",
+          "createdAt": 1800000000002
+        },
+        "start": 0,
+        "end": 27,
+        "score": 21
+      }
+    ],
+    "lexicalRequiredSelected": [
+      "aux-current-correction-2"
+    ],
+    "lexicalAllRequiredSelected": true,
+    "lexicalMs": 1.2694,
+    "semantic": [
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-current-correction-2",
+            "storyId": "aux-current-correction",
+            "role": "USER",
+            "text": "Die Karte liegt im Schrank.",
+            "createdAt": 1800000000002
+          },
+          "start": 0,
+          "end": 27,
+          "score": 0
+        },
+        "cosine": 0.5626039239688627
+      },
+      {
+        "excerpt": {
+          "message": {
+            "id": "aux-current-correction-0",
+            "storyId": "aux-current-correction",
+            "role": "CHARACTER",
+            "text": "*Nella blickt Falk an.* „Wir können hier reden.“",
+            "createdAt": 1800000000000
+          },
+          "start": 0,
+          "end": 48,
+          "score": 0
+        },
+        "cosine": 0.138742654073869
+      }
+    ],
+    "variants": [
+      {
+        "threshold": 0.3,
+        "selected": [
+          {
+            "message": {
+              "id": "aux-current-correction-2",
+              "storyId": "aux-current-correction",
+              "role": "USER",
+              "text": "Die Karte liegt im Schrank.",
+              "createdAt": 1800000000002
+            },
+            "start": 0,
+            "end": 27,
+            "score": 0
+          }
+        ],
+        "candidates": [
+          {
+            "message": {
+              "id": "aux-current-correction-2",
+              "storyId": "aux-current-correction",
+              "role": "USER",
+              "text": "Die Karte liegt im Schrank.",
+              "createdAt": 1800000000002
+            },
+            "start": 0,
+            "end": 27,
+            "score": 0
+          }
+        ],
+        "relevantIdsSelected": [
+          "aux-current-correction-2"
+        ],
+        "allRequiredSelected": true,
+        "irrelevantSelected": 0
+      }
+    ],
+    "queryMs": 19.38809989951551,
+    "newVectorCount": 1,
+    "indexMs": 18.274700036272407,
+    "candidateCount": 2,
+    "storedVectorBytes": 6144,
+    "totalMs": 39.426900213584304
+  }
+]
