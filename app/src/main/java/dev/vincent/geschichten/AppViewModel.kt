@@ -15,6 +15,9 @@ import kotlinx.coroutines.isActive
 import dev.vincent.geschichten.ai.StoryGeneration
 import dev.vincent.geschichten.ai.StoryReplyValidation
 import dev.vincent.geschichten.ai.TeamEnginePort
+import dev.vincent.geschichten.ai.OllamaSettings
+import dev.vincent.geschichten.ai.OllamaProtocol
+import dev.vincent.geschichten.ai.OllamaStoryEngine
 import dev.vincent.geschichten.data.CharacterProfile
 import dev.vincent.geschichten.data.ChatRole
 import dev.vincent.geschichten.data.MemoryEntry
@@ -46,21 +49,27 @@ import kotlinx.coroutines.withContext
 data class StoryExport(val fileName: String, val text: String)
 
 /** Coordinates real on-device inference with local persistence and the native UI. */
-class AppViewModel @JvmOverloads constructor(application: Application, suppliedInference: StoryGeneration? = null, suppliedTeamPort: TeamPort? = null) : AndroidViewModel(application), AppActions {
+class AppViewModel @JvmOverloads constructor(application: Application, private val suppliedInference: StoryGeneration? = null, suppliedTeamPort: TeamPort? = null) : AndroidViewModel(application), AppActions {
     private val repository = StoryRepository(application)
     private val engine = LocalModelEngine(application)
-    private val inference = suppliedInference ?: engine
+    private val preferences = application.getSharedPreferences("preferences", 0)
+    private var serverSettings = OllamaSettings(
+        enabled = suppliedInference == null && preferences.getBoolean("ollama_enabled", false),
+        address = preferences.getString("ollama_address", null) ?: OllamaSettings().address,
+        model = preferences.getString("ollama_model", null) ?: OllamaSettings().model,
+    )
+    private val serverEngine = OllamaStoryEngine(application, serverSettings)
+    private val inference: StoryGeneration get() = suppliedInference ?: if (serverSettings.enabled) serverEngine else engine
     private val helperEngine = LocalModelEngine(application,"helper_model_selection","huihui-qwen3-4b")
     private val nativeTeamPort = TeamEnginePort(engine,helperEngine)
     private val teamPort:TeamPort = suppliedTeamPort ?: nativeTeamPort
     private val updater = AppUpdater(application, BuildConfig.UPDATE_REPOSITORY, BuildConfig.UPDATE_INCLUDE_PRERELEASE)
-    private val preferences = application.getSharedPreferences("preferences", 0)
     private val semanticSearch = SemanticSearch(application)
     private var indexWork: Job? = null
     private var searchDownloadWork: Job? = null
     private val _state = MutableStateFlow(
         AppUiState(model = inference.state.value, adultThemes = preferences.getBoolean("adult_themes", false), updates = updater.state.value,
-            factsAnswers = preferences.getBoolean("facts_answers", false),teamEnabled=preferences.getBoolean("team_enabled",false),helperModel=helperEngine.state.value),
+            factsAnswers = preferences.getBoolean("facts_answers", false),teamEnabled=preferences.getBoolean("team_enabled",false),helperModel=helperEngine.state.value,server=serverSettings),
     )
     val state = _state.asStateFlow()
     private val exportRequests = Channel<StoryExport>(Channel.BUFFERED)
@@ -79,13 +88,14 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
     init {
         viewModelScope.launch {helperEngine.state.collect {s ->_state.update {it.copy(helperModel=s)}}}
         viewModelScope.launch {semanticSearch.state.collect {s -> _state.update {it.copy(semanticSearch=s)}}}
-        viewModelScope.launch { inference.state.collect { model ->
+        listOfNotNull(engine, serverEngine, suppliedInference).distinct().forEach { provider -> viewModelScope.launch { provider.state.collect { model ->
+            if (inference !== provider) return@collect
             _state.update { it.copy(model = model) }
             val previous = preferences.getString("pending_model_cleanup", null)
-            if (model.stage == ModelStage.READY && previous != model.modelId && previous in model.downloadedModelIds) {
+            if (!model.server && model.stage == ModelStage.READY && previous != model.modelId && previous in model.downloadedModelIds) {
                 _state.update { it.copy(modelCleanupId = previous) }
             }
-        } }
+        } } }
         viewModelScope.launch { updater.state.collect { updates -> _state.update { it.copy(updates = updates) } } }
         // Recover staged APK metadata locally; never check GitHub automatically.
         viewModelScope.launch { updater.restoreDownloadedUpdate() }
@@ -96,7 +106,8 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
                 showNotice(error.message ?: "Die gespeicherten Geschichten konnten nicht geöffnet werden.")
             }
         }
-        if (engine.state.value.stage == ModelStage.DOWNLOADED) loadModel()
+        if (serverSettings.enabled) modelAction { serverEngine.connect(serverSettings) }
+        else if (engine.state.value.stage == ModelStage.DOWNLOADED) loadModel()
     }
 
     override fun navigate(screen: AppScreen) {
@@ -248,7 +259,7 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
         }
         if (snapshot.model.stage != ModelStage.READY) {
             navigate(AppScreen.SETUP)
-            showNotice("Starte zuerst die Offline-KI. Deine Nachricht bleibt im Eingabefeld.")
+            showNotice("Richte zuerst deine KI ein. Deine Nachricht bleibt im Eingabefeld.")
             return
         }
         val requestRevision = generationRevision.incrementAndGet()
@@ -279,14 +290,14 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
                 // Stop background index decoding before retrieval/text generation.
                 indexWork?.cancel();semanticSearch.cancel();indexWork?.join()
                 val factAnswer=if(snapshot.factsAnswers) FactAnswers.resolve(provisional) else null
-                teamUsed=snapshot.teamEnabled && factAnswer==null
+                teamUsed=snapshot.teamEnabled && !snapshot.model.server && factAnswer==null
                 if(teamUsed && inference===engine)engine.unload()
                 val recalled=if(factAnswer==null) semanticSearch.search(provisional) else null
                 val outcome=if(teamUsed)TeamRunner.run(provisional,"$requestRevision-${pending.id}",snapshot.adultThemes,recalled ?: ArchiveRecall.search(provisional,pending.text),teamPort,status={s ->
                     _state.update {if(generationRevision.get()==requestRevision && it.current?.story?.id==bundle.story.id)it.copy(teamStatus=s) else it}
                 }) else null
-                val plan=if(factAnswer!=null || outcome!=null) null else if(recalled==null) MemoryPrompt.plan(provisional,snapshot.adultThemes,count=inference::countPrompt)
-                    else MemoryPrompt.planWithRecall(provisional,snapshot.adultThemes,recalled,count=inference::countPrompt)
+                val plan=if(factAnswer!=null || outcome!=null) null else if(recalled==null) MemoryPrompt.plan(provisional,snapshot.adultThemes,context=inference.contextTokens,reserve=inference.outputReserve,count=inference::countPrompt)
+                    else MemoryPrompt.planWithRecall(provisional,snapshot.adultThemes,recalled,context=inference.contextTokens,reserve=inference.outputReserve,count=inference::countPrompt)
                 val reply = factAnswer?.text ?: outcome?.reply ?: inference.generate(
                     systemPrompt = checkNotNull(plan).system,
                     history = plan.history,
@@ -422,6 +433,7 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
     }
 
     override fun downloadModel() = modelAction {
+        if (serverSettings.enabled) { serverEngine.connect(serverSettings); return@modelAction }
         engine.downloadModel()
         engine.loadModel()
     }
@@ -431,9 +443,10 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
         modelWork?.cancel()
     }
 
-    override fun loadModel() = modelAction { engine.loadModel() }
+    override fun loadModel() = modelAction { if (serverSettings.enabled) serverEngine.connect(serverSettings) else engine.loadModel() }
 
     override fun optimizeModel() {
+        if (serverSettings.enabled) return
         if (_state.value.historyBusy || navigationWork?.isActive == true) return
         modelAction { engine.optimizeForDevice() }
     }
@@ -445,12 +458,16 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
     }
 
     override fun selectModel(id: String) {
-        if (id == engine.state.value.modelId) return
+        if (id == engine.state.value.modelId && !serverSettings.enabled) return
         if (_state.value.busy) {
             showNotice("Halte die laufende Antwort an, bevor du die KI wechselst.")
             return
         }
         modelAction {
+            if (serverSettings.enabled) {
+                saveServerSelection(serverSettings.copy(enabled = false))
+                serverEngine.disconnect()
+            }
             val previous = engine.state.value.modelId.takeIf { it in engine.state.value.downloadedModelIds }
             engine.selectModel(id)
             if (previous != null) preferences.edit().putString("pending_model_cleanup", previous).apply()
@@ -499,6 +516,31 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
                 _state.update { it.copy(modelBusy = false) }
             }
         }
+    }
+
+    private fun saveServerSelection(settings: OllamaSettings) {
+        check(preferences.edit().putBoolean("ollama_enabled", settings.enabled).putString("ollama_address", settings.address)
+            .putString("ollama_model", settings.model).commit()) { "Die Server-Einstellungen konnten nicht gespeichert werden." }
+        serverSettings = settings
+        _state.update { it.copy(server = settings, model = inference.state.value, modelCleanupId = null) }
+    }
+
+    override fun setServerEnabled(enabled: Boolean) = modelAction {
+        saveServerSelection(serverSettings.copy(enabled = enabled))
+        if (enabled) {
+            engine.unload()
+            serverEngine.connect(serverSettings)
+        } else {
+            serverEngine.disconnect()
+            if (engine.state.value.stage == ModelStage.DOWNLOADED) engine.loadModel()
+        }
+    }
+
+    override fun connectServer(address: String, model: String) = modelAction {
+        val settings = OllamaSettings(true, OllamaProtocol.address(address), OllamaProtocol.model(model))
+        engine.unload()
+        saveServerSelection(settings)
+        serverEngine.connect(settings)
     }
 
     override fun setAdultThemes(enabled: Boolean) {
@@ -616,6 +658,7 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
     }
 
     override fun setTeamEnabled(enabled: Boolean) {
+        if (serverSettings.enabled) return
         if(_state.value.busy || _state.value.modelBusy)return
         if(preferences.edit().putBoolean("team_enabled",enabled).commit())_state.update {it.copy(teamEnabled=enabled)}
     }
@@ -624,6 +667,7 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
         modelAction {helperEngine.selectModel(id)}
     }
     override fun downloadHelperModel() = modelAction {
+        if (serverSettings.enabled) return@modelAction
         indexWork?.cancel();semanticSearch.cancel();indexWork?.join()
         engine.unload()
         try {helperEngine.downloadModel()}finally{if(currentCoroutineContext().isActive)runCatching {engine.loadModel()}}
@@ -676,6 +720,7 @@ class AppViewModel @JvmOverloads constructor(application: Application, suppliedI
     override fun onCleared() {
         semanticSearch.cancel()
         engine.close()
+        serverEngine.close()
         helperEngine.close()
         if (inference !== engine) inference.close()
         updater.close()

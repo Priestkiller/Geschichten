@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-10",
+  "status": "software_complete_phone_test_pending",
+  "application": {
+    "version": "0.8.8",
+    "versionCode": 22,
+    "package": "dev.vincent.geschichten",
+    "mainSchema": 10,
+    "searchSchema": 1,
+    "source": "C:/Users/RDPZugang/Geschichten-Ollama",
+    "gitBase": "f0ccd902ac5c7933959da1af0b3c009bba4de809",
+    "branch": "codex/ollama-app-anbindung",
+    "publishedToGitHub": false,
+    "apk": "C:/Users/RDPZugang/Desktop/Geschichten-Ollama-0.8.8/Geschichten-0.8.8.apk"
+  },
+  "server": {
+    "url": "http://192.168.178.73:11434",
+    "model": "geschichten-gemma4-12b-test",
+    "contextTokens": 8192,
+    "outputReserve": 1024,
+    "think": false,
+    "temperature": 1,
+    "top_k": 64,
+    "top_p": 0.95,
+    "seed": 42,
+    "draft_num_predict": 3,
+    "cloudDisabled": true,
+    "userEnvironmentPersisted": {
+      "OLLAMA_HOST": "0.0.0.0:11434",
+      "OLLAMA_NO_CLOUD": "1"
+    }
+  },
+  "behavior": {
+    "existingFigureAndMemoryPlanner": true,
+    "existingReplyCommitGuards": true,
+    "onlyMessageContentDisplayedAndStored": true,
+    "completeStopAndActualPromptCountRequired": true,
+    "draftRecoveredAfterCancellationOrIncompleteStream": true,
+    "localPhoneModelsRetained": true
+  },
+  "verification": {
+    "portable": {
+      "tests": 288,
+      "passed": 283,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 5
+    },
+    "historicalDiagnosticsExcludedOnlyWhenPortableFlagSet": [
+      "ActiveMemoryModelFixturesTest (obsolete repeating synthetic output rejected by unchanged guard)",
+      "AnswerPipelineTest (private legacy comparison JSON absent)",
+      "OwnershipAdverbPersistenceTest (private prior SQLite snapshot absent)",
+      "RoleContaminationInvestigationTest (private old native model answers absent)"
+    ],
+    "actualAppPath": {
+      "runtime": "Robolectric real AppViewModel and SQLite, production OllamaProtocol/OllamaTransport, Windows native tokenizer with identical vocab and Unicode implementation to Android vendor source",
+      "question": "Wie heiße ich?",
+      "storedPlayer": "Alva",
+      "inputTokens": 1527,
+      "seconds": 59.0163475,
+      "persistedMessages": 5,
+      "passed": true
+    },
+    "originalSignatureMatches": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+    "phoneReachabilityConfirmed": false,
+    "physicalAndroidInstallTested": false,
+    "regular": {
+      "tests": 159,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "lint": {
+      "errors": 0,
+      "warnings": 134
+    },
+    "apk": {
+      "bytes": 327004709,
+      "sha256": "5247b953a2520051a61d60b1b467ac175ee43287ed94d34295fcee577b61d2d3",
+      "version": "0.8.8",
+      "versionCode": 22,
+      "arm64": true,
+      "signatureV2Valid": true,
+      "signerSHA256": "3db10e5029fc46a9bbe9bbe6a93ede3acc3b60984f97c73ff0eeb4c50f12cb40",
+      "zipAlignment16KiBValid": true,
+      "privateKeyIncluded": false,
+      "diagnosticClassesIncluded": false
+    }
+  },
+  "qualityLimit": {
+    "giftQuestionUnderFullArchivistHeddaPersona": "Not reliably answered. Model denied explicit user gift or treated it as unknown. The current rule parser had not promoted gift into a structured memory row. No general factual reliability promised.",
+    "thoughtMode": "Short four-question diagnostic was correct, but complete App context hit output caps at1024/2048 or produced wrong gift denial. Ordinary model mode used for app.",
+    "additionalSourceRule": "Tried, did not solve full gift case; removed. Existing planner preserved.",
+    "frozenEarlierComparisonsPreserved": true
+  },
+  "files": {
+    "portableProof": "C:/Users/RDPZugang/Android-Geschichten/portable-proof",
+    "giftProbes": [
+      "C:/Users/RDPZugang/Android-Geschichten/full-app-limit-1024",
+      "C:/Users/RDPZugang/Android-Geschichten/full-app-before-source-rule",
+      "C:/Users/RDPZugang/Android-Geschichten/fast-app-trial"
+    ],
+    "outputFolder": "C:/Users/RDPZugang/Desktop/Geschichten-Ollama-0.8.8"
+  }
+}

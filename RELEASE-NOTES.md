@@ -1,3 +1,25 @@
+# Geschichten 0.8.8 – Ollama auf deinem PC
+
+**Testversion 0.8.8, Versionscode 22.** Die App kann jetzt Antworten über Ollama auf deinem PC erzeugen.
+
+- Unter **Einstellungen → KI auf deinem PC** Serveradresse und Modell prüfen und verwenden. Die geprüfte Gemma-4-12B-Q4_K_M-Datei wird unterstützt, auch unter einem eigenen Alias; voreingestellt ist `geschichten-gemma4-12b-test`.
+- Figurenprofil, ausgewählter Verlauf und vorhandenes Geschichten-Gedächtnis werden durch die bestehende Kontextplanung an den PC übergeben. Geschichten und Gedächtnis bleiben auf dem Handy gespeichert.
+- Serverauswahl bleibt gespeichert. Die bisherigen Handymodelle bleiben verfügbar; **PC-KI verwenden** ausschalten, um wieder lokal zu antworten.
+- Sichtbarer Text wird gestreamt. Abbruch, Verbindungsfehler und unvollständige Antworten stellen deine Nachricht als Entwurf wieder her. Denktext wird nicht angezeigt oder gespeichert.
+- Die App nutzt den Tokenizer der geprüften Gewichte und kontrolliert die vollständige Eingabelänge. Gemma läuft im normalen Antwortmodus mit 8192 Kontexttokens und höchstens 1024 Antworttokens.
+
+**Einrichten:** Handy und PC müssen einander im Heimnetz erreichen. Ollama muss für Heimnetzverbindungen laufen. Auf diesem PC ist die Adresse `http://192.168.178.73:11434` eingerichtet; bei einem anderen PC dessen tatsächliche Adresse verwenden. Im Handy-Browser lässt sich die Verbindung über `/api/version` prüfen.
+
+**Aktualisieren:** Einstellungen → App-Updates → **Testversionen einbeziehen** → **Nach Updates suchen**. Alternativ die APK aus diesem Release öffnen. Die vorhandene App nicht deinstallieren. Paket-ID und bisherige Signatur sind kompatibel, Hauptschema 10 und Suchindexschema 1 bleiben gleich. Android bestätigt die Installation.
+
+**Prüfung:** 159 reguläre Tests bestanden. Portabler UI-/SQLite-Lauf: 283 bestanden, 5 optionale Modellproben übersprungen, 0 Fehler; reguläre Tests sind darin enthalten. Der tatsächliche Ollama-HTTP-Pfad wurde mit App-Kontextplanung und SQLite geprüft. Build, Signatur und 16-KiB-Ausrichtung bestanden, Lint: 0 Fehler und 134 Warnungen. Ein physisches Android-Gerät war nicht angeschlossen; Installation und die Verbindung vom Handy bleiben zu prüfen.
+
+**Antwortqualität bleibt begrenzt:** Gemma beantwortete einige Kontrollfragen besser, kann im vollständigen Figurenkontext weiterhin belegte Angaben verwechseln oder verneinen. Die Denkphase war bei längeren App-Szenen zu langsam oder erreichte das Antwortlimit. Es wurde kein eigenes Modell trainiert und keine allgemein zuverlässige Erzählqualität nachgewiesen.
+
+APK: `Geschichten-0.8.8.apk`, 327004709 Bytes. SHA-256: `5247b953a2520051a61d60b1b467ac175ee43287ed94d34295fcee577b61d2d3`.
+
+---
+
 # Geschichten 0.8.7 – Dauerhaftes Gedächtnis und Faktenkorrekturen
 
 **Testversion 0.8.7, Versionscode 21.** Dieses Update bündelt die bisher lokalen Änderungen seit dem öffentlichen Stand 0.7.3.

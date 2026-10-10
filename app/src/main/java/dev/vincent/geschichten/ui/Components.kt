@@ -95,17 +95,17 @@ internal fun ModelState.isReady(): Boolean = stage == ModelStage.READY || stage 
 internal fun OfflineBadge(model: ModelState, onClick: () -> Unit) {
     val ready = model.isReady()
     val label = when (model.stage) {
-        ModelStage.READY, ModelStage.GENERATING -> "Offline"
+        ModelStage.READY, ModelStage.GENERATING -> if (model.server) "PC-KI" else "Offline"
         ModelStage.DOWNLOADING -> "Download läuft"
         ModelStage.VERIFYING -> "Wird geprüft"
-        ModelStage.LOADING -> "KI startet"
+        ModelStage.LOADING -> if (model.server) "Verbinde PC" else "KI startet"
         ModelStage.DOWNLOADED -> "KI starten"
         else -> "KI einrichten"
     }
     Row(
         modifier = Modifier
             .clip(RoundedCornerShape(50))
-            .clickable(onClickLabel = if (ready) "Lokale KI ansehen" else "KI-Einrichtung öffnen", onClick = onClick)
+            .clickable(onClickLabel = if (ready) "KI-Einstellungen öffnen" else "KI-Einrichtung öffnen", onClick = onClick)
             .heightIn(min = 48.dp)
             .padding(horizontal = 7.dp)
             .testTag("model_status"),

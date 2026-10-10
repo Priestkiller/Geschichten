@@ -5,6 +5,7 @@ plugins {
 }
 
 val visualTestsEnabled = providers.gradleProperty("visualTests").orNull == "true"
+val portableVisualTestsEnabled = providers.gradleProperty("portableVisualTests").orNull == "true"
 val updateRepository = providers.gradleProperty("updateRepository").orElse("").get().trim()
 require(updateRepository.isEmpty() || Regex("[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9_.-]+").matches(updateRepository)) {
     "updateRepository must be a GitHub owner/repository pair."
@@ -20,8 +21,8 @@ android {
         applicationId = "dev.vincent.geschichten"
         minSdk = 31
         targetSdk = 35
-        versionCode = 21
-        versionName = "0.8.7"
+        versionCode = 22
+        versionName = "0.8.8"
         buildConfigField("String", "UPDATE_REPOSITORY", "\"$updateRepository\"")
         buildConfigField("boolean", "UPDATE_INCLUDE_PRERELEASE", updateIncludePrerelease.toString())
         ndk { abiFilters += "arm64-v8a" }
@@ -71,6 +72,11 @@ android {
         testOptions {
             unitTests.isIncludeAndroidResources = true
             unitTests.all { testTask ->
+                if (portableVisualTestsEnabled) {
+                    // Historical exporters depend on private probe files or an obsolete filler fixture.
+                    testTask.exclude("**/ActiveMemoryModelFixturesTest*", "**/AnswerPipelineTest*",
+                        "**/OwnershipAdverbPersistenceTest*", "**/RoleContaminationInvestigationTest*")
+                }
                 testTask.maxHeapSize = "2g"
                 testTask.systemProperty("roborazzi.test.record", "true")
                 testTask.systemProperty("robolectric.pixelCopyRenderMode", "hardware")

@@ -142,6 +142,7 @@ class UiScreenshotTest {
             ),
         )
         compose.onNodeWithTag("setup_screen").assertIsDisplayed()
+        compose.onNodeWithTag("setup_screen").performScrollToNode(hasTestTag("download_model"))
         compose.onNodeWithTag("download_model").assertIsDisplayed()
         capture("04-einrichtung.png")
     }

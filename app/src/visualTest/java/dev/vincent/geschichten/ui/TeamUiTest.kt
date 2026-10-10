@@ -20,6 +20,7 @@ class TeamUiTest {
         var enabled:Boolean?=null;var chosen:String?=null
         val actions=object:AppActions by ScreenshotNoOpActions {override fun setTeamEnabled(value:Boolean){enabled=value};override fun selectHelperModel(id:String){chosen=id}}
         compose.setContent {StoryApp(AppUiState(screen=AppScreen.SETUP,model=ModelState(modelId="gemma-4-e2b"),helperModel=ModelState(modelId="gemma-4-e2b")),actions)}
+        compose.onNodeWithTag("setup_screen").performScrollToNode(hasTestTag("team_switch"))
         compose.onNodeWithTag("team_switch").assertIsOff().performClick();assertEquals(true,enabled)
         compose.onNodeWithTag("setup_screen").performScrollToNode(hasTestTag("helper_self_check"));compose.onNodeWithTag("helper_self_check").assertExists()
         compose.onNodeWithTag("helper_picker").performClick();compose.onNodeWithTag("helper_huihui-qwen3-4b").performClick();assertEquals("huihui-qwen3-4b",chosen)

@@ -7,7 +7,7 @@ import org.junit.Test
 import java.io.File
 
 object AnswerCases {
-    val root=File("../docs/validation/team-0.8.6/legacy-output")
+    val root=File("build/test-output/fact-answers").apply { mkdirs() }
     val gson=GsonBuilder().setPrettyPrinting().create()
     fun rows()=JsonParser.parseString(File("../docs/validation/answers-0.8.5/new-cases-frozen.json").readText()).asJsonArray.map {it.asJsonObject}
     fun empty(row:JsonObject):StoryBundle {

@@ -15,6 +15,7 @@ data class ModelState(
     val optimizing: Boolean = false,
     val performanceDetail: String? = null,
     val firstTextMs: Long? = null,
+    val server: Boolean = false,
 )
 
 data class ModelMessage(val user: Boolean, val text: String)

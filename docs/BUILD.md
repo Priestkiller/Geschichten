@@ -2,7 +2,7 @@
 
 ## Projekt
 
-- App: Geschichten, Teststand 0.8.7 (Versionscode 21, Hauptschema 10, Suchindexschema 1)
+- App: Geschichten, Teststand 0.8.8 (Versionscode 22, Hauptschema 10, Suchindexschema 1)
 - Paket: `dev.vincent.geschichten`
 - Native Android-App mit Kotlin und Jetpack Compose
 - Mindestversion: Android 12 / API 31
@@ -99,3 +99,21 @@ Das Profil ist absichtlich optional. Vor der Weitergabe einer APK wieder einen n
 ## Öffentlicher Quellcode ab 0.8.7
 
 Der private bestehende Signierschlüssel und die lokale Datei Build-Umgebung.ps1 sind nicht im Repository. JDK/SDK selbst einrichten; für eigene Signaturen siehe [signing/README.md](../signing/README.md). Mit installiertem SDK/JDK: `gradlew.bat :app:assembleDebug :app:testDebugUnitTest :app:lintDebug --no-daemon` (Windows), entsprechend `./gradlew` auf Linux. Der Updatequellenwert steht in gradle.properties.
+
+## Ollama-Version 0.8.8
+
+Die neuen reinen JVM-Prüfungen für HTTP, Abbruch, Rollen und Antwortende gehören zum regulären Testlauf. Für UI und SQLite aus dem öffentlichen Klon ist das portable Profil verfügbar:
+
+```sh
+./gradlew :app:clean :app:testDebugUnitTest -PvisualTests=true -PportableVisualTests=true
+```
+
+Dieses ausdrücklich gewählte Profil lässt vier historische Diagnoseklassen aus: `AnswerPipelineTest`, `OwnershipAdverbPersistenceTest` und `RoleContaminationInvestigationTest` benötigen nicht veröffentlichte frühere Messdateien beziehungsweise eine damalige SQLite-Datei; `ActiveMemoryModelFixturesTest` erzeugt einen alten Wiederholungstext, den der aktuelle Antwortfilter zurückweist. Ohne `portableVisualTests` bleibt das vollständige bisherige Profil erhalten. Fünf weitere optionale Modellproben melden bei fehlenden privaten Eingaben einen Skip.
+
+`OllamaAppFlowIntegrationTest` kann zusätzlich den wirklichen lokalen Ollama-Server aufrufen: Test-JVM-Systemproperty `ollamaLive=true` und `ollamaTokenizerExecutable` auf das Windows-Werkzeug `llama-tokenize.exe` setzen. Dies ist ein expliziter Live-Test mit synthetischen Geschichten, keine Verbindung zum Speicher eines echten Handys. Die normale Ausführung überspringt diesen Live-Fall. Die Windows-Prüfung verwendet den Produktions-HTTP-Pfad, echte App-Kontextplanung und SQLite; die Android-JNI-Vokabulardatei wird mit dem gleichen nativen Tokenizercode geprüft.
+
+Vor einer weiterzugebenden APK wieder normal ohne visuelles Testmanifest bauen:
+
+```sh
+./gradlew :app:clean :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+```

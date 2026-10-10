@@ -50,6 +50,8 @@ internal fun SetupScreen(state: AppUiState, actions: AppActions, onBack: () -> U
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         item { PageHeader("Einstellungen", onBack = onBack) }
+        item { ServerConnectionCard(state, actions) }
+        if (!state.server.enabled) {
         item {
             val helper=state.helperModel
             val helperSpec=LocalModelCatalog.restored(helper.modelId)
@@ -85,6 +87,7 @@ internal fun SetupScreen(state: AppUiState, actions: AppActions, onBack: () -> U
                     Text("Bei einem technischen Helferfehler wird ein Rückfall ausdrücklich gemeldet. Bereits bestätigte Widersprüche werden dabei nicht freigegeben.",color=Muted,style=MaterialTheme.typography.bodySmall)
                 }
             }
+        }
         }
         item {
             Surface(Modifier.fillMaxWidth().padding(horizontal=20.dp).testTag("facts_answer_options"),color=Panel,shape=CardShape,border=BorderStroke(1.dp,Line)) {
@@ -126,6 +129,7 @@ internal fun SetupScreen(state: AppUiState, actions: AppActions, onBack: () -> U
                 }
             }
         }
+        if (!state.server.enabled) {
         item {
             Column(Modifier.fillMaxWidth().padding(horizontal = 28.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Box(
@@ -235,10 +239,11 @@ internal fun SetupScreen(state: AppUiState, actions: AppActions, onBack: () -> U
                 enabled = !state.modelBusy && !state.busy && model.stage !in setOf(ModelStage.DOWNLOADING, ModelStage.VERIFYING, ModelStage.LOADING, ModelStage.GENERATING),
                 onSelect = { actions.selectModel(spec.id) }, onDelete = { actions.requestModelDeletion(spec.id) })
         }
+        }
         item {
             Column(Modifier.padding(horizontal = 25.dp), verticalArrangement = Arrangement.spacedBy(15.dp)) {
                 SetupDetail(Icons.Outlined.Smartphone, "Auf deinem Handy", "Deine Geschichten und Erinnerungen werden auf diesem Gerät gespeichert.")
-                SetupDetail(Icons.Outlined.WifiOff, "Nach dem Download offline", "Für neue Antworten brauchst du weder einen PC noch eine zweite App.")
+                if (!state.server.enabled) SetupDetail(Icons.Outlined.WifiOff, "Nach dem Download offline", "Für neue Antworten brauchst du weder einen PC noch eine zweite App.")
             }
         }
         item { AppUpdatesCard(state.updates, actions) }

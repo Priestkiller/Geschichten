@@ -5,6 +5,9 @@ import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.performScrollToNode
+import androidx.compose.ui.test.performScrollToIndex
 import com.github.takahirom.roborazzi.captureRoboImage
 import androidx.compose.ui.test.onRoot
 import java.io.File
@@ -36,8 +39,10 @@ class MainActivityLaunchTest {
 
         compose.onNodeWithTag("model_status").performClick()
         compose.onNodeWithTag("setup_screen").assertIsDisplayed()
+        compose.onNodeWithTag("setup_screen").performScrollToNode(hasTestTag("download_model"))
         compose.onNodeWithTag("download_model").assertIsDisplayed()
         // No click on download_model: network and native inference are outside this test.
+        compose.onNodeWithTag("setup_screen").performScrollToIndex(0)
         compose.onNodeWithTag("back_button").performClick()
         compose.onNodeWithTag("characters_screen").assertIsDisplayed()
 

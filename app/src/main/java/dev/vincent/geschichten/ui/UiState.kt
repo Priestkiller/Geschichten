@@ -28,9 +28,12 @@ data class AppUiState(
     val teamEnabled: Boolean = false,
     val helperModel: ModelState = ModelState(),
     val teamStatus: String = "",
+    val server: dev.vincent.geschichten.ai.OllamaSettings = dev.vincent.geschichten.ai.OllamaSettings(),
 )
 
 interface AppActions {
+    fun setServerEnabled(enabled: Boolean) {}
+    fun connectServer(address: String, model: String) {}
     fun setTeamEnabled(enabled: Boolean) {}
     fun selectHelperModel(id: String) {}
     fun downloadHelperModel() {}
