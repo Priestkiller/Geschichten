@@ -10,8 +10,11 @@
     "source": "C:/Users/RDPZugang/Geschichten-Ollama",
     "gitBase": "f0ccd902ac5c7933959da1af0b3c009bba4de809",
     "branch": "codex/ollama-app-anbindung",
-    "publishedToGitHub": false,
-    "apk": "C:/Users/RDPZugang/Desktop/Geschichten-Ollama-0.8.8/Geschichten-0.8.8.apk"
+    "publishedToGitHub": true,
+    "apk": "C:/Users/RDPZugang/Desktop/Geschichten-Ollama-0.8.8/Geschichten-0.8.8.apk",
+    "releaseTag": "v0.8.8",
+    "releaseUrl": "https://github.com/Priestkiller/Geschichten/releases/tag/v0.8.8",
+    "releaseSourceCommit": "4542fc50ae0f2c912cd6738be3a6fb8d404d852c"
   },
   "server": {
     "url": "http://192.168.178.73:11434",
@@ -101,5 +104,16 @@
       "C:/Users/RDPZugang/Android-Geschichten/fast-app-trial"
     ],
     "outputFolder": "C:/Users/RDPZugang/Desktop/Geschichten-Ollama-0.8.8"
+  },
+  "publication": {
+    "publishedAt": "2026-10-10T08:34:42Z",
+    "channel": "test",
+    "releaseId": 408810157,
+    "apkAssetDigestMatches": true,
+    "publicApkDownloadHTTP": 200,
+    "manifestDownloadedAndExact": true,
+    "productionUpdateManifestSelectsVersion22Over21": true,
+    "testVersionsMustBeIncluded": true,
+    "physicalPhoneUpdateStillUnverified": true
   }
 }
